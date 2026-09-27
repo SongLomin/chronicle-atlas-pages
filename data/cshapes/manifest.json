@@ -1,0 +1,50 @@
+{
+  "dataset": "CShapes 2.0",
+  "shardYears": 25,
+  "minYear": 1886,
+  "maxYear": 2019,
+  "shards": [
+    {
+      "startYear": 1875,
+      "endYear": 1899,
+      "url": "/data/cshapes/1875.geojson",
+      "featureCount": 210,
+      "byteLength": 3810931
+    },
+    {
+      "startYear": 1900,
+      "endYear": 1924,
+      "url": "/data/cshapes/1900.geojson",
+      "featureCount": 351,
+      "byteLength": 7184749
+    },
+    {
+      "startYear": 1925,
+      "endYear": 1949,
+      "url": "/data/cshapes/1925.geojson",
+      "featureCount": 256,
+      "byteLength": 5329062
+    },
+    {
+      "startYear": 1950,
+      "endYear": 1974,
+      "url": "/data/cshapes/1950.geojson",
+      "featureCount": 264,
+      "byteLength": 4154961
+    },
+    {
+      "startYear": 1975,
+      "endYear": 1999,
+      "url": "/data/cshapes/1975.geojson",
+      "featureCount": 212,
+      "byteLength": 3811558
+    },
+    {
+      "startYear": 2000,
+      "endYear": 2019,
+      "url": "/data/cshapes/2000.geojson",
+      "featureCount": 190,
+      "byteLength": 3575579
+    }
+  ]
+}
