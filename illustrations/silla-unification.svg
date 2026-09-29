@@ -31,7 +31,19 @@
        <use href="#hl-silla-unification-4" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-silla-unification-4" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-silla-unification" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
-  <text x="321.8" y="129.4" class="lbl hl">신라</text><text x="245.6" y="169.9" class="lbl">고구려</text>
+  <g>
+    <path d="M308.6 94.6 L318.6 87.2 L325.5 87.2 L328.9 80.0 L315.2 80.0 L287.1 92.0 L283.1 106.5 L293.1 108.7 L288.0 120.9 L290.3 120.9 L288.3 125.7 L291.7 127.9 L288.5 135.3 L290.8 135.3 L283.4 147.0 L288.0 147.0 L290.6 151.7 L282.3 165.5 L273.4 165.5 L271.7 174.9 L280.5 174.9 M280.5 191.1 L286.3 193.6 L284.5 198.3 L312.0 195.8 L311.2 198.3 L320.3 203.0 L317.7 209.7 L321.2 211.9 L319.8 221.1 L323.2 223.6 L308.0 250.8 L310.0 250.8 L304.9 264.1 L308.3 266.6 L304.9 275.6 L307.7 279.8 L313.7 275.6" fill="none" stroke="#c0301c" stroke-width="9" stroke-opacity="0.35" stroke-linejoin="round" filter="url(#glow-silla-unification)"/>
+    <path d="M308.6 94.6 L318.6 87.2 L325.5 87.2 L328.9 80.0 L315.2 80.0 L287.1 92.0 L283.1 106.5 L293.1 108.7 L288.0 120.9 L290.3 120.9 L288.3 125.7 L291.7 127.9 L288.5 135.3 L290.8 135.3 L283.4 147.0 L288.0 147.0 L290.6 151.7 L282.3 165.5 L273.4 165.5 L271.7 174.9 L280.5 174.9 M280.5 191.1 L286.3 193.6 L284.5 198.3 L312.0 195.8 L311.2 198.3 L320.3 203.0 L317.7 209.7 L321.2 211.9 L319.8 221.1 L323.2 223.6 L308.0 250.8 L310.0 250.8 L304.9 264.1 L308.3 266.6 L304.9 275.6 L307.7 279.8 L313.7 275.6" fill="none" stroke="#b3261a" stroke-width="2.6" stroke-dasharray="7 3 2 3" stroke-linejoin="round"/>
+    <path d="M34.0 34.0 Q135.1 145.9 285.8 154.2" fill="none" stroke="#efe2c2" stroke-width="11" stroke-linecap="round" stroke-opacity="0.8"/>
+    <path d="M297.7 154.9 L285.1 165.2 L286.4 143.2 Z" fill="#efe2c2" stroke="#efe2c2" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <path d="M34.0 34.0 Q135.1 145.9 285.8 154.2" fill="none" stroke="#3b2412" stroke-width="6" stroke-linecap="round"/>
+    <path d="M34.0 34.0 Q135.1 145.9 285.8 154.2" fill="none" stroke="#efe2c2" stroke-width="1.2" stroke-dasharray="2 5" stroke-opacity="0.75"/>
+    <path d="M297.7 154.9 L285.1 165.2 L286.4 143.2 Z" fill="#3b2412" stroke="#3b2412" stroke-width="1"/>
+  </g>
+  <g transform="translate(320 30)">
+    <path d="M-63 -13 L63 -13 L73 0 L63 13 L-63 13 L-73 0 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <text y="1" class="war">⚔ 나당 전쟁</text>
+  </g><text x="321.8" y="129.4" class="lbl hl">신라</text><text x="245.6" y="169.9" class="lbl">고구려</text>
   <g transform="translate(321.8 171.4)">
     <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
     <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-silla-unification)"/>
@@ -83,5 +95,6 @@
   .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
   .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
   .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+  .war { font-size: 13px; font-weight: 800; fill: #f4e8c8; dominant-baseline: middle; letter-spacing: 1px; }
 </style>
 </svg>

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="인더스 문명의 쇠퇴">
+<defs>
+  <clipPath id="frame-indus-decline"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-indus-decline" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-indus-decline" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-indus-decline" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="149" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-indus-decline" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-indus-decline"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-indus-decline" d="M-24 -24L-24 384L3 384L6 381L20 380L29 377L37 371L39 372L46 371L51 365L55 363L81 355L93 350L92 345L97 339L117 331L130 331L133 328L132 324L135 319L147 318L153 307L167 303L165 293L167 286L171 281L171 284L176 283L178 278L186 269L193 258L193 254L189 253L179 239L158 233L150 225L148 220L146 208L149 202L147 201L149 201L148 199L149 198L147 198L146 200L148 200L145 200L142 207L136 210L134 215L125 222L124 225L122 225L124 226L122 228L118 230L111 232L98 229L94 232L89 233L84 227L84 229L80 228L83 224L82 223L81 225L79 223L81 224L85 218L83 210L84 205L80 201L76 204L75 208L76 209L73 211L75 221L73 222L70 212L63 203L64 200L65 203L66 199L63 193L65 194L59 189L58 186L55 187L54 183L52 182L54 182L53 181L48 180L49 176L43 168L38 154L33 153L37 150L39 151L36 142L37 144L42 145L45 143L49 143L50 136L53 136L53 138L49 138L53 141L56 141L57 143L64 141L65 145L72 152L72 157L76 158L74 160L77 163L82 175L96 179L99 182L98 183L109 189L112 193L120 193L126 196L144 186L153 187L155 189L160 207L165 207L166 209L168 208L171 210L180 210L182 212L188 211L201 214L200 213L202 212L203 214L214 217L216 214L219 215L218 218L223 215L226 217L228 214L241 215L242 213L249 213L248 211L250 212L249 213L256 216L258 213L277 211L281 212L279 210L275 211L279 209L284 215L283 220L291 222L289 223L292 228L292 231L294 231L294 234L296 233L297 235L299 234L301 236L301 233L302 237L303 234L304 237L302 238L305 238L311 234L306 238L306 240L312 247L323 250L328 247L332 248L333 245L329 253L322 256L320 255L316 257L315 254L313 257L327 273L337 279L342 279L354 272L357 266L355 264L353 264L354 263L355 263L353 262L354 261L357 260L357 258L355 257L358 256L359 258L365 257L361 258L360 261L363 261L360 266L368 265L361 270L363 272L361 274L364 273L366 279L362 291L363 296L365 296L363 298L367 300L363 299L363 304L366 301L367 303L365 305L366 307L365 306L364 307L366 311L365 310L365 312L367 313L365 314L369 323L370 337L375 348L377 349L376 351L378 351L377 352L379 353L377 353L378 357L381 361L383 360L381 361L385 366L384 365L389 377L390 384L463 384L463 380L459 377L460 376L463 380L460 369L459 369L461 364L459 357L462 349L467 346L469 349L470 344L472 348L475 340L482 340L489 337L490 332L488 332L490 329L501 323L504 318L513 313L521 301L532 294L529 295L529 294L528 294L526 297L528 292L532 291L531 294L542 290L540 287L543 289L551 280L549 278L550 278L549 274L550 271L553 267L562 265L566 260L563 255L566 259L567 267L567 264L568 267L568 265L570 266L570 262L571 267L573 258L572 262L574 259L573 267L575 264L578 267L576 262L578 262L578 259L580 266L582 262L582 265L584 262L583 257L584 261L585 256L585 265L586 264L586 262L586 264L589 263L588 260L589 255L590 254L589 260L590 261L591 259L591 261L593 258L591 263L592 262L591 264L593 264L595 257L596 260L598 256L598 253L596 254L597 251L595 250L597 248L596 246L598 244L593 240L597 241L596 239L598 238L598 240L600 239L598 240L598 246L603 253L604 251L606 253L606 251L608 251L610 248L609 250L614 258L615 255L614 259L615 264L617 265L616 269L617 273L621 279L620 275L626 286L625 280L627 282L629 285L627 287L628 287L631 282L630 287L631 286L629 288L631 291L631 289L633 292L631 288L635 288L637 291L639 290L638 293L640 293L639 294L643 298L641 300L637 297L636 299L642 305L642 301L643 300L644 298L643 305L647 307L645 307L648 313L647 314L651 323L646 338L646 345L650 341L651 341L653 338L650 346L653 343L651 346L652 347L656 341L654 343L654 348L657 347L658 343L659 348L661 343L660 348L662 349L664 346L664 -24ZM38 147L39 150L42 148L39 144L38 147ZM56 184L59 184L56 184ZM69 201L71 207L72 201L71 200L69 201ZM103 -1L104 4L103 -1ZM105 191L108 192L105 191ZM105 228L109 227L105 228ZM111 230L116 230L114 229L111 230ZM133 194L133 195L142 193L146 189L139 189L139 192L133 194ZM177 285L177 287L181 282L181 280L177 285ZM564 266L566 266L566 263L564 266ZM578 262L579 265L578 262ZM596 250L599 250L597 249L596 250ZM598 252L599 255L599 261L601 259L601 255L599 250L598 252ZM603 259L606 258L605 256L603 259ZM609 254L611 255L609 254ZM614 265L615 262L614 265ZM615 266L615 268L616 268L616 264L615 266ZM629 288L630 292L629 288ZM635 290L636 293L635 290ZM636 305L640 307L639 305L636 305ZM638 296L640 299L642 298L639 296L638 296Z"/>
+  <clipPath id="landclip-indus-decline"><use href="#land-indus-decline"/></clipPath>
+  <path id="hl-indus-decline-3" d="M402 87L404 88L406 97L408 98L407 103L400 110L399 112L402 113L399 122L404 129L404 131L406 133L406 135L409 137L408 139L412 140L411 142L416 144L418 150L417 160L409 163L403 163L403 165L382 165L361 168L354 171L350 170L338 172L335 174L330 173L323 178L319 186L318 199L321 213L336 222L337 224L341 224L343 228L365 242L363 258L358 257L358 262L355 263L357 265L357 270L354 274L341 280L336 280L331 277L325 272L325 270L313 258L313 255L319 256L320 255L325 255L330 252L332 248L320 251L311 247L308 242L305 241L305 239L302 239L302 235L296 235L293 231L291 231L290 222L282 220L283 215L279 210L274 213L258 214L258 216L251 215L251 213L243 213L242 215L229 215L228 217L222 217L225 210L251 206L262 208L270 207L274 204L271 196L270 183L275 162L281 145L289 136L299 136L300 134L313 130L317 123L318 118L321 116L322 113L324 113L332 105L332 103L337 100L339 95L344 90L350 88L350 86L352 87L355 84L361 83L362 81L370 80L371 82L384 82L388 84L400 85L401 87Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-indus-decline)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-indus-decline)"/>
+  <use href="#land-indus-decline" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-indus-decline" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-indus-decline" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-indus-decline)"><path d="M62 214L75 211L75 198L67 186L57 192L55 205Z" fill="rgb(227,183,144)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M17 98L16 109L17 114L22 115L24 118L33 124L34 129L37 130L20 135L18 139L8 137L3 128L3 119L2 118L3 116L-2 110L-5 110L-6 106L-11 107L-14 98L-6 92L-3 96L4 98L9 92L12 92L13 97L16 98Z" fill="rgb(233,195,162)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M21 84L20 90L22 92L28 93L30 95L44 96L46 98L54 100L53 103L60 102L61 104L61 107L67 115L63 124L65 127L64 131L68 133L70 137L65 141L62 141L62 139L59 139L58 137L52 137L54 134L52 133L34 129L33 124L24 118L22 115L17 114L16 109L18 98L13 97L12 92L9 92L4 98L-3 96L-6 92L-8 93L-12 91L-10 83L-11 79L-9 78L-9 73L-6 72L-4 68L-1 68L2 72L5 64L9 66L7 70L11 76L12 80L20 82L20 84Z" fill="rgb(163,203,165)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-indus-decline-3" fill="rgb(178,168,75)" stroke="none"/>
+       <use href="#hl-indus-decline-3" fill="url(#hatch-indus-decline)" stroke="none"/>
+       <use href="#hl-indus-decline-3" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-indus-decline-3" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-indus-decline" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="346.3" y="101.4" class="lbl hl">인더스 문명</text><text x="65.6" y="200.9" class="lbl">딜문</text>
+  <g transform="translate(346.3 143.4)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-indus-decline)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><rect x="30" y="80" width="40" height="8" fill="#ddd0ad" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 80 L36 44 L44 38 L50 46 L58 36 L64 42 L66 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M42 78 L43 48 M50 78 L50 50 M58 78 L58 46" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M70 70 L84 64 L88 74 L76 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/><path d="M14 82 L24 74 L30 82 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M26 30 L32 36 M74 28 L68 34 M50 18 L50 26" stroke="#8f2a17" stroke-width="3" stroke-linecap="round"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-indus-decline)"/>
+  <rect width="640" height="360" fill="url(#vignette-indus-decline)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><rect x="30" y="80" width="40" height="8" fill="#ddd0ad" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 80 L36 44 L44 38 L50 46 L58 36 L64 42 L66 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M42 78 L43 48 M50 78 L50 50 M58 78 L58 46" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M70 70 L84 64 L88 74 L76 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/><path d="M14 82 L24 74 L30 82 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M26 30 L32 36 M74 28 L68 34 M50 18 L50 26" stroke="#8f2a17" stroke-width="3" stroke-linecap="round"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">붕괴</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">인더스 문명의 쇠퇴</text>
+  </g>
+  <text x="320" y="284" class="year">기원전 1900년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

@@ -31,7 +31,18 @@
        <use href="#hl-dzungar-conquest-11" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-dzungar-conquest-11" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-dzungar-conquest" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
-  <text x="312.9" y="153.6" class="lbl hl">준가르</text><text x="551.2" y="201.9" class="lbl">청나라</text><text x="164.9" y="91.3" class="lbl">카자흐 칸국</text><text x="83.7" y="205.0" class="lbl">히바 칸국</text><text x="147.9" y="232.5" class="lbl">부하라 칸국</text><text x="186.8" y="210.0" class="lbl">코칸트 칸국</text>
+  <g>
+    
+    <path d="M551.2 201.9 Q453.2 156.4 352.9 196.7" fill="none" stroke="#efe2c2" stroke-width="11" stroke-linecap="round" stroke-opacity="0.8"/>
+    <path d="M341.8 201.2 L348.8 186.5 L357.0 206.9 Z" fill="#efe2c2" stroke="#efe2c2" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <path d="M551.2 201.9 Q453.2 156.4 352.9 196.7" fill="none" stroke="#3b2412" stroke-width="6" stroke-linecap="round"/>
+    <path d="M551.2 201.9 Q453.2 156.4 352.9 196.7" fill="none" stroke="#efe2c2" stroke-width="1.2" stroke-dasharray="2 5" stroke-opacity="0.75"/>
+    <path d="M341.8 201.2 L348.8 186.5 L357.0 206.9 Z" fill="#3b2412" stroke="#3b2412" stroke-width="1"/>
+  </g>
+  <g transform="translate(320 30)">
+    <path d="M-84 -13 L84 -13 L94 0 L84 13 L-84 13 L-94 0 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <text y="1" class="war">⚔ 청-준가르 전쟁</text>
+  </g><text x="312.9" y="153.6" class="lbl hl">준가르</text><text x="551.2" y="201.9" class="lbl">청나라</text><text x="164.9" y="91.3" class="lbl">카자흐 칸국</text><text x="83.7" y="205.0" class="lbl">히바 칸국</text><text x="147.9" y="232.5" class="lbl">부하라 칸국</text><text x="186.8" y="210.0" class="lbl">코칸트 칸국</text>
   <g transform="translate(312.9 195.6)">
     <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
     <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-dzungar-conquest)"/>
@@ -81,5 +92,6 @@
   .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
   .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
   .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+  .war { font-size: 13px; font-weight: 800; fill: #f4e8c8; dominant-baseline: middle; letter-spacing: 1px; }
 </style>
 </svg>

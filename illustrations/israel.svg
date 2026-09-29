@@ -31,7 +31,15 @@
        <use href="#hl-israel-8" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-israel-8" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-israel" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
-  <text x="315.1" y="159.0" class="lbl hl">이스라엘</text><text x="365.8" y="232.4" class="lbl">요르단</text><text x="357.6" y="53.7" class="lbl">레바논</text>
+  <g>
+    <path d="M319.0 266.0 L312.6 268.8 L287.8 188.5 L293.8 185.2 L294.6 176.3 L301.0 170.2 M334.2 179.6 L335.4 200.7 L325.0 221.2 L319.0 266.0 L312.6 268.8 L313.0 266.0" fill="none" stroke="#c0301c" stroke-width="9" stroke-opacity="0.35" stroke-linejoin="round" filter="url(#glow-israel)"/>
+    <path d="M319.0 266.0 L312.6 268.8 L287.8 188.5 L293.8 185.2 L294.6 176.3 L301.0 170.2 M334.2 179.6 L335.4 200.7 L325.0 221.2 L319.0 266.0 L312.6 268.8 L313.0 266.0" fill="none" stroke="#b3261a" stroke-width="2.6" stroke-dasharray="7 3 2 3" stroke-linejoin="round"/>
+    
+  </g>
+  <g transform="translate(320 30)">
+    <path d="M-91 -13 L91 -13 L101 0 L91 13 L-91 13 L-101 0 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <text y="1" class="war">⚔ 제1차 중동 전쟁</text>
+  </g><text x="315.1" y="159.0" class="lbl hl">이스라엘</text><text x="365.8" y="232.4" class="lbl">요르단</text>
   <g transform="translate(315.1 201.0)">
     <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
     <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-israel)"/>
@@ -75,5 +83,6 @@
   .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
   .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
   .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+  .war { font-size: 13px; font-weight: 800; fill: #f4e8c8; dominant-baseline: middle; letter-spacing: 1px; }
 </style>
 </svg>

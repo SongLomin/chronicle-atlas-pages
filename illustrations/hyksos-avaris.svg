@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="힉소스의 하이집트 지배">
+<defs>
+  <clipPath id="frame-hyksos-avaris"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-hyksos-avaris" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-hyksos-avaris" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-hyksos-avaris" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="143" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-hyksos-avaris" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-hyksos-avaris"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-hyksos-avaris" d="M-24 384L301 384L295 374L297 366L292 358L292 354L288 351L282 341L284 340L285 341L281 335L285 336L284 333L275 325L268 314L264 311L262 304L257 298L258 293L255 284L248 277L253 268L252 266L255 265L255 263L256 269L259 272L259 281L262 283L264 289L273 297L274 311L284 320L290 329L304 339L303 336L309 330L309 319L315 305L318 286L324 278L326 279L319 308L320 312L316 324L313 327L314 329L317 325L320 326L320 327L321 326L321 327L327 326L332 328L330 329L338 338L350 359L356 365L366 384L664 384L664 -24L-21 -24L-16 -23L-17 -20L-24 -20L-24 35L-18 40L-17 39L-22 30L-19 27L-24 15L-24 0L-22 3L-21 2L-19 3L-20 7L-18 9L-14 7L-16 6L-15 5L-7 3L-11 1L-11 -4L-13 -3L-13 0L-18 -3L-17 -7L-19 -8L-17 -10L-22 -11L-22 -14L-11 -16L-6 -19L-6 -16L-2 -15L0 -10L3 -10L5 -5L8 -4L9 -9L7 -13L6 -22L8 -22L9 -24L78 -24L82 -21L83 -24L87 -24L90 -18L95 -19L98 -17L101 -17L102 -14L101 -8L94 -5L100 -2L99 6L103 7L105 4L105 8L108 8L107 10L111 10L111 12L109 12L110 15L107 16L105 14L101 15L102 15L100 17L101 21L105 19L110 20L132 18L129 19L127 23L124 22L123 27L112 27L104 31L113 32L114 28L120 29L126 27L126 30L122 31L125 32L121 34L124 35L131 30L130 25L132 26L131 27L134 27L135 26L134 25L136 24L137 27L140 26L141 30L144 30L147 34L150 29L154 32L152 36L155 36L154 42L162 47L164 46L164 47L170 48L169 49L170 49L171 51L182 46L184 47L185 45L192 46L192 48L193 47L197 37L197 27L201 23L220 26L233 34L239 36L249 49L262 55L266 52L270 53L272 51L284 51L286 49L288 51L293 44L295 48L297 45L299 44L299 41L305 34L317 26L319 26L336 36L339 34L341 35L340 33L344 34L346 30L343 32L344 31L346 30L342 31L343 29L349 28L355 22L360 27L361 31L360 34L349 44L354 55L351 61L349 61L350 65L347 71L352 76L354 84L351 87L351 94L354 108L349 110L345 116L344 126L342 130L339 130L336 143L334 145L332 153L329 157L331 158L329 158L327 166L324 167L321 186L314 204L305 217L292 224L285 226L279 224L272 228L272 226L271 223L266 226L270 225L268 228L266 226L259 228L266 224L256 228L248 220L245 220L247 221L247 225L241 226L242 228L239 225L240 222L237 223L236 221L232 220L233 217L235 218L234 216L235 216L234 215L235 215L234 213L235 212L238 216L244 220L239 216L237 212L226 215L212 209L209 210L213 211L213 213L210 212L209 215L204 214L202 216L196 216L209 210L196 214L191 212L192 215L191 213L190 218L186 220L189 220L189 222L185 222L186 220L183 218L166 231L158 235L152 235L146 231L135 227L120 226L118 221L113 224L107 222L103 217L93 214L64 209L47 213L41 212L40 207L38 209L40 207L35 197L28 194L22 196L9 195L2 190L-14 188L-13 190L-20 184L-18 179L-19 174L-24 172ZM-7 81L-3 83L2 82L8 84L18 84L28 88L28 94L64 90L69 91L71 90L74 84L72 82L73 80L70 84L66 83L59 87L56 85L58 79L49 81L47 79L38 79L35 76L26 76L16 79L14 78L14 74L12 75L9 74L12 73L12 70L9 70L7 73L1 72L-1 67L-2 73L-4 73L-5 69L-6 71L-7 81ZM8 97L11 98L10 96L8 97ZM15 0L18 -3L17 -6L15 -4L15 0ZM16 32L22 31L22 28L19 28L20 30L19 30L17 28L16 32ZM17 8L20 5L19 2L17 4L17 8ZM19 15L22 15L22 12L19 15ZM22 26L23 27L24 25L22 26ZM25 19L27 23L28 20L25 19ZM31 32L35 34L31 32ZM32 5L32 6L35 5L34 1L32 5ZM35 -4L42 0L43 -2L37 -5L35 -4ZM36 19L38 21L38 18L36 19ZM38 33L41 30L38 33ZM39 19L42 19L44 14L40 15L39 19ZM43 29L46 32L47 30L44 27L43 29ZM44 5L49 2L46 1L44 5ZM46 16L49 22L50 22L52 19L52 13L50 13L46 16ZM46 43L49 43L50 42L47 38L48 42L46 43ZM57 42L60 43L58 41L57 42ZM57 27L61 27L67 23L65 22L60 26L57 27ZM64 0L71 -1L75 -6L67 -4L64 0ZM72 34L74 37L75 35L78 35L75 33L76 34L72 34ZM80 9L81 10L81 8L82 7L81 6L80 9ZM87 13L90 16L89 13L87 13ZM89 78L94 77L94 76L89 78ZM90 17L92 18L91 21L95 21L95 19L90 17ZM91 30L93 31L93 28L97 28L104 24L102 23L98 23L91 28L91 30ZM96 70L98 77L100 74L98 69L100 62L98 63L96 70ZM102 40L105 42L107 41L104 38L102 40ZM109 48L111 47L109 48ZM113 50L116 53L114 57L116 60L122 53L125 54L124 51L129 42L129 39L120 43L113 50ZM116 35L119 36L119 33L117 34L119 32L116 35ZM247 89L248 95L252 101L259 104L265 103L266 106L269 106L268 104L270 102L275 102L285 98L288 92L293 93L295 92L300 92L297 89L295 89L297 89L294 85L294 82L314 67L287 78L280 80L265 77L266 83L264 86L255 85L251 90L247 89ZM266 225L271 222L275 222L271 221L266 225ZM275 222L281 225L275 222ZM294 345L298 348L297 346L294 345ZM311 330L312 332L315 332L311 330Z"/>
+  <clipPath id="landclip-hyksos-avaris"><use href="#land-hyksos-avaris"/></clipPath>
+  <path id="hl-hyksos-avaris-3" d="M365 109L381 128L361 234L346 242L337 240L328 230L317 230L311 240L321 272L321 280L319 280L275 259L267 250L259 228L271 223L272 228L295 223L311 210L319 191L324 167L328 166L339 130L344 126L344 117L354 108L351 94L353 80L358 82L360 99L368 104L365 108Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-hyksos-avaris)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-hyksos-avaris)"/>
+  <use href="#land-hyksos-avaris" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-hyksos-avaris" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-hyksos-avaris" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-hyksos-avaris)"><path d="M213 209L209 210L213 213L207 215L196 216L208 210L191 213L189 222L182 219L157 235L137 228L155 269L167 286L171 288L171 298L168 311L156 327L143 333L118 384L301 384L295 374L292 354L282 341L284 333L257 297L256 285L249 277L252 265L255 263L260 281L273 297L275 311L290 329L304 339L309 330L309 319L321 280L275 259L267 250L259 228L246 220L247 225L241 227L239 222L232 220L236 212L239 217L245 220L236 212L226 215L213 209Z" fill="rgb(224,206,157)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M631 84L642 91L641 96L637 98L638 105L631 105L630 112L635 114L634 121L598 121L597 127L601 134L599 134L598 148L593 150L591 150L589 145L572 141L566 132L561 132L555 125L555 112L550 114L541 109L541 89L555 89L554 77L561 68L571 66L570 54L575 45L595 31L597 31L598 41L605 43L604 48L621 61L620 66L632 82Z" fill="rgb(197,186,204)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M663 136L653 130L656 125L634 123L634 121L598 121L597 127L601 134L599 134L598 148L593 150L593 152L586 152L583 157L590 159L593 170L584 168L582 172L570 174L570 179L600 209L604 218L614 220L638 249L660 253L662 253L663 244L664 244L663 139Z" fill="rgb(215,170,137)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-hyksos-avaris-3" fill="rgb(173,102,125)" stroke="none"/>
+       <use href="#hl-hyksos-avaris-3" fill="url(#hatch-hyksos-avaris)" stroke="none"/>
+       <use href="#hl-hyksos-avaris-3" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-hyksos-avaris-3" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-hyksos-avaris" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="328.9" y="173.2" class="lbl hl">힉소스</text><text x="591.0" y="89.4" class="lbl">아시리아</text>
+  <g transform="translate(328.9 215.2)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-hyksos-avaris)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-hyksos-avaris)"/>
+  <rect width="640" height="360" fill="url(#vignette-hyksos-avaris)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">정복</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">힉소스의 하이집트 지배</text>
+  </g>
+  <text x="320" y="284" class="year">기원전 1650년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

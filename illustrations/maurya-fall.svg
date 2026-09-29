@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="마우리아 왕조의 멸망">
+<defs>
+  <clipPath id="frame-maurya-fall"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-maurya-fall" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-maurya-fall" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-maurya-fall" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="72" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-maurya-fall" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-maurya-fall"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-maurya-fall" d="M-24 -24L-24 182L-16 185L-13 181L-10 183L-10 186L-5 184L-4 182L-1 184L1 181L16 183L17 180L25 180L23 179L26 178L25 180L32 181L34 183L35 180L49 180L58 178L62 179L59 176L56 178L60 175L65 183L64 188L73 190L72 192L75 197L74 198L75 201L77 201L77 204L79 205L79 204L79 206L80 206L82 204L85 206L85 203L87 207L87 204L89 208L87 209L89 209L97 204L91 209L91 211L92 210L91 212L94 214L93 215L98 219L111 223L117 219L121 220L122 217L118 226L112 229L111 228L109 230L107 228L107 230L103 231L101 228L99 231L116 249L126 256L132 256L147 248L150 242L148 239L145 239L147 238L146 237L148 238L146 236L147 235L150 234L150 232L147 231L150 231L151 229L152 232L159 231L157 233L154 232L153 236L153 237L156 236L154 238L154 241L162 239L158 241L154 245L157 244L154 245L156 248L155 250L157 250L158 254L160 256L155 270L156 275L159 275L157 278L161 281L157 279L157 285L160 281L161 284L159 286L160 288L159 287L158 289L161 293L159 291L159 294L161 296L161 297L159 296L163 307L162 307L166 322L165 323L170 336L171 338L173 337L172 339L173 339L172 340L175 342L172 341L174 342L174 346L177 350L179 349L177 351L182 356L181 355L187 369L186 373L188 381L190 381L188 381L189 384L270 384L272 373L267 370L269 367L271 372L269 360L267 360L270 354L267 346L271 336L277 333L278 334L279 336L280 331L282 335L286 327L293 327L302 323L303 317L302 318L301 317L303 314L316 307L319 301L329 295L339 284L339 282L351 273L347 275L348 273L346 273L344 276L347 271L351 270L350 273L363 268L360 266L364 268L365 265L369 263L369 260L373 257L371 255L372 255L370 250L372 246L376 243L385 240L390 234L387 228L388 231L391 233L392 243L392 239L393 242L393 240L395 242L396 236L395 243L397 243L398 232L398 236L400 233L399 243L401 239L402 241L404 242L402 236L404 236L404 233L406 241L409 236L409 240L411 236L410 231L411 236L413 230L412 240L414 239L413 237L414 238L417 237L415 234L416 229L419 227L416 231L417 234L418 236L420 233L419 236L422 232L419 238L420 237L420 238L422 238L424 231L425 234L428 229L427 226L425 227L426 224L424 223L427 221L425 218L427 218L428 215L422 211L427 213L427 210L426 209L428 209L428 211L429 210L427 212L428 218L433 226L434 226L434 224L437 226L436 223L438 224L441 221L441 223L445 232L447 228L446 232L447 239L449 239L448 241L449 240L448 244L450 249L454 256L453 251L454 257L460 264L458 257L461 260L463 263L460 265L462 266L465 259L464 265L466 264L463 266L466 270L466 268L468 271L466 266L470 266L473 270L475 269L473 272L476 272L475 274L479 278L477 280L472 277L471 279L474 284L478 286L478 281L480 281L480 278L480 286L483 288L481 288L485 295L484 296L485 296L488 307L483 323L483 332L486 331L487 327L489 326L489 328L490 323L488 333L491 329L488 333L490 334L494 328L492 330L492 335L495 335L496 329L498 330L496 331L497 335L500 329L499 336L501 336L504 333L505 328L506 329L510 327L510 326L511 327L514 325L512 320L514 319L513 322L516 324L520 323L523 316L523 309L527 315L529 314L527 315L527 317L530 324L536 323L533 331L536 334L537 349L538 352L539 351L540 353L538 352L541 361L542 370L543 362L543 368L549 376L550 384L570 384L572 378L570 373L574 371L579 371L579 369L580 371L585 371L583 384L664 384L664 296L658 288L657 289L655 284L658 280L659 272L662 268L664 268L664 -24ZM389 241L390 241L390 238L389 241ZM404 237L405 240L404 237ZM423 237L424 235L423 237ZM425 223L429 222L427 221L425 223ZM426 235L428 233L426 235ZM427 224L429 228L428 236L431 233L431 228L428 222L427 224ZM434 233L436 232L435 229L434 233ZM440 227L442 229L441 226L440 227ZM446 240L447 237L446 240ZM446 240L447 244L448 243L448 239L446 240ZM463 267L464 271L463 267ZM470 269L472 272L470 269ZM471 286L474 289L475 289L475 286L471 286ZM474 276L476 280L479 278L475 275L474 276ZM485 332L485 334L489 331L489 328L485 332ZM531 325L533 329L534 324L531 325Z"/>
+  <clipPath id="landclip-maurya-fall"><use href="#land-maurya-fall"/></clipPath>
+  <path id="hl-maurya-fall-7" d="M283 97L281 92L272 90L267 83L259 82L259 80L256 80L256 82L235 100L234 107L235 107L234 112L236 112L235 119L236 119L236 135L249 147L248 150L251 155L235 171L228 185L224 203L222 239L224 240L226 248L242 253L243 259L246 262L245 265L247 267L249 273L252 272L253 268L263 265L269 255L273 255L279 262L294 267L299 274L302 274L303 276L310 280L348 255L360 258L360 265L365 268L370 263L370 260L373 258L371 249L374 245L384 241L390 236L391 236L390 241L393 243L394 240L396 240L398 234L399 234L399 241L416 238L418 229L414 220L412 219L418 203L416 202L417 199L418 189L415 183L418 175L416 175L417 168L414 167L417 156L404 154L400 149L401 147L392 149L389 147L390 145L387 146L381 143L381 140L379 142L378 139L376 139L375 137L377 136L374 135L370 137L366 136L361 139L355 139L346 136L340 132L338 127L340 124L335 122L331 116L327 117L324 114L320 114L320 110L316 112L313 109L304 108L302 106L292 103L288 97L284 97Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-maurya-fall)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-maurya-fall)"/>
+  <use href="#land-maurya-fall" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-maurya-fall" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-maurya-fall" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-maurya-fall)"><path d="M302 317L303 323L300 325L289 326L285 329L284 335L276 334L272 336L268 346L270 349L270 356L255 362L256 360L248 355L251 345L216 337L212 332L210 332L206 328L207 318L202 316L198 312L198 310L192 305L192 303L189 300L182 301L174 306L161 305L158 290L158 279L156 278L157 275L166 268L171 254L172 247L176 236L181 232L198 225L215 224L223 226L222 239L224 240L226 248L242 253L243 259L246 262L245 265L247 267L249 273L252 272L253 268L263 265L269 255L273 255L279 262L294 267L299 274L302 274L303 276L310 280L290 296L290 301L292 307L295 309L295 311L298 314L302 316Z" fill="rgb(161,204,167)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M140 -24L133 -13L123 -7L117 -2L116 2L113 1L109 4L105 4L105 7L100 7L92 10L90 14L86 12L82 16L79 15L71 20L63 21L62 21L63 18L56 15L48 14L45 11L35 15L29 15L27 17L23 17L21 15L13 16L11 14L3 12L-4 3L-10 3L-17 -1L-18 -15L-19 -15L-19 -20L-15 -22L-16 -24Z" fill="rgb(215,168,148)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 269L661 271L657 286L662 291L662 293L664 294L664 310L648 293L649 289L647 289L648 286L646 284L646 277L645 277L646 272L644 270L646 265L638 260L640 257L645 258L644 254L647 254L644 249L646 244L645 241L647 239L648 236L644 233L646 229L648 228L650 222L658 218L664 210Z" fill="rgb(190,160,173)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 -24L664 3L650 7L660 -4L659 -7L662 -14L662 -15L630 -24Z" fill="rgb(163,172,184)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 124L662 125L662 127L655 127L653 129L640 128L632 125L629 126L629 124L615 121L610 117L595 113L592 109L588 108L579 91L583 81L590 71L598 64L603 55L605 38L604 38L605 34L604 34L607 26L617 22L621 23L625 16L664 3Z" fill="rgb(222,191,137)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-24 -20L-19 -20L-19 -15L-18 -15L-17 -1L-10 3L-4 3L3 12L11 14L13 16L21 15L23 17L27 17L29 15L35 15L45 11L63 18L59 23L50 22L45 27L43 33L40 35L39 37L41 37L39 42L36 42L34 48L29 50L30 52L22 59L18 59L15 64L13 63L-24 114Z" fill="rgb(200,201,211)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M355 273L364 268L360 265L360 258L348 255L310 280L290 296L290 301L292 307L295 309L295 311L298 314L304 316L306 312L311 311L321 304L323 299L328 298L333 293L339 284L349 275L348 271L350 271L350 274L354 273Z" fill="rgb(197,202,211)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-maurya-fall-7" fill="rgb(118,123,178)" stroke="none"/>
+       <use href="#hl-maurya-fall-7" fill="url(#hatch-maurya-fall)" stroke="none"/>
+       <use href="#hl-maurya-fall-7" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-maurya-fall-7" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-maurya-fall" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="319.2" y="154.1" class="lbl hl">마우리아 제국</text>
+  <g transform="translate(319.2 196.1)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-maurya-fall)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><rect x="30" y="80" width="40" height="8" fill="#ddd0ad" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 80 L36 44 L44 38 L50 46 L58 36 L64 42 L66 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M42 78 L43 48 M50 78 L50 50 M58 78 L58 46" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M70 70 L84 64 L88 74 L76 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/><path d="M14 82 L24 74 L30 82 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M26 30 L32 36 M74 28 L68 34 M50 18 L50 26" stroke="#8f2a17" stroke-width="3" stroke-linecap="round"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-maurya-fall)"/>
+  <rect width="640" height="360" fill="url(#vignette-maurya-fall)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><rect x="30" y="80" width="40" height="8" fill="#ddd0ad" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 80 L36 44 L44 38 L50 46 L58 36 L64 42 L66 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M42 78 L43 48 M50 78 L50 50 M58 78 L58 46" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M70 70 L84 64 L88 74 L76 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/><path d="M14 82 L24 74 L30 82 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M26 30 L32 36 M74 28 L68 34 M50 18 L50 26" stroke="#8f2a17" stroke-width="3" stroke-linecap="round"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">붕괴</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">마우리아 왕조의 멸망</text>
+  </g>
+  <text x="320" y="284" class="year">기원전 185년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

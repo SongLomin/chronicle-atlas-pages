@@ -31,7 +31,19 @@
        <use href="#hl-ottoman-constantinople-32" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-ottoman-constantinople-32" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-ottoman-constantinople" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
-  <text x="304.7" y="183.3" class="lbl hl">오스만 제국</text><text x="564.5" y="248.9" class="lbl">카라 코윤루</text><text x="552.1" y="166.4" class="lbl">조지아 왕국</text><text x="379.7" y="239.4" class="lbl">카라만 베이국</text><text x="286.2" y="41.2" class="lbl">몰다비아 공국</text><text x="243.4" y="97.4" class="lbl">왈라키아 공국</text><text x="175.5" y="132.1" class="lbl">세르비아 제국</text>
+  <g>
+    <path d="M296.4 169.7 L300.2 172.6 L307.9 174.1 L307.6 176.9 M202.2 234.7 L198.3 234.7 L198.3 236.2 L196.9 236.2 L196.9 234.7 L194.5 234.7 L193.3 229.5" fill="none" stroke="#c0301c" stroke-width="9" stroke-opacity="0.35" stroke-linejoin="round" filter="url(#glow-ottoman-constantinople)"/>
+    <path d="M296.4 169.7 L300.2 172.6 L307.9 174.1 L307.6 176.9 M202.2 234.7 L198.3 234.7 L198.3 236.2 L196.9 236.2 L196.9 234.7 L194.5 234.7 L193.3 229.5" fill="none" stroke="#b3261a" stroke-width="2.6" stroke-dasharray="7 3 2 3" stroke-linejoin="round"/>
+    <path d="M195.7 247.7 Q234.6 260.1 265.5 233.4" fill="none" stroke="#efe2c2" stroke-width="11" stroke-linecap="round" stroke-opacity="0.8"/>
+    <path d="M274.6 225.5 L272.7 241.7 L258.3 225.1 Z" fill="#efe2c2" stroke="#efe2c2" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <path d="M195.7 247.7 Q234.6 260.1 265.5 233.4" fill="none" stroke="#3b2412" stroke-width="6" stroke-linecap="round"/>
+    <path d="M195.7 247.7 Q234.6 260.1 265.5 233.4" fill="none" stroke="#efe2c2" stroke-width="1.2" stroke-dasharray="2 5" stroke-opacity="0.75"/>
+    <path d="M274.6 225.5 L272.7 241.7 L258.3 225.1 Z" fill="#3b2412" stroke="#3b2412" stroke-width="1"/>
+  </g>
+  <g transform="translate(320 30)">
+    <path d="M-126 -13 L126 -13 L136 0 L126 13 L-126 13 L-136 0 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <text y="1" class="war">⚔ 콘스탄티노폴리스 함락 전쟁</text>
+  </g><text x="304.7" y="183.3" class="lbl hl">오스만 제국</text><text x="564.5" y="248.9" class="lbl">카라 코윤루</text><text x="552.1" y="166.4" class="lbl">조지아 왕국</text><text x="379.7" y="239.4" class="lbl">카라만 베이국</text><text x="243.4" y="97.4" class="lbl">왈라키아 공국</text><text x="175.5" y="132.1" class="lbl">세르비아 제국</text>
   <g transform="translate(304.7 225.3)">
     <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
     <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-ottoman-constantinople)"/>
@@ -81,5 +93,6 @@
   .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
   .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
   .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+  .war { font-size: 13px; font-weight: 800; fill: #f4e8c8; dominant-baseline: middle; letter-spacing: 1px; }
 </style>
 </svg>

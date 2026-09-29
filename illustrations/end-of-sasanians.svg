@@ -31,7 +31,18 @@
        <use href="#hl-end-of-sasanians-19" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-end-of-sasanians-19" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-end-of-sasanians" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
-  <text x="318.6" y="136.7" class="lbl hl">사산 제국</text><text x="239.7" y="168.0" class="lbl">정통 칼리파국</text><text x="459.7" y="79.1" class="lbl">서돌궐</text><text x="73.9" y="104.1" class="lbl">동로마 제국</text><text x="453.1" y="158.6" class="lbl">튀르크 샤히</text><text x="462.5" y="138.2" class="lbl">카르코타 왕조</text><text x="551.2" y="155.6" class="lbl">카슈미르</text>
+  <g>
+    
+    <path d="M239.7 168.0 Q257.4 184.9 278.9 173.3" fill="none" stroke="#efe2c2" stroke-width="11" stroke-linecap="round" stroke-opacity="0.8"/>
+    <path d="M289.5 167.6 L284.1 183.0 L273.7 163.6 Z" fill="#efe2c2" stroke="#efe2c2" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <path d="M239.7 168.0 Q257.4 184.9 278.9 173.3" fill="none" stroke="#3b2412" stroke-width="6" stroke-linecap="round"/>
+    <path d="M239.7 168.0 Q257.4 184.9 278.9 173.3" fill="none" stroke="#efe2c2" stroke-width="1.2" stroke-dasharray="2 5" stroke-opacity="0.75"/>
+    <path d="M289.5 167.6 L284.1 183.0 L273.7 163.6 Z" fill="#3b2412" stroke="#3b2412" stroke-width="1"/>
+  </g>
+  <g transform="translate(320 30)">
+    <path d="M-112 -13 L112 -13 L122 0 L112 13 L-112 13 L-122 0 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <text y="1" class="war">⚔ 이슬람의 페르시아 정복</text>
+  </g><text x="318.6" y="136.7" class="lbl hl">사산 제국</text><text x="239.7" y="168.0" class="lbl">정통 칼리파국</text><text x="459.7" y="79.1" class="lbl">서돌궐</text><text x="73.9" y="104.1" class="lbl">동로마 제국</text><text x="453.1" y="158.6" class="lbl">튀르크 샤히</text><text x="462.5" y="138.2" class="lbl">카르코타 왕조</text>
   <g transform="translate(318.6 178.7)">
     <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
     <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-end-of-sasanians)"/>
@@ -77,5 +88,6 @@
   .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
   .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
   .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+  .war { font-size: 13px; font-weight: 800; fill: #f4e8c8; dominant-baseline: middle; letter-spacing: 1px; }
 </style>
 </svg>

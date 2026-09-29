@@ -31,7 +31,18 @@
        <use href="#hl-first-punic-war-10" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-first-punic-war-10" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-first-punic-war" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
-  <text x="299.9" y="99.6" class="lbl hl">로마 공화국</text><text x="524.2" y="172.6" class="lbl">안티고노스조 마케도니아</text><text x="83.1" y="96.3" class="lbl">그리스 식민도시들</text><text x="507.5" y="254.9" class="lbl">아이톨리아 동맹</text>
+  <g>
+    
+    <path d="M199.6 260.0 Q258.1 234.1 274.0 172.2" fill="none" stroke="#efe2c2" stroke-width="11" stroke-linecap="round" stroke-opacity="0.8"/>
+    <path d="M277.0 160.5 L284.7 174.9 L263.4 169.4 Z" fill="#efe2c2" stroke="#efe2c2" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <path d="M199.6 260.0 Q258.1 234.1 274.0 172.2" fill="none" stroke="#3b2412" stroke-width="6" stroke-linecap="round"/>
+    <path d="M199.6 260.0 Q258.1 234.1 274.0 172.2" fill="none" stroke="#efe2c2" stroke-width="1.2" stroke-dasharray="2 5" stroke-opacity="0.75"/>
+    <path d="M277.0 160.5 L284.7 174.9 L263.4 169.4 Z" fill="#3b2412" stroke="#3b2412" stroke-width="1"/>
+  </g>
+  <g transform="translate(320 30)">
+    <path d="M-98 -13 L98 -13 L108 0 L98 13 L-98 13 L-108 0 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <text y="1" class="war">⚔ 제1차 포에니 전쟁</text>
+  </g><text x="299.9" y="99.6" class="lbl hl">로마 공화국</text><text x="524.2" y="172.6" class="lbl">안티고노스조 마케도니아</text><text x="83.1" y="96.3" class="lbl">그리스 식민도시들</text><text x="507.5" y="254.9" class="lbl">아이톨리아 동맹</text>
   <g transform="translate(299.9 141.6)">
     <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
     <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-first-punic-war)"/>
@@ -73,5 +84,6 @@
   .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
   .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
   .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+  .war { font-size: 13px; font-weight: 800; fill: #f4e8c8; dominant-baseline: middle; letter-spacing: 1px; }
 </style>
 </svg>

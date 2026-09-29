@@ -31,7 +31,23 @@
        <use href="#hl-boer-war-5" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-boer-war-5" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-boer-war" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
-  <text x="328.1" y="128.6" class="lbl hl">트란스발 공화국</text>
+  <g>
+    <path d="M392.5 90.2 L392.5 88.3 L388.1 88.3 L388.1 86.1 L359.3 86.1 L352.8 81.9 L333.0 80.0 L320.0 92.5 L306.9 94.4 L287.7 117.2 L278.8 119.2 L263.7 133.7 L259.9 150.6 L248.9 161.0 L233.8 165.2 L229.7 184.2 L221.4 194.7 L224.3 220.0 L222.0 220.0 L220.5 239.3 L214.0 247.6 L216.6 256.3 L205.7 260.6 L206.0 269.3 L199.5 275.7 L201.8 280.1 L210.4 271.3 M325.3 292.9 L323.2 297.2 L318.8 297.2 L316.1 292.9 L305.2 292.9 L303.1 297.2 L285.3 304.0 L277.3 321.3 L266.4 327.8 L276.1 345.5 L274.4 356.5 L265.5 358.6 L261.6 367.5 L250.4 369.6 L238.8 361.0 L223.1 365.1 L209.2 358.6 L200.0 350.0 L197.4 341.1 L185.8 332.2 L185.5 323.4 L200.0 297.2 L201.8 280.1 L210.4 271.3" fill="none" stroke="#c0301c" stroke-width="9" stroke-opacity="0.35" stroke-linejoin="round" filter="url(#glow-boer-war)"/>
+    <path d="M392.5 90.2 L392.5 88.3 L388.1 88.3 L388.1 86.1 L359.3 86.1 L352.8 81.9 L333.0 80.0 L320.0 92.5 L306.9 94.4 L287.7 117.2 L278.8 119.2 L263.7 133.7 L259.9 150.6 L248.9 161.0 L233.8 165.2 L229.7 184.2 L221.4 194.7 L224.3 220.0 L222.0 220.0 L220.5 239.3 L214.0 247.6 L216.6 256.3 L205.7 260.6 L206.0 269.3 L199.5 275.7 L201.8 280.1 L210.4 271.3 M325.3 292.9 L323.2 297.2 L318.8 297.2 L316.1 292.9 L305.2 292.9 L303.1 297.2 L285.3 304.0 L277.3 321.3 L266.4 327.8 L276.1 345.5 L274.4 356.5 L265.5 358.6 L261.6 367.5 L250.4 369.6 L238.8 361.0 L223.1 365.1 L209.2 358.6 L200.0 350.0 L197.4 341.1 L185.8 332.2 L185.5 323.4 L200.0 297.2 L201.8 280.1 L210.4 271.3" fill="none" stroke="#b3261a" stroke-width="2.6" stroke-dasharray="7 3 2 3" stroke-linejoin="round"/>
+    <path d="M606.0 131.1 Q456.3 67.1 301.7 117.8" fill="none" stroke="#efe2c2" stroke-width="11" stroke-linecap="round" stroke-opacity="0.8"/>
+    <path d="M290.3 121.6 L298.2 107.4 L305.1 128.3 Z" fill="#efe2c2" stroke="#efe2c2" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <path d="M606.0 131.1 Q456.3 67.1 301.7 117.8" fill="none" stroke="#3b2412" stroke-width="6" stroke-linecap="round"/>
+    <path d="M606.0 131.1 Q456.3 67.1 301.7 117.8" fill="none" stroke="#efe2c2" stroke-width="1.2" stroke-dasharray="2 5" stroke-opacity="0.75"/>
+    <path d="M290.3 121.6 L298.2 107.4 L305.1 128.3 Z" fill="#3b2412" stroke="#3b2412" stroke-width="1"/><path d="M328.1 170.6 Q321.7 142.2 296.1 128.4" fill="none" stroke="#efe2c2" stroke-width="11" stroke-linecap="round" stroke-opacity="0.8"/>
+    <path d="M285.6 122.7 L301.4 118.7 L290.9 138.1 Z" fill="#efe2c2" stroke="#efe2c2" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <path d="M328.1 170.6 Q321.7 142.2 296.1 128.4" fill="none" stroke="#8f2a17" stroke-width="6" stroke-linecap="round"/>
+    <path d="M328.1 170.6 Q321.7 142.2 296.1 128.4" fill="none" stroke="#efe2c2" stroke-width="1.2" stroke-dasharray="2 5" stroke-opacity="0.75"/>
+    <path d="M285.6 122.7 L301.4 118.7 L290.9 138.1 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1"/>
+  </g>
+  <g transform="translate(320 30)">
+    <path d="M-91 -13 L91 -13 L101 0 L91 13 L-91 13 L-101 0 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <text y="1" class="war">⚔ 제2차 보어 전쟁</text>
+  </g><text x="328.1" y="128.6" class="lbl hl">트란스발 공화국</text>
   <g transform="translate(328.1 170.6)">
     <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
     <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-boer-war)"/>
@@ -73,5 +89,6 @@
   .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
   .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
   .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+  .war { font-size: 13px; font-weight: 800; fill: #f4e8c8; dominant-baseline: middle; letter-spacing: 1px; }
 </style>
 </svg>

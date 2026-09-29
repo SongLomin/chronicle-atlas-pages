@@ -17,7 +17,7 @@
   <filter id="glow-songhai-sunni-ali"><feGaussianBlur stdDeviation="3"/></filter>
   <path id="land-songhai-sunni-ali" d="M-24 -24L-24 384L664 384L664 -24Z"/>
   <clipPath id="landclip-songhai-sunni-ali"><use href="#land-songhai-sunni-ali"/></clipPath>
-  <path id="hl-songhai-sunni-ali-1" d="M386 151L374 129L347 110L314 105L247 113L241 151L238 151L236 188L271 188L307 204L316 218L322 218L319 231L331 234L334 244L342 247L345 255L384 255L401 247L404 239L401 220L404 218L398 210L386 154Z"/>
+  <path id="hl-songhai-sunni-ali-2" d="M386 151L374 129L347 110L314 105L247 113L241 151L238 151L236 188L271 188L307 204L316 218L322 218L319 231L331 234L334 244L342 247L345 255L384 255L401 247L404 239L401 220L404 218L398 210L386 154Z"/>
 </defs>
 <rect width="640" height="360" rx="10" fill="#2a1a0c"/>
 <g clip-path="url(#frame-songhai-sunni-ali)">
@@ -26,10 +26,10 @@
   <use href="#land-songhai-sunni-ali" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
   <use href="#land-songhai-sunni-ali" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
   <use href="#land-songhai-sunni-ali" fill="#efe2c2" stroke="none"/>
-  <g clip-path="url(#landclip-songhai-sunni-ali)"><path d="M85 350L82 350L82 347L85 347ZM215 194L218 199L204 202L204 207L195 212L195 218L184 231L181 252L169 266L172 271L163 274L161 284L152 287L120 316L114 316L114 321L108 321L108 326L94 337L97 342L82 345L68 358L61 384L-24 384L-24 129L43 121L141 129L202 116L247 113L241 151L238 151L236 191L233 191Z" fill="rgb(218,181,191)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-songhai-sunni-ali-1" fill="rgb(99,139,71)" stroke="none"/>
-       <use href="#hl-songhai-sunni-ali-1" fill="url(#hatch-songhai-sunni-ali)" stroke="none"/>
-       <use href="#hl-songhai-sunni-ali-1" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
-       <use href="#hl-songhai-sunni-ali-1" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <g clip-path="url(#landclip-songhai-sunni-ali)"><path d="M639 384L664 384L664 313L635 338Z" fill="rgb(185,164,179)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M85 350L82 350L82 347L85 347ZM215 194L218 199L204 202L204 207L195 212L195 218L184 231L181 252L169 266L172 271L163 274L161 284L152 287L120 316L114 316L114 321L108 321L108 326L94 337L97 342L82 345L68 358L61 384L-24 384L-24 129L43 121L141 129L202 116L247 113L241 151L238 151L236 191L233 191Z" fill="rgb(218,181,191)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-songhai-sunni-ali-2" fill="rgb(99,139,71)" stroke="none"/>
+       <use href="#hl-songhai-sunni-ali-2" fill="url(#hatch-songhai-sunni-ali)" stroke="none"/>
+       <use href="#hl-songhai-sunni-ali-2" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-songhai-sunni-ali-2" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-songhai-sunni-ali" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
   <text x="332.6" y="121.0" class="lbl hl">송가이 제국</text>
   <g transform="translate(332.6 163.0)">

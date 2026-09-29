@@ -31,7 +31,19 @@
        <use href="#hl-salsu-5" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-salsu-5" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-salsu" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
-  <text x="310.5" y="124.6" class="lbl hl">고구려</text>
+  <g>
+    <path d="M226.5 209.8 L231.1 206.6 L230.3 208.2 L235.9 209.8 L237.6 213.2 L242.4 213.2 L241.6 215.0 L244.8 215.0 L244.0 216.6 L247.2 216.6 L249.0 220.0 L253.6 220.0 L255.4 223.4 L254.6 225.2 M282.7 255.3 L295.0 248.6 L299.4 238.5 L309.6 240.3 L310.8 220.0 L307.4 213.2 L301.8 211.6 L301.8 208.2 L290.0 206.6 L290.0 203.2 L277.1 196.3 L277.9 194.4 L273.1 194.4 L273.9 192.8 L268.3 191.0 L269.1 189.4 L264.3 189.4 L265.1 187.5 L257.0 184.0 L257.8 182.4 L253.0 182.4 L251.4 178.9 L242.8 177.1 L243.6 175.4 L235.5 171.9 L236.4 170.1" fill="none" stroke="#c0301c" stroke-width="9" stroke-opacity="0.35" stroke-linejoin="round" filter="url(#glow-salsu)"/>
+    <path d="M226.5 209.8 L231.1 206.6 L230.3 208.2 L235.9 209.8 L237.6 213.2 L242.4 213.2 L241.6 215.0 L244.8 215.0 L244.0 216.6 L247.2 216.6 L249.0 220.0 L253.6 220.0 L255.4 223.4 L254.6 225.2 M282.7 255.3 L295.0 248.6 L299.4 238.5 L309.6 240.3 L310.8 220.0 L307.4 213.2 L301.8 211.6 L301.8 208.2 L290.0 206.6 L290.0 203.2 L277.1 196.3 L277.9 194.4 L273.1 194.4 L273.9 192.8 L268.3 191.0 L269.1 189.4 L264.3 189.4 L265.1 187.5 L257.0 184.0 L257.8 182.4 L253.0 182.4 L251.4 178.9 L242.8 177.1 L243.6 175.4 L235.5 171.9 L236.4 170.1" fill="none" stroke="#b3261a" stroke-width="2.6" stroke-dasharray="7 3 2 3" stroke-linejoin="round"/>
+    <path d="M34.0 260.0 Q170.1 269.5 272.6 179.4" fill="none" stroke="#efe2c2" stroke-width="11" stroke-linecap="round" stroke-opacity="0.8"/>
+    <path d="M281.6 171.5 L279.9 187.6 L265.3 171.1 Z" fill="#efe2c2" stroke="#efe2c2" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <path d="M34.0 260.0 Q170.1 269.5 272.6 179.4" fill="none" stroke="#3b2412" stroke-width="6" stroke-linecap="round"/>
+    <path d="M34.0 260.0 Q170.1 269.5 272.6 179.4" fill="none" stroke="#efe2c2" stroke-width="1.2" stroke-dasharray="2 5" stroke-opacity="0.75"/>
+    <path d="M281.6 171.5 L279.9 187.6 L265.3 171.1 Z" fill="#3b2412" stroke="#3b2412" stroke-width="1"/>
+  </g>
+  <g transform="translate(320 30)">
+    <path d="M-84 -13 L84 -13 L94 0 L84 13 L-84 13 L-94 0 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <text y="1" class="war">⚔ 고구려-수 전쟁</text>
+  </g><text x="310.5" y="124.6" class="lbl hl">고구려</text>
   <g transform="translate(310.5 166.6)">
     <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
     <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-salsu)"/>
@@ -73,5 +85,6 @@
   .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
   .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
   .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+  .war { font-size: 13px; font-weight: 800; fill: #f4e8c8; dominant-baseline: middle; letter-spacing: 1px; }
 </style>
 </svg>

@@ -31,7 +31,23 @@
        <use href="#hl-tang-eastern-turks-12" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-tang-eastern-turks-12" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-tang-eastern-turks" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
-  <text x="315.1" y="152.8" class="lbl hl">동돌궐</text><text x="236.7" y="46.5" class="lbl">예니세이 키르기스</text><text x="545.1" y="245.9" class="lbl">고구려</text>
+  <g>
+    <path d="M213.6 262.8 L227.7 259.3 L245.1 258.3 L244.7 259.3 L252.2 261.0 L256.4 265.3 L258.7 265.3 L261.1 267.9 L265.7 268.8 L265.4 269.6 L269.0 270.6 L270.0 272.3 L278.1 272.3 L277.8 273.1 L280.2 273.1 L283.9 276.6 L291.7 277.5 L291.4 278.3 L297.5 279.2 L297.2 280.0 L301.2 280.0 L303.4 278.3 L310.8 280.0 L315.2 276.6 L318.8 275.8 L319.4 274.0 L328.7 270.6 L335.6 262.8 L347.0 256.6 L370.2 253.0 L400.2 241.5 L427.9 237.9 L427.5 238.8" fill="none" stroke="#c0301c" stroke-width="9" stroke-opacity="0.35" stroke-linejoin="round" filter="url(#glow-tang-eastern-turks)"/>
+    <path d="M213.6 262.8 L227.7 259.3 L245.1 258.3 L244.7 259.3 L252.2 261.0 L256.4 265.3 L258.7 265.3 L261.1 267.9 L265.7 268.8 L265.4 269.6 L269.0 270.6 L270.0 272.3 L278.1 272.3 L277.8 273.1 L280.2 273.1 L283.9 276.6 L291.7 277.5 L291.4 278.3 L297.5 279.2 L297.2 280.0 L301.2 280.0 L303.4 278.3 L310.8 280.0 L315.2 276.6 L318.8 275.8 L319.4 274.0 L328.7 270.6 L335.6 262.8 L347.0 256.6 L370.2 253.0 L400.2 241.5 L427.9 237.9 L427.5 238.8" fill="none" stroke="#b3261a" stroke-width="2.6" stroke-dasharray="7 3 2 3" stroke-linejoin="round"/>
+    <path d="M398.0 260.0 Q380.1 249.6 360.9 257.5" fill="none" stroke="#efe2c2" stroke-width="11" stroke-linecap="round" stroke-opacity="0.8"/>
+    <path d="M349.8 262.1 L356.7 247.4 L365.1 267.7 Z" fill="#efe2c2" stroke="#efe2c2" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <path d="M398.0 260.0 Q380.1 249.6 360.9 257.5" fill="none" stroke="#3b2412" stroke-width="6" stroke-linecap="round"/>
+    <path d="M398.0 260.0 Q380.1 249.6 360.9 257.5" fill="none" stroke="#efe2c2" stroke-width="1.2" stroke-dasharray="2 5" stroke-opacity="0.75"/>
+    <path d="M349.8 262.1 L356.7 247.4 L365.1 267.7 Z" fill="#3b2412" stroke="#3b2412" stroke-width="1"/><path d="M315.1 194.8 Q316.7 225.2 340.5 244.1" fill="none" stroke="#efe2c2" stroke-width="11" stroke-linecap="round" stroke-opacity="0.8"/>
+    <path d="M349.9 251.6 L333.7 252.7 L347.4 235.5 Z" fill="#efe2c2" stroke="#efe2c2" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <path d="M315.1 194.8 Q316.7 225.2 340.5 244.1" fill="none" stroke="#8f2a17" stroke-width="6" stroke-linecap="round"/>
+    <path d="M315.1 194.8 Q316.7 225.2 340.5 244.1" fill="none" stroke="#efe2c2" stroke-width="1.2" stroke-dasharray="2 5" stroke-opacity="0.75"/>
+    <path d="M349.9 251.6 L333.7 252.7 L347.4 235.5 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1"/>
+  </g>
+  <g transform="translate(320 30)">
+    <path d="M-84 -13 L84 -13 L94 0 L84 13 L-84 13 L-94 0 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <text y="1" class="war">⚔ 당-동돌궐 전쟁</text>
+  </g><text x="315.1" y="152.8" class="lbl hl">동돌궐</text><text x="545.1" y="245.9" class="lbl">고구려</text>
   <g transform="translate(315.1 194.8)">
     <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
     <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-tang-eastern-turks)"/>
@@ -81,5 +97,6 @@
   .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
   .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
   .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+  .war { font-size: 13px; font-weight: 800; fill: #f4e8c8; dominant-baseline: middle; letter-spacing: 1px; }
 </style>
 </svg>

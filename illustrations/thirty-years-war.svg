@@ -31,7 +31,19 @@
        <use href="#hl-thirty-years-war-16" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-thirty-years-war-16" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-thirty-years-war" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
-  <text x="207.8" y="125.7" class="lbl hl">신성 로마 제국</text><text x="460.1" y="261.2" class="lbl">합스부르크 군주국</text><text x="345.3" y="65.6" class="lbl">브란덴부르크 선제후국</text><text x="88.5" y="72.9" class="lbl">네덜란드 공화국</text><text x="328.6" y="150.1" class="lbl">작센 선제후국</text><text x="281.1" y="229.7" class="lbl">트리어 대주교령</text>
+  <g>
+    <path d="M67.8 242.5 L59.8 229.8 L59.5 217.4 L54.0 204.5 L59.2 201.2 M135.3 282.7 L132.8 282.7 L132.5 273.4 L137.8 270.2 L137.5 260.9 L132.2 258.0 L132.2 251.5 L142.4 254.8 M127.0 245.4 L121.7 242.5 L121.7 235.9 L127.0 235.9 L126.7 229.8 M67.8 242.5 L59.8 229.8 L59.5 217.4 L54.0 204.5 L59.2 201.2 M135.3 282.7 L132.8 282.7 L132.5 273.4 L137.8 270.2 L137.5 260.9 L132.2 258.0 L132.2 251.5 L142.4 254.8 M127.0 245.4 L121.7 242.5 L121.7 235.9 L127.0 235.9 L126.7 229.8 M39.2 142.9 L21.0 139.9 L20.7 133.0 L41.7 133.0 L41.7 136.5 M98.6 116.7 L101.1 109.7 L116.8 113.2 L119.3 106.7 L122.1 106.7 L122.1 103.2 L114.0 103.2 L114.0 99.7 L111.6 99.7 L111.3 86.6 L119.0 76.0 L131.9 69.4 L136.8 38.1 L128.8 35.0 L128.5 24.1 M39.2 142.9 L21.0 139.9 L20.7 133.0 L41.7 133.0 L41.7 136.5 M98.6 116.7 L101.1 109.7 L116.8 113.2 L119.3 106.7 L122.1 106.7 L122.1 103.2 L114.0 103.2 L114.0 99.7 L111.6 99.7 L111.3 86.6 L119.0 76.0 L131.9 69.4 L136.8 38.1 L128.8 35.0 L128.5 24.1" fill="none" stroke="#c0301c" stroke-width="9" stroke-opacity="0.35" stroke-linejoin="round" filter="url(#glow-thirty-years-war)"/>
+    <path d="M67.8 242.5 L59.8 229.8 L59.5 217.4 L54.0 204.5 L59.2 201.2 M135.3 282.7 L132.8 282.7 L132.5 273.4 L137.8 270.2 L137.5 260.9 L132.2 258.0 L132.2 251.5 L142.4 254.8 M127.0 245.4 L121.7 242.5 L121.7 235.9 L127.0 235.9 L126.7 229.8 M67.8 242.5 L59.8 229.8 L59.5 217.4 L54.0 204.5 L59.2 201.2 M135.3 282.7 L132.8 282.7 L132.5 273.4 L137.8 270.2 L137.5 260.9 L132.2 258.0 L132.2 251.5 L142.4 254.8 M127.0 245.4 L121.7 242.5 L121.7 235.9 L127.0 235.9 L126.7 229.8 M39.2 142.9 L21.0 139.9 L20.7 133.0 L41.7 133.0 L41.7 136.5 M98.6 116.7 L101.1 109.7 L116.8 113.2 L119.3 106.7 L122.1 106.7 L122.1 103.2 L114.0 103.2 L114.0 99.7 L111.6 99.7 L111.3 86.6 L119.0 76.0 L131.9 69.4 L136.8 38.1 L128.8 35.0 L128.5 24.1 M39.2 142.9 L21.0 139.9 L20.7 133.0 L41.7 133.0 L41.7 136.5 M98.6 116.7 L101.1 109.7 L116.8 113.2 L119.3 106.7 L122.1 106.7 L122.1 103.2 L114.0 103.2 L114.0 99.7 L111.6 99.7 L111.3 86.6 L119.0 76.0 L131.9 69.4 L136.8 38.1 L128.8 35.0 L128.5 24.1" fill="none" stroke="#b3261a" stroke-width="2.6" stroke-dasharray="7 3 2 3" stroke-linejoin="round"/>
+    <path d="M207.8 77.7 Q178.3 60.6 145.8 70.9" fill="none" stroke="#efe2c2" stroke-width="11" stroke-linecap="round" stroke-opacity="0.8"/>
+    <path d="M134.4 74.5 L142.5 60.4 L149.1 81.4 Z" fill="#efe2c2" stroke="#efe2c2" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <path d="M207.8 77.7 Q178.3 60.6 145.8 70.9" fill="none" stroke="#8f2a17" stroke-width="6" stroke-linecap="round"/>
+    <path d="M207.8 77.7 Q178.3 60.6 145.8 70.9" fill="none" stroke="#efe2c2" stroke-width="1.2" stroke-dasharray="2 5" stroke-opacity="0.75"/>
+    <path d="M134.4 74.5 L142.5 60.4 L149.1 81.4 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1"/>
+  </g>
+  <g transform="translate(320 30)">
+    <path d="M-70 -13 L70 -13 L80 0 L70 13 L-70 13 L-80 0 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <text y="1" class="war">⚔ 30년 전쟁</text>
+  </g><text x="207.8" y="125.7" class="lbl hl">신성 로마 제국</text><text x="460.1" y="261.2" class="lbl">합스부르크 군주국</text><text x="345.3" y="65.6" class="lbl">브란덴부르크 선제후국</text><text x="88.5" y="72.9" class="lbl">네덜란드 공화국</text><text x="328.6" y="150.1" class="lbl">작센 선제후국</text><text x="281.1" y="229.7" class="lbl">트리어 대주교령</text>
   <g transform="translate(207.8 77.7)">
     <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
     <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-thirty-years-war)"/>
@@ -73,5 +85,6 @@
   .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
   .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
   .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+  .war { font-size: 13px; font-weight: 800; fill: #f4e8c8; dominant-baseline: middle; letter-spacing: 1px; }
 </style>
 </svg>

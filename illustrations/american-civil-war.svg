@@ -31,7 +31,23 @@
        <use href="#hl-american-civil-war-8" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-american-civil-war-8" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-american-civil-war" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
-  <text x="341.4" y="115.3" class="lbl hl">미국</text><text x="376.6" y="248.4" class="lbl">아메리카 연합국</text><text x="286.1" y="232.3" class="lbl">코만체리아</text>
+  <g>
+    <path d="M442.7 198.7 L443.5 199.8 L441.8 199.2 L442.2 198.7 M427.3 192.7 L420.5 192.1 L420.3 188.8 L420.8 188.8 L420.2 187.2 L420.9 186.1 L420.5 185.0 L419.4 185.0 L419.4 187.7 L418.6 188.3 L418.5 191.0 L417.7 191.6 L418.1 192.7 L417.0 192.7 L416.6 194.3 L414.7 194.9 L413.8 196.5 L411.2 196.5 L410.2 198.1 L410.6 199.2 L409.8 199.8 L410.2 200.9 L407.9 200.3 L407.3 201.4 L407.6 202.5 L406.1 204.1 L406.0 203.6" fill="none" stroke="#c0301c" stroke-width="9" stroke-opacity="0.35" stroke-linejoin="round" filter="url(#glow-american-civil-war)"/>
+    <path d="M442.7 198.7 L443.5 199.8 L441.8 199.2 L442.2 198.7 M427.3 192.7 L420.5 192.1 L420.3 188.8 L420.8 188.8 L420.2 187.2 L420.9 186.1 L420.5 185.0 L419.4 185.0 L419.4 187.7 L418.6 188.3 L418.5 191.0 L417.7 191.6 L418.1 192.7 L417.0 192.7 L416.6 194.3 L414.7 194.9 L413.8 196.5 L411.2 196.5 L410.2 198.1 L410.6 199.2 L409.8 199.8 L410.2 200.9 L407.9 200.3 L407.3 201.4 L407.6 202.5 L406.1 204.1 L406.0 203.6" fill="none" stroke="#b3261a" stroke-width="2.6" stroke-dasharray="7 3 2 3" stroke-linejoin="round"/>
+    <path d="M376.6 248.4 Q397.1 235.9 400.3 212.0" fill="none" stroke="#efe2c2" stroke-width="11" stroke-linecap="round" stroke-opacity="0.8"/>
+    <path d="M401.9 200.1 L411.2 213.5 L389.4 210.6 Z" fill="#efe2c2" stroke="#efe2c2" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <path d="M376.6 248.4 Q397.1 235.9 400.3 212.0" fill="none" stroke="#3b2412" stroke-width="6" stroke-linecap="round"/>
+    <path d="M376.6 248.4 Q397.1 235.9 400.3 212.0" fill="none" stroke="#efe2c2" stroke-width="1.2" stroke-dasharray="2 5" stroke-opacity="0.75"/>
+    <path d="M401.9 200.1 L411.2 213.5 L389.4 210.6 Z" fill="#3b2412" stroke="#3b2412" stroke-width="1"/><path d="M341.4 157.3 Q361.0 187.0 396.2 192.7" fill="none" stroke="#efe2c2" stroke-width="11" stroke-linecap="round" stroke-opacity="0.8"/>
+    <path d="M408.0 194.6 L394.4 203.6 L397.9 181.8 Z" fill="#efe2c2" stroke="#efe2c2" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <path d="M341.4 157.3 Q361.0 187.0 396.2 192.7" fill="none" stroke="#8f2a17" stroke-width="6" stroke-linecap="round"/>
+    <path d="M341.4 157.3 Q361.0 187.0 396.2 192.7" fill="none" stroke="#efe2c2" stroke-width="1.2" stroke-dasharray="2 5" stroke-opacity="0.75"/>
+    <path d="M408.0 194.6 L394.4 203.6 L397.9 181.8 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1"/>
+  </g>
+  <g transform="translate(320 30)">
+    <path d="M-63 -13 L63 -13 L73 0 L63 13 L-63 13 L-73 0 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <text y="1" class="war">⚔ 남북 전쟁</text>
+  </g><text x="341.4" y="115.3" class="lbl hl">미국</text><text x="376.6" y="248.4" class="lbl">아메리카 연합국</text><text x="286.1" y="232.3" class="lbl">코만체리아</text>
   <g transform="translate(341.4 157.3)">
     <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
     <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-american-civil-war)"/>
@@ -73,5 +89,6 @@
   .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
   .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
   .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+  .war { font-size: 13px; font-weight: 800; fill: #f4e8c8; dominant-baseline: middle; letter-spacing: 1px; }
 </style>
 </svg>

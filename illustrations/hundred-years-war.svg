@@ -34,7 +34,23 @@
        <use href="#hl-hundred-years-war-26" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-hundred-years-war-26" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-hundred-years-war" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
-  <text x="328.5" y="129.9" class="lbl hl">프랑스 왕국</text><text x="470.8" y="110.3" class="lbl">신성 로마 제국</text><text x="504.5" y="269.1" class="lbl">교황령</text><text x="596.8" y="246.5" class="lbl">보스니아 반샤그</text><text x="374.9" y="245.7" class="lbl">콩타 브네생</text><text x="518.6" y="195.8" class="lbl">슈타이어마르크 공국</text>
+  <g>
+    <path d="M268.8 211.8 L271.5 210.1 L271.3 208.6 L281.4 213.2 L281.6 216.4 L284.3 216.4 L285.9 219.8 L289.8 246.4 L285.7 246.4 M284.2 274.0 L284.0 270.9 L288.1 267.9 L287.9 264.9 L300.1 258.7 L305.7 261.8 L303.0 264.9 L305.9 269.3 L306.0 274.0 M268.8 211.8 L271.5 210.1 L271.3 208.6 L281.4 213.2 L281.6 216.4 L284.3 216.4 L285.9 219.8 L289.8 244.8 L289.8 246.4 L284.3 246.4 L283.5 258.7 L278.0 257.1 L271.3 261.8 M268.8 211.8 L271.5 210.1 L271.3 208.6 L281.4 213.2 L281.6 216.4 L284.3 216.4 L285.9 219.8 L289.8 246.4 L285.7 246.4 M284.2 274.0 L284.0 270.9 L288.1 267.9 L287.9 264.9 L300.1 258.7 L305.7 261.8 L303.0 264.9 L305.9 269.3 L306.0 274.0 M268.8 211.8 L271.5 210.1 L271.3 208.6 L281.4 213.2 L281.6 216.4 L284.3 216.4 L285.9 219.8 L289.8 244.8 L289.8 246.4 L284.3 246.4 L283.5 258.7 L278.0 257.1 L271.3 261.8" fill="none" stroke="#c0301c" stroke-width="9" stroke-opacity="0.35" stroke-linejoin="round" filter="url(#glow-hundred-years-war)"/>
+    <path d="M268.8 211.8 L271.5 210.1 L271.3 208.6 L281.4 213.2 L281.6 216.4 L284.3 216.4 L285.9 219.8 L289.8 246.4 L285.7 246.4 M284.2 274.0 L284.0 270.9 L288.1 267.9 L287.9 264.9 L300.1 258.7 L305.7 261.8 L303.0 264.9 L305.9 269.3 L306.0 274.0 M268.8 211.8 L271.5 210.1 L271.3 208.6 L281.4 213.2 L281.6 216.4 L284.3 216.4 L285.9 219.8 L289.8 244.8 L289.8 246.4 L284.3 246.4 L283.5 258.7 L278.0 257.1 L271.3 261.8 M268.8 211.8 L271.5 210.1 L271.3 208.6 L281.4 213.2 L281.6 216.4 L284.3 216.4 L285.9 219.8 L289.8 246.4 L285.7 246.4 M284.2 274.0 L284.0 270.9 L288.1 267.9 L287.9 264.9 L300.1 258.7 L305.7 261.8 L303.0 264.9 L305.9 269.3 L306.0 274.0 M268.8 211.8 L271.5 210.1 L271.3 208.6 L281.4 213.2 L281.6 216.4 L284.3 216.4 L285.9 219.8 L289.8 244.8 L289.8 246.4 L284.3 246.4 L283.5 258.7 L278.0 257.1 L271.3 261.8" fill="none" stroke="#b3261a" stroke-width="2.6" stroke-dasharray="7 3 2 3" stroke-linejoin="round"/>
+    <path d="M265.4 34.0 Q240.5 119.5 280.2 199.3" fill="none" stroke="#efe2c2" stroke-width="11" stroke-linecap="round" stroke-opacity="0.8"/>
+    <path d="M285.5 210.0 L270.3 204.2 L290.0 194.4 Z" fill="#efe2c2" stroke="#efe2c2" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <path d="M265.4 34.0 Q240.5 119.5 280.2 199.3" fill="none" stroke="#3b2412" stroke-width="6" stroke-linecap="round"/>
+    <path d="M265.4 34.0 Q240.5 119.5 280.2 199.3" fill="none" stroke="#efe2c2" stroke-width="1.2" stroke-dasharray="2 5" stroke-opacity="0.75"/>
+    <path d="M285.5 210.0 L270.3 204.2 L290.0 194.4 Z" fill="#3b2412" stroke="#3b2412" stroke-width="1"/><path d="M328.5 171.9 Q302.8 179.5 291.9 204.0" fill="none" stroke="#efe2c2" stroke-width="11" stroke-linecap="round" stroke-opacity="0.8"/>
+    <path d="M287.1 215.0 L281.9 199.6 L302.0 208.4 Z" fill="#efe2c2" stroke="#efe2c2" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <path d="M328.5 171.9 Q302.8 179.5 291.9 204.0" fill="none" stroke="#8f2a17" stroke-width="6" stroke-linecap="round"/>
+    <path d="M328.5 171.9 Q302.8 179.5 291.9 204.0" fill="none" stroke="#efe2c2" stroke-width="1.2" stroke-dasharray="2 5" stroke-opacity="0.75"/>
+    <path d="M287.1 215.0 L281.9 199.6 L302.0 208.4 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1"/>
+  </g>
+  <g transform="translate(320 30)">
+    <path d="M-63 -13 L63 -13 L73 0 L63 13 L-63 13 L-73 0 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <text y="1" class="war">⚔ 백년 전쟁</text>
+  </g><text x="328.5" y="129.9" class="lbl hl">프랑스 왕국</text><text x="470.8" y="110.3" class="lbl">신성 로마 제국</text><text x="504.5" y="269.1" class="lbl">교황령</text><text x="596.8" y="246.5" class="lbl">보스니아 반샤그</text><text x="374.9" y="245.7" class="lbl">콩타 브네생</text><text x="518.6" y="195.8" class="lbl">슈타이어마르크 공국</text>
   <g transform="translate(328.5 171.9)">
     <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
     <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-hundred-years-war)"/>
@@ -76,5 +92,6 @@
   .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
   .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
   .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+  .war { font-size: 13px; font-weight: 800; fill: #f4e8c8; dominant-baseline: middle; letter-spacing: 1px; }
 </style>
 </svg>

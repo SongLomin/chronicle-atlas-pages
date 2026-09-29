@@ -31,7 +31,19 @@
        <use href="#hl-mohacs-23" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-mohacs-23" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-mohacs" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
-  <text x="319.4" y="131.2" class="lbl hl">헝가리 왕국</text><text x="210.7" y="54.6" class="lbl">보헤미아 왕국</text><text x="190.0" y="145.1" class="lbl">합스부르크 군주국</text><text x="496.2" y="171.5" class="lbl">몰다비아 공국</text><text x="433.0" y="254.5" class="lbl">왈라키아 공국</text><text x="122.8" y="209.6" class="lbl">베네치아 공화국</text><text x="48.1" y="229.1" class="lbl">밀라노 공국</text>
+  <g>
+    <path d="M220.3 280.0 L220.6 269.2 L226.6 266.8 L226.6 262.4 L221.0 258.0 L221.0 249.1 L227.1 242.3 L256.9 240.2 L270.4 246.7 L272.1 251.2 L279.9 253.6 L285.7 260.0 L291.5 260.0 L296.1 242.3 L288.3 235.4 L288.6 231.0 L284.7 226.5 L280.8 226.5 L267.5 210.5 L267.8 206.0 L273.8 201.4 L283.5 203.9 L296.6 224.4 L300.7 224.4 L315.7 244.7 L323.4 244.7 L325.1 251.2 L329.0 253.6 L345.0 249.1 L356.4 255.6 L358.1 260.0 L366.0 260.0 L372.1 253.6 L376.0 255.6 L371.9 260.0 L371.4 266.8" fill="none" stroke="#c0301c" stroke-width="9" stroke-opacity="0.35" stroke-linejoin="round" filter="url(#glow-mohacs)"/>
+    <path d="M220.3 280.0 L220.6 269.2 L226.6 266.8 L226.6 262.4 L221.0 258.0 L221.0 249.1 L227.1 242.3 L256.9 240.2 L270.4 246.7 L272.1 251.2 L279.9 253.6 L285.7 260.0 L291.5 260.0 L296.1 242.3 L288.3 235.4 L288.6 231.0 L284.7 226.5 L280.8 226.5 L267.5 210.5 L267.8 206.0 L273.8 201.4 L283.5 203.9 L296.6 224.4 L300.7 224.4 L315.7 244.7 L323.4 244.7 L325.1 251.2 L329.0 253.6 L345.0 249.1 L356.4 255.6 L358.1 260.0 L366.0 260.0 L372.1 253.6 L376.0 255.6 L371.9 260.0 L371.4 266.8" fill="none" stroke="#b3261a" stroke-width="2.6" stroke-dasharray="7 3 2 3" stroke-linejoin="round"/>
+    <path d="M606.0 260.0 Q497.5 170.8 357.7 184.8" fill="none" stroke="#efe2c2" stroke-width="11" stroke-linecap="round" stroke-opacity="0.8"/>
+    <path d="M345.7 186.0 L356.6 173.8 L358.8 195.7 Z" fill="#efe2c2" stroke="#efe2c2" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <path d="M606.0 260.0 Q497.5 170.8 357.7 184.8" fill="none" stroke="#3b2412" stroke-width="6" stroke-linecap="round"/>
+    <path d="M606.0 260.0 Q497.5 170.8 357.7 184.8" fill="none" stroke="#efe2c2" stroke-width="1.2" stroke-dasharray="2 5" stroke-opacity="0.75"/>
+    <path d="M345.7 186.0 L356.6 173.8 L358.8 195.7 Z" fill="#3b2412" stroke="#3b2412" stroke-width="1"/>
+  </g>
+  <g transform="translate(320 30)">
+    <path d="M-98 -13 L98 -13 L108 0 L98 13 L-98 13 L-108 0 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <text y="1" class="war">⚔ 오스만-헝가리 전쟁</text>
+  </g><text x="319.4" y="131.2" class="lbl hl">헝가리 왕국</text><text x="190.0" y="145.1" class="lbl">합스부르크 군주국</text><text x="496.2" y="171.5" class="lbl">몰다비아 공국</text><text x="433.0" y="254.5" class="lbl">왈라키아 공국</text><text x="122.8" y="209.6" class="lbl">베네치아 공화국</text><text x="48.1" y="229.1" class="lbl">밀라노 공국</text>
   <g transform="translate(319.4 173.2)">
     <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
     <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-mohacs)"/>
@@ -73,5 +85,6 @@
   .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
   .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
   .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+  .war { font-size: 13px; font-weight: 800; fill: #f4e8c8; dominant-baseline: middle; letter-spacing: 1px; }
 </style>
 </svg>

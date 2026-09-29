@@ -31,7 +31,19 @@
        <use href="#hl-qin-unification-5" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-qin-unification-5" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-qin-unification" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
-  <text x="290.7" y="175.1" class="lbl hl">진나라 (秦)</text>
+  <g>
+    <path d="M378.2 129.8 L379.1 129.8 L378.7 130.9 L373.7 131.8 L366.6 152.5 L354.6 164.9 L354.5 167.9 L368.3 170.7 L370.1 173.5 L379.6 175.4 L379.2 176.5 L386.4 174.5 L407.8 174.5 L402.7 178.2" fill="none" stroke="#c0301c" stroke-width="9" stroke-opacity="0.35" stroke-linejoin="round" filter="url(#glow-qin-unification)"/>
+    <path d="M378.2 129.8 L379.1 129.8 L378.7 130.9 L373.7 131.8 L366.6 152.5 L354.6 164.9 L354.5 167.9 L368.3 170.7 L370.1 173.5 L379.6 175.4 L379.2 176.5 L386.4 174.5 L407.8 174.5 L402.7 178.2" fill="none" stroke="#b3261a" stroke-width="2.6" stroke-dasharray="7 3 2 3" stroke-linejoin="round"/>
+    <path d="M290.7 217.1 Q326.0 208.2 343.4 176.4" fill="none" stroke="#efe2c2" stroke-width="11" stroke-linecap="round" stroke-opacity="0.8"/>
+    <path d="M349.2 165.9 L353.1 181.7 L333.8 171.1 Z" fill="#efe2c2" stroke="#efe2c2" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <path d="M290.7 217.1 Q326.0 208.2 343.4 176.4" fill="none" stroke="#8f2a17" stroke-width="6" stroke-linecap="round"/>
+    <path d="M290.7 217.1 Q326.0 208.2 343.4 176.4" fill="none" stroke="#efe2c2" stroke-width="1.2" stroke-dasharray="2 5" stroke-opacity="0.75"/>
+    <path d="M349.2 165.9 L353.1 181.7 L333.8 171.1 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1"/>
+  </g>
+  <g transform="translate(320 30)">
+    <path d="M-84 -13 L84 -13 L94 0 L84 13 L-84 13 L-94 0 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <text y="1" class="war">⚔ 진의 통일 전쟁</text>
+  </g><text x="290.7" y="175.1" class="lbl hl">진나라 (秦)</text>
   <g transform="translate(290.7 217.1)">
     <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
     <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-qin-unification)"/>
@@ -83,5 +95,6 @@
   .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
   .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
   .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+  .war { font-size: 13px; font-weight: 800; fill: #f4e8c8; dominant-baseline: middle; letter-spacing: 1px; }
 </style>
 </svg>

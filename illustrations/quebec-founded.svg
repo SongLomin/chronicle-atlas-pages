@@ -26,7 +26,7 @@
   <use href="#land-quebec-founded" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
   <use href="#land-quebec-founded" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
   <use href="#land-quebec-founded" fill="#efe2c2" stroke="none"/>
-  <g clip-path="url(#landclip-quebec-founded)"><path d="M284 244L282 235L284 231L283 226L288 224L286 223L285 217L273 214L274 216L263 220L262 224L254 227L251 233L246 235L245 238L246 241L244 241L247 248L245 250L245 255L239 256L240 257L237 257L236 260L216 259L215 271L214 272L218 279L246 280L258 284L259 278L262 278L265 271L274 267L273 265L277 265L283 255L282 249L285 250L283 245L284 245Z" fill="rgb(221,202,152)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <g clip-path="url(#landclip-quebec-founded)"><path d="M224 384L248 384L249 367L241 358L228 360L223 373Z" fill="rgb(171,210,195)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M284 244L282 235L284 231L283 226L288 224L286 223L285 217L273 214L274 216L263 220L262 224L254 227L251 233L246 235L245 238L246 241L244 241L247 248L245 250L245 255L239 256L240 257L237 257L236 260L216 259L215 271L214 272L218 279L246 280L258 284L259 278L262 278L265 271L274 267L273 265L277 265L283 255L282 249L285 250L283 245L284 245Z" fill="rgb(221,202,152)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
   <use href="#land-quebec-founded" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
   <text x="256.9" y="250.4" class="lbl">이로쿼이 연맹</text>
   <g transform="translate(320.0 184.2)">

@@ -31,7 +31,23 @@
        <use href="#hl-ain-jalut-27" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-ain-jalut-27" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-ain-jalut" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
-  <text x="288.0" y="117.8" class="lbl hl">맘루크 술탄국</text><text x="72.1" y="58.4" class="lbl">하프스 왕조</text><text x="331.9" y="255.3" class="lbl">마쿠리아 왕국</text><text x="598.1" y="216.9" class="lbl">마흐디 왕조</text><text x="529.8" y="192.2" class="lbl">바흐라니 왕조</text><text x="360.9" y="38.8" class="lbl">킬리키아 아르메니아 왕국</text><text x="250.5" y="67.3" class="lbl">베네치아 공화국</text>
+  <g>
+    <path d="M405.1 85.9 L404.2 85.9 L402.3 80.1 L386.5 80.8 L379.7 82.5 L372.8 85.9 L369.2 89.1 L369.1 90.8 L367.4 90.8 L364.4 98.2 L361.7 100.7 L360.2 99.0" fill="none" stroke="#c0301c" stroke-width="9" stroke-opacity="0.35" stroke-linejoin="round" filter="url(#glow-ain-jalut)"/>
+    <path d="M405.1 85.9 L404.2 85.9 L402.3 80.1 L386.5 80.8 L379.7 82.5 L372.8 85.9 L369.2 89.1 L369.1 90.8 L367.4 90.8 L364.4 98.2 L361.7 100.7 L360.2 99.0" fill="none" stroke="#b3261a" stroke-width="2.6" stroke-dasharray="7 3 2 3" stroke-linejoin="round"/>
+    <path d="M606.0 34.0 Q478.2 20.5 373.7 95.4" fill="none" stroke="#efe2c2" stroke-width="11" stroke-linecap="round" stroke-opacity="0.8"/>
+    <path d="M364.0 102.4 L367.3 86.5 L380.2 104.4 Z" fill="#efe2c2" stroke="#efe2c2" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <path d="M606.0 34.0 Q478.2 20.5 373.7 95.4" fill="none" stroke="#3b2412" stroke-width="6" stroke-linecap="round"/>
+    <path d="M606.0 34.0 Q478.2 20.5 373.7 95.4" fill="none" stroke="#efe2c2" stroke-width="1.2" stroke-dasharray="2 5" stroke-opacity="0.75"/>
+    <path d="M364.0 102.4 L367.3 86.5 L380.2 104.4 Z" fill="#3b2412" stroke="#3b2412" stroke-width="1"/><path d="M288.0 159.8 Q329.7 146.9 349.5 108.0" fill="none" stroke="#efe2c2" stroke-width="11" stroke-linecap="round" stroke-opacity="0.8"/>
+    <path d="M354.9 97.3 L359.3 113.0 L339.7 103.0 Z" fill="#efe2c2" stroke="#efe2c2" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <path d="M288.0 159.8 Q329.7 146.9 349.5 108.0" fill="none" stroke="#8f2a17" stroke-width="6" stroke-linecap="round"/>
+    <path d="M288.0 159.8 Q329.7 146.9 349.5 108.0" fill="none" stroke="#efe2c2" stroke-width="1.2" stroke-dasharray="2 5" stroke-opacity="0.75"/>
+    <path d="M354.9 97.3 L359.3 113.0 L339.7 103.0 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1"/>
+  </g>
+  <g transform="translate(320 30)">
+    <path d="M-91 -13 L91 -13 L101 0 L91 13 L-91 13 L-101 0 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <text y="1" class="war">⚔ 몽골-맘루크 전쟁</text>
+  </g><text x="288.0" y="117.8" class="lbl hl">맘루크 술탄국</text><text x="72.1" y="58.4" class="lbl">하프스 왕조</text><text x="331.9" y="255.3" class="lbl">마쿠리아 왕국</text><text x="598.1" y="216.9" class="lbl">마흐디 왕조</text><text x="529.8" y="192.2" class="lbl">바흐라니 왕조</text><text x="250.5" y="67.3" class="lbl">베네치아 공화국</text>
   <g transform="translate(288.0 159.8)">
     <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
     <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-ain-jalut)"/>
@@ -73,5 +89,6 @@
   .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
   .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
   .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+  .war { font-size: 13px; font-weight: 800; fill: #f4e8c8; dominant-baseline: middle; letter-spacing: 1px; }
 </style>
 </svg>

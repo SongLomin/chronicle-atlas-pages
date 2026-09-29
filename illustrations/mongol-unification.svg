@@ -31,7 +31,23 @@
        <use href="#hl-mongol-unification-13" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-mongol-unification-13" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-mongol-unification" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
-  <text x="322.4" y="157.9" class="lbl hl">몽골 제국</text><text x="87.7" y="267.5" class="lbl">서요</text><text x="461.1" y="240.1" class="lbl">금나라</text><text x="203.5" y="93.0" class="lbl">예니세이 키르기스</text>
+  <g>
+    <path d="M347.6 276.2 L336.2 277.0 L336.5 276.2 L332.3 276.2 L332.7 275.5 L323.2 274.7 L313.4 278.6 L302.4 280.1 L272.2 279.2 L269.4 275.5 L270.0 274.0 L265.9 266.4 L262.3 264.9 L262.8 263.4 L255.7 261.9 L254.9 260.3 L253.5 260.3 L253.4 258.8 L250.9 257.9 L251.2 257.2 L228.1 257.2 L228.3 256.4 L220.9 255.7" fill="none" stroke="#c0301c" stroke-width="9" stroke-opacity="0.35" stroke-linejoin="round" filter="url(#glow-mongol-unification)"/>
+    <path d="M347.6 276.2 L336.2 277.0 L336.5 276.2 L332.3 276.2 L332.7 275.5 L323.2 274.7 L313.4 278.6 L302.4 280.1 L272.2 279.2 L269.4 275.5 L270.0 274.0 L265.9 266.4 L262.3 264.9 L262.8 263.4 L255.7 261.9 L254.9 260.3 L253.5 260.3 L253.4 258.8 L250.9 257.9 L251.2 257.2 L228.1 257.2 L228.3 256.4 L220.9 255.7" fill="none" stroke="#b3261a" stroke-width="2.6" stroke-dasharray="7 3 2 3" stroke-linejoin="round"/>
+    <path d="M262.6 260.0 Q285.9 270.9 309.2 260.0" fill="none" stroke="#efe2c2" stroke-width="11" stroke-linecap="round" stroke-opacity="0.8"/>
+    <path d="M320.1 254.9 L313.9 270.0 L304.5 250.0 Z" fill="#efe2c2" stroke="#efe2c2" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <path d="M262.6 260.0 Q285.9 270.9 309.2 260.0" fill="none" stroke="#3b2412" stroke-width="6" stroke-linecap="round"/>
+    <path d="M262.6 260.0 Q285.9 270.9 309.2 260.0" fill="none" stroke="#efe2c2" stroke-width="1.2" stroke-dasharray="2 5" stroke-opacity="0.75"/>
+    <path d="M320.1 254.9 L313.9 270.0 L304.5 250.0 Z" fill="#3b2412" stroke="#3b2412" stroke-width="1"/><path d="M322.4 199.9 Q311.9 223.1 323.0 246.0" fill="none" stroke="#efe2c2" stroke-width="11" stroke-linecap="round" stroke-opacity="0.8"/>
+    <path d="M328.3 256.8 L313.1 250.8 L332.9 241.2 Z" fill="#efe2c2" stroke="#efe2c2" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <path d="M322.4 199.9 Q311.9 223.1 323.0 246.0" fill="none" stroke="#8f2a17" stroke-width="6" stroke-linecap="round"/>
+    <path d="M322.4 199.9 Q311.9 223.1 323.0 246.0" fill="none" stroke="#efe2c2" stroke-width="1.2" stroke-dasharray="2 5" stroke-opacity="0.75"/>
+    <path d="M328.3 256.8 L313.1 250.8 L332.9 241.2 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1"/>
+  </g>
+  <g transform="translate(320 30)">
+    <path d="M-91 -13 L91 -13 L101 0 L91 13 L-91 13 L-101 0 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <text y="1" class="war">⚔ 몽골의 서하 정벌</text>
+  </g><text x="322.4" y="157.9" class="lbl hl">몽골 제국</text><text x="87.7" y="267.5" class="lbl">서요</text><text x="461.1" y="240.1" class="lbl">금나라</text><text x="203.5" y="93.0" class="lbl">예니세이 키르기스</text>
   <g transform="translate(322.4 199.9)">
     <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
     <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-mongol-unification)"/>
@@ -83,5 +99,6 @@
   .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
   .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
   .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+  .war { font-size: 13px; font-weight: 800; fill: #f4e8c8; dominant-baseline: middle; letter-spacing: 1px; }
 </style>
 </svg>

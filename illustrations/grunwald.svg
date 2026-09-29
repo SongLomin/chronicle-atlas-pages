@@ -31,7 +31,23 @@
        <use href="#hl-grunwald-31" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-grunwald-31" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-grunwald" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
-  <text x="314.3" y="137.6" class="lbl hl">리투아니아 대공국</text><text x="502.7" y="207.5" class="lbl">킵차크 칸국</text><text x="77.4" y="207.8" class="lbl">신성 로마 제국</text><text x="484.9" y="66.2" class="lbl">모스크바 대공국</text><text x="301.4" y="85.6" class="lbl">프스코프 공화국</text><text x="396.3" y="89.8" class="lbl">트베리</text>
+  <g>
+    <path d="M150.0 183.5 L157.0 179.5 L156.1 174.5 L157.1 174.5 L157.2 170.5 L159.2 169.3 L159.3 166.6 L161.4 165.2 L160.4 161.3 L163.4 161.3 L165.3 165.2 L168.3 165.2 L171.2 169.3 L173.2 166.6 L184.1 168.0 L184.9 173.2 L186.8 173.2 L189.6 178.3 L194.6 177.0 L198.7 171.8 L206.5 175.7 L209.6 171.8 L212.6 171.8 L216.8 168.0 L229.8 165.2 M150.0 183.5 L157.0 179.5 L156.1 174.5 L157.1 174.5 L157.2 170.5 L159.2 169.3 L159.3 166.6 L161.4 165.2 L160.4 161.3 L163.4 161.3 L165.3 165.2 L168.3 165.2 L171.2 169.3 L173.2 166.6 L184.1 168.0 L184.9 173.2 L186.8 173.2 L189.6 178.3 L194.6 177.0 L198.7 171.8 L206.5 175.7 L209.6 171.8 L212.6 171.8 L216.8 168.0 L229.8 165.2 M292.8 100.6 L292.7 102.1 L295.5 105.0 L295.8 113.5 L293.8 113.5 L288.0 122.0 L281.1 120.5 L276.8 123.4 L269.1 117.7 L263.6 124.8 L263.2 128.9 L243.6 135.8 L242.1 144.0 L237.0 146.6 L235.8 149.4 L232.8 149.4 L232.6 152.1 L230.5 153.3 L230.3 157.4 L231.3 157.4 L229.8 165.2" fill="none" stroke="#c0301c" stroke-width="9" stroke-opacity="0.35" stroke-linejoin="round" filter="url(#glow-grunwald)"/>
+    <path d="M150.0 183.5 L157.0 179.5 L156.1 174.5 L157.1 174.5 L157.2 170.5 L159.2 169.3 L159.3 166.6 L161.4 165.2 L160.4 161.3 L163.4 161.3 L165.3 165.2 L168.3 165.2 L171.2 169.3 L173.2 166.6 L184.1 168.0 L184.9 173.2 L186.8 173.2 L189.6 178.3 L194.6 177.0 L198.7 171.8 L206.5 175.7 L209.6 171.8 L212.6 171.8 L216.8 168.0 L229.8 165.2 M150.0 183.5 L157.0 179.5 L156.1 174.5 L157.1 174.5 L157.2 170.5 L159.2 169.3 L159.3 166.6 L161.4 165.2 L160.4 161.3 L163.4 161.3 L165.3 165.2 L168.3 165.2 L171.2 169.3 L173.2 166.6 L184.1 168.0 L184.9 173.2 L186.8 173.2 L189.6 178.3 L194.6 177.0 L198.7 171.8 L206.5 175.7 L209.6 171.8 L212.6 171.8 L216.8 168.0 L229.8 165.2 M292.8 100.6 L292.7 102.1 L295.5 105.0 L295.8 113.5 L293.8 113.5 L288.0 122.0 L281.1 120.5 L276.8 123.4 L269.1 117.7 L263.6 124.8 L263.2 128.9 L243.6 135.8 L242.1 144.0 L237.0 146.6 L235.8 149.4 L232.8 149.4 L232.6 152.1 L230.5 153.3 L230.3 157.4 L231.3 157.4 L229.8 165.2" fill="none" stroke="#b3261a" stroke-width="2.6" stroke-dasharray="7 3 2 3" stroke-linejoin="round"/>
+    <path d="M235.6 117.8 Q254.1 128.8 274.0 120.9" fill="none" stroke="#efe2c2" stroke-width="11" stroke-linecap="round" stroke-opacity="0.8"/>
+    <path d="M285.2 116.4 L278.1 131.1 L270.0 110.6 Z" fill="#efe2c2" stroke="#efe2c2" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <path d="M235.6 117.8 Q254.1 128.8 274.0 120.9" fill="none" stroke="#3b2412" stroke-width="6" stroke-linecap="round"/>
+    <path d="M235.6 117.8 Q254.1 128.8 274.0 120.9" fill="none" stroke="#efe2c2" stroke-width="1.2" stroke-dasharray="2 5" stroke-opacity="0.75"/>
+    <path d="M285.2 116.4 L278.1 131.1 L270.0 110.6 Z" fill="#3b2412" stroke="#3b2412" stroke-width="1"/><path d="M314.3 179.6 Q314.4 152.4 293.8 134.7" fill="none" stroke="#efe2c2" stroke-width="11" stroke-linecap="round" stroke-opacity="0.8"/>
+    <path d="M284.7 126.9 L301.0 126.4 L286.6 143.0 Z" fill="#efe2c2" stroke="#efe2c2" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <path d="M314.3 179.6 Q314.4 152.4 293.8 134.7" fill="none" stroke="#8f2a17" stroke-width="6" stroke-linecap="round"/>
+    <path d="M314.3 179.6 Q314.4 152.4 293.8 134.7" fill="none" stroke="#efe2c2" stroke-width="1.2" stroke-dasharray="2 5" stroke-opacity="0.75"/>
+    <path d="M284.7 126.9 L301.0 126.4 L286.6 143.0 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1"/>
+  </g>
+  <g transform="translate(320 30)">
+    <path d="M-133 -13 L133 -13 L143 0 L133 13 L-133 13 L-143 0 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <text y="1" class="war">⚔ 폴란드-리투아니아-튜턴 전쟁</text>
+  </g><text x="314.3" y="137.6" class="lbl hl">리투아니아 대공국</text><text x="502.7" y="207.5" class="lbl">킵차크 칸국</text><text x="77.4" y="207.8" class="lbl">신성 로마 제국</text><text x="484.9" y="66.2" class="lbl">모스크바 대공국</text><text x="301.4" y="85.6" class="lbl">프스코프 공화국</text><text x="396.3" y="89.8" class="lbl">트베리</text>
   <g transform="translate(314.3 179.6)">
     <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
     <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-grunwald)"/>
@@ -73,5 +89,6 @@
   .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
   .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
   .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+  .war { font-size: 13px; font-weight: 800; fill: #f4e8c8; dominant-baseline: middle; letter-spacing: 1px; }
 </style>
 </svg>

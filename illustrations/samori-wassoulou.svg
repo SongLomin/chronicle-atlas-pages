@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="사모리 투레의 와술루 제국">
+<defs>
+  <clipPath id="frame-samori-wassoulou"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-samori-wassoulou" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-samori-wassoulou" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-samori-wassoulou" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="86" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-samori-wassoulou" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-samori-wassoulou"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-samori-wassoulou" d="M-24 -2L-21 0L-17 8L-12 11L-12 14L-5 24L-5 33L-3 24L0 23L-3 26L0 27L5 21L8 20L7 19L11 20L8 20L2 25L4 25L3 27L0 28L-2 27L-4 29L-2 36L0 33L4 32L7 27L5 32L7 35L5 33L3 33L1 40L2 41L6 37L6 40L3 42L4 48L6 51L5 53L13 54L14 51L15 53L20 49L35 49L44 46L52 49L54 47L52 50L44 47L41 49L20 50L17 54L18 57L20 57L17 57L16 55L11 57L8 57L11 59L9 59L9 57L2 54L1 50L2 49L-1 47L-7 54L-4 66L-6 80L-2 79L-5 81L-4 85L0 83L2 76L1 81L3 80L6 83L6 80L7 81L6 83L11 86L13 84L23 83L25 79L29 84L35 83L40 86L44 82L44 76L50 75L50 76L48 75L45 77L46 83L40 87L37 85L32 86L25 83L18 85L14 84L11 86L6 84L5 86L3 83L-6 89L-3 96L-1 95L3 98L8 102L12 101L13 97L14 100L23 94L16 99L12 105L13 109L21 114L27 112L31 108L37 108L37 110L35 109L31 110L29 114L28 120L31 116L32 118L34 114L37 115L34 114L33 119L49 110L57 113L62 110L66 110L63 115L69 119L63 117L63 111L58 114L48 114L45 117L44 122L46 121L47 123L49 121L47 125L48 127L49 125L51 126L50 123L52 125L52 122L53 124L55 122L53 121L55 119L56 122L57 119L59 120L57 123L61 121L59 123L62 122L61 124L64 123L63 125L66 125L61 127L60 126L62 126L61 124L60 125L58 123L58 126L55 124L56 126L54 125L53 126L54 128L52 127L52 128L50 128L50 130L47 130L46 136L52 131L52 134L55 132L53 135L50 135L49 138L52 144L57 145L58 140L57 146L55 148L57 150L66 141L66 144L63 145L61 151L64 150L63 153L65 151L63 155L68 159L67 155L70 153L68 150L70 151L69 148L72 151L74 149L74 150L76 150L79 147L79 148L73 153L74 157L76 155L74 160L76 162L80 157L77 162L79 162L78 164L86 154L81 162L81 165L82 166L79 169L80 171L85 170L84 173L87 177L88 182L91 181L95 184L96 183L97 186L100 183L99 187L101 188L102 185L106 182L103 186L106 187L104 187L104 189L112 196L116 196L119 193L116 198L117 201L120 200L120 197L122 200L124 199L117 210L122 208L124 211L127 208L125 213L130 213L129 216L130 219L131 220L134 216L133 224L135 224L137 220L136 223L140 223L136 224L133 228L134 232L139 234L143 233L140 236L147 237L138 237L136 238L136 244L140 250L142 248L140 244L143 246L145 245L142 247L144 248L149 247L151 244L149 248L151 248L145 249L141 252L145 256L138 252L135 251L135 254L139 260L139 264L147 261L147 264L151 267L150 270L153 275L148 275L153 280L156 279L155 281L158 283L162 284L168 280L164 285L167 285L167 289L179 287L174 290L169 290L166 294L171 296L166 296L192 306L201 312L203 312L211 318L212 324L230 332L234 336L236 336L234 340L251 347L248 344L253 346L252 348L264 356L264 358L282 373L282 375L286 376L292 384L492 384L506 383L504 381L499 381L483 383L484 384L474 384L479 380L479 382L477 382L479 383L484 381L483 380L488 382L487 380L492 381L495 380L506 381L508 380L506 380L510 378L516 381L514 377L516 377L517 381L506 381L512 384L534 384L536 383L534 382L536 378L540 377L541 379L539 384L631 384L634 384L640 378L646 377L651 372L664 368L664 -24L-9 -24L-20 -12L-24 -9ZM9 128L9 130L13 130L16 126L9 128ZM14 131L17 132L19 129L14 131ZM15 140L19 141L20 138L16 138L15 140ZM16 145L18 148L23 148L24 142L22 141L16 145ZM19 114L20 117L24 119L27 113L19 114ZM23 131L25 133L30 131L30 126L28 125L23 131ZM24 143L25 147L27 145L27 141L24 143ZM27 148L31 147L28 142L27 146L29 146L27 148ZM30 140L32 141L33 137L30 140ZM35 142L37 143L38 139L40 140L40 137L36 138L35 142ZM37 131L39 132L40 130L37 131ZM41 128L43 129L43 127L47 127L47 124L41 128ZM148 289L162 292L163 296L165 295L166 289L163 286L151 287L148 289Z"/>
+  <clipPath id="landclip-samori-wassoulou"><use href="#land-samori-wassoulou"/></clipPath>
+  <path id="hl-samori-wassoulou-9" d="M246 231L346 251L394 198L406 137L354 109L274 125L234 182Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-samori-wassoulou)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-samori-wassoulou)"/>
+  <use href="#land-samori-wassoulou" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-samori-wassoulou" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-samori-wassoulou" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-samori-wassoulou)"><path d="M618 231L664 237L664 178L642 166L610 190Z" fill="rgb(215,190,127)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M558 133L658 146L664 138L664 45L626 27L566 43L546 88Z" fill="rgb(229,199,155)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M114 178L194 190L214 137L194 101L138 97L98 137Z" fill="rgb(221,176,178)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M315 292L315 284L323 282L335 302L335 315L323 334L347 339L370 365L370 380L368 384L288 384L256 352L239 346L233 336L218 331L204 315L204 313L210 313L212 302L230 287L236 287L256 251L279 248L285 253L291 271L288 295L306 302L312 292Z" fill="rgb(234,193,182)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M15 117L11 102L3 102L-6 94L-6 83L2 83L2 75L23 78L26 91L20 94L29 94L29 102L23 102L23 107L41 107L44 115L41 117L41 120L24 120L21 115Z" fill="rgb(165,190,146)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M206 68L346 97L466 68L526 6L511 -24L254 -24L246 -23L194 18Z" fill="rgb(221,200,151)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M604 243L607 245L612 235L618 235L624 243L636 245L636 251L650 264L662 269L664 275L664 362L653 362L641 372L599 384L557 384L556 383L554 384L536 384L533 378L530 378L521 384L513 384L513 378L519 378L519 372L524 370L522 362L525 339L516 334L516 326L510 323L513 315L510 308L522 305L519 302L522 290L519 284L513 287L507 282L501 264L542 258L551 240L563 232L574 243L574 253L580 264L595 258L586 253L589 243L601 243Z" fill="rgb(198,204,212)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M180 12L180 9L177 9L177 4L162 -4L162 -7L159 -7L159 -10L153 -10L153 -15L141 -24L173 -24L191 -7L215 6L218 17L200 20L188 9L183 9L183 12ZM-24 -11L-18 -12L-15 -4L-9 -7L-2 14L4 14L1 30L-5 30L-11 12L-14 12L-14 6L-24 -2Z" fill="rgb(165,173,190)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M212 302L210 313L201 313L177 305L166 295L148 292L148 284L157 282L151 282L148 266L133 258L133 251L142 248L133 245L139 235L133 232L133 227L145 227L151 222L168 193L212 188L229 198L232 209L238 212L238 225L244 230L247 245L244 245L239 258L253 251L256 251L236 287L230 287ZM-7 65L-7 51L4 49L7 41L19 43L13 49L16 54L11 57L14 62Z" fill="rgb(217,156,137)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-samori-wassoulou-9" fill="rgb(179,107,80)" stroke="none"/>
+       <use href="#hl-samori-wassoulou-9" fill="url(#hatch-samori-wassoulou)" stroke="none"/>
+       <use href="#hl-samori-wassoulou-9" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-samori-wassoulou-9" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-samori-wassoulou" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="317.6" y="138.0" class="lbl hl">와술루 제국</text><text x="158.4" y="142.0" class="lbl">푸타잘롱 이맘국</text>
+  <g transform="translate(317.6 180.0)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-samori-wassoulou)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-samori-wassoulou)"/>
+  <rect width="640" height="360" fill="url(#vignette-samori-wassoulou)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">건국</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">사모리 투레의 와술루 제국</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1878년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

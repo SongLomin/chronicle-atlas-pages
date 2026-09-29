@@ -31,7 +31,23 @@
        <use href="#hl-german-empire-16" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-german-empire-16" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-german-empire" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
-  <text x="318.3" y="124.3" class="lbl hl">독일 제국</text><text x="221.0" y="203.2" class="lbl">벨기에</text>
+  <g>
+    <path d="M172.5 212.9 L177.8 224.7 L178.2 236.3 L175.9 237.8 L172.8 249.3 L163.5 253.4 L164.8 254.9 L165.3 264.7 L167.8 270.4 L170.1 270.4 L171.4 273.1 L183.5 280.1 L188.2 280.1 L191.4 275.9 L193.9 275.9 L194.8 270.4 L206.4 263.4 L215.8 264.7 L232.1 260.4 L234.5 263.4 L251.2 266.2 L252.5 273.1 M172.5 212.9 L177.8 224.7 L178.2 236.3 L175.9 237.8 L172.8 249.3 L163.5 253.4 L164.8 254.9 L165.3 264.7 L167.8 270.4 L170.1 270.4 L171.4 273.1 L183.5 280.1 L188.2 280.1 L191.4 275.9 L193.9 275.9 L194.8 270.4 L206.4 263.4 L215.8 264.7 L232.1 260.4 L234.5 263.4 L251.2 266.2 L252.5 273.1" fill="none" stroke="#c0301c" stroke-width="9" stroke-opacity="0.35" stroke-linejoin="round" filter="url(#glow-german-empire)"/>
+    <path d="M172.5 212.9 L177.8 224.7 L178.2 236.3 L175.9 237.8 L172.8 249.3 L163.5 253.4 L164.8 254.9 L165.3 264.7 L167.8 270.4 L170.1 270.4 L171.4 273.1 L183.5 280.1 L188.2 280.1 L191.4 275.9 L193.9 275.9 L194.8 270.4 L206.4 263.4 L215.8 264.7 L232.1 260.4 L234.5 263.4 L251.2 266.2 L252.5 273.1 M172.5 212.9 L177.8 224.7 L178.2 236.3 L175.9 237.8 L172.8 249.3 L163.5 253.4 L164.8 254.9 L165.3 264.7 L167.8 270.4 L170.1 270.4 L171.4 273.1 L183.5 280.1 L188.2 280.1 L191.4 275.9 L193.9 275.9 L194.8 270.4 L206.4 263.4 L215.8 264.7 L232.1 260.4 L234.5 263.4 L251.2 266.2 L252.5 273.1" fill="none" stroke="#b3261a" stroke-width="2.6" stroke-dasharray="7 3 2 3" stroke-linejoin="round"/>
+    <path d="M162.4 260.0 Q199.8 276.0 237.2 260.0" fill="none" stroke="#efe2c2" stroke-width="11" stroke-linecap="round" stroke-opacity="0.8"/>
+    <path d="M248.2 255.3 L241.5 270.1 L232.9 249.9 Z" fill="#efe2c2" stroke="#efe2c2" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <path d="M162.4 260.0 Q199.8 276.0 237.2 260.0" fill="none" stroke="#3b2412" stroke-width="6" stroke-linecap="round"/>
+    <path d="M162.4 260.0 Q199.8 276.0 237.2 260.0" fill="none" stroke="#efe2c2" stroke-width="1.2" stroke-dasharray="2 5" stroke-opacity="0.75"/>
+    <path d="M248.2 255.3 L241.5 270.1 L232.9 249.9 Z" fill="#3b2412" stroke="#3b2412" stroke-width="1"/><path d="M318.3 166.3 Q272.0 195.4 259.3 248.6" fill="none" stroke="#efe2c2" stroke-width="11" stroke-linecap="round" stroke-opacity="0.8"/>
+    <path d="M256.6 260.3 L248.6 246.1 L270.0 251.2 Z" fill="#efe2c2" stroke="#efe2c2" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <path d="M318.3 166.3 Q272.0 195.4 259.3 248.6" fill="none" stroke="#8f2a17" stroke-width="6" stroke-linecap="round"/>
+    <path d="M318.3 166.3 Q272.0 195.4 259.3 248.6" fill="none" stroke="#efe2c2" stroke-width="1.2" stroke-dasharray="2 5" stroke-opacity="0.75"/>
+    <path d="M256.6 260.3 L248.6 246.1 L270.0 251.2 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1"/>
+  </g>
+  <g transform="translate(320 30)">
+    <path d="M-105 -13 L105 -13 L115 0 L105 13 L-105 13 L-115 0 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <text y="1" class="war">⚔ 프로이센-프랑스 전쟁</text>
+  </g><text x="318.3" y="124.3" class="lbl hl">독일 제국</text><text x="221.0" y="203.2" class="lbl">벨기에</text>
   <g transform="translate(318.3 166.3)">
     <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
     <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-german-empire)"/>
@@ -83,5 +99,6 @@
   .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
   .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
   .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+  .war { font-size: 13px; font-weight: 800; fill: #f4e8c8; dominant-baseline: middle; letter-spacing: 1px; }
 </style>
 </svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="푸타잘롱 이맘국의 성립">
+<defs>
+  <clipPath id="frame-futa-jallon-imamate"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-futa-jallon-imamate" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-futa-jallon-imamate" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-futa-jallon-imamate" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="189" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-futa-jallon-imamate" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-futa-jallon-imamate"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-futa-jallon-imamate" d="M129 32L132 36L133 33L141 35L147 44L152 47L152 51L159 61L159 70L161 61L164 59L161 63L164 63L169 57L172 57L171 55L175 56L172 57L166 61L168 62L167 64L164 65L162 64L160 65L162 73L164 70L168 69L171 63L169 68L171 71L169 69L167 70L165 77L166 78L170 74L170 76L167 78L168 84L170 87L169 90L177 90L178 88L179 90L184 86L199 85L208 83L216 86L218 84L216 86L208 83L205 86L184 87L181 91L182 94L184 93L181 94L180 91L175 94L172 93L175 96L173 96L173 94L166 91L165 87L166 85L163 84L157 91L160 103L158 116L162 115L159 118L160 122L164 120L166 113L165 118L167 117L170 120L170 116L171 118L170 120L175 122L177 120L187 119L189 116L193 121L199 120L204 122L208 119L208 113L214 111L214 112L209 113L210 119L204 123L201 121L196 123L189 119L182 122L178 121L175 123L170 121L169 122L167 119L159 124L158 128L161 132L163 132L167 134L172 138L176 137L177 134L178 137L187 131L180 136L176 142L177 146L185 150L191 148L195 144L201 145L201 147L199 145L195 147L193 150L192 156L195 153L196 155L198 150L201 151L198 151L197 156L213 147L221 149L226 146L230 146L227 151L233 155L227 153L227 148L222 151L212 150L209 154L208 159L210 157L211 160L213 158L211 161L212 163L213 161L215 162L214 159L216 162L216 158L217 160L219 159L217 157L219 156L220 159L221 155L223 157L221 159L225 157L223 159L226 158L225 160L228 160L227 162L230 161L225 164L224 162L226 162L225 161L224 162L222 160L222 163L219 161L220 163L218 162L217 163L218 164L216 163L216 165L214 165L214 166L211 166L210 172L216 167L216 171L219 169L217 171L214 171L213 175L216 180L221 181L222 177L221 183L219 185L221 186L230 177L230 180L227 182L225 187L228 186L227 189L229 188L227 192L232 196L231 191L234 189L232 187L234 188L233 185L236 188L238 186L238 187L240 187L243 184L243 185L237 190L238 193L240 191L238 197L240 198L244 194L241 198L243 199L242 201L250 191L245 199L245 202L246 202L243 205L244 208L249 206L248 210L251 213L252 218L255 217L259 220L260 219L261 223L264 220L263 223L265 225L266 221L270 219L267 222L270 224L268 224L268 226L276 233L280 232L283 229L280 235L281 237L284 237L284 233L286 236L288 235L281 247L286 244L288 247L291 244L289 249L294 250L293 252L294 256L295 256L298 253L297 260L299 261L301 257L300 259L304 260L300 261L297 264L298 269L303 271L307 270L304 272L311 273L302 273L300 274L300 281L304 287L306 284L304 281L307 283L309 282L306 284L308 284L313 283L315 280L313 284L315 285L309 285L305 289L309 293L302 288L299 288L299 291L303 297L303 301L311 298L311 300L315 304L314 307L314 309L317 311L312 311L317 316L320 315L319 318L322 320L326 321L332 317L328 322L331 322L331 326L343 324L338 327L333 327L330 330L335 333L330 333L356 342L365 349L367 349L375 355L376 360L394 368L398 373L400 372L398 377L415 383L412 380L417 383L416 384L664 384L664 -24L169 -24L169 -11L155 12L143 26L129 32ZM173 165L173 166L177 167L180 162L173 165ZM178 168L181 168L183 165L178 168ZM179 177L183 177L184 174L180 174L179 177ZM180 182L182 185L187 185L188 179L186 178L180 182ZM183 151L184 153L188 155L191 150L183 151ZM187 167L189 169L194 168L194 163L192 161L187 167ZM188 180L189 183L191 181L191 178L188 180ZM191 184L195 183L192 178L191 182L193 183L191 184ZM194 176L196 178L197 174L194 176ZM199 178L201 179L202 176L204 177L204 174L200 175L199 178ZM201 167L203 168L204 166L201 167ZM205 164L207 165L207 164L211 163L211 160L205 164ZM312 325L326 329L327 332L329 332L330 325L327 323L315 323L312 325Z"/>
+  <clipPath id="landclip-futa-jallon-imamate"><use href="#land-futa-jallon-imamate"/></clipPath>
+  <path id="hl-futa-jallon-imamate-4" d="M278 215L358 227L378 174L358 137L302 133L262 174Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-futa-jallon-imamate)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-futa-jallon-imamate)"/>
+  <use href="#land-futa-jallon-imamate" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-futa-jallon-imamate" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-futa-jallon-imamate" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-futa-jallon-imamate)"><path d="M178 133L238 92L294 104L302 145L270 174L206 178L170 158Z" fill="rgb(176,207,203)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M638 83L621 101L609 106L588 101L576 91L576 83L582 77L623 61L623 56L638 51L640 43L655 38L655 32L664 31L664 57L661 59L664 64L658 64L655 75L641 83Z" fill="rgb(159,172,183)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M146 24L144 38L132 35L135 27L143 24Z" fill="rgb(165,173,190)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M175 138L167 138L158 130L158 120L166 120L166 112L187 114L190 128L184 130L193 130L193 138L187 138L187 143L205 143L208 151L205 154L205 156L188 156L185 151L179 154Z" fill="rgb(165,190,146)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-futa-jallon-imamate-4" fill="rgb(205,134,164)" stroke="none"/>
+       <use href="#hl-futa-jallon-imamate-4" fill="url(#hatch-futa-jallon-imamate)" stroke="none"/>
+       <use href="#hl-futa-jallon-imamate-4" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-futa-jallon-imamate-4" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-futa-jallon-imamate" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="322.4" y="136.5" class="lbl hl">푸타잘롱 이맘국</text>
+  <g transform="translate(322.4 178.5)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-futa-jallon-imamate)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-futa-jallon-imamate)"/>
+  <rect width="640" height="360" fill="url(#vignette-futa-jallon-imamate)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">건국</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">푸타잘롱 이맘국의 성립</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1725년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

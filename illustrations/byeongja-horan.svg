@@ -31,7 +31,19 @@
        <use href="#hl-byeongja-horan-5" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-byeongja-horan-5" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-byeongja-horan" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
-  <text x="320.4" y="168.4" class="lbl hl">조선</text><text x="205.6" y="53.4" class="lbl">후금</text><text x="483.0" y="225.6" class="lbl">에도 막부</text><text x="53.3" y="201.9" class="lbl">이자성</text>
+  <g>
+    <path d="M275.3 186.9 L275.5 189.6 L280.5 189.6 L282.9 186.9 L285.3 186.9 M292.4 188.2 L298.2 189.6 L296.8 196.1 L297.9 196.1 L297.4 197.5 L303.0 196.1 L304.3 198.7 L309.5 198.7 L312.9 193.5 L308.7 185.7 L304.2 184.3 L304.6 183.1 L295.3 184.3 L293.9 181.6 L285.2 181.6 L286.1 179.0 L282.9 177.7 L287.6 169.7 L284.7 173.6 L282.1 173.6 L281.9 171.1 L280.8 171.1 L285.3 157.7 L283.9 155.0 L286.3 149.5 L284.4 148.3 L286.8 145.5 L284.8 141.3 L282.3 141.3 L281.6 137.3 L279.0 137.3 L277.8 134.6 L279.5 130.6 L278.4 130.6 L289.8 122.3 L299.5 106.8 L305.3 105.5 L305.9 109.6 L310.3 111.1 L309.6 112.4 L321.9 113.9 L325.7 108.3 L324.6 105.5 L322.0 105.5 L322.7 104.0 L320.1 104.0 L321.4 101.2 L333.8 99.9 L339.1 94.3 L347.6 89.9 L349.9 80.0 L353.8 80.0 L353.1 81.4 L355.7 81.4 L357.3 88.6 L361.2 88.6 L361.5 82.9 M307.9 193.5 L310.3 193.5 L309.3 196.1 L306.7 196.1 L307.2 194.9" fill="none" stroke="#c0301c" stroke-width="9" stroke-opacity="0.35" stroke-linejoin="round" filter="url(#glow-byeongja-horan)"/>
+    <path d="M275.3 186.9 L275.5 189.6 L280.5 189.6 L282.9 186.9 L285.3 186.9 M292.4 188.2 L298.2 189.6 L296.8 196.1 L297.9 196.1 L297.4 197.5 L303.0 196.1 L304.3 198.7 L309.5 198.7 L312.9 193.5 L308.7 185.7 L304.2 184.3 L304.6 183.1 L295.3 184.3 L293.9 181.6 L285.2 181.6 L286.1 179.0 L282.9 177.7 L287.6 169.7 L284.7 173.6 L282.1 173.6 L281.9 171.1 L280.8 171.1 L285.3 157.7 L283.9 155.0 L286.3 149.5 L284.4 148.3 L286.8 145.5 L284.8 141.3 L282.3 141.3 L281.6 137.3 L279.0 137.3 L277.8 134.6 L279.5 130.6 L278.4 130.6 L289.8 122.3 L299.5 106.8 L305.3 105.5 L305.9 109.6 L310.3 111.1 L309.6 112.4 L321.9 113.9 L325.7 108.3 L324.6 105.5 L322.0 105.5 L322.7 104.0 L320.1 104.0 L321.4 101.2 L333.8 99.9 L339.1 94.3 L347.6 89.9 L349.9 80.0 L353.8 80.0 L353.1 81.4 L355.7 81.4 L357.3 88.6 L361.2 88.6 L361.5 82.9 M307.9 193.5 L310.3 193.5 L309.3 196.1 L306.7 196.1 L307.2 194.9" fill="none" stroke="#b3261a" stroke-width="2.6" stroke-dasharray="7 3 2 3" stroke-linejoin="round"/>
+    <path d="M205.6 53.4 Q222.9 136.4 296.8 178.1" fill="none" stroke="#efe2c2" stroke-width="11" stroke-linecap="round" stroke-opacity="0.8"/>
+    <path d="M307.3 184.0 L291.4 187.7 L302.2 168.5 Z" fill="#efe2c2" stroke="#efe2c2" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <path d="M205.6 53.4 Q222.9 136.4 296.8 178.1" fill="none" stroke="#3b2412" stroke-width="6" stroke-linecap="round"/>
+    <path d="M205.6 53.4 Q222.9 136.4 296.8 178.1" fill="none" stroke="#efe2c2" stroke-width="1.2" stroke-dasharray="2 5" stroke-opacity="0.75"/>
+    <path d="M307.3 184.0 L291.4 187.7 L302.2 168.5 Z" fill="#3b2412" stroke="#3b2412" stroke-width="1"/>
+  </g>
+  <g transform="translate(320 30)">
+    <path d="M-56 -13 L56 -13 L66 0 L56 13 L-56 13 L-66 0 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <text y="1" class="war">⚔ 병자호란</text>
+  </g><text x="320.4" y="168.4" class="lbl hl">조선</text><text x="205.6" y="53.4" class="lbl">후금</text><text x="483.0" y="225.6" class="lbl">에도 막부</text><text x="53.3" y="201.9" class="lbl">이자성</text>
   <g transform="translate(320.4 210.4)">
     <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
     <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-byeongja-horan)"/>
@@ -73,5 +85,6 @@
   .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
   .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
   .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+  .war { font-size: 13px; font-weight: 800; fill: #f4e8c8; dominant-baseline: middle; letter-spacing: 1px; }
 </style>
 </svg>

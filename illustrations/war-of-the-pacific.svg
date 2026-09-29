@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="태평양 전쟁 (남아메리카)">
+<defs>
+  <clipPath id="frame-war-of-the-pacific"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-war-of-the-pacific" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-war-of-the-pacific" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-war-of-the-pacific" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="87" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-war-of-the-pacific" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-war-of-the-pacific"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-war-of-the-pacific" d="M270 -24L276 -15L275 -7L285 3L297 11L308 15L325 29L327 44L328 58L326 70L324 72L323 76L325 77L324 85L325 93L322 97L323 102L320 110L321 114L316 127L318 136L314 142L317 161L315 167L314 168L315 172L311 179L310 189L306 193L303 205L302 204L301 206L301 210L298 210L297 212L301 234L300 240L297 240L295 252L296 258L299 257L297 260L299 261L302 260L303 257L308 259L309 256L309 259L304 262L308 263L308 268L307 265L304 266L307 269L304 269L305 275L304 275L302 278L304 281L303 283L304 282L305 284L303 283L301 288L305 292L307 290L307 292L305 295L300 298L299 301L305 303L301 302L299 303L298 307L302 306L298 310L297 314L300 310L297 316L295 317L297 314L296 312L295 312L296 314L294 314L294 312L291 312L292 313L295 311L294 310L293 312L294 308L292 307L291 310L289 308L288 313L285 313L286 314L285 314L280 318L281 321L283 321L283 319L281 319L287 315L286 319L291 321L289 320L291 320L290 319L294 320L295 325L294 325L294 326L292 325L290 328L294 330L293 330L293 332L290 329L288 331L295 333L297 329L298 333L301 335L298 333L299 336L301 336L298 338L297 335L292 335L293 338L291 335L289 335L291 335L292 339L296 340L295 342L293 341L291 342L294 344L292 344L291 348L293 354L294 348L296 348L294 349L296 352L294 351L294 353L297 357L294 354L292 356L294 357L292 358L294 360L295 359L296 361L292 360L293 363L296 364L293 364L292 362L289 363L291 365L292 364L293 366L295 365L294 366L296 368L292 367L294 371L298 366L297 368L299 369L297 369L296 373L295 372L293 373L293 374L294 373L294 376L297 376L298 382L295 379L297 384L300 384L300 383L303 384L301 382L303 384L307 384L301 380L302 379L307 384L338 384L337 382L332 382L337 381L335 373L333 375L336 372L338 365L342 362L340 360L337 361L340 359L339 357L342 362L346 360L349 351L347 352L349 348L364 334L363 332L359 333L363 331L364 325L362 323L356 322L350 317L349 309L354 301L366 297L364 296L369 290L368 282L371 277L377 274L371 272L371 270L375 269L378 273L382 272L381 264L376 266L378 266L378 268L375 268L374 268L375 266L371 264L370 250L372 249L371 250L381 254L387 253L393 250L394 248L393 248L392 244L396 235L394 233L396 234L393 232L393 227L400 230L415 228L427 224L433 220L441 207L441 204L440 201L439 202L435 198L437 192L436 190L427 184L425 180L427 179L425 174L426 168L428 168L428 162L429 166L427 169L426 175L431 182L437 182L445 187L449 185L455 187L461 184L461 183L462 184L475 168L480 159L479 154L480 154L481 150L485 148L486 144L487 145L488 141L486 140L486 137L489 142L492 139L492 142L491 141L491 144L489 146L489 148L487 148L487 152L482 156L480 155L480 159L491 148L499 132L508 123L507 121L508 123L510 110L507 100L509 101L509 98L508 98L511 95L508 93L510 94L511 92L511 93L513 92L512 94L515 90L514 90L528 81L528 79L529 81L532 78L536 79L536 77L544 74L542 72L544 71L546 72L549 70L551 71L548 72L552 72L555 71L554 69L556 68L556 71L565 71L565 67L573 62L574 55L583 40L585 29L589 23L588 19L591 7L590 -3L591 -10L590 -7L589 -11L590 -10L590 -13L589 -12L592 -19L591 -20L592 -19L593 -21L594 -18L600 -24ZM281 342L283 342L282 344L283 340L281 340L281 342ZM281 350L282 351L283 347L281 350ZM281 347L284 348L283 345L281 347ZM281 344L284 343L281 344ZM281 358L283 357L285 359L282 355L281 358ZM281 336L283 337L282 339L283 339L282 340L284 339L284 344L286 341L283 335L281 336ZM282 352L286 359L286 354L289 352L287 354L289 356L287 355L289 358L287 359L289 360L288 361L290 360L290 344L289 346L289 343L286 345L287 345L286 347L288 347L287 352L285 350L285 352L283 351L285 354L282 352ZM283 331L284 333L286 332L285 331L283 331ZM284 345L286 347L284 345ZM284 335L289 336L288 332L284 335ZM284 336L286 340L288 337L284 336ZM284 349L287 351L286 348L284 349ZM285 309L287 310L285 311L287 311L289 308L285 309ZM286 341L290 343L289 336L289 340L286 341ZM290 337L290 339L291 338L290 337ZM290 292L293 292L290 292ZM290 334L296 333L292 332L290 334ZM290 307L293 306L292 303L290 307ZM291 354L291 356L292 355L291 354ZM291 294L292 296L296 294L291 294ZM291 277L296 279L297 279L297 276L299 276L297 273L299 272L296 269L300 266L298 261L294 261L293 273L291 277ZM292 298L295 297L293 296L292 298ZM293 299L297 301L296 298L293 299ZM293 301L297 302L293 301ZM293 284L297 285L296 283L293 284ZM293 305L296 303L294 303L293 305ZM296 306L298 307L298 303L296 306ZM299 294L301 295L300 296L301 297L305 292L303 292L303 290L303 292L301 291L301 294L299 294ZM509 116L511 112L509 116ZM515 90L519 87L515 90Z"/>
+  <clipPath id="landclip-war-of-the-pacific"><use href="#land-war-of-the-pacific"/></clipPath>
+  <path id="hl-war-of-the-pacific-7" d="M324 193L322 201L319 203L318 207L318 216L317 218L315 218L313 214L305 213L302 210L299 223L302 231L304 230L308 231L306 234L305 237L307 238L306 240L300 250L301 258L303 258L301 261L298 262L299 265L297 270L298 276L296 280L290 278L294 261L296 261L294 255L295 245L300 235L297 226L298 220L296 213L297 210L300 210L305 193L308 189L311 177L312 176L315 164L312 145L316 135L314 129L317 122L321 105L321 96L324 91L322 88L323 80L350 81L340 87L339 95L341 99L340 105L341 109L337 111L331 122L327 133L329 140L325 144L325 148L322 152L326 161L327 170L329 173L329 180L326 182L323 192L324 193Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-war-of-the-pacific)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-war-of-the-pacific)"/>
+  <use href="#land-war-of-the-pacific" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-war-of-the-pacific" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-war-of-the-pacific" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-war-of-the-pacific)"><path d="M269 -24L275 -14L274 -7L284 4L308 16L315 20L317 25L325 30L326 59L334 56L337 44L340 40L337 36L335 27L331 21L336 13L336 10L333 11L331 7L327 7L329 3L333 5L333 -2L337 -7L337 -19L339 -22L337 -24Z" fill="rgb(202,164,113)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M299 226L317 228L317 235L312 240L301 236Z" fill="rgb(175,171,186)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M467 175L466 172L467 167L470 165L463 157L460 156L457 152L452 150L449 146L446 148L446 145L439 139L430 142L429 153L427 158L428 166L424 176L429 182L435 182L443 187L446 186L457 187L463 183L467 176Z" fill="rgb(184,192,207)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M373 277L367 282L368 276L373 276ZM429 101L423 111L439 114L449 113L450 110L455 106L457 96L464 96L465 103L464 109L448 120L430 142L429 153L427 158L428 166L426 168L425 181L427 184L436 189L434 197L436 201L440 202L440 208L433 217L432 221L424 226L404 230L393 229L393 232L395 235L391 245L394 248L390 253L382 249L381 240L387 237L386 229L387 223L392 218L391 213L395 206L393 202L387 196L385 190L382 189L382 186L379 181L347 182L339 184L337 185L330 186L324 193L323 192L326 182L329 180L329 171L327 170L326 161L322 152L325 148L325 144L329 140L328 130L337 111L341 109L340 105L341 99L339 95L340 87L351 79L353 72L352 69L359 63L360 61L364 63L372 63L375 69L379 63L388 62L403 79L413 82L420 87L429 90L432 95Z" fill="rgb(214,169,137)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M448 68L447 65L443 63L440 65L430 63L432 66L430 70L434 73L436 87L423 111L439 114L449 113L450 110L455 106L457 103L460 81L459 79L451 81L448 68Z" fill="rgb(215,189,126)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M374 -24L378 -21L386 -20L398 -12L403 -13L408 -10L410 -1L408 3L410 4L411 11L426 12L426 20L431 24L433 28L428 42L430 43L428 48L431 54L430 63L440 65L443 63L447 65L450 69L450 79L453 81L456 79L460 81L457 96L464 96L465 103L464 109L448 120L432 140L439 139L446 145L446 148L449 146L452 150L457 152L460 156L463 157L470 165L467 167L466 172L467 175L475 168L478 159L490 149L499 130L507 124L510 113L508 113L509 110L507 106L510 95L508 94L512 94L517 87L530 79L536 81L535 78L542 75L542 72L545 72L544 73L546 73L547 71L549 71L549 72L564 71L565 66L572 63L574 52L578 50L580 43L583 40L584 29L588 24L590 4L589 -1L590 -15L595 -17L600 -24Z" fill="rgb(172,198,147)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M337 -24L339 -22L337 -19L337 -7L333 -2L333 5L337 8L336 10L339 11L331 21L335 27L337 36L340 40L337 44L334 56L326 59L325 69L322 73L322 76L324 77L323 80L350 81L353 72L352 69L359 63L360 61L364 63L372 63L375 69L379 63L388 62L403 79L413 82L420 87L432 93L436 85L434 73L430 70L432 66L430 65L431 54L428 48L430 43L428 42L428 39L431 36L433 28L431 24L426 20L426 12L411 11L410 4L408 3L410 -1L408 -10L403 -13L398 -12L386 -20L378 -21L374 -24Z" fill="rgb(233,192,179)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-war-of-the-pacific-7" fill="rgb(113,162,98)" stroke="none"/>
+       <use href="#hl-war-of-the-pacific-7" fill="url(#hatch-war-of-the-pacific)" stroke="none"/>
+       <use href="#hl-war-of-the-pacific-7" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-war-of-the-pacific-7" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-war-of-the-pacific" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <g>
+    <path d="M322.8 80.5 L322.9 80.0 L349.9 80.5 L347.8 82.4" fill="none" stroke="#c0301c" stroke-width="9" stroke-opacity="0.35" stroke-linejoin="round" filter="url(#glow-war-of-the-pacific)"/>
+    <path d="M322.8 80.5 L322.9 80.0 L349.9 80.5 L347.8 82.4" fill="none" stroke="#b3261a" stroke-width="2.6" stroke-dasharray="7 3 2 3" stroke-linejoin="round"/>
+    <path d="M381.3 34.0 Q356.5 41.7 355.2 67.6" fill="none" stroke="#efe2c2" stroke-width="11" stroke-linecap="round" stroke-opacity="0.8"/>
+    <path d="M354.6 79.6 L344.2 67.0 L366.2 68.2 Z" fill="#efe2c2" stroke="#efe2c2" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <path d="M381.3 34.0 Q356.5 41.7 355.2 67.6" fill="none" stroke="#3b2412" stroke-width="6" stroke-linecap="round"/>
+    <path d="M381.3 34.0 Q356.5 41.7 355.2 67.6" fill="none" stroke="#efe2c2" stroke-width="1.2" stroke-dasharray="2 5" stroke-opacity="0.75"/>
+    <path d="M354.6 79.6 L344.2 67.0 L366.2 68.2 Z" fill="#3b2412" stroke="#3b2412" stroke-width="1"/>
+  </g>
+  <g transform="translate(320 30)">
+    <path d="M-126 -13 L126 -13 L136 0 L126 13 L-126 13 L-136 0 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <text y="1" class="war">⚔ 태평양 전쟁 (남아메리카)</text>
+  </g><text x="383.1" y="134.9" class="lbl">아르헨티나 연합국</text><text x="446.8" y="167.8" class="lbl">우루과이</text><text x="444.2" y="97.7" class="lbl">파라과이</text><text x="309.1" y="232.5" class="lbl">아라우카니아 (마푸체)</text>
+  <g transform="translate(330.6 99.2)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-war-of-the-pacific)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M24 64 C24 34 38 20 50 20 C62 20 76 34 76 64 L66 64 L66 52 L56 52 L56 82 L44 82 L44 52 L34 52 L34 64 Z" fill="#c9b37e" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 20 C50 8 68 6 80 12 C70 14 62 18 58 26" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M30 64 L70 64" stroke="#3b2412" stroke-width="3"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-war-of-the-pacific)"/>
+  <rect width="640" height="360" fill="url(#vignette-war-of-the-pacific)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M24 64 C24 34 38 20 50 20 C62 20 76 34 76 64 L66 64 L66 52 L56 52 L56 82 L44 82 L44 52 L34 52 L34 64 Z" fill="#c9b37e" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 20 C50 8 68 6 80 12 C70 14 62 18 58 26" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M30 64 L70 64" stroke="#3b2412" stroke-width="3"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">전쟁·저항</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">태평양 전쟁 (남아메리카)</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1879년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+  .war { font-size: 13px; font-weight: 800; fill: #f4e8c8; dominant-baseline: middle; letter-spacing: 1px; }
+</style>
+</svg>
