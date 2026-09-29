@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="폴리네시아인의 뉴질랜드 정착">
+<defs>
+  <clipPath id="frame-maori-settlement"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-maori-settlement" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-maori-settlement" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-maori-settlement" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="0" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-maori-settlement" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-maori-settlement"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-maori-settlement" d="M168 329L169 334L173 330L172 332L174 332L171 335L177 332L172 337L174 339L183 340L185 337L188 337L190 338L192 343L198 342L200 345L201 344L201 346L199 346L201 349L201 347L205 349L205 347L209 347L210 350L213 350L225 347L223 345L226 345L235 333L242 330L242 328L239 331L242 328L240 326L244 321L245 315L250 307L249 298L252 291L270 282L271 279L274 280L271 281L276 280L277 282L280 283L280 279L280 282L282 281L282 276L275 276L278 275L276 274L276 267L279 264L285 260L290 249L293 248L303 232L299 225L303 220L297 221L301 219L301 218L302 218L303 215L301 217L301 214L298 214L298 217L297 218L297 217L296 219L300 219L294 222L297 216L294 217L294 215L298 213L296 214L295 213L292 215L292 217L291 216L282 222L281 210L278 211L275 207L276 204L280 204L274 204L274 206L272 206L265 212L265 224L261 230L254 232L250 248L244 257L234 264L233 267L231 267L224 275L219 276L209 285L206 284L201 286L192 297L194 301L191 299L188 301L189 303L187 302L187 306L187 304L185 304L186 309L184 305L181 308L183 310L180 309L182 311L181 312L180 310L179 311L181 313L178 312L178 315L182 315L183 316L178 317L181 320L179 318L178 319L178 318L176 316L175 317L177 319L174 319L173 323L179 321L177 323L174 323L174 325L176 325L174 326L178 326L168 329ZM169 327L171 325L172 327L173 327L173 324L170 324L169 327ZM176 315L178 316L177 312L176 315ZM187 365L189 365L190 363L188 364L191 362L193 363L199 360L199 357L194 358L195 356L198 355L193 350L191 351L192 356L187 365ZM275 73L283 83L284 86L282 89L285 90L285 92L286 91L285 92L287 95L290 90L292 91L288 96L299 114L301 113L296 104L296 103L299 109L302 111L303 110L301 108L303 108L303 110L304 108L305 109L303 111L307 110L302 112L306 113L305 119L301 115L306 127L311 125L314 128L310 130L312 130L310 132L309 128L307 128L310 134L312 133L310 136L312 143L314 143L311 145L311 148L313 148L311 150L314 150L312 152L310 151L308 166L305 169L295 173L294 177L297 182L303 184L307 189L314 191L318 194L319 199L317 208L313 217L308 221L310 223L313 220L313 225L318 224L319 229L321 229L331 221L347 196L351 185L348 184L347 180L350 175L356 171L362 172L364 172L365 176L366 173L364 172L365 164L368 164L371 160L372 148L376 142L371 139L366 138L362 141L359 146L351 149L336 140L336 142L332 140L331 138L335 140L332 137L329 123L327 124L329 121L326 122L324 116L321 116L323 119L324 122L322 124L325 132L325 130L321 131L319 125L316 126L315 124L314 125L314 123L313 126L313 123L309 125L308 122L312 123L310 119L312 118L310 118L310 114L311 116L311 113L313 113L306 105L306 102L304 102L304 99L304 101L308 102L306 98L307 97L303 91L305 92L304 88L300 90L302 91L300 92L298 89L300 87L296 84L294 86L294 84L291 83L291 84L288 84L288 80L285 84L286 82L283 80L284 81L281 75L281 77L279 75L280 73L281 74L282 72L275 72L275 73ZM294 213L296 212L297 208L296 211L295 209L294 213ZM301 220L304 219L305 217L301 220ZM315 122L318 123L319 121L315 122ZM320 110L324 113L324 109L322 107L320 110Z"/>
+  <clipPath id="landclip-maori-settlement"><use href="#land-maori-settlement"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-maori-settlement)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-maori-settlement)"/>
+  <use href="#land-maori-settlement" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-maori-settlement" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-maori-settlement" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-maori-settlement)"></g>
+  <use href="#land-maori-settlement" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  
+  <g transform="translate(320.0 176.8)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-maori-settlement)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M10 64 L90 64 L78 82 L22 82 Z" fill="#8a5a2b" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 64 L50 10" stroke="#3b2412" stroke-width="3"/>
+    <path d="M52 14 C70 20 74 40 72 58 L52 58 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M48 20 C32 26 28 42 30 58 L48 58 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M50 10 L62 6 L50 3" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M6 90 C16 84 24 96 34 90 C44 84 52 96 62 90 C72 84 80 96 94 90" fill="none" stroke="#3f6e9a" stroke-width="3"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-maori-settlement)"/>
+  <rect width="640" height="360" fill="url(#vignette-maori-settlement)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M10 64 L90 64 L78 82 L22 82 Z" fill="#8a5a2b" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 64 L50 10" stroke="#3b2412" stroke-width="3"/>
+    <path d="M52 14 C70 20 74 40 72 58 L52 58 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M48 20 C32 26 28 42 30 58 L48 58 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M50 10 L62 6 L50 3" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M6 90 C16 84 24 96 34 90 C44 84 52 96 62 90 C72 84 80 96 94 90" fill="none" stroke="#3f6e9a" stroke-width="3"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">탐험·항해</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">폴리네시아인의 뉴질랜드 정착</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1280년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

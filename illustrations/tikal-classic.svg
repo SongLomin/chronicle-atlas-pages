@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="마야 고전기의 시작">
+<defs>
+  <clipPath id="frame-tikal-classic"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-tikal-classic" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-tikal-classic" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-tikal-classic" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="250" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-tikal-classic" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-tikal-classic"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-tikal-classic" d="M-24 -24L-24 151L-7 156L-2 155L7 165L26 170L22 169L38 179L59 181L75 189L87 192L92 191L100 191L111 185L132 179L135 175L143 170L158 170L157 168L152 168L156 166L153 168L147 167L154 160L157 161L158 164L157 167L162 163L166 164L166 166L160 170L173 171L191 178L186 174L180 171L175 171L172 168L173 166L179 169L183 169L186 172L193 174L195 177L191 178L221 199L230 209L238 212L240 216L238 213L236 213L259 238L279 253L297 263L326 264L345 272L355 277L357 280L379 283L398 292L411 295L405 293L408 293L406 291L400 291L407 291L411 293L411 291L413 295L416 294L415 293L416 295L432 296L438 290L434 287L436 284L440 287L443 286L444 283L444 287L450 287L451 285L453 285L454 287L449 290L452 297L457 298L455 299L458 301L454 305L458 305L452 305L446 299L442 304L442 306L449 311L448 310L450 310L455 318L465 325L462 325L478 335L489 353L512 371L518 379L522 381L522 383L519 383L521 384L599 384L596 378L595 368L597 366L599 361L603 359L603 357L601 349L598 351L596 348L599 345L599 342L597 341L600 341L601 338L598 336L601 337L600 340L602 343L602 337L604 329L603 329L602 332L598 321L606 317L603 311L607 310L607 317L606 320L604 320L605 326L604 327L610 326L608 319L609 306L607 285L612 263L622 247L617 229L615 229L616 231L612 228L616 223L618 227L616 227L616 228L617 228L621 221L624 220L618 217L615 210L601 203L600 204L605 207L608 207L610 211L606 213L605 211L604 212L605 210L608 211L608 208L604 207L599 211L597 206L588 203L596 208L592 209L592 207L589 207L588 204L588 205L585 204L584 197L582 200L581 197L584 197L586 200L585 197L587 198L589 197L593 201L600 203L593 199L577 186L563 184L571 187L565 186L563 187L562 183L549 179L546 179L539 183L530 183L522 181L521 179L509 177L513 179L512 181L502 183L494 188L478 186L472 188L455 184L450 187L444 182L446 181L444 183L440 181L431 184L432 186L428 187L423 191L405 179L410 184L407 184L405 190L399 185L393 182L392 179L399 172L400 168L403 166L406 166L406 168L408 167L417 150L415 156L417 146L419 144L418 141L420 138L417 129L418 122L419 116L422 115L418 111L425 90L425 80L423 81L425 79L418 79L415 82L416 79L414 79L418 75L423 65L421 66L422 63L419 65L424 62L424 64L428 58L429 65L426 73L432 76L434 82L435 81L434 85L435 84L435 86L440 67L443 62L448 43L451 39L449 40L449 38L446 39L444 43L442 42L442 39L444 35L448 34L446 35L448 35L451 33L453 28L452 25L451 28L448 27L452 27L452 29L447 28L442 31L443 28L440 27L440 24L443 23L442 25L446 18L448 18L451 14L450 11L451 13L450 19L452 15L450 7L452 0L460 -11L472 -24L331 -24L333 -24L330 -13L330 13L322 20L318 39L312 45L289 60L293 60L300 54L293 60L299 63L297 68L302 67L289 73L288 75L290 73L290 76L277 74L278 76L277 75L277 78L275 76L276 74L273 72L273 70L270 69L274 73L267 71L268 69L271 68L272 69L275 69L271 65L253 66L241 68L242 76L240 69L235 75L224 76L226 78L224 80L224 78L222 78L223 76L207 76L196 81L206 77L205 80L200 80L198 83L194 84L195 81L170 88L166 86L158 73L148 71L142 65L126 64L120 61L120 62L126 66L118 63L115 64L114 63L117 63L111 58L119 62L119 61L113 57L110 50L107 49L104 42L98 39L91 15L82 3L63 -18L62 -24ZM275 67L281 65L280 66L282 66L284 63L288 63L288 61L275 67ZM422 108L426 106L422 108ZM424 115L426 117L424 115ZM426 109L427 113L426 109ZM429 99L432 97L435 87L433 88L431 96L429 99ZM432 124L438 114L436 113L436 117L433 118L432 124ZM436 120L437 124L436 120ZM443 288L446 290L446 287L443 288ZM454 77L457 71L454 77ZM458 63L459 68L458 63ZM469 175L474 173L469 175ZM485 166L497 161L502 160L492 162L485 166ZM511 161L516 157L514 157L511 161ZM600 345L600 348L601 344L600 345ZM637 246L640 246L640 244L637 246Z"/>
+  <clipPath id="landclip-tikal-classic"><use href="#land-tikal-classic"/></clipPath>
+  <path id="hl-tikal-classic-2" d="M409 104L391 104L385 101L387 96L376 99L341 82L283 90L281 99L272 99L271 109L250 126L251 131L241 142L223 185L224 193L216 198L239 214L250 233L289 262L330 264L350 278L355 270L367 272L366 264L374 256L385 256L382 251L396 251L393 246L401 243L404 217L414 203L409 185L396 179L404 169L409 169L420 158L421 144L424 144L422 112L417 115L410 112L409 107Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-tikal-classic)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-tikal-classic)"/>
+  <use href="#land-tikal-classic" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-tikal-classic" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-tikal-classic" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-tikal-classic)"><path d="M-6 44L9 58L17 58L21 44L27 44L29 36L12 28L11 23L0 23L0 28L-6 25L-4 33L-10 33L-5 47Z" fill="rgb(208,197,208)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M126 123L146 123L165 131L174 150L164 160L168 166L155 163L151 174L101 193L80 193L67 185L40 182L27 174L27 155L38 150L33 136L28 139L28 123L20 109L19 104L27 96L47 96L73 107L85 107L98 115L110 115L123 123ZM158 126L156 126L155 123L158 123Z" fill="rgb(169,188,139)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-tikal-classic-2" fill="rgb(227,168,132)" stroke="none"/>
+       <use href="#hl-tikal-classic-2" fill="url(#hatch-tikal-classic)" stroke="none"/>
+       <use href="#hl-tikal-classic-2" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-tikal-classic-2" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-tikal-classic" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="312.2" y="138.0" class="lbl hl">마야 도시국가들</text><text x="94.9" y="153.3" class="lbl">사포텍 문명</text>
+  <g transform="translate(312.2 180.0)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-tikal-classic)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M12 86 L12 50 L22 42 L32 50 L32 86 Z M36 86 L36 30 L50 18 L64 30 L64 86 Z M68 86 L68 46 L78 38 L88 46 L88 86 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M44 86 L44 70 C44 62 56 62 56 70 L56 86" fill="#6e4b2a" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M44 40 L48 40 L48 48 L44 48 Z M52 40 L56 40 L56 48 L52 48 Z M18 56 L26 56 M74 54 L82 54" stroke="#3b2412" stroke-width="2" fill="#3b2412"/>
+    <path d="M50 18 L50 8 L60 11 L50 14" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-tikal-classic)"/>
+  <rect width="640" height="360" fill="url(#vignette-tikal-classic)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M12 86 L12 50 L22 42 L32 50 L32 86 Z M36 86 L36 30 L50 18 L64 30 L64 86 Z M68 86 L68 46 L78 38 L88 46 L88 86 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M44 86 L44 70 C44 62 56 62 56 70 L56 86" fill="#6e4b2a" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M44 40 L48 40 L48 48 L44 48 Z M52 40 L56 40 L56 48 L52 48 Z M18 56 L26 56 M74 54 L82 54" stroke="#3b2412" stroke-width="2" fill="#3b2412"/>
+    <path d="M50 18 L50 8 L60 11 L50 14" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">도시·건축</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">마야 고전기의 시작</text>
+  </g>
+  <text x="320" y="284" class="year">서기 250년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

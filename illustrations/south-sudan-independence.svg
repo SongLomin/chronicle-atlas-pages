@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="남수단의 독립">
+<defs>
+  <clipPath id="frame-south-sudan-independence"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-south-sudan-independence" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-south-sudan-independence" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-south-sudan-independence" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="219" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-south-sudan-independence" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-south-sudan-independence"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-south-sudan-independence" d="M-24 -24L-24 384L608 384L641 349L664 328L664 119L659 118L649 110L641 99L641 96L636 94L633 90L619 93L618 91L622 91L624 88L631 86L634 82L638 81L639 76L637 70L630 60L628 62L625 61L623 57L619 52L615 52L613 44L611 41L612 44L609 42L606 37L599 35L587 18L578 17L576 12L572 9L566 11L563 10L560 3L562 1L557 -3L554 0L556 5L555 7L553 7L551 -3L547 -3L547 -10L543 -13L541 -24L625 -24L626 -13L622 -8L625 3L625 4L623 0L621 4L626 6L628 10L628 14L627 12L630 23L629 21L636 40L635 51L641 61L640 65L644 63L652 67L663 65L664 64L664 -24ZM619 2L621 2L621 -2L619 2ZM622 41L625 39L622 41ZM622 33L625 35L624 32L622 33Z"/>
+  <clipPath id="landclip-south-sudan-independence"><use href="#land-south-sudan-independence"/></clipPath>
+  <path id="hl-south-sudan-independence-14" d="M419 140L421 126L404 112L403 88L407 82L397 80L393 85L385 85L384 89L388 92L387 106L361 137L352 137L341 127L329 126L320 135L311 135L308 141L301 144L289 144L286 143L284 137L262 137L259 140L247 140L235 129L233 123L216 123L214 130L208 132L206 135L206 143L200 155L193 156L190 161L192 162L190 168L195 171L203 171L208 177L212 177L215 181L215 190L228 196L235 202L235 205L240 208L240 215L245 220L245 223L262 232L261 241L276 257L285 262L290 262L293 259L307 262L316 254L324 262L327 269L334 271L340 280L346 280L351 275L368 275L371 280L378 280L380 277L388 274L409 275L450 238L444 230L437 209L422 197L421 191L412 184L404 184L397 179L397 173L403 165L416 167L423 161L424 150L422 150L420 140Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-south-sudan-independence)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-south-sudan-independence)"/>
+  <use href="#land-south-sudan-independence" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-south-sudan-independence" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-south-sudan-independence" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-south-sudan-independence)"><path d="M664 327L636 351L636 354L627 360L628 363L609 381L609 384L580 384L581 297L590 289L601 271L609 265L625 263L640 250L664 250L664 155L649 150L644 144L639 143L636 133L631 130L624 118L626 104L637 92L645 100L647 106L655 115L664 118Z" fill="rgb(160,180,131)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M603 88L605 83L610 80L614 71L624 72L630 66L635 65L641 74L641 82L625 88L623 91L635 91L635 95L626 104L604 108Z" fill="rgb(165,173,190)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M0 295L-13 288L-15 282L-21 275L-21 268L-24 264L-24 203L-20 196L-11 188L-11 182L-18 165L-24 160L-24 129L-11 129L-17 123L-22 109L-20 83L-24 79L-24 317L-8 319L-5 324L-2 324L2 310Z" fill="rgb(216,181,192)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M51 301L60 289L58 280L43 282L38 278L28 278L14 282L11 285L9 301L5 304L5 309L2 310L-2 324L-5 324L-8 319L-24 317L-24 384L29 384L35 379L39 373L38 361L44 354L42 337L47 324L46 315L51 303Z" fill="rgb(204,158,139)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M253 245L243 245L239 242L219 239L215 245L209 248L193 245L192 248L171 256L158 251L150 266L147 268L135 263L106 260L96 248L86 244L76 244L66 253L64 259L59 262L60 269L58 280L43 282L38 278L28 278L14 282L11 285L9 301L5 304L5 309L2 310L0 295L-13 288L-15 282L-21 275L-21 268L-24 264L-24 203L-20 196L-11 188L-1 188L9 184L11 179L19 187L35 177L60 174L71 164L71 159L67 158L69 153L93 152L108 146L115 140L115 137L131 124L135 114L138 111L148 106L160 106L162 111L167 114L167 117L174 121L180 135L180 143L175 149L176 158L188 159L192 162L190 164L191 170L203 171L208 177L215 181L215 190L228 196L235 202L235 205L240 208L240 215L245 220L245 223L262 232L261 241Z" fill="rgb(139,201,187)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-19 83L-24 79L-24 -22L-22 -24L188 -24L189 -11L185 -8L171 -8L164 -5L164 3L157 11L155 17L152 18L153 31L145 37L146 51L137 57L137 65L151 66L151 75L152 80L156 82L154 92L162 98L160 106L148 106L138 111L135 114L131 124L115 137L115 140L108 146L93 152L69 153L67 158L71 159L71 164L60 174L35 177L19 187L11 179L9 184L-1 188L-11 188L-11 182L-18 165L-24 160L-24 129L-11 129L-17 123L-22 109L-20 88Z" fill="rgb(223,203,153)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M421 384L421 378L429 376L429 372L438 372L438 367L426 366L422 369L417 363L417 358L415 358L417 354L426 348L427 340L434 336L441 324L440 307L434 294L430 292L429 278L417 268L450 238L457 238L462 242L460 251L467 259L492 262L504 274L517 280L548 283L550 278L562 268L574 263L577 263L582 269L589 272L601 271L590 289L581 297L581 384Z" fill="rgb(184,192,207)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M440 307L434 294L430 292L429 278L417 268L409 275L388 274L380 277L378 280L371 280L368 275L351 275L346 280L343 307L352 310L355 315L324 343L324 351L318 358L315 384L314 384L363 384L363 378L368 372L368 364L376 363L381 358L393 360L395 355L402 352L405 352L405 355L412 355L414 358L415 358L417 354L426 348L427 340L434 336L441 324L440 309Z" fill="rgb(139,176,179)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 -24L664 65L662 66L640 65L640 60L635 55L636 40L631 34L629 12L627 7L624 6L624 -3L622 -3L625 -24Z" fill="rgb(139,192,156)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M614 104L607 108L602 106L603 88L616 71L611 66L611 63L589 45L590 42L566 23L541 21L537 18L530 23L525 23L512 14L504 29L499 28L498 23L491 26L481 26L478 38L473 48L471 63L462 65L453 74L451 80L448 82L442 111L437 112L435 109L432 109L428 114L428 126L424 129L424 135L420 140L422 150L424 150L423 161L416 167L403 165L397 173L397 179L404 184L412 184L421 191L422 197L437 209L444 230L450 238L457 238L462 242L460 251L467 259L492 262L504 274L517 280L548 283L550 278L562 268L574 263L577 263L582 269L589 272L601 271L609 265L625 263L640 250L664 250L664 155L649 150L644 144L639 143L636 133L631 130L624 118L626 104Z" fill="rgb(221,199,150)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M188 -24L189 -11L185 -8L171 -8L164 -5L164 3L157 11L155 17L152 18L153 31L145 37L146 51L137 57L137 65L151 66L151 75L152 80L156 82L154 92L162 98L160 106L162 111L167 114L167 117L174 121L180 135L180 143L175 149L176 158L188 159L192 162L190 164L191 170L203 171L208 177L215 181L215 190L228 196L235 202L235 205L240 208L240 215L245 220L245 223L262 232L261 241L276 257L285 262L290 262L293 259L307 262L316 254L324 262L327 269L334 271L340 280L346 280L351 275L368 275L371 280L378 280L380 277L388 274L409 275L450 238L444 230L437 209L422 197L421 191L412 184L404 184L397 179L397 173L403 165L416 167L423 161L424 150L422 150L420 140L424 135L424 129L428 126L428 114L432 109L435 109L437 112L442 111L448 82L451 80L453 74L462 65L471 63L473 48L478 38L481 26L478 6L482 1L488 -19L491 -22L491 -24Z" fill="rgb(168,189,140)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M635 94L635 91L623 91L625 88L641 82L641 74L635 65L630 66L624 72L616 71L603 88L602 106L607 108L614 104L626 104L635 95Z" fill="rgb(224,180,182)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M546 -14L549 -5L554 0L553 4L555 4L556 -3L559 -3L567 11L576 9L579 15L591 18L595 28L599 29L599 32L615 43L617 51L620 51L626 60L633 60L635 65L630 66L624 72L616 71L611 66L611 63L589 45L590 42L566 23L541 21L537 18L530 23L525 23L512 14L504 29L499 28L498 23L491 26L481 26L478 6L482 1L488 -19L491 -22L491 -24L543 -24L546 -16Z" fill="rgb(199,202,212)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M314 384L315 384L318 358L324 351L324 343L355 315L352 310L343 307L346 280L340 280L334 271L327 269L324 262L316 254L307 262L293 259L290 262L285 262L276 257L261 241L253 245L243 245L239 242L219 239L215 245L209 248L193 245L192 248L171 256L158 251L150 266L147 268L135 263L106 260L96 248L86 244L76 244L66 253L64 259L59 262L60 269L58 280L60 289L51 301L46 315L47 324L42 337L44 354L38 361L39 373L35 379L29 384Z" fill="rgb(220,201,151)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-south-sudan-independence-14" fill="rgb(152,104,150)" stroke="none"/>
+       <use href="#hl-south-sudan-independence-14" fill="url(#hatch-south-sudan-independence)" stroke="none"/>
+       <use href="#hl-south-sudan-independence-14" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-south-sudan-independence-14" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-south-sudan-independence" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="321.9" y="150.2" class="lbl hl">남수단</text><text x="545.2" y="169.4" class="lbl">에티오피아</text><text x="102.2" y="205.2" class="lbl">중앙아프리카 공화국</text>
+  <g transform="translate(321.9 192.2)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-south-sudan-independence)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M30 90 L30 14" stroke="#3b2412" stroke-width="4" stroke-linecap="round"/>
+    <path d="M32 16 C46 10 56 22 70 16 C76 14 80 14 84 16 L84 50 C74 46 66 54 54 52 C44 50 40 44 32 48 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M44 28 L50 38 L60 26" fill="none" stroke="#f3e6c4" stroke-width="3"/>
+    <circle cx="30" cy="12" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-south-sudan-independence)"/>
+  <rect width="640" height="360" fill="url(#vignette-south-sudan-independence)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M30 90 L30 14" stroke="#3b2412" stroke-width="4" stroke-linecap="round"/>
+    <path d="M32 16 C46 10 56 22 70 16 C76 14 80 14 84 16 L84 50 C74 46 66 54 54 52 C44 50 40 44 32 48 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M44 28 L50 38 L60 26" fill="none" stroke="#f3e6c4" stroke-width="3"/>
+    <circle cx="30" cy="12" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">분리 독립</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">남수단의 독립</text>
+  </g>
+  <text x="320" y="284" class="year">서기 2011년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

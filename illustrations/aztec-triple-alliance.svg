@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="아즈텍 삼국 동맹의 성립">
+<defs>
+  <clipPath id="frame-aztec-triple-alliance"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-aztec-triple-alliance" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-aztec-triple-alliance" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-aztec-triple-alliance" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="148" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-aztec-triple-alliance" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-aztec-triple-alliance"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-aztec-triple-alliance" d="M-9 -24L-2 -11L9 -1L13 8L15 8L21 14L29 24L31 23L30 24L38 32L41 38L45 62L52 76L62 82L63 84L60 88L61 100L58 101L48 113L56 113L61 118L60 121L57 124L47 125L42 128L48 136L49 144L60 160L67 164L67 169L70 173L75 176L78 175L78 178L81 178L92 184L96 183L98 185L97 187L111 193L122 203L122 205L127 209L130 216L182 234L186 231L190 231L198 235L204 244L212 248L212 250L223 255L228 259L228 261L270 276L274 279L276 278L276 281L284 285L295 286L314 291L319 291L328 301L347 305L343 305L359 315L379 316L396 325L408 328L413 326L421 327L432 321L453 315L456 310L464 306L479 305L478 304L473 304L477 302L474 303L468 303L475 296L477 297L479 300L478 303L483 299L487 300L487 302L481 305L494 306L512 314L507 310L501 307L496 307L493 304L494 301L499 305L504 304L507 308L514 310L516 313L512 313L542 335L551 344L559 348L561 351L559 349L556 349L580 374L593 384L664 384L664 97L657 101L652 112L657 104L652 115L650 123L651 149L643 156L640 173L633 181L610 196L613 195L621 190L613 196L619 199L618 204L623 202L610 209L609 210L611 209L611 212L598 209L599 212L598 211L597 214L596 212L597 209L594 208L594 206L591 205L595 209L588 207L589 205L592 204L593 205L595 205L592 201L574 202L562 204L563 212L561 205L556 210L545 212L547 214L545 216L545 214L543 214L544 211L528 212L516 217L527 213L526 216L521 216L519 219L515 219L516 217L505 221L489 223L479 209L469 206L462 200L447 200L441 196L441 198L447 201L439 199L436 200L435 198L438 198L432 194L440 198L440 196L434 193L431 185L428 185L425 178L418 174L412 151L403 139L384 118L370 86L370 82L368 82L364 75L359 56L365 69L375 80L374 82L371 84L373 91L377 79L366 67L360 56L356 37L357 31L356 34L354 34L355 28L357 28L360 20L360 23L359 5L361 -16L361 -17L360 -12L360 -17L357 -18L361 -18L361 -24ZM4 73L5 77L9 80L10 77L9 75L4 73ZM10 83L15 85L16 83L12 82L10 83ZM356 30L359 26L356 30ZM363 66L366 71L363 66ZM596 203L602 201L601 202L603 202L605 199L609 198L609 197L596 203Z"/>
+  <clipPath id="landclip-aztec-triple-alliance"><use href="#land-aztec-triple-alliance"/></clipPath>
+  <path id="hl-aztec-triple-alliance-4" d="M307 185L313 199L327 196L326 191L332 194L331 185L340 188L335 175L329 175L318 161L310 164L306 175L300 175L304 185Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-aztec-triple-alliance)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-aztec-triple-alliance)"/>
+  <use href="#land-aztec-triple-alliance" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-aztec-triple-alliance" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-aztec-triple-alliance" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-aztec-triple-alliance)"><path d="M664 97L657 98L653 128L650 128L653 145L640 158L637 177L624 183L622 191L627 188L654 210L655 215L664 222Z" fill="rgb(175,168,184)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M216 202L214 210L223 210L231 221L253 215L251 199L238 194L237 188L225 188L226 194L215 199Z" fill="rgb(205,160,154)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M318 194L312 196L311 188L304 185L303 175L310 166L313 166L321 194Z" fill="rgb(204,159,155)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M329 175L321 164L313 166L321 194L324 194L334 185L332 175Z" fill="rgb(234,192,180)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-aztec-triple-alliance-4" fill="rgb(89,171,152)" stroke="none"/>
+       <use href="#hl-aztec-triple-alliance-4" fill="url(#hatch-aztec-triple-alliance)" stroke="none"/>
+       <use href="#hl-aztec-triple-alliance-4" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-aztec-triple-alliance-4" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-aztec-triple-alliance" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="318.3" y="136.2" class="lbl hl">아즈텍 삼국 동맹</text><text x="235.3" y="206.1" class="lbl">푸레페차 왕국</text>
+  <g transform="translate(318.3 178.2)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-aztec-triple-alliance)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M50 86 C24 80 14 58 18 30" fill="none" stroke="#3b2412" stroke-width="3"/><path d="M50 86 C76 80 86 58 82 30" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <ellipse cx="20" cy="76" rx="8" ry="4" transform="rotate(-40 20 76)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="80" cy="76" rx="8" ry="4" transform="rotate(40 80 76)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="22" cy="65" rx="8" ry="4" transform="rotate(-32 22 65)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="78" cy="65" rx="8" ry="4" transform="rotate(32 78 65)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="24" cy="54" rx="8" ry="4" transform="rotate(-24 24 54)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="76" cy="54" rx="8" ry="4" transform="rotate(24 76 54)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="26" cy="43" rx="8" ry="4" transform="rotate(-16 26 43)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="74" cy="43" rx="8" ry="4" transform="rotate(16 74 43)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="28" cy="32" rx="8" ry="4" transform="rotate(-8 28 32)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="72" cy="32" rx="8" ry="4" transform="rotate(8 72 32)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M36 58 L32 38 L43 48 L50 34 L57 48 L68 38 L64 58 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="2.5" stroke-linejoin="round"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-aztec-triple-alliance)"/>
+  <rect width="640" height="360" fill="url(#vignette-aztec-triple-alliance)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M50 86 C24 80 14 58 18 30" fill="none" stroke="#3b2412" stroke-width="3"/><path d="M50 86 C76 80 86 58 82 30" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <ellipse cx="20" cy="76" rx="8" ry="4" transform="rotate(-40 20 76)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="80" cy="76" rx="8" ry="4" transform="rotate(40 80 76)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="22" cy="65" rx="8" ry="4" transform="rotate(-32 22 65)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="78" cy="65" rx="8" ry="4" transform="rotate(32 78 65)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="24" cy="54" rx="8" ry="4" transform="rotate(-24 24 54)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="76" cy="54" rx="8" ry="4" transform="rotate(24 76 54)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="26" cy="43" rx="8" ry="4" transform="rotate(-16 26 43)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="74" cy="43" rx="8" ry="4" transform="rotate(16 74 43)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="28" cy="32" rx="8" ry="4" transform="rotate(-8 28 32)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="72" cy="32" rx="8" ry="4" transform="rotate(8 72 32)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M36 58 L32 38 L43 48 L50 34 L57 48 L68 38 L64 58 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="2.5" stroke-linejoin="round"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">통일</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">아즈텍 삼국 동맹의 성립</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1428년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

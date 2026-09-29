@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="마가다의 부상">
+<defs>
+  <clipPath id="frame-magadha-rise"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-magadha-rise" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-magadha-rise" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-magadha-rise" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="225" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-magadha-rise" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-magadha-rise"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-magadha-rise" d="M-24 -24L-24 321L-4 312L8 312L11 310L11 306L13 302L24 300L30 290L43 287L41 277L43 270L47 265L47 268L51 268L55 259L61 254L68 241L64 240L52 225L36 222L30 217L25 206L23 197L26 192L24 191L26 191L25 189L26 188L25 188L24 190L25 190L22 190L19 196L15 199L12 204L3 210L3 213L1 213L2 214L0 217L-6 219L-22 217L-24 219L-24 170L-21 173L-22 174L-12 179L-8 183L-1 183L4 186L11 182L14 182L16 179L22 177L30 177L32 179L36 196L42 196L42 198L44 197L47 199L55 199L58 201L63 200L75 203L74 201L76 201L77 203L87 206L89 203L92 204L91 206L96 204L99 205L100 203L113 204L114 202L120 202L119 200L121 201L120 202L127 204L128 202L147 200L150 201L148 199L145 200L148 198L153 204L152 209L159 210L158 212L160 216L160 219L163 219L162 222L164 221L165 223L167 221L169 223L169 221L170 224L170 221L172 224L170 225L172 226L179 222L173 225L173 227L179 233L190 237L195 234L198 234L199 232L195 240L183 243L182 241L180 243L200 263L205 264L219 258L221 252L218 250L220 249L218 248L219 247L222 246L222 244L220 243L223 242L224 244L229 243L225 244L224 247L227 247L225 251L232 250L225 255L227 258L225 259L228 259L229 264L226 275L227 280L229 280L227 282L231 284L227 283L227 287L230 285L231 286L229 288L230 290L229 289L228 290L230 294L229 293L229 295L231 296L229 297L233 305L234 319L238 329L241 330L239 332L242 334L240 333L241 337L244 340L245 340L244 341L248 345L247 344L252 356L253 366L254 365L253 366L257 376L260 377L259 378L264 384L314 384L314 379L319 370L321 361L321 358L317 356L318 355L321 358L318 348L317 348L319 344L317 337L320 329L325 327L327 329L328 325L329 328L332 321L338 321L345 318L346 314L344 314L346 311L357 305L359 301L367 296L375 285L386 278L383 279L383 278L382 278L380 280L382 276L385 275L384 278L395 274L393 272L396 274L404 264L402 263L402 256L406 253L413 251L418 246L414 241L418 245L419 253L419 250L419 252L420 251L421 252L422 248L423 253L424 244L423 248L425 245L425 253L426 250L429 252L427 247L429 248L428 245L430 252L432 247L433 251L434 243L434 247L436 243L435 251L436 248L437 249L439 249L438 246L439 241L440 241L439 246L440 247L441 245L441 247L443 244L441 249L442 248L441 249L443 250L445 243L446 246L448 242L445 237L447 235L446 233L448 231L443 227L447 229L446 226L448 226L448 227L449 226L448 228L448 233L452 239L453 238L455 240L455 237L457 238L459 235L462 244L464 241L463 245L465 251L464 254L466 258L469 264L468 260L474 270L473 264L475 267L477 269L474 271L476 272L478 266L477 271L479 271L477 272L479 276L479 273L480 276L479 272L482 272L484 275L486 275L485 277L487 277L486 278L490 282L488 284L484 281L483 282L489 288L489 284L490 284L490 282L490 288L493 290L492 290L495 296L494 296L497 306L493 319L493 326L496 322L497 322L499 319L497 326L499 323L497 327L499 327L502 322L500 328L502 328L504 324L505 328L506 324L506 329L507 329L510 326L511 323L512 324L515 322L514 321L518 320L516 316L518 315L518 318L520 319L523 318L526 312L525 307L528 312L530 311L529 314L531 319L536 318L534 325L536 328L537 340L539 343L538 342L540 349L541 357L541 350L548 367L547 371L548 372L546 373L548 373L548 377L546 378L548 378L547 379L547 380L549 378L550 380L548 380L548 384L559 384L564 374L563 368L565 363L563 360L571 356L576 358L574 368L581 369L586 368L589 371L589 369L591 372L591 371L593 372L592 374L596 376L596 374L600 382L600 379L602 380L600 382L603 383L602 384L664 384L664 323L663 321L660 321L656 317L658 318L652 314L652 311L641 303L644 303L643 298L642 299L639 296L633 287L637 275L645 270L644 266L648 265L646 260L648 260L649 262L649 260L651 260L653 261L655 260L655 256L658 256L660 253L662 255L664 253L664 -24ZM11 184L12 185L19 183L24 180L17 180L17 182L11 184ZM53 270L53 271L57 267L56 264L53 270ZM416 251L417 252L417 249L416 251ZM428 248L430 251L428 248ZM446 237L449 236L447 235L446 237ZM447 238L449 241L448 247L450 245L451 241L448 237L447 238ZM453 246L455 244L454 242L453 246ZM458 240L459 242L458 240ZM463 250L463 248L463 250ZM463 251L464 254L464 250L463 251ZM471 378L474 383L475 371L477 370L476 365L478 361L477 356L474 366L475 374L473 374L471 378ZM476 273L478 276L476 273ZM482 274L484 277L482 274ZM483 288L487 290L486 288L483 288ZM485 280L487 283L489 282L486 279L485 280ZM494 326L495 328L498 322L494 326ZM532 320L534 323L534 319L532 320Z"/>
+  <clipPath id="landclip-magadha-rise"><use href="#land-magadha-rise"/></clipPath>
+  <path id="hl-magadha-rise-1" d="M298 271L297 272L302 274L300 277L297 280L291 280L290 274L294 272L294 271ZM267 227L270 229L270 232L266 234L266 236L262 236L260 232L259 232L260 229L263 225L267 225ZM291 170L291 172L294 173L294 177L287 181L286 179L284 179L284 177L283 177L283 173L287 172L287 170ZM272 167L272 170L275 172L274 175L270 177L270 179L266 179L265 175L263 175L264 172L266 172L269 167ZM308 160L311 162L310 165L306 167L306 169L302 169L301 165L299 165L301 162L304 158L308 158ZM286 153L289 154L288 158L287 158L284 162L280 162L279 158L277 158L278 154L283 150L286 151ZM246 84L246 82L250 82L250 84L253 86L252 90L248 91L247 94L242 91L243 90L241 90L242 86L244 86L243 84ZM231 82L233 83L234 80L237 81L237 83L240 85L239 89L237 89L237 91L235 90L235 92L231 92L231 90L229 90L230 89L228 89L227 87L231 85ZM411 206L409 209L413 211L412 214L408 216L408 217L404 217L405 216L400 215L402 211L403 211L406 207ZM354 196L357 198L357 202L353 203L352 205L349 205L347 202L346 202L347 198L350 195L354 195ZM381 196L384 198L383 202L380 203L379 205L376 205L374 202L372 202L374 198L377 195L381 195ZM337 193L343 191L342 193L346 195L345 198L338 202L338 203L336 203L336 204L332 204L331 201L329 201L330 197L337 194ZM366 180L367 178L371 179L370 180L374 182L373 186L371 186L369 190L365 189L364 186L362 186L365 180ZM392 178L392 180L394 180L396 184L391 187L390 188L387 188L387 187L383 185L383 182L386 181L388 178ZM342 173L345 175L345 179L340 180L340 182L336 182L335 179L333 179L335 175L338 172L342 172Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-magadha-rise)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-magadha-rise)"/>
+  <use href="#land-magadha-rise" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-magadha-rise" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-magadha-rise" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-magadha-rise)"><path d="M141 -24L145 -24L145 -22L152 -24L185 -24L184 -22L186 -22L189 -17L195 -18L193 -16L201 -7L212 -3L216 3L219 2L218 5L221 15L222 30L222 32L224 32L223 39L226 47L225 50L227 51L226 53L228 60L227 71L223 75L224 77L218 79L218 82L216 82L208 95L205 95L205 100L196 106L190 107L189 109L183 110L183 112L168 125L146 140L134 144L126 143L121 145L97 145L91 143L68 152L67 156L65 155L64 158L64 162L59 165L56 173L56 180L56 181L59 181L58 186L59 188L57 193L63 200L62 202L37 196L34 192L33 181L29 177L22 177L21 179L24 179L24 180L21 183L13 186L10 185L11 183L4 187L-1 183L-9 183L-11 180L-20 176L-24 170L-24 39L-16 36L-4 35L-3 30L-7 20L-5 3L9 -4L25 -19L28 -24Z" fill="rgb(183,198,144)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-magadha-rise-1" fill="rgb(228,161,162)" stroke="none"/>
+       <use href="#hl-magadha-rise-1" fill="url(#hatch-magadha-rise)" stroke="none"/>
+       <use href="#hl-magadha-rise-1" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-magadha-rise-1" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-magadha-rise" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="338.2" y="155.7" class="lbl hl">십육대국</text><text x="99.4" y="51.1" class="lbl">아케메네스 왕조</text>
+  <g transform="translate(338.2 197.7)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-magadha-rise)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-magadha-rise)"/>
+  <rect width="640" height="360" fill="url(#vignette-magadha-rise)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">건국</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">마가다의 부상</text>
+  </g>
+  <text x="320" y="284" class="year">기원전 544년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

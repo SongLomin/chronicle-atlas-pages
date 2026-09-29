@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="코만치족의 남부 평원 패권">
+<defs>
+  <clipPath id="frame-comancheria"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-comancheria" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-comancheria" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-comancheria" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="214" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-comancheria" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-comancheria"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-comancheria" d="M-24 -24L-24 177L-9 178L-2 185L4 187L9 186L11 193L16 193L27 201L31 206L32 215L34 215L34 217L32 215L36 224L39 230L43 233L43 235L41 235L43 237L42 239L48 246L48 252L53 255L54 262L54 264L55 261L55 263L57 265L58 272L60 274L60 277L73 285L89 302L88 308L90 312L88 312L88 314L88 311L85 315L88 314L88 318L89 318L89 317L92 318L91 320L89 319L88 321L85 318L85 315L81 317L71 316L72 318L81 325L83 329L94 334L97 339L100 337L103 338L106 334L104 338L106 337L108 342L114 347L119 348L123 353L126 364L123 375L124 373L125 377L126 376L127 378L126 375L130 383L132 381L134 384L150 384L150 375L146 370L144 363L142 362L139 357L138 351L134 339L129 335L132 341L130 342L126 333L127 331L122 329L120 322L115 320L112 316L111 304L106 302L104 296L102 296L100 293L99 295L97 287L87 277L83 276L81 272L78 268L78 253L74 248L76 237L72 230L87 240L90 241L91 237L96 240L97 244L107 247L107 258L113 267L113 274L119 282L119 285L122 286L123 293L129 296L127 297L131 303L136 305L142 314L144 313L146 316L147 313L147 315L153 315L151 316L152 318L151 320L152 325L154 327L153 327L157 330L163 331L166 339L171 340L170 339L171 338L175 343L176 346L177 345L178 347L178 349L176 346L172 353L173 359L173 358L175 359L173 360L177 362L176 359L179 361L183 357L180 362L178 362L179 364L184 362L184 365L187 366L185 366L190 368L191 370L192 368L192 370L196 370L198 373L196 372L195 373L192 371L196 376L197 373L198 374L198 378L197 377L198 380L205 384L206 382L207 384L202 382L203 384L383 384L393 354L393 352L391 353L392 351L390 351L385 336L387 335L385 333L387 333L388 328L382 327L383 327L381 324L384 327L387 325L386 327L388 326L391 319L386 315L392 316L395 311L393 313L392 310L395 309L396 310L397 307L396 310L398 310L399 308L399 303L402 306L406 304L403 303L404 302L402 298L405 300L404 301L407 300L405 297L407 300L410 299L409 300L411 300L409 301L414 300L409 303L416 300L418 298L414 300L414 299L425 295L428 291L428 288L434 285L431 281L430 277L433 279L436 276L435 281L440 281L436 285L447 279L451 278L450 276L452 272L453 273L451 276L452 278L464 276L479 281L485 279L481 277L488 275L488 278L492 277L493 281L498 282L499 280L498 283L501 287L499 285L497 285L498 287L507 290L509 289L510 286L513 285L514 287L515 286L516 287L517 290L519 290L521 284L517 282L518 280L524 283L526 285L524 286L531 287L532 291L534 289L531 294L534 290L536 293L539 288L536 287L535 285L529 284L530 283L525 279L528 279L526 278L530 279L528 277L530 275L533 276L533 274L531 273L532 273L531 272L532 271L530 270L527 274L524 271L526 271L527 268L518 271L514 270L513 268L518 264L528 268L531 268L533 264L534 265L541 263L540 263L544 264L546 264L548 265L551 263L554 265L556 256L558 263L561 266L556 267L564 266L564 264L566 264L567 262L569 263L565 266L569 265L572 262L572 260L573 262L574 259L577 263L571 264L582 263L584 261L585 262L589 261L591 264L584 263L598 269L595 266L600 265L598 268L604 271L598 269L604 274L604 278L613 276L613 277L619 273L622 274L622 273L620 272L622 272L622 271L625 270L628 270L634 273L646 289L650 289L653 295L653 304L649 315L652 320L650 316L653 319L654 315L652 314L653 313L652 312L655 314L655 316L657 314L658 317L654 323L651 323L654 325L659 336L662 337L660 333L662 334L664 334L663 335L664 342L664 -24ZM8 208L10 212L12 212L8 208ZM8 198L10 202L13 202L12 200L8 198ZM12 290L13 295L14 289L12 290ZM66 311L69 312L69 305L66 311ZM76 235L79 236L77 234L76 235ZM98 284L106 293L105 286L102 286L99 281L98 284ZM110 299L113 301L110 299ZM116 295L122 297L123 292L121 287L118 289L116 295ZM140 356L143 352L141 352L140 356ZM151 325L153 327L151 325ZM388 332L392 351L389 329L388 332ZM388 328L394 316L391 320L388 328ZM395 315L398 310L395 315ZM398 311L406 305L399 309L398 311ZM429 291L436 285L434 285L429 291ZM484 280L488 282L490 281L487 279L484 280ZM533 270L535 271L534 270L536 268L533 270ZM541 271L542 277L541 271ZM543 267L547 267L543 267ZM551 267L556 266L551 267ZM569 265L583 263L569 265ZM609 279L611 280L616 277L609 279Z"/>
+  <clipPath id="landclip-comancheria"><use href="#land-comancheria"/></clipPath>
+  <path id="hl-comancheria-3" d="M259 89L359 80L392 157L381 259L334 280L273 234L248 165Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-comancheria)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-comancheria)"/>
+  <use href="#land-comancheria" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-comancheria" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-comancheria" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-comancheria)"><path d="M664 238L653 233L639 237L631 229L636 223L636 219L646 214L646 211L649 211L650 208L664 202Z" fill="rgb(217,156,137)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M567 265L560 267L556 260L556 264L538 264L533 268L527 268L528 271L534 272L535 275L529 279L530 283L539 287L540 291L535 292L531 288L526 287L523 283L520 283L522 288L517 291L516 288L512 287L512 283L507 275L499 271L495 261L491 260L487 255L485 245L487 243L486 240L490 237L489 234L493 230L499 233L503 240L500 248L502 251L502 255L516 257L516 256L531 256L566 251L569 265ZM465 229L470 234L467 236L465 236L461 230ZM551 213L555 218L553 219L550 219L547 214ZM488 192L485 189L490 188L495 195L488 193ZM509 78L514 80L518 87L515 90L517 104L508 104L505 98L503 86L505 86L504 81L509 80ZM557 80L560 80L559 77L562 78L566 84L561 86ZM436 62L435 60L438 59L442 66L437 68L433 62ZM526 28L530 35L525 36L521 30L525 28ZM585 218L588 223L583 225L580 219L584 218ZM576 39L581 45L578 45L579 47L576 47L572 41ZM605 22L610 28L607 28L608 30L605 30L601 24ZM589 0L593 7L590 7L593 10L587 10L587 5L584 2L587 2L586 0Z" fill="rgb(165,173,190)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M222 165L221 168L217 168L216 175L214 177L219 196L216 196L216 203L215 203L222 218L233 230L230 233L231 240L253 257L261 277L277 289L287 292L287 288L290 285L291 279L300 273L316 276L331 291L339 306L344 312L347 318L350 319L351 322L348 321L346 325L343 325L344 327L342 330L344 339L359 349L362 356L365 356L366 359L364 363L366 363L367 366L361 370L362 372L359 373L359 379L356 384L376 384L375 379L379 376L376 365L381 361L385 361L384 353L394 353L395 357L393 357L392 365L383 366L385 376L384 376L384 382L381 382L382 384L204 384L203 382L200 382L196 370L189 368L184 363L180 363L179 361L173 358L172 350L177 347L175 341L165 338L163 331L155 330L151 313L137 289L135 275L125 261L116 244L138 230L142 225L142 218L147 218L152 223L155 223L155 222L160 222L163 218L178 215L178 214L189 214L192 211L203 211L209 214L210 217L214 217L206 202L208 200L207 197L211 190L207 175L209 171L209 165L218 154L216 148L217 145L216 143L219 138L221 138L220 135L223 135L222 133L227 133L235 138L239 147L246 153L248 161L243 162L241 169L228 168L227 165ZM150 372L149 370L153 371L153 376L150 373L151 384L128 384L126 381L129 380L123 380L121 377L122 373L125 373L123 368L125 365L124 361L125 361L123 353L106 340L104 323L107 319L116 322L120 321L126 330L129 330L129 335L133 335L135 338L143 361L146 362L146 365L145 365L148 372ZM664 340L663 336L659 336L656 326L652 323L658 317L657 314L654 314L655 318L651 318L649 310L654 300L652 292L642 285L633 272L625 271L617 277L605 279L604 273L600 269L590 267L587 261L582 264L573 263L569 265L566 251L611 251L610 248L612 248L619 251L622 257L636 257L636 253L664 251ZM397 293L400 298L395 300L392 295L396 293ZM373 284L376 284L377 289L374 289L375 292L372 292L373 295L368 295L367 292L361 289L359 284L362 284L361 281L364 281L363 279L369 279ZM446 234L451 240L448 241L446 241L443 236ZM435 233L439 238L437 240L434 240L431 234ZM460 230L465 236L462 237L459 237L456 232Z" fill="rgb(230,206,138)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-comancheria-3" fill="rgb(169,108,43)" stroke="none"/>
+       <use href="#hl-comancheria-3" fill="url(#hatch-comancheria)" stroke="none"/>
+       <use href="#hl-comancheria-3" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-comancheria-3" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-comancheria" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="321.0" y="124.4" class="lbl hl">코만체리아</text>
+  <g transform="translate(321.0 166.4)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-comancheria)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-comancheria)"/>
+  <rect width="640" height="360" fill="url(#vignette-comancheria)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">정복</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">코만치족의 남부 평원 패권</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1750년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

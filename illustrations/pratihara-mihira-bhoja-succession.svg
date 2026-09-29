@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="미히라 보자의 즉위와 카나우지 제국의 전성기">
+<defs>
+  <clipPath id="frame-pratihara-mihira-bhoja-succession"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-pratihara-mihira-bhoja-succession" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-pratihara-mihira-bhoja-succession" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-pratihara-mihira-bhoja-succession" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="68" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-pratihara-mihira-bhoja-succession" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-pratihara-mihira-bhoja-succession"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-pratihara-mihira-bhoja-succession" d="M-24 -24L-24 189L-22 188L-24 187L-23 185L-19 184L-19 182L0 184L4 182L16 185L15 181L18 178L35 179L35 176L32 177L37 175L36 176L36 179L48 183L52 182L55 184L54 186L56 186L57 185L56 183L59 180L73 181L75 178L81 177L90 179L110 174L119 177L117 175L119 174L113 171L105 174L109 170L115 168L117 170L122 176L120 178L127 185L126 196L124 198L132 198L135 199L135 198L145 202L141 206L145 208L142 208L145 214L146 213L145 216L148 217L146 217L146 219L148 227L154 227L151 230L153 231L153 233L154 232L152 234L157 236L158 232L158 237L161 238L161 236L164 237L165 233L166 235L167 235L171 239L172 236L171 232L172 233L174 237L172 240L175 241L176 233L176 239L177 238L177 241L180 242L175 244L181 245L185 241L192 236L198 234L186 243L187 244L184 244L184 249L185 247L187 248L185 251L189 252L188 253L191 255L189 258L192 257L191 259L193 261L200 267L211 273L229 277L233 273L243 270L243 267L244 269L247 267L249 270L252 269L252 265L255 262L256 263L256 268L252 271L245 284L238 284L232 289L230 287L226 291L222 288L221 292L212 294L210 292L211 289L207 290L207 287L204 289L203 293L208 302L216 309L218 309L219 312L232 324L241 336L257 348L264 352L272 352L289 345L292 342L311 334L311 330L318 318L313 312L307 312L308 310L311 310L309 308L313 310L313 307L308 307L311 306L311 304L313 305L318 301L318 296L316 296L316 294L314 295L312 294L316 293L319 295L321 291L321 295L323 296L327 294L333 295L339 294L339 296L335 296L333 298L327 297L325 305L326 308L333 305L327 310L326 317L339 316L346 313L336 318L327 326L333 323L333 325L327 327L329 328L327 329L329 332L333 334L328 337L330 338L332 335L331 338L335 336L336 339L334 340L338 342L336 347L338 346L338 348L339 348L340 350L338 351L338 358L333 368L330 384L664 384L664 -24ZM149 228L151 230L153 228L149 228Z"/>
+  <clipPath id="landclip-pratihara-mihira-bhoja-succession"><use href="#land-pratihara-mihira-bhoja-succession"/></clipPath>
+  <path id="hl-pratihara-mihira-bhoja-succession-4" d="M451 144L458 112L456 112L457 102L448 92L447 82L443 80L353 90L297 102L289 107L288 115L266 142L245 147L234 154L214 186L199 232L182 246L182 251L189 254L198 268L220 278L251 270L257 261L274 249L313 244L360 258L380 280L374 246L393 218L430 184L443 162L448 144Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-pratihara-mihira-bhoja-succession)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-pratihara-mihira-bhoja-succession)"/>
+  <use href="#land-pratihara-mihira-bhoja-succession" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-pratihara-mihira-bhoja-succession" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-pratihara-mihira-bhoja-succession" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-pratihara-mihira-bhoja-succession)"><path d="M385 290L399 297L409 297L461 287L487 287L503 280L550 270L573 270L580 278L579 282L591 287L598 297L625 304L621 318L621 337L615 346L647 354L664 354L664 384L329 384L336 365L338 344L327 332L333 316L326 313L325 294L320 294L319 306L311 309L313 313L318 313L314 335L287 346L284 351L263 354L249 346L235 332L235 328L222 313L216 313L203 297L204 287L219 292L222 287L245 282L257 261L274 249L313 244L360 258L380 280Z" fill="rgb(199,159,164)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 -24L664 16L650 7L642 7L629 -6L618 -6L610 -18L590 -24Z" fill="rgb(204,159,155)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 354L647 354L615 346L621 337L621 318L625 304L598 297L591 287L579 282L580 278L573 270L550 270L503 280L487 287L461 287L409 297L399 297L385 290L380 280L374 246L393 218L430 184L443 162L448 144L451 144L458 112L456 112L457 102L448 92L447 82L443 80L443 78L469 78L468 82L494 82L524 90L539 90L548 82L570 78L647 80L661 87L664 87Z" fill="rgb(183,211,178)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-24 -24L100 -24L113 -18L142 -16L141 -13L185 -11L258 4L252 40L244 57L212 82L188 90L173 105L167 130L170 130L172 152L177 157L178 171L162 196L154 220L148 227L146 227L147 215L145 215L143 203L123 198L125 184L113 171L102 179L61 181L61 186L43 184L41 179L20 179L17 184L-16 184L-19 188L-24 187Z" fill="rgb(158,177,144)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-pratihara-mihira-bhoja-succession-4" fill="rgb(98,138,69)" stroke="none"/>
+       <use href="#hl-pratihara-mihira-bhoja-succession-4" fill="url(#hatch-pratihara-mihira-bhoja-succession)" stroke="none"/>
+       <use href="#hl-pratihara-mihira-bhoja-succession-4" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-pratihara-mihira-bhoja-succession-4" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-pratihara-mihira-bhoja-succession" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="326.3" y="133.5" class="lbl hl">구르자라 프라티하라 제국</text>
+  <g transform="translate(326.3 175.5)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-pratihara-mihira-bhoja-succession)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-pratihara-mihira-bhoja-succession)"/>
+  <rect width="640" height="360" fill="url(#vignette-pratihara-mihira-bhoja-succession)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">권력 승계</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:17px">미히라 보자의 즉위와 카나우지 제국의 전성기</text>
+  </g>
+  <text x="320" y="284" class="year">서기 836년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

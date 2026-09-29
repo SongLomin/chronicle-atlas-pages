@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="찬드라굽타의 마우리아 건국">
+<defs>
+  <clipPath id="frame-chandragupta-maurya"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-chandragupta-maurya" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-chandragupta-maurya" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-chandragupta-maurya" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="191" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-chandragupta-maurya" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-chandragupta-maurya"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-chandragupta-maurya" d="M-24 -24L-24 262L-17 256L-9 239L-9 238L-14 237L-24 224L-24 186L-21 188L-15 187L1 190L0 189L2 188L4 191L16 194L18 191L22 192L21 195L27 193L27 192L31 194L33 191L49 192L50 189L57 189L56 188L57 188L59 188L58 190L65 191L67 192L68 190L82 189L92 187L96 188L93 186L89 187L94 184L99 192L98 198L108 200L106 202L109 207L108 208L109 211L112 211L111 214L113 215L114 214L113 216L115 216L117 214L119 217L119 214L122 218L122 214L124 218L122 219L124 220L132 215L126 219L126 221L127 221L126 222L129 224L128 225L133 229L146 234L153 230L157 231L159 228L153 237L147 240L146 239L145 241L143 239L142 241L138 242L138 240L136 240L136 239L134 241L152 261L159 267L166 268L184 260L187 253L185 250L182 250L184 250L183 248L185 249L183 248L184 247L187 245L187 243L184 242L187 242L188 240L189 243L196 242L194 244L191 243L190 247L191 248L194 247L191 249L191 252L200 251L195 253L191 257L194 256L191 257L194 260L192 262L195 261L195 266L197 268L192 283L193 288L196 288L194 289L194 291L199 293L194 292L194 298L197 294L199 297L196 299L198 301L197 300L195 302L198 306L197 305L196 306L199 309L199 311L197 310L201 320L200 321L205 345L209 353L211 352L209 353L213 357L210 356L212 357L212 361L215 365L217 365L215 366L220 371L219 370L224 384L311 384L310 375L308 376L311 370L309 361L312 351L318 348L320 348L320 351L322 346L324 350L328 341L335 341L344 337L345 332L344 333L343 331L345 328L359 320L362 315L372 309L382 297L382 295L395 286L391 287L392 286L390 286L388 289L390 284L395 282L394 286L408 281L404 278L409 280L410 277L414 275L414 272L418 269L416 267L417 267L415 262L416 258L421 254L431 251L436 245L432 240L434 243L436 244L436 247L437 254L437 250L438 253L439 251L441 253L441 248L441 254L442 254L444 243L443 248L445 245L445 254L446 252L447 253L447 251L447 253L450 253L448 247L450 248L450 244L452 253L454 252L455 247L455 252L457 247L457 242L457 247L459 241L458 252L460 250L459 248L460 250L463 249L462 245L463 240L465 238L463 242L463 246L464 247L466 244L466 247L468 243L465 249L467 248L466 250L468 250L471 242L472 245L474 240L474 237L472 238L473 235L471 234L473 231L472 229L474 228L474 226L469 222L473 223L474 220L472 220L474 219L474 221L476 221L474 222L475 229L480 237L481 237L481 235L482 237L484 238L485 236L483 234L485 235L488 231L488 234L493 243L495 240L493 244L495 250L496 250L496 253L497 252L495 256L497 261L501 268L500 263L502 269L508 276L506 269L508 273L509 272L511 275L508 277L510 278L513 271L512 278L514 277L511 278L514 283L514 280L516 283L514 279L518 279L521 282L524 282L521 285L525 285L523 287L527 291L525 293L521 290L520 291L523 297L527 299L526 294L528 294L529 291L528 299L532 301L530 301L534 308L533 309L534 310L537 321L532 338L531 347L534 345L536 342L537 341L537 342L539 338L536 347L540 344L537 348L539 349L543 342L541 344L541 350L544 350L545 344L547 344L545 346L547 350L549 344L548 351L550 351L554 347L555 343L556 344L560 341L559 340L561 341L564 340L562 334L564 333L563 337L566 339L570 337L573 330L573 323L577 329L579 328L577 329L578 331L581 339L586 337L585 339L584 345L586 349L587 365L588 367L590 366L591 368L589 368L592 376L592 384L593 384L593 378L595 384L664 384L664 -24ZM434 252L436 253L436 249L434 252ZM450 248L451 251L450 248ZM470 249L471 247L470 249ZM472 234L473 235L475 233L473 232L472 234ZM472 246L474 244L472 246ZM473 230L475 231L474 229L473 230ZM474 235L475 239L475 247L478 244L478 239L475 233L474 235ZM481 245L483 243L482 240L481 245ZM487 238L489 240L488 237L487 238ZM493 251L494 248L493 251ZM494 252L494 255L496 255L495 250L494 252ZM510 279L512 283L510 279ZM518 281L520 285L518 281ZM519 299L522 302L524 302L524 299L519 299ZM522 289L524 292L527 291L523 288L522 289ZM534 347L534 349L537 345L538 342L534 347ZM539 350L540 350L541 347L539 350ZM582 339L583 343L584 339L582 339Z"/>
+  <clipPath id="landclip-chandragupta-maurya"><use href="#land-chandragupta-maurya"/></clipPath>
+  <path id="hl-chandragupta-maurya-2" d="M321 99L326 105L330 104L334 109L341 113L359 119L363 117L363 121L367 121L371 124L374 123L378 129L382 131L390 131L400 135L400 137L413 139L424 145L439 143L439 145L443 145L445 147L448 146L449 150L455 148L457 152L461 154L466 153L466 155L469 155L467 158L474 160L475 163L495 163L495 175L497 176L495 180L497 182L497 186L500 188L501 192L504 192L502 195L504 196L502 198L498 207L500 207L500 210L501 210L501 217L500 218L502 219L503 229L504 229L504 232L506 239L506 243L508 245L506 254L508 254L508 260L501 257L501 266L498 265L496 261L497 255L494 255L495 248L492 245L492 240L486 240L488 233L487 233L484 237L480 238L478 246L475 248L475 245L471 245L468 251L463 246L463 250L460 251L451 251L451 253L445 253L445 245L443 245L441 252L439 252L439 254L435 253L436 248L435 248L430 253L419 256L416 261L417 261L418 270L414 272L415 276L409 280L404 278L405 272L400 263L394 256L375 251L334 245L324 242L235 233L229 232L229 230L226 230L219 226L214 226L212 221L208 219L201 219L192 216L167 211L132 208L135 172L138 166L143 162L148 152L151 151L157 142L159 142L162 145L162 147L176 145L180 143L188 130L198 123L204 112L203 109L213 105L216 101L241 91L274 85L287 85L295 80L300 88L306 88L313 96L320 99Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-chandragupta-maurya)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-chandragupta-maurya)"/>
+  <use href="#land-chandragupta-maurya" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-chandragupta-maurya" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-chandragupta-maurya" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-chandragupta-maurya)"><path d="M-24 -24L227 -24L227 -11L229 -11L232 6L233 6L233 9L235 14L234 19L237 22L236 22L236 33L237 33L236 38L237 38L234 60L230 62L227 69L223 72L223 87L227 93L225 98L216 101L213 105L203 109L204 112L198 123L188 130L180 143L176 145L162 147L162 145L159 142L157 142L151 151L148 152L143 162L138 166L135 172L131 214L132 215L126 220L121 220L122 216L111 215L110 211L108 211L109 206L108 206L107 200L98 198L98 189L92 186L88 189L69 190L69 192L62 191L60 189L51 189L49 191L34 191L32 194L28 192L25 195L21 195L20 192L11 194L8 191L3 191L4 189L-5 190L-15 188L-21 189L-24 187ZM206 2L211 1L205 2ZM208 4L211 4L207 4Z" fill="rgb(226,198,142)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M282 105L273 99L270 99L264 92L259 92L257 88L241 91L216 101L213 105L203 109L204 112L198 123L188 130L180 143L176 145L162 147L162 145L159 142L157 142L151 151L148 152L143 162L138 166L135 172L132 208L167 211L210 220L214 222L214 226L219 226L226 230L229 230L229 232L235 233L324 242L334 245L384 253L394 256L400 263L400 265L402 266L405 272L404 278L408 280L410 280L415 276L414 272L418 270L417 261L416 261L419 256L430 253L435 248L436 248L435 253L439 254L439 252L441 252L443 245L445 245L445 253L451 253L451 251L460 251L463 250L463 246L468 251L471 245L475 245L475 248L478 246L480 238L484 237L488 233L489 230L491 230L488 226L485 225L485 221L484 221L487 208L485 208L487 202L486 202L485 195L482 194L484 191L480 191L477 188L468 186L466 184L464 185L440 176L422 172L419 169L415 170L409 163L405 163L404 159L382 154L382 152L380 151L368 151L356 147L347 148L342 145L337 145L326 139L323 134L318 131L312 131L308 126L291 117L281 106Z" fill="rgb(179,178,117)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-chandragupta-maurya-2" fill="rgb(118,123,178)" stroke="none"/>
+       <use href="#hl-chandragupta-maurya-2" fill="url(#hatch-chandragupta-maurya)" stroke="none"/>
+       <use href="#hl-chandragupta-maurya-2" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-chandragupta-maurya-2" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-chandragupta-maurya" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="320.1" y="126.8" class="lbl hl">마우리아 제국</text>
+  <g transform="translate(320.1 168.8)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-chandragupta-maurya)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-chandragupta-maurya)"/>
+  <rect width="640" height="360" fill="url(#vignette-chandragupta-maurya)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">건국</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">찬드라굽타의 마우리아 건국</text>
+  </g>
+  <text x="320" y="284" class="year">기원전 322년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

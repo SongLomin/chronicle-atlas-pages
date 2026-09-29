@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="악숨 왕 에자나의 기독교 수용">
+<defs>
+  <clipPath id="frame-ezana-conversion"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-ezana-conversion" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-ezana-conversion" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-ezana-conversion" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="74" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-ezana-conversion" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-ezana-conversion"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-ezana-conversion" d="M-24 -24L-24 384L664 384L664 333L652 334L646 339L627 343L616 339L611 340L604 342L595 347L579 349L572 345L567 345L538 362L530 365L525 364L522 361L516 362L503 357L492 365L486 366L472 376L464 375L457 377L448 376L428 360L415 343L415 337L413 339L410 337L407 333L406 334L401 328L400 330L390 329L384 331L383 333L380 334L378 333L377 330L383 330L387 323L398 321L404 314L410 313L412 304L408 293L402 287L399 280L396 277L393 281L389 278L387 279L385 272L377 264L375 265L371 264L368 250L364 246L365 251L362 247L361 247L355 239L351 238L349 235L344 235L324 207L313 204L309 205L306 197L303 197L303 195L299 192L298 194L296 192L294 194L294 192L290 196L285 193L280 183L282 179L274 172L270 177L270 181L272 181L273 186L271 189L268 189L268 182L264 172L261 171L258 171L256 168L259 167L257 167L258 166L257 160L251 155L246 131L246 123L237 95L224 70L219 75L224 70L224 68L221 65L221 68L216 61L215 63L209 62L213 58L210 61L207 60L204 56L206 54L198 47L191 45L191 42L188 40L183 41L179 35L171 6L172 -3L169 -12L171 -17L169 -24L274 -24L276 -23L275 -24L280 -24L300 -10L299 -8L304 -2L304 -3L308 -3L310 1L310 5L308 4L315 9L316 15L319 19L320 24L325 27L323 32L327 36L326 42L328 46L332 47L335 51L337 61L340 63L348 77L352 78L368 93L371 111L371 104L373 105L374 110L378 111L379 118L384 122L389 148L389 157L384 164L388 182L388 184L384 180L384 178L383 183L380 183L381 184L385 184L390 187L393 195L393 200L391 196L391 197L396 206L396 215L394 212L399 229L407 244L407 249L404 262L414 279L414 285L416 285L419 283L430 287L432 289L451 286L458 280L462 281L463 283L465 282L469 284L470 282L468 282L468 281L474 279L475 281L473 282L476 282L478 274L489 270L499 259L522 255L540 256L548 252L567 247L577 238L591 231L596 232L598 234L617 231L629 220L633 212L636 212L644 207L664 200L664 -24ZM276 162L282 166L278 166L276 164L278 168L295 169L295 167L291 165L288 164L289 166L288 167L285 167L284 160L282 161L282 158L280 157L277 156L280 159L278 160L278 161L276 161L276 162ZM278 151L283 153L282 151L283 150L281 148L278 151ZM347 116L352 123L356 125L360 124L361 125L359 126L364 128L364 123L361 120L358 119L358 123L355 122L347 116ZM350 116L357 121L354 119L356 117L354 112L351 112L354 113L350 116ZM378 181L379 182L381 180L381 176L379 177L381 174L378 177L378 181ZM383 246L388 242L385 243L383 246ZM384 232L387 236L388 232L387 230L384 232Z"/>
+  <clipPath id="landclip-ezana-conversion"><use href="#land-ezana-conversion"/></clipPath>
+  <path id="hl-ezana-conversion-2" d="M311 200L333 210L344 231L371 249L374 262L365 262L353 267L353 272L336 275L330 280L239 280L216 270L211 257L205 257L208 249L201 226L207 205L225 190L223 184L231 187L237 177L246 179L263 169L268 184L271 184L272 171L278 171L291 195L305 192L311 197ZM213 195L214 192L216 192L216 195ZM386 171L384 171L389 127L375 111L376 104L381 104L396 91L397 83L405 85L417 80L431 96L427 101L435 114L435 117L432 117L431 140L439 148L433 166L434 187L388 190Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-ezana-conversion)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-ezana-conversion)"/>
+  <use href="#land-ezana-conversion" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-ezana-conversion" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-ezana-conversion" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-ezana-conversion)"><path d="M49 -24L55 3L63 14L68 33L79 46L82 59L96 67L103 85L123 98L125 119L110 132L73 132L67 143L72 161L49 158L40 174L-12 184L-12 179L-24 177L-24 -24Z" fill="rgb(158,187,194)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M466 130L482 148L482 156L488 153L496 158L513 158L519 153L531 153L534 145L540 148L578 138L652 132L664 129L664 202L645 205L621 231L581 236L577 244L545 257L502 259L476 283L458 283L450 288L413 285L413 277L405 270L406 244L398 234L394 197L391 190L386 187L384 158L387 158L389 127L375 111L376 104L381 104L396 91L397 83L405 85L417 80L431 96L427 101L433 106L432 114L438 119L447 117L446 122L466 127ZM537 145L537 143L540 143L540 145ZM430 51L424 51L425 48L427 48L428 46L431 46L430 48Z" fill="rgb(215,171,137)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-ezana-conversion-2" fill="rgb(178,144,201)" stroke="none"/>
+       <use href="#hl-ezana-conversion-2" fill="url(#hatch-ezana-conversion)" stroke="none"/>
+       <use href="#hl-ezana-conversion-2" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-ezana-conversion-2" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-ezana-conversion" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="278.4" y="193.8" class="lbl hl">악숨 왕국</text><text x="518.4" y="210.4" class="lbl">힘야르 왕국</text>
+  <g transform="translate(278.4 235.8)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-ezana-conversion)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M26 22 L74 22 C80 22 80 34 74 34 L74 78 C74 84 68 86 64 84 L24 84 C18 84 18 72 24 72 L26 72 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M26 22 C20 22 20 34 26 34" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 40 L66 40 M34 48 L66 48 M34 56 L60 56 M34 64 L54 64" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="62" cy="74" r="8" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/><path d="M58 80 L56 90 L62 86 L66 90 L66 80" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-ezana-conversion)"/>
+  <rect width="640" height="360" fill="url(#vignette-ezana-conversion)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M26 22 L74 22 C80 22 80 34 74 34 L74 78 C74 84 68 86 64 84 L24 84 C18 84 18 72 24 72 L26 72 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M26 22 C20 22 20 34 26 34" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 40 L66 40 M34 48 L66 48 M34 56 L60 56 M34 64 L54 64" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="62" cy="74" r="8" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/><path d="M58 80 L56 90 L62 86 L66 90 L66 80" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">체제 전환</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:19px">악숨 왕 에자나의 기독교 수용</text>
+  </g>
+  <text x="320" y="284" class="year">서기 330년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="시바지의 남부 원정과 진지 요새 확보">
+<defs>
+  <clipPath id="frame-maratha-capture-gingee"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-maratha-capture-gingee" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-maratha-capture-gingee" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-maratha-capture-gingee" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="141" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-maratha-capture-gingee" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-maratha-capture-gingee"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-maratha-capture-gingee" d="M147 -24L163 -16L180 -21L182 -24L219 -24L217 -20L219 -21L220 -18L212 9L213 12L214 11L214 13L213 13L214 18L215 17L218 18L215 20L215 23L221 25L223 27L221 25L216 24L217 32L215 35L217 36L221 29L221 34L223 33L219 37L221 37L222 41L220 39L218 42L222 49L220 47L219 50L221 54L224 55L223 57L220 54L220 56L221 60L223 60L222 62L225 73L227 74L225 75L229 83L227 82L229 89L230 101L232 102L230 103L232 105L230 104L234 116L235 114L234 118L241 130L245 129L242 132L243 134L245 133L244 135L248 137L243 136L246 138L248 144L247 146L252 152L256 151L252 154L256 156L257 159L258 159L257 161L259 160L261 163L259 161L260 168L263 169L261 169L263 175L267 186L268 184L269 186L267 187L268 194L271 208L275 208L272 209L279 226L280 225L282 232L284 233L285 231L285 233L287 233L287 235L285 235L297 250L308 282L310 281L309 285L310 288L310 284L311 285L315 292L315 300L318 301L314 301L315 297L313 292L313 296L311 289L314 307L316 312L315 309L317 311L318 317L322 316L319 318L331 333L340 340L345 341L360 333L362 330L362 325L364 322L363 323L364 319L370 313L386 308L394 309L398 311L395 307L388 307L383 303L385 297L393 287L392 283L394 281L402 279L401 280L409 280L409 251L404 252L408 250L406 244L407 239L413 226L412 226L418 217L422 199L422 192L416 190L415 187L416 185L417 187L417 184L422 192L417 170L414 170L418 166L419 160L417 160L418 159L416 156L415 145L421 128L432 122L434 123L435 128L438 119L438 124L441 126L441 124L445 120L448 110L452 109L452 110L456 109L461 110L476 103L478 94L477 92L478 95L476 95L475 93L479 87L502 74L501 73L503 72L502 71L505 70L508 65L526 54L532 46L529 47L534 44L543 33L543 29L544 30L555 20L566 14L559 17L558 16L560 16L561 14L557 15L555 17L556 17L553 20L553 18L557 11L562 8L566 8L566 12L562 13L563 14L587 6L582 2L581 0L583 3L589 5L588 4L591 -1L598 -5L596 -4L599 -8L597 -6L598 -10L606 -16L603 -16L604 -17L601 -18L604 -19L602 -24ZM405 341L408 353L409 374L412 384L460 384L465 372L464 360L463 358L463 360L462 358L461 354L457 351L460 351L457 347L456 343L451 340L452 338L453 340L451 330L444 330L447 328L447 325L440 316L438 317L437 315L439 315L436 312L437 312L436 308L420 293L417 294L425 300L417 293L411 295L416 299L418 300L418 298L430 303L425 302L421 303L420 301L415 299L419 303L415 305L416 310L415 315L411 318L412 323L408 337L409 343L406 343L407 334L405 341ZM405 313L411 317L409 314L405 313ZM409 296L410 299L413 298L410 295L409 296ZM437 125L440 126L438 124L437 125ZM460 352L463 358L460 351L460 352Z"/>
+  <clipPath id="landclip-maratha-capture-gingee"><use href="#land-maratha-capture-gingee"/></clipPath>
+  <path id="hl-maratha-capture-gingee-10" d="M411 272L411 280L409 270L411 270ZM278 135L276 151L271 168L260 173L258 159L264 153L263 140L252 133L244 135L244 133L233 119L231 102L229 102L230 91L252 91L259 80L276 117L276 135Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-maratha-capture-gingee)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-maratha-capture-gingee)"/>
+  <use href="#land-maratha-capture-gingee" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-maratha-capture-gingee" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-maratha-capture-gingee" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-maratha-capture-gingee)"><path d="M389 293L383 303L390 308L370 313L364 318L360 333L346 341L335 337L338 281L349 255L375 258L372 265L378 267L378 278L390 292Z" fill="rgb(224,180,142)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M268 186L277 218L304 214L306 227L312 234L311 240L329 276L340 275L355 245L346 222L367 202L363 178L347 159L336 157L297 186L282 190Z" fill="rgb(172,169,184)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M422 206L422 211L416 209L419 200L423 200ZM218 28L218 26L224 26L221 34L217 34Z" fill="rgb(217,156,137)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M410 235L410 238L406 238L408 235Z" fill="rgb(165,173,190)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M331 87L356 80L360 65L330 63L296 73L270 69L268 73L262 73L259 80L272 109L299 104L301 100L331 89Z" fill="rgb(226,194,197)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M453 384L432 384L433 377L427 375L427 372L423 370L422 359L406 361L406 354L410 354L411 338L407 338L408 322L416 322L428 319L435 308L437 308L437 311L446 322L446 326L442 326L443 335L451 333L455 343L458 345L458 347L452 349L452 354L460 361L457 368L459 375ZM410 265L409 268L409 265ZM243 139L244 135L252 133L263 140L264 153L256 159L247 144L247 140L245 140L245 139ZM225 23L224 26L218 26L223 23ZM219 0L225 -2L227 -2L227 2Z" fill="rgb(165,190,146)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M533 50L524 58L513 62L511 69L499 78L480 87L477 95L479 95L478 104L474 108L449 111L444 126L426 126L416 144L400 144L378 137L381 135L379 128L373 126L372 120L368 120L367 113L361 109L353 109L356 100L351 87L353 85L350 82L356 80L360 65L359 50L372 45L407 37L429 39L461 28L503 32L506 36L522 39L533 49ZM354 84L353 85L356 82L356 80Z" fill="rgb(201,164,113)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M604 -24L605 -13L599 -9L600 -4L589 4L589 8L580 11L564 15L564 9L560 9L561 17L548 28L533 49L522 39L506 36L503 32L461 28L429 39L407 37L372 45L359 50L360 65L330 63L296 73L270 69L268 73L262 73L252 91L230 91L230 89L228 89L226 71L222 67L220 45L218 45L219 34L224 30L225 23L216 24L214 9L212 9L219 -21L223 -22L223 -24L189 -24L170 -15L159 -15L148 -21L144 -24ZM219 0L227 2L227 -2L225 -2Z" fill="rgb(171,197,145)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M410 354L406 354L406 352L404 352L403 342L407 340L407 338L411 338ZM415 299L409 297L410 292L426 295L427 297L425 301L433 303L435 308L428 319L416 322L410 322L410 315L415 311L413 304ZM314 297L314 294L310 290L316 288L320 294L319 304L311 306L310 297ZM298 261L296 254L293 251L299 249L302 254L302 261ZM282 229L278 227L278 226L285 224L288 227L288 235L284 235ZM422 211L421 215L419 215L419 220L413 218L416 211ZM421 191L423 191L425 202L417 199L417 193ZM409 384L406 361L422 359L423 370L427 372L427 375L433 377L432 384L453 384L459 375L457 368L460 361L452 354L452 349L458 347L462 352L462 358L466 359L465 379L461 384ZM451 331L451 333L443 335L442 327L444 327L444 326L448 326L447 329L451 329Z" fill="rgb(235,185,132)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M405 250L386 261L373 261L373 265L378 267L378 278L391 293L395 282L411 280L410 254L408 247Z" fill="rgb(202,170,182)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-maratha-capture-gingee-10" fill="rgb(68,178,204)" stroke="none"/>
+       <use href="#hl-maratha-capture-gingee-10" fill="url(#hatch-maratha-capture-gingee)" stroke="none"/>
+       <use href="#hl-maratha-capture-gingee-10" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-maratha-capture-gingee-10" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-maratha-capture-gingee" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="252.8" y="69.7" class="lbl hl">마라타 왕국</text><text x="437.5" y="71.8" class="lbl">골콘다 술탄국</text><text x="322.4" y="196.1" class="lbl">마이소르 왕국</text><text x="395.3" y="269.1" class="lbl">탄자부르 마라타 왕국</text>
+  <g transform="translate(252.8 111.7)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-maratha-capture-gingee)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-maratha-capture-gingee)"/>
+  <rect width="640" height="360" fill="url(#vignette-maratha-capture-gingee)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">정복</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:19px">시바지의 남부 원정과 진지 요새 확보</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1677년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

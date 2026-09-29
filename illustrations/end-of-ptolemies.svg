@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="프톨레마이오스 왕조의 종말">
+<defs>
+  <clipPath id="frame-end-of-ptolemies"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-end-of-ptolemies" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-end-of-ptolemies" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-end-of-ptolemies" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="227" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-end-of-ptolemies" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-end-of-ptolemies"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-end-of-ptolemies" d="M-24 384L473 384L469 367L467 349L468 345L466 330L468 332L469 334L470 333L461 320L460 312L461 310L451 303L447 297L439 294L435 289L431 277L431 267L432 266L438 267L431 263L424 253L411 225L398 202L399 197L396 191L396 188L388 179L391 179L388 174L391 175L390 173L375 156L374 151L370 146L369 137L364 131L369 121L372 135L382 146L383 156L390 163L394 170L405 177L404 175L409 171L408 162L413 152L415 138L420 132L421 133L416 157L412 168L412 169L414 167L416 168L422 167L425 169L424 170L443 196L453 215L457 218L457 223L462 226L469 238L469 245L467 245L473 255L473 257L482 262L484 260L483 262L494 270L502 285L502 289L506 294L508 303L509 302L506 312L505 311L508 317L510 325L508 327L510 332L522 349L526 351L525 350L529 351L539 358L541 363L543 362L544 366L548 369L550 377L553 379L552 383L664 384L664 -24L438 -24L436 -21L440 -16L441 -11L439 -4L442 7L435 12L434 20L431 23L428 33L423 43L425 44L423 44L422 50L420 50L417 64L412 77L407 86L400 91L392 94L387 93L381 95L380 92L377 94L379 93L378 95L376 94L371 95L376 93L369 95L361 89L363 90L363 93L359 95L357 93L357 91L355 92L352 89L353 88L354 83L361 89L355 83L347 85L337 81L335 82L338 84L336 83L335 86L331 85L329 87L325 86L335 82L325 85L322 84L322 85L321 84L320 88L318 89L320 91L317 91L315 88L303 98L293 101L280 94L270 94L268 90L264 92L259 91L257 87L249 85L228 81L216 84L211 83L210 80L209 81L210 80L207 72L201 71L188 71L182 68L171 66L171 67L166 63L167 59L167 55L146 47L140 49L137 47L130 51L123 52L112 57L102 67L98 77L103 91L102 98L92 111L80 115L71 111L62 102L54 98L35 92L16 90L10 87L4 80L-1 63L-3 61L-18 58L-24 53ZM362 -7L366 2L376 3L377 6L379 6L380 2L391 -1L393 -5L401 -5L398 -7L400 -7L397 -10L397 -12L412 -24L392 -15L387 -14L376 -16L375 -10L368 -10L365 -7L362 -7ZM376 93L383 91L380 90L376 93ZM384 91L388 93L384 91ZM397 182L400 183L397 182ZM410 170L413 172L410 170ZM452 226L457 228L453 226L454 225L452 226ZM454 223L455 225L455 221L454 223ZM457 229L461 231L457 229ZM459 230L461 233L463 232L459 230Z"/>
+  <clipPath id="landclip-end-of-ptolemies"><use href="#land-end-of-ptolemies"/></clipPath>
+  <path id="hl-end-of-ptolemies-6" d="M311 90L321 90L320 86L321 85L331 85L334 83L335 80L340 80L338 83L341 85L354 85L352 91L355 90L357 94L363 94L362 91L368 94L373 93L374 96L387 94L385 107L379 117L368 123L366 131L370 137L371 147L374 148L380 161L391 170L390 180L395 184L398 193L401 195L400 204L403 206L409 221L412 223L424 250L439 265L439 268L433 267L432 270L423 268L394 273L386 270L357 273L349 271L324 280L322 276L316 271L316 268L313 268L307 260L283 250L277 238L276 220L278 204L277 204L274 186L270 181L265 181L267 178L259 170L256 172L256 167L253 164L220 147L215 139L204 136L204 128L201 123L201 110L207 104L204 86L209 82L211 82L212 85L246 85L256 88L261 93L282 96L290 101L301 101L303 96L309 96L311 91Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-end-of-ptolemies)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-end-of-ptolemies)"/>
+  <use href="#land-end-of-ptolemies" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-end-of-ptolemies" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-end-of-ptolemies" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-end-of-ptolemies)"><path d="M396 310L394 310L396 311L394 320L395 320L405 366L409 371L414 384L336 384L333 350L331 350L331 339L330 339L330 328L328 328L327 313L326 313L329 305L330 292L325 280L349 271L357 273L386 270L392 273L395 277L395 284L397 284L396 308Z" fill="rgb(158,187,194)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M445 106L439 122L438 134L441 141L439 148L443 158L446 159L448 166L454 169L457 173L460 173L463 178L466 178L469 184L474 186L473 189L480 190L486 197L489 195L490 200L495 200L493 203L500 207L499 209L495 209L488 213L488 210L484 206L477 204L467 195L463 197L464 190L453 184L450 180L436 175L429 176L429 173L422 167L412 169L412 164L417 156L419 136L415 139L414 153L411 158L410 169L407 172L407 176L397 173L390 162L386 162L382 158L382 148L375 141L369 123L379 117L385 107L387 94L406 90L409 94L411 109L420 112L433 112L438 107Z" fill="rgb(141,183,144)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 -24L664 113L651 110L633 90L625 88L623 82L595 51L585 48L578 39L572 38L566 31L559 29L553 23L539 16L538 -2L533 -6L533 -9L529 -12L526 -19L517 -24Z" fill="rgb(183,198,144)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M438 91L439 82L440 82L441 49L443 46L436 38L432 41L429 57L424 61L417 61L415 65L417 72L411 75L413 80L406 90L409 94L411 109L420 112L433 112L437 107L438 93Z" fill="rgb(214,169,136)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M521 244L517 239L516 229L513 227L507 215L501 209L495 209L489 215L497 223L502 244L504 244L503 257L500 264L490 268L498 274L503 287L503 292L509 299L507 317L510 320L509 330L514 339L517 341L517 344L524 351L530 351L539 361L546 364L545 369L548 370L550 377L554 384L609 384L605 379L605 374L602 371L602 367L598 358L591 351L587 351L581 344L578 344L577 341L574 342L566 332L560 330L557 326L551 325L546 319L531 310L529 305L525 302L524 289L525 289L526 280L533 257L523 244Z" fill="rgb(215,171,137)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-24 55L-18 59L-14 57L-12 61L-5 61L-1 64L2 80L6 82L7 86L19 91L33 91L54 98L62 102L70 112L77 112L78 115L90 114L99 107L100 104L104 99L103 93L105 90L100 82L102 69L101 65L105 65L107 59L110 61L112 57L115 57L114 54L119 56L124 51L130 52L134 49L145 48L155 51L158 54L166 56L167 65L179 67L188 72L205 72L209 77L209 82L204 86L207 104L201 110L201 123L204 128L204 134L185 123L175 122L162 114L159 115L159 112L142 107L121 107L83 120L63 120L30 104L4 98L-3 99L-3 94L-16 83L-15 80L-24 74ZM517 -24L526 -19L529 -12L533 -9L533 -6L538 -2L539 16L534 18L536 15L533 13L509 8L484 21L479 26L479 29L476 29L465 39L464 44L461 44L457 52L458 64L453 65L456 69L452 72L452 80L450 80L451 91L448 91L451 98L445 102L445 106L437 107L439 82L440 82L441 49L443 46L436 38L432 41L429 57L424 61L417 61L421 56L422 46L425 44L429 36L428 29L431 29L430 23L435 21L434 11L438 13L443 6L443 1L440 -2L441 -11L439 -11L442 -19L439 -21L439 -24ZM401 -6L393 -4L389 1L381 3L379 6L364 1L361 -4L362 -9L368 -9L375 -12L375 -16L394 -16L406 -24L411 -24L411 -21L398 -12Z" fill="rgb(191,158,174)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-end-of-ptolemies-6" fill="rgb(211,189,125)" stroke="none"/>
+       <use href="#hl-end-of-ptolemies-6" fill="url(#hatch-end-of-ptolemies)" stroke="none"/>
+       <use href="#hl-end-of-ptolemies-6" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-end-of-ptolemies-6" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-end-of-ptolemies" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="317.5" y="152.2" class="lbl hl">프톨레마이오스 왕국</text><text x="396.6" y="131.7" class="lbl">나바테아인</text><text x="424.6" y="91.6" class="lbl">유대</text>
+  <g transform="translate(317.5 194.2)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-end-of-ptolemies)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><rect x="30" y="80" width="40" height="8" fill="#ddd0ad" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 80 L36 44 L44 38 L50 46 L58 36 L64 42 L66 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M42 78 L43 48 M50 78 L50 50 M58 78 L58 46" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M70 70 L84 64 L88 74 L76 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/><path d="M14 82 L24 74 L30 82 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M26 30 L32 36 M74 28 L68 34 M50 18 L50 26" stroke="#8f2a17" stroke-width="3" stroke-linecap="round"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-end-of-ptolemies)"/>
+  <rect width="640" height="360" fill="url(#vignette-end-of-ptolemies)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><rect x="30" y="80" width="40" height="8" fill="#ddd0ad" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 80 L36 44 L44 38 L50 46 L58 36 L64 42 L66 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M42 78 L43 48 M50 78 L50 50 M58 78 L58 46" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M70 70 L84 64 L88 74 L76 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/><path d="M14 82 L24 74 L30 82 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M26 30 L32 36 M74 28 L68 34 M50 18 L50 26" stroke="#8f2a17" stroke-width="3" stroke-linecap="round"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">붕괴</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">프톨레마이오스 왕조의 종말</text>
+  </g>
+  <text x="320" y="284" class="year">기원전 30년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

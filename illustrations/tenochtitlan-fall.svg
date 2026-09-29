@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="테노치티틀란 함락">
+<defs>
+  <clipPath id="frame-tenochtitlan-fall"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-tenochtitlan-fall" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-tenochtitlan-fall" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-tenochtitlan-fall" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="241" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-tenochtitlan-fall" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-tenochtitlan-fall"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-tenochtitlan-fall" d="M7 -24L6 -21L8 -15L6 -15L7 -13L6 -17L3 -12L6 -13L6 -8L8 -8L8 -10L11 -8L10 -7L7 -7L7 -5L3 -8L2 -12L-2 -9L-14 -11L-13 -9L-2 -1L0 5L5 6L9 9L13 10L16 15L20 14L24 15L27 10L25 15L27 14L28 18L36 25L42 27L47 33L48 44L49 39L50 45L47 57L48 58L48 55L49 61L50 59L51 61L50 58L55 67L57 65L64 72L62 71L86 89L91 102L95 104L104 97L104 89L99 86L96 77L93 77L92 75L88 71L86 71L85 76L83 75L86 74L80 73L77 66L78 58L74 52L71 44L69 43L65 37L62 20L60 19L60 16L54 11L55 16L57 19L55 19L53 16L53 13L50 9L52 7L47 5L43 -4L36 -9L33 -24L62 -24L69 -13L72 -14L74 -11L75 -14L75 -12L82 -12L80 -11L81 -9L79 -6L81 0L84 2L82 2L87 5L93 6L97 16L103 17L102 16L103 15L108 21L108 25L110 23L112 26L111 27L109 24L108 28L108 25L104 32L105 39L106 38L107 39L105 41L110 43L108 40L112 42L117 37L114 43L111 43L113 45L116 44L116 43L118 43L118 47L122 47L119 47L125 49L126 52L127 49L127 52L130 52L134 55L132 54L131 56L128 53L133 60L133 55L135 57L135 61L133 60L136 65L138 66L136 64L142 68L144 67L145 71L139 67L155 79L160 87L165 92L167 97L177 105L182 112L184 125L188 132L193 137L192 145L186 152L190 152L192 156L183 160L188 171L195 179L197 183L209 189L211 189L211 191L219 194L224 199L229 206L256 215L260 214L280 229L302 237L309 242L327 245L332 250L342 252L340 252L348 257L359 258L374 264L381 264L397 257L403 253L411 253L408 252L410 251L405 251L409 248L411 251L413 249L415 250L412 253L419 253L428 257L418 252L419 250L424 252L449 273L453 275L454 277L452 275L464 288L484 301L499 302L509 306L515 310L527 312L543 318L538 316L543 316L544 318L545 317L546 318L554 318L557 316L556 314L556 312L558 314L561 312L561 314L566 313L563 316L565 319L568 320L567 320L568 321L566 323L568 323L565 323L562 320L560 324L579 339L584 348L602 363L600 364L601 366L596 367L602 369L601 373L603 373L599 375L600 376L597 378L599 384L611 384L610 380L616 384L654 384L646 369L644 370L645 368L642 365L639 359L642 353L644 351L643 346L642 347L640 346L642 344L641 342L643 340L641 339L644 343L645 336L643 337L641 332L645 330L644 326L646 326L644 335L648 334L646 313L649 301L654 293L651 284L649 283L651 280L651 283L655 279L652 277L649 273L643 270L648 274L645 275L647 272L645 272L642 274L641 272L636 270L640 273L638 273L632 267L642 270L631 261L623 260L627 261L623 262L623 260L616 257L606 260L595 256L597 257L596 258L587 262L576 262L567 260L564 262L562 258L559 259L554 260L550 264L540 258L543 260L541 260L540 263L534 259L534 257L537 252L542 251L546 242L546 245L548 236L547 228L549 224L547 222L551 211L551 205L545 206L546 205L545 205L550 198L548 198L550 197L552 194L553 198L551 202L554 203L556 209L564 184L561 186L560 184L564 181L565 178L565 177L563 178L565 179L560 180L558 176L560 177L564 171L564 170L564 174L565 164L577 150L579 143L578 142L577 137L572 132L565 134L571 134L569 137L550 133L548 134L551 133L544 134L530 138L516 140L504 146L501 157L501 171L497 174L495 184L480 195L485 192L482 195L485 197L484 199L486 199L480 202L480 203L473 202L473 205L471 200L470 200L472 202L468 201L470 199L472 200L470 198L461 198L455 200L455 204L454 200L451 203L445 204L446 206L445 203L437 204L431 206L436 204L432 207L418 210L415 209L411 202L406 201L402 198L394 197L391 195L395 198L389 197L390 197L386 194L391 195L379 184L376 172L361 154L354 136L351 132L348 122L352 129L357 134L355 137L356 140L358 134L349 122L347 109L346 111L349 102L349 84L349 86L347 83L349 83L351 67L355 51L361 39L362 33L361 31L359 32L360 30L358 29L353 13L353 11L355 12L353 9L355 8L356 3L349 2L351 2L348 -2L351 2L354 0L353 2L356 1L359 -7L356 -11L354 -12L361 -11L364 -17L361 -15L360 -16L361 -18L364 -20L365 -18L366 -21L366 -18L367 -18L369 -20L368 -24L372 -22L375 -24L664 -24L661 -12L663 -7L661 -11L664 -8L664 -13L664 -2L664 -24ZM24 16L27 17L24 16ZM44 60L47 61L47 63L49 66L46 59L48 49L44 60ZM48 49L49 44L48 49ZM51 67L57 72L57 70L54 67L51 67ZM58 70L62 71L58 70ZM67 36L69 32L70 33L70 31L68 31L67 36ZM70 196L73 197L72 194L70 196ZM76 41L77 42L76 39L76 41ZM78 55L82 58L80 55L78 53L78 55ZM80 0L81 2L80 0ZM84 65L86 69L86 67L84 65ZM94 71L97 75L94 70L94 71ZM113 45L118 47L113 45ZM162 131L165 134L165 132L162 131ZM166 136L169 136L166 136ZM350 127L352 130L350 127ZM356 8L361 30L357 4L356 8ZM356 4L364 -11L360 -6L359 -7L356 4ZM473 199L479 196L473 199ZM516 112L518 112L518 116L519 113L517 111L516 112ZM553 215L556 209L553 215ZM554 229L557 223L554 229ZM566 204L567 201L566 204ZM573 160L574 163L579 156L575 157L573 160ZM574 255L577 254L574 255ZM582 251L591 248L586 248L582 251ZM596 248L599 246L596 248ZM617 127L619 128L626 125L627 129L632 126L637 125L638 120L644 120L646 118L649 120L664 108L664 100L658 102L656 101L654 103L653 101L649 104L636 108L630 113L627 119L631 124L626 123L617 127Z"/>
+  <clipPath id="landclip-tenochtitlan-fall"><use href="#land-tenochtitlan-fall"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-tenochtitlan-fall)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-tenochtitlan-fall)"/>
+  <use href="#land-tenochtitlan-fall" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-tenochtitlan-fall" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-tenochtitlan-fall" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-tenochtitlan-fall)"><path d="M543 231L538 229L530 238L530 241L525 239L515 242L512 245L512 253L510 253L513 257L510 259L507 271L484 271L483 274L477 276L474 271L471 271L471 260L478 253L495 245L499 238L498 198L489 191L486 193L485 190L494 185L496 175L501 171L501 160L502 160L504 144L508 144L511 140L528 138L543 132L567 135L569 132L576 132L579 135L580 150L567 164L568 171L562 177L566 178L566 181L564 184L564 190L559 203L559 207L555 208L552 201L554 201L553 197L548 203L548 205L551 205L552 212L551 212L549 224L542 222L544 229L543 229ZM580 161L574 163L573 158L581 155Z" fill="rgb(175,168,184)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M264 217L262 214L255 215L246 212L249 211L251 205L256 204L256 198L247 201L246 204L240 201L237 197L245 188L242 187L239 181L234 180L232 181L231 185L223 183L218 175L216 164L223 160L265 160L278 164L294 173L296 184L294 184L294 195L292 197L293 204L287 208L269 210L269 215L266 217Z" fill="rgb(205,160,154)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M406 204L407 211L405 217L401 220L401 222L396 221L387 224L384 220L379 220L375 222L378 236L384 242L384 250L381 252L374 250L372 243L354 239L347 229L336 231L313 224L310 225L311 228L316 231L321 243L313 243L301 236L279 229L266 217L269 215L269 210L287 208L293 204L292 197L294 195L294 184L296 184L294 173L278 163L288 161L301 168L305 168L306 161L307 161L305 160L306 154L314 155L315 153L329 153L336 155L336 151L332 142L357 138L363 153L375 167L380 181L382 181L390 195L405 197L408 200ZM579 155L581 155L580 161L574 163L573 158ZM664 110L659 112L657 116L654 116L653 119L641 121L638 127L635 125L631 129L628 129L628 127L620 128L621 124L630 122L629 115L637 106L653 100L664 100Z" fill="rgb(230,206,138)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-tenochtitlan-fall" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="535.4" y="166.1" class="lbl">후기 마야 도시국가들</text>
+  <g transform="translate(320.0 181.4)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-tenochtitlan-fall)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-tenochtitlan-fall)"/>
+  <rect width="640" height="360" fill="url(#vignette-tenochtitlan-fall)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">정복</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">테노치티틀란 함락</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1521년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

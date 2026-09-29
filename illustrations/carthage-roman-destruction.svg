@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="로마의 카르타고 파괴">
+<defs>
+  <clipPath id="frame-carthage-roman-destruction"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-carthage-roman-destruction" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-carthage-roman-destruction" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-carthage-roman-destruction" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="111" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-carthage-roman-destruction" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-carthage-roman-destruction"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-carthage-roman-destruction" d="M-24 384L664 384L664 -24L556 -24L560 -9L565 -3L566 2L568 16L573 24L574 27L571 34L565 34L559 37L561 43L561 47L557 56L550 60L550 66L551 69L550 71L555 75L568 74L572 64L577 57L588 49L586 35L588 30L598 24L603 23L609 25L612 22L613 18L610 15L611 9L609 6L611 -1L596 -12L587 -14L584 -20L586 -24L653 -24L660 -21L661 -24L664 -24L664 384L547 384L539 366L539 356L536 349L532 346L504 340L492 330L478 327L468 326L459 321L451 321L434 326L417 324L399 313L392 310L397 313L390 312L379 304L382 308L372 307L370 302L377 303L369 299L369 291L367 287L362 286L361 291L354 294L352 291L354 288L353 283L344 286L338 283L328 271L325 261L330 253L336 249L340 248L342 245L349 242L350 238L354 237L360 230L362 222L366 219L367 213L371 210L366 204L368 195L365 193L366 189L358 186L358 182L355 183L350 179L344 166L347 152L357 149L366 132L370 129L367 117L361 119L354 127L348 128L346 134L339 135L336 131L335 132L332 132L335 129L337 130L339 127L332 120L332 118L334 115L330 113L336 112L327 108L320 108L318 110L322 111L321 112L317 114L316 111L319 108L319 105L315 104L299 110L293 110L286 114L278 122L265 126L254 123L241 129L236 127L237 122L233 123L220 117L214 117L212 118L215 121L214 123L211 126L203 127L198 124L189 123L187 118L181 117L175 120L175 124L173 126L160 130L154 130L149 133L143 138L137 139L128 136L129 132L116 127L95 126L89 127L80 126L64 133L54 131L53 134L50 134L45 131L42 131L29 142L23 142L19 139L7 143L-24 145ZM19 -10L20 -7L23 -8L25 -4L28 -8L32 -9L35 -7L36 0L43 1L47 6L56 -2L58 -7L63 -14L64 -19L59 -21L54 -19L50 -21L50 -23L51 -24L35 -24L19 -12L19 -10ZM41 12L43 14L44 10L41 12ZM267 -24L265 -17L267 -16L263 -19L263 -10L260 0L262 4L260 8L264 16L267 17L270 27L273 23L279 26L286 20L286 12L288 8L285 6L291 10L293 8L296 8L306 14L307 12L308 8L310 5L309 1L312 -24ZM254 12L255 14L257 14L257 10L254 12ZM259 15L262 22L264 16L263 15L259 15ZM354 280L355 283L357 282L359 283L360 286L362 282L363 283L367 278L362 274L356 274L354 274L354 280ZM363 237L367 239L369 237L363 237ZM370 236L377 234L375 231L377 229L375 229L374 233L372 232L370 236ZM402 130L403 133L406 134L407 132L405 130L402 130ZM416 74L420 75L416 74ZM422 81L425 88L428 89L431 93L443 93L446 97L452 97L456 102L468 108L473 113L481 116L490 116L496 119L501 124L504 132L516 136L520 135L525 136L529 139L530 138L529 131L531 125L538 121L536 119L537 116L535 115L532 111L533 109L535 110L535 108L529 105L528 97L531 93L533 83L545 67L548 59L551 57L546 56L536 60L535 60L534 57L532 63L528 64L521 61L514 63L505 69L496 70L486 68L476 72L471 71L465 65L460 66L458 60L453 62L449 61L447 67L441 70L434 61L433 65L425 70L423 80L422 81ZM426 195L430 196L426 195ZM492 168L492 169L495 170L498 169L495 167L492 168ZM498 172L500 179L506 181L507 180L505 175L499 172L500 171L498 172ZM517 42L519 43L520 42L517 42ZM521 46L523 48L523 44L521 46ZM523 50L525 52L523 49L523 50Z"/>
+  <clipPath id="landclip-carthage-roman-destruction"><use href="#land-carthage-roman-destruction"/></clipPath>
+  <path id="hl-carthage-roman-destruction-2" d="M359 189L368 192L368 201L365 201L368 220L359 223L359 230L328 255L325 255L300 230L294 208L281 195L285 182L278 179L278 170L272 160L272 150L281 144L278 128L275 122L281 115L287 118L309 105L325 112L334 109L334 118L337 118L334 131L343 134L365 122L365 131L343 150L346 154L343 176L359 186Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-carthage-roman-destruction)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-carthage-roman-destruction)"/>
+  <use href="#land-carthage-roman-destruction" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-carthage-roman-destruction" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-carthage-roman-destruction" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-carthage-roman-destruction)"><path d="M278 131L281 144L272 150L272 160L278 170L278 179L285 182L281 195L294 208L300 230L325 255L325 258L328 258L325 273L334 283L347 283L353 292L368 289L371 307L383 307L414 326L429 323L426 329L438 329L438 323L448 320L457 320L463 326L475 323L475 329L487 329L503 341L512 338L515 344L533 347L542 380L548 384L508 384L508 380L478 359L457 353L447 356L447 350L423 347L396 350L396 344L386 344L383 338L377 341L371 332L340 316L325 316L328 310L310 310L307 301L310 295L297 289L294 276L288 273L288 267L282 267L282 261L257 255L248 258L245 248L229 242L211 245L202 239L183 242L171 236L140 236L131 242L103 239L79 248L63 245L42 252L23 239L-24 239L-24 145L-14 147L20 138L32 141L38 134L54 134L63 128L79 131L94 125L119 128L129 138L147 138L150 131L169 131L169 125L178 118L197 128L213 128L219 118L225 118L234 128L265 128L275 122L278 128ZM29 248L26 248L26 245L29 245Z" fill="rgb(208,200,211)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M508 182L498 179L498 170L508 173ZM314 -24L315 -13L312 -13L309 13L290 10L283 27L274 27L258 20L261 7L258 7L258 -7L261 -7L264 -24ZM583 -24L583 -13L601 -7L608 0L610 17L585 30L584 50L562 73L553 73L550 63L540 63L527 89L527 109L533 112L533 122L527 134L511 134L496 115L468 109L452 92L424 86L424 76L431 66L446 70L450 63L459 63L471 73L487 73L559 56L563 37L575 33L576 23L569 17L561 -20L555 -24Z" fill="rgb(191,158,174)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-carthage-roman-destruction-2" fill="rgb(102,138,160)" stroke="none"/>
+       <use href="#hl-carthage-roman-destruction-2" fill="url(#hatch-carthage-roman-destruction)" stroke="none"/>
+       <use href="#hl-carthage-roman-destruction-2" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-carthage-roman-destruction-2" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-carthage-roman-destruction" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="319.2" y="127.4" class="lbl hl">고대 카르타고</text><text x="73.8" y="199.1" class="lbl">누미디아 왕국</text>
+  <g transform="translate(319.2 169.4)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-carthage-roman-destruction)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-carthage-roman-destruction)"/>
+  <rect width="640" height="360" fill="url(#vignette-carthage-roman-destruction)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">정복</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">로마의 카르타고 파괴</text>
+  </g>
+  <text x="320" y="284" class="year">기원전 146년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

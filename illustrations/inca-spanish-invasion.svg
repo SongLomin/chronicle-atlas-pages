@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="스페인 침공과 잉카 제국 중심부 붕괴">
+<defs>
+  <clipPath id="frame-inca-spanish-invasion"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-inca-spanish-invasion" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-inca-spanish-invasion" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-inca-spanish-invasion" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="253" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-inca-spanish-invasion" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-inca-spanish-invasion"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-inca-spanish-invasion" d="M149 -24L150 -22L148 -21L152 -16L172 -4L195 4L204 1L202 1L203 0L208 2L221 13L236 17L235 17L241 16L242 19L240 19L250 28L249 29L250 30L250 34L253 36L254 35L252 32L255 34L256 36L261 39L260 41L262 42L261 40L263 41L265 44L265 43L268 42L272 46L274 45L275 48L277 48L279 47L277 43L284 38L287 42L289 41L290 43L289 42L287 44L293 51L292 64L294 65L291 72L286 73L286 76L284 77L285 79L279 81L279 85L277 87L278 88L275 90L275 97L278 99L280 95L281 98L279 101L273 107L275 114L273 116L279 120L284 127L291 143L298 154L298 157L300 161L304 165L322 175L329 181L330 197L327 207L327 224L322 239L324 245L321 249L323 260L321 264L322 267L314 290L311 291L314 303L310 315L311 319L312 318L311 320L314 320L315 318L317 320L318 318L315 321L318 321L318 325L317 323L316 324L317 325L316 325L316 329L314 331L316 334L313 337L317 339L313 345L316 346L312 346L312 348L314 348L312 349L311 352L313 350L310 354L310 351L311 353L307 351L310 351L309 349L307 349L307 350L306 349L306 352L301 356L303 357L303 355L301 356L305 353L305 356L309 356L310 359L307 361L310 362L306 363L310 364L311 361L314 365L312 364L313 366L312 367L311 365L308 365L309 367L307 365L310 368L308 370L310 371L308 371L308 376L309 377L310 373L309 376L311 378L308 377L309 378L308 380L310 379L310 381L308 380L311 383L307 381L307 383L335 384L339 382L335 381L337 380L337 378L339 381L341 381L343 373L352 365L351 363L349 364L351 363L352 359L347 357L343 353L344 347L348 343L353 342L352 341L355 338L354 333L359 328L356 326L359 325L360 328L363 327L362 322L359 325L356 322L355 314L357 313L362 316L369 314L370 312L369 310L371 305L370 304L371 304L369 300L375 301L390 298L394 296L398 288L398 284L395 282L395 277L389 272L390 260L391 263L389 268L392 273L396 273L401 276L403 274L407 276L411 274L419 264L422 259L421 256L426 250L426 246L427 248L429 247L429 248L426 254L422 257L422 259L429 252L433 242L439 237L440 229L438 223L439 224L439 222L441 220L439 219L441 218L441 219L442 217L451 211L456 210L460 208L460 206L467 206L468 204L468 206L473 206L473 203L478 200L478 196L484 187L485 180L488 177L489 151L490 150L492 152L497 142L502 139L508 131L510 122L508 114L506 111L498 110L483 100L477 100L466 97L462 100L463 97L461 98L459 102L461 97L459 97L460 95L458 92L456 94L456 92L455 93L454 91L449 90L450 89L446 88L442 89L440 94L439 92L437 94L438 93L434 99L435 94L433 96L432 94L428 95L428 90L421 94L418 93L422 92L425 85L433 79L431 79L433 78L433 76L428 74L426 64L425 62L425 65L424 63L424 65L423 62L422 63L422 61L417 57L412 56L411 58L412 55L409 55L402 55L402 56L397 54L395 57L396 54L391 50L389 50L388 52L389 48L386 44L380 41L373 41L375 41L377 37L376 36L373 34L372 36L370 34L370 36L368 33L366 33L368 33L366 32L366 31L372 30L359 30L363 31L355 34L349 30L340 31L338 28L332 26L330 22L329 24L331 26L329 26L322 30L325 35L325 37L322 39L319 35L322 30L320 26L325 23L322 21L313 27L309 27L308 30L307 29L308 29L305 28L302 31L302 37L295 41L296 45L290 38L284 36L281 36L274 40L270 38L270 39L268 39L259 27L263 11L262 6L259 6L258 5L260 6L257 3L254 2L238 4L234 3L237 -3L238 -10L236 -10L238 -13L239 -9L241 -17L240 -17L244 -24L226 -24L226 -19L220 -13L222 -13L222 -12L221 -11L216 -12L205 -9L202 -12L198 -12L191 -24ZM220 85L223 88L221 90L223 90L222 85L220 85ZM308 340L310 341L308 340ZM308 330L311 332L311 329L312 329L311 325L313 324L312 320L309 320L308 330ZM309 344L311 345L310 343L309 344ZM313 340L314 342L316 339L315 338L313 340ZM359 29L362 29L359 29ZM371 33L376 33L377 29L373 30L374 32L371 33ZM375 41L377 40L375 41ZM422 92L426 90L426 88L422 92ZM428 92L430 94L431 93L433 94L438 93L441 87L429 86L428 90L430 90L428 92ZM430 84L432 85L435 83L430 84ZM598 9L602 14L604 12L602 13L603 13L603 16L609 16L604 17L602 16L602 20L609 19L602 21L603 22L605 22L604 23L607 23L606 25L611 23L611 25L608 24L611 25L608 27L609 26L610 29L611 27L611 30L612 28L614 33L618 35L617 36L621 40L620 41L622 41L621 42L620 42L620 43L625 46L624 47L648 63L662 59L660 58L664 59L663 59L664 58L664 -24L600 -24L604 -23L605 -20L603 -16L606 -8L603 3L598 9Z"/>
+  <clipPath id="landclip-inca-spanish-invasion"><use href="#land-inca-spanish-invasion"/></clipPath>
+  <path id="hl-inca-spanish-invasion-6" d="M290 85L292 89L290 106L291 117L295 125L298 128L304 143L313 150L321 153L327 151L339 153L352 162L362 164L368 170L365 193L360 205L355 211L345 252L338 268L325 280L317 279L322 262L320 251L323 244L321 241L327 218L328 209L326 208L329 197L328 181L323 178L322 175L304 165L299 161L297 158L298 154L293 145L290 143L284 128L279 120L272 116L274 114L272 108L279 101L273 97L274 90L278 84L278 81L281 80L290 85Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-inca-spanish-invasion)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-inca-spanish-invasion)"/>
+  <use href="#land-inca-spanish-invasion" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-inca-spanish-invasion" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-inca-spanish-invasion" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-inca-spanish-invasion)"><path d="M308 63L313 64L317 57L315 51L310 53L307 58Z" fill="rgb(139,178,182)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M614 14L651 20L654 23L651 33L646 36L625 34L621 33L618 26L614 25L609 27L608 24L604 24L602 21L603 13L614 14Z" fill="rgb(218,181,191)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 15L654 23L651 20L615 14L613 12L616 7L629 -1L632 -4L650 -6L664 -6Z" fill="rgb(164,179,128)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M236 -4L229 -1L227 6L224 6L226 1L225 -2L225 -12L222 -14L226 -19L226 -24L245 -24L242 -20L240 -10L238 -12L237 -11L238 -8L236 -4Z" fill="rgb(175,168,184)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M509 129L502 138L497 142L493 151L488 153L488 170L487 177L484 180L484 187L479 194L477 201L472 204L472 202L476 200L477 195L482 187L483 180L486 177L488 149L492 149L497 140L501 137L506 130L508 121L506 113L503 111L506 111L508 115L510 122L509 127Z" fill="rgb(165,190,146)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M312 27L307 30L309 27L312 28ZM332 25L334 27L329 28L328 26L332 25ZM208 -10L215 -12L221 -11L223 -14L225 -12L225 -2L226 1L223 6L229 11L234 11L236 13L240 14L244 12L251 12L255 17L255 25L261 29L268 39L274 40L281 36L285 36L289 37L295 44L290 43L288 46L287 43L288 42L282 39L277 43L279 47L274 48L274 45L272 46L269 43L260 42L260 38L256 36L255 34L252 36L250 34L250 28L241 20L240 18L242 18L241 16L234 17L226 13L221 13L207 1L204 0L201 3L194 4L171 -4L168 -7L169 -9L175 -11L175 -18L171 -21L178 -19L178 -23L185 -22L185 -24L192 -24L199 -13L204 -12L205 -10ZM246 4L249 2L249 4L241 6L239 3ZM361 30L366 30L362 33L358 32L360 31ZM362 29L359 28L362 27Z" fill="rgb(230,206,138)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-inca-spanish-invasion-6" fill="rgb(209,158,78)" stroke="none"/>
+       <use href="#hl-inca-spanish-invasion-6" fill="url(#hatch-inca-spanish-invasion)" stroke="none"/>
+       <use href="#hl-inca-spanish-invasion-6" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-inca-spanish-invasion-6" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-inca-spanish-invasion" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="339.9" y="131.6" class="lbl hl">잉카 제국</text><text x="311.9" y="58.9" class="lbl">무이스카 연맹</text>
+  <g transform="translate(339.9 173.6)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-inca-spanish-invasion)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-inca-spanish-invasion)"/>
+  <rect width="640" height="360" fill="url(#vignette-inca-spanish-invasion)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">정복</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:19px">스페인 침공과 잉카 제국 중심부 붕괴</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1533년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

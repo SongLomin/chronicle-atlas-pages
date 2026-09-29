@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="목야 전투와 주의 건국">
+<defs>
+  <clipPath id="frame-battle-of-muye"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-battle-of-muye" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-battle-of-muye" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-battle-of-muye" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="235" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-battle-of-muye" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-battle-of-muye"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-battle-of-muye" d="M-24 -24L-24 384L555 384L541 378L540 376L544 378L541 372L539 371L532 370L531 372L522 375L516 373L508 366L508 363L505 361L502 363L505 359L503 356L510 359L513 362L513 366L515 370L520 373L525 373L532 368L537 368L543 370L549 378L554 379L560 375L573 382L581 383L578 373L563 364L562 361L564 361L563 355L553 351L544 343L547 338L546 330L544 329L543 325L541 322L541 319L538 317L537 311L532 304L533 300L529 295L524 277L514 271L504 267L497 261L497 259L493 257L488 260L488 248L489 245L494 244L496 235L500 232L504 224L507 222L507 224L510 221L511 223L512 222L513 217L516 218L519 210L522 208L522 211L526 207L525 206L524 207L522 206L521 203L519 201L519 197L523 197L525 199L526 195L528 198L526 203L528 204L539 200L538 192L540 192L539 190L541 187L544 187L545 190L548 187L549 183L547 184L545 181L541 183L541 180L545 179L551 181L551 180L553 180L555 178L564 176L565 171L571 170L567 173L571 175L572 171L582 166L581 164L586 165L585 168L589 166L590 163L589 166L593 168L591 168L590 170L595 171L599 169L598 167L601 166L601 168L602 162L598 163L600 161L599 157L600 159L605 155L603 150L604 151L603 149L607 146L594 146L592 144L590 146L588 140L585 141L584 145L582 144L571 143L570 144L573 145L569 145L563 139L564 138L563 137L556 139L555 134L551 133L547 128L541 128L528 134L523 134L526 135L526 138L511 148L512 153L508 157L491 158L480 151L481 138L483 133L486 132L490 135L490 133L485 124L481 122L479 118L480 116L473 114L470 114L466 118L450 114L438 104L432 94L433 85L437 77L440 78L438 72L444 68L451 68L455 75L459 76L465 70L475 70L477 68L477 69L481 69L478 72L479 71L488 61L491 60L491 52L489 53L489 52L491 51L496 42L500 41L500 38L532 23L533 18L536 16L534 15L543 6L544 3L551 1L548 0L549 -4L552 -3L556 -9L560 -8L562 -9L569 -5L575 -5L579 -12L578 -10L579 -4L588 2L589 1L589 6L594 10L588 19L587 23L584 24L584 27L578 32L580 33L566 41L565 44L569 47L568 50L566 49L557 54L565 55L568 61L582 59L576 61L573 65L570 65L573 73L566 76L563 75L561 78L554 80L553 81L555 81L554 87L556 89L558 86L574 83L573 81L570 80L572 79L571 77L575 77L575 76L580 79L580 78L578 75L581 77L580 75L585 74L586 73L589 71L587 70L588 68L594 62L613 50L617 50L618 47L626 47L627 46L625 44L627 44L627 41L629 43L632 41L633 45L636 42L638 42L640 36L640 38L643 40L650 40L652 41L657 40L664 33L664 38L664 -24ZM463 78L465 81L468 78L469 74L467 77L464 75L463 78ZM506 360L510 363L509 366L512 368L509 360L506 360ZM559 60L562 57L561 60L564 61L565 57L561 56L559 60ZM595 70L598 70L598 68L595 70ZM601 64L607 66L601 64ZM606 67L608 67L607 69L609 67L606 67ZM617 54L618 55L619 54L618 53L617 54ZM623 73L624 76L625 75L624 73L623 73Z"/>
+  <clipPath id="landclip-battle-of-muye"><use href="#land-battle-of-muye"/></clipPath>
+  <path id="hl-battle-of-muye-0" d="M393 131L389 119L383 119L380 114L382 108L367 80L348 80L324 100L319 119L322 119L310 144L304 169L287 194L226 224L204 226L197 232L193 229L177 245L202 248L212 243L259 237L324 240L339 248L340 261L349 267L351 275L360 280L379 277L394 259L415 243L415 235L423 229L438 202L458 183L463 169L458 161L407 142L408 139L398 136L395 131Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-battle-of-muye)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-battle-of-muye)"/>
+  <use href="#land-battle-of-muye" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-battle-of-muye" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-battle-of-muye" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-battle-of-muye)"><use href="#hl-battle-of-muye-0" fill="rgb(113,195,199)" stroke="none"/>
+       <use href="#hl-battle-of-muye-0" fill="url(#hatch-battle-of-muye)" stroke="none"/>
+       <use href="#hl-battle-of-muye-0" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-battle-of-muye-0" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-battle-of-muye" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="366.8" y="150.5" class="lbl hl">상나라</text>
+  <g transform="translate(366.8 192.5)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-battle-of-muye)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-battle-of-muye)"/>
+  <rect width="640" height="360" fill="url(#vignette-battle-of-muye)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">정복</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">목야 전투와 주의 건국</text>
+  </g>
+  <text x="320" y="284" class="year">기원전 1046년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

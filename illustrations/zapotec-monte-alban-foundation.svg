@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="몬테알반 건설과 사포텍 국가 형성">
+<defs>
+  <clipPath id="frame-zapotec-monte-alban-foundation"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-zapotec-monte-alban-foundation" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-zapotec-monte-alban-foundation" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-zapotec-monte-alban-foundation" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="13" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-zapotec-monte-alban-foundation" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-zapotec-monte-alban-foundation"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-zapotec-monte-alban-foundation" d="M-24 -24L-24 -7L-15 -2L-14 1L-16 6L-16 18L-19 19L-24 26L-24 31L-20 31L-16 36L-20 41L-24 42L-24 67L-16 77L-10 82L-9 86L-6 91L-2 94L1 93L2 96L4 96L16 102L19 101L22 103L20 104L34 111L46 120L45 123L51 127L54 133L106 151L110 148L114 149L121 152L128 161L135 165L135 167L146 172L151 177L151 178L194 193L197 197L199 196L199 198L207 202L219 203L237 209L242 208L251 218L271 223L267 222L283 232L303 234L320 242L331 245L336 244L344 244L355 238L376 232L379 228L388 223L403 223L401 221L396 221L400 219L397 221L391 220L398 213L401 214L403 218L402 220L407 216L410 218L410 219L405 223L418 224L435 231L430 227L425 224L420 224L416 221L418 219L423 222L428 222L431 225L438 227L439 230L436 231L466 252L474 262L483 266L484 269L482 266L480 266L504 291L531 312L541 316L552 318L570 318L590 325L600 330L601 333L623 336L642 345L655 348L650 346L652 346L650 344L645 344L650 343L655 346L656 345L657 348L660 347L659 346L659 348L664 348L664 242L649 232L654 238L651 237L652 240L648 244L648 241L642 237L639 237L636 233L644 225L644 222L648 219L650 219L650 221L652 220L661 204L660 209L661 199L664 197L662 194L664 192L664 187L662 182L664 169L662 164L664 160L664 132L659 135L661 132L658 132L664 124L664 -4L656 -4L649 -3L645 1L629 5L602 8L580 19L576 29L580 21L575 32L574 40L574 66L566 73L563 92L556 98L533 113L537 113L544 107L537 113L543 117L542 121L546 120L533 126L532 128L534 127L534 129L522 127L523 129L521 129L521 131L519 129L520 127L518 125L517 123L515 122L518 126L511 124L512 122L516 121L516 122L519 122L516 118L497 119L486 122L487 129L485 123L479 128L468 129L470 131L468 133L469 131L466 132L467 129L451 129L440 134L450 130L450 133L444 133L442 136L438 137L439 135L415 141L410 140L402 126L393 124L386 118L370 117L364 114L364 116L371 119L363 116L359 117L358 116L361 116L355 111L363 115L363 114L357 110L354 103L351 102L348 95L342 91L335 68L326 56L308 35L294 3L294 0L291 -1L287 -7L283 -24L289 -14L299 -3L298 0L295 1L297 8L301 -4L289 -16L285 -24ZM520 120L525 118L525 120L526 119L529 116L533 116L532 114L520 120Z"/>
+  <clipPath id="landclip-zapotec-monte-alban-foundation"><use href="#land-zapotec-monte-alban-foundation"/></clipPath>
+  <path id="hl-zapotec-monte-alban-foundation-1" d="M306 184L318 200L332 198L331 192L343 192L341 181L319 171L317 160L315 165L297 163L304 171L299 173L300 179L306 181Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-zapotec-monte-alban-foundation)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-zapotec-monte-alban-foundation)"/>
+  <use href="#land-zapotec-monte-alban-foundation" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-zapotec-monte-alban-foundation" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-zapotec-monte-alban-foundation" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-zapotec-monte-alban-foundation)"><path d="M431 135L411 135L406 141L397 141L380 127L374 127L373 122L379 119L375 114L360 114L355 122L356 127L375 135L389 149L424 165L447 160L446 154L482 138L486 125L454 127L434 135Z" fill="rgb(176,200,153)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-zapotec-monte-alban-foundation-1" fill="rgb(109,155,91)" stroke="none"/>
+       <use href="#hl-zapotec-monte-alban-foundation-1" fill="url(#hatch-zapotec-monte-alban-foundation)" stroke="none"/>
+       <use href="#hl-zapotec-monte-alban-foundation-1" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-zapotec-monte-alban-foundation-1" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-zapotec-monte-alban-foundation" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="318.2" y="141.2" class="lbl hl">사포텍 문명</text><text x="420.3" y="148.9" class="lbl">올메크</text>
+  <g transform="translate(318.2 183.2)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-zapotec-monte-alban-foundation)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-zapotec-monte-alban-foundation)"/>
+  <rect width="640" height="360" fill="url(#vignette-zapotec-monte-alban-foundation)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">건국</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:19px">몬테알반 건설과 사포텍 국가 형성</text>
+  </g>
+  <text x="320" y="284" class="year">기원전 500년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

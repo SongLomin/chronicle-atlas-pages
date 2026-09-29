@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="영국 제1함대의 시드니 도착">
+<defs>
+  <clipPath id="frame-first-fleet"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-first-fleet" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-first-fleet" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-first-fleet" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="252" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-first-fleet" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-first-fleet"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-first-fleet" d="M-24 -24L-24 135L-19 136L-10 141L-3 139L2 145L1 148L5 146L7 148L9 151L7 154L7 152L4 152L5 155L4 157L7 157L6 159L9 163L12 162L15 164L14 162L16 162L19 169L19 172L25 178L29 193L31 194L28 194L25 190L23 194L27 194L33 202L36 200L39 203L40 197L36 198L38 198L39 192L41 191L42 192L42 189L51 178L58 175L56 175L57 173L59 174L62 173L67 161L70 158L73 158L73 148L77 160L73 164L75 172L69 178L67 184L66 191L67 191L68 194L67 201L59 201L56 209L66 205L71 207L72 206L78 183L87 198L85 211L79 217L86 217L90 215L95 215L91 214L96 214L94 212L98 210L102 211L102 214L99 214L102 216L101 218L99 218L98 214L96 216L104 223L108 231L103 224L94 216L106 227L111 240L111 245L108 247L110 251L109 253L113 260L116 260L121 270L126 273L131 273L134 275L139 279L139 281L142 282L146 278L154 281L160 280L165 285L179 292L195 279L199 278L200 275L194 274L197 274L204 268L208 275L205 280L200 279L205 284L210 281L210 277L214 277L216 281L213 282L213 284L217 288L221 287L223 293L226 291L227 292L231 299L233 297L233 291L229 293L228 288L240 288L256 271L267 267L288 267L292 264L293 262L293 260L297 260L297 255L299 255L295 251L300 233L299 227L302 222L301 219L303 219L308 208L312 207L311 203L313 205L311 200L315 194L312 193L315 191L316 186L320 181L318 181L321 179L322 172L320 172L320 170L324 170L324 165L327 165L331 156L338 153L336 152L339 152L340 149L344 146L345 137L352 125L355 113L353 109L358 90L359 78L364 70L364 57L360 50L361 47L354 37L355 35L354 35L357 32L354 17L357 9L354 6L353 9L353 7L351 3L352 0L352 -1L351 -1L351 -4L345 -7L346 -7L343 -14L337 -18L334 -24ZM41 202L44 205L41 202ZM50 223L53 227L62 225L67 227L69 226L70 223L73 222L78 224L79 221L76 219L73 221L73 220L69 219L70 216L64 216L51 220L50 223ZM184 317L185 322L189 320L189 311L187 309L185 312L184 317ZM198 343L204 360L210 369L210 373L212 371L214 376L216 376L214 381L214 377L209 373L212 384L260 384L259 381L261 381L261 376L260 376L263 370L265 370L263 369L264 366L265 368L264 369L267 371L266 374L267 374L266 363L267 343L261 337L258 340L253 340L251 343L248 342L239 344L242 347L239 347L238 345L235 348L228 347L221 344L215 339L212 339L211 336L208 339L201 337L200 334L198 343ZM200 331L201 333L202 329L200 331ZM203 335L204 337L207 336L204 334L203 335ZM208 284L212 284L211 282L208 284ZM211 280L212 282L215 280L211 279L211 280ZM233 289L234 290L236 289L233 289ZM256 316L259 316L262 325L267 324L266 321L265 322L266 318L264 317L260 312L256 316ZM261 329L267 329L267 331L270 329L267 326L261 329ZM263 332L264 333L266 331L263 332ZM352 2L355 6L360 -10L358 -17L355 -14L358 -11L353 -6L354 -4L352 2ZM360 32L361 38L361 31L360 32ZM360 45L361 46L363 39L361 39L360 45Z"/>
+  <clipPath id="landclip-first-fleet"><use href="#land-first-fleet"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-first-fleet)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-first-fleet)"/>
+  <use href="#land-first-fleet" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-first-fleet" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-first-fleet" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-first-fleet)"><path d="M316 170L321 171L320 171L321 179L315 184L312 174L314 171L317 171Z" fill="rgb(217,156,137)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-first-fleet" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  
+  <g transform="translate(320.0 177.4)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-first-fleet)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-first-fleet)"/>
+  <rect width="640" height="360" fill="url(#vignette-first-fleet)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">건국</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">영국 제1함대의 시드니 도착</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1788년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

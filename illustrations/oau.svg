@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="아프리카 통일 기구 창설">
+<defs>
+  <clipPath id="frame-oau"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-oau" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-oau" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-oau" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="171" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-oau" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-oau"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-oau" d="M-24 -24L-24 384L406 384L442 349L457 338L480 326L522 282L546 244L550 230L561 213L563 205L569 200L576 184L585 172L587 152L591 150L597 150L597 148L592 147L593 149L589 149L592 146L591 137L593 134L590 133L590 129L595 118L584 115L579 116L578 120L573 124L557 126L550 130L543 131L534 130L526 134L516 135L510 133L489 144L474 139L456 150L443 150L431 141L424 131L424 128L419 126L417 123L403 126L403 124L406 124L408 120L414 119L422 113L420 103L415 96L413 94L412 97L408 95L407 91L403 87L400 87L398 79L395 77L396 79L394 77L391 73L384 71L373 55L364 54L363 49L359 46L354 49L351 47L348 41L349 39L345 35L342 38L344 43L343 45L341 45L339 35L336 35L335 28L332 26L324 -8L317 -22L314 -19L317 -22L315 -24L382 -24L387 -18L398 -9L399 1L399 -3L407 7L409 14L410 26L406 31L409 41L409 42L407 38L406 41L405 41L410 44L412 48L412 51L411 49L414 59L412 58L419 76L419 87L424 95L423 99L426 97L434 101L444 99L448 96L454 98L454 96L457 95L457 97L458 97L460 93L466 90L472 84L494 82L510 77L523 68L527 70L538 68L545 62L547 58L553 55L565 50L571 50L579 46L597 42L615 33L614 24L617 18L622 14L640 7L646 7L656 1L664 0L664 -24ZM346 30L349 32L346 31L347 33L356 34L354 31L351 32L350 28L348 27L346 26L348 28L346 30ZM347 24L350 24L350 23L349 22L347 24ZM386 4L389 8L393 8L395 11L394 6L390 7L386 4ZM388 4L391 7L390 1L388 1L390 2L388 4ZM403 40L405 40L405 36L403 40ZM406 77L409 75L406 77ZM406 69L408 71L408 68L406 69ZM612 109L619 111L612 109ZM639 102L645 107L648 108L657 107L664 104L664 102L657 99L651 101L643 98L639 102Z"/>
+  <clipPath id="landclip-oau"><use href="#land-oau"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-oau)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-oau)"/>
+  <use href="#land-oau" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-oau" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-oau" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-oau)"><path d="M499 -5L500 10L493 22L489 23L487 30L470 44L470 51L482 61L479 68L474 71L469 68L461 71L458 77L444 81L443 86L431 89L426 95L426 99L424 99L418 90L419 76L414 70L411 45L408 44L407 29L409 14L414 13L419 6L420 -3L418 -3L420 -9L430 -9L433 -6L464 -8L467 -5L480 -5ZM396 10L392 10L392 6L395 6L396 8Z" fill="rgb(174,212,199)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M523 -24L510 0L500 1L499 -5L467 -5L464 -8L433 -6L430 -9L420 -9L418 -3L420 -3L419 6L414 13L409 14L402 -2L399 -2L397 -9L387 -18L384 -24Z" fill="rgb(224,192,197)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M334 25L337 33L342 38L342 42L343 42L344 35L347 35L354 48L362 47L365 52L376 55L381 64L384 66L384 68L400 79L401 86L404 86L410 95L417 95L418 99L413 100L408 106L398 105L395 113L390 116L388 120L389 139L410 136L408 149L414 161L419 164L422 172L426 174L431 179L494 201L497 203L520 205L520 208L483 240L483 243L470 255L470 257L465 260L458 270L452 273L423 273L408 286L394 287L386 293L375 294L368 291L364 286L361 286L349 290L338 300L336 304L307 301L295 296L284 284L260 281L254 274L256 266L251 262L245 262L238 255L232 235L218 223L217 218L209 211L201 211L195 206L195 201L200 193L213 195L218 192L220 179L218 179L217 169L220 165L220 159L223 156L224 145L227 141L230 141L232 143L237 142L242 115L246 113L251 103L256 99L264 97L265 95L266 83L271 74L271 64L273 64L271 44L274 39L280 20L283 17L282 6L285 1L290 1L294 -2L297 -8L315 -15L319 -21L320 -21L334 23ZM347 29L347 26L350 26L355 35L347 33L347 30Z" fill="rgb(221,199,150)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M587 152L585 175L575 186L571 199L563 205L563 213L549 230L542 253L539 255L537 260L525 273L520 284L502 301L502 304L494 310L494 313L476 328L473 328L468 334L444 346L419 368L419 370L411 376L411 379L406 384L367 384L368 317L376 310L386 293L394 287L408 286L423 273L452 273L458 270L465 260L470 257L470 255L483 243L483 240L520 208L520 205L497 203L494 201L431 179L426 174L422 172L419 164L414 161L408 149L410 136L418 126L420 125L428 132L429 138L437 146L443 149L454 149L472 139L492 142L506 132L522 133L531 129L547 131L560 125L573 123L579 115L591 115L595 118L592 128L592 148L589 152Z" fill="rgb(160,180,131)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M388 120L390 116L395 113L398 105L408 106L413 100L418 99L424 107L424 115L409 120L407 123L419 123L418 128L410 136L389 139Z" fill="rgb(165,173,190)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M59 269L49 269L46 266L27 263L24 269L17 272L3 269L1 272L-18 279L-24 277L-24 143L-22 145L-22 148L-15 152L-9 165L-9 172L-14 178L-13 186L-2 188L1 191L0 192L1 198L12 199L17 205L24 208L23 216L36 222L42 228L42 230L47 233L47 240L52 245L51 247L67 256L67 264Z" fill="rgb(139,201,187)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 105L659 107L644 107L641 106L641 103L640 103L643 97L659 97L664 100ZM664 -24L664 1L659 1L645 8L637 8L635 11L621 16L617 20L616 33L613 36L608 36L595 44L583 45L572 51L554 54L540 68L517 71L516 76L502 81L473 84L458 97L449 97L444 100L426 99L426 95L431 89L443 86L444 81L458 77L461 71L469 68L474 71L479 68L482 61L470 51L470 44L487 30L489 23L493 22L500 10L500 1L510 0L523 -24Z" fill="rgb(217,156,137)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-2 -24L-1 28L-5 30L-18 30L-24 33L-24 143L-22 145L-22 148L-15 152L-9 165L-9 172L-14 178L-13 186L-2 188L1 191L0 192L1 198L12 199L17 205L24 208L23 216L36 222L42 228L42 230L47 233L47 240L52 245L51 247L67 256L67 264L81 280L89 284L94 284L97 281L110 284L118 277L126 284L129 291L135 293L141 301L146 301L151 297L167 297L170 301L177 301L178 298L186 296L205 297L245 262L238 255L232 235L218 223L217 218L209 211L201 211L195 206L195 201L200 193L213 195L218 192L220 179L218 179L217 169L220 165L220 159L223 156L224 145L227 141L230 141L232 143L237 142L242 115L246 113L251 103L256 99L264 97L265 95L266 83L271 74L271 64L273 64L271 44L274 39L280 20L283 17L282 6L285 1L290 1L294 -2L297 -8L315 -15L319 -21L318 -24Z" fill="rgb(168,189,140)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-24 384L-24 277L-18 279L1 272L3 269L17 272L24 269L27 263L46 266L49 269L59 269L67 264L81 280L89 284L94 284L97 281L110 284L118 277L126 284L129 291L135 293L141 301L146 301L144 327L152 329L155 334L126 360L126 368L121 375L120 384Z" fill="rgb(220,201,151)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M233 384L221 382L218 384L213 379L213 375L212 375L213 370L221 365L223 358L230 353L236 342L235 327L229 314L226 313L224 300L214 290L245 262L251 262L256 266L254 274L260 281L284 284L295 296L307 301L336 304L338 300L349 290L361 286L364 286L368 291L375 294L386 293L376 310L368 317L367 384Z" fill="rgb(184,192,207)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M235 327L229 314L226 313L224 300L214 290L205 297L186 296L178 298L177 301L170 301L167 297L151 297L146 301L144 327L152 329L155 334L126 360L126 368L121 375L120 384L167 384L167 380L175 379L180 375L191 376L193 372L199 369L202 369L202 372L209 372L212 375L213 370L221 365L223 358L230 353L236 342L235 328Z" fill="rgb(139,176,179)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-oau" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="543.8" y="167.2" class="lbl">소말리아</text>
+  <g transform="translate(320.0 180.6)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-oau)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M26 22 L74 22 C80 22 80 34 74 34 L74 78 C74 84 68 86 64 84 L24 84 C18 84 18 72 24 72 L26 72 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M26 22 C20 22 20 34 26 34" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 40 L66 40 M34 48 L66 48 M34 56 L60 56 M34 64 L54 64" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="62" cy="74" r="8" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/><path d="M58 80 L56 90 L62 86 L66 90 L66 80" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-oau)"/>
+  <rect width="640" height="360" fill="url(#vignette-oau)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M26 22 L74 22 C80 22 80 34 74 34 L74 78 C74 84 68 86 64 84 L24 84 C18 84 18 72 24 72 L26 72 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M26 22 C20 22 20 34 26 34" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 40 L66 40 M34 48 L66 48 M34 56 L60 56 M34 64 L54 64" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="62" cy="74" r="8" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/><path d="M58 80 L56 90 L62 86 L66 90 L66 80" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">교역·외교</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">아프리카 통일 기구 창설</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1963년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

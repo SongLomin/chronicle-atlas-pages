@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="케두칸 부킷 비문과 스리비자야 원정">
+<defs>
+  <clipPath id="frame-srivijaya-kedukan-bukit-expedition"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-srivijaya-kedukan-bukit-expedition" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-srivijaya-kedukan-bukit-expedition" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-srivijaya-kedukan-bukit-expedition" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="171" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-srivijaya-kedukan-bukit-expedition" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-srivijaya-kedukan-bukit-expedition"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-srivijaya-kedukan-bukit-expedition" d="M271 -24L281 -18L287 -8L288 -12L291 -11L294 -15L300 -16L305 -14L307 -15L305 -23L309 -17L312 -19L309 -16L311 -12L317 -12L318 -16L316 -24ZM100 -24L98 -18L96 -20L101 -11L107 10L109 12L109 18L111 19L113 32L117 34L121 33L123 36L132 39L137 44L140 55L149 62L159 75L164 84L162 85L162 89L164 91L163 93L170 96L170 100L173 107L181 118L183 124L180 129L184 136L191 146L200 152L211 171L236 188L239 197L238 199L239 202L255 213L263 222L274 227L283 237L287 237L293 241L295 240L296 243L302 246L303 251L306 252L306 255L328 276L329 279L335 279L328 264L328 262L331 261L334 262L338 266L353 273L355 272L352 271L355 270L353 265L356 265L357 260L365 268L369 269L370 274L375 275L375 278L379 268L381 244L382 240L381 235L382 221L379 212L384 195L379 189L382 178L389 172L387 162L378 158L377 150L373 149L371 146L371 138L368 139L356 136L351 138L345 135L343 137L342 134L337 139L336 146L330 149L328 153L329 149L335 145L335 137L331 138L337 136L342 127L339 123L334 124L333 121L330 123L332 119L329 117L326 120L328 113L325 105L321 84L315 85L305 82L301 83L300 85L288 75L284 75L285 73L280 70L283 66L281 61L283 63L290 60L286 58L280 57L284 56L286 51L277 53L283 51L286 47L290 47L290 43L292 45L299 43L296 32L292 29L291 30L288 25L281 21L276 23L273 27L263 32L249 36L244 33L250 36L270 25L270 22L262 14L245 12L235 2L235 -5L232 -12L217 -23L207 -24ZM30 -14L38 -8L44 5L47 5L52 10L55 19L60 21L63 18L65 4L63 1L55 -4L44 -18L41 -18L41 -16L37 -14L30 -14ZM79 64L84 66L85 64L88 65L88 57L85 52L81 63L79 64ZM79 43L89 58L90 54L85 45L82 42L79 43ZM89 37L89 39L95 40L102 38L96 36L89 37ZM91 90L103 110L112 114L118 113L115 108L118 109L118 112L119 107L113 100L114 101L114 99L105 85L104 82L105 82L103 79L94 81L91 90ZM128 128L132 132L131 133L142 137L133 123L130 124L130 128L128 128ZM146 144L148 156L153 155L156 152L154 147L147 142L146 144ZM154 154L155 161L157 165L161 167L161 171L166 176L162 168L166 167L166 163L156 153L154 154ZM231 255L238 262L242 261L243 257L238 254L234 253L231 255ZM235 -9L237 1L242 6L245 4L246 -7L238 -13L235 -13L235 -9ZM243 8L249 12L262 11L267 15L269 12L268 9L257 3L251 3L251 1L248 -3L245 -1L247 5L243 8ZM252 2L258 2L270 9L274 8L268 1L259 -4L255 -3L252 2ZM260 31L264 30L260 31ZM268 17L270 20L268 17ZM270 12L270 14L271 11L270 12ZM272 20L273 22L278 21L278 18L275 15L272 20ZM279 0L281 3L284 3L282 -2L279 0ZM280 11L283 17L285 17L287 13L285 10L282 7L280 11ZM283 6L285 8L285 6L283 6ZM283 8L287 12L283 8ZM285 56L285 57L291 58L297 56L289 52L285 56ZM285 18L287 15L285 18ZM293 10L295 12L293 10ZM296 8L300 12L298 8L296 8ZM299 7L304 12L302 9L299 7ZM300 3L303 6L305 5L302 2L300 3ZM303 -1L305 3L310 3L312 -3L310 -5L310 -2L308 -5L306 -2L304 -2L305 0L303 -1ZM310 8L313 11L317 9L311 5L310 8ZM314 12L318 15L317 11L314 12ZM315 15L317 18L315 15ZM316 -1L317 3L324 1L326 2L323 5L326 5L324 6L326 9L330 10L333 6L333 -1L330 -3L329 -6L327 -4L322 -5L316 -1ZM317 61L320 64L321 69L323 66L327 67L330 61L325 56L320 58L320 60L320 57L317 61ZM320 28L323 31L323 29L320 28ZM322 38L326 42L326 40L323 36L324 39L322 38ZM323 54L324 55L326 54L323 54ZM324 50L328 54L336 51L344 56L343 54L347 54L340 48L339 50L337 50L329 42L324 50ZM326 33L334 41L326 33ZM327 13L331 11L327 11L327 13ZM337 272L340 275L340 272L337 272ZM338 2L340 5L340 2L338 2ZM351 307L353 305L354 309L356 307L357 303L351 307ZM351 123L352 126L355 125L358 128L369 125L370 127L377 128L379 138L384 142L382 149L386 155L403 161L407 166L416 165L415 162L410 159L413 150L419 145L402 142L399 140L394 129L393 118L387 110L388 106L383 102L374 104L379 114L373 112L374 109L371 107L370 103L365 105L360 108L360 110L362 114L361 115L352 120L351 123ZM355 313L357 316L359 314L368 317L385 315L399 322L406 321L408 324L401 331L402 337L442 342L460 352L484 355L487 350L492 351L493 349L496 350L500 347L502 350L506 351L509 350L520 351L522 353L542 356L564 367L586 372L589 371L591 374L596 372L602 373L603 375L610 375L613 377L614 374L616 375L617 373L622 374L624 373L638 376L652 380L658 377L661 378L664 375L664 348L655 343L658 333L655 330L653 332L649 330L652 329L649 326L651 324L648 322L648 317L646 319L642 317L628 318L624 313L615 313L609 309L605 307L600 311L591 310L587 301L582 298L572 302L571 310L568 315L565 320L560 321L552 316L551 318L543 319L525 314L519 317L511 316L506 314L503 316L499 314L495 315L490 312L487 301L480 296L480 292L473 291L473 293L469 295L461 291L461 289L453 292L445 288L440 281L433 281L428 279L426 285L418 286L413 282L405 283L398 280L392 282L388 277L381 286L377 302L375 303L372 301L371 307L366 314L361 309L355 313ZM415 161L420 163L422 160L418 158L415 161ZM427 157L429 159L430 157L428 155L427 157ZM439 158L442 160L446 156L445 155L439 158ZM447 2L448 4L450 3L447 2ZM448 159L450 159L449 163L451 167L450 171L458 169L459 165L460 164L464 168L465 172L474 168L474 162L477 156L474 149L468 146L467 148L466 145L459 143L453 145L450 157L448 159ZM493 111L497 111L493 111ZM497 106L500 109L504 107L501 104L497 106ZM497 350L497 352L507 353L504 351L497 350ZM500 10L503 18L503 30L510 33L512 38L517 42L512 42L514 52L510 51L507 53L509 53L511 57L509 57L510 63L516 66L521 67L522 67L520 67L520 69L526 71L524 72L516 69L516 77L521 79L522 76L526 77L532 82L536 77L535 81L539 86L543 87L542 91L548 96L547 108L541 115L549 120L550 125L549 132L552 140L554 144L556 143L551 147L554 148L555 155L553 158L556 162L567 157L570 159L572 165L577 160L583 157L575 163L585 166L599 159L604 160L608 163L613 160L612 158L615 152L614 154L618 165L617 183L621 185L633 175L639 175L647 180L664 170L662 166L664 164L664 -24L592 -24L595 -22L587 -24L585 -20L587 -16L592 -13L597 -13L600 -11L599 -10L594 -13L591 -12L579 -20L577 -20L576 -16L572 -15L574 -19L564 -22L565 -24L516 -24L508 -18L508 -11L505 -6L511 -7L516 -13L511 -7L503 -4L505 5L500 10ZM509 95L513 93L509 95ZM522 93L525 94L536 88L536 84L533 82L524 82L522 93Z"/>
+  <clipPath id="landclip-srivijaya-kedukan-bukit-expedition"><use href="#land-srivijaya-kedukan-bukit-expedition"/></clipPath>
+  <path id="hl-srivijaya-kedukan-bukit-expedition-2" d="M351 134L365 136L372 154L386 164L384 177L375 185L382 200L376 208L380 231L377 231L378 252L375 252L376 275L362 275L356 265L353 272L339 272L327 265L330 280L324 280L312 270L312 265L303 262L297 249L276 234L270 234L234 203L231 190L222 182L227 172L229 149L252 129L260 113L283 95L289 80L318 85L327 121L339 124L339 134L348 134ZM415 149L409 152L409 157L418 157L418 164L404 170L377 154L377 139L371 129L351 129L345 121L356 116L356 103L370 108L370 103L385 103L394 139L415 147Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-srivijaya-kedukan-bukit-expedition)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-srivijaya-kedukan-bukit-expedition)"/>
+  <use href="#land-srivijaya-kedukan-bukit-expedition" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-srivijaya-kedukan-bukit-expedition" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-srivijaya-kedukan-bukit-expedition" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-srivijaya-kedukan-bukit-expedition)"><path d="M446 319L437 313L436 298L427 290L426 283L420 280L420 283L412 285L406 280L382 277L374 285L372 301L363 303L361 316L381 316L399 324L397 339L403 342L435 344L438 344L446 321Z" fill="rgb(201,162,113)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M503 313L518 316L515 324L521 326L525 337L549 347L544 355L547 362L497 350L471 357L438 344L446 319L437 313L436 298L427 290L426 283L420 280L420 277L441 283L447 290L476 293L486 311L500 313Z" fill="rgb(229,179,171)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-srivijaya-kedukan-bukit-expedition-2" fill="rgb(205,180,114)" stroke="none"/>
+       <use href="#hl-srivijaya-kedukan-bukit-expedition-2" fill="url(#hatch-srivijaya-kedukan-bukit-expedition)" stroke="none"/>
+       <use href="#hl-srivijaya-kedukan-bukit-expedition-2" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-srivijaya-kedukan-bukit-expedition-2" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-srivijaya-kedukan-bukit-expedition" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="306.8" y="141.5" class="lbl hl">스리비자야</text>
+  <g transform="translate(306.8 183.5)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-srivijaya-kedukan-bukit-expedition)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M24 64 C24 34 38 20 50 20 C62 20 76 34 76 64 L66 64 L66 52 L56 52 L56 82 L44 82 L44 52 L34 52 L34 64 Z" fill="#c9b37e" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 20 C50 8 68 6 80 12 C70 14 62 18 58 26" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M30 64 L70 64" stroke="#3b2412" stroke-width="3"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-srivijaya-kedukan-bukit-expedition)"/>
+  <rect width="640" height="360" fill="url(#vignette-srivijaya-kedukan-bukit-expedition)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M24 64 C24 34 38 20 50 20 C62 20 76 34 76 64 L66 64 L66 52 L56 52 L56 82 L44 82 L44 52 L34 52 L34 64 Z" fill="#c9b37e" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 20 C50 8 68 6 80 12 C70 14 62 18 58 26" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M30 64 L70 64" stroke="#3b2412" stroke-width="3"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">전쟁·저항</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:19px">케두칸 부킷 비문과 스리비자야 원정</text>
+  </g>
+  <text x="320" y="284" class="year">서기 683년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

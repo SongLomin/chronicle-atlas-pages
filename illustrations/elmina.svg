@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="엘미나 성 건설">
+<defs>
+  <clipPath id="frame-elmina"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-elmina" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-elmina" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-elmina" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="202" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-elmina" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-elmina"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-elmina" d="M-23 -24L-21 -21L-21 -16L-20 -21L-18 -22L-20 -20L-18 -20L-14 -24L-12 -24L-17 -21L-17 -20L-20 -19L-19 -15L-15 -20L-15 -15L-17 -16L-18 -13L-15 -14L-17 -12L-15 -5L-11 -5L-7 -7L6 -9L12 -8L11 -7L6 -9L-8 -7L-9 -5L-7 -3L-9 -3L-10 -5L-14 -3L-13 -2L-19 -8L-22 -5L-20 2L-22 9L-19 9L-21 10L-21 13L-18 11L-17 7L-18 10L-15 11L-15 9L-12 13L-6 11L-4 9L-2 12L4 13L6 11L6 8L9 7L6 8L7 11L4 13L-5 11L-16 13L-17 11L-21 14L-22 16L-14 22L-5 18L-12 24L-7 28L-1 25L2 25L-1 26L-3 32L1 28L2 29L0 31L9 26L13 28L18 26L17 29L20 31L17 30L17 27L14 28L8 28L7 30L6 33L9 32L8 36L13 31L13 33L15 32L14 33L18 34L15 36L16 34L12 34L13 35L11 35L12 36L8 37L7 40L10 38L11 40L12 38L9 42L10 45L13 45L14 43L13 48L18 43L16 49L18 49L16 51L19 53L20 47L22 49L25 47L22 50L22 52L24 51L23 54L23 55L26 52L25 56L29 51L26 59L26 60L28 59L30 66L35 66L35 68L37 67L37 69L40 66L39 70L44 74L47 72L46 76L48 74L50 75L46 82L49 80L50 82L52 80L51 83L54 83L53 87L56 85L55 89L57 87L57 89L59 89L55 91L56 94L63 96L57 97L59 104L60 102L59 100L62 101L61 102L65 100L64 102L65 103L60 105L62 107L56 104L59 112L63 110L66 117L63 117L66 120L68 119L69 122L71 122L75 120L72 123L74 125L80 124L75 126L74 128L76 129L73 129L94 138L98 141L99 144L112 151L111 153L121 157L149 181L179 196L185 197L197 190L220 181L227 180L239 179L234 178L235 178L230 179L232 177L239 177L242 179L261 177L257 176L244 178L247 175L246 177L249 175L262 176L263 174L267 176L266 174L267 176L261 176L277 179L278 175L280 174L279 177L280 179L287 179L284 180L278 178L277 180L298 184L303 188L306 188L314 182L332 177L355 165L371 165L374 159L381 156L401 153L425 151L425 148L427 147L428 148L433 146L435 147L425 150L447 152L455 157L461 165L467 162L463 165L462 166L464 169L468 166L468 169L472 168L465 170L469 173L475 170L472 172L473 174L468 174L468 178L471 179L469 179L473 189L482 197L482 195L484 198L484 195L485 198L487 198L488 193L488 196L490 195L489 198L495 197L495 193L496 197L498 197L497 193L498 195L499 191L498 196L502 196L498 186L500 186L502 196L505 195L502 189L504 191L504 188L506 190L506 195L509 193L506 187L511 193L512 193L511 191L516 192L517 189L517 193L533 192L535 190L531 182L535 187L536 186L537 189L540 186L538 193L543 193L541 188L543 191L546 192L545 190L547 191L548 202L554 205L556 204L556 206L559 206L558 204L561 205L559 202L562 204L566 201L563 205L566 205L564 206L565 208L563 207L563 210L561 208L563 213L567 213L563 215L569 220L570 225L566 242L567 250L562 256L565 257L562 258L557 267L562 270L565 268L568 269L566 271L566 270L564 269L561 272L562 282L562 280L559 280L561 279L561 278L556 279L556 281L560 286L566 289L572 289L566 290L567 292L565 290L562 290L560 289L560 291L558 288L557 289L556 285L556 300L551 306L549 312L547 308L545 311L542 306L545 313L547 314L546 314L550 319L550 322L553 324L556 323L556 321L554 326L555 327L559 325L561 328L555 330L555 327L548 320L554 328L555 333L559 334L560 335L561 339L559 335L555 334L561 341L562 345L564 347L565 345L565 347L568 346L571 349L574 349L570 351L567 347L564 347L569 353L585 366L585 369L592 375L595 379L601 384L664 384L664 -24ZM1 44L2 44L4 41L1 44ZM4 36L8 35L8 34L4 36ZM63 125L73 129L74 125L72 124L63 125ZM493 288L495 292L499 287L499 285L497 284L493 288ZM508 196L511 195L512 193L510 192L508 196ZM512 257L514 259L515 256L512 257ZM512 194L518 194L512 194ZM536 219L542 222L548 213L547 210L542 210L540 216L537 216L536 219ZM548 307L550 309L549 306L548 307Z"/>
+  <clipPath id="landclip-elmina"><use href="#land-elmina"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-elmina)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-elmina)"/>
+  <use href="#land-elmina" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-elmina" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-elmina" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-elmina)"><path d="M423 155L465 178L498 173L507 151L494 124L460 120L427 135Z" fill="rgb(152,186,192)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M33 -15L112 -5L151 4L156 8L192 11L199 19L205 20L207 24L200 30L196 53L189 64L191 66L188 66L181 75L172 78L172 81L134 81L133 77L128 79L128 77L121 78L108 72L104 74L87 69L81 71L63 66L58 58L60 55L58 55L58 49L50 39L32 35L22 42L19 39L9 42L8 29L4 32L-5 32L-7 29L-10 30L-12 21L-17 21L-22 17L-22 3L-20 3L-22 -6L-16 -8L-18 -16L-16 -18L8 -18L21 -15L28 -18L26 -15L31 -15Z" fill="rgb(218,181,191)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M258 -24L260 -21L255 -19L253 -14L249 -12L231 4L228 4L228 7L224 7L224 10L216 16L218 19L213 19L208 23L205 20L199 19L192 11L156 8L151 4L112 -5L36 -15L32 -24L29 -22L29 -24Z" fill="rgb(164,179,128)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M313 177L318 175L321 181L313 183Z" fill="rgb(165,190,146)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 -9L648 -15L623 -12L610 -3L610 1L626 10L626 14L631 13L638 17L664 19Z" fill="rgb(184,163,177)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-elmina" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="88.0" y="30.5" class="lbl">제국 말리</text><text x="467.1" y="149.3" class="lbl">베냉 왕국</text>
+  <g transform="translate(320.0 180.3)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-elmina)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M26 22 L74 22 C80 22 80 34 74 34 L74 78 C74 84 68 86 64 84 L24 84 C18 84 18 72 24 72 L26 72 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M26 22 C20 22 20 34 26 34" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 40 L66 40 M34 48 L66 48 M34 56 L60 56 M34 64 L54 64" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="62" cy="74" r="8" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/><path d="M58 80 L56 90 L62 86 L66 90 L66 80" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-elmina)"/>
+  <rect width="640" height="360" fill="url(#vignette-elmina)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M26 22 L74 22 C80 22 80 34 74 34 L74 78 C74 84 68 86 64 84 L24 84 C18 84 18 72 24 72 L26 72 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M26 22 C20 22 20 34 26 34" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 40 L66 40 M34 48 L66 48 M34 56 L60 56 M34 64 L54 64" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="62" cy="74" r="8" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/><path d="M58 80 L56 90 L62 86 L66 90 L66 80" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">교역·외교</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">엘미나 성 건설</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1482년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="사산 제국의 성립">
+<defs>
+  <clipPath id="frame-sasanian-foundation"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-sasanian-foundation" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-sasanian-foundation" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-sasanian-foundation" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="224" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-sasanian-foundation" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-sasanian-foundation"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-sasanian-foundation" d="M-24 -24L-24 384L-24 365L-21 371L-21 374L-17 378L-19 376L-15 384L449 384L439 373L432 361L428 358L422 359L396 351L383 337L379 327L378 311L375 308L380 301L378 299L380 297L377 297L377 295L380 296L379 294L380 294L378 293L381 290L378 290L376 294L379 294L374 293L368 305L368 304L361 311L359 310L354 318L354 320L353 318L349 324L339 331L337 337L335 335L334 336L337 338L335 338L334 342L327 346L315 348L305 345L305 347L294 346L292 344L286 349L277 350L274 350L274 343L270 344L270 340L269 343L262 342L267 335L265 334L263 337L263 334L261 334L264 334L264 335L270 324L270 318L268 317L267 312L268 309L267 307L269 307L269 302L265 301L262 296L256 300L253 308L256 308L254 311L253 308L251 309L253 313L251 311L250 312L253 330L251 331L250 328L246 323L244 314L237 307L239 309L236 300L233 300L234 294L237 299L238 291L234 287L233 281L237 283L233 278L227 275L224 269L222 270L223 271L219 270L220 269L218 269L218 265L216 266L217 264L213 263L218 263L216 260L207 259L208 257L206 256L206 253L207 256L208 253L205 250L206 248L203 247L200 238L199 239L199 236L196 232L197 229L192 222L190 214L181 213L187 208L192 209L188 201L187 194L187 197L191 196L197 198L202 198L203 195L208 196L209 192L208 188L212 185L210 184L213 183L217 185L215 188L212 186L209 187L214 191L216 190L216 193L222 193L223 196L231 191L235 192L237 198L248 211L248 219L252 219L254 221L254 224L252 223L252 225L257 230L258 235L265 250L272 253L279 253L289 258L294 263L292 265L302 272L311 275L313 278L318 282L331 281L333 284L342 287L353 279L359 280L362 274L368 274L372 270L377 269L388 271L389 274L391 274L390 275L393 278L394 289L397 295L396 297L399 305L409 306L410 309L414 307L416 310L419 311L424 309L433 311L438 315L448 313L458 316L465 317L465 315L467 315L471 317L469 315L473 313L474 318L492 323L495 318L501 320L500 324L503 322L508 322L507 321L509 319L512 320L511 322L514 322L513 321L516 318L531 318L539 320L539 317L541 316L552 316L552 314L550 314L552 313L554 313L553 314L553 316L561 319L564 318L566 321L568 317L577 317L582 315L588 316L602 313L607 315L607 313L604 311L598 313L601 310L605 309L608 312L609 316L613 320L611 329L618 329L625 331L622 334L625 335L623 335L625 340L627 341L625 343L627 348L631 348L629 350L631 351L630 352L633 353L634 351L633 354L635 355L635 353L638 354L638 352L642 355L642 351L644 354L643 356L645 357L645 352L645 356L648 357L645 359L649 360L651 357L660 353L653 359L651 359L651 362L652 361L651 363L654 364L655 366L654 367L656 368L656 370L664 375L664 384L664 -24ZM189 202L192 207L196 204L192 197L192 199L189 202ZM194 212L197 213L196 211L194 212ZM221 266L226 266L223 265L221 266ZM244 295L246 305L248 296L246 295L247 294L244 293L244 295ZM250 310L252 306L250 310ZM291 342L292 343L293 340L291 342ZM305 278L310 279L305 278ZM306 342L309 343L312 340L306 342ZM316 345L323 345L321 343L316 345ZM322 286L325 287L324 285L322 286ZM332 338L335 339L333 337L332 338ZM353 283L354 286L367 281L368 282L376 275L374 274L367 277L364 275L364 279L353 283Z"/>
+  <clipPath id="landclip-sasanian-foundation"><use href="#land-sasanian-foundation"/></clipPath>
+  <path id="hl-sasanian-foundation-6" d="M290 259L280 254L270 254L263 249L264 246L258 237L257 229L252 227L254 221L247 219L248 212L239 204L235 192L224 197L209 189L210 195L202 197L197 194L197 189L194 185L189 185L190 173L182 170L186 153L202 150L211 139L212 132L216 127L215 124L224 110L251 101L255 85L259 82L269 80L293 82L295 85L306 89L381 92L390 103L390 113L399 120L399 132L406 138L408 155L412 155L415 160L443 167L445 173L449 175L448 179L453 180L453 184L456 185L454 224L456 224L455 234L458 236L457 239L454 242L447 242L439 254L435 269L437 269L436 273L440 275L439 280L424 280L424 275L418 269L406 270L400 265L367 265L360 270L348 272L326 270L304 265L301 262L292 265Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-sasanian-foundation)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-sasanian-foundation)"/>
+  <use href="#land-sasanian-foundation" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-sasanian-foundation" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-sasanian-foundation" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-sasanian-foundation)"><path d="M576 209L563 207L554 212L512 212L483 202L482 197L492 189L503 172L504 162L515 158L524 144L532 139L532 136L538 134L541 138L559 139L574 146L589 148L598 155L607 155L606 170L608 170L604 185L606 185L603 201L598 202Z" fill="rgb(219,197,207)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M136 -24L134 -19L125 -16L124 -7L126 -7L127 1L130 1L126 8L116 4L115 -5L112 -8L96 -10L95 -14L72 -16L63 -19L53 -18L51 -21L44 -23L20 -24Z" fill="rgb(139,175,178)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M41 21L42 17L38 15L39 12L35 10L33 -3L52 -8L69 -8L66 4L66 19L45 25Z" fill="rgb(228,197,154)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-24 -24L20 -24L9 -21L9 -8L33 -3L35 10L39 12L38 15L42 17L41 21L45 25L31 34L32 62L24 69L21 69L9 82L-5 76L-13 76L-24 82Z" fill="rgb(191,158,174)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M243 301L244 293L249 293L248 303ZM575 -24L568 41L570 41L570 57L576 66L564 73L558 85L548 94L538 134L532 136L532 139L524 144L515 158L504 162L503 172L492 189L482 197L483 202L512 212L554 212L563 207L576 209L598 202L606 206L616 206L619 212L622 214L617 234L619 234L618 241L620 241L620 252L622 252L620 262L623 269L623 291L630 304L621 322L611 327L610 316L604 311L597 316L569 317L569 321L557 319L556 316L542 316L540 319L518 319L516 322L510 321L506 324L499 324L498 321L486 322L481 319L474 319L474 316L439 316L432 311L414 311L409 309L407 306L401 306L395 298L393 278L386 270L374 270L372 273L377 273L376 277L371 282L353 287L354 282L359 280L352 280L346 287L340 288L330 282L316 282L312 275L294 267L294 265L301 262L304 265L326 270L348 272L360 270L367 265L400 265L406 270L418 269L424 275L424 280L439 280L440 275L436 273L437 269L435 269L439 254L447 242L454 242L457 239L458 236L455 234L456 224L454 224L456 185L453 184L453 180L448 179L449 175L445 173L443 167L415 160L412 155L408 155L406 138L399 132L399 120L390 113L390 103L381 92L306 89L295 85L293 82L269 80L259 82L255 85L251 101L224 110L215 124L216 127L212 132L211 139L202 150L186 153L182 170L190 173L189 185L194 185L197 189L197 194L202 197L201 199L196 199L197 207L185 209L185 212L190 212L193 216L192 221L198 229L201 241L210 250L208 257L216 259L219 267L236 280L236 285L239 288L238 296L235 298L238 300L241 309L247 314L248 322L250 322L251 311L254 309L255 301L259 296L266 296L272 303L269 316L272 317L272 325L268 330L265 341L275 343L277 349L285 349L292 343L304 346L326 346L326 341L331 343L337 338L341 329L350 322L356 311L369 303L373 291L380 290L382 291L378 311L380 311L379 321L381 321L379 325L382 327L387 341L403 353L433 359L439 367L439 370L444 373L444 376L435 376L435 373L429 373L422 367L414 367L414 364L411 362L388 356L388 353L382 348L381 341L376 340L376 335L371 329L366 330L366 335L361 333L342 351L323 357L276 357L275 353L260 348L259 335L263 332L265 321L262 317L264 316L263 303L260 303L261 308L256 314L255 319L259 317L254 332L247 333L241 325L234 308L226 303L231 288L216 275L217 272L212 267L201 262L199 246L194 244L193 236L189 236L191 232L188 231L188 227L184 222L180 224L181 219L177 216L180 206L172 202L165 204L165 201L162 199L157 201L156 189L137 185L119 163L110 162L108 155L78 122L68 119L65 113L40 99L34 92L27 91L26 87L14 87L16 84L9 82L21 69L24 69L32 62L31 34L45 25L66 19L66 4L72 -16L95 -14L96 -10L112 -8L115 -5L116 4L126 8L130 1L127 1L126 -7L124 -7L125 -16L134 -19L136 -24L208 -24L207 -18L213 -8L230 -7L241 6L246 4L248 6L245 10L262 17L283 19L303 12L325 10L326 1L322 -7L321 -24Z" fill="rgb(183,198,144)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 -24L664 376L655 370L654 365L649 364L649 361L644 361L645 354L633 354L630 353L629 348L625 348L626 340L622 330L610 329L611 327L621 322L630 304L623 291L623 269L620 262L622 252L620 252L620 241L618 241L619 234L617 234L622 214L619 212L616 206L606 206L598 202L603 201L606 185L604 185L608 170L606 170L607 155L598 155L589 148L574 146L559 139L541 138L538 134L548 94L558 85L564 73L576 66L570 57L570 41L568 41L575 -24Z" fill="rgb(203,158,152)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-sasanian-foundation-6" fill="rgb(135,175,102)" stroke="none"/>
+       <use href="#hl-sasanian-foundation-6" fill="url(#hatch-sasanian-foundation)" stroke="none"/>
+       <use href="#hl-sasanian-foundation-6" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-sasanian-foundation-6" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-sasanian-foundation" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="332.5" y="134.7" class="lbl hl">사산 제국</text><text x="431.4" y="49.7" class="lbl">파르티아 제국</text><text x="550.1" y="174.2" class="lbl">인도-스키타이</text>
+  <g transform="translate(332.5 176.7)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-sasanian-foundation)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-sasanian-foundation)"/>
+  <rect width="640" height="360" fill="url(#vignette-sasanian-foundation)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">건국</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">사산 제국의 성립</text>
+  </g>
+  <text x="320" y="284" class="year">서기 224년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

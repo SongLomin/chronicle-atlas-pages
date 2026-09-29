@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="텍스코코의 삼국동맹 참여">
+<defs>
+  <clipPath id="frame-texcoco-triple-alliance-entry"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-texcoco-triple-alliance-entry" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-texcoco-triple-alliance-entry" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-texcoco-triple-alliance-entry" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="148" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-texcoco-triple-alliance-entry" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-texcoco-triple-alliance-entry"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-texcoco-triple-alliance-entry" d="M3 -24L1 -19L3 -13L2 -13L2 -11L1 -14L-2 -10L1 -11L1 -6L3 -6L3 -8L6 -6L5 -4L3 -5L2 -3L-2 -6L-3 -9L-6 -7L-19 -9L-17 -6L-7 2L-5 7L0 8L4 12L8 12L12 18L15 16L19 17L22 12L20 17L23 16L24 21L32 27L37 29L42 36L44 46L44 41L45 47L42 59L43 61L44 58L44 63L45 61L47 64L46 61L50 69L53 67L59 74L58 73L81 91L86 105L90 106L99 99L99 91L94 88L91 79L88 80L88 77L83 73L81 73L80 78L79 77L81 77L75 75L72 68L73 60L69 54L66 46L64 45L60 40L58 22L55 21L55 18L50 14L50 18L53 21L50 21L48 18L49 15L46 12L47 9L41 6L39 -2L33 -4L30 -9L28 -23L23 -24L52 -24L58 -22L65 -11L67 -12L69 -9L70 -12L70 -10L77 -9L75 -8L76 -6L75 -4L76 2L79 4L77 4L82 8L88 9L92 18L98 19L97 18L99 17L103 23L103 27L105 26L107 28L106 29L104 26L103 31L103 27L100 34L100 42L101 40L103 41L100 43L105 45L103 42L107 44L112 39L109 45L106 45L108 47L111 47L111 45L114 45L114 49L117 50L114 49L120 52L121 54L122 51L122 54L125 54L130 57L127 56L126 58L123 55L128 62L129 58L130 59L130 63L128 63L131 67L134 69L131 66L137 70L139 69L140 73L134 69L150 81L155 89L160 94L162 99L172 107L177 114L179 127L183 134L188 139L187 147L181 154L185 154L187 158L178 162L183 173L191 181L192 186L204 191L206 191L206 193L214 196L220 201L224 208L251 217L255 216L275 231L297 239L304 244L323 247L327 252L337 255L335 254L344 259L354 260L369 266L376 266L392 259L398 255L406 255L403 254L405 253L400 253L404 250L406 253L408 251L410 252L407 255L414 255L423 259L413 254L414 252L419 254L444 275L448 277L449 279L447 277L459 290L479 303L494 304L504 308L510 312L522 314L538 320L533 318L538 318L539 320L540 319L541 320L549 320L552 318L551 316L551 314L553 316L556 314L556 316L560 315L558 318L560 321L562 322L561 322L563 323L561 325L563 325L560 325L557 322L555 326L574 341L579 350L596 365L595 366L596 368L591 369L596 371L596 375L597 375L594 377L594 378L592 380L593 384L606 384L605 382L606 384L647 384L640 371L639 372L640 370L637 367L634 361L637 355L639 353L638 348L636 349L635 348L637 346L636 344L638 342L636 341L638 345L640 338L638 339L636 334L640 332L639 328L641 328L639 337L642 336L641 315L643 303L649 295L646 286L644 285L646 283L646 285L650 281L647 279L644 275L638 272L642 276L640 277L641 274L639 274L637 276L635 274L631 272L635 275L633 275L627 269L637 272L625 263L618 262L622 263L618 264L617 262L611 259L600 262L590 258L592 259L591 260L582 264L571 264L562 262L559 264L556 260L554 261L549 262L545 266L535 260L538 262L536 262L535 265L529 261L529 259L532 254L537 253L541 244L541 247L543 238L542 230L544 226L542 224L546 213L546 207L540 208L541 207L540 207L545 200L543 200L545 199L547 196L548 200L546 204L549 205L551 211L559 186L555 188L555 186L559 183L560 180L560 179L558 180L560 181L555 182L553 178L555 179L559 173L559 172L559 176L560 166L571 152L574 145L573 144L572 139L567 135L560 137L566 136L563 139L545 135L543 136L546 135L539 136L525 140L511 142L499 148L496 159L496 173L492 176L490 186L475 197L480 194L476 197L480 199L479 201L481 201L475 204L475 206L468 204L468 207L466 202L465 202L467 204L463 203L465 201L467 202L465 200L456 200L450 202L450 206L449 202L446 205L440 206L441 208L440 205L432 206L426 208L431 206L427 209L413 212L410 211L406 204L401 203L398 200L389 199L386 198L390 200L384 199L385 199L381 196L386 198L375 186L371 174L357 157L349 138L346 134L343 124L347 131L352 137L350 139L351 142L353 136L344 124L342 111L341 113L344 104L345 87L344 89L342 86L345 85L346 69L350 54L356 41L357 35L356 33L354 35L355 32L353 32L348 15L348 13L350 14L348 11L350 11L351 5L344 5L346 4L343 0L346 4L349 2L348 4L351 3L354 -5L352 -9L349 -9L356 -9L359 -15L357 -13L355 -14L356 -16L359 -17L360 -16L362 -19L361 -15L362 -16L364 -18L363 -22L364 -22L364 -24L367 -20L372 -23L369 -24L660 -24L656 -9L658 -4L656 -8L660 -5L662 -10L658 -11L660 -12L659 -13L662 -11L662 -8L664 -11L664 -6L660 -1L661 -1L660 -1L660 0L658 -1L661 2L664 9L664 -24ZM19 18L22 19L19 18ZM40 62L43 64L42 66L45 68L41 61L43 52L40 62ZM43 51L44 46L43 51ZM46 69L52 74L52 72L49 69L46 69ZM53 72L57 73L53 72ZM62 38L64 35L65 35L66 33L63 34L62 38ZM65 198L69 199L67 196L65 198ZM71 43L72 44L72 41L71 43ZM73 57L77 60L75 57L73 55L73 57ZM75 2L77 4L75 2ZM79 68L81 71L81 69L79 68ZM89 73L92 78L89 72L89 73ZM108 47L113 49L108 47ZM158 133L160 136L160 134L158 133ZM161 138L164 138L161 138ZM345 129L347 132L345 129ZM351 10L356 32L352 6L351 10ZM351 6L359 -9L355 -4L354 -4L351 6ZM468 201L474 198L468 201ZM511 114L513 114L513 118L514 115L512 113L511 114ZM548 217L551 211L548 217ZM549 231L552 225L549 231ZM561 206L562 203L561 206ZM568 162L569 165L574 158L570 159L568 162ZM569 257L572 256L569 257ZM577 253L586 250L581 250L577 253ZM591 250L594 248L591 250ZM612 129L614 130L621 128L622 131L627 128L632 127L633 122L638 122L640 121L644 122L658 110L664 111L664 101L653 104L651 103L649 105L648 103L644 106L631 110L625 115L622 121L626 126L621 125L612 129Z"/>
+  <clipPath id="landclip-texcoco-triple-alliance-entry"><use href="#land-texcoco-triple-alliance-entry"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-texcoco-triple-alliance-entry)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-texcoco-triple-alliance-entry)"/>
+  <use href="#land-texcoco-triple-alliance-entry" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-texcoco-triple-alliance-entry" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-texcoco-triple-alliance-entry" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-texcoco-triple-alliance-entry)"><path d="M575 150L574 137L571 134L564 134L562 137L538 134L523 140L506 142L503 146L499 146L497 162L496 162L497 170L491 178L489 188L482 190L481 195L484 193L498 205L498 207L512 217L511 220L520 220L535 226L544 226L546 215L547 215L546 207L543 207L543 205L548 199L549 203L547 203L550 210L554 209L554 205L559 192L558 186L561 183L561 180L557 179L563 173L562 166L575 152Z" fill="rgb(175,168,184)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M268 200L268 205L272 205L276 210L288 207L287 199L280 196L280 193L273 193L274 196L268 199Z" fill="rgb(205,160,154)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M322 196L319 198L318 193L315 192L314 186L318 182L319 182L323 196Z" fill="rgb(204,159,155)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M328 186L324 180L319 182L323 196L330 192L329 186Z" fill="rgb(234,192,180)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-texcoco-triple-alliance-entry" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="530.4" y="168.2" class="lbl">후기 마야 도시국가들</text>
+  <g transform="translate(320.0 181.4)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-texcoco-triple-alliance-entry)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M50 86 C24 80 14 58 18 30" fill="none" stroke="#3b2412" stroke-width="3"/><path d="M50 86 C76 80 86 58 82 30" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <ellipse cx="20" cy="76" rx="8" ry="4" transform="rotate(-40 20 76)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="80" cy="76" rx="8" ry="4" transform="rotate(40 80 76)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="22" cy="65" rx="8" ry="4" transform="rotate(-32 22 65)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="78" cy="65" rx="8" ry="4" transform="rotate(32 78 65)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="24" cy="54" rx="8" ry="4" transform="rotate(-24 24 54)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="76" cy="54" rx="8" ry="4" transform="rotate(24 76 54)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="26" cy="43" rx="8" ry="4" transform="rotate(-16 26 43)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="74" cy="43" rx="8" ry="4" transform="rotate(16 74 43)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="28" cy="32" rx="8" ry="4" transform="rotate(-8 28 32)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="72" cy="32" rx="8" ry="4" transform="rotate(8 72 32)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M36 58 L32 38 L43 48 L50 34 L57 48 L68 38 L64 58 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="2.5" stroke-linejoin="round"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-texcoco-triple-alliance-entry)"/>
+  <rect width="640" height="360" fill="url(#vignette-texcoco-triple-alliance-entry)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M50 86 C24 80 14 58 18 30" fill="none" stroke="#3b2412" stroke-width="3"/><path d="M50 86 C76 80 86 58 82 30" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <ellipse cx="20" cy="76" rx="8" ry="4" transform="rotate(-40 20 76)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="80" cy="76" rx="8" ry="4" transform="rotate(40 80 76)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="22" cy="65" rx="8" ry="4" transform="rotate(-32 22 65)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="78" cy="65" rx="8" ry="4" transform="rotate(32 78 65)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="24" cy="54" rx="8" ry="4" transform="rotate(-24 24 54)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="76" cy="54" rx="8" ry="4" transform="rotate(24 76 54)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="26" cy="43" rx="8" ry="4" transform="rotate(-16 26 43)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="74" cy="43" rx="8" ry="4" transform="rotate(16 74 43)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="28" cy="32" rx="8" ry="4" transform="rotate(-8 28 32)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="72" cy="32" rx="8" ry="4" transform="rotate(8 72 32)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M36 58 L32 38 L43 48 L50 34 L57 48 L68 38 L64 58 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="2.5" stroke-linejoin="round"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">통일</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">텍스코코의 삼국동맹 참여</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1428년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

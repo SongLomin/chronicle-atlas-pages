@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="묵특 선우의 흉노 통일">
+<defs>
+  <clipPath id="frame-modu-chanyu"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-modu-chanyu" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-modu-chanyu" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-modu-chanyu" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="48" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-modu-chanyu" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-modu-chanyu"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-modu-chanyu" d="M-24 -24L-24 384L433 384L435 381L432 379L436 380L437 376L439 378L441 376L437 372L441 373L440 371L441 370L439 369L441 367L442 369L442 367L442 369L444 369L444 365L440 367L439 365L445 362L442 361L438 358L434 359L434 360L433 357L429 359L432 357L435 358L436 356L444 352L442 349L434 344L434 342L428 342L425 339L429 343L433 341L436 344L443 345L439 341L439 338L435 335L435 332L430 320L423 315L421 316L421 313L425 307L430 303L429 300L430 300L431 302L433 301L433 299L436 297L434 297L440 294L441 295L443 293L448 294L447 292L450 288L446 288L445 287L441 288L434 284L430 286L426 291L421 291L419 287L422 285L419 281L412 281L409 278L408 276L409 271L419 271L424 263L432 259L436 253L442 252L443 251L446 256L443 262L440 263L440 265L438 266L440 268L444 268L441 269L441 271L437 273L437 275L442 273L442 272L443 272L446 268L454 265L454 263L461 263L463 260L464 261L463 262L465 266L466 264L469 266L472 266L470 274L474 276L469 275L467 279L468 280L466 281L471 282L468 283L473 283L471 286L474 283L473 282L477 285L482 284L483 286L481 285L481 288L484 290L482 291L485 293L483 295L481 292L481 294L479 293L479 295L479 293L478 295L479 297L480 295L481 301L484 302L481 303L483 304L480 306L482 307L479 310L480 313L479 312L480 315L482 315L480 315L482 316L480 316L480 317L479 315L479 317L481 317L481 320L487 315L486 317L487 318L489 317L488 314L489 314L490 317L491 313L493 312L493 313L496 314L498 311L501 312L503 311L506 303L504 302L504 292L496 275L488 270L488 268L489 269L489 264L507 253L507 244L512 236L515 237L516 234L514 233L519 234L524 225L526 225L525 228L528 226L528 231L532 230L535 232L541 230L551 223L557 214L572 197L584 173L592 165L594 159L592 158L595 151L594 148L596 145L594 139L596 129L603 118L600 114L601 109L596 105L600 107L602 103L595 98L589 89L585 90L579 89L580 93L578 100L576 100L579 93L575 98L569 100L568 99L573 93L569 91L570 92L572 89L567 91L568 93L568 95L564 96L565 84L556 85L552 83L551 81L576 58L575 56L578 52L579 53L579 51L594 37L598 29L603 25L607 19L611 16L617 13L619 14L622 12L637 12L639 13L638 15L640 17L642 16L642 13L643 12L652 15L657 13L659 15L663 16L664 13L661 13L662 10L664 12L664 -24ZM437 344L444 347L437 344ZM444 360L446 362L444 360ZM478 329L481 330L484 328L481 327L478 329ZM497 314L498 315L499 313L497 314ZM501 333L501 334L502 331L501 333ZM503 319L504 319L505 316L503 319ZM505 330L509 334L507 331L508 335L507 337L510 334L510 336L512 335L512 334L510 334L511 331L514 334L513 339L511 341L512 346L510 348L514 350L513 347L515 345L514 346L516 348L515 352L518 349L518 347L520 348L523 337L526 333L524 331L525 330L521 330L523 328L523 326L518 326L517 323L513 324L512 326L511 326L509 328L508 327L508 330L506 328L505 330ZM509 340L511 339L510 337L509 340ZM516 357L517 357L518 353L516 357ZM516 322L517 323L523 322L526 325L529 319L531 321L538 318L541 318L546 315L553 316L550 324L556 328L561 321L565 320L565 318L562 316L565 312L565 315L566 313L569 315L566 317L576 317L579 312L581 312L581 317L583 314L584 310L587 310L588 311L588 308L590 306L591 307L589 310L588 313L593 311L594 307L598 306L595 300L599 291L598 281L601 278L603 280L602 276L607 267L605 259L602 254L602 246L601 247L598 245L597 249L600 248L600 252L598 251L596 252L596 249L593 248L593 253L589 255L590 260L588 261L591 264L589 274L586 281L581 284L579 289L568 295L566 294L566 292L565 292L569 287L564 289L564 295L558 303L558 306L558 305L557 307L554 307L552 308L552 305L537 308L534 307L531 308L521 318L517 318L516 322ZM525 329L529 328L530 330L528 332L531 333L530 335L534 335L534 332L537 328L541 328L543 330L544 327L548 324L547 320L541 319L538 320L538 323L535 323L533 321L531 325L525 329ZM547 320L549 320L550 317L547 320ZM563 80L567 80L567 77L563 80ZM568 82L570 81L572 84L576 79L573 79L574 77L571 76L568 82ZM576 284L578 283L578 279L576 284ZM589 236L592 240L590 244L592 246L596 242L600 242L593 237L595 234L598 237L605 233L617 241L618 236L622 231L626 229L631 229L638 225L635 226L633 225L634 225L632 220L634 214L629 219L625 216L624 217L624 216L621 216L606 200L604 201L605 210L604 218L601 221L602 225L600 227L593 225L595 229L589 233L589 236ZM604 122L609 132L607 139L608 153L606 161L608 171L605 188L607 196L612 186L618 188L618 194L620 190L619 185L616 185L618 187L616 185L615 180L611 174L615 157L620 155L617 154L623 155L629 163L621 142L618 125L617 126L616 116L618 108L614 95L615 91L613 87L611 90L609 89L612 94L612 97L613 95L613 98L611 98L612 100L610 102L609 102L609 100L605 102L606 106L604 122ZM634 219L636 222L639 216L644 213L640 212L634 219Z"/>
+  <clipPath id="landclip-modu-chanyu"><use href="#land-modu-chanyu"/></clipPath>
+  <path id="hl-modu-chanyu-5" d="M256 92L279 94L300 100L306 105L317 110L308 119L296 122L294 126L298 127L304 127L312 125L317 116L323 114L330 120L340 124L342 123L341 125L345 124L344 126L350 128L378 130L394 133L418 144L425 150L437 144L462 159L465 158L467 161L471 163L473 165L508 187L508 194L474 243L473 247L468 249L452 241L399 262L392 263L388 258L375 257L368 258L365 262L363 259L341 258L314 262L303 266L302 263L300 263L292 268L287 266L283 268L274 267L266 261L261 262L262 256L260 255L246 256L232 253L226 249L222 244L219 229L215 224L213 223L210 218L196 210L190 205L188 200L192 194L192 186L186 174L180 171L175 171L170 165L167 164L167 161L165 159L166 157L160 157L161 155L158 155L155 151L156 149L153 152L145 151L142 145L137 143L134 135L132 134L140 116L146 110L167 101L175 100L176 98L179 99L195 95L216 95L227 92L255 92Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-modu-chanyu)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-modu-chanyu)"/>
+  <use href="#land-modu-chanyu" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-modu-chanyu" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-modu-chanyu" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-modu-chanyu)"><path d="M91 204L86 200L84 191L81 189L65 188L61 191L60 194L56 195L53 208L57 211L58 215L62 216L60 220L63 222L63 226L68 229L67 234L68 235L71 234L72 238L70 242L48 250L45 253L38 257L37 258L39 260L39 262L49 266L48 267L60 269L78 274L90 287L97 291L105 293L111 297L144 288L155 279L165 277L173 273L188 271L209 262L212 255L203 249L194 246L187 242L174 237L149 232L136 232L123 237L111 237L109 222L105 217L105 208L91 204Z" fill="rgb(145,183,143)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M111 359L110 357L105 356L103 352L97 350L86 361L86 380L91 384L164 384L160 380L153 382L145 380L142 378L142 374L137 370L131 368L131 367L122 365L112 359Z" fill="rgb(174,171,186)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M15 267L17 274L31 277L37 285L41 287L31 300L25 304L22 308L20 308L9 313L8 315L6 314L-3 318L-7 318L-10 315L-16 313L-24 315L-24 260L9 266L10 262L15 259L16 253L19 254L25 250L27 255L20 258L20 260L15 263L16 265Z" fill="rgb(215,168,148)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M388 384L389 371L394 360L396 359L401 364L411 364L417 384Z" fill="rgb(222,177,178)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M464 258L459 264L452 265L439 275L436 275L442 268L438 268L438 265L446 256L443 252L437 252L432 259L423 264L421 269L415 271L411 270L408 275L408 277L412 281L416 281L418 280L423 283L419 289L421 291L425 291L429 285L434 283L440 287L450 288L447 295L443 293L436 297L433 302L425 308L421 315L431 319L432 327L435 330L435 336L439 337L440 340L444 343L443 345L435 343L440 345L444 351L443 353L440 353L433 359L440 358L441 361L444 362L444 368L442 368L442 365L441 366L440 369L442 370L440 374L441 377L437 378L437 377L434 384L417 384L411 364L401 364L396 359L394 360L389 371L388 384L363 384L362 378L360 376L350 371L327 371L307 377L297 375L274 365L270 356L273 349L283 337L285 321L293 320L293 317L299 314L333 302L338 293L347 281L358 274L364 261L365 262L369 258L384 257L383 258L389 259L392 263L396 263L452 241L467 250Z" fill="rgb(188,203,208)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-modu-chanyu-5" fill="rgb(97,126,175)" stroke="none"/>
+       <use href="#hl-modu-chanyu-5" fill="url(#hatch-modu-chanyu)" stroke="none"/>
+       <use href="#hl-modu-chanyu-5" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-modu-chanyu-5" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-modu-chanyu" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="313.3" y="157.6" class="lbl hl">흉노</text><text x="108.2" y="264.1" class="lbl">월지</text>
+  <g transform="translate(313.3 199.6)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-modu-chanyu)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M50 86 C24 80 14 58 18 30" fill="none" stroke="#3b2412" stroke-width="3"/><path d="M50 86 C76 80 86 58 82 30" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <ellipse cx="20" cy="76" rx="8" ry="4" transform="rotate(-40 20 76)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="80" cy="76" rx="8" ry="4" transform="rotate(40 80 76)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="22" cy="65" rx="8" ry="4" transform="rotate(-32 22 65)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="78" cy="65" rx="8" ry="4" transform="rotate(32 78 65)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="24" cy="54" rx="8" ry="4" transform="rotate(-24 24 54)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="76" cy="54" rx="8" ry="4" transform="rotate(24 76 54)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="26" cy="43" rx="8" ry="4" transform="rotate(-16 26 43)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="74" cy="43" rx="8" ry="4" transform="rotate(16 74 43)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="28" cy="32" rx="8" ry="4" transform="rotate(-8 28 32)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="72" cy="32" rx="8" ry="4" transform="rotate(8 72 32)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M36 58 L32 38 L43 48 L50 34 L57 48 L68 38 L64 58 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="2.5" stroke-linejoin="round"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-modu-chanyu)"/>
+  <rect width="640" height="360" fill="url(#vignette-modu-chanyu)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M50 86 C24 80 14 58 18 30" fill="none" stroke="#3b2412" stroke-width="3"/><path d="M50 86 C76 80 86 58 82 30" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <ellipse cx="20" cy="76" rx="8" ry="4" transform="rotate(-40 20 76)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="80" cy="76" rx="8" ry="4" transform="rotate(40 80 76)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="22" cy="65" rx="8" ry="4" transform="rotate(-32 22 65)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="78" cy="65" rx="8" ry="4" transform="rotate(32 78 65)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="24" cy="54" rx="8" ry="4" transform="rotate(-24 24 54)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="76" cy="54" rx="8" ry="4" transform="rotate(24 76 54)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="26" cy="43" rx="8" ry="4" transform="rotate(-16 26 43)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="74" cy="43" rx="8" ry="4" transform="rotate(16 74 43)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="28" cy="32" rx="8" ry="4" transform="rotate(-8 28 32)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="72" cy="32" rx="8" ry="4" transform="rotate(8 72 32)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M36 58 L32 38 L43 48 L50 34 L57 48 L68 38 L64 58 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="2.5" stroke-linejoin="round"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">통일</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">묵특 선우의 흉노 통일</text>
+  </g>
+  <text x="320" y="284" class="year">기원전 209년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

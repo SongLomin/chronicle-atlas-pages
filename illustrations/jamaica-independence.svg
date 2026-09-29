@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="자메이카의 독립">
+<defs>
+  <clipPath id="frame-jamaica-independence"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-jamaica-independence" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-jamaica-independence" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-jamaica-independence" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="170" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-jamaica-independence" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-jamaica-independence"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-jamaica-independence" d="M-24 -24L-24 384L68 384L68 376L73 354L83 337L78 320L76 320L77 322L73 319L77 314L79 318L77 317L77 319L78 319L83 312L85 311L79 308L74 299L62 294L61 295L66 298L69 298L71 302L67 304L66 302L65 303L67 301L69 302L69 299L65 298L60 302L58 297L49 294L57 299L53 300L53 298L50 298L49 295L49 296L46 295L45 288L43 290L42 288L45 288L47 290L46 288L48 289L50 288L54 292L61 294L54 290L38 277L25 275L32 277L26 277L24 278L23 274L10 269L7 270L0 274L-9 274L-24 269L-24 -24ZM12 20L13 22L17 23L24 19L30 18L30 25L41 19L45 17L49 18L53 8L63 8L67 4L70 7L74 7L80 0L84 0L88 -6L98 -12L100 -16L126 -13L135 -14L144 -10L144 -6L137 -4L125 -4L124 -2L135 4L137 7L149 6L154 8L157 11L161 8L162 12L162 3L167 11L174 13L191 13L189 8L191 7L195 11L192 13L199 20L208 23L210 27L210 26L214 25L214 28L216 29L218 27L224 28L229 31L230 30L231 32L242 34L260 31L263 33L260 34L265 36L268 45L270 46L269 48L271 56L288 70L293 71L295 69L310 72L316 70L322 74L321 77L327 81L326 85L322 88L321 88L309 97L307 97L301 106L302 108L316 106L318 105L332 105L336 103L362 101L381 102L389 106L399 105L403 105L401 104L404 103L404 101L403 100L407 98L405 102L406 103L404 105L406 105L411 104L418 99L440 98L445 92L441 87L434 88L421 77L421 75L414 72L410 71L406 72L398 70L397 71L400 72L398 72L393 69L391 70L392 71L388 71L385 67L381 71L379 69L379 65L388 66L385 63L381 64L380 63L381 61L383 63L385 61L387 57L386 55L377 52L375 54L373 53L370 55L367 53L366 54L365 51L355 46L349 46L350 48L352 48L349 50L346 48L348 48L348 46L344 45L346 47L344 47L341 46L345 44L344 43L338 41L337 45L335 45L334 43L338 41L332 38L327 32L324 37L320 38L320 34L316 32L320 32L324 34L325 29L314 24L308 18L306 20L312 24L316 31L313 30L312 25L309 26L300 23L296 19L298 16L296 16L295 21L288 11L278 8L275 4L271 4L262 -2L261 -2L261 1L259 -2L241 -1L237 -3L225 -13L224 -18L216 -21L216 -23L218 -24L214 -22L210 -24L76 -24L74 -23L72 -24L51 -15L48 -16L47 -15L49 -14L47 -14L44 -10L42 -10L41 -7L38 -5L35 -1L32 6L37 9L38 13L39 12L39 14L29 13L17 19L16 18L15 20L13 19L12 20ZM83 31L87 38L94 39L106 35L109 32L106 29L106 26L103 23L102 20L91 17L92 18L87 24L92 32L92 34L92 32L87 34L83 31ZM98 337L101 337L101 335L98 337ZM103 17L107 18L103 17ZM126 33L131 32L131 30L126 33ZM133 30L134 32L137 30L133 30ZM148 31L150 31L155 27L148 31ZM154 127L155 132L167 130L166 128L159 128L159 129L156 130L155 127L154 127ZM206 115L212 113L206 115ZM214 114L221 111L214 114ZM235 53L238 55L235 53ZM241 58L247 62L245 59L241 58ZM247 62L251 65L251 63L247 62ZM252 66L256 68L253 65L252 66ZM257 69L260 70L257 69ZM268 71L273 70L268 71ZM272 75L277 78L276 76L272 75ZM275 174L281 177L288 178L292 184L296 185L297 187L301 191L313 191L323 198L325 197L325 195L322 195L323 195L325 190L328 190L329 192L333 192L336 186L341 187L337 188L342 188L346 191L356 191L363 189L356 179L339 174L334 168L325 168L319 166L294 163L291 167L281 167L277 170L275 174ZM278 -2L280 -2L281 0L282 -1L283 2L290 3L284 -4L278 -2ZM288 6L294 11L297 8L294 7L295 5L291 5L291 2L289 1L290 5L288 6ZM292 11L294 14L298 14L297 16L302 19L302 17L305 17L304 12L292 11ZM295 2L300 7L295 2ZM387 67L391 69L390 67L387 67ZM431 167L435 173L441 172L446 175L455 184L458 184L457 179L464 174L464 176L465 175L467 176L468 174L469 176L475 174L478 175L476 176L495 179L508 178L508 176L527 175L534 178L543 186L545 193L543 195L549 196L554 202L568 179L567 172L573 174L576 171L581 170L582 167L587 169L586 173L588 177L603 176L610 168L616 165L622 166L624 168L626 166L629 168L638 166L647 169L653 168L657 171L660 176L664 176L664 148L661 145L653 142L648 144L645 141L643 143L636 141L633 138L626 139L626 134L640 135L644 130L640 130L641 128L637 131L629 129L621 131L615 125L615 117L612 114L609 114L606 117L599 115L593 110L585 111L579 108L576 105L572 105L570 103L563 108L563 106L559 108L550 105L544 105L539 110L541 114L537 113L537 115L534 115L536 113L531 112L529 114L522 112L521 110L518 111L517 113L515 109L499 103L492 105L484 103L473 108L476 109L473 110L472 115L474 116L481 116L490 118L502 124L503 126L501 125L501 127L499 127L502 131L498 133L502 138L498 141L508 152L517 157L516 163L506 162L502 167L494 167L475 164L464 164L462 162L467 161L458 163L440 157L433 159L431 167ZM439 8L445 2L450 1L456 -6L457 -8L454 -15L455 -14L456 -17L450 -15L449 -12L455 -10L455 -7L447 -2L443 4L439 5L439 8ZM458 159L459 161L462 160L458 159ZM462 181L467 182L462 181ZM462 57L464 62L466 60L478 61L485 58L489 51L490 44L488 44L484 51L480 52L476 51L475 48L470 50L468 52L463 53L464 56L462 57ZM478 146L482 150L497 156L498 155L496 150L482 144L478 146ZM484 -1L487 0L494 -1L499 3L500 1L497 -2L485 -5L484 -1ZM487 36L488 40L494 36L491 34L487 36ZM492 98L505 100L498 97L492 98ZM511 31L513 28L511 31ZM517 25L518 24L519 26L524 25L525 23L521 24L517 21L517 25ZM529 18L531 19L532 17L532 21L536 22L534 21L534 17L529 18ZM536 21L537 24L544 26L543 22L536 21ZM547 26L552 29L551 27L547 26ZM549 203L549 204L552 203L549 201L549 203ZM549 36L550 37L550 34L549 36ZM564 38L564 39L565 36L564 38Z"/>
+  <clipPath id="landclip-jamaica-independence"><use href="#land-jamaica-independence"/></clipPath>
+  <path id="hl-jamaica-independence-6" d="M351 192L365 189L361 179L330 165L288 162L275 173L278 179L287 179L301 192L316 192L319 198L328 198L327 192L336 189L348 192Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-jamaica-independence)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-jamaica-independence)"/>
+  <use href="#land-jamaica-independence" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-jamaica-independence" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-jamaica-independence" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-jamaica-independence)"><path d="M51 292L57 292L50 278L29 275L25 270L-4 273L-24 268L-24 356L-17 358L6 334L6 329L14 321L38 326L69 313L86 313L86 310L75 297L55 297L48 292Z" fill="rgb(179,178,115)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M73 379L73 384L-24 384L-24 356L-17 358L6 334L6 329L14 321L38 326L69 313L86 313L87 315L78 318L87 342L71 366L73 376Z" fill="rgb(178,170,185)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M632 127L647 127L648 133L631 138L664 143L664 174L646 168L617 168L612 176L588 176L588 171L582 171L570 176L559 203L547 198L542 184L544 173L533 160L541 157L543 149L540 149L540 143L548 135L541 108L543 102L579 102L601 113L616 113L621 127L633 130Z" fill="rgb(173,211,198)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M494 157L478 149L478 143L499 146L503 157L497 157ZM543 149L541 157L533 160L544 173L542 184L539 184L526 176L464 176L462 184L453 184L443 173L434 173L432 160L446 154L453 160L471 160L483 165L518 160L502 146L498 122L474 116L473 108L481 102L505 102L514 108L541 111L548 135L540 143L540 149Z" fill="rgb(232,190,168)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M220 -24L240 -5L267 -2L290 12L305 9L309 20L304 23L328 25L329 34L338 37L339 42L360 45L370 53L385 50L390 67L420 70L437 86L446 86L447 94L402 108L380 102L351 102L334 108L304 108L303 100L308 94L325 86L323 72L293 72L280 67L264 34L240 37L224 28L212 28L195 14L175 14L128 3L127 -5L145 -5L140 -13L105 -13L94 -8L89 0L83 0L81 6L58 9L54 20L47 17L40 25L34 25L33 20L18 23L20 14L37 12L35 -2L50 -19L64 -24ZM110 39L92 39L87 23L89 17L104 17L110 23L111 25ZM270 -2L266 -8L281 -11L292 3L283 3L283 0Z" fill="rgb(221,184,134)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M301 192L287 179L278 179L275 173L288 162L330 165L361 179L365 189L351 192L336 189L327 192L328 198L319 198L316 192ZM490 56L490 59L464 61L463 53L471 48L491 48L493 56ZM524 25L522 28L517 20L526 20L527 25ZM497 3L493 -5L503 0L503 3ZM462 -13L463 -5L458 0L444 6L448 -5L454 -5L453 -16Z" fill="rgb(217,156,137)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-jamaica-independence-6" fill="rgb(113,196,198)" stroke="none"/>
+       <use href="#hl-jamaica-independence-6" fill="url(#hatch-jamaica-independence)" stroke="none"/>
+       <use href="#hl-jamaica-independence-6" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-jamaica-independence-6" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-jamaica-independence" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="320.6" y="136.7" class="lbl hl">자메이카</text><text x="349.7" y="74.9" class="lbl">쿠바</text><text x="599.3" y="139.9" class="lbl">도미니카 공화국</text><text x="522.1" y="130.3" class="lbl">아이티</text>
+  <g transform="translate(320.6 178.7)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-jamaica-independence)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M30 90 L30 14" stroke="#3b2412" stroke-width="4" stroke-linecap="round"/>
+    <path d="M32 16 C46 10 56 22 70 16 C76 14 80 14 84 16 L84 50 C74 46 66 54 54 52 C44 50 40 44 32 48 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M44 28 L50 38 L60 26" fill="none" stroke="#f3e6c4" stroke-width="3"/>
+    <circle cx="30" cy="12" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-jamaica-independence)"/>
+  <rect width="640" height="360" fill="url(#vignette-jamaica-independence)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M30 90 L30 14" stroke="#3b2412" stroke-width="4" stroke-linecap="round"/>
+    <path d="M32 16 C46 10 56 22 70 16 C76 14 80 14 84 16 L84 50 C74 46 66 54 54 52 C44 50 40 44 32 48 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M44 28 L50 38 L60 26" fill="none" stroke="#f3e6c4" stroke-width="3"/>
+    <circle cx="30" cy="12" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">분리 독립</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">자메이카의 독립</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1962년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

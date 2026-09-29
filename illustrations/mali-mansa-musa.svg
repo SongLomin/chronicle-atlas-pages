@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="만사 무사의 메카 순례">
+<defs>
+  <clipPath id="frame-mali-mansa-musa"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-mali-mansa-musa" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-mali-mansa-musa" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-mali-mansa-musa" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="44" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-mali-mansa-musa" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-mali-mansa-musa"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-mali-mansa-musa" d="M-5 122L-3 125L-1 123L3 124L-4 121L-5 122ZM7 154L11 157L13 157L14 155L8 149L7 154ZM18 152L20 153L20 149L19 149L18 152ZM23 118L24 123L25 118L23 118ZM24 134L27 135L29 134L29 132L25 130L24 134ZM130 160L132 163L132 161L136 162L142 168L145 175L145 179L146 175L148 174L146 175L147 176L151 172L153 172L146 177L147 180L151 176L151 180L149 179L148 182L150 181L149 183L150 189L169 185L174 186L157 187L156 189L157 190L155 189L152 190L152 192L147 186L144 189L146 195L145 202L147 201L146 205L149 200L148 203L150 204L150 202L153 205L159 203L160 201L162 204L167 205L169 203L169 200L172 200L169 200L170 203L167 205L160 203L150 205L149 203L145 206L145 207L151 213L159 209L153 214L158 218L163 216L166 216L163 217L161 221L164 218L166 219L164 221L172 217L176 218L180 217L179 219L181 221L179 220L179 217L171 218L170 220L169 223L172 222L171 225L176 221L175 223L177 222L177 223L180 224L178 225L178 224L174 224L174 225L171 226L170 229L173 227L173 229L175 227L172 230L173 233L175 234L176 231L175 236L180 232L178 237L180 237L178 239L181 241L182 236L183 237L186 235L183 238L184 240L185 239L184 241L187 240L186 243L190 238L187 246L189 246L191 252L195 252L195 254L197 253L197 255L200 252L198 256L203 259L206 257L205 261L206 259L208 260L205 266L210 265L209 267L211 267L211 270L213 269L213 272L215 271L214 272L216 272L213 274L214 277L220 279L215 279L216 286L216 283L219 283L218 284L222 282L221 284L222 285L217 287L219 288L214 286L216 292L220 291L223 298L220 298L225 302L230 300L228 303L230 305L235 304L230 305L229 307L232 308L229 308L247 316L251 319L252 322L263 327L263 330L271 333L269 331L277 337L292 352L312 363L328 368L339 362L357 355L365 353L376 353L372 351L373 352L368 352L370 351L376 351L378 353L396 351L392 350L380 352L383 349L382 351L385 349L396 350L398 348L401 350L400 348L401 350L396 350L409 353L410 348L413 348L412 351L413 352L419 352L416 354L410 353L428 357L433 360L436 360L443 355L459 351L479 340L493 340L496 335L503 332L541 328L543 324L543 325L549 323L550 324L541 327L561 328L568 333L574 340L578 337L575 340L575 343L578 343L579 341L579 343L581 342L583 344L577 344L578 347L581 347L585 345L583 346L584 348L579 348L580 352L582 352L580 353L584 362L590 368L592 368L592 367L593 369L594 367L594 369L596 369L597 365L597 367L599 366L598 369L602 369L604 365L604 368L606 368L605 365L606 367L607 363L606 368L609 368L606 358L608 359L610 367L612 367L610 361L612 363L611 360L613 366L616 365L613 360L617 365L617 363L622 364L623 361L623 365L637 364L638 362L635 355L639 359L640 358L641 361L643 359L642 365L646 365L644 360L646 363L649 364L648 362L650 364L651 373L655 376L658 374L657 376L659 377L661 377L660 374L662 375L661 373L662 375L664 374L663 379L664 380L662 378L664 384L664 -24L162 -24L156 -13L157 -11L155 -9L151 2L146 5L142 12L139 34L140 36L142 28L147 38L150 41L150 37L152 38L151 39L156 48L154 55L155 55L156 57L151 65L155 62L153 65L150 65L156 74L159 84L159 101L151 122L150 140L138 157L130 160ZM151 59L152 61L154 55L151 59ZM152 226L154 227L155 224L152 226ZM153 61L154 58L153 61ZM154 227L157 226L154 227ZM155 232L157 230L155 232ZM155 234L159 235L159 232L155 234ZM157 219L160 221L161 218L157 219ZM159 227L162 227L162 225L159 227ZM159 233L160 235L161 232L159 233ZM161 235L163 235L161 232L161 235ZM165 232L166 233L167 230L165 232ZM168 225L171 225L171 223L168 225ZM220 304L229 308L229 304L227 303L220 304Z"/>
+  <clipPath id="landclip-mali-mansa-musa"><use href="#land-mali-mansa-musa"/></clipPath>
+  <path id="hl-mali-mansa-musa-1" d="M505 145L508 149L507 163L498 167L479 167L478 163L474 162L472 157L466 155L468 149L465 149L461 142L443 134L426 134L416 137L417 140L410 141L410 144L403 150L399 159L399 166L393 172L394 175L390 176L389 181L384 183L369 197L366 197L366 200L363 200L363 202L356 207L357 210L350 211L343 218L338 241L332 250L333 252L330 252L325 260L316 263L316 265L313 264L309 267L303 267L292 261L282 252L274 232L271 233L270 227L266 223L258 223L255 216L232 211L219 206L218 203L209 203L211 201L180 196L174 197L174 193L144 194L144 188L150 187L150 183L148 180L145 180L145 175L141 166L136 162L132 162L133 158L140 155L140 153L144 150L148 142L151 124L155 116L165 117L204 115L205 112L213 113L220 111L246 111L252 108L259 109L259 107L269 108L285 107L291 104L299 105L331 101L379 105L409 99L466 93L483 97L493 105L499 117Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-mali-mansa-musa)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-mali-mansa-musa)"/>
+  <use href="#land-mali-mansa-musa" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-mali-mansa-musa" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-mali-mansa-musa" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-mali-mansa-musa)"><path d="M575 339L600 339L604 320L579 312L571 324Z" fill="rgb(152,186,192)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-mali-mansa-musa-1" fill="rgb(199,143,189)" stroke="none"/>
+       <use href="#hl-mali-mansa-musa-1" fill="url(#hatch-mali-mansa-musa)" stroke="none"/>
+       <use href="#hl-mali-mansa-musa-1" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-mali-mansa-musa-1" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-mali-mansa-musa" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="278.7" y="129.2" class="lbl hl">제국 말리</text>
+  <g transform="translate(278.7 171.2)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-mali-mansa-musa)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M26 22 L74 22 C80 22 80 34 74 34 L74 78 C74 84 68 86 64 84 L24 84 C18 84 18 72 24 72 L26 72 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M26 22 C20 22 20 34 26 34" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 40 L66 40 M34 48 L66 48 M34 56 L60 56 M34 64 L54 64" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="62" cy="74" r="8" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/><path d="M58 80 L56 90 L62 86 L66 90 L66 80" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-mali-mansa-musa)"/>
+  <rect width="640" height="360" fill="url(#vignette-mali-mansa-musa)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M26 22 L74 22 C80 22 80 34 74 34 L74 78 C74 84 68 86 64 84 L24 84 C18 84 18 72 24 72 L26 72 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M26 22 C20 22 20 34 26 34" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 40 L66 40 M34 48 L66 48 M34 56 L60 56 M34 64 L54 64" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="62" cy="74" r="8" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/><path d="M58 80 L56 90 L62 86 L66 90 L66 80" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">체제 전환</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">만사 무사의 메카 순례</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1324년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

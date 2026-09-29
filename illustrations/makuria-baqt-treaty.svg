@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="마쿠리아와 이슬람 이집트의 바크트">
+<defs>
+  <clipPath id="frame-makuria-baqt-treaty"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-makuria-baqt-treaty" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-makuria-baqt-treaty" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-makuria-baqt-treaty" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="140" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-makuria-baqt-treaty" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-makuria-baqt-treaty"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-makuria-baqt-treaty" d="M-24 -24L-24 384L661 384L643 361L632 358L627 358L626 353L624 351L625 350L622 350L621 348L617 345L617 347L615 346L613 347L612 346L608 349L603 347L598 336L600 332L592 325L588 330L588 334L590 334L591 339L589 343L585 342L586 335L581 325L579 323L575 324L574 321L576 320L575 320L576 318L574 312L569 307L563 282L563 274L554 246L541 220L535 225L541 220L540 217L538 215L537 218L532 211L532 213L525 212L529 208L527 210L523 210L520 206L522 203L514 196L507 194L506 191L504 189L498 191L494 184L487 154L487 145L484 136L486 131L484 121L486 112L483 96L480 92L481 84L483 84L483 87L486 88L488 91L484 89L487 93L489 91L481 81L472 65L472 53L470 52L472 51L473 48L454 35L454 32L449 29L446 23L431 17L427 10L426 10L427 13L424 8L416 -15L417 -24L536 -24L538 -17L541 -16L539 -17L541 -18L544 -5L549 1L549 7L553 9L555 13L553 13L551 10L553 14L556 18L555 14L557 17L556 19L560 27L560 35L561 32L563 33L558 40L557 50L555 49L554 50L559 62L561 61L560 69L563 72L564 76L560 80L564 85L564 89L566 91L569 97L571 97L571 99L575 101L574 103L577 104L577 106L581 111L579 112L587 121L594 125L593 123L596 125L600 124L618 138L618 140L623 146L623 145L627 146L629 149L629 153L627 153L635 157L635 164L638 167L640 173L644 176L642 181L647 186L645 191L648 196L651 197L654 201L657 211L659 213L664 222L664 -24ZM487 102L487 104L487 100L487 102ZM594 314L598 316L600 318L596 318L594 317L596 321L613 322L613 319L609 317L606 317L607 318L606 320L603 319L602 312L601 313L600 311L598 309L595 309L598 311L596 312L596 314L594 313L594 314ZM596 304L601 305L600 304L602 302L599 300L596 304Z"/>
+  <clipPath id="landclip-makuria-baqt-treaty"><use href="#land-makuria-baqt-treaty"/></clipPath>
+  <path id="hl-makuria-baqt-treaty-4" d="M367 152L317 149L296 157L278 157L258 152L252 143L231 135L241 209L258 214L326 209L361 219L376 219L382 225L409 222L409 219L403 211L394 209L392 195L381 182L370 152Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-makuria-baqt-treaty)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-makuria-baqt-treaty)"/>
+  <use href="#land-makuria-baqt-treaty" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-makuria-baqt-treaty" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-makuria-baqt-treaty" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-makuria-baqt-treaty)"><path d="M630 354L653 364L663 384L518 384L517 380L524 359L542 343L539 338L548 340L554 330L563 332L581 322L586 338L589 338L590 324L596 324L609 348L624 346L630 351ZM533 348L530 348L530 346L533 346Z" fill="rgb(206,182,198)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M412 222L417 236L437 249L439 271L424 284L385 284L379 295L384 314L361 311L351 327L298 338L298 332L269 324L258 306L258 295L253 289L256 279L245 249L241 209L258 214L326 209L361 219L376 219L382 225L409 222Z" fill="rgb(217,194,202)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M350 44L352 0L349 0L350 -14L344 -20L344 -23L342 -24L278 -23L259 -24L218 -9L226 14L226 39L219 53L225 64L231 135L252 143L258 152L278 157L296 157L317 149L367 152L350 66L347 66L350 50L347 47L350 47Z" fill="rgb(215,194,204)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 -24L664 219L655 201L646 195L647 184L638 173L636 160L630 157L631 149L619 143L602 124L591 124L571 102L563 86L564 66L558 61L562 28L551 14L552 5L541 -20L537 -24L355 -24L347 -23L342 -24L278 -23L259 -24L218 -9L215 -9L213 -17L203 -24Z" fill="rgb(158,177,144)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-makuria-baqt-treaty-4" fill="rgb(188,130,61)" stroke="none"/>
+       <use href="#hl-makuria-baqt-treaty-4" fill="url(#hatch-makuria-baqt-treaty)" stroke="none"/>
+       <use href="#hl-makuria-baqt-treaty-4" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-makuria-baqt-treaty-4" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-makuria-baqt-treaty" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="320.8" y="135.6" class="lbl hl">마쿠리아 왕국</text><text x="288.7" y="55.5" class="lbl">노바티아</text>
+  <g transform="translate(320.8 177.6)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-makuria-baqt-treaty)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M26 22 L74 22 C80 22 80 34 74 34 L74 78 C74 84 68 86 64 84 L24 84 C18 84 18 72 24 72 L26 72 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M26 22 C20 22 20 34 26 34" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 40 L66 40 M34 48 L66 48 M34 56 L60 56 M34 64 L54 64" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="62" cy="74" r="8" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/><path d="M58 80 L56 90 L62 86 L66 90 L66 80" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-makuria-baqt-treaty)"/>
+  <rect width="640" height="360" fill="url(#vignette-makuria-baqt-treaty)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M26 22 L74 22 C80 22 80 34 74 34 L74 78 C74 84 68 86 64 84 L24 84 C18 84 18 72 24 72 L26 72 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M26 22 C20 22 20 34 26 34" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 40 L66 40 M34 48 L66 48 M34 56 L60 56 M34 64 L54 64" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="62" cy="74" r="8" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/><path d="M58 80 L56 90 L62 86 L66 90 L66 80" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">교역·외교</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:19px">마쿠리아와 이슬람 이집트의 바크트</text>
+  </g>
+  <text x="320" y="284" class="year">서기 652년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="기자의 대피라미드 완성">
+<defs>
+  <clipPath id="frame-great-pyramid"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-great-pyramid" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-great-pyramid" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-great-pyramid" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="1" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-great-pyramid" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-great-pyramid"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-great-pyramid" d="M-24 384L437 384L435 369L438 374L439 373L431 360L431 352L422 346L418 340L411 338L408 334L404 322L404 313L404 312L410 313L397 301L386 275L374 255L375 250L372 242L365 233L367 233L365 230L367 230L367 228L353 213L349 205L348 196L343 191L348 182L350 194L359 204L360 213L371 225L380 232L379 230L384 226L383 219L387 210L389 197L394 192L391 214L386 224L387 225L389 223L391 224L395 223L399 225L398 226L414 249L423 267L427 268L427 274L432 276L437 286L438 293L436 293L442 302L441 304L449 308L451 307L451 308L460 315L462 321L464 320L467 332L471 337L473 345L474 345L471 353L470 353L473 358L475 365L473 367L483 384L664 384L664 235L660 234L661 233L659 232L661 230L658 227L659 226L657 225L654 217L653 217L654 215L651 212L652 210L647 204L646 196L638 196L644 191L648 192L643 179L644 182L646 181L654 183L653 182L656 183L657 181L662 181L661 174L664 172L663 170L664 173L662 173L664 175L664 -24L33 -24L32 -22L26 -20L27 -15L26 -11L22 -9L22 -4L25 -2L31 -2L33 -7L40 -14L40 -21L41 -24L120 -24L121 -23L123 -24L125 -20L128 -11L132 -14L132 -16L135 -11L144 -14L148 -12L152 -12L152 -15L155 -11L157 -13L160 -9L166 -9L168 -6L163 -6L161 -5L163 -3L161 -2L158 -6L142 -12L137 -8L133 -9L132 -4L127 -1L138 11L136 18L139 25L142 27L144 25L143 20L148 20L147 22L152 27L151 32L154 35L154 30L156 26L158 25L160 25L163 32L168 34L164 29L166 26L159 7L166 10L165 12L167 13L169 11L174 9L171 8L171 5L170 5L170 7L167 5L167 1L164 0L164 -2L175 -5L175 -3L177 -2L182 4L184 5L185 1L183 -7L184 -9L177 -13L174 -16L170 -16L170 -20L166 -20L165 -22L159 -24L240 -24L239 -24L239 -22L235 -22L235 -20L238 -19L239 -16L237 -17L239 -15L244 -15L237 -13L235 -14L234 -11L233 -14L234 -17L229 -21L228 -19L229 -15L231 -14L229 -12L227 -13L226 -11L229 -10L233 -6L234 -9L236 -9L238 -5L245 -4L245 2L241 4L245 6L244 12L248 10L250 14L252 14L251 16L251 17L245 17L246 21L248 20L251 21L266 19L263 22L261 22L260 26L253 25L248 28L254 29L254 26L262 25L262 27L259 28L262 29L259 30L261 31L266 27L265 24L267 25L269 23L276 30L278 26L281 28L279 31L281 31L281 35L292 41L301 37L306 39L309 32L309 26L311 23L324 25L337 31L344 40L352 44L359 41L367 41L368 40L369 41L373 37L374 39L380 30L388 25L401 31L406 30L408 27L405 28L406 27L415 22L417 25L418 29L410 37L413 44L410 48L411 50L408 54L412 58L413 63L411 70L413 79L407 84L407 91L403 93L396 112L398 112L396 112L396 117L393 118L389 138L384 146L376 154L368 157L364 156L358 159L358 155L355 157L357 156L356 158L355 157L350 159L355 156L348 158L341 153L342 156L339 158L337 155L335 155L332 153L335 148L341 153L336 148L328 150L319 146L317 146L320 148L312 151L309 150L317 146L309 149L305 148L306 150L305 148L304 152L302 153L304 154L301 155L300 152L289 160L280 163L268 158L258 157L257 154L253 155L249 155L247 151L240 149L221 146L210 148L206 148L205 145L204 146L205 145L202 138L197 136L185 137L180 134L170 132L170 133L165 129L166 122L147 115L139 115L133 119L126 119L117 124L108 133L105 142L109 155L108 161L99 172L88 176L80 172L72 165L65 161L47 155L30 153L25 151L19 145L17 133L14 128L0 125L-6 121L-24 116ZM-24 9L-11 18L-4 19L0 25L12 29L13 22L16 20L14 15L15 14L12 12L12 9L14 2L23 -11L20 -11L16 -9L15 -10L12 -7L8 -8L1 -5L-9 -5L-13 -3L-21 -6L-22 -9L-24 -8ZM-3 45L-2 48L2 48L1 46L-3 45ZM118 0L122 5L123 3L125 3L120 -2L118 0ZM162 36L162 40L165 41L166 39L163 35L162 36ZM171 13L175 11L171 13ZM172 2L173 4L175 2L172 2ZM174 61L177 63L191 63L197 66L197 69L224 68L228 63L227 60L225 63L223 62L217 65L216 64L217 60L211 61L204 60L202 58L190 60L188 57L184 56L187 56L187 54L179 55L178 52L178 56L175 54L174 61ZM188 7L190 4L188 7ZM189 29L193 28L193 26L191 26L191 28L190 26L189 29ZM190 13L192 11L192 9L190 13ZM195 20L197 23L197 21L195 20ZM196 -2L202 4L201 -2L198 -4L196 -2ZM200 11L202 11L201 8L200 11ZM202 4L206 7L207 6L202 4ZM204 20L207 20L208 17L205 18L204 20ZM207 27L209 29L210 27L208 25L207 27ZM208 10L211 9L209 8L208 10ZM209 18L212 22L213 20L213 16L209 18ZM209 36L212 35L210 33L211 35L209 36ZM216 25L223 23L222 22L216 25ZM221 7L226 7L228 4L223 5L221 7ZM226 30L228 32L230 30L228 29L229 30L226 30ZM233 2L233 4L235 3L238 5L242 3L242 2L237 1L233 2ZM238 59L241 58L238 59ZM238 19L240 20L239 22L241 22L238 19ZM239 27L240 28L240 26L247 24L244 23L239 27ZM242 54L243 58L245 57L244 53L245 48L242 54ZM246 34L249 35L247 33L246 34ZM254 40L256 47L260 43L262 43L264 34L258 36L254 40ZM255 31L257 31L257 29L255 31ZM342 66L346 74L354 76L355 78L357 78L358 75L368 72L369 68L377 69L374 66L375 66L373 62L387 52L369 59L354 58L353 64L347 64L345 67L342 66ZM355 156L361 155L358 154L355 156ZM361 155L365 156L361 155ZM373 236L376 238L373 236ZM385 226L387 228L385 226ZM423 276L427 278L424 275L423 276ZM424 273L425 275L425 272L424 273ZM427 279L430 281L427 279ZM429 280L431 283L432 281L429 280Z"/>
+  <clipPath id="landclip-great-pyramid"><use href="#land-great-pyramid"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-great-pyramid)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-great-pyramid)"/>
+  <use href="#land-great-pyramid" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-great-pyramid" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-great-pyramid" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-great-pyramid)"><path d="M640 126L638 127L625 124L620 117L609 114L609 104L601 108L597 114L587 113L582 107L579 107L578 110L575 110L570 116L571 124L574 126L573 129L581 127L583 133L588 133L590 136L602 165L614 175L617 175L619 169L629 168L630 165L640 162L649 162L662 166L662 161L661 161L655 133L641 126Z" fill="rgb(233,195,162)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M319 146L317 146L320 148L316 150L309 151L317 147L305 148L304 154L300 152L289 161L289 171L301 180L305 188L306 195L299 200L297 206L299 209L307 210L313 242L329 260L334 270L347 271L343 275L341 284L349 290L351 296L351 311L358 311L358 289L354 287L350 280L355 271L354 265L340 260L328 247L325 242L317 238L316 225L318 215L325 197L334 198L347 195L343 191L346 183L353 178L351 169L351 162L350 159L343 153L341 153L342 157L339 158L332 153L335 148L341 153L335 148L328 150L319 146Z" fill="rgb(224,206,157)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-great-pyramid" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  
+  <g transform="translate(320.0 182.3)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-great-pyramid)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M12 86 L12 50 L22 42 L32 50 L32 86 Z M36 86 L36 30 L50 18 L64 30 L64 86 Z M68 86 L68 46 L78 38 L88 46 L88 86 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M44 86 L44 70 C44 62 56 62 56 70 L56 86" fill="#6e4b2a" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M44 40 L48 40 L48 48 L44 48 Z M52 40 L56 40 L56 48 L52 48 Z M18 56 L26 56 M74 54 L82 54" stroke="#3b2412" stroke-width="2" fill="#3b2412"/>
+    <path d="M50 18 L50 8 L60 11 L50 14" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-great-pyramid)"/>
+  <rect width="640" height="360" fill="url(#vignette-great-pyramid)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M12 86 L12 50 L22 42 L32 50 L32 86 Z M36 86 L36 30 L50 18 L64 30 L64 86 Z M68 86 L68 46 L78 38 L88 46 L88 86 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M44 86 L44 70 C44 62 56 62 56 70 L56 86" fill="#6e4b2a" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M44 40 L48 40 L48 48 L44 48 Z M52 40 L56 40 L56 48 L52 48 Z M18 56 L26 56 M74 54 L82 54" stroke="#3b2412" stroke-width="2" fill="#3b2412"/>
+    <path d="M50 18 L50 8 L60 11 L50 14" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">도시·건축</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">기자의 대피라미드 완성</text>
+  </g>
+  <text x="320" y="284" class="year">기원전 2560년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

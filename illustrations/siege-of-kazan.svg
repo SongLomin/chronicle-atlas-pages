@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="러시아의 카잔 칸국 정복">
+<defs>
+  <clipPath id="frame-siege-of-kazan"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-siege-of-kazan" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-siege-of-kazan" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-siege-of-kazan" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="16" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-siege-of-kazan" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-siege-of-kazan"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-siege-of-kazan" d="M664 384L664 -24L-24 -24L-24 384Z"/>
+  <clipPath id="landclip-siege-of-kazan"><use href="#land-siege-of-kazan"/></clipPath>
+  <path id="hl-siege-of-kazan-6" d="M368 126L368 128L372 126L372 133L376 131L375 138L380 138L381 143L386 143L387 148L397 151L396 153L402 153L401 155L406 158L405 163L407 168L403 180L382 187L378 189L379 194L358 194L351 203L339 210L325 212L310 226L300 244L299 251L290 260L268 269L261 280L259 280L259 271L256 271L253 265L244 258L249 240L245 235L247 229L242 229L238 224L238 212L235 212L236 205L233 203L235 198L246 196L240 189L241 177L253 177L260 165L269 168L269 158L271 155L266 153L265 148L271 146L268 141L273 136L274 131L270 131L275 113L279 108L282 93L288 88L289 85L298 83L299 88L317 88L335 80L343 83L343 85L346 93L345 98L350 103L350 111L354 111L356 118L367 126Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-siege-of-kazan)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-siege-of-kazan)"/>
+  <use href="#land-siege-of-kazan" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-siege-of-kazan" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-siege-of-kazan" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-siege-of-kazan)"><path d="M664 -24L664 244L647 240L645 235L625 233L626 231L608 226L605 222L602 222L603 219L599 219L600 217L596 217L597 215L584 212L584 210L559 215L559 212L555 210L554 205L551 205L551 203L524 201L524 198L515 201L516 196L488 191L485 187L482 187L482 184L476 182L476 180L472 182L472 175L463 170L460 165L460 151L457 148L458 138L456 138L458 131L452 123L456 116L454 116L456 98L454 98L458 67L456 67L469 27L477 16L479 5L485 -7L547 -21L552 -24Z" fill="rgb(202,158,152)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M400 233L397 226L391 229L390 224L387 224L384 212L379 210L381 201L379 196L379 194L358 194L351 203L339 210L325 212L310 226L300 244L299 251L290 260L268 269L261 280L260 287L264 289L263 295L262 295L259 312L254 321L255 325L251 327L241 348L240 377L246 384L429 384L429 377L424 369L429 358L444 342L445 329L439 319L444 304L450 297L452 291L450 291L451 271L448 269L448 262L441 260L442 258L419 260L419 258L416 258L417 253L412 251L413 247L406 238L406 231L402 233Z" fill="rgb(139,203,179)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M452 282L468 287L470 291L476 289L478 293L487 293L486 289L498 291L518 284L517 280L522 276L535 240L542 233L541 229L556 219L555 215L584 210L584 212L597 215L596 217L600 217L599 219L603 219L602 222L605 222L608 226L626 231L625 233L645 235L647 240L664 244L664 384L429 384L429 377L424 369L429 358L444 342L445 329L439 319L444 304L450 297L452 291L450 291L450 282Z" fill="rgb(221,179,184)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-24 321L-21 327L-15 331L2 331L7 338L5 342L6 342L5 350L-1 363L0 367L-4 371L-14 371L-15 373L-14 377L-24 378Z" fill="rgb(195,187,204)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M552 -24L547 -21L485 -7L459 -4L424 24L389 24L387 35L389 35L388 40L391 48L387 62L392 64L388 72L391 75L390 83L382 96L381 108L377 111L383 113L384 118L392 123L388 133L379 141L386 143L387 148L405 155L406 168L407 168L403 180L382 187L378 189L379 194L358 194L351 203L339 210L325 212L310 226L300 244L299 251L290 260L268 269L261 280L259 280L259 271L256 271L253 265L244 258L249 240L245 235L247 229L242 229L238 224L239 217L237 217L238 212L235 212L234 203L210 203L209 208L212 212L204 217L202 212L196 212L194 205L170 203L167 210L154 208L153 212L139 215L138 219L140 219L137 229L127 224L124 231L121 231L118 224L115 224L110 233L104 231L95 240L91 238L83 240L84 244L78 244L77 249L80 253L76 260L79 260L80 267L74 273L74 284L68 293L67 300L65 300L67 304L55 317L39 319L32 308L29 308L26 302L20 297L4 297L2 300L3 306L-1 312L-2 323L1 331L-15 331L-21 327L-24 321L-24 -24Z" fill="rgb(165,180,142)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M180 365L185 367L184 371L180 377L179 384L99 384L103 375L117 373L118 360L117 358L136 352L145 360L154 358L153 363L165 363L168 367L175 363L178 365Z" fill="rgb(202,209,162)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-siege-of-kazan-6" fill="rgb(175,99,97)" stroke="none"/>
+       <use href="#hl-siege-of-kazan-6" fill="url(#hatch-siege-of-kazan)" stroke="none"/>
+       <use href="#hl-siege-of-kazan-6" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-siege-of-kazan-6" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-siege-of-kazan" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="309.5" y="128.1" class="lbl hl">카잔 칸국</text>
+  <g transform="translate(309.5 170.1)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-siege-of-kazan)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-siege-of-kazan)"/>
+  <rect width="640" height="360" fill="url(#vignette-siege-of-kazan)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">정복</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">러시아의 카잔 칸국 정복</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1552년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

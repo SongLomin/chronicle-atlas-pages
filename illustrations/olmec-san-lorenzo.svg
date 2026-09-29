@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="올멕의 산로렌소">
+<defs>
+  <clipPath id="frame-olmec-san-lorenzo"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-olmec-san-lorenzo" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-olmec-san-lorenzo" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-olmec-san-lorenzo" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="81" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-olmec-san-lorenzo" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-olmec-san-lorenzo"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-olmec-san-lorenzo" d="M-24 -24L-24 38L-16 46L-9 50L-3 64L0 66L8 60L10 57L10 52L9 50L4 48L1 38L-2 39L-2 36L-8 32L-9 36L-11 37L-11 36L-9 36L-14 35L-17 31L-18 25L-16 21L-24 6L-24 -24L10 -24L9 -23L14 -19L14 -15L15 -16L17 -13L17 -12L14 -15L13 -11L13 -14L10 -7L10 0L11 -1L13 0L10 1L16 4L14 0L18 3L22 -2L19 4L17 4L18 6L21 5L21 3L24 4L24 8L28 8L25 8L31 10L32 13L32 10L33 13L36 13L40 16L37 15L36 17L33 14L38 21L39 17L40 18L41 22L39 22L42 26L44 28L41 25L48 29L50 28L51 32L44 28L61 40L66 48L71 53L73 59L82 67L83 66L88 73L90 87L94 94L100 98L99 107L92 114L96 114L98 118L89 122L94 133L102 141L104 146L115 152L117 151L118 153L125 156L131 161L135 168L163 178L167 176L187 192L209 200L216 205L235 208L240 213L250 215L248 215L256 220L267 221L282 227L289 227L306 220L312 216L320 216L316 215L318 214L314 214L317 211L319 214L322 212L324 213L321 216L328 216L337 220L327 215L328 213L333 215L358 236L362 238L363 240L361 238L373 252L393 265L408 266L419 270L425 274L436 275L453 282L448 280L453 280L454 282L455 280L456 282L464 282L467 279L466 277L466 276L468 278L471 275L471 277L476 276L473 279L475 283L478 283L477 284L478 285L476 287L478 287L475 287L472 284L470 288L489 303L495 312L512 327L511 328L511 330L506 331L512 333L512 337L513 337L509 339L510 341L508 343L512 352L520 354L524 360L529 354L522 349L520 344L531 350L529 351L532 351L534 359L543 362L555 371L556 374L555 376L556 376L553 380L557 384L563 384L563 381L558 378L560 377L566 380L565 380L566 381L566 384L632 384L638 379L636 379L638 374L641 374L641 372L642 374L644 371L651 372L651 370L654 368L651 370L651 372L661 378L661 376L661 378L664 379L664 384L664 363L655 363L652 362L654 359L642 359L641 358L639 359L636 364L635 363L633 365L632 364L630 367L620 370L615 374L600 376L592 368L591 369L594 373L588 373L585 371L584 368L586 367L583 368L581 366L582 362L573 357L560 342L556 334L555 335L556 332L553 329L550 323L552 317L555 315L554 310L552 311L551 310L553 308L552 306L554 304L552 303L554 307L556 300L554 301L552 296L556 293L555 290L557 289L555 299L558 298L557 276L559 265L565 256L562 247L560 246L562 244L562 246L566 242L563 240L560 236L554 233L558 237L555 238L557 236L555 235L553 237L551 235L547 233L551 236L549 236L543 230L553 233L541 224L534 223L538 224L533 225L533 223L526 220L516 223L505 219L507 220L507 221L497 225L486 225L477 223L474 225L472 221L469 222L464 223L460 227L450 221L453 223L451 223L450 226L444 222L443 220L447 215L452 214L456 205L456 208L458 199L457 190L459 187L457 184L461 173L461 167L455 169L456 167L455 167L460 160L458 160L460 159L462 156L463 160L461 165L464 166L466 171L474 146L471 148L470 146L474 143L475 140L475 139L473 140L475 141L470 142L468 138L470 139L474 133L474 132L474 136L475 126L489 108L489 105L488 104L488 99L486 98L483 95L475 96L481 96L479 98L464 95L453 95L439 100L425 102L414 108L410 119L411 133L406 137L404 146L389 158L394 154L391 158L394 159L393 162L396 161L389 164L389 166L383 165L382 167L380 163L379 162L381 164L377 164L379 162L381 162L379 160L370 161L364 162L364 166L363 163L360 165L354 166L354 168L354 166L346 166L339 169L345 167L341 170L326 173L324 171L319 164L314 163L311 160L303 160L299 158L303 160L297 160L298 159L295 157L299 159L291 148L288 146L284 134L268 114L262 98L259 94L256 84L259 90L265 96L263 98L264 102L266 96L260 89L257 84L255 70L254 72L257 63L257 46L257 48L255 45L257 44L259 28L263 12L269 0L270 -6L269 -9L267 -7L268 -9L266 -10L265 -15L263 -17L263 -24L588 -24L589 -19L594 -24L590 -18L593 -17L594 -9L597 -6L595 -5L598 -6L603 -3L608 8L612 10L611 12L608 9L609 14L614 12L617 13L620 11L623 12L626 2L629 -5L629 -2L631 -24ZM-1 32L2 37L-1 31L-1 32ZM19 6L24 8L19 6ZM68 93L71 96L71 94L68 93ZM72 98L75 98L72 98ZM258 89L260 92L258 89ZM382 161L388 158L382 161ZM425 74L427 74L428 77L429 74L426 72L425 74ZM463 178L466 172L463 178ZM464 191L467 186L464 191ZM476 167L477 163L476 167ZM484 122L484 125L489 118L485 119L484 122ZM484 218L487 217L484 218ZM492 214L501 210L496 211L492 214ZM506 211L509 209L506 211ZM527 89L530 90L537 87L537 91L542 88L547 88L549 82L554 82L556 80L560 81L574 70L592 70L597 73L597 75L586 77L593 81L600 81L604 84L606 82L607 84L607 79L609 84L622 85L621 82L622 81L624 84L623 85L632 92L634 91L635 93L639 93L649 96L659 94L664 102L664 108L664 80L659 77L659 78L658 77L647 77L642 73L639 68L635 67L636 65L634 66L631 64L623 64L620 63L619 59L618 61L609 60L608 62L605 60L608 58L600 62L599 59L585 58L569 63L567 62L565 64L564 63L560 66L546 69L544 73L543 72L538 81L541 85L536 85L527 89ZM553 308L553 310L554 307L553 308ZM565 94L567 98L571 99L578 95L575 88L569 87L567 90L569 96L565 94ZM587 95L590 94L587 95ZM597 26L600 25L599 24L600 25L597 26ZM599 94L603 92L599 94ZM602 22L603 25L602 22ZM602 145L603 148L609 146L605 145L603 147L602 145ZM611 60L615 59L611 60ZM614 58L617 58L614 58ZM619 17L627 8L619 17ZM630 139L633 138L630 139ZM634 138L638 137L634 138ZM640 67L646 72L640 67Z"/>
+  <clipPath id="landclip-olmec-san-lorenzo"><use href="#land-olmec-san-lorenzo"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-olmec-san-lorenzo)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-olmec-san-lorenzo)"/>
+  <use href="#land-olmec-san-lorenzo" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-olmec-san-lorenzo" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-olmec-san-lorenzo" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-olmec-san-lorenzo)"></g>
+  <use href="#land-olmec-san-lorenzo" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  
+  <g transform="translate(320.0 181.3)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-olmec-san-lorenzo)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M12 86 L12 50 L22 42 L32 50 L32 86 Z M36 86 L36 30 L50 18 L64 30 L64 86 Z M68 86 L68 46 L78 38 L88 46 L88 86 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M44 86 L44 70 C44 62 56 62 56 70 L56 86" fill="#6e4b2a" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M44 40 L48 40 L48 48 L44 48 Z M52 40 L56 40 L56 48 L52 48 Z M18 56 L26 56 M74 54 L82 54" stroke="#3b2412" stroke-width="2" fill="#3b2412"/>
+    <path d="M50 18 L50 8 L60 11 L50 14" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-olmec-san-lorenzo)"/>
+  <rect width="640" height="360" fill="url(#vignette-olmec-san-lorenzo)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M12 86 L12 50 L22 42 L32 50 L32 86 Z M36 86 L36 30 L50 18 L64 30 L64 86 Z M68 86 L68 46 L78 38 L88 46 L88 86 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M44 86 L44 70 C44 62 56 62 56 70 L56 86" fill="#6e4b2a" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M44 40 L48 40 L48 48 L44 48 Z M52 40 L56 40 L56 48 L52 48 Z M18 56 L26 56 M74 54 L82 54" stroke="#3b2412" stroke-width="2" fill="#3b2412"/>
+    <path d="M50 18 L50 8 L60 11 L50 14" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">도시·건축</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">올멕의 산로렌소</text>
+  </g>
+  <text x="320" y="284" class="year">기원전 1200년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

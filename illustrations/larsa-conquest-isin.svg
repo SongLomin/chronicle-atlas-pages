@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="라르사의 이신 정복">
+<defs>
+  <clipPath id="frame-larsa-conquest-isin"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-larsa-conquest-isin" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-larsa-conquest-isin" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-larsa-conquest-isin" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="0" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-larsa-conquest-isin" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-larsa-conquest-isin"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-larsa-conquest-isin" d="M-24 384L153 384L149 380L143 378L139 374L136 362L135 353L136 352L141 354L129 341L118 316L106 296L107 291L105 284L98 275L100 275L98 272L100 272L99 270L86 256L82 247L81 239L76 234L81 225L83 237L92 247L93 256L103 267L112 274L112 272L116 268L115 261L119 252L121 240L126 235L123 257L118 266L119 267L121 265L123 266L127 265L130 267L129 268L146 291L155 308L158 310L158 315L163 318L169 327L169 334L167 334L173 343L172 344L180 349L182 347L182 349L191 356L198 369L198 372L202 377L203 384L594 384L593 382L588 381L574 361L571 359L565 360L547 354L538 347L531 337L529 330L529 320L527 317L531 308L528 307L531 307L529 305L531 303L529 302L528 306L529 306L525 305L521 315L515 320L513 319L509 325L509 327L508 326L504 331L496 336L495 341L492 341L495 343L493 343L492 346L486 349L476 351L468 348L459 349L458 347L453 352L445 352L443 352L442 346L440 347L439 344L438 346L433 345L437 340L435 339L433 341L432 338L434 338L434 340L439 331L439 326L437 325L436 320L437 317L439 316L438 312L435 311L432 307L427 311L425 317L427 318L426 320L425 318L424 318L425 321L423 321L425 335L423 337L419 330L418 322L412 316L414 318L411 310L409 310L409 306L411 309L413 303L409 300L409 295L412 296L403 290L401 285L397 286L396 282L394 282L395 280L392 280L396 280L394 278L387 276L388 275L386 274L388 272L385 269L386 268L383 267L381 259L380 260L380 257L378 254L379 252L374 246L373 239L366 239L370 234L374 235L370 223L371 225L373 224L379 226L383 226L383 224L388 224L389 221L387 217L391 215L389 214L394 214L394 217L388 217L393 220L394 219L395 221L399 222L400 224L407 220L410 221L411 226L421 237L421 243L425 244L426 245L424 248L429 252L429 257L435 269L440 272L447 272L455 276L459 280L458 282L474 290L479 295L490 295L491 298L499 300L508 294L513 294L515 289L521 289L524 286L537 286L538 289L540 289L539 290L545 307L544 308L546 315L555 316L555 318L558 316L563 320L567 318L575 319L579 323L587 321L595 324L602 323L606 325L604 323L607 322L609 325L624 330L626 326L631 327L630 331L636 329L637 327L642 329L641 328L644 326L663 327L664 -24L-24 -24L-24 -20L-18 -24L31 -24L23 -23L10 -19L12 -17L16 -17L14 -15L-6 -15L-5 -17L-10 -19L-11 -18L-8 -15L-9 -13L-16 -13L-19 -17L-24 -15L-24 32L-21 32L-24 33L-24 42L-19 45L-20 49L-24 51L-20 53L-21 58L-17 57L-15 61L-13 60L-14 64L-19 64L-19 68L-17 66L-14 67L1 66L-2 69L-5 68L-5 72L-12 71L-18 73L-17 75L-12 75L-11 72L-3 71L-3 73L-6 74L-4 75L-6 76L-5 77L0 73L-1 70L2 72L3 69L10 76L12 73L15 75L14 77L16 77L15 81L26 87L35 83L40 85L43 78L43 72L45 69L58 71L70 77L77 86L85 89L92 87L99 87L101 86L102 87L105 83L107 85L113 76L121 71L133 77L138 76L140 73L137 74L138 73L142 72L146 68L149 71L149 74L141 83L145 90L141 94L142 96L140 100L144 104L145 109L143 115L145 124L139 129L138 136L135 138L128 156L130 157L128 157L128 162L126 162L121 182L111 196L101 200L96 200L91 202L91 199L88 201L90 200L89 202L87 201L84 202L82 202L87 200L81 202L74 197L75 200L72 202L71 198L69 199L66 197L68 191L74 197L69 192L62 193L53 190L51 190L53 192L46 195L42 194L51 190L42 193L39 192L40 193L39 192L38 195L36 197L38 198L35 198L34 196L23 204L14 207L3 201L-7 201L-8 198L-12 199L-16 198L-18 195L-24 194ZM75 112L79 120L87 121L88 123L89 123L90 120L100 117L102 114L109 114L106 112L108 112L106 107L119 97L101 105L87 104L86 110L80 109L78 112L75 112ZM88 200L94 198L91 198L88 200ZM94 198L98 200L94 198ZM106 278L109 280L106 278ZM154 318L158 319L155 316L154 318ZM155 314L156 317L156 313L155 314ZM158 320L162 322L158 320ZM160 321L162 324L163 322L160 321ZM372 229L375 233L378 231L374 225L375 227L372 229ZM398 282L403 282L398 282ZM417 307L419 315L421 307L419 306L420 305L418 305L417 307ZM423 319L424 316L423 319ZM466 17L467 25L467 17L466 17ZM468 292L472 293L468 292ZM469 346L471 346L474 344L469 346ZM477 348L483 348L481 346L477 348ZM482 299L485 300L482 299ZM490 342L493 343L492 341L490 342ZM508 297L509 299L519 295L521 296L527 290L517 290L517 293L508 297Z"/>
+  <clipPath id="landclip-larsa-conquest-isin"><use href="#land-larsa-conquest-isin"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-larsa-conquest-isin)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-larsa-conquest-isin)"/>
+  <use href="#land-larsa-conquest-isin" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-larsa-conquest-isin" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-larsa-conquest-isin" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-larsa-conquest-isin)"><path d="M357 208L357 211L347 213L345 218L329 215L322 203L323 190L320 189L322 186L314 177L319 173L319 170L307 163L307 153L310 151L314 157L323 160L332 151L336 151L337 158L344 160L340 176L342 176L343 183L350 184L352 189L355 189L357 193L365 197L367 204L372 206L370 206Z" fill="rgb(233,195,162)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M349 140L346 148L350 151L359 153L361 156L381 157L384 160L390 160L391 163L395 163L395 167L403 166L406 169L405 173L409 176L409 179L414 184L412 191L418 190L416 193L422 200L422 203L427 207L427 210L429 213L436 214L437 220L441 222L441 225L451 238L450 243L444 247L444 252L438 252L429 258L428 252L424 250L426 245L420 243L421 238L413 231L410 221L407 221L407 218L403 218L396 214L392 215L392 213L395 211L393 210L367 204L365 197L357 193L355 189L352 189L350 184L343 183L342 176L340 176L344 160L337 158L336 151L332 151L323 160L314 157L310 151L307 153L307 151L301 150L304 138L302 132L305 131L306 125L310 124L314 116L320 122L322 116L326 115L326 110L329 110L332 113L328 119L334 128L335 134L346 137L347 140Z" fill="rgb(163,203,165)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M53 190L51 190L53 192L49 194L43 194L50 190L39 192L38 198L33 196L17 207L4 202L16 229L23 240L26 241L26 247L24 256L17 266L8 270L-9 303L-12 317L-3 332L7 341L41 350L52 359L59 368L58 377L54 384L93 384L96 344L90 329L85 324L89 313L108 307L111 304L106 296L104 284L98 276L99 270L82 247L81 239L76 234L81 225L84 237L92 247L93 256L103 267L112 274L116 268L115 261L123 236L93 222L88 216L83 202L75 197L75 200L71 201L70 198L66 197L68 191L74 197L68 191L62 193L53 190Z" fill="rgb(224,206,157)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M292 67L301 71L303 80L307 82L307 85L315 91L315 94L309 94L311 98L310 101L311 104L307 110L313 112L314 115L310 124L306 125L301 118L293 116L285 110L267 115L256 115L248 110L243 112L244 103L235 101L232 95L227 94L242 76L243 73L247 70L249 65L248 64L263 59L270 68L269 71L278 71L280 67L288 70L287 65L292 65Z" fill="rgb(197,186,204)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M155 126L157 131L151 138L152 140L149 139L137 173L137 186L133 203L121 203L117 210L124 231L123 236L122 236L93 222L88 216L83 202L91 199L91 202L106 199L117 190L122 178L126 163L128 162L135 138L138 136L139 130L145 124L143 115L144 106L147 107L149 118L154 122L152 125Z" fill="rgb(203,159,157)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M306 177L308 180L313 180L313 177L319 173L319 170L307 163L307 154L299 160L300 164L297 164L297 174L296 176L303 174L303 177L306 179Z" fill="rgb(215,170,137)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-larsa-conquest-isin" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="365.6" y="171.6" class="lbl">엘람</text><text x="269.6" y="94.6" class="lbl">아시리아</text><text x="112.2" y="207.5" class="lbl">힉소스</text>
+  <g transform="translate(320.0 182.5)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-larsa-conquest-isin)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-larsa-conquest-isin)"/>
+  <rect width="640" height="360" fill="url(#vignette-larsa-conquest-isin)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">정복</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">라르사의 이신 정복</text>
+  </g>
+  <text x="320" y="284" class="year">기원전 1793년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

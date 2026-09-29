@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="이스라엘 건국과 제1차 중동 전쟁">
+<defs>
+  <clipPath id="frame-israel"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-israel" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-israel" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-israel" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="156" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-israel" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-israel"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-israel" d="M-24 384L272 384L269 379L269 373L264 369L261 362L258 360L256 355L258 353L260 355L257 352L258 350L257 350L255 347L255 346L260 348L258 344L246 333L236 317L231 313L228 304L221 295L222 288L219 277L209 266L212 260L216 254L215 251L216 249L219 250L219 247L219 251L221 253L220 256L223 260L224 273L225 271L229 275L231 282L243 294L245 313L246 313L253 322L258 326L266 338L278 347L283 349L286 351L284 348L293 340L294 331L292 325L301 306L305 279L314 267L316 269L307 309L308 315L302 331L299 335L300 335L300 338L304 333L307 335L309 334L308 336L309 334L310 334L310 336L318 334L324 337L322 339L329 345L336 356L338 364L347 374L348 378L352 384L664 384L664 -24L348 -24L345 -18L347 -16L347 -14L349 -15L353 -10L352 -4L354 1L351 5L351 14L355 33L352 36L348 36L348 39L342 44L341 49L341 59L339 63L335 64L335 67L330 82L327 85L323 93L324 96L320 101L323 103L320 103L318 114L314 115L309 141L300 165L287 184L278 190L270 194L260 196L252 194L251 196L247 196L248 197L246 196L241 199L241 196L242 196L240 192L234 196L237 196L238 195L236 199L233 196L233 197L224 199L222 199L233 194L226 197L220 198L209 188L204 187L207 189L207 195L205 196L203 195L202 197L200 197L201 198L200 199L198 197L198 195L196 195L197 191L195 190L193 192L192 189L191 191L187 188L188 184L190 185L189 182L191 182L189 180L190 179L191 181L190 178L191 176L196 183L204 187L197 182L194 177L191 176L178 180L160 173L155 174L160 176L161 178L157 177L155 181L148 180L145 183L143 181L141 183L138 182L155 174L137 179L130 177L132 180L130 178L128 185L123 188L127 188L127 190L127 189L122 191L121 190L123 188L120 188L119 186L96 203L85 209L77 209L69 205L68 203L53 197L49 198L33 197L30 190L25 192L19 192L12 189L9 183L5 184L-6 180L-10 181L-24 177ZM207 7L209 16L214 24L224 28L232 27L233 31L237 31L236 28L239 25L246 25L260 19L264 12L266 11L270 13L274 11L280 12L277 8L274 7L276 7L272 2L272 -2L274 -5L278 -6L281 -10L299 -21L300 -24L262 -7L253 -6L233 -9L233 -1L230 3L218 2L212 8L207 6L207 7ZM233 194L240 191L246 191L240 190L233 194ZM247 191L255 195L247 191ZM272 361L278 364L277 362L272 361ZM295 339L297 342L301 343L299 340L296 340L298 339L297 338L295 339ZM302 342L305 343L305 341L302 342Z"/>
+  <clipPath id="landclip-israel"><use href="#land-israel"/></clipPath>
+  <path id="hl-israel-8" d="M310 134L310 128L317 125L318 106L324 103L325 100L334 103L337 97L340 97L340 94L344 94L344 91L347 91L352 100L348 119L341 122L337 134L319 134L318 143L321 143L317 161L323 164L323 167L316 173L316 182L321 185L334 179L336 200L325 221L319 266L313 269L288 188L294 185L295 176L301 170L299 161L308 155L306 143L310 137ZM309 140L313 140L313 137L310 137Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-israel)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-israel)"/>
+  <use href="#land-israel" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-israel" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-israel" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-israel)"><path d="M664 -24L573 -24L565 23L558 38L499 69L496 76L477 82L470 91L471 106L479 119L478 137L487 140L486 146L498 152L531 155L549 164L563 179L595 191L629 224L635 224L643 236L649 236L657 248L664 252Z" fill="rgb(220,183,133)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 384L354 384L343 371L340 360L335 357L332 345L318 333L300 336L300 328L310 313L312 278L357 287L447 248L451 239L420 209L421 203L401 182L401 176L457 161L483 152L486 146L498 152L531 155L549 164L563 179L595 191L629 224L635 224L643 236L649 236L657 248L664 252Z" fill="rgb(224,192,197)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M350 -24L350 -18L356 -15L351 -2L353 17L358 26L358 29L371 26L381 51L367 66L358 69L357 82L347 91L352 100L348 119L360 122L374 137L389 140L412 122L428 116L435 106L470 91L477 82L496 76L499 69L558 38L565 23L573 -24Z" fill="rgb(229,191,189)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M220 251L215 236L206 233L197 221L199 197L211 197L210 215L227 236L226 248ZM101 200L114 197L107 206L104 206ZM257 23L241 26L238 32L211 23L205 13L206 4L218 4L231 -2L231 -9L265 -9L288 -24L297 -24L297 -18L274 -2L279 10L264 13Z" fill="rgb(217,156,137)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M111 188L129 188L127 182L130 179L154 176L155 170L164 170L161 176L166 179L191 179L187 191L193 188L199 197L197 221L203 233L215 236L220 251L213 266L221 278L223 295L229 298L240 322L260 339L259 357L268 365L273 383L275 384L-24 384L-24 179L-10 179L8 185L16 194L56 200L70 209L92 206L98 209L100 221L116 212L116 203L108 194ZM290 342L290 351L281 351L261 333L258 325L252 325L243 316L244 298L230 284L220 254L226 248L227 236L213 221L211 197L205 191L217 197L226 194L232 200L266 197L288 188L293 197L297 224L303 230L303 239L308 245L312 275L309 275L304 307L298 316L297 336ZM202 197L199 197L199 194L202 194ZM288 182L294 179L291 188L288 188Z" fill="rgb(224,206,157)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M340 97L340 94L344 94L344 91L347 91L357 82L358 69L367 66L381 51L371 26L358 29L358 32L348 45L342 42L343 60L334 63L336 76L330 76L332 88L325 97L325 100L334 103L337 97ZM337 66L337 63L340 63L340 66Z" fill="rgb(164,179,126)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M454 161L401 176L401 182L421 203L420 209L451 239L447 248L357 287L312 278L313 269L319 266L325 221L336 200L334 179L341 164L342 149L339 149L337 134L341 122L348 119L360 122L374 137L389 140L412 122L428 116L435 106L470 91L471 106L479 119L478 137L487 140L486 146L483 152L457 161Z" fill="rgb(139,181,144)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M323 167L316 173L316 182L321 185L334 179L341 164L342 149L339 149L337 134L319 134L318 143L321 143L317 161L323 164Z" fill="rgb(184,164,179)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-israel-8" fill="rgb(173,137,43)" stroke="none"/>
+       <use href="#hl-israel-8" fill="url(#hatch-israel)" stroke="none"/>
+       <use href="#hl-israel-8" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-israel-8" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-israel" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="315.1" y="159.0" class="lbl hl">이스라엘</text><text x="365.8" y="232.4" class="lbl">요르단</text><text x="357.6" y="53.7" class="lbl">레바논</text>
+  <g transform="translate(315.1 201.0)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-israel)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-israel)"/>
+  <rect width="640" height="360" fill="url(#vignette-israel)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">건국</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:19px">이스라엘 건국과 제1차 중동 전쟁</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1948년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

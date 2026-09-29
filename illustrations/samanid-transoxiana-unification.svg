@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="이스마일 사마니의 통합과 부하라 천도">
+<defs>
+  <clipPath id="frame-samanid-transoxiana-unification"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-samanid-transoxiana-unification" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-samanid-transoxiana-unification" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-samanid-transoxiana-unification" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="124" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-samanid-transoxiana-unification" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-samanid-transoxiana-unification"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-samanid-transoxiana-unification" d="M-24 -24L-24 384L664 384L664 -24Z"/>
+  <clipPath id="landclip-samanid-transoxiana-unification"><use href="#land-samanid-transoxiana-unification"/></clipPath>
+  <path id="hl-samanid-transoxiana-unification-9" d="M430 163L424 157L415 155L412 149L405 147L403 143L404 139L396 130L397 126L393 120L373 108L366 91L352 84L354 80L350 80L318 122L289 149L284 149L285 153L275 163L261 167L254 165L253 169L187 188L186 192L189 194L188 200L196 210L203 212L207 220L217 226L221 233L229 237L236 249L240 249L239 253L245 261L252 265L261 265L281 270L292 268L295 272L310 272L314 280L319 280L334 270L340 270L342 276L348 276L353 263L365 265L370 261L367 255L369 249L380 237L392 237L396 243L394 253L401 253L412 231L435 212L439 212L440 208L443 208L445 202L449 202L454 180L447 176L447 172L443 172L442 167L438 167L437 163Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-samanid-transoxiana-unification)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-samanid-transoxiana-unification)"/>
+  <use href="#land-samanid-transoxiana-unification" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-samanid-transoxiana-unification" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-samanid-transoxiana-unification" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-samanid-transoxiana-unification)"><path d="M556 355L558 337L564 320L579 301L521 316L490 329L477 331L476 333L463 337L452 346L457 348L455 357L458 359L457 365L465 368L461 372L459 379L463 381L462 384L559 384L557 368L555 368L556 357Z" fill="rgb(202,171,182)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M240 8L234 24L206 54L184 65L163 67L162 63L144 59L150 39L163 30L166 15L157 13L157 4L155 4L157 -5L155 -5L162 -24L123 -24L122 -21L113 -19L109 -8L93 -5L89 13L84 19L77 46L79 46L78 52L80 52L77 65L82 67L86 76L79 93L77 114L68 133L65 145L50 165L-8 163L-8 161L-1 157L0 149L-15 139L-19 120L-24 120L-24 19L-20 19L-22 28L-10 28L-9 19L-12 17L-6 -24L242 -24L242 -19L244 -19L240 6Z" fill="rgb(176,169,185)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 384L559 384L557 368L555 368L558 337L564 320L579 301L664 282Z" fill="rgb(146,202,192)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M621 -24L409 -24L386 4L362 54L337 61L318 61L317 56L313 59L305 43L278 28L271 17L240 6L244 -19L242 -19L242 -24Z" fill="rgb(223,202,153)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-1 384L11 374L22 368L30 357L42 346L43 339L53 324L57 322L65 307L71 303L74 297L90 290L134 290L148 286L168 286L209 276L254 274L258 272L261 265L281 270L292 268L295 272L310 272L314 280L319 280L334 270L340 270L342 276L348 276L353 263L365 265L370 261L367 255L369 249L380 237L392 237L396 243L394 253L401 253L398 278L399 278L400 286L403 288L415 284L420 278L425 278L433 270L445 265L453 265L453 270L463 267L476 267L479 270L485 268L488 272L488 280L492 280L494 286L500 286L506 291L506 307L510 312L520 311L521 314L521 316L490 329L477 331L475 331L473 322L445 324L444 329L436 333L435 344L422 365L410 370L401 384Z" fill="rgb(163,195,202)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M449 -5L447 -5L443 10L453 17L457 28L462 26L465 15L461 13L466 -5L477 -8L480 -19L490 -21L492 -24L539 -23L539 -21L550 -19L549 -17L565 -17L577 -19L579 -24L620 -24L632 -21L632 -19L642 -21L641 -17L654 4L653 8L655 8L651 15L656 17L652 24L654 24L652 28L655 32L653 39L655 39L657 69L664 80L664 115L648 118L605 112L602 116L540 145L477 157L443 157L437 163L430 163L424 157L415 155L412 149L405 147L403 143L404 139L396 130L397 126L393 120L373 108L366 91L352 84L354 80L352 80L362 54L386 4L409 -24L459 -24L456 -17L450 -17L447 -8L452 -10L448 -3Z" fill="rgb(190,161,173)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 115L648 118L630 130L628 135L616 145L606 176L607 176L605 184L607 184L607 192L610 194L609 198L614 202L612 206L622 220L659 233L664 233Z" fill="rgb(203,207,159)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 233L659 233L622 220L612 206L614 202L609 198L610 194L607 192L607 184L605 184L607 176L606 176L616 145L628 135L630 130L648 118L605 112L602 116L540 145L477 157L443 157L437 163L438 167L442 167L443 172L447 172L447 176L454 180L449 202L445 202L444 206L477 210L531 226L536 233L540 233L542 239L546 239L550 245L549 249L556 259L563 261L564 265L581 270L587 276L610 280L626 290L626 291L664 282Z" fill="rgb(215,171,135)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-24 384L-24 284L-17 284L-15 274L-19 267L-20 255L-21 255L-18 220L-24 213L-24 167L-9 165L-8 163L50 165L65 145L68 133L77 114L79 93L86 78L88 78L93 71L105 80L134 76L135 82L143 91L142 93L149 103L153 103L159 114L162 114L168 124L172 124L178 133L177 137L181 141L181 145L184 147L182 155L186 157L180 165L183 172L181 180L184 182L185 188L187 188L186 192L189 194L188 200L196 210L203 212L207 220L217 226L221 233L229 237L236 249L240 249L239 253L245 261L252 265L261 265L258 272L254 274L211 276L211 274L209 274L209 276L168 286L148 286L134 290L90 290L74 297L71 303L65 307L57 322L53 324L43 339L42 346L30 357L22 368L11 374L-1 384Z" fill="rgb(158,177,144)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-samanid-transoxiana-unification-9" fill="rgb(228,162,166)" stroke="none"/>
+       <use href="#hl-samanid-transoxiana-unification-9" fill="url(#hatch-samanid-transoxiana-unification)" stroke="none"/>
+       <use href="#hl-samanid-transoxiana-unification-9" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-samanid-transoxiana-unification-9" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-samanid-transoxiana-unification" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="327.9" y="151.0" class="lbl hl">사만 왕조</text><text x="512.9" y="63.3" class="lbl">카라한 왕조</text><text x="550.6" y="186.4" class="lbl">호탄 왕국</text>
+  <g transform="translate(327.9 193.0)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-samanid-transoxiana-unification)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M50 86 C24 80 14 58 18 30" fill="none" stroke="#3b2412" stroke-width="3"/><path d="M50 86 C76 80 86 58 82 30" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <ellipse cx="20" cy="76" rx="8" ry="4" transform="rotate(-40 20 76)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="80" cy="76" rx="8" ry="4" transform="rotate(40 80 76)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="22" cy="65" rx="8" ry="4" transform="rotate(-32 22 65)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="78" cy="65" rx="8" ry="4" transform="rotate(32 78 65)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="24" cy="54" rx="8" ry="4" transform="rotate(-24 24 54)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="76" cy="54" rx="8" ry="4" transform="rotate(24 76 54)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="26" cy="43" rx="8" ry="4" transform="rotate(-16 26 43)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="74" cy="43" rx="8" ry="4" transform="rotate(16 74 43)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="28" cy="32" rx="8" ry="4" transform="rotate(-8 28 32)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="72" cy="32" rx="8" ry="4" transform="rotate(8 72 32)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M36 58 L32 38 L43 48 L50 34 L57 48 L68 38 L64 58 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="2.5" stroke-linejoin="round"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-samanid-transoxiana-unification)"/>
+  <rect width="640" height="360" fill="url(#vignette-samanid-transoxiana-unification)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M50 86 C24 80 14 58 18 30" fill="none" stroke="#3b2412" stroke-width="3"/><path d="M50 86 C76 80 86 58 82 30" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <ellipse cx="20" cy="76" rx="8" ry="4" transform="rotate(-40 20 76)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="80" cy="76" rx="8" ry="4" transform="rotate(40 80 76)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="22" cy="65" rx="8" ry="4" transform="rotate(-32 22 65)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="78" cy="65" rx="8" ry="4" transform="rotate(32 78 65)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="24" cy="54" rx="8" ry="4" transform="rotate(-24 24 54)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="76" cy="54" rx="8" ry="4" transform="rotate(24 76 54)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="26" cy="43" rx="8" ry="4" transform="rotate(-16 26 43)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="74" cy="43" rx="8" ry="4" transform="rotate(16 74 43)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="28" cy="32" rx="8" ry="4" transform="rotate(-8 28 32)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="72" cy="32" rx="8" ry="4" transform="rotate(8 72 32)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M36 58 L32 38 L43 48 L50 34 L57 48 L68 38 L64 58 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="2.5" stroke-linejoin="round"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">통일</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:19px">이스마일 사마니의 통합과 부하라 천도</text>
+  </g>
+  <text x="320" y="284" class="year">서기 892년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

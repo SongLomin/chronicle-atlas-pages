@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="하와이 왕국의 전복">
+<defs>
+  <clipPath id="frame-hawaii-overthrow"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-hawaii-overthrow" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-hawaii-overthrow" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-hawaii-overthrow" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="101" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-hawaii-overthrow" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-hawaii-overthrow"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-hawaii-overthrow" d="M249 150L251 152L252 149L256 146L257 143L255 143L249 150ZM268 142L275 147L282 148L286 144L288 136L285 133L277 133L271 136L268 142ZM328 161L336 173L340 172L338 169L340 170L340 169L342 170L341 171L341 173L343 171L347 175L351 174L353 172L350 168L350 166L348 166L348 168L346 166L346 163L341 155L334 160L328 161ZM367 181L385 183L391 179L383 179L381 176L380 178L369 176L367 181ZM377 190L380 192L381 197L386 196L387 194L384 189L380 189L377 190ZM391 206L398 206L398 204L395 203L391 206ZM391 189L394 194L401 195L401 201L403 203L414 202L420 198L419 194L408 188L400 190L395 184L393 185L391 189ZM417 240L424 256L423 268L432 275L439 265L448 260L458 257L467 250L461 244L460 240L456 240L456 234L453 231L426 217L423 219L426 229L417 240Z"/>
+  <clipPath id="landclip-hawaii-overthrow"><use href="#land-hawaii-overthrow"/></clipPath>
+  <path id="hl-hawaii-overthrow-0" d="M428 271L426 263L432 263L429 255L422 249L419 238L427 236L424 225L427 225L427 214L436 222L458 227L461 238L472 247L464 263L444 266L437 274ZM430 200L417 208L402 208L399 197L392 192L390 186L425 192ZM390 197L382 197L377 192L380 192L379 189L388 189ZM381 175L388 178L390 186L370 186L368 181L371 181L370 175ZM344 181L329 170L328 164L337 153L349 156L353 181ZM233 156L222 156L220 150L223 150L222 148L231 148ZM257 156L248 156L247 150L256 142L259 142L262 150ZM270 148L270 136L274 131L293 134L298 142L285 150ZM168 86L171 86L172 89L176 92L174 95Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-hawaii-overthrow)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-hawaii-overthrow)"/>
+  <use href="#land-hawaii-overthrow" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-hawaii-overthrow" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-hawaii-overthrow" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-hawaii-overthrow)"><use href="#hl-hawaii-overthrow-0" fill="rgb(205,181,115)" stroke="none"/>
+       <use href="#hl-hawaii-overthrow-0" fill="url(#hatch-hawaii-overthrow)" stroke="none"/>
+       <use href="#hl-hawaii-overthrow-0" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-hawaii-overthrow-0" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-hawaii-overthrow" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="445.5" y="203.7" class="lbl hl">하와이 왕국</text>
+  <g transform="translate(445.5 245.7)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-hawaii-overthrow)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><rect x="30" y="80" width="40" height="8" fill="#ddd0ad" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 80 L36 44 L44 38 L50 46 L58 36 L64 42 L66 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M42 78 L43 48 M50 78 L50 50 M58 78 L58 46" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M70 70 L84 64 L88 74 L76 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/><path d="M14 82 L24 74 L30 82 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M26 30 L32 36 M74 28 L68 34 M50 18 L50 26" stroke="#8f2a17" stroke-width="3" stroke-linecap="round"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-hawaii-overthrow)"/>
+  <rect width="640" height="360" fill="url(#vignette-hawaii-overthrow)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><rect x="30" y="80" width="40" height="8" fill="#ddd0ad" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 80 L36 44 L44 38 L50 46 L58 36 L64 42 L66 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M42 78 L43 48 M50 78 L50 50 M58 78 L58 46" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M70 70 L84 64 L88 74 L76 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/><path d="M14 82 L24 74 L30 82 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M26 30 L32 36 M74 28 L68 34 M50 18 L50 26" stroke="#8f2a17" stroke-width="3" stroke-linecap="round"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">붕괴</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">하와이 왕국의 전복</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1893년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

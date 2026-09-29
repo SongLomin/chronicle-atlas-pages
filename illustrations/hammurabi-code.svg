@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="함무라비 법전 공포">
+<defs>
+  <clipPath id="frame-hammurabi-code"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-hammurabi-code" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-hammurabi-code" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-hammurabi-code" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="39" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-hammurabi-code" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-hammurabi-code"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-hammurabi-code" d="M-24 -24L-24 384L412 384L407 377L409 375L403 373L401 369L402 366L398 361L399 357L396 358L397 357L397 353L393 349L393 346L391 346L393 342L390 341L388 335L383 329L381 314L377 312L371 315L370 314L371 312L365 313L376 303L384 305L377 292L375 279L376 284L382 282L394 287L399 286L396 285L402 286L403 285L403 281L412 283L415 280L415 276L412 268L415 265L419 264L415 261L422 260L424 260L424 262L426 260L428 263L425 268L420 265L414 266L424 274L426 272L427 277L436 277L438 283L454 274L460 275L462 278L463 287L467 290L473 300L483 309L485 317L483 323L491 323L494 327L493 332L490 330L489 333L492 338L496 338L499 342L500 351L509 364L508 369L513 378L514 377L517 380L524 383L532 382L539 384L664 384L664 -24ZM378 285L381 283L378 285ZM379 293L385 302L389 300L391 297L391 294L384 284L382 285L385 287L383 289L381 289L382 291L379 293ZM388 310L393 312L391 309L388 308L388 310ZM468 318L470 320L471 318L468 318Z"/>
+  <clipPath id="landclip-hammurabi-code"><use href="#land-hammurabi-code"/></clipPath>
+  <path id="hl-hammurabi-code-2" d="M360 137L363 137L362 143L376 155L374 167L383 170L387 216L401 231L407 231L423 252L369 243L347 249L347 255L325 258L321 270L288 264L272 237L275 210L269 207L273 201L264 195L265 189L260 182L254 182L253 189L244 189L241 182L235 186L233 176L217 179L221 176L220 155L226 155L224 146L234 134L240 134L241 127L247 127L258 140L279 143L287 131L300 124L286 109L292 106L293 97L290 97L294 90L312 93L309 100L329 112L325 118L327 124L351 131L356 137Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-hammurabi-code)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-hammurabi-code)"/>
+  <use href="#land-hammurabi-code" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-hammurabi-code" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-hammurabi-code" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-hammurabi-code)"><path d="M451 167L450 173L459 179L458 186L469 198L464 213L476 210L473 216L486 231L485 237L496 246L496 252L501 258L516 261L518 273L526 279L525 285L547 311L545 323L532 332L531 341L519 341L500 355L498 341L489 338L494 326L482 323L483 311L467 296L460 276L431 261L422 264L422 258L429 255L423 255L423 252L407 231L401 231L387 216L383 170L374 167L376 155L362 143L363 137L399 140L404 146L417 146L419 152L428 152L427 161L446 158L451 164ZM479 216L476 216L476 213L479 213Z" fill="rgb(163,203,165)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M245 34L241 40L256 47L251 65L244 72L238 72L227 56L212 53L195 40L173 47L174 37L171 37L175 21L195 12L194 -4L201 -17L211 -24L233 -24L242 -20L241 -14L258 -1L258 6L245 6L250 15L245 31Z" fill="rgb(197,186,204)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-hammurabi-code-2" fill="rgb(194,121,89)" stroke="none"/>
+       <use href="#hl-hammurabi-code-2" fill="url(#hatch-hammurabi-code)" stroke="none"/>
+       <use href="#hl-hammurabi-code-2" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-hammurabi-code-2" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-hammurabi-code" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="325.9" y="151.5" class="lbl hl">바빌로니아</text><text x="442.1" y="213.7" class="lbl">엘람</text>
+  <g transform="translate(325.9 193.5)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-hammurabi-code)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M26 22 L74 22 C80 22 80 34 74 34 L74 78 C74 84 68 86 64 84 L24 84 C18 84 18 72 24 72 L26 72 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M26 22 C20 22 20 34 26 34" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 40 L66 40 M34 48 L66 48 M34 56 L60 56 M34 64 L54 64" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="62" cy="74" r="8" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/><path d="M58 80 L56 90 L62 86 L66 90 L66 80" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-hammurabi-code)"/>
+  <rect width="640" height="360" fill="url(#vignette-hammurabi-code)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M26 22 L74 22 C80 22 80 34 74 34 L74 78 C74 84 68 86 64 84 L24 84 C18 84 18 72 24 72 L26 72 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M26 22 C20 22 20 34 26 34" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 40 L66 40 M34 48 L66 48 M34 56 L60 56 M34 64 L54 64" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="62" cy="74" r="8" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/><path d="M58 80 L56 90 L62 86 L66 90 L66 80" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">체제 전환</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">함무라비 법전 공포</text>
+  </g>
+  <text x="320" y="284" class="year">기원전 1754년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

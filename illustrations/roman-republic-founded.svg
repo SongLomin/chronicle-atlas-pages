@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="로마 공화정의 수립">
+<defs>
+  <clipPath id="frame-roman-republic-founded"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-roman-republic-founded" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-roman-republic-founded" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-roman-republic-founded" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="4" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-roman-republic-founded" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-roman-republic-founded"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-roman-republic-founded" d="M664 384L664 -24L-24 -24L-24 103L-10 93L-7 92L-4 92L-1 97L12 98L15 99L15 103L24 104L21 100L19 91L22 100L26 104L28 103L26 103L26 100L34 99L33 92L37 96L40 95L41 96L38 99L33 100L33 104L41 105L43 103L46 108L45 111L53 111L56 114L58 113L66 120L70 118L67 116L69 115L73 118L77 119L75 121L79 121L78 119L79 117L87 118L88 115L99 112L99 108L95 107L100 104L102 100L107 99L110 93L117 92L118 87L125 85L132 79L141 79L154 73L158 70L162 60L168 57L170 51L182 43L196 47L200 51L201 48L225 65L225 62L230 65L235 66L242 76L244 96L253 109L253 115L251 123L251 126L257 125L262 127L261 133L269 137L277 147L278 147L279 151L278 153L275 153L276 156L279 157L280 154L287 155L298 162L305 175L308 175L312 177L318 183L321 191L329 197L337 207L338 206L347 209L353 218L363 215L373 219L375 217L380 217L386 223L392 235L393 242L395 242L395 239L400 241L403 239L410 245L411 247L405 250L405 253L411 250L413 251L423 248L431 262L431 264L429 266L428 270L433 274L437 274L442 279L442 281L448 283L453 279L456 279L462 289L464 299L467 306L471 312L475 331L480 339L480 342L478 349L472 349L465 352L468 358L468 362L464 371L457 375L456 381L458 384L477 384L478 379L484 372L494 364L493 350L495 345L505 339L510 338L516 340L520 333L516 330L517 324L516 321L518 314L503 303L493 301L491 295L497 285L496 279L508 260L514 256L519 258L524 257L521 258L520 262L532 267L546 268L552 278L550 280L552 281L551 283L554 288L565 293L567 293L568 284L572 276L569 269L561 259L553 254L552 249L531 239L523 231L514 226L495 219L470 206L467 202L468 198L479 189L479 183L477 181L473 180L449 182L438 181L421 172L420 168L414 165L395 145L389 134L385 116L376 92L372 88L370 89L362 84L349 72L339 68L326 54L323 40L322 21L324 20L327 23L328 23L328 18L329 17L329 22L333 13L326 8L326 11L325 7L323 6L324 4L325 6L324 -2L321 0L320 -5L319 -3L317 -5L320 -6L322 -15L326 -17L328 -17L327 -19L330 -18L332 -21L333 -19L335 -20L332 -16L329 -16L328 -13L349 -24L383 -24L380 -22L382 -20L374 -19L375 -16L372 -18L372 -16L373 -8L376 -7L375 -6L376 4L381 4L376 5L376 7L382 14L383 17L385 18L383 19L387 22L388 24L387 21L392 22L390 17L392 17L395 12L393 9L394 14L398 13L397 8L399 4L401 3L404 -8L413 -5L413 -6L418 0L426 6L428 14L427 27L432 36L444 48L453 52L448 53L442 49L443 54L439 51L439 54L437 52L436 53L437 57L450 72L459 78L456 77L460 81L470 85L470 87L468 87L470 87L468 88L469 92L471 93L470 95L476 96L478 96L476 94L489 93L490 93L487 95L493 95L497 98L507 100L516 111L529 119L530 121L529 122L532 121L530 122L532 125L540 129L541 132L521 121L512 120L513 123L520 124L541 135L540 132L547 134L548 136L553 139L555 142L560 143L561 147L573 155L572 152L578 153L579 151L580 156L574 153L574 156L576 157L579 156L583 162L587 162L588 165L595 171L598 180L606 185L609 184L615 187L614 195L616 198L609 199L612 203L609 209L607 208L608 213L612 216L609 223L609 229L611 231L610 234L611 230L612 235L609 237L609 233L607 235L608 240L604 249L607 254L608 252L610 254L609 256L607 255L611 259L611 265L608 266L605 260L603 261L611 272L626 281L629 286L628 288L632 290L631 299L639 303L637 307L642 309L640 309L642 312L640 312L641 314L645 319L651 320L651 323L659 331L661 337L664 337L661 333L664 329L664 339L662 337L662 340L664 342L661 342L661 345L664 347L664 384ZM-16 282L-14 284L-15 286L-9 286L1 293L4 292L4 289L5 290L-2 280L-3 282L-4 279L-16 281L-16 282ZM78 123L82 122L78 123ZM157 245L159 247L157 250L158 253L159 251L160 253L164 253L167 258L167 265L171 268L171 278L170 280L167 281L168 282L167 288L169 290L170 287L173 289L172 298L174 299L169 296L170 305L166 315L169 319L166 323L171 331L174 332L176 340L177 342L180 338L186 341L192 335L192 327L195 323L192 321L198 325L200 323L203 323L212 329L214 327L215 321L217 320L216 316L221 279L218 275L217 269L222 263L225 255L218 241L220 239L216 236L217 235L212 234L214 234L215 231L218 230L214 230L213 228L212 230L214 224L210 223L209 226L208 221L205 219L205 220L203 220L203 219L203 220L201 216L198 218L197 222L192 224L184 233L172 240L163 238L160 232L159 234L160 237L157 245ZM160 231L165 226L165 224L160 231ZM161 327L162 329L164 329L164 325L161 327ZM165 330L169 337L171 331L169 330L165 330ZM173 164L175 168L174 169L179 171L181 174L178 178L175 179L176 182L182 181L184 182L182 185L183 186L178 190L188 193L184 196L183 201L189 204L193 206L195 205L196 207L195 209L200 211L202 208L200 209L200 207L202 205L202 202L206 199L205 198L203 199L203 197L205 197L208 193L208 180L214 169L213 147L209 142L211 134L210 123L208 122L205 123L206 127L204 132L205 136L203 140L201 138L196 137L194 141L184 144L183 147L180 146L178 154L173 157L174 159L176 158L176 160L179 162L173 164ZM206 218L209 219L208 216L206 218ZM209 221L211 221L210 218L209 221ZM223 121L225 121L225 119L223 121ZM236 135L237 137L245 136L248 139L247 136L249 131L248 130L245 133L242 132L236 135ZM266 157L269 159L267 156L266 157ZM385 245L389 246L390 244L386 243L385 245ZM401 33L402 33L403 30L401 33ZM403 5L408 14L407 17L404 15L403 17L409 31L412 33L410 23L410 13L407 9L406 2L404 2L403 5ZM405 27L406 36L408 36L413 41L408 33L407 29L405 27ZM409 7L412 10L416 10L416 9L417 13L420 15L424 13L421 7L418 7L418 2L415 2L415 -2L413 -2L413 4L409 7ZM415 48L418 50L415 48ZM418 23L426 28L422 20L419 20L421 23L418 23ZM421 28L427 36L427 40L433 46L436 46L435 47L437 50L438 51L437 49L440 50L438 47L442 49L433 41L435 44L433 43L428 37L435 41L433 38L428 33L427 35L425 34L421 28ZM422 47L424 48L423 44L422 47ZM423 357L426 358L427 357L423 357ZM426 58L439 75L437 72L440 72L433 66L432 62L426 58ZM428 361L430 363L430 359L428 361ZM434 59L442 67L434 59ZM441 75L447 80L441 75ZM442 67L449 74L447 69L442 67ZM456 86L461 88L456 86ZM473 119L475 122L480 121L482 118L473 119ZM480 100L487 104L483 100L480 100ZM480 96L487 96L482 95L480 96ZM486 112L499 116L519 116L501 114L498 111L494 110L492 110L495 112L491 111L486 112ZM488 104L497 108L505 108L507 106L499 102L489 101L490 103L488 104ZM497 124L500 124L498 127L506 128L520 127L517 124L513 124L504 125L497 124ZM504 136L505 137L509 136L506 135L504 136ZM524 134L541 139L531 135L524 134ZM617 296L625 305L627 311L636 316L635 312L629 310L628 304L629 303L625 301L625 298L629 296L629 294L626 292L618 294L617 296ZM637 323L640 326L637 323Z"/>
+  <clipPath id="landclip-roman-republic-founded"><use href="#land-roman-republic-founded"/></clipPath>
+  <path id="hl-roman-republic-founded-3" d="M317 182L329 189L330 171L310 171L317 178Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-roman-republic-founded)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-roman-republic-founded)"/>
+  <use href="#land-roman-republic-founded" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-roman-republic-founded" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-roman-republic-founded" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-roman-republic-founded)"><path d="M196 312L206 318L206 325L193 328L190 342L165 335L168 322L165 322L165 308L171 295L171 288L165 285L168 268L171 268L180 278L181 318Z" fill="rgb(227,178,158)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M532 254L551 251L569 275L565 288L556 288L544 264L528 264L525 254L513 254L506 258L509 261L506 268L496 268L499 278L490 285L489 302L508 308L514 315L517 332L492 345L491 365L473 384L458 384L456 378L447 378L444 384L438 384L438 378L450 371L466 371L470 352L482 348L467 295L458 288L461 281L449 281L439 271L433 271L427 247L408 247L408 237L396 237L393 230L434 237L452 271L471 271L477 278L477 281L487 281L484 271L507 244L532 247ZM628 295L628 305L622 302L622 295ZM628 227L627 237L621 244L623 264L610 268L611 251L601 251L602 244L605 244L611 237L609 213L619 206L621 223ZM34 97L-1 97L-2 90L-14 90L-24 97L-24 85L21 75L66 100L95 100L95 108L83 115L63 115L57 108L47 108L47 100Z" fill="rgb(139,201,186)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M211 122L211 136L214 136L215 178L211 178L211 189L202 210L196 213L183 203L183 192L176 192L180 182L173 171L173 150L182 140L198 136L202 122L205 122ZM250 129L250 140L240 140L237 129L240 129ZM298 157L291 161L288 154L282 154L279 143L272 143L272 132L253 118L253 108L250 108L237 61L243 57L243 50L253 46L256 28L220 -1L220 2L217 2L217 -2L220 -2L211 -9L207 -24L253 -24L253 -20L318 -9L318 2L328 9L328 24L318 20L318 42L324 57L311 64L308 82L324 93L330 171L307 171L301 168ZM234 68L227 68L227 64L234 61Z" fill="rgb(224,180,142)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-roman-republic-founded-3" fill="rgb(150,99,157)" stroke="none"/>
+       <use href="#hl-roman-republic-founded-3" fill="url(#hatch-roman-republic-founded)" stroke="none"/>
+       <use href="#hl-roman-republic-founded-3" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-roman-republic-founded-3" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-roman-republic-founded" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="322.5" y="135.5" class="lbl hl">로마 왕정</text><text x="282.9" y="77.2" class="lbl">에트루리아인</text>
+  <g transform="translate(322.5 177.5)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-roman-republic-founded)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M26 22 L74 22 C80 22 80 34 74 34 L74 78 C74 84 68 86 64 84 L24 84 C18 84 18 72 24 72 L26 72 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M26 22 C20 22 20 34 26 34" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 40 L66 40 M34 48 L66 48 M34 56 L60 56 M34 64 L54 64" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="62" cy="74" r="8" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/><path d="M58 80 L56 90 L62 86 L66 90 L66 80" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-roman-republic-founded)"/>
+  <rect width="640" height="360" fill="url(#vignette-roman-republic-founded)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M26 22 L74 22 C80 22 80 34 74 34 L74 78 C74 84 68 86 64 84 L24 84 C18 84 18 72 24 72 L26 72 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M26 22 C20 22 20 34 26 34" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 40 L66 40 M34 48 L66 48 M34 56 L60 56 M34 64 L54 64" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="62" cy="74" r="8" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/><path d="M58 80 L56 90 L62 86 L66 90 L66 80" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">체제 전환</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">로마 공화정의 수립</text>
+  </g>
+  <text x="320" y="284" class="year">기원전 509년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

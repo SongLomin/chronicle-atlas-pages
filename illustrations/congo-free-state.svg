@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="콩고 자유국의 수립">
+<defs>
+  <clipPath id="frame-congo-free-state"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-congo-free-state" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-congo-free-state" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-congo-free-state" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="93" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-congo-free-state" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-congo-free-state"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-congo-free-state" d="M-24 -24L-24 87L-22 85L-10 82L5 74L16 74L18 70L23 68L52 65L53 62L54 63L57 61L59 62L52 64L67 65L76 74L80 72L77 75L78 77L81 75L80 76L83 76L78 77L81 79L85 77L83 78L84 80L81 80L81 83L83 83L81 84L84 90L90 95L90 94L91 96L91 94L92 96L94 96L94 93L95 94L94 96L99 95L99 93L101 95L101 91L101 95L103 95L101 88L103 94L106 94L105 89L106 94L108 93L106 89L109 93L109 91L113 92L113 90L113 92L124 92L125 91L123 86L127 90L129 88L128 93L131 93L130 89L131 92L133 92L134 99L138 101L140 100L139 101L142 101L142 99L143 100L146 98L144 101L146 101L145 102L146 103L143 103L144 106L147 106L144 107L148 111L149 114L146 125L147 131L144 135L146 136L143 136L140 142L143 144L145 143L147 144L146 145L145 144L143 145L144 152L142 151L143 149L139 151L142 155L150 157L146 158L147 159L142 157L142 158L140 154L139 164L135 172L134 170L133 171L130 168L131 169L135 179L137 180L140 178L139 183L141 181L143 183L139 184L134 178L138 186L142 188L143 190L142 188L139 187L144 194L146 196L148 195L149 197L152 197L149 198L145 195L176 227L179 234L181 234L179 234L182 240L181 243L185 249L190 248L191 246L198 246L183 250L191 262L192 267L199 283L199 289L197 290L194 294L195 291L194 294L202 314L205 318L206 335L201 345L193 350L193 353L187 360L186 366L184 370L183 380L181 384L604 384L602 381L605 381L604 376L605 375L603 375L602 377L602 374L604 372L601 371L602 369L601 361L602 353L599 352L602 350L600 346L601 344L599 342L600 336L600 329L598 328L602 321L600 319L602 318L599 315L599 312L598 313L596 311L596 312L595 312L593 310L593 311L590 308L588 309L590 305L586 300L587 296L584 291L586 292L583 289L582 283L585 275L583 274L582 275L583 268L586 263L577 255L575 249L581 229L560 213L581 229L584 228L588 220L586 219L588 218L588 219L591 214L590 212L591 213L592 208L595 208L596 199L602 197L606 192L607 194L605 188L607 190L608 187L608 190L614 187L621 177L622 173L622 174L647 147L664 134L664 5L656 4L647 -4L644 -10L639 -13L630 -12L634 -15L643 -19L643 -24ZM97 156L99 159L101 154L100 153L97 156ZM107 94L110 93L109 92L107 94ZM110 93L114 93L110 93ZM126 110L130 112L134 106L134 104L130 104L126 110ZM134 169L135 170L135 168L134 169ZM190 247L194 246L190 247ZM581 251L585 255L586 254L583 244L581 251ZM587 277L590 277L591 273L587 277ZM587 239L590 239L591 232L590 233L588 232L589 236L588 236L590 237L587 239ZM607 192L610 190L609 189L607 192Z"/>
+  <clipPath id="landclip-congo-free-state"><use href="#land-congo-free-state"/></clipPath>
+  <path id="hl-congo-free-state-14" d="M460 132L443 148L437 173L438 180L433 183L432 190L427 195L430 202L433 205L433 208L430 208L429 221L429 224L431 225L431 235L388 234L386 239L387 246L384 247L386 249L386 256L384 257L382 254L377 257L373 256L372 258L375 264L369 265L367 261L363 261L362 265L357 267L357 268L349 267L350 274L338 275L338 273L333 275L331 274L331 272L330 274L324 273L324 269L321 268L305 268L304 263L301 262L299 264L289 265L287 277L285 279L273 277L267 280L261 280L257 277L251 268L251 263L248 258L247 249L244 247L190 247L188 248L182 248L180 247L186 243L186 233L193 227L200 231L205 225L213 223L214 231L218 231L222 226L229 223L232 218L236 216L239 208L239 191L245 187L249 177L254 175L262 167L262 159L265 154L264 144L267 135L267 125L275 113L274 96L279 93L282 87L288 83L293 83L294 85L300 87L305 93L311 93L319 96L323 95L332 98L338 88L348 90L352 88L359 87L361 84L365 86L371 86L377 80L389 82L391 84L400 84L404 82L413 92L421 95L422 98L426 99L434 105L436 105L441 110L443 110L446 113L449 123L455 127L455 129L459 130L460 131Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-congo-free-state)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-congo-free-state)"/>
+  <use href="#land-congo-free-state" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-congo-free-state" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-congo-free-state" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-congo-free-state)"><path d="M50 68L79 82L101 79L107 65L98 47L76 44L53 54Z" fill="rgb(152,186,192)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M24 69L43 68L45 41L25 41Z" fill="rgb(203,206,158)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M591 -24L597 -6L596 10L593 10L593 15L590 14L590 16L582 19L582 21L580 20L576 23L565 22L558 17L552 5L548 5L549 3L546 -1L546 -5L543 -6L535 1L532 2L526 3L522 1L523 -6L527 -15L526 -17L529 -17L532 -21L535 -20L535 -24Z" fill="rgb(175,213,189)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M206 -24L206 -4L212 6L223 10L224 12L246 10L244 15L242 17L239 16L236 19L235 23L231 25L232 29L230 29L229 33L219 38L215 38L208 47L193 60L191 64L188 65L178 65L172 61L172 58L175 56L176 48L174 47L174 44L170 43L169 39L159 42L146 43L144 45L138 44L132 47L127 47L113 43L102 42L102 39L99 40L101 37L97 36L96 31L84 30L78 34L78 37L75 39L76 42L66 42L61 29L63 26L65 26L69 20L72 21L69 14L69 4L72 1L72 -3L69 -3L67 -10L59 -17L54 -15L53 -17L51 -17L45 -24Z" fill="rgb(204,210,162)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M274 276L286 278L286 271L288 270L288 265L290 263L300 263L303 261L305 263L304 267L321 267L324 268L323 280L325 283L323 300L330 313L331 319L328 321L330 326L333 323L342 324L355 321L357 330L355 335L355 352L326 353L326 365L318 360L302 355L296 355L292 357L289 361L280 363L279 365L275 362L269 363L269 365L265 368L260 384L179 384L185 359L191 353L192 348L199 346L204 334L204 321L198 312L198 308L194 304L194 298L192 296L192 292L198 289L197 283L193 274L199 273L203 282L207 283L214 277L213 270L215 268L219 269L224 274L229 273L229 268L237 270L241 263L241 258L237 250L238 246L244 246L247 248L248 257L251 262L251 267L260 279L268 279ZM187 226L188 224L193 227L186 233L186 243L180 246L178 232L184 226ZM95 155L100 153L100 157L96 159ZM109 134L110 134L110 137L108 137Z" fill="rgb(165,190,146)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M248 -24L259 -13L261 -13L265 -4L265 -1L262 2L263 4L259 4L255 11L254 6L250 7L250 9L224 12L223 10L212 6L206 -4L206 -24Z" fill="rgb(184,163,177)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M128 104L132 103L133 107L130 112L125 111L125 109L127 108Z" fill="rgb(230,206,138)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-21 30L-20 31L-18 27L-16 27L-14 30L-9 31L-9 33L-4 38L0 40L3 49L6 49L3 61L6 62L6 64L3 65L3 67L7 68L8 70L12 71L12 74L5 75L5 71L3 71L3 76L1 76L1 74L-3 74L-7 78L-24 83L-24 30L-22 30Z" fill="rgb(198,204,212)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-24 83L-7 78L-3 74L1 74L1 77L-10 83L-20 85L-24 88ZM5 75L3 75L3 71L5 71L5 74ZM111 68L115 70L118 67L122 67L122 60L125 60L125 58L132 58L133 62L137 61L141 66L134 71L134 78L127 90L124 89L123 92L101 94L100 92L100 94L97 96L89 96L83 91L80 80L78 80L78 77L75 76L73 70L69 67L64 65L42 66L42 60L48 61L54 59L64 59L67 57L68 54L71 54L71 52L76 53L78 49L80 50L80 52L82 52L83 44L85 44L89 49L91 49L95 53L98 53L98 56L96 58L99 66L97 72L102 72L104 69L106 69L106 67ZM12 71L8 70L7 69L14 65L18 69L15 74L12 74ZM527 -24L522 -18L518 0L516 1L514 -2L512 -2L509 2L509 10L507 12L507 17L506 19L502 19L501 25L496 32L497 34L492 35L490 43L484 48L475 67L472 70L470 70L471 73L468 75L467 89L471 96L475 97L474 107L477 107L475 115L472 122L473 125L465 128L461 131L455 129L455 127L449 123L446 113L443 110L441 110L436 105L411 91L410 88L403 81L403 75L394 71L390 67L390 61L386 58L384 54L378 52L373 48L374 44L366 38L358 37L359 31L349 29L348 24L351 21L351 14L347 5L340 -2L341 -8L336 -12L337 -19L335 -20L334 -24Z" fill="rgb(217,156,137)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M192 274L190 264L182 255L182 248L189 248L203 242L206 236L218 233L217 231L219 229L223 230L231 227L235 230L235 234L240 235L237 250L241 258L241 263L237 270L229 268L229 273L224 274L219 269L215 268L213 270L214 277L207 283L203 282L199 273L193 274Z" fill="rgb(213,166,163)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M191 247L188 248L182 248L180 246L186 243L186 233L194 227L202 233L204 238L203 242L192 247Z" fill="rgb(230,192,188)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M588 278L586 278L586 275L590 273L589 276ZM583 250L585 250L584 256L579 251L580 245L582 245L583 247ZM574 245L575 253L581 258L581 260L584 261L584 266L581 270L584 280L582 283L576 277L577 268L579 265L569 256L567 245L569 245L575 226L582 221L583 216L589 214L584 227L580 229L579 238L577 242ZM586 232L589 233L588 240L586 240L586 234Z" fill="rgb(208,183,198)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M150 125L151 128L145 127L145 119L147 113L144 110L144 107L142 106L142 103L144 101L135 101L133 99L132 92L127 93L130 85L137 88L137 91L139 94L147 96L151 101L154 116ZM28 68L18 69L16 68L18 64L25 62L27 64Z" fill="rgb(176,173,160)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M642 328L642 337L639 336L639 328ZM226 217L233 219L222 226L223 219ZM144 181L145 192L142 195L140 194L136 186L137 183L134 182L134 178L129 173L130 169L134 169L137 166L137 155L143 157L137 152L138 149L142 149L141 151L143 153L148 153L150 155L149 160L141 162L140 168L136 172L136 175L138 175ZM39 67L28 68L27 64L30 61L42 61L42 66Z" fill="rgb(165,173,190)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-congo-free-state-14" fill="rgb(164,186,230)" stroke="none"/>
+       <use href="#hl-congo-free-state-14" fill="url(#hatch-congo-free-state)" stroke="none"/>
+       <use href="#hl-congo-free-state-14" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-congo-free-state-14" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-congo-free-state" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="339.1" y="135.2" class="lbl hl">벨기에령 콩고</text><text x="216.2" y="253.2" class="lbl">룬다 왕국</text><text x="80.1" y="63.4" class="lbl">베냉 왕국</text><text x="571.2" y="248.6" class="lbl">잔지바르 인민공화국</text>
+  <g transform="translate(339.1 177.2)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-congo-free-state)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-congo-free-state)"/>
+  <rect width="640" height="360" fill="url(#vignette-congo-free-state)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">정복</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">콩고 자유국의 수립</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1885년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

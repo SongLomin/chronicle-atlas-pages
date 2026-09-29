@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="고전기 마야의 쇠퇴">
+<defs>
+  <clipPath id="frame-maya-collapse"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-maya-collapse" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-maya-collapse" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-maya-collapse" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="132" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-maya-collapse" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-maya-collapse"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-maya-collapse" d="M-24 -24L-24 313L-12 321L8 323L25 331L39 334L42 333L49 333L60 327L81 321L85 317L93 312L108 312L107 310L102 310L105 308L103 309L96 309L97 306L100 306L105 302L108 306L107 309L112 305L116 306L115 308L110 312L123 312L140 320L130 313L125 312L128 314L127 314L121 311L123 307L128 311L134 311L136 314L143 316L145 319L141 319L171 341L179 350L188 354L189 358L188 355L185 355L214 384L570 384L567 371L565 371L565 372L562 369L566 365L567 369L566 368L566 370L567 369L571 362L574 362L567 359L562 350L551 345L550 346L554 349L558 349L560 352L556 355L555 353L554 354L555 352L557 353L558 350L554 349L548 353L546 348L538 344L546 350L541 351L542 348L539 349L537 346L537 347L535 346L534 339L531 341L530 339L534 339L535 341L535 339L537 340L539 339L543 343L550 345L543 341L527 328L513 326L521 328L514 328L512 329L512 325L499 320L496 320L489 325L479 325L471 323L471 321L458 319L463 321L461 322L452 325L444 329L428 328L422 330L405 326L400 329L394 324L395 323L394 325L390 323L381 325L381 327L377 329L373 333L355 321L359 326L356 326L354 332L349 327L342 324L342 321L349 313L349 310L353 308L356 308L356 310L357 309L366 292L365 298L367 288L369 286L367 283L370 280L367 271L367 264L369 258L372 257L367 253L375 232L375 222L373 223L375 220L368 221L364 223L366 220L363 221L367 217L373 207L371 208L371 205L369 207L373 204L374 205L377 199L379 207L376 215L381 218L383 224L384 222L383 227L384 226L385 228L389 209L392 204L397 184L400 180L398 182L399 180L396 181L393 185L391 184L392 181L394 177L397 175L396 177L397 177L400 175L402 170L401 167L401 169L398 169L402 169L401 171L396 170L392 173L392 170L390 169L389 166L392 165L392 167L396 160L398 160L401 156L400 153L401 155L400 161L401 156L400 149L402 142L409 131L416 125L424 115L426 108L427 107L429 102L427 102L426 100L426 90L422 90L417 83L414 82L402 86L403 87L405 85L409 86L413 85L413 88L409 90L394 87L388 87L384 85L391 86L380 83L374 82L369 84L375 84L367 85L361 84L355 86L351 89L334 93L307 97L286 107L281 118L285 110L280 121L279 129L280 155L271 162L268 181L261 187L239 202L242 201L249 196L242 202L248 205L247 210L252 209L239 215L237 216L239 215L239 218L227 216L228 218L226 217L226 220L224 218L226 216L223 214L223 212L220 211L223 215L217 213L217 211L221 210L222 211L224 211L221 207L203 208L191 210L192 218L190 211L185 217L173 218L175 220L174 222L174 220L172 220L173 218L157 218L145 223L156 219L155 222L149 222L148 225L144 225L144 223L120 230L116 228L107 215L98 212L91 206L75 206L69 202L70 204L76 207L68 205L65 206L64 204L67 205L60 200L69 204L69 202L63 199L60 192L56 191L54 184L47 180L41 157L32 145L13 124L-1 92L-1 88L-4 88L-8 82L-12 62L-6 75L4 86L3 89L0 90L2 97L6 85L-6 73L-12 62L-15 43L-15 37L-15 40L-17 40L-16 34L-15 34L-11 26L-11 29L-12 11L-10 -10L-11 -11L-12 -6L-12 -11L-14 -12L-10 -13L-10 -24ZM225 209L231 207L230 208L231 208L234 205L238 205L237 203L225 209ZM308 43L311 43L313 45L311 49L313 50L314 44L310 41L308 43ZM372 250L376 247L372 250ZM374 257L376 259L374 257ZM376 251L377 255L376 251ZM378 240L381 239L385 229L383 230L381 238L378 240ZM381 266L387 256L386 255L386 259L382 260L381 266ZM385 262L387 266L385 262ZM404 219L406 212L404 219ZM408 205L408 210L408 205ZM418 135L419 140L423 137L429 126L421 128L418 135ZM419 316L424 315L419 316ZM429 97L431 100L429 97ZM435 308L446 303L452 302L441 303L435 308ZM461 303L466 299L463 299L461 303ZM501 71L502 73L505 74L512 70L519 69L518 76L529 70L534 68L538 69L542 58L552 58L556 55L558 58L562 58L568 51L572 51L576 45L587 39L588 35L615 38L624 36L629 38L633 41L631 46L614 47L613 49L624 55L626 58L638 57L643 59L645 62L649 59L650 63L651 54L655 62L664 64L664 19L660 20L659 18L656 18L654 21L651 20L647 17L653 13L640 18L638 21L637 17L636 16L624 16L617 14L603 16L596 20L582 21L580 24L576 22L572 23L572 26L572 23L570 23L563 28L561 27L560 29L557 28L553 31L544 33L539 36L537 35L536 36L538 37L536 37L533 41L530 41L530 44L526 45L524 49L521 57L525 60L526 64L528 63L527 65L518 64L506 70L505 68L504 71L502 70L501 71ZM571 82L576 89L583 90L595 86L597 83L594 80L595 77L591 73L591 71L579 68L580 69L575 75L581 83L580 85L580 83L576 85L571 82ZM592 68L595 69L592 68ZM598 38L598 42L598 38ZM614 84L619 83L620 81L614 84ZM621 81L623 82L625 80L621 81ZM636 82L639 82L644 78L636 82Z"/>
+  <clipPath id="landclip-maya-collapse"><use href="#land-maya-collapse"/></clipPath>
+  <path id="hl-maya-collapse-1" d="M430 112L429 87L422 82L410 82L405 87L360 82L343 90L294 98L284 109L285 118L279 134L282 151L269 164L266 183L245 197L247 211L241 211L239 216L227 216L231 221L225 238L216 238L219 243L214 243L210 257L223 265L256 270L275 278L310 278L327 270L336 273L337 259L358 259L357 254L372 257L375 235L378 235L376 221L370 221L369 216L379 205L380 213L377 213L382 227L391 224L390 216L401 192L399 181L404 175L403 170L397 167L407 156L405 142L430 115Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-maya-collapse)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-maya-collapse)"/>
+  <use href="#land-maya-collapse" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-maya-collapse" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-maya-collapse" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-maya-collapse)"><path d="M64 211L67 211L67 197L49 175L47 164L30 137L24 134L13 137L14 142L5 142L9 151L8 164L16 175L15 183L26 197L31 213L64 213Z" fill="rgb(142,192,178)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-maya-collapse-1" fill="rgb(120,118,175)" stroke="none"/>
+       <use href="#hl-maya-collapse-1" fill="url(#hatch-maya-collapse)" stroke="none"/>
+       <use href="#hl-maya-collapse-1" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-maya-collapse-1" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-maya-collapse" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="327.9" y="128.5" class="lbl hl">후기 마야 도시국가들</text>
+  <g transform="translate(327.9 170.5)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-maya-collapse)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><rect x="30" y="80" width="40" height="8" fill="#ddd0ad" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 80 L36 44 L44 38 L50 46 L58 36 L64 42 L66 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M42 78 L43 48 M50 78 L50 50 M58 78 L58 46" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M70 70 L84 64 L88 74 L76 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/><path d="M14 82 L24 74 L30 82 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M26 30 L32 36 M74 28 L68 34 M50 18 L50 26" stroke="#8f2a17" stroke-width="3" stroke-linecap="round"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-maya-collapse)"/>
+  <rect width="640" height="360" fill="url(#vignette-maya-collapse)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><rect x="30" y="80" width="40" height="8" fill="#ddd0ad" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 80 L36 44 L44 38 L50 46 L58 36 L64 42 L66 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M42 78 L43 48 M50 78 L50 50 M58 78 L58 46" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M70 70 L84 64 L88 74 L76 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/><path d="M14 82 L24 74 L30 82 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M26 30 L32 36 M74 28 L68 34 M50 18 L50 26" stroke="#8f2a17" stroke-width="3" stroke-linecap="round"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">붕괴</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">고전기 마야의 쇠퇴</text>
+  </g>
+  <text x="320" y="284" class="year">서기 900년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

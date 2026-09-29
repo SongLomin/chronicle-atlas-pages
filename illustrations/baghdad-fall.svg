@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="바그다드 함락">
+<defs>
+  <clipPath id="frame-baghdad-fall"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-baghdad-fall" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-baghdad-fall" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-baghdad-fall" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="234" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-baghdad-fall" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-baghdad-fall"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-baghdad-fall" d="M-24 384L40 384L24 356L25 349L21 343L21 339L17 337L12 328L15 328L12 323L15 324L14 320L6 313L0 303L-4 301L-5 295L-10 289L-9 285L-11 277L-17 271L-13 263L-14 261L-11 260L-11 258L-11 264L-8 267L-8 275L-5 276L-3 281L4 289L5 301L14 309L19 317L32 325L31 323L36 318L36 308L41 296L44 279L50 271L51 273L45 298L46 302L40 315L41 317L43 313L46 314L46 315L47 314L47 315L52 314L56 316L55 317L62 325L72 344L77 349L90 372L94 374L95 381L99 384L597 384L600 377L602 377L600 374L602 372L599 372L599 370L600 369L602 371L601 369L603 368L600 367L603 366L600 364L598 369L601 369L595 368L589 382L589 380L584 384L475 384L477 383L476 383L477 382L477 378L472 376L471 372L468 371L461 376L461 381L459 381L459 384L440 384L440 383L442 384L439 375L436 375L435 371L437 369L440 374L442 370L441 365L437 361L436 354L440 356L435 351L428 348L425 343L425 341L423 341L424 343L420 342L421 341L419 340L418 336L416 337L417 334L414 334L418 333L417 331L406 329L407 327L405 326L406 322L406 325L407 322L404 319L405 317L401 316L399 306L397 306L397 303L394 299L395 296L389 288L387 278L384 277L381 279L381 277L377 278L384 271L389 272L385 264L383 256L384 259L388 257L395 261L399 260L397 259L400 260L401 257L407 258L409 254L407 248L411 246L409 244L413 243L417 245L416 248L412 247L408 247L415 252L416 251L417 254L423 254L424 258L434 253L438 253L440 261L453 275L453 284L458 284L460 287L459 290L457 288L457 290L463 296L464 302L469 310L469 313L472 319L479 322L488 322L493 326L499 328L505 333L502 335L503 336L514 343L525 347L526 351L532 355L547 355L549 358L559 361L571 352L578 353L582 347L589 346L593 342L599 341L611 342L613 344L612 346L615 346L614 348L616 351L618 363L621 370L620 373L624 381L635 382L636 384L664 384L664 -24L-24 -24L-24 59L-17 69L-5 74L4 71L14 71L16 69L17 71L22 65L24 68L32 56L44 49L60 58L65 56L64 55L67 56L69 52L67 54L67 53L69 52L66 53L67 51L72 50L77 45L81 49L82 53L71 65L76 74L73 80L71 80L73 83L70 88L75 93L76 100L73 109L76 121L72 123L68 128L67 138L66 140L63 141L60 153L54 165L56 166L53 166L53 173L50 174L44 200L38 211L26 222L16 225L10 224L3 228L2 223L-2 226L1 225L0 227L-2 226L-8 228L-2 224L-11 227L-18 221L-21 220L-19 221L-19 225L-24 226L-23 227L-24 218L-21 220L-24 218ZM-19 104L-14 115L-8 117L-3 117L-2 120L0 120L2 116L6 116L15 112L18 107L28 107L24 104L26 104L23 101L23 98L40 85L17 95L11 96L-2 94L-2 99L-4 101L-12 101L-15 105L-19 104ZM-2 224L2 222L6 222L2 222L-2 224ZM7 222L12 225L7 222ZM23 331L27 333L23 331ZM38 318L39 319L41 320L38 318ZM385 259L388 258L385 259ZM386 265L390 270L394 267L389 259L388 260L390 261L387 262L388 263L386 265ZM392 276L395 277L393 275L392 276ZM422 337L428 337L424 336L422 337ZM517 351L523 352L517 351ZM536 360L540 361L539 359L536 360ZM572 356L573 359L587 354L589 355L598 348L596 346L588 349L584 348L584 352L572 356Z"/>
+  <clipPath id="landclip-baghdad-fall"><use href="#land-baghdad-fall"/></clipPath>
+  <path id="hl-baghdad-fall-10" d="M306 80L305 88L293 94L287 112L280 116L277 124L273 124L267 132L263 132L254 142L245 146L240 162L246 164L249 170L260 174L294 211L293 215L299 219L298 225L302 223L318 244L322 244L336 259L347 265L348 271L353 269L356 276L362 274L371 280L374 271L387 259L400 261L400 259L395 255L395 250L392 246L386 246L387 232L378 228L380 215L384 207L374 194L374 190L367 184L358 182L351 172L339 170L337 156L323 140L319 140L324 128L321 126L321 118L325 118L329 106L325 104L322 110L316 110L313 106L312 94Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-baghdad-fall)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-baghdad-fall)"/>
+  <use href="#land-baghdad-fall" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-baghdad-fall" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-baghdad-fall" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-baghdad-fall)"><path d="M75 66L76 68L73 86L87 80L92 68L92 49L90 49L73 66Z" fill="rgb(157,173,184)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M71 126L71 128L67 126L67 130L77 132L83 124L82 118L84 118L85 110L81 108L84 100L76 100L75 110L78 114L73 126Z" fill="rgb(139,183,145)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M33 84L19 94L-3 94L-4 98L-12 102L-20 102L-20 108L-17 114L1 120L3 116L13 114L17 108L28 106L24 98L39 88L39 84L35 84Z" fill="rgb(218,195,203)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M56 199L65 162L71 158L72 142L66 140L66 142L62 140L64 148L60 148L61 156L56 166L52 168L51 180L45 188L46 199L40 203L40 205L49 207L56 201Z" fill="rgb(198,159,165)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M396 297L396 301L400 303L399 308L410 319L407 327L417 329L420 338L440 353L439 358L443 362L442 371L438 373L442 375L444 384L460 384L461 377L465 371L473 371L480 379L479 384L581 384L583 382L586 384L437 384L428 379L433 362L417 347L417 344L412 338L399 333L398 318L397 314L391 312L390 303L386 303L388 299L383 295L382 286L371 282L374 271L387 259L386 261L394 261L395 271L381 272L381 276L387 276L390 280L390 286L397 295Z" fill="rgb(220,184,132)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-24 -24L-24 39L-19 39L-10 45L6 45L17 39L33 37L40 28L48 28L52 24L53 18L44 8L40 -3L24 -18L24 -22L19 -24Z" fill="rgb(160,172,184)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M117 14L124 5L96 5L66 -1L57 16L53 18L52 24L48 28L40 28L33 37L17 39L6 45L-10 45L-19 39L-24 39L-24 56L-13 68L-12 74L25 66L32 53L40 47L48 47L50 53L54 51L59 55L63 55L72 45L80 45L84 53L96 45L102 31L110 24L115 14Z" fill="rgb(139,198,197)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M193 132L201 134L203 138L210 140L212 144L240 160L245 146L254 142L263 132L267 132L273 124L277 124L280 116L287 112L293 94L305 88L307 76L301 74L297 70L298 66L292 62L291 53L276 43L270 43L267 39L268 33L250 33L227 55L229 60L222 64L219 72L203 72L199 80L195 98L193 98L193 116L195 116L194 124L190 128L191 132Z" fill="rgb(194,200,143)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 -24L664 384L634 384L633 382L626 382L619 373L617 351L609 342L595 342L593 346L598 346L598 349L592 355L580 357L576 360L572 360L572 355L578 353L571 353L560 362L551 360L545 355L530 355L525 347L506 340L500 329L489 323L477 323L470 318L470 314L463 305L463 295L457 293L460 286L452 284L453 276L442 267L438 253L425 259L409 250L410 257L400 259L395 255L395 250L392 246L386 246L387 232L378 228L380 215L384 207L374 194L374 190L367 184L358 182L351 172L339 170L337 156L323 140L319 140L324 128L321 126L321 118L325 118L329 106L325 104L322 110L316 110L313 106L312 94L306 80L307 76L301 74L297 70L298 66L292 62L291 53L276 43L270 43L267 39L268 33L250 33L227 55L208 51L204 47L203 39L190 43L165 39L160 10L151 -3L133 -3L124 5L96 5L66 -1L57 16L53 18L44 8L40 -3L24 -18L24 -22L19 -24ZM406 -24L404 -1L406 -1L407 20L413 26L436 31L444 43L451 41L452 43L450 47L457 51L478 57L492 57L515 49L540 47L541 37L537 28L536 16L534 16L538 -22L537 -24Z" fill="rgb(197,176,138)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M124 5L117 14L115 14L110 24L102 31L96 45L92 49L92 68L87 80L73 86L73 88L76 90L74 100L84 100L81 108L85 110L84 118L82 118L83 124L77 132L67 130L67 132L69 132L68 138L64 140L72 142L71 158L65 162L56 201L49 207L40 205L42 209L33 217L33 221L19 227L-5 228L-6 225L-12 227L-16 223L-20 223L-18 227L-24 227L-24 384L42 384L41 381L37 379L30 360L27 358L27 347L23 346L20 334L15 329L15 318L2 306L-5 291L-8 289L-10 278L-15 271L-13 261L-4 282L5 291L4 303L10 308L14 308L15 314L28 325L34 325L34 319L39 316L45 280L49 276L47 301L41 310L40 316L52 314L61 321L63 329L67 331L68 338L81 353L88 370L95 375L96 384L182 384L182 373L178 375L180 368L176 368L177 362L175 362L177 357L173 357L169 331L167 331L170 323L166 323L162 318L163 310L161 310L163 305L160 301L158 276L154 269L155 261L153 261L154 251L150 244L151 236L149 236L152 228L148 227L148 219L146 219L150 199L146 199L147 190L145 190L147 170L166 146L191 134L190 128L194 124L195 116L193 116L193 98L195 98L199 80L203 72L219 72L222 64L229 60L227 55L208 51L204 47L203 39L190 43L165 39L160 10L151 -3L133 -3Z" fill="rgb(224,206,157)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-baghdad-fall-10" fill="rgb(89,136,102)" stroke="none"/>
+       <use href="#hl-baghdad-fall-10" fill="url(#hatch-baghdad-fall)" stroke="none"/>
+       <use href="#hl-baghdad-fall-10" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-baghdad-fall-10" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-baghdad-fall" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="332.3" y="162.2" class="lbl hl">아바스 왕조</text><text x="248.2" y="93.7" class="lbl">장기 왕조</text><text x="49.8" y="196.8" class="lbl">예루살렘 왕국</text><text x="85.0" y="64.0" class="lbl">안티오키아 공국</text><text x="77.0" y="125.1" class="lbl">트리폴리 백국</text>
+  <g transform="translate(332.3 204.2)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-baghdad-fall)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><rect x="30" y="80" width="40" height="8" fill="#ddd0ad" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 80 L36 44 L44 38 L50 46 L58 36 L64 42 L66 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M42 78 L43 48 M50 78 L50 50 M58 78 L58 46" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M70 70 L84 64 L88 74 L76 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/><path d="M14 82 L24 74 L30 82 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M26 30 L32 36 M74 28 L68 34 M50 18 L50 26" stroke="#8f2a17" stroke-width="3" stroke-linecap="round"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-baghdad-fall)"/>
+  <rect width="640" height="360" fill="url(#vignette-baghdad-fall)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><rect x="30" y="80" width="40" height="8" fill="#ddd0ad" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 80 L36 44 L44 38 L50 46 L58 36 L64 42 L66 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M42 78 L43 48 M50 78 L50 50 M58 78 L58 46" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M70 70 L84 64 L88 74 L76 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/><path d="M14 82 L24 74 L30 82 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M26 30 L32 36 M74 28 L68 34 M50 18 L50 26" stroke="#8f2a17" stroke-width="3" stroke-linecap="round"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">붕괴</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">바그다드 함락</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1258년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>
