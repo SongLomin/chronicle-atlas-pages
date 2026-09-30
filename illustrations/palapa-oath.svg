@@ -31,7 +31,7 @@
        <use href="#hl-palapa-oath-7" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-palapa-oath-7" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-palapa-oath" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
-  <text x="260.1" y="139.3" class="lbl hl">마자파힛 제국</text><text x="235.5" y="52.3" class="lbl">말라야 연방</text><text x="330.3" y="247.1" class="lbl">순다 왕국</text><text x="264.5" y="104.4" class="lbl">싱가푸라 왕국</text>
+  <text x="260.1" y="139.3" class="lbl hl">마자파힛 제국</text><text x="235.5" y="52.3" class="lbl">말라유 (다르마스라야)</text><text x="330.3" y="247.1" class="lbl">순다 왕국</text><text x="264.5" y="104.4" class="lbl">싱가푸라 왕국</text>
   <g transform="translate(260.1 181.3)">
     <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
     <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-palapa-oath)"/>
