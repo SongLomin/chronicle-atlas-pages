@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="카자흐스탄의 독립">
+<defs>
+  <clipPath id="frame-kazakhstan-independence"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-kazakhstan-independence" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-kazakhstan-independence" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-kazakhstan-independence" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="199" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-kazakhstan-independence" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-kazakhstan-independence"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-kazakhstan-independence" d="M-24 -24L-24 384L664 384L664 -24Z"/>
+  <clipPath id="landclip-kazakhstan-independence"><use href="#land-kazakhstan-independence"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-kazakhstan-independence)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-kazakhstan-independence)"/>
+  <use href="#land-kazakhstan-independence" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-kazakhstan-independence" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-kazakhstan-independence" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-kazakhstan-independence)"><path d="M274 384L273 383L274 378L277 376L271 373L272 369L270 368L271 363L274 361L285 361L299 366L312 362L323 353L322 345L337 347L341 357L339 362L348 364L354 369L351 373L350 382L351 384Z" fill="rgb(209,185,202)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M211 384L211 382L207 379L208 374L220 377L227 371L226 367L224 366L225 363L232 357L235 349L234 349L235 345L232 344L233 341L228 336L230 330L240 326L246 320L274 318L281 314L294 316L295 320L301 321L304 325L304 335L306 338L314 338L316 343L322 345L323 353L312 362L299 366L285 361L274 361L271 363L270 368L272 369L271 373L277 376L274 378L273 383L274 384Z" fill="rgb(196,163,173)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 384L351 384L350 382L351 373L354 369L348 364L339 362L341 357L337 347L322 345L316 343L314 338L306 338L304 335L304 325L301 321L295 320L294 316L281 314L282 312L287 310L289 306L288 306L289 303L286 297L286 292L285 292L286 287L280 281L275 281L272 284L269 281L269 275L266 271L268 264L271 263L271 254L280 250L287 243L292 245L296 241L299 241L299 246L301 248L309 246L312 245L319 232L337 231L349 220L372 210L374 193L377 192L377 187L379 187L382 183L380 180L381 177L375 167L375 157L374 157L376 151L369 148L368 145L392 137L398 137L400 140L410 140L413 136L407 131L418 93L424 93L423 94L426 94L428 98L433 98L432 99L452 99L461 93L462 90L459 87L460 83L457 79L460 66L476 59L479 55L477 53L480 46L495 46L494 53L497 53L499 61L503 61L504 64L508 66L509 69L511 69L511 71L513 71L515 74L524 74L526 77L533 79L547 105L545 118L547 118L540 133L543 137L545 137L547 140L560 142L559 143L589 145L588 146L592 146L594 151L602 154L602 155L605 155L604 157L607 157L608 160L617 161L617 165L620 167L624 174L624 181L625 184L628 184L628 187L631 187L633 193L635 193L637 196L655 194L655 196L663 196L662 197L664 197Z" fill="rgb(224,160,136)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-24 384L60 384L55 382L56 371L60 368L59 364L63 361L68 340L66 338L67 332L66 332L65 323L53 323L45 313L37 310L33 304L21 303L13 297L6 297L1 291L-9 289L-13 293L-24 294Z" fill="rgb(183,198,144)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M282 312L287 310L285 308L274 308L270 310L268 306L262 306L244 318L233 321L231 316L233 299L228 297L230 291L227 287L219 287L211 295L210 299L212 303L209 305L200 304L197 313L194 313L192 309L188 309L178 316L174 316L171 310L161 310L159 308L152 309L138 305L136 310L124 313L122 325L116 332L97 339L97 344L94 348L84 352L82 348L76 348L67 344L63 361L59 364L60 368L56 371L55 382L60 384L211 384L211 382L207 379L208 374L220 377L227 371L226 367L224 366L225 363L232 357L235 349L234 349L235 345L232 344L233 341L228 336L230 330L240 326L246 320L274 318L281 314Z" fill="rgb(227,196,154)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M32 136L33 137L31 137L31 136ZM29 134L31 134L31 136L28 136ZM28 133L29 134L26 134L26 133ZM43 127L43 130L41 130L42 127ZM59 152L55 154L55 152L56 152ZM49 118L43 121L45 118L46 118ZM43 114L44 114L43 119L42 119L42 114ZM62 118L58 118L58 113L59 113ZM49 111L50 111L50 113L47 113L48 111ZM53 113L53 111L54 111L58 111ZM52 110L53 110L53 111L50 111L51 110ZM65 110L66 107L67 107L66 114L64 114L65 111L60 110L63 108ZM-24 -24L664 -24L664 -17L657 -4L659 -4L658 5L659 5L659 8L662 8L664 17L662 22L651 30L644 30L642 27L634 27L635 25L609 25L610 23L602 20L602 17L599 17L597 10L581 10L582 8L577 7L578 5L571 7L572 5L567 3L538 20L534 20L525 27L524 32L522 33L514 37L504 37L495 46L480 46L477 53L479 55L476 59L460 66L457 79L460 83L459 87L462 90L461 93L452 99L432 99L433 98L428 98L426 94L423 94L424 93L418 93L407 131L413 136L410 140L400 140L398 137L392 137L368 145L369 148L376 151L374 157L375 157L375 167L381 177L380 180L382 183L379 187L377 187L377 192L374 193L372 210L349 220L337 231L319 232L312 245L309 246L301 248L299 246L299 241L296 241L292 245L287 243L280 250L271 254L271 263L268 264L266 271L269 275L269 281L272 284L275 281L280 281L286 287L285 292L286 292L286 297L289 303L288 306L289 306L287 310L285 308L274 308L270 310L268 306L262 306L244 318L233 321L231 316L233 299L228 297L230 291L227 287L219 287L211 295L210 299L212 303L209 305L200 304L197 313L194 313L192 309L188 309L178 316L174 316L171 310L161 310L159 308L152 309L138 305L136 310L124 313L122 325L116 332L97 339L97 344L94 348L84 352L82 348L76 348L67 344L68 340L66 338L67 332L66 332L65 323L53 323L45 313L37 310L33 304L21 303L13 297L6 297L1 291L-9 289L-13 293L-24 294ZM276 136L274 134L278 122L285 121L287 113L294 111L296 108L327 110L327 111L334 113L334 114L344 114L353 113L354 107L357 107L358 102L348 101L339 107L336 104L317 105L317 104L310 104L310 101L282 101L279 105L272 110L270 114L266 114L265 121L268 119L267 124L264 122L262 133L268 137L271 145L274 143ZM313 203L326 209L338 207L346 199L348 194L313 197ZM32 173L32 180L48 179L55 173L56 165L59 164L63 152L72 146L74 136L68 134L68 128L67 128L68 122L67 122L74 101L66 99L66 102L63 104L62 99L56 99L55 102L48 102L44 111L38 113L35 121L24 122L22 134L15 148L13 170L17 173Z" fill="rgb(165,180,142)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 -17L657 -4L659 -4L658 5L659 5L659 8L662 8L664 17L662 22L651 30L644 30L642 27L634 27L635 25L609 25L610 23L602 20L602 17L599 17L597 10L581 10L582 8L577 7L578 5L571 7L572 5L567 3L538 20L534 20L525 27L524 32L522 33L514 37L504 37L495 46L494 53L497 53L499 61L503 61L504 64L508 66L509 69L511 69L511 71L513 71L515 74L524 74L526 77L533 79L547 105L545 118L547 118L540 133L543 137L545 137L547 140L560 142L559 143L589 145L588 146L592 146L594 151L602 154L602 155L605 155L604 157L607 157L608 160L617 161L617 165L620 167L624 174L624 181L625 184L628 184L628 187L631 187L633 193L635 193L637 196L655 194L655 196L663 196L662 197L664 197Z" fill="rgb(224,194,199)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-kazakhstan-independence" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  
+  <g transform="translate(320.0 183.7)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-kazakhstan-independence)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M30 90 L30 14" stroke="#3b2412" stroke-width="4" stroke-linecap="round"/>
+    <path d="M32 16 C46 10 56 22 70 16 C76 14 80 14 84 16 L84 50 C74 46 66 54 54 52 C44 50 40 44 32 48 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M44 28 L50 38 L60 26" fill="none" stroke="#f3e6c4" stroke-width="3"/>
+    <circle cx="30" cy="12" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-kazakhstan-independence)"/>
+  <rect width="640" height="360" fill="url(#vignette-kazakhstan-independence)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M30 90 L30 14" stroke="#3b2412" stroke-width="4" stroke-linecap="round"/>
+    <path d="M32 16 C46 10 56 22 70 16 C76 14 80 14 84 16 L84 50 C74 46 66 54 54 52 C44 50 40 44 32 48 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M44 28 L50 38 L60 26" fill="none" stroke="#f3e6c4" stroke-width="3"/>
+    <circle cx="30" cy="12" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">분리 독립</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">카자흐스탄의 독립</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1991년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

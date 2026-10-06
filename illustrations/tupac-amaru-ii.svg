@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="투팍 아마루 2세의 봉기">
+<defs>
+  <clipPath id="frame-tupac-amaru-ii"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-tupac-amaru-ii" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-tupac-amaru-ii" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-tupac-amaru-ii" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="244" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-tupac-amaru-ii" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-tupac-amaru-ii"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-tupac-amaru-ii" d="M120 -24L118 -15L124 -7L121 -3L127 2L128 6L126 11L124 9L122 11L122 15L147 30L155 42L158 51L169 62L170 67L173 71L173 74L178 82L177 83L178 85L179 83L179 85L181 87L182 93L185 97L186 104L197 122L199 127L197 130L207 137L208 147L216 154L216 156L228 175L229 179L228 186L225 185L225 187L227 187L227 193L230 194L235 204L244 210L254 222L275 233L283 240L289 241L302 248L310 250L317 257L330 263L332 266L333 272L343 278L356 289L355 297L360 325L358 344L360 347L359 348L361 358L357 384L664 384L664 -24Z"/>
+  <clipPath id="landclip-tupac-amaru-ii"><use href="#land-tupac-amaru-ii"/></clipPath>
+  <path id="hl-tupac-amaru-ii-1" d="M360 -24L359 -22L355 -24L342 -24L333 -19L319 -18L298 -2L298 3L293 10L292 26L281 34L281 41L499 42L499 49L502 56L497 60L497 69L491 77L477 80L470 91L467 91L465 89L461 90L460 97L463 101L459 110L461 132L465 141L468 142L468 145L474 146L481 155L489 158L499 156L502 161L509 161L514 166L529 171L534 175L533 178L539 181L554 179L562 182L566 188L572 189L581 211L592 214L595 218L607 222L617 231L628 235L633 250L636 251L636 264L640 274L639 283L641 283L637 301L630 309L623 324L618 327L617 336L624 349L621 373L635 378L648 378L650 375L656 375L664 379L664 384L355 384L359 357L357 357L358 351L356 351L356 339L355 339L357 321L355 321L356 315L354 315L353 301L352 301L353 289L350 289L341 280L334 277L330 268L327 267L328 264L318 261L310 253L297 250L293 245L276 239L269 232L260 229L259 227L250 224L244 215L231 205L229 198L223 193L224 185L226 185L225 176L219 169L217 161L214 159L213 154L205 148L205 138L194 131L195 124L182 103L182 98L171 79L169 67L156 52L153 42L150 41L147 34L130 21L118 17L118 12L125 10L125 6L119 -1L119 -9L116 -11L115 -20L117 -24Z"/><path id="hl-tupac-amaru-ii-2" d="M360 -24L359 -22L355 -24L342 -24L333 -19L319 -18L298 -2L298 3L293 10L292 26L281 34L281 41L499 42L499 49L502 56L497 60L497 69L491 77L477 80L470 91L467 91L465 89L461 90L460 97L463 101L459 110L461 132L465 141L468 142L468 145L474 146L481 155L489 158L499 156L502 161L509 161L514 166L529 171L534 175L533 178L539 181L554 179L562 182L566 188L572 189L581 211L592 214L595 218L607 222L617 231L628 235L633 250L636 251L636 264L640 274L639 283L641 283L637 301L630 309L623 324L618 327L617 336L624 349L621 373L635 378L648 378L650 375L656 375L664 379L664 384L355 384L359 357L357 357L358 351L356 351L356 339L355 339L357 321L355 321L356 315L354 315L353 301L352 301L353 289L350 289L341 280L334 277L330 268L327 267L328 264L318 261L310 253L297 250L293 245L276 239L269 232L260 229L259 227L250 224L244 215L231 205L229 198L223 193L224 185L226 185L225 176L219 169L217 161L214 159L213 154L205 148L205 138L194 131L195 124L182 103L182 98L171 79L169 67L156 52L153 42L150 41L147 34L130 21L118 17L118 12L125 10L125 6L119 -1L119 -9L116 -11L115 -20L117 -24Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-tupac-amaru-ii)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-tupac-amaru-ii)"/>
+  <use href="#land-tupac-amaru-ii" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-tupac-amaru-ii" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-tupac-amaru-ii" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-tupac-amaru-ii)"><path d="M664 -24L664 379L656 375L650 375L648 378L635 378L621 373L624 349L617 336L618 327L623 324L630 309L637 301L641 283L639 283L640 274L636 264L636 251L633 250L628 235L617 231L607 222L595 218L592 214L581 211L572 189L566 188L562 182L554 179L539 181L533 178L534 175L529 171L514 166L509 161L502 161L499 156L489 158L481 155L474 146L468 145L468 142L465 141L461 132L459 110L463 101L460 97L461 90L465 89L467 91L470 91L477 80L491 77L497 69L497 60L502 56L499 49L499 42L281 41L281 34L292 26L293 10L298 3L298 -2L319 -18L333 -19L342 -24L355 -24L359 -22L360 -24Z" fill="rgb(165,190,146)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-tupac-amaru-ii-1" fill="rgb(222,189,89)" stroke="none"/>
+       <use href="#hl-tupac-amaru-ii-1" fill="url(#hatch-tupac-amaru-ii)" stroke="none"/>
+       <use href="#hl-tupac-amaru-ii-1" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-tupac-amaru-ii-1" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/><use href="#hl-tupac-amaru-ii-2" fill="rgb(222,189,89)" stroke="none"/>
+       <use href="#hl-tupac-amaru-ii-2" fill="url(#hatch-tupac-amaru-ii)" stroke="none"/>
+       <use href="#hl-tupac-amaru-ii-2" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-tupac-amaru-ii-2" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-tupac-amaru-ii" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  
+  <g transform="translate(320.0 179.1)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-tupac-amaru-ii)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M44 90 L40 50 L60 50 L56 90 Z" fill="#8a5a2b" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="36" y="44" width="28" height="8" rx="2" fill="#c9b37e" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M50 42 C34 36 38 20 46 10 C46 20 54 22 56 16 C66 26 66 38 50 42 Z" fill="#f08a3a" stroke="#3b2412" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M50 40 C44 34 46 28 50 22 C52 30 58 32 50 40 Z" fill="#f6d05a"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-tupac-amaru-ii)"/>
+  <rect width="640" height="360" fill="url(#vignette-tupac-amaru-ii)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M44 90 L40 50 L60 50 L56 90 Z" fill="#8a5a2b" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="36" y="44" width="28" height="8" rx="2" fill="#c9b37e" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M50 42 C34 36 38 20 46 10 C46 20 54 22 56 16 C66 26 66 38 50 42 Z" fill="#f08a3a" stroke="#3b2412" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M50 40 C44 34 46 28 50 22 C52 30 58 32 50 40 Z" fill="#f6d05a"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">혁명</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">투팍 아마루 2세의 봉기</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1780년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

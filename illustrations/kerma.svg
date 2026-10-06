@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="케르마 왕국">
+<defs>
+  <clipPath id="frame-kerma"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-kerma" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-kerma" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-kerma" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="61" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-kerma" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-kerma"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-kerma" d="M-24 -24L-24 384L664 384L664 371L655 375L641 371L624 380L612 381L601 372L593 363L593 360L589 358L586 355L574 357L573 356L576 356L579 352L584 351L592 345L590 336L585 329L583 327L582 330L579 328L578 325L573 320L570 320L568 313L565 311L562 307L556 305L545 290L537 289L535 284L531 282L527 284L524 283L521 277L522 275L518 271L516 274L517 278L517 280L515 280L512 271L509 271L509 265L506 262L498 230L491 217L488 219L491 215L487 212L483 212L485 210L482 211L480 209L481 208L477 204L474 203L472 200L469 201L467 198L463 182L461 165L463 160L460 146L463 147L463 150L464 149L455 136L454 128L456 126L446 120L442 113L434 111L431 107L426 94L426 84L427 83L433 85L426 80L419 71L406 43L394 21L395 15L392 10L392 7L385 -2L387 -2L384 -7L387 -6L386 -8L372 -24L380 -24L390 -11L400 -4L400 -6L404 -10L404 -18L406 -24L412 -24L407 -13L408 -12L410 -14L412 -12L417 -14L420 -12L419 -11L438 15L448 34L451 36L452 41L456 44L463 55L463 62L461 63L467 72L467 74L476 79L478 78L477 79L488 87L495 102L495 105L500 110L501 119L503 119L500 128L498 128L502 133L503 141L501 143L503 148L515 165L519 167L518 166L522 166L532 173L534 178L536 177L536 181L540 183L543 192L545 193L546 201L551 206L552 212L558 220L569 229L570 238L570 235L577 245L580 258L579 263L577 267L579 276L579 278L577 274L575 278L580 279L582 283L582 286L581 285L584 294L582 293L589 310L588 319L593 329L593 332L596 330L603 334L613 332L617 329L623 331L622 329L625 328L625 330L626 330L628 326L633 324L639 318L664 314L664 -24ZM393 0L396 2L393 0ZM447 44L451 46L448 44L448 43L447 44ZM448 41L449 43L449 39L448 41ZM451 47L455 49L451 47ZM453 48L456 51L457 50L453 48ZM519 266L522 268L519 267L520 269L529 270L527 267L524 268L523 265L521 263L519 263L521 264L519 266ZM520 260L523 261L523 259L522 258L520 260ZM557 241L560 245L564 245L566 248L564 243L561 244L557 241ZM559 241L562 244L561 239L559 239L561 240L559 241ZM574 276L575 275L575 272L574 276ZM577 303L579 305L578 302L577 303Z"/>
+  <clipPath id="landclip-kerma"><use href="#land-kerma"/></clipPath>
+  <path id="hl-kerma-1" d="M302 179L304 193L310 200L316 201L323 199L335 189L345 174L349 161L349 143L343 130L338 127L328 125L322 127L317 132L312 139L305 153L302 173Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-kerma)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-kerma)"/>
+  <use href="#land-kerma" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-kerma" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-kerma" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-kerma)"><path d="M321 -24L327 7L345 26L350 37L365 39L361 43L358 52L367 59L369 66L369 82L377 82L376 58L372 55L368 48L373 39L372 32L357 27L343 13L340 7L332 3L331 -12L333 -24Z" fill="rgb(224,206,157)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-kerma-1" fill="rgb(117,116,171)" stroke="none"/>
+       <use href="#hl-kerma-1" fill="url(#hatch-kerma)" stroke="none"/>
+       <use href="#hl-kerma-1" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-kerma-1" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-kerma" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="320.0" y="139.4" class="lbl hl">케르마 왕국</text>
+  <g transform="translate(320.0 181.4)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-kerma)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-kerma)"/>
+  <rect width="640" height="360" fill="url(#vignette-kerma)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">건국</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">케르마 왕국</text>
+  </g>
+  <text x="320" y="284" class="year">기원전 2500년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

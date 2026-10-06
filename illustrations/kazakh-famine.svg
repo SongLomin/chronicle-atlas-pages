@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="카자흐 대기근">
+<defs>
+  <clipPath id="frame-kazakh-famine"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-kazakh-famine" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-kazakh-famine" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-kazakh-famine" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="139" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-kazakh-famine" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-kazakh-famine"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-kazakh-famine" d="M-24 -24L-24 384L664 384L664 -24ZM18 271L22 270L18 271ZM22 236L24 240L22 236ZM49 220L50 223L49 220ZM53 250L56 253L54 250L55 247L53 250ZM57 249L58 250L58 247L57 249ZM91 239L93 240L93 238L91 239Z"/>
+  <clipPath id="landclip-kazakh-famine"><use href="#land-kazakh-famine"/></clipPath>
+  <path id="hl-kazakh-famine-3" d="M9 252L4 255L3 260L9 263L14 270L14 278L16 282L14 290L19 294L19 299L23 303L23 306L40 325L39 327L42 330L42 333L46 338L54 339L57 341L49 343L44 348L42 361L41 365L37 365L36 369L35 379L29 377L25 372L25 370L27 369L27 364L29 360L26 356L16 358L4 370L-8 371L-20 364L-24 356L-24 -24L664 -24L664 129L653 135L649 135L641 141L640 146L638 147L631 150L621 150L613 159L600 159L596 165L598 167L596 171L581 177L579 189L581 193L580 196L583 199L582 202L574 208L556 208L556 206L551 206L550 203L547 203L548 202L543 202L532 237L538 241L536 245L526 245L524 243L518 243L497 250L497 252L504 255L502 260L503 260L503 270L509 279L508 282L510 285L507 289L505 289L505 292L502 294L500 309L480 318L469 329L452 330L445 341L443 343L435 344L433 343L433 338L431 338L426 341L422 340L416 346L408 350L407 358L405 359L403 365L406 369L405 375L408 377L411 375L416 375L422 380L421 384L370 384L367 380L360 380L356 384L160 384L151 382L149 384L111 384L112 369L105 361L100 360L106 359L105 349L95 349L94 343L93 343L96 333L97 333L97 335L103 335L104 333L104 336L118 335L118 333L122 330L123 325L114 318L111 307L101 307L95 312L95 320L94 320L90 309L93 303L95 294L89 291L82 291L80 285L75 286L73 283L73 275L69 271L69 269L66 264L56 260L57 258L59 256L66 259L74 259L75 255L68 252L69 248L75 241L81 241L84 244L111 244L110 250L117 250L117 237L111 237L108 241L104 241L99 237L99 230L101 229L103 220L102 220L101 209L99 206L81 208L80 205L77 203L66 203L58 208L53 213L43 216L39 223L33 225L32 229L29 229L25 233L17 233L16 236L17 236L16 241L14 240L13 244L10 247Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-kazakh-famine)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-kazakh-famine)"/>
+  <use href="#land-kazakh-famine" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-kazakh-famine" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-kazakh-famine" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-kazakh-famine)"><path d="M35 379L29 377L25 372L25 370L27 369L27 364L29 360L26 356L16 358L4 370L-8 371L-20 364L-24 356L-24 384L160 384L151 382L149 384L35 384L35 380Z" fill="rgb(219,196,205)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 129L653 135L649 135L641 141L640 146L638 147L631 150L621 150L613 159L612 165L615 165L617 173L621 173L621 176L626 177L626 180L628 180L628 182L630 182L632 185L640 185L642 187L649 189L661 213L659 225L661 225L655 239L657 243L664 246Z" fill="rgb(224,194,199)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 384L421 384L422 380L416 375L411 375L408 377L405 375L406 369L403 365L405 359L407 358L408 350L416 346L422 340L426 341L431 338L433 338L433 343L435 344L443 343L445 341L452 330L469 329L480 318L500 309L502 294L505 292L505 289L507 289L510 285L508 282L509 279L503 270L503 260L502 260L504 255L497 252L497 250L518 243L524 243L526 245L536 245L538 241L532 237L543 202L548 202L547 203L550 203L551 206L556 206L556 208L574 208L582 202L583 199L580 196L581 193L579 189L581 177L596 171L598 167L596 165L600 159L613 159L612 165L615 165L617 173L621 173L621 176L626 177L626 180L628 180L628 182L630 182L632 185L640 185L642 187L649 189L661 213L659 225L661 225L655 239L657 243L664 246Z" fill="rgb(170,178,186)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-kazakh-famine-3" fill="rgb(102,140,97)" stroke="none"/>
+       <use href="#hl-kazakh-famine-3" fill="url(#hatch-kazakh-famine)" stroke="none"/>
+       <use href="#hl-kazakh-famine-3" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-kazakh-famine-3" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-kazakh-famine" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  
+  <g transform="translate(320.0 184.4)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-kazakh-famine)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M8 86 L36 44 L44 50 L56 42 L64 48 L92 86 Z" fill="#8b6b4a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M36 44 L44 50 L56 42 L64 48 L58 60 L50 54 L42 62 Z" fill="#e0562c" stroke="#3b2412" stroke-width="2"/>
+    <path d="M50 38 C38 30 44 18 52 20 C54 10 70 12 66 24 C76 26 70 38 60 34" fill="#9aa0a0" stroke="#3b2412" stroke-width="2.5"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-kazakh-famine)"/>
+  <rect width="640" height="360" fill="url(#vignette-kazakh-famine)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M8 86 L36 44 L44 50 L56 42 L64 48 L92 86 Z" fill="#8b6b4a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M36 44 L44 50 L56 42 L64 48 L58 60 L50 54 L42 62 Z" fill="#e0562c" stroke="#3b2412" stroke-width="2"/>
+    <path d="M50 38 C38 30 44 18 52 20 C54 10 70 12 66 24 C76 26 70 38 60 34" fill="#9aa0a0" stroke="#3b2412" stroke-width="2.5"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">재난·재건</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">카자흐 대기근</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1931년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

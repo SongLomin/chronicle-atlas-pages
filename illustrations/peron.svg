@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="후안 페론의 집권">
+<defs>
+  <clipPath id="frame-peron"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-peron" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-peron" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-peron" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="154" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-peron" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-peron"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-peron" d="M99 -24L100 -18L96 -15L94 -8L96 -5L96 2L93 13L93 15L90 19L91 28L89 29L86 45L80 56L81 61L84 65L84 75L82 78L82 82L80 84L78 83L77 89L80 118L80 125L82 129L79 142L76 144L78 156L71 167L72 172L67 189L60 199L61 203L57 208L53 224L52 225L51 222L49 226L50 228L49 235L45 237L42 235L41 239L42 242L41 248L45 256L44 267L49 282L49 289L46 294L46 299L45 297L40 301L40 314L36 325L39 339L42 340L44 338L39 344L49 344L52 342L51 340L54 337L58 339L61 343L64 341L66 335L66 341L60 343L55 348L58 350L63 349L64 361L61 354L56 357L62 363L56 363L56 368L58 376L56 375L55 380L52 382L52 384L199 384L200 380L212 374L199 369L200 366L204 363L212 363L214 366L213 369L215 372L223 370L225 358L222 352L211 356L216 356L216 360L209 361L206 360L209 356L202 354L199 352L198 348L199 338L196 330L197 322L201 320L199 319L203 319L204 320L201 321L216 325L221 329L235 329L248 322L251 316L248 317L249 315L245 309L247 306L248 297L252 297L253 289L249 285L253 287L253 286L248 284L249 284L247 280L249 277L247 273L251 273L253 276L257 277L270 278L294 274L321 266L335 257L336 250L351 229L350 216L346 217L339 208L339 202L343 196L341 192L336 186L321 179L317 170L320 168L317 158L319 144L324 143L323 130L326 140L324 144L320 145L319 159L320 162L330 174L342 174L347 179L357 181L356 183L361 185L369 181L381 184L382 186L394 180L394 176L396 177L395 179L397 179L404 173L411 159L425 145L432 127L435 124L435 122L433 123L435 121L432 122L434 119L432 118L432 115L435 113L435 111L436 113L437 106L443 105L443 102L447 101L448 91L450 94L450 88L453 85L449 83L450 78L450 82L454 83L454 86L456 87L456 85L461 84L462 82L463 87L460 86L460 93L455 97L455 102L454 100L452 101L450 109L447 109L447 112L446 111L439 117L435 117L436 119L435 124L439 119L452 109L460 100L467 88L476 66L485 55L496 47L494 43L496 46L499 33L498 29L499 24L498 21L501 19L498 18L499 11L497 9L498 4L495 1L495 -3L496 0L499 -1L499 -8L495 -8L500 -8L503 -14L497 -15L496 -18L501 -15L501 -20L503 -19L504 -20L503 -18L507 -19L505 -18L506 -16L512 -24L509 -24ZM27 380L33 384L41 384L39 377L44 378L40 371L44 371L44 370L38 365L38 362L39 361L39 363L42 362L41 358L46 357L43 348L44 346L43 345L40 345L39 347L35 346L36 344L34 345L34 353L31 360L32 372L27 380ZM41 359L45 364L43 359L41 359ZM52 346L53 346L52 343L52 346ZM250 314L252 315L253 312L252 310L251 310L250 314ZM251 306L254 310L254 305L252 304L251 306ZM252 278L255 279L252 278ZM252 280L256 283L256 281L252 280ZM497 2L499 4L500 -1L497 2ZM499 32L502 27L502 24L500 25L499 32Z"/>
+  <clipPath id="landclip-peron"><use href="#land-peron"/></clipPath>
+  <path id="hl-peron-4" d="M214 360L211 357L211 354L222 352L224 356L223 359L225 359L223 364L225 364L222 372L211 373L212 369L208 360ZM368 24L370 19L382 11L386 4L387 -11L401 -11L402 -2L403 -2L403 3L404 3L402 18L386 26L367 40L363 48L357 52L345 70L339 74L328 87L325 112L326 112L321 123L323 127L321 137L323 140L322 144L319 145L315 162L318 168L316 172L320 179L340 191L340 199L336 207L340 215L350 217L349 231L335 251L332 260L314 270L272 279L254 279L248 276L246 282L252 290L243 310L249 316L247 322L241 327L233 330L217 330L207 324L203 324L201 321L196 322L195 332L199 338L196 351L207 356L206 364L200 367L199 370L203 373L210 373L209 378L202 380L198 384L73 384L74 382L72 378L67 377L69 362L66 360L68 356L73 352L75 349L71 343L73 332L72 332L73 324L71 321L75 312L73 310L77 302L74 298L75 293L79 290L82 276L89 272L90 267L88 266L88 260L86 258L87 255L84 249L86 239L84 239L85 234L84 234L85 230L84 230L86 221L99 211L99 205L98 205L99 202L96 196L103 174L109 168L107 165L109 151L104 148L106 141L103 138L103 130L100 127L100 120L95 116L96 109L94 109L95 105L100 101L101 91L109 83L107 79L108 75L105 72L106 68L105 68L106 62L110 59L113 44L120 36L127 20L136 16L137 12L132 7L136 -5L132 -14L135 -24L326 -24L333 -16L327 -3L322 1L321 10L314 18L315 23L324 22L335 26L347 27L361 24L361 23Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-peron)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-peron)"/>
+  <use href="#land-peron" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-peron" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-peron" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-peron)"><path d="M409 159L406 152L408 142L413 137L409 131L406 131L405 127L400 120L392 117L386 109L375 105L369 97L366 98L366 101L362 101L361 94L357 89L350 86L347 80L331 85L328 87L325 112L326 112L321 123L323 127L321 137L323 140L322 144L319 145L315 162L318 168L325 175L338 175L343 178L344 181L353 182L357 186L363 183L385 185L399 176L405 169L408 161Z" fill="rgb(184,192,207)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M326 -24L333 -16L327 -3L322 1L321 10L314 18L315 23L324 22L335 26L347 27L360 24L360 23L368 24L370 19L382 11L386 4L390 -24Z" fill="rgb(215,189,126)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M50 384L55 373L52 372L55 360L53 360L55 356L60 354L58 354L59 351L53 349L57 341L54 341L54 340L50 340L48 346L42 346L42 351L45 354L40 365L43 370L42 373L43 373L38 384L25 383L28 373L27 373L30 360L28 357L32 345L35 345L35 346L38 345L37 345L37 340L33 338L34 335L32 332L37 310L35 310L38 301L44 298L43 296L46 288L45 288L45 278L41 270L42 267L40 264L42 257L38 251L39 242L38 242L39 236L47 234L49 224L54 217L57 198L64 191L69 164L73 161L75 154L73 151L78 135L77 135L78 129L76 123L77 113L75 111L75 106L74 106L74 95L73 95L75 85L78 83L82 72L81 72L81 66L76 60L78 54L84 44L85 32L86 32L94 1L92 1L92 -9L91 -9L94 -15L97 -16L96 -24L135 -24L132 -14L136 -5L132 7L137 12L136 16L127 20L120 36L113 44L110 59L106 62L105 68L106 68L105 72L108 75L107 79L109 83L101 91L100 101L95 105L94 109L96 109L95 116L100 120L100 127L103 130L103 138L106 141L104 148L109 151L107 165L109 168L103 174L96 196L99 202L98 205L99 205L99 211L86 221L84 230L85 230L84 234L85 234L84 239L86 239L84 249L87 255L86 258L88 260L88 266L90 267L89 272L82 276L79 290L75 293L74 298L77 302L73 310L75 312L71 321L73 324L72 332L73 332L71 343L75 349L73 352L68 356L66 360L69 362L67 377L72 378L74 382L73 384Z" fill="rgb(171,192,142)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M390 -24L387 -11L401 -11L402 -2L403 -2L402 18L386 26L367 40L363 48L357 52L345 70L339 74L331 85L347 80L350 86L357 89L361 94L362 101L366 101L366 98L369 97L375 105L386 109L392 117L400 120L405 127L406 131L409 131L413 137L408 142L406 152L409 159L424 144L428 130L432 124L435 124L447 115L457 104L467 87L472 71L475 68L478 62L493 49L498 30L500 30L501 24L497 24L499 19L497 18L497 12L495 10L496 4L499 3L499 1L496 -1L501 -14L497 -15L500 -15L500 -18L505 -16L510 -22L509 -24Z" fill="rgb(172,198,147)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-peron-4" fill="rgb(60,134,171)" stroke="none"/>
+       <use href="#hl-peron-4" fill="url(#hatch-peron)" stroke="none"/>
+       <use href="#hl-peron-4" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-peron-4" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-peron" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="209.6" y="105.0" class="lbl hl">아르헨티나</text><text x="364.0" y="143.8" class="lbl">우루과이</text>
+  <g transform="translate(320.0 177.3)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-peron)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-peron)"/>
+  <rect width="640" height="360" fill="url(#vignette-peron)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">권력 승계</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">후안 페론의 집권</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1946년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>
