@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="1973년 칠레 쿠데타">
+<defs>
+  <clipPath id="frame-chile-coup-1973"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-chile-coup-1973" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-chile-coup-1973" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-chile-coup-1973" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="181" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-chile-coup-1973" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-chile-coup-1973"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-chile-coup-1973" d="M323 -24L321 -7L324 5L320 9L318 15L320 18L320 26L317 37L317 39L314 43L315 52L313 53L310 69L304 80L305 86L308 90L308 100L306 102L306 106L303 109L302 108L300 116L304 143L303 150L306 154L303 168L299 170L302 180L295 193L295 198L291 215L283 225L284 230L280 235L277 251L275 251L274 249L273 253L274 254L273 262L268 264L265 262L264 266L265 268L264 275L268 283L266 291L273 310L272 315L269 322L269 327L268 325L263 328L263 342L259 355L262 367L265 368L267 366L262 372L267 373L274 372L275 371L274 368L277 365L281 367L284 371L287 370L289 363L289 369L283 371L279 376L284 379L286 377L287 384L284 383L280 384L449 384L447 380L437 384L429 384L426 382L423 378L425 366L422 351L427 346L429 348L426 349L442 353L447 357L454 357L461 357L474 350L477 344L474 345L475 342L471 337L473 334L474 324L478 325L479 316L475 312L479 315L480 314L474 311L475 311L473 307L475 304L473 300L477 301L480 304L489 305L521 301L548 293L562 285L564 277L578 256L579 249L577 242L574 244L566 235L566 229L570 222L568 218L563 213L548 205L544 196L547 194L544 183L546 170L551 169L550 156L553 166L552 170L547 171L546 185L547 188L557 200L570 200L575 205L584 207L584 209L588 211L597 207L609 210L610 212L622 206L622 202L624 203L623 205L625 205L633 199L639 185L653 171L660 152L663 149L664 147L662 148L664 146L660 147L663 144L661 142L664 138L664 136L664 149L664 -24ZM166 182L170 182L168 180L166 182ZM476 341L478 343L480 340L478 338L477 338L476 341ZM478 333L480 337L480 333L478 332L478 333ZM478 306L481 306L478 306ZM478 307L483 311L482 308L478 307Z"/>
+  <clipPath id="landclip-chile-coup-1973"><use href="#land-chile-coup-1973"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-chile-coup-1973)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-chile-coup-1973)"/>
+  <use href="#land-chile-coup-1973" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-chile-coup-1973" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-chile-coup-1973" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-chile-coup-1973)"><path d="M637 185L634 178L636 168L641 162L637 157L634 157L633 152L628 145L620 143L614 134L602 130L597 122L594 123L593 126L589 126L589 119L584 113L578 111L575 105L559 109L555 112L552 137L553 137L548 148L550 152L548 162L550 165L549 169L546 171L542 188L545 194L552 201L565 201L570 204L571 207L581 208L584 213L590 210L613 211L628 202L633 195L637 187Z" fill="rgb(184,192,207)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M501 -24L521 -18L523 -14L532 -10L533 -8L553 -1L560 7L554 20L549 24L548 33L541 41L542 47L552 45L562 49L574 51L587 48L588 47L596 48L598 43L610 35L614 28L615 12L619 -9L621 -9L621 -22L619 -24L611 -24L604 -21L600 -24Z" fill="rgb(215,189,126)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M596 48L598 43L610 35L614 28L615 12L629 12L630 21L632 21L631 27L632 27L630 41L614 49L595 64L590 72L584 76L573 94L566 98L555 112L552 137L553 137L548 148L550 152L548 162L550 165L549 169L546 171L542 188L545 194L543 198L547 205L567 217L567 226L564 233L568 242L577 243L577 258L562 278L560 287L541 297L498 307L481 307L474 304L473 310L478 318L469 338L475 344L473 350L467 355L459 358L443 358L433 352L428 352L426 349L422 350L420 360L424 366L422 379L432 384L292 384L297 381L298 378L294 371L297 360L295 360L296 352L294 349L299 339L296 338L300 330L297 325L299 321L303 318L306 304L313 299L314 294L312 293L312 287L310 285L310 282L308 276L309 266L308 266L309 261L308 261L309 257L308 257L310 248L323 237L323 232L322 232L323 229L320 223L328 199L333 194L331 191L333 177L328 174L330 167L327 164L327 155L324 152L324 145L319 141L320 134L318 134L319 130L324 126L325 116L333 108L331 104L332 100L330 97L330 93L329 93L331 86L334 83L337 68L344 60L351 44L361 40L361 36L357 31L360 19L356 10L359 -1L357 -4L358 -9L364 -15L377 -19L382 -24L501 -24L521 -18L523 -14L532 -10L533 -8L553 -1L560 7L554 20L549 24L548 33L541 41L542 47L552 45L562 49L574 51L589 48L589 47Z" fill="rgb(142,176,181)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M600 -24L604 -21L611 -24L619 -24L621 -22L621 -9L619 -9L615 12L629 12L630 21L632 21L631 27L632 27L630 41L614 49L595 64L590 72L584 76L573 94L566 98L559 109L575 105L578 111L584 113L589 119L589 126L593 126L594 123L597 122L602 130L614 134L620 143L628 145L633 152L634 157L637 157L641 162L636 168L634 178L637 185L653 169L657 155L661 150L664 149L664 -24Z" fill="rgb(172,198,147)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M279 384L283 383L282 383L283 379L276 378L280 370L277 370L278 368L273 368L271 374L265 374L265 379L269 383L268 384L252 384L256 373L259 373L258 374L261 373L260 373L260 368L256 366L257 363L255 360L260 338L258 338L261 328L267 325L266 324L270 316L268 316L269 305L264 297L265 294L263 291L265 284L261 278L262 269L261 269L263 263L270 261L272 251L277 243L281 224L287 217L293 189L297 187L299 179L296 177L302 161L300 161L302 154L299 148L300 138L298 136L299 131L298 131L298 120L296 120L299 109L302 108L306 97L304 97L304 90L300 85L301 78L308 68L309 56L310 56L318 24L316 24L316 15L315 15L318 8L321 7L321 2L318 -5L320 -24L382 -24L377 -19L364 -15L358 -9L357 -4L359 -1L356 10L360 19L357 31L361 36L361 40L351 44L344 60L337 68L334 83L331 86L329 93L330 93L330 97L332 100L331 104L333 108L325 116L324 126L319 130L318 134L320 134L319 141L324 145L324 152L327 155L327 164L330 167L328 174L333 177L331 191L333 194L328 199L320 223L323 229L322 232L323 232L323 237L310 248L308 257L309 257L308 261L309 261L308 266L309 266L308 276L310 282L310 285L312 287L312 293L314 294L313 299L306 304L303 318L299 321L297 325L300 330L296 338L299 339L294 349L296 352L295 360L297 360L294 371L298 378L297 381L292 384Z" fill="rgb(171,192,142)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-chile-coup-1973" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="435.2" y="130.0" class="lbl">아르헨티나</text><text x="591.7" y="169.3" class="lbl">우루과이</text>
+  <g transform="translate(320.0 177.4)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-chile-coup-1973)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M44 90 L40 50 L60 50 L56 90 Z" fill="#8a5a2b" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="36" y="44" width="28" height="8" rx="2" fill="#c9b37e" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M50 42 C34 36 38 20 46 10 C46 20 54 22 56 16 C66 26 66 38 50 42 Z" fill="#f08a3a" stroke="#3b2412" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M50 40 C44 34 46 28 50 22 C52 30 58 32 50 40 Z" fill="#f6d05a"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-chile-coup-1973)"/>
+  <rect width="640" height="360" fill="url(#vignette-chile-coup-1973)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M44 90 L40 50 L60 50 L56 90 Z" fill="#8a5a2b" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="36" y="44" width="28" height="8" rx="2" fill="#c9b37e" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M50 42 C34 36 38 20 46 10 C46 20 54 22 56 16 C66 26 66 38 50 42 Z" fill="#f08a3a" stroke="#3b2412" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M50 40 C44 34 46 28 50 22 C52 30 58 32 50 40 Z" fill="#f6d05a"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">혁명</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">1973년 칠레 쿠데타</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1973년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

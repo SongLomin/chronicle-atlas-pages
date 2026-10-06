@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="악숨의 메로에 원정">
+<defs>
+  <clipPath id="frame-aksum-meroe"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-aksum-meroe" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-aksum-meroe" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-aksum-meroe" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="94" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-aksum-meroe" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-aksum-meroe"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-aksum-meroe" d="M-24 -24L-24 384L660 384L661 377L664 374L664 300L642 306L634 304L625 308L616 309L610 307L590 318L575 314L558 324L550 325L545 324L534 315L527 306L527 303L522 301L520 298L507 300L506 299L509 299L512 295L524 289L525 285L523 279L516 270L515 272L512 271L511 267L507 263L503 263L501 255L497 254L495 249L488 247L477 232L469 231L467 226L464 224L459 226L456 224L453 219L454 217L450 213L448 215L450 220L449 222L447 222L444 213L441 212L441 206L438 204L430 171L423 157L420 160L423 157L423 156L419 153L415 153L417 151L413 152L412 150L413 148L409 145L405 144L403 141L400 142L398 138L394 122L393 105L394 100L391 85L394 87L394 90L396 89L387 75L386 68L387 66L377 59L373 53L365 50L361 46L357 33L357 23L357 22L363 23L357 19L350 9L334 -24L382 -24L383 -21L388 -17L394 -6L394 1L392 1L399 11L398 13L407 18L409 16L409 18L420 26L427 41L427 44L432 50L433 59L435 58L432 67L430 67L434 73L435 81L433 83L435 88L448 105L451 107L451 106L454 106L464 114L467 118L469 118L469 122L473 124L475 132L478 134L478 142L483 147L484 153L491 161L502 170L503 179L503 176L510 186L513 200L513 205L510 209L512 218L512 219L510 216L508 219L514 221L515 225L515 228L514 227L517 236L516 235L522 252L521 262L526 271L526 274L529 273L536 277L546 275L551 272L556 274L556 272L559 271L558 273L560 273L561 269L567 266L573 260L595 258L610 254L623 245L627 247L637 245L644 239L646 235L664 228L664 -24ZM451 207L454 209L451 209L452 211L461 211L459 209L456 210L456 206L453 205L452 204L453 206L451 207ZM452 202L455 202L455 201L454 200L452 202ZM490 183L493 186L497 187L499 189L497 184L494 186L490 183ZM492 182L495 185L493 180L492 180L494 181L492 182ZM507 218L508 217L508 214L507 218ZM510 253L512 251L510 253ZM510 246L512 248L511 244L510 246Z"/>
+  <clipPath id="landclip-aksum-meroe"><use href="#land-aksum-meroe"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-aksum-meroe)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-aksum-meroe)"/>
+  <use href="#land-aksum-meroe" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-aksum-meroe" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-aksum-meroe" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-aksum-meroe)"><path d="M470 228L482 234L488 245L503 255L504 262L500 262L493 265L493 267L484 269L481 272L431 272L419 266L416 259L413 259L414 255L410 242L414 231L424 222L422 220L427 221L430 215L435 217L444 211L447 220L449 220L449 213L452 213L459 225L467 224L470 227ZM511 213L510 213L513 188L505 180L506 176L509 176L517 168L517 164L522 166L528 163L535 171L534 174L538 181L536 183L536 196L540 200L537 210L538 221L512 222Z" fill="rgb(206,182,198)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M555 190L564 200L563 204L567 203L571 205L581 205L584 203L590 203L592 198L595 200L616 194L656 191L664 189L664 229L652 231L639 245L617 248L616 252L598 259L575 260L560 273L551 273L546 276L526 274L526 270L521 266L522 252L518 246L515 227L514 222L511 221L510 205L512 205L513 188L505 180L506 176L509 176L517 168L517 164L522 166L528 163L535 171L534 174L537 177L537 181L539 184L544 183L544 186L555 188ZM535 147L532 147L534 144L535 145Z" fill="rgb(215,171,137)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M335 -24L338 -21L350 6L365 21L365 24L358 22L358 25L349 24L320 28L312 25L284 28L276 27L252 36L250 36L249 31L243 27L243 24L240 24L233 16L210 6L204 -6L203 -24Z" fill="rgb(191,158,174)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 -24L664 -19L658 -23L658 -24Z" fill="rgb(183,198,144)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M354 158L357 166L368 173L369 184L361 191L340 191L337 197L340 207L327 205L322 214L294 220L294 217L279 213L273 203L273 197L270 194L272 188L266 173L264 151L273 154L309 151L328 157L336 157L339 160L353 158Z" fill="rgb(217,194,202)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M331 121L304 119L293 124L284 124L273 121L270 117L259 112L264 151L273 154L309 151L328 157L336 157L339 160L353 158L350 153L345 151L344 144L338 137L332 121Z" fill="rgb(212,174,123)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M322 64L323 40L321 40L322 33L319 28L312 25L284 28L276 27L252 36L256 48L256 61L252 68L255 74L259 112L270 117L273 121L284 124L293 124L304 119L331 121L321 76L320 76L322 67L320 65L322 65Z" fill="rgb(215,194,204)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-aksum-meroe" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="583.4" y="233.8" class="lbl">힘야르 왕국</text><text x="289.1" y="69.9" class="lbl">노바티아</text><text x="452.5" y="247.6" class="lbl">악숨 왕국</text><text x="306.2" y="134.8" class="lbl">마쿠리아 왕국</text>
+  <g transform="translate(320.0 181.2)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-aksum-meroe)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-aksum-meroe)"/>
+  <rect width="640" height="360" fill="url(#vignette-aksum-meroe)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">정복</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">악숨의 메로에 원정</text>
+  </g>
+  <text x="320" y="284" class="year">서기 350년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

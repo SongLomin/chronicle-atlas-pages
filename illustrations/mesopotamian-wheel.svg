@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="바퀴와 도시의 등장">
+<defs>
+  <clipPath id="frame-mesopotamian-wheel"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-mesopotamian-wheel" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-mesopotamian-wheel" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-mesopotamian-wheel" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="85" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-mesopotamian-wheel" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-mesopotamian-wheel"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-mesopotamian-wheel" d="M-24 384L157 384L149 377L145 371L138 369L134 364L131 353L131 345L131 343L136 345L124 332L113 307L101 287L102 282L99 275L93 266L95 266L93 262L95 263L94 261L81 246L76 238L76 229L71 224L76 215L78 227L87 237L88 246L98 258L107 264L107 263L111 259L110 252L114 243L116 230L121 226L118 247L113 257L114 258L116 256L118 257L122 256L126 258L125 258L141 282L150 299L153 301L154 306L158 309L164 318L164 325L162 325L168 334L167 335L176 340L177 339L177 340L187 347L193 360L193 364L197 368L198 376L200 376L197 384L196 384L588 384L591 379L591 374L585 372L571 352L567 350L562 351L540 344L530 333L526 324L526 311L524 308L527 302L526 300L528 299L525 297L528 298L526 295L528 294L525 293L524 296L526 297L522 296L518 306L512 311L510 310L505 316L506 318L505 317L501 322L493 327L492 332L489 332L492 334L490 334L489 337L483 340L473 342L465 339L456 340L454 339L449 343L442 344L439 343L439 337L436 338L435 335L435 338L429 336L433 331L432 330L430 332L428 330L430 329L430 331L436 322L436 317L434 316L433 311L434 308L435 307L435 303L432 302L429 298L424 302L422 308L424 309L422 311L421 308L420 309L421 312L419 312L421 326L419 328L416 321L414 313L408 307L410 309L407 301L405 301L406 297L408 300L409 294L406 291L405 286L408 287L399 281L397 276L393 277L392 273L390 273L391 271L388 271L392 270L391 268L383 267L384 265L382 265L384 262L381 260L382 259L380 258L377 250L376 250L377 248L374 245L375 243L370 237L369 230L362 229L367 225L371 225L366 213L367 215L370 214L375 217L379 216L379 214L384 215L385 212L384 208L387 206L385 204L390 204L390 208L385 207L389 211L390 210L391 212L395 212L396 215L403 211L406 211L408 217L418 227L417 234L421 234L423 236L420 239L425 243L426 247L432 260L437 262L443 262L452 267L456 270L454 272L470 281L475 286L487 286L488 288L496 291L505 284L510 285L512 280L517 279L521 277L534 277L535 280L537 280L536 281L538 283L539 292L542 298L541 299L543 306L552 307L552 309L555 307L560 311L564 309L572 310L576 314L584 312L592 315L600 314L603 316L602 314L605 313L606 316L621 321L624 317L628 318L627 322L634 320L635 318L639 320L639 319L641 317L660 318L660 316L664 314L664 -24L-24 -24L-24 48L-22 47L-21 50L-18 50L-19 53L-21 54L-24 53L-24 57L-5 56L-8 59L-10 58L-10 62L-18 61L-23 63L-22 64L-17 65L-16 62L-9 61L-9 63L-12 64L-9 65L-12 66L-10 67L-5 63L-6 60L-3 61L-2 59L5 66L7 62L10 64L8 67L10 67L10 71L21 77L30 73L35 75L38 68L38 62L40 59L52 61L65 67L72 76L80 79L87 77L94 77L96 75L97 77L100 73L102 75L108 66L116 61L128 67L133 66L135 63L132 64L133 63L137 62L141 58L144 61L144 64L136 72L140 80L137 84L137 86L135 90L139 94L140 99L138 105L140 114L134 119L134 126L130 128L123 146L125 147L123 147L123 152L121 153L116 172L106 187L96 191L91 190L86 192L85 189L83 191L85 190L84 192L82 191L79 193L77 192L82 190L76 192L69 187L70 190L67 192L65 189L63 189L60 187L63 182L68 187L64 182L56 184L48 180L45 181L48 183L41 185L37 185L45 180L37 183L34 182L34 184L33 182L33 186L30 187L32 188L30 189L28 186L17 194L8 197L-3 192L-12 191L-14 188L-17 189L-21 189L-24 185ZM70 102L73 110L82 111L82 113L84 113L85 110L95 107L97 104L104 104L101 102L103 102L101 97L114 87L96 95L82 94L81 100L75 99L72 102L70 102ZM82 190L89 189L86 188L82 190ZM89 189L93 190L89 189ZM101 269L103 270L101 269ZM150 309L153 310L151 307L150 309ZM151 305L152 308L151 304L151 305ZM153 311L157 313L153 311ZM155 312L157 315L159 313L155 312ZM368 220L371 224L374 222L370 216L371 217L368 220ZM395 273L399 273L395 273ZM414 298L416 306L417 298L416 297L416 296L414 296L414 298ZM419 310L420 307L419 310ZM462 7L464 14L463 6L462 7ZM465 283L469 284L465 283ZM465 337L468 337L470 335L465 337ZM474 339L480 339L478 337L474 339ZM479 290L482 291L479 290ZM487 333L490 334L488 332L487 333ZM505 287L506 290L516 285L518 286L524 281L514 281L514 284L505 287Z"/>
+  <clipPath id="landclip-mesopotamian-wheel"><use href="#land-mesopotamian-wheel"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-mesopotamian-wheel)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-mesopotamian-wheel)"/>
+  <use href="#land-mesopotamian-wheel" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-mesopotamian-wheel" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-mesopotamian-wheel" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-mesopotamian-wheel)"></g>
+  <use href="#land-mesopotamian-wheel" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  
+  <g transform="translate(320.0 182.4)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-mesopotamian-wheel)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-mesopotamian-wheel)"/>
+  <rect width="640" height="360" fill="url(#vignette-mesopotamian-wheel)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">문화·학문</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">바퀴와 도시의 등장</text>
+  </g>
+  <text x="320" y="284" class="year">기원전 3500년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="포르투갈의 킬와 점령">
+<defs>
+  <clipPath id="frame-kilwa-portuguese"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-kilwa-portuguese" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-kilwa-portuguese" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-kilwa-portuguese" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="225" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-kilwa-portuguese" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-kilwa-portuguese"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-kilwa-portuguese" d="M-24 -24L-24 384L264 384L261 381L265 384L269 377L290 367L289 365L291 367L301 361L311 360L312 357L328 347L326 344L331 343L334 337L332 337L344 326L346 320L345 319L342 319L342 318L346 316L345 314L348 315L345 312L347 312L349 310L349 304L347 304L349 302L346 302L345 305L347 297L344 298L343 296L345 293L343 284L344 282L342 281L344 269L342 268L341 270L340 268L345 264L343 259L341 258L343 256L341 253L342 252L342 244L340 239L341 233L338 232L342 229L343 225L342 226L342 224L344 221L341 219L345 218L342 215L342 213L340 213L340 209L338 210L336 207L336 209L333 209L334 206L331 205L330 207L327 202L324 203L327 199L324 197L325 195L323 190L321 190L323 184L321 182L320 183L320 179L317 178L321 179L317 174L315 165L319 158L319 154L316 152L314 154L316 143L321 139L321 136L319 133L315 132L315 130L310 124L307 124L304 115L312 94L311 93L311 90L314 89L314 85L282 62L313 85L315 83L318 84L323 72L321 71L323 69L324 71L325 69L324 68L326 68L328 63L326 60L328 61L330 55L331 56L333 54L336 48L334 46L336 41L342 38L345 38L349 35L348 32L350 31L351 33L350 25L351 28L353 24L353 27L362 23L371 10L371 8L372 9L374 2L374 4L400 -24ZM313 117L315 121L315 119L318 122L318 121L319 124L321 123L320 117L320 118L318 118L316 108L313 112L313 117ZM322 157L323 158L327 156L328 150L322 157ZM323 101L326 101L328 90L327 92L324 89L325 96L323 96L326 97L323 98L323 101ZM327 346L329 347L330 344L327 346ZM352 30L356 28L354 27L352 30ZM401 241L402 243L407 245L405 233L402 235L401 241ZM537 384L539 377L538 367L541 358L547 357L544 355L547 350L547 343L543 340L544 335L542 327L544 325L548 324L551 334L555 337L561 322L555 309L553 287L549 270L544 264L542 265L540 261L541 258L539 256L540 256L538 256L536 252L536 254L533 252L534 250L536 252L534 246L532 248L533 250L532 248L530 249L533 250L528 255L527 258L522 257L526 260L527 265L523 278L519 280L517 278L518 281L513 282L514 287L512 288L508 281L504 283L503 287L507 291L505 292L507 294L507 298L506 300L506 295L504 294L505 297L502 297L500 302L501 306L502 305L506 306L506 309L505 306L504 308L502 305L494 317L496 311L494 307L490 311L492 312L485 319L489 325L483 327L486 322L483 319L470 329L469 333L473 337L471 335L470 337L467 333L467 331L465 331L463 333L464 333L464 334L461 332L455 333L454 339L453 336L449 337L449 339L447 340L446 336L437 343L428 342L428 354L417 371L417 374L419 378L419 384ZM410 254L415 256L410 252L410 254ZM423 251L430 256L429 249L427 251L423 251ZM441 263L443 267L442 267L442 269L444 269L445 264L442 262L441 263ZM467 189L467 190L474 189L467 189ZM468 188L472 188L468 188ZM510 276L511 279L514 279L513 274L510 276ZM546 362L551 353L546 362Z"/>
+  <clipPath id="landclip-kilwa-portuguese"><use href="#land-kilwa-portuguese"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-kilwa-portuguese)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-kilwa-portuguese)"/>
+  <use href="#land-kilwa-portuguese" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-kilwa-portuguese" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-kilwa-portuguese" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-kilwa-portuguese)"><path d="M303 200L308 211L315 214L326 215L331 213L337 208L336 207L336 209L333 209L334 206L331 205L330 207L327 202L324 203L327 199L324 197L325 195L323 190L321 190L323 184L321 182L320 183L320 179L317 178L321 179L317 174L315 165L319 158L319 154L316 152L314 154L316 143L321 139L321 136L314 138L311 143L303 194ZM322 157L323 158L327 156L328 150L322 157Z" fill="rgb(226,193,197)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M91 358L94 371L106 384L219 384L226 375L229 365L227 351L217 339L200 329L178 324L152 324L116 332L99 341L96 345L92 354Z" fill="rgb(216,171,138)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M171 261L172 275L175 284L196 321L216 345L225 351L232 351L235 347L239 335L240 327L239 315L224 286L203 230L192 211L185 206L181 210L172 255Z" fill="rgb(199,204,213)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-kilwa-portuguese" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  
+  <g transform="translate(320.0 179.4)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-kilwa-portuguese)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-kilwa-portuguese)"/>
+  <rect width="640" height="360" fill="url(#vignette-kilwa-portuguese)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">정복</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">포르투갈의 킬와 점령</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1505년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

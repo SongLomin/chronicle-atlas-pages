@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="마우마우 봉기">
+<defs>
+  <clipPath id="frame-mau-mau"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-mau-mau" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-mau-mau" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-mau-mau" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="160" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-mau-mau" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-mau-mau"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-mau-mau" d="M-24 -24L-24 384L382 384L381 382L379 382L381 380L381 376L379 374L378 375L378 370L375 369L379 370L374 365L373 361L373 356L377 349L376 345L374 343L372 345L374 334L379 330L379 327L377 324L373 323L373 321L368 315L365 314L362 306L370 284L368 283L369 280L371 279L371 275L339 252L371 275L373 273L375 274L376 272L377 273L381 262L379 261L381 259L382 261L383 259L382 258L384 258L386 253L384 250L386 251L388 245L389 246L392 244L394 237L392 236L394 230L400 227L403 227L407 224L406 222L408 221L409 222L410 222L408 215L410 217L411 213L412 216L420 212L430 199L429 197L431 198L432 191L433 193L466 157L490 136L523 117L565 72L589 34L594 20L605 2L607 -6L613 -11L619 -24ZM371 308L372 311L373 310L376 313L376 311L377 315L379 314L378 307L378 309L376 309L374 298L371 303L371 308ZM380 348L381 349L385 347L387 341L380 348ZM381 291L384 291L386 280L385 282L382 280L383 287L381 286L384 288L381 289L381 291ZM410 219L415 218L412 216L410 219Z"/>
+  <clipPath id="landclip-mau-mau"><use href="#land-mau-mau"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-mau-mau)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-mau-mau)"/>
+  <use href="#land-mau-mau" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-mau-mau" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-mau-mau" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-mau-mau)"><path d="M97 59L87 59L84 56L65 53L61 59L55 62L40 59L39 62L19 69L6 65L-1 79L-4 80L-15 76L-24 75L-24 334L-19 334L-16 336L-17 354L-14 358L-17 384L134 384L129 377L140 368L144 360L176 355L176 352L169 347L166 334L154 326L149 312L146 309L146 299L149 298L149 295L144 289L146 269L142 268L144 245L150 248L149 253L154 259L152 263L157 269L165 266L173 252L179 248L183 238L176 236L174 228L184 220L184 209L174 196L171 196L165 203L156 200L155 190L156 190L159 166L164 159L164 152L192 128L194 123L183 118L185 92L180 92L174 83L168 82L164 75L156 68L148 75L142 72L127 75L119 70L105 55Z" fill="rgb(199,205,213)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M259 -24L259 -22L252 -16L239 -17L234 -10L234 -4L241 0L249 0L257 7L258 13L272 25L280 48L296 56L294 65L300 72L325 75L336 86L348 92L377 95L379 90L391 80L402 76L418 85L428 83L436 78L447 78L462 65L470 62L495 63L505 58L513 45L536 23L536 20L563 -3L563 -6L541 -7L537 -10L496 -24Z" fill="rgb(221,199,150)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M385 347L382 349L378 349L378 345L381 342L385 342ZM373 299L374 308L378 308L376 316L368 309L369 299ZM379 285L379 280L384 282L382 292L379 292ZM259 -24L259 -22L252 -16L239 -17L234 -10L234 -4L241 0L249 0L257 7L258 13L272 25L280 48L296 56L294 65L300 72L325 75L336 86L348 92L377 95L379 90L391 80L402 76L418 85L428 83L436 78L447 78L462 65L470 62L495 63L505 58L513 45L536 23L536 20L563 -3L563 -6L541 -7L537 -10L496 -24L619 -24L615 -11L607 -6L607 3L593 20L586 43L583 45L581 50L569 63L564 75L546 92L546 95L537 100L537 103L519 119L516 119L511 125L486 138L462 159L461 162L453 168L454 170L436 188L436 190L429 193L430 199L426 205L422 208L420 213L412 216L412 219L402 228L393 230L391 235L393 240L385 249L383 258L379 263L375 273L369 276L368 289L361 299L361 312L371 319L371 322L376 324L376 331L372 338L372 344L375 345L372 362L375 367L376 374L379 374L381 384L260 384L259 383L251 384L134 384L129 377L140 368L144 360L174 355L174 362L181 362L183 367L192 367L190 357L187 355L185 348L179 338L175 319L171 318L169 313L161 312L161 306L164 305L164 295L160 292L160 280L157 279L157 269L165 266L173 252L179 248L183 238L176 236L174 228L184 220L184 209L174 196L171 196L165 203L156 200L155 190L156 190L159 166L164 159L164 152L192 128L194 123L183 118L185 92L180 92L174 83L168 82L164 75L156 68L148 75L142 72L127 75L119 70L105 55L105 46L89 37L89 35L84 30L85 23L80 20L80 17L74 12L61 6L61 -3L54 -6L50 -11L38 -13L37 -19L39 -20L35 -23L27 -24ZM202 185L202 192L205 195L205 199L200 212L200 225L204 228L204 232L207 233L210 232L213 225L225 229L229 229L231 226L242 229L247 223L250 223L249 222L250 218L242 219L239 218L239 215L247 210L247 205L253 206L257 185L265 183L265 179L273 179L271 173L261 173L258 176L253 170L255 168L248 163L242 163L242 160L234 162L230 165L230 168L219 166L214 170L206 172L206 179ZM231 232L225 232L225 238L229 238Z" fill="rgb(217,156,137)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-24 384L-24 334L-19 334L-16 336L-17 354L-14 358L-17 384Z" fill="rgb(139,197,195)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-24 -24L35 -23L39 -20L37 -19L38 -13L50 -11L54 -6L61 -3L61 6L74 12L80 17L80 20L85 23L84 30L89 35L89 37L105 46L105 55L97 59L87 59L84 56L65 53L61 59L55 62L40 59L39 62L19 69L6 65L-1 79L-4 80L-15 76L-24 75Z" fill="rgb(165,173,190)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-mau-mau" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  
+  <g transform="translate(320.0 180.0)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-mau-mau)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M24 64 C24 34 38 20 50 20 C62 20 76 34 76 64 L66 64 L66 52 L56 52 L56 82 L44 82 L44 52 L34 52 L34 64 Z" fill="#c9b37e" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 20 C50 8 68 6 80 12 C70 14 62 18 58 26" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M30 64 L70 64" stroke="#3b2412" stroke-width="3"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-mau-mau)"/>
+  <rect width="640" height="360" fill="url(#vignette-mau-mau)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M24 64 C24 34 38 20 50 20 C62 20 76 34 76 64 L66 64 L66 52 L56 52 L56 82 L44 82 L44 52 L34 52 L34 64 Z" fill="#c9b37e" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 20 C50 8 68 6 80 12 C70 14 62 18 58 26" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M30 64 L70 64" stroke="#3b2412" stroke-width="3"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">전쟁·저항</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">마우마우 봉기</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1952년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>
