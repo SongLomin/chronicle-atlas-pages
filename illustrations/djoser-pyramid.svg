@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="조세르의 계단 피라미드">
+<defs>
+  <clipPath id="frame-djoser-pyramid"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-djoser-pyramid" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-djoser-pyramid" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-djoser-pyramid" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="167" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-djoser-pyramid" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-djoser-pyramid"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-djoser-pyramid" d="M-24 384L435 384L436 380L433 367L436 371L437 370L429 358L429 349L420 343L416 338L409 335L406 330L402 320L402 311L403 310L408 311L396 298L384 272L372 253L373 247L370 240L364 231L366 231L363 227L366 228L365 226L352 211L347 202L346 193L342 188L346 179L349 191L358 202L359 211L369 223L379 229L378 228L382 224L381 216L386 207L388 195L393 190L389 212L385 221L385 223L387 220L389 222L394 221L397 222L396 223L413 247L422 264L425 266L426 271L430 274L436 284L436 291L434 291L440 300L440 301L448 306L450 305L449 306L459 313L461 319L462 318L466 330L470 335L471 343L472 342L470 351L468 351L472 356L473 363L471 365L484 384L664 384L664 233L659 232L660 230L658 229L660 227L657 224L658 223L655 222L653 214L652 215L652 212L650 209L650 207L646 201L645 194L637 193L642 189L646 190L642 177L642 179L645 178L651 181L655 180L655 178L660 179L661 176L659 172L663 170L662 168L664 168L664 171L661 171L664 174L664 -24L27 -24L24 -22L26 -19L24 -14L20 -12L20 -7L23 -5L29 -5L31 -10L38 -17L38 -24L122 -24L124 -19L125 -20L125 -15L126 -14L130 -16L130 -19L133 -14L142 -17L146 -14L150 -15L150 -18L154 -14L155 -16L158 -12L164 -12L166 -9L161 -9L159 -7L161 -6L159 -5L156 -8L140 -15L135 -10L131 -12L130 -7L126 -4L136 8L134 15L137 22L140 24L142 23L142 18L146 17L145 20L150 25L150 29L152 32L152 27L154 23L156 22L158 23L161 29L166 31L163 26L164 23L157 4L164 7L163 9L165 10L167 8L172 7L170 5L170 2L168 3L168 5L165 3L165 -2L162 -3L162 -5L173 -8L173 -6L175 -5L180 1L183 1L181 -10L183 -12L175 -15L172 -19L168 -19L168 -23L164 -22L163 -24L234 -24L238 -17L242 -17L235 -15L233 -17L233 -14L231 -17L232 -19L228 -23L226 -22L227 -18L230 -17L227 -14L225 -16L224 -13L227 -13L231 -9L232 -12L234 -12L236 -7L243 -6L244 0L239 2L243 3L243 9L247 8L248 12L251 11L249 13L250 15L244 15L244 19L246 17L250 18L264 17L261 20L259 19L259 23L251 22L246 25L252 26L253 24L260 23L260 24L257 25L260 26L257 27L259 28L264 24L263 21L266 23L267 21L274 27L276 24L279 26L278 29L280 28L279 32L290 39L300 35L305 36L308 29L308 23L310 20L322 22L335 29L342 37L351 41L357 38L365 39L367 37L368 38L371 34L373 37L379 28L387 22L399 29L405 27L406 24L404 25L404 24L413 20L416 22L416 26L408 34L412 42L408 45L409 48L407 52L410 55L411 61L409 67L412 76L406 81L405 89L402 91L395 109L396 110L395 110L394 115L392 116L387 136L383 144L374 152L367 154L362 154L357 156L356 153L353 155L356 154L355 156L353 155L349 156L353 154L347 156L339 150L341 154L337 156L336 152L334 153L331 151L333 145L339 150L334 145L327 147L318 143L315 144L318 146L311 148L307 148L315 144L307 147L304 146L304 147L303 146L303 149L300 151L302 152L300 152L298 150L287 158L278 161L266 155L257 155L255 152L252 153L247 152L245 149L238 147L219 143L208 146L204 145L203 142L202 143L203 142L200 135L195 134L183 134L178 131L168 129L168 131L163 127L164 120L146 113L137 113L131 116L124 117L115 122L106 131L103 140L107 152L106 159L97 170L86 173L78 170L70 162L63 159L45 153L28 151L23 148L17 142L15 131L12 126L-2 123L-8 118L-19 116L-24 114ZM-24 9L-13 15L-6 17L-2 23L10 26L11 20L14 17L12 13L13 12L10 10L10 6L12 -1L21 -13L18 -14L14 -12L13 -13L10 -10L6 -11L-1 -8L-11 -8L-15 -6L-23 -9L-24 -11ZM116 -2L120 2L121 0L123 1L118 -5L116 -2ZM160 34L161 37L163 38L164 36L161 32L160 34ZM169 10L173 9L169 10ZM170 -1L171 1L173 -1L170 -1ZM172 58L175 60L189 61L195 63L195 67L222 65L226 61L225 58L223 60L221 60L216 63L214 61L215 57L209 58L202 57L200 55L188 57L186 54L183 54L185 53L185 51L178 53L176 49L176 53L173 52L172 58ZM186 5L188 1L186 5ZM187 26L192 25L192 24L189 23L189 25L188 24L187 26ZM188 10L190 8L190 6L188 10ZM194 17L195 20L196 18L194 17ZM194 -5L200 1L200 -4L196 -7L194 -5ZM198 8L200 8L199 5L198 8ZM200 2L205 5L205 3L200 2ZM202 17L205 18L206 14L203 15L202 17ZM205 24L208 26L208 25L206 23L205 24ZM206 8L209 6L207 5L206 8ZM207 16L210 19L212 17L211 13L207 16ZM207 33L210 33L208 30L209 32L207 33ZM215 23L221 20L220 19L215 23ZM219 5L224 4L227 1L221 2L219 5ZM225 28L226 30L229 28L227 26L227 28L225 28ZM231 0L231 1L233 0L236 2L240 1L240 -1L235 -2L231 0ZM236 57L239 55L236 57ZM237 16L238 17L237 19L240 19L237 16ZM237 25L238 25L239 24L246 21L242 20L237 25ZM240 51L242 56L243 54L242 50L243 46L240 51ZM245 31L247 32L246 30L245 31ZM252 38L254 44L258 40L260 40L263 31L256 34L252 38ZM254 28L256 29L255 26L254 28ZM340 64L344 72L353 73L353 75L355 75L356 72L366 69L368 66L375 66L372 64L374 64L372 59L385 49L367 57L353 56L352 62L346 61L343 64L340 64ZM353 154L359 152L356 152L353 154ZM360 152L363 154L360 152ZM372 234L375 235L372 234ZM383 223L385 225L383 223ZM421 274L425 276L422 273L421 274ZM422 271L423 273L423 270L422 271ZM425 276L429 278L425 276ZM427 277L429 280L431 279L427 277Z"/>
+  <clipPath id="landclip-djoser-pyramid"><use href="#land-djoser-pyramid"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-djoser-pyramid)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-djoser-pyramid)"/>
+  <use href="#land-djoser-pyramid" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-djoser-pyramid" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-djoser-pyramid" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-djoser-pyramid)"><path d="M639 123L637 125L624 122L619 114L608 112L607 101L599 106L596 112L586 110L580 104L577 104L577 107L574 107L569 113L570 122L572 123L572 126L580 125L582 131L586 131L589 134L601 162L613 173L616 173L618 167L628 165L628 162L639 160L648 160L660 164L661 158L660 158L654 131L640 123Z" fill="rgb(233,195,162)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M318 144L315 144L318 146L314 148L307 148L315 144L303 146L302 152L298 150L287 158L287 168L299 178L304 186L304 192L297 197L296 203L298 206L305 208L311 240L328 257L332 268L346 269L342 272L340 281L347 288L350 294L349 309L357 309L356 287L352 284L348 277L353 269L352 262L338 258L326 245L323 239L315 236L315 223L316 212L323 195L333 196L345 193L342 188L344 181L351 176L349 167L350 160L348 156L341 151L339 151L340 154L338 155L331 151L333 145L339 151L334 145L327 147L318 144Z" fill="rgb(224,206,157)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-djoser-pyramid" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  
+  <g transform="translate(320.0 182.3)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-djoser-pyramid)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-djoser-pyramid)"/>
+  <rect width="640" height="360" fill="url(#vignette-djoser-pyramid)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">문화·학문</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">조세르의 계단 피라미드</text>
+  </g>
+  <text x="320" y="284" class="year">기원전 2650년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

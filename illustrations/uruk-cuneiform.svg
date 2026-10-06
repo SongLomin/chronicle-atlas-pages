@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="우루크와 쐐기 문자의 탄생">
+<defs>
+  <clipPath id="frame-uruk-cuneiform"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-uruk-cuneiform" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-uruk-cuneiform" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-uruk-cuneiform" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="129" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-uruk-cuneiform" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-uruk-cuneiform"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-uruk-cuneiform" d="M-24 384L154 384L154 379L146 373L142 367L134 365L131 360L128 350L128 341L128 340L133 341L121 329L110 303L98 284L99 278L96 271L90 262L92 262L89 259L92 259L91 257L78 242L73 234L73 225L68 220L72 211L75 223L84 233L85 243L95 254L104 261L103 259L108 255L107 248L111 239L113 226L118 222L115 243L110 253L111 254L113 252L115 253L119 252L122 254L121 255L138 278L147 295L151 297L151 302L155 305L161 315L161 321L159 321L165 330L164 332L173 336L174 335L174 336L184 344L190 357L190 360L194 365L196 373L197 372L194 380L193 380L194 384L584 384L589 375L589 370L583 369L569 349L565 346L560 347L538 340L528 329L524 320L523 307L521 304L525 298L524 297L525 295L523 294L525 294L524 292L526 290L523 289L522 293L524 293L520 292L515 302L509 307L508 306L503 312L504 314L503 313L499 318L491 324L489 329L486 328L489 330L488 330L487 333L481 336L471 338L463 336L453 336L452 335L447 339L439 340L437 339L436 334L434 334L433 331L432 334L427 333L431 327L429 326L427 328L426 326L428 326L428 327L433 318L433 313L431 312L431 307L431 304L433 303L432 299L429 298L426 294L421 298L419 304L421 305L420 307L419 305L418 305L419 309L417 308L419 323L417 324L413 317L412 309L405 304L408 305L405 298L402 297L403 293L405 297L407 291L403 287L402 282L406 283L397 277L395 272L391 273L390 269L388 269L389 267L386 267L390 267L388 265L380 263L381 262L379 261L381 259L379 256L380 255L377 254L375 246L374 246L374 244L371 241L372 239L368 233L367 226L359 225L364 221L368 221L363 209L364 211L367 210L373 213L376 212L377 210L381 211L383 208L381 204L384 202L383 201L388 200L388 204L382 203L387 207L388 206L388 208L393 208L394 211L401 207L404 207L405 213L415 223L415 230L419 230L420 232L418 235L423 239L423 243L429 256L435 258L441 258L449 263L453 267L452 269L468 277L473 282L484 282L486 285L493 287L503 281L507 281L510 276L523 272L532 273L533 276L535 276L534 277L536 279L537 289L539 294L538 296L541 302L550 303L550 305L553 304L557 307L562 306L570 307L574 310L582 309L590 311L598 310L601 312L600 310L603 309L604 313L619 317L622 313L626 314L625 318L628 316L632 316L633 314L637 317L637 315L639 313L658 314L659 311L664 311L664 -24L-24 -24L-24 46L-22 46L-24 52L-8 51L-11 54L-13 54L-14 57L-21 57L-24 58L-24 60L-12 57L-12 59L-15 60L-13 61L-15 62L-14 63L-9 59L-9 56L-7 57L-6 55L1 62L4 58L7 60L5 63L7 63L7 67L17 73L27 69L32 70L34 63L34 57L37 55L49 57L62 63L68 72L77 75L83 73L91 73L93 71L94 73L97 68L99 71L105 62L113 57L125 63L130 62L132 59L129 60L130 58L134 58L138 54L141 57L141 60L133 68L137 75L134 79L134 82L132 86L136 89L137 94L135 101L137 110L131 115L131 122L127 124L120 142L122 143L120 143L120 148L118 149L113 168L103 183L93 187L88 186L83 188L82 185L80 187L82 186L81 188L79 187L75 189L74 188L79 186L73 188L65 183L67 186L64 188L62 185L60 185L57 183L59 178L65 183L60 178L53 180L44 176L42 177L45 179L38 181L34 181L42 176L34 179L30 178L31 180L30 178L30 182L27 183L29 184L27 185L25 182L14 190L5 193L-6 188L-16 187L-17 184L-24 185ZM67 97L70 105L79 107L79 109L81 109L82 106L92 103L94 100L101 100L98 98L100 98L98 93L111 83L93 91L79 90L78 95L72 95L69 98L67 97ZM79 186L85 185L82 184L79 186ZM86 185L89 186L86 185ZM98 265L100 267L98 265ZM147 305L150 306L148 304L147 305ZM148 302L149 304L149 300L148 302ZM150 307L154 309L150 307ZM152 308L154 311L156 310L152 308ZM366 216L368 220L371 218L368 212L368 213L366 216ZM392 269L397 269L392 269ZM411 294L413 302L415 294L413 293L414 292L412 292L411 294ZM417 306L418 303L417 306ZM460 3L461 10L461 2L460 3ZM462 279L467 280L462 279ZM463 333L466 334L468 331L463 333ZM471 336L478 336L476 333L471 336ZM477 286L479 287L477 286ZM485 330L487 330L486 328L485 330ZM503 284L503 286L514 282L515 283L522 277L512 277L512 280L503 284Z"/>
+  <clipPath id="landclip-uruk-cuneiform"><use href="#land-uruk-cuneiform"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-uruk-cuneiform)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-uruk-cuneiform)"/>
+  <use href="#land-uruk-cuneiform" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-uruk-cuneiform" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-uruk-cuneiform" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-uruk-cuneiform)"><path d="M328 163L323 152L309 146L311 143L306 142L303 137L300 137L300 140L297 140L292 146L293 155L295 156L295 159L302 158L305 163L309 163L311 169L315 172L314 175L316 176L323 195L327 199L330 199L332 203L338 205L340 199L350 198L351 186L343 186L337 175L337 171L333 171L329 163Z" fill="rgb(233,195,162)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M366 161L364 161L364 166L367 166L369 172L375 172L375 169L381 166L382 161L376 158L377 155L371 155L367 161Z" fill="rgb(163,203,165)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-uruk-cuneiform" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="372.9" y="163.1" class="lbl">엘람</text>
+  <g transform="translate(320.0 182.4)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-uruk-cuneiform)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-uruk-cuneiform)"/>
+  <rect width="640" height="360" fill="url(#vignette-uruk-cuneiform)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">문화·학문</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">우루크와 쐐기 문자의 탄생</text>
+  </g>
+  <text x="320" y="284" class="year">기원전 3200년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

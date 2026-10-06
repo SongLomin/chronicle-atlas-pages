@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="쿡의 오스트레일리아 동해안 탐험">
+<defs>
+  <clipPath id="frame-cook-australia"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-cook-australia" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-cook-australia" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-cook-australia" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="234" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-cook-australia" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-cook-australia"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-cook-australia" d="M-24 -24L-24 132L-18 133L-10 138L-3 136L3 142L1 145L6 143L8 145L9 148L8 151L8 149L5 149L6 152L5 154L7 154L6 156L10 160L13 159L15 161L14 158L17 159L20 166L19 169L26 175L29 190L31 191L29 191L26 187L24 191L27 191L34 199L37 196L40 200L41 194L37 195L39 189L42 188L42 189L43 186L52 175L58 172L57 172L58 170L59 171L63 170L67 158L71 154L73 155L73 145L78 157L74 161L76 169L70 175L67 181L67 188L68 191L67 198L59 197L57 206L67 202L71 204L73 203L79 180L87 195L85 207L79 214L87 214L91 212L96 212L92 211L96 211L95 209L99 207L102 208L102 211L100 211L102 213L102 215L100 215L99 211L96 213L104 220L108 227L104 221L94 213L106 224L111 237L111 242L108 244L110 248L109 249L114 256L116 257L121 266L127 270L132 270L135 271L140 275L140 278L143 279L146 274L154 278L160 277L166 282L179 288L195 275L200 275L201 272L194 271L197 271L205 265L208 272L206 276L200 276L205 280L210 278L211 274L215 274L216 277L214 278L213 281L217 284L221 284L223 290L226 288L228 289L232 295L233 293L233 287L230 290L229 285L240 284L257 268L267 264L289 263L292 261L294 259L293 257L298 257L297 252L299 251L296 247L301 230L299 224L302 218L301 216L303 216L308 204L312 204L311 200L313 201L311 197L315 191L313 190L315 188L316 183L321 178L318 178L321 176L323 169L320 169L321 167L324 167L325 162L327 162L331 153L338 150L336 149L339 149L340 146L345 143L345 134L352 122L355 110L353 106L359 87L360 75L364 67L364 54L360 48L361 44L354 34L355 32L354 32L357 29L354 14L357 6L354 4L353 7L353 4L351 1L352 -3L352 -4L351 -3L352 -7L345 -9L346 -10L343 -17L335 -24ZM42 198L44 201L42 198ZM50 220L54 224L63 222L67 224L70 223L70 220L74 219L78 220L80 218L76 216L74 218L73 216L70 216L70 213L65 213L52 217L50 220ZM185 314L186 319L190 316L190 308L187 305L185 308L185 314ZM199 340L205 357L211 365L210 369L212 368L215 372L216 373L215 377L214 374L209 369L211 379L213 384L259 384L260 381L259 378L261 377L262 373L260 373L263 367L265 367L264 366L265 363L266 365L264 366L267 367L266 370L268 370L266 359L267 340L262 334L258 337L254 336L251 340L248 338L240 341L242 344L239 344L238 341L235 344L228 344L221 340L216 336L212 336L211 333L208 335L202 333L201 331L199 340ZM201 327L201 330L202 325L201 327ZM204 332L204 333L207 333L205 330L204 332ZM208 281L213 281L211 279L208 281ZM211 277L212 278L215 277L211 275L211 277ZM233 286L234 287L237 286L233 286ZM257 313L259 313L262 321L267 321L267 318L265 319L267 315L264 314L260 309L257 313ZM261 326L267 326L267 328L270 326L267 323L261 326ZM263 328L265 330L266 327L263 328ZM352 -1L355 3L360 -13L358 -19L356 -17L358 -14L353 -9L354 -6L352 -1ZM360 29L361 35L362 28L360 29ZM360 42L361 43L363 36L361 36L360 42Z"/>
+  <clipPath id="landclip-cook-australia"><use href="#land-cook-australia"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-cook-australia)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-cook-australia)"/>
+  <use href="#land-cook-australia" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-cook-australia" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-cook-australia" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-cook-australia)"></g>
+  <use href="#land-cook-australia" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  
+  <g transform="translate(320.0 177.3)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-cook-australia)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M10 64 L90 64 L78 82 L22 82 Z" fill="#8a5a2b" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 64 L50 10" stroke="#3b2412" stroke-width="3"/>
+    <path d="M52 14 C70 20 74 40 72 58 L52 58 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M48 20 C32 26 28 42 30 58 L48 58 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M50 10 L62 6 L50 3" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M6 90 C16 84 24 96 34 90 C44 84 52 96 62 90 C72 84 80 96 94 90" fill="none" stroke="#3f6e9a" stroke-width="3"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-cook-australia)"/>
+  <rect width="640" height="360" fill="url(#vignette-cook-australia)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M10 64 L90 64 L78 82 L22 82 Z" fill="#8a5a2b" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 64 L50 10" stroke="#3b2412" stroke-width="3"/>
+    <path d="M52 14 C70 20 74 40 72 58 L52 58 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M48 20 C32 26 28 42 30 58 L48 58 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M50 10 L62 6 L50 3" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M6 90 C16 84 24 96 34 90 C44 84 52 96 62 90 C72 84 80 96 94 90" fill="none" stroke="#3f6e9a" stroke-width="3"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">탐험·항해</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:19px">쿡의 오스트레일리아 동해안 탐험</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1770년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

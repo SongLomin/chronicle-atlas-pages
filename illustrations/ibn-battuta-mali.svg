@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="이븐 바투타의 말리 방문">
+<defs>
+  <clipPath id="frame-ibn-battuta-mali"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-ibn-battuta-mali" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-ibn-battuta-mali" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-ibn-battuta-mali" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="72" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-ibn-battuta-mali" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-ibn-battuta-mali"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-ibn-battuta-mali" d="M3 59L4 64L5 59L3 59ZM3 77L7 78L9 76L9 74L4 72L3 77ZM121 106L123 108L124 106L128 107L134 114L138 121L138 126L139 121L140 121L139 122L140 123L144 118L147 119L142 122L142 123L138 124L139 128L144 123L144 127L142 126L141 130L144 129L142 131L143 137L148 138L152 135L164 133L170 134L169 135L165 134L151 136L150 138L151 139L150 139L149 138L145 139L146 141L140 134L137 138L138 144L137 152L139 151L138 152L138 155L141 153L142 150L141 153L144 154L144 152L147 155L153 153L154 151L157 154L162 155L165 153L164 150L168 149L165 150L165 153L162 155L154 153L143 155L142 153L138 156L137 158L145 164L153 160L147 166L152 170L158 167L161 167L158 168L156 173L159 170L160 171L158 173L167 168L172 169L176 168L175 171L178 173L175 172L175 169L172 170L167 170L165 172L165 175L167 174L167 177L171 173L171 175L174 174L173 175L176 176L174 178L174 176L170 176L170 178L166 179L165 182L169 179L169 181L171 180L167 183L169 186L171 187L172 184L171 190L176 185L174 190L176 190L175 193L177 195L178 189L180 190L183 188L180 192L181 194L182 193L181 195L182 196L184 194L183 198L187 192L184 200L184 201L187 201L188 207L193 208L193 209L195 208L195 211L198 207L197 211L202 215L205 213L204 217L206 215L208 216L204 223L207 221L208 223L209 221L209 224L211 224L211 228L213 226L213 230L215 228L214 230L216 230L213 232L214 235L220 237L215 238L216 244L218 243L216 241L219 242L219 243L223 241L221 243L223 243L217 245L219 248L214 245L216 252L221 250L224 258L221 258L225 260L226 262L229 263L232 261L230 263L232 265L238 265L232 266L231 268L234 269L231 269L251 278L255 281L256 284L269 291L268 293L277 297L276 295L284 302L301 318L323 331L335 336L341 336L353 329L373 322L382 319L394 319L389 317L390 318L385 318L387 317L394 317L396 319L416 317L412 315L398 318L401 315L401 317L403 315L416 316L418 314L421 316L420 313L422 316L416 316L431 319L432 314L434 314L433 317L434 318L441 318L438 320L431 319L452 323L457 327L460 327L468 321L485 317L508 305L524 304L527 299L534 296L553 292L576 291L579 287L579 288L585 286L587 287L576 290L599 292L606 297L613 305L618 302L614 304L614 308L618 308L619 306L619 308L621 307L623 309L616 309L617 312L621 313L626 310L623 311L624 313L619 314L620 318L622 318L620 319L624 329L631 335L632 336L633 334L635 337L635 334L635 337L637 337L638 333L639 335L641 334L639 337L645 336L646 332L647 336L648 336L648 332L648 334L649 330L649 336L652 336L649 325L650 326L652 335L656 335L653 328L655 330L654 327L656 329L656 334L659 332L657 327L661 332L662 332L661 330L664 331L664 -24L147 -24L150 -19L150 -14L148 -11L149 -12L150 -9L145 0L147 -3L146 -1L148 -3L148 -1L143 1L150 10L153 21L154 40L145 63L143 83L130 102L121 106ZM145 178L148 179L149 177L145 178ZM148 180L151 178L148 180ZM148 185L151 185L151 183L148 185ZM149 187L153 189L153 186L149 187ZM151 170L154 173L155 170L151 170ZM153 179L157 180L157 177L153 179ZM153 186L154 188L155 185L153 186ZM155 189L157 188L156 185L155 189ZM159 185L161 186L162 183L159 185ZM163 178L166 177L166 176L163 178ZM221 265L230 269L231 265L229 264L221 265Z"/>
+  <clipPath id="landclip-ibn-battuta-mali"><use href="#land-ibn-battuta-mali"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-ibn-battuta-mali)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-ibn-battuta-mali)"/>
+  <use href="#land-ibn-battuta-mali" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-ibn-battuta-mali" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-ibn-battuta-mali" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-ibn-battuta-mali)"><path d="M611 290L614 300L620 303L626 304L633 304L640 301L644 292L643 285L640 281L624 276L616 278L611 288Z" fill="rgb(139,189,186)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M537 89L540 93L539 109L529 113L508 113L507 109L502 107L500 102L494 100L495 93L492 93L487 86L468 77L449 77L438 80L439 83L431 84L431 87L423 94L419 104L419 112L413 119L414 122L409 123L408 129L403 130L386 146L382 146L383 149L379 149L379 152L371 158L373 161L365 162L357 169L351 195L345 205L346 208L343 208L337 216L327 219L327 222L324 220L319 223L313 223L300 218L289 208L281 185L278 186L276 179L271 175L263 175L260 168L234 162L220 156L218 153L209 153L210 151L177 145L170 146L170 142L137 143L137 136L143 135L143 130L141 128L138 128L138 122L133 112L128 107L123 107L124 103L132 100L132 97L137 94L142 86L144 65L149 56L160 58L203 55L205 52L213 54L221 51L249 51L256 48L264 49L264 46L275 48L293 46L299 43L309 45L344 40L397 45L431 37L493 32L512 36L524 45L530 58Z" fill="rgb(218,181,191)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-ibn-battuta-mali" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="285.9" y="117.6" class="lbl">말리 제국</text>
+  <g transform="translate(320.0 180.8)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-ibn-battuta-mali)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M10 64 L90 64 L78 82 L22 82 Z" fill="#8a5a2b" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 64 L50 10" stroke="#3b2412" stroke-width="3"/>
+    <path d="M52 14 C70 20 74 40 72 58 L52 58 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M48 20 C32 26 28 42 30 58 L48 58 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M50 10 L62 6 L50 3" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M6 90 C16 84 24 96 34 90 C44 84 52 96 62 90 C72 84 80 96 94 90" fill="none" stroke="#3f6e9a" stroke-width="3"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-ibn-battuta-mali)"/>
+  <rect width="640" height="360" fill="url(#vignette-ibn-battuta-mali)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M10 64 L90 64 L78 82 L22 82 Z" fill="#8a5a2b" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 64 L50 10" stroke="#3b2412" stroke-width="3"/>
+    <path d="M52 14 C70 20 74 40 72 58 L52 58 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M48 20 C32 26 28 42 30 58 L48 58 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M50 10 L62 6 L50 3" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M6 90 C16 84 24 96 34 90 C44 84 52 96 62 90 C72 84 80 96 94 90" fill="none" stroke="#3f6e9a" stroke-width="3"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">탐험·항해</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">이븐 바투타의 말리 방문</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1352년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>
