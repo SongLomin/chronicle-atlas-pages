@@ -31,7 +31,14 @@
        <use href="#hl-indian-rebellion-5" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-indian-rebellion-5" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-indian-rebellion" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
-  <text x="318.8" y="138.5" class="lbl hl">무굴 제국</text><text x="578.5" y="192.2" class="lbl">네팔</text>
+  <g>
+    
+    
+  </g>
+  <g transform="translate(320 30)">
+    <path d="M-70 -13 L70 -13 L80 0 L70 13 L-70 13 L-80 0 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <text y="1" class="war">⚔ 인도 대반란</text>
+  </g><text x="318.8" y="138.5" class="lbl hl">무굴 제국</text><text x="578.5" y="192.2" class="lbl">네팔</text>
   <g transform="translate(318.8 180.5)">
     <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
     <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-indian-rebellion)"/>
@@ -73,5 +80,6 @@
   .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
   .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
   .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+  .war { font-size: 13px; font-weight: 800; fill: #f4e8c8; dominant-baseline: middle; letter-spacing: 1px; }
 </style>
 </svg>

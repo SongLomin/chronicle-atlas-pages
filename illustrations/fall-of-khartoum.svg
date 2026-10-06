@@ -31,7 +31,14 @@
        <use href="#hl-fall-of-khartoum-31" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-fall-of-khartoum-31" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-fall-of-khartoum" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
-  <text x="320.5" y="109.0" class="lbl hl">마흐디국</text><text x="112.1" y="188.6" class="lbl">소코토 칼리프국</text><text x="218.2" y="171.1" class="lbl">와다이 제국</text><text x="459.8" y="50.9" class="lbl">네지드 토후국</text><text x="396.5" y="178.1" class="lbl">에티오피아 제국</text><text x="577.6" y="67.7" class="lbl">오만</text><text x="489.0" y="237.2" class="lbl">호비오 술탄국</text>
+  <g>
+    
+    
+  </g>
+  <g transform="translate(320 30)">
+    <path d="M-70 -13 L70 -13 L80 0 L70 13 L-70 13 L-80 0 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <text y="1" class="war">⚔ 마흐디 전쟁</text>
+  </g><text x="320.5" y="109.0" class="lbl hl">마흐디국</text><text x="112.1" y="188.6" class="lbl">소코토 칼리프국</text><text x="218.2" y="171.1" class="lbl">와다이 제국</text><text x="459.8" y="50.9" class="lbl">네지드 토후국</text><text x="396.5" y="178.1" class="lbl">에티오피아 제국</text><text x="577.6" y="67.7" class="lbl">오만</text>
   <g transform="translate(320.5 151.0)">
     <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
     <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-fall-of-khartoum)"/>
@@ -81,5 +88,6 @@
   .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
   .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
   .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+  .war { font-size: 13px; font-weight: 800; fill: #f4e8c8; dominant-baseline: middle; letter-spacing: 1px; }
 </style>
 </svg>

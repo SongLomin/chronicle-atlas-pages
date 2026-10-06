@@ -31,7 +31,15 @@
        <use href="#hl-fei-river-13" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-fei-river-13" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-fei-river" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
-  <text x="348.4" y="146.7" class="lbl hl">전진 (오호 십육국)</text><text x="177.0" y="170.4" class="lbl">토욕혼</text><text x="532.0" y="116.7" class="lbl">고구려</text><text x="519.6" y="68.8" class="lbl">부여</text><text x="533.8" y="191.2" class="lbl">백제</text><text x="546.1" y="172.8" class="lbl">동예</text><text x="525.6" y="235.0" class="lbl">탐라</text>
+  <g>
+    <path d="M229.6 253.2 L229.3 254.2 L240.2 250.6 L254.9 249.7 L257.2 250.6 L259.3 256.0 L265.3 256.8 L267.7 255.0 L274.2 254.2 L286.2 246.9 L292.1 245.1 L301.8 237.1 L303.4 238.0 L303.1 241.6 L305.8 241.6 L308.4 238.8 L310.1 242.5 L320.9 242.5 L322.8 245.1 L324.5 245.1 L324.9 246.9 L329.4 246.9 L329.7 248.7 L332.8 250.6 L345.4 250.6 L349.9 247.9 L371.3 242.5 L382.7 224.4 L384.2 219.7 L383.0 217.8 L386.5 210.5 L388.3 207.8 L393.6 205.9 L394.0 202.1 L393.0 202.1 L396.0 196.5 L395.0 196.5 L396.1 193.7 L395.2 193.7 L396.2 190.9 L395.3 190.9 L396.7 187.1 L395.5 185.2 L397.6 179.6 L402.9 172.8 L408.9 169.0 L414.8 168.0 L421.2 161.2 L420.2 161.2 L420.8 157.3 L420.0 157.3" fill="none" stroke="#c0301c" stroke-width="9" stroke-opacity="0.35" stroke-linejoin="round" filter="url(#glow-fei-river)"/>
+    <path d="M229.6 253.2 L229.3 254.2 L240.2 250.6 L254.9 249.7 L257.2 250.6 L259.3 256.0 L265.3 256.8 L267.7 255.0 L274.2 254.2 L286.2 246.9 L292.1 245.1 L301.8 237.1 L303.4 238.0 L303.1 241.6 L305.8 241.6 L308.4 238.8 L310.1 242.5 L320.9 242.5 L322.8 245.1 L324.5 245.1 L324.9 246.9 L329.4 246.9 L329.7 248.7 L332.8 250.6 L345.4 250.6 L349.9 247.9 L371.3 242.5 L382.7 224.4 L384.2 219.7 L383.0 217.8 L386.5 210.5 L388.3 207.8 L393.6 205.9 L394.0 202.1 L393.0 202.1 L396.0 196.5 L395.0 196.5 L396.1 193.7 L395.2 193.7 L396.2 190.9 L395.3 190.9 L396.7 187.1 L395.5 185.2 L397.6 179.6 L402.9 172.8 L408.9 169.0 L414.8 168.0 L421.2 161.2 L420.2 161.2 L420.8 157.3 L420.0 157.3" fill="none" stroke="#b3261a" stroke-width="2.6" stroke-dasharray="7 3 2 3" stroke-linejoin="round"/>
+    
+  </g>
+  <g transform="translate(320 30)">
+    <path d="M-63 -13 L63 -13 L73 0 L63 13 L-63 13 L-73 0 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <text y="1" class="war">⚔ 비수 대전</text>
+  </g><text x="348.4" y="146.7" class="lbl hl">전진 (오호 십육국)</text><text x="177.0" y="170.4" class="lbl">토욕혼</text><text x="532.0" y="116.7" class="lbl">고구려</text><text x="519.6" y="68.8" class="lbl">부여</text><text x="533.8" y="191.2" class="lbl">백제</text><text x="546.1" y="172.8" class="lbl">동예</text>
   <g transform="translate(348.4 188.7)">
     <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
     <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-fei-river)"/>
@@ -73,5 +81,6 @@
   .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
   .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
   .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+  .war { font-size: 13px; font-weight: 800; fill: #f4e8c8; dominant-baseline: middle; letter-spacing: 1px; }
 </style>
 </svg>

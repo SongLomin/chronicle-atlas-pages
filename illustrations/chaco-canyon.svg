@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="차코 협곡의 전성기">
+<defs>
+  <clipPath id="frame-chaco-canyon"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-chaco-canyon" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-chaco-canyon" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-chaco-canyon" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="26" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-chaco-canyon" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-chaco-canyon"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-chaco-canyon" d="M31 -24L31 -19L32 -19L31 -14L32 -14L30 -11L29 5L30 3L31 4L29 5L26 12L29 10L30 12L28 11L27 14L26 13L25 14L22 25L25 31L26 43L29 46L28 51L31 57L30 66L30 69L28 75L30 73L31 74L28 77L28 75L25 83L26 87L35 97L37 118L48 129L53 137L50 134L50 139L52 138L59 143L60 142L59 137L61 136L66 138L67 136L70 138L74 136L72 138L75 137L78 139L76 138L75 139L75 137L74 139L62 139L61 140L63 142L62 144L64 145L68 151L62 148L61 144L59 144L59 150L62 159L66 163L70 163L72 166L73 168L69 171L70 177L77 184L81 192L88 197L88 201L93 203L93 216L96 218L112 219L120 226L126 228L130 227L133 234L138 234L149 242L152 247L153 256L156 256L156 258L154 256L157 265L161 271L165 274L164 276L162 276L164 278L164 280L170 287L170 293L175 296L175 303L176 305L176 302L176 304L179 305L179 313L181 315L181 318L194 325L211 343L209 348L211 353L210 353L210 355L209 352L207 356L209 355L209 359L211 359L211 358L213 359L213 361L210 360L210 362L207 359L206 356L203 358L192 357L193 359L203 366L204 370L215 375L218 379L221 378L225 379L227 374L225 378L228 378L229 382L231 384L258 383L255 383L255 380L251 376L251 379L253 382L251 382L247 374L248 372L245 370L241 363L235 359L232 345L228 343L226 337L223 337L222 334L220 335L218 327L208 318L205 317L202 313L200 308L199 293L196 289L198 278L193 271L208 281L211 281L212 278L218 281L218 285L228 288L228 299L234 308L234 314L241 323L240 326L243 327L245 334L250 337L248 338L253 344L258 346L264 355L266 354L268 357L268 354L268 355L274 356L273 357L274 359L272 361L274 366L276 368L274 368L278 371L284 372L287 379L292 380L291 379L293 379L297 384L508 384L506 374L508 373L509 368L503 368L505 367L503 364L505 368L508 366L507 368L509 367L512 360L507 356L513 357L516 352L514 353L513 350L516 349L517 351L518 348L517 351L519 350L520 349L520 344L523 347L527 345L525 344L526 343L523 339L526 341L526 342L528 341L526 338L528 341L531 339L531 341L532 341L530 342L535 340L530 344L537 340L539 339L535 341L535 340L546 335L549 332L549 329L556 325L552 322L551 318L554 320L557 317L556 322L562 322L557 326L568 319L572 319L571 317L573 313L575 313L572 317L573 319L585 317L600 322L606 320L602 317L609 316L609 318L613 318L614 322L619 323L620 321L619 324L622 328L620 325L618 326L619 328L628 331L630 330L631 327L634 326L635 328L636 327L637 328L638 331L640 330L642 324L638 323L639 321L645 323L647 326L645 327L652 328L653 331L655 330L652 335L655 331L657 333L660 329L657 328L656 326L650 325L650 324L646 320L649 320L647 319L651 320L649 318L651 316L654 317L654 315L652 314L653 314L652 313L653 312L651 311L648 315L645 312L647 312L648 309L639 312L634 310L638 305L649 309L652 309L654 305L655 306L662 304L661 303L664 305L664 -24ZM96 227L99 228L96 227ZM100 228L102 230L105 229L103 227L100 228ZM105 227L107 229L113 227L105 227ZM112 244L114 245L112 244ZM129 249L131 253L134 253L129 249ZM129 239L132 243L135 243L133 241L129 239ZM133 330L135 336L135 329L133 330ZM187 352L191 353L190 346L187 352ZM197 276L200 277L198 275L197 276ZM219 325L228 333L226 327L223 327L220 322L219 325ZM232 340L234 342L232 340ZM237 336L243 338L244 333L243 328L239 329L237 336ZM509 369L516 357L512 360L509 369ZM516 356L519 351L516 356ZM519 352L527 345L520 350L519 352ZM550 331L557 326L555 326L550 331ZM605 321L609 323L611 321L608 320L605 321Z"/>
+  <clipPath id="landclip-chaco-canyon"><use href="#land-chaco-canyon"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-chaco-canyon)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-chaco-canyon)"/>
+  <use href="#land-chaco-canyon" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-chaco-canyon" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-chaco-canyon" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-chaco-canyon)"><path d="M332 157L310 151L304 146L289 146L284 150L291 156L297 171L283 185L287 206L301 219L310 222L320 214L335 195L323 182L332 157Z" fill="rgb(204,158,152)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M628 135L629 139L634 142L640 143L646 142L651 137L653 133L652 122L646 117L638 117L632 123L628 134Z" fill="rgb(146,181,176)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-chaco-canyon" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  
+  <g transform="translate(320.0 182.9)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-chaco-canyon)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-chaco-canyon)"/>
+  <rect width="640" height="360" fill="url(#vignette-chaco-canyon)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">문화·학문</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">차코 협곡의 전성기</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1050년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

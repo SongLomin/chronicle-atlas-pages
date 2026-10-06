@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="뉴질랜드 모아의 멸종">
+<defs>
+  <clipPath id="frame-maori-moa"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-maori-moa" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-maori-moa" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-maori-moa" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="120" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-maori-moa" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-maori-moa"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-maori-moa" d="M-24 -24L-24 -19L-22 -24ZM212 349L212 350L214 350L215 348L215 350L218 350L216 347L218 346L217 344L219 343L215 342L215 346L212 349ZM213 350L214 352L218 351L213 350ZM221 229L222 233L226 230L225 231L227 231L224 235L229 232L225 236L226 238L235 239L237 236L239 237L243 242L249 241L251 244L252 243L252 244L250 245L252 247L252 245L256 247L256 246L260 246L260 248L263 249L274 245L273 244L276 244L284 232L291 230L291 228L287 230L290 228L288 226L292 221L293 215L298 208L297 200L300 194L316 184L317 182L321 183L317 184L323 183L326 185L326 182L326 185L328 184L327 180L321 179L324 179L322 178L322 171L325 167L331 164L335 154L338 153L347 138L343 131L348 127L341 128L346 126L345 124L347 125L348 122L346 123L345 121L342 121L343 124L342 125L342 124L341 126L345 126L339 128L342 123L339 124L339 122L343 121L340 120L337 122L338 124L336 123L328 129L327 118L324 119L321 114L322 112L326 112L320 112L320 114L312 120L311 131L308 136L302 138L298 153L292 162L283 168L282 170L274 178L269 180L259 187L252 188L243 199L245 203L242 201L240 203L241 205L239 204L239 207L239 205L237 205L238 210L236 206L233 209L235 211L232 210L234 212L233 213L232 211L231 212L233 214L230 213L231 216L234 216L235 217L231 217L233 221L232 219L230 220L231 218L228 216L227 217L229 220L226 219L225 223L231 221L230 223L226 224L226 225L228 225L226 226L230 226L221 229ZM222 227L224 225L224 227L226 227L226 224L223 224L222 227ZM228 215L231 217L229 213L228 215ZM238 263L241 262L242 261L240 261L242 259L244 261L250 258L250 256L246 256L246 254L249 253L245 249L242 249L243 254L238 263ZM321 -11L329 -2L330 2L328 4L331 5L330 7L332 5L332 10L336 5L337 6L333 11L344 27L346 26L341 18L341 17L344 23L347 25L345 22L347 22L348 24L349 22L350 22L347 25L351 24L347 26L350 27L349 32L345 28L351 40L355 38L358 41L354 42L355 43L354 44L353 41L351 40L354 46L356 45L354 48L356 55L358 54L355 57L355 59L357 59L355 61L358 61L354 62L352 76L349 79L340 83L339 86L342 91L348 93L352 97L358 99L361 103L362 107L361 115L356 124L352 127L354 129L357 127L356 131L361 131L362 135L364 135L374 127L388 104L393 94L390 93L389 89L392 84L397 81L403 82L405 82L405 85L407 83L405 82L406 74L408 74L412 70L412 60L416 53L411 50L407 50L403 53L400 58L393 60L378 52L378 54L375 52L374 50L377 52L374 49L372 36L370 37L372 34L369 34L367 29L364 29L367 32L367 35L366 36L368 44L368 43L364 43L362 38L360 39L359 37L358 38L358 36L357 38L357 36L353 37L352 35L356 36L354 32L356 31L354 31L354 27L355 29L355 26L357 26L350 19L351 16L348 16L348 14L352 16L348 3L345 5L347 6L345 7L343 4L345 2L341 -1L339 1L339 0L336 -2L336 0L334 -1L334 -5L331 0L331 -2L328 -4L329 -4L327 -9L327 -7L325 -10L326 -11L327 -10L327 -12L322 -12L321 -11ZM339 120L341 119L342 116L341 118L340 117L339 120ZM346 127L349 126L349 124L346 127ZM359 35L362 36L362 34L359 35ZM364 23L367 26L365 20L364 23ZM418 321L420 322L420 320L418 321Z"/>
+  <clipPath id="landclip-maori-moa"><use href="#land-maori-moa"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-maori-moa)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-maori-moa)"/>
+  <use href="#land-maori-moa" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-maori-moa" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-maori-moa" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-maori-moa)"></g>
+  <use href="#land-maori-moa" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  
+  <g transform="translate(320.0 176.3)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-maori-moa)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M8 86 L36 44 L44 50 L56 42 L64 48 L92 86 Z" fill="#8b6b4a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M36 44 L44 50 L56 42 L64 48 L58 60 L50 54 L42 62 Z" fill="#e0562c" stroke="#3b2412" stroke-width="2"/>
+    <path d="M50 38 C38 30 44 18 52 20 C54 10 70 12 66 24 C76 26 70 38 60 34" fill="#9aa0a0" stroke="#3b2412" stroke-width="2.5"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-maori-moa)"/>
+  <rect width="640" height="360" fill="url(#vignette-maori-moa)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M8 86 L36 44 L44 50 L56 42 L64 48 L92 86 Z" fill="#8b6b4a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M36 44 L44 50 L56 42 L64 48 L58 60 L50 54 L42 62 Z" fill="#e0562c" stroke="#3b2412" stroke-width="2"/>
+    <path d="M50 38 C38 30 44 18 52 20 C54 10 70 12 66 24 C76 26 70 38 60 34" fill="#9aa0a0" stroke="#3b2412" stroke-width="2.5"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">재난·재건</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">뉴질랜드 모아의 멸종</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1400년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

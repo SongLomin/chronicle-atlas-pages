@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="자라 야코브의 에티오피아">
+<defs>
+  <clipPath id="frame-ethiopia-zara-yaqob"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-ethiopia-zara-yaqob" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-ethiopia-zara-yaqob" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-ethiopia-zara-yaqob" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="154" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-ethiopia-zara-yaqob" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-ethiopia-zara-yaqob"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-ethiopia-zara-yaqob" d="M-24 -24L-24 384L403 384L430 359L463 340L504 296L528 259L533 244L544 227L545 219L551 214L559 198L567 186L569 166L573 165L580 165L580 163L575 161L576 164L571 164L575 160L574 151L575 148L573 147L573 144L577 133L567 129L561 131L560 134L555 138L540 141L532 145L526 146L517 144L508 148L499 149L492 147L471 158L457 154L439 164L425 164L414 156L407 146L407 143L402 141L399 138L386 140L385 138L389 139L391 135L397 133L400 130L404 129L405 124L403 118L396 109L394 111L391 110L390 106L386 101L382 102L380 94L378 92L379 94L376 92L373 88L367 85L356 70L347 68L345 64L342 61L337 63L334 62L331 56L332 54L328 50L325 53L327 58L326 60L324 59L322 50L318 50L318 43L315 40L307 7L300 -7L297 -5L300 -7L299 -9L295 -12L291 -12L293 -14L290 -13L288 -15L289 -17L281 -22L281 -23L276 -24L357 -24L362 -18L363 -12L368 -5L381 6L382 15L382 12L390 22L392 37L392 42L389 46L392 55L391 57L390 53L388 57L393 58L395 63L395 66L393 64L396 74L395 72L402 90L401 100L406 110L406 113L409 112L417 116L427 114L431 111L437 113L437 111L440 110L439 111L441 112L442 107L449 105L454 99L477 97L492 92L506 83L509 85L521 83L527 77L529 72L535 69L548 65L553 65L561 60L579 56L598 47L596 39L599 33L605 29L622 22L628 21L638 16L650 15L654 17L659 16L664 11L664 -24ZM329 44L332 46L329 46L330 48L339 48L337 46L334 47L333 43L331 41L329 41L331 42L329 44ZM330 38L333 39L333 37L331 36L330 38ZM369 19L372 23L376 23L378 25L376 21L373 22L369 19ZM370 18L374 21L372 16L371 16L372 17L370 18ZM386 55L387 54L388 51L386 55ZM389 92L391 89L389 92ZM389 84L391 86L391 82L389 84ZM594 124L601 126L594 124ZM621 117L627 121L631 122L640 121L648 117L639 113L633 116L626 113L621 117Z"/>
+  <clipPath id="landclip-ethiopia-zara-yaqob"><use href="#land-ethiopia-zara-yaqob"/></clipPath>
+  <path id="hl-ethiopia-zara-yaqob-6" d="M327 61L323 90L326 93L324 99L326 99L326 106L327 111L330 112L336 134L337 134L337 139L342 149L342 184L344 184L348 197L357 204L357 206L373 209L377 205L380 205L376 215L376 226L380 231L380 236L377 239L375 248L369 248L367 250L369 255L365 258L358 250L356 243L353 245L351 250L348 250L348 255L356 260L356 263L359 263L357 272L352 267L346 266L336 275L327 275L325 270L322 272L314 266L313 260L309 259L310 252L299 246L302 243L300 236L297 238L296 235L293 235L289 239L286 239L285 236L277 236L275 233L269 232L271 219L269 218L275 218L276 212L271 211L273 206L268 201L267 192L275 182L275 175L271 165L260 164L253 159L253 155L258 149L257 145L260 142L259 124L263 119L265 109L270 103L268 99L271 99L278 86L277 80L284 69L290 47L293 45L298 34L301 32L310 17L313 20L314 34L319 41L319 45L323 50L324 57L328 57L328 60Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-ethiopia-zara-yaqob)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-ethiopia-zara-yaqob)"/>
+  <use href="#land-ethiopia-zara-yaqob" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-ethiopia-zara-yaqob" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-ethiopia-zara-yaqob" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-ethiopia-zara-yaqob)"><path d="M229 -6L232 1L243 9L244 20L236 28L215 28L211 34L214 44L201 42L196 51L167 57L167 54L151 50L145 39L145 34L142 31L144 25L138 9L135 -14L145 -11L182 -14L202 -8L210 -8L213 -5L227 -6Z" fill="rgb(217,194,202)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M460 -3L472 10L475 10L479 19L483 17L483 22L489 26L492 32L552 25L560 26L586 23L601 32L599 48L582 57L566 60L554 66L536 69L523 83L500 86L498 90L480 98L456 99L441 112L431 112L426 115L406 113L406 109L401 105L402 90L397 85L395 64L394 60L390 58L390 42L391 42L392 25L384 16L385 13L381 13L382 9L379 4L389 0L400 -11L407 -12L421 -24L441 -24L458 -3Z" fill="rgb(161,178,126)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M403 384L430 359L450 347L470 326L507 276L509 266L505 261L497 257L486 255L471 257L462 262L433 287L392 304L378 313L368 325L362 337L356 358L352 384Z" fill="rgb(189,188,126)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M121 372L124 379L132 378L155 362L160 356L161 352L157 349L151 347L138 349L125 361L121 370Z" fill="rgb(173,168,182)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M357 -24L357 -21L362 -18L365 -9L377 4L389 0L400 -11L407 -12L421 -24Z" fill="rgb(224,206,157)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M392 138L401 138L411 147L412 152L420 161L426 164L442 162L442 165L437 172L434 172L429 178L419 181L416 185L411 187L411 189L388 199L386 202L383 202L383 205L380 204L373 209L357 206L357 204L348 197L344 184L342 149L337 139L337 132L393 108L399 109L401 115L407 122L406 129L392 135L390 138Z" fill="rgb(203,158,154)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-ethiopia-zara-yaqob-6" fill="rgb(120,201,185)" stroke="none"/>
+       <use href="#hl-ethiopia-zara-yaqob-6" fill="url(#hatch-ethiopia-zara-yaqob)" stroke="none"/>
+       <use href="#hl-ethiopia-zara-yaqob-6" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-ethiopia-zara-yaqob-6" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-ethiopia-zara-yaqob" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="302.1" y="134.6" class="lbl hl">에티오피아 제국</text><text x="467.7" y="53.0" class="lbl">라술 왕조</text><text x="387.2" y="168.0" class="lbl">아달 술탄국</text>
+  <g transform="translate(320.0 180.7)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-ethiopia-zara-yaqob)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M26 22 L74 22 C80 22 80 34 74 34 L74 78 C74 84 68 86 64 84 L24 84 C18 84 18 72 24 72 L26 72 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M26 22 C20 22 20 34 26 34" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 40 L66 40 M34 48 L66 48 M34 56 L60 56 M34 64 L54 64" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="62" cy="74" r="8" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/><path d="M58 80 L56 90 L62 86 L66 90 L66 80" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-ethiopia-zara-yaqob)"/>
+  <rect width="640" height="360" fill="url(#vignette-ethiopia-zara-yaqob)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M26 22 L74 22 C80 22 80 34 74 34 L74 78 C74 84 68 86 64 84 L24 84 C18 84 18 72 24 72 L26 72 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M26 22 C20 22 20 34 26 34" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 40 L66 40 M34 48 L66 48 M34 56 L60 56 M34 64 L54 64" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="62" cy="74" r="8" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/><path d="M58 80 L56 90 L62 86 L66 90 L66 80" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">체제 전환</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">자라 야코브의 에티오피아</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1434년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>
