@@ -15,9 +15,9 @@
     <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
   </radialGradient>
   <filter id="glow-great-zimbabwe"><feGaussianBlur stdDeviation="3"/></filter>
-  <path id="land-great-zimbabwe" d="M-24 -24L-24 384L460 384L480 377L498 368L512 349L516 336L513 332L513 336L509 335L510 338L507 340L509 330L508 327L509 327L510 331L513 306L518 294L516 296L514 285L516 262L515 268L514 259L512 260L511 262L512 264L511 264L510 266L511 272L510 276L506 271L507 259L505 239L499 228L499 219L497 225L496 223L497 221L495 216L497 215L497 212L499 209L497 208L496 209L494 200L492 199L489 199L490 197L488 198L484 191L481 192L483 189L480 185L482 185L484 179L480 175L484 177L485 175L485 165L482 164L485 161L479 152L475 153L476 151L479 152L489 163L508 149L521 134L520 132L529 126L528 124L531 125L533 122L534 123L539 118L540 122L545 122L544 114L546 117L550 117L549 114L553 108L556 107L556 105L565 97L568 93L565 94L566 92L569 92L573 86L570 85L567 79L570 79L573 85L582 73L610 57L619 54L617 50L619 50L621 54L634 47L641 46L641 43L643 45L649 44L658 42L659 39L657 39L664 34L664 -24ZM511 244L512 245L514 234L511 244Z"/>
+  <path id="land-great-zimbabwe" d="M-24 -24L-24 384L457 384L482 375L500 366L514 347L518 334L515 330L515 334L511 333L512 336L509 338L511 328L510 325L511 325L512 329L515 304L520 292L518 294L516 283L518 260L517 266L516 257L514 258L513 260L514 262L513 262L512 264L513 270L512 274L508 269L510 257L507 237L501 226L501 217L499 223L498 221L500 219L497 214L499 213L499 210L501 207L499 206L498 207L496 198L494 197L491 197L492 195L490 196L486 189L483 190L485 187L482 183L484 183L486 177L482 173L486 175L487 173L487 163L484 162L487 159L481 150L477 151L478 149L481 150L491 161L510 147L523 132L523 130L531 124L530 122L533 123L535 120L537 121L541 116L542 120L547 120L546 112L548 115L552 115L551 112L555 106L558 105L558 103L567 95L570 91L568 92L569 90L572 90L575 84L572 83L569 77L572 77L575 83L584 71L612 55L621 52L619 48L621 48L623 52L637 45L643 44L643 41L645 43L651 42L660 40L661 37L659 37L664 33L664 -24ZM513 242L514 243L516 232L513 242Z"/>
   <clipPath id="landclip-great-zimbabwe"><use href="#land-great-zimbabwe"/></clipPath>
-  <path id="hl-great-zimbabwe-0" d="M246 131L366 110L410 169L370 242L286 250L230 195Z"/>
+  <path id="hl-great-zimbabwe-0" d="M238 172L240 188L242 195L251 210L264 224L287 239L315 245L345 241L363 234L371 229L384 216L390 208L398 190L402 173L400 156L393 141L387 134L381 127L364 119L342 115L316 117L301 120L276 127L265 131L250 143L245 149L239 165Z"/>
 </defs>
 <rect width="640" height="360" rx="10" fill="#2a1a0c"/>
 <g clip-path="url(#frame-great-zimbabwe)">
@@ -26,13 +26,13 @@
   <use href="#land-great-zimbabwe" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
   <use href="#land-great-zimbabwe" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
   <use href="#land-great-zimbabwe" fill="#efe2c2" stroke="none"/>
-  <g clip-path="url(#landclip-great-zimbabwe)"><use href="#hl-great-zimbabwe-0" fill="rgb(197,125,91)" stroke="none"/>
+  <g clip-path="url(#landclip-great-zimbabwe)"><use href="#hl-great-zimbabwe-0" fill="rgb(117,199,202)" stroke="none"/>
        <use href="#hl-great-zimbabwe-0" fill="url(#hatch-great-zimbabwe)" stroke="none"/>
        <use href="#hl-great-zimbabwe-0" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-great-zimbabwe-0" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-great-zimbabwe" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
-  <text x="319.9" y="140.2" class="lbl hl">그레이트짐바브웨 왕국</text>
-  <g transform="translate(319.9 182.2)">
+  <text x="319.8" y="138.0" class="lbl hl">그레이트짐바브웨 왕국</text>
+  <g transform="translate(319.8 180.0)">
     <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
     <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-great-zimbabwe)"/>
     <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>

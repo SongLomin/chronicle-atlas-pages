@@ -15,9 +15,9 @@
     <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
   </radialGradient>
   <filter id="glow-nzinga-ndongo"><feGaussianBlur stdDeviation="3"/></filter>
-  <path id="land-nzinga-ndongo" d="M181 -24L183 -21L181 -19L186 -10L190 -5L194 -3L195 -5L194 -2L191 -4L195 2L199 13L196 19L196 22L206 35L208 34L207 37L219 34L219 32L223 28L241 29L229 31L227 34L223 36L216 36L210 38L203 39L203 38L201 39L215 64L221 71L223 71L224 86L245 129L245 134L244 134L246 142L245 146L241 146L238 148L240 146L239 146L231 159L232 154L235 150L233 151L230 159L237 171L239 181L238 184L243 192L243 195L250 207L251 213L261 224L259 227L264 235L261 256L262 269L256 288L250 293L249 298L246 301L237 302L228 311L228 318L216 329L215 333L211 336L210 354L207 355L203 364L204 372L202 384L664 384L664 -24ZM220 32L222 33L230 29L223 29L220 32Z"/>
+  <path id="land-nzinga-ndongo" d="M184 -24L187 -20L185 -18L190 -9L195 -4L198 -3L200 -4L198 -2L195 -3L199 3L204 14L200 20L201 23L210 36L213 35L212 37L223 35L223 33L227 29L245 30L234 31L232 35L227 37L220 37L214 39L207 40L208 39L205 40L219 65L226 72L228 72L228 86L250 130L250 134L248 135L251 142L250 147L246 147L242 149L245 147L243 147L235 160L236 155L240 151L238 152L234 160L241 172L243 182L242 184L247 192L247 196L255 208L256 214L265 225L264 228L268 236L266 257L266 270L260 289L255 294L253 299L250 302L242 303L232 312L232 319L221 330L220 334L215 337L215 355L211 356L208 364L208 373L206 384L664 384L664 -24ZM224 33L227 34L234 30L228 30L224 33Z"/>
   <clipPath id="landclip-nzinga-ndongo"><use href="#land-nzinga-ndongo"/></clipPath>
-  <path id="hl-nzinga-ndongo-2" d="M242 156L290 139L370 148L398 188L350 221L278 208L242 184Z"/>
+  <path id="hl-nzinga-ndongo-2" d="M246 172L248 179L255 189L272 201L298 211L332 217L355 215L369 211L386 199L392 190L394 186L394 181L390 171L377 157L357 148L339 145L302 143L273 147L254 157L249 162L246 169Z"/>
 </defs>
 <rect width="640" height="360" rx="10" fill="#2a1a0c"/>
 <g clip-path="url(#frame-nzinga-ndongo)">
@@ -26,13 +26,13 @@
   <use href="#land-nzinga-ndongo" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
   <use href="#land-nzinga-ndongo" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
   <use href="#land-nzinga-ndongo" fill="#efe2c2" stroke="none"/>
-  <g clip-path="url(#landclip-nzinga-ndongo)"><path d="M348 25L357 74L348 95L325 113L298 118L295 126L275 123L240 134L219 90L219 77L199 53L199 35L216 35L225 27L234 27L237 22L254 17L263 2L295 -6L298 -9L295 -14L307 -22L307 -24L318 -24L327 -22L329 -24L358 -24L359 -22L365 -22L365 -17L371 -14L374 -1L350 12L350 22L348 22Z" fill="rgb(200,160,166)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M243 296L243 293L249 291L255 296L252 312L223 320L226 304ZM243 162L243 167L234 175L225 165L225 152L228 152L228 149L240 144L240 134L249 136L255 144L252 160Z" fill="rgb(230,206,138)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-nzinga-ndongo-2" fill="rgb(159,100,139)" stroke="none"/>
+  <g clip-path="url(#landclip-nzinga-ndongo)"><path d="M352 26L361 75L352 96L329 114L303 119L300 127L279 124L244 135L224 90L224 77L203 54L203 36L221 36L230 28L238 28L241 23L259 18L267 2L299 -5L302 -8L299 -13L311 -21L311 -24L319 -24L331 -21L334 -24L362 -24L363 -21L369 -21L369 -16L375 -13L378 0L355 13L355 23L352 23Z" fill="rgb(200,160,166)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M248 297L248 294L254 291L259 297L257 312L227 320L230 305ZM247 163L247 168L239 176L230 166L230 153L233 153L233 150L244 145L244 135L253 137L259 145L256 161Z" fill="rgb(230,206,138)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-nzinga-ndongo-2" fill="rgb(159,100,139)" stroke="none"/>
        <use href="#hl-nzinga-ndongo-2" fill="url(#hatch-nzinga-ndongo)" stroke="none"/>
        <use href="#hl-nzinga-ndongo-2" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-nzinga-ndongo-2" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-nzinga-ndongo" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
-  <text x="325.7" y="137.9" class="lbl hl">은동고 왕국</text><text x="291.4" y="61.9" class="lbl">콩고 왕국</text>
-  <g transform="translate(325.7 179.9)">
+  <text x="319.8" y="138.0" class="lbl hl">은동고 왕국</text><text x="295.8" y="62.8" class="lbl">콩고 왕국</text>
+  <g transform="translate(319.8 180.0)">
     <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
     <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-nzinga-ndongo)"/>
     <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>

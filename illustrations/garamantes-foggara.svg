@@ -15,9 +15,9 @@
     <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
   </radialGradient>
   <filter id="glow-garamantes-foggara"><feGaussianBlur stdDeviation="3"/></filter>
-  <path id="land-garamantes-foggara" d="M-24 -24L-24 384L664 384L664 -24L605 -24L601 -16L590 -2L574 8L562 9L546 2L528 -14L505 -24Z"/>
+  <path id="land-garamantes-foggara" d="M-24 -24L-24 384L664 384L664 -24L604 -24L597 -13L585 -1L574 5L563 6L547 -1L529 -17L518 -21L515 -24Z"/>
   <clipPath id="landclip-garamantes-foggara"><use href="#land-garamantes-foggara"/></clipPath>
-  <path id="hl-garamantes-foggara-2" d="M220 269L320 269L420 203L440 122L360 91L240 113L200 181Z"/>
+  <path id="hl-garamantes-foggara-2" d="M207 195L209 216L216 237L221 246L234 258L243 262L264 266L289 265L314 260L339 251L364 237L388 220L407 203L414 194L426 175L432 155L432 137L430 129L421 115L406 105L385 98L349 94L322 95L293 100L256 113L246 119L229 132L223 140L214 157L208 185Z"/>
 </defs>
 <rect width="640" height="360" rx="10" fill="#2a1a0c"/>
 <g clip-path="url(#frame-garamantes-foggara)">
@@ -26,13 +26,13 @@
   <use href="#land-garamantes-foggara" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
   <use href="#land-garamantes-foggara" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
   <use href="#land-garamantes-foggara" fill="#efe2c2" stroke="none"/>
-  <g clip-path="url(#landclip-garamantes-foggara)"><path d="M508 -24L529 -13L544 5L556 5L553 16L543 16L529 -1L486 -19L462 -24Z" fill="rgb(165,179,176)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 -24L664 -7L641 -13L638 -19L623 -19L598 8L586 11L583 16L549 22L556 8L571 11L586 5L599 -4L599 -10L608 -19L607 -24Z" fill="rgb(183,198,144)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-garamantes-foggara-2" fill="rgb(198,142,189)" stroke="none"/>
+  <g clip-path="url(#landclip-garamantes-foggara)"><path d="M517 -24L530 -17L544 1L556 1L553 13L544 13L529 -5L487 -23L480 -24Z" fill="rgb(165,179,176)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 -24L664 -11L642 -17L639 -23L624 -23L599 4L587 7L584 13L550 19L556 4L572 7L587 1L599 -8L599 -14L609 -23L608 -24Z" fill="rgb(183,198,144)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-garamantes-foggara-2" fill="rgb(230,163,165)" stroke="none"/>
        <use href="#hl-garamantes-foggara-2" fill="url(#hatch-garamantes-foggara)" stroke="none"/>
        <use href="#hl-garamantes-foggara-2" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-garamantes-foggara-2" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-garamantes-foggara" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
-  <text x="315.7" y="134.7" class="lbl hl">가라만테스</text>
-  <g transform="translate(315.7 176.7)">
+  <text x="312.4" y="133.8" class="lbl hl">가라만테스</text>
+  <g transform="translate(312.4 175.8)">
     <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
     <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-garamantes-foggara)"/>
     <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>

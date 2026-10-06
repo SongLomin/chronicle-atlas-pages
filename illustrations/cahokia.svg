@@ -17,7 +17,7 @@
   <filter id="glow-cahokia"><feGaussianBlur stdDeviation="3"/></filter>
   <path id="land-cahokia" d="M-24 -24L-24 384L664 384L664 -24Z"/>
   <clipPath id="landclip-cahokia"><use href="#land-cahokia"/></clipPath>
-  <path id="hl-cahokia-0" d="M288 193L312 147L348 157L352 193L328 213L300 208Z"/>
+  <path id="hl-cahokia-0" d="M291 193L294 200L305 208L318 210L331 207L343 198L348 188L349 176L346 164L339 155L331 152L322 150L314 152L307 157L300 166L291 190Z"/>
 </defs>
 <rect width="640" height="360" rx="10" fill="#2a1a0c"/>
 <g clip-path="url(#frame-cahokia)">
@@ -31,8 +31,8 @@
        <use href="#hl-cahokia-0" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-cahokia-0" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-cahokia" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
-  <text x="322.6" y="140.3" class="lbl hl">카호키아</text>
-  <g transform="translate(322.6 182.3)">
+  <text x="321.9" y="137.9" class="lbl hl">카호키아</text>
+  <g transform="translate(321.9 179.9)">
     <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
     <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-cahokia)"/>
     <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>

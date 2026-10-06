@@ -26,7 +26,7 @@
   <use href="#land-timbuktu-learning" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
   <use href="#land-timbuktu-learning" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
   <use href="#land-timbuktu-learning" fill="#efe2c2" stroke="none"/>
-  <g clip-path="url(#landclip-timbuktu-learning)"><path d="M575 339L600 339L604 320L579 312L571 324Z" fill="rgb(152,186,192)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-timbuktu-learning-1" fill="rgb(199,143,189)" stroke="none"/>
+  <g clip-path="url(#landclip-timbuktu-learning)"><path d="M572 327L575 336L586 339L592 339L598 336L602 328L601 322L598 319L584 314L576 316L572 325Z" fill="rgb(139,189,186)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-timbuktu-learning-1" fill="rgb(199,143,189)" stroke="none"/>
        <use href="#hl-timbuktu-learning-1" fill="url(#hatch-timbuktu-learning)" stroke="none"/>
        <use href="#hl-timbuktu-learning-1" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-timbuktu-learning-1" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
