@@ -31,7 +31,14 @@
        <use href="#hl-ming-founded-40" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-ming-founded-40" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-ming-founded" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
-  <text x="332.0" y="158.1" class="lbl hl">명나라</text><text x="334.3" y="48.4" class="lbl">원나라</text><text x="72.4" y="38.8" class="lbl">백장 칸국</text><text x="150.7" y="117.2" class="lbl">차가타이 칸국</text><text x="205.6" y="187.7" class="lbl">티베트</text><text x="54.1" y="165.2" class="lbl">카르트 왕조</text><text x="117.7" y="204.2" class="lbl">델리 술탄 왕조</text>
+  <g>
+    
+    
+  </g>
+  <g transform="translate(320 30)">
+    <path d="M-77 -13 L77 -13 L87 0 L77 13 L-77 13 L-87 0 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <text y="1" class="war">⚔ 명-북원 전쟁</text>
+  </g><text x="332.0" y="158.1" class="lbl hl">명나라</text><text x="72.4" y="38.8" class="lbl">백장 칸국</text><text x="150.7" y="117.2" class="lbl">차가타이 칸국</text><text x="205.6" y="187.7" class="lbl">티베트</text><text x="54.1" y="165.2" class="lbl">카르트 왕조</text><text x="117.7" y="204.2" class="lbl">델리 술탄 왕조</text>
   <g transform="translate(332.0 200.1)">
     <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
     <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-ming-founded)"/>
@@ -75,5 +82,6 @@
   .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
   .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
   .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+  .war { font-size: 13px; font-weight: 800; fill: #f4e8c8; dominant-baseline: middle; letter-spacing: 1px; }
 </style>
 </svg>
