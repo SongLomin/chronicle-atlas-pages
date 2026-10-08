@@ -43,7 +43,7 @@
        <use href="#hl-scenario-end-of-cold-war-82" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-scenario-end-of-cold-war-82" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-scenario-end-of-cold-war" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
-  <text x="262.6" y="183.1" class="lbl hl">서독</text><text x="431.1" y="268.0" class="lbl">이란</text><text x="219.2" y="165.5" class="lbl">대영제국</text><text x="357.8" y="236.8" class="lbl">튀르키예</text><text x="473.0" y="264.9" class="lbl">무자헤딘</text><text x="213.1" y="228.7" class="lbl">스페인</text><text x="297.7" y="55.3" class="lbl">스웨덴 왕국</text><text x="258.3" y="104.0" class="lbl">노르웨이</text>
+  <text x="262.6" y="183.1" class="lbl hl">서독</text><text x="431.1" y="268.0" class="lbl">이란</text><text x="357.8" y="236.8" class="lbl">튀르키예</text><text x="473.0" y="264.9" class="lbl">무자헤딘</text><text x="213.1" y="228.7" class="lbl">스페인</text><text x="297.7" y="55.3" class="lbl">스웨덴 왕국</text><text x="258.3" y="104.0" class="lbl">노르웨이</text><text x="201.9" y="269.4" class="lbl">모로코</text>
   
   <rect width="640" height="360" filter="url(#paper-scenario-end-of-cold-war)"/>
   <rect width="640" height="360" fill="url(#vignette-scenario-end-of-cold-war)"/>

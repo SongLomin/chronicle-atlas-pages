@@ -46,7 +46,7 @@
        <use href="#hl-scenario-world-war-two-60" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
        <use href="#hl-scenario-world-war-two-60" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
   <use href="#land-scenario-world-war-two" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
-  <text x="372.0" y="91.1" class="lbl hl">소련</text><text x="418.2" y="158.8" class="lbl hl">일본 제국</text><text x="213.9" y="133.0" class="lbl hl">나치 독일</text><text x="192.4" y="155.3" class="lbl hl">이탈리아 왕국</text><text x="231.4" y="225.6" class="lbl">대영제국</text><text x="377.5" y="186.4" class="lbl">중화민국</text><text x="202.0" y="247.0" class="lbl">자유 프랑스</text><text x="397.4" y="258.1" class="lbl">네덜란드</text>
+  <text x="372.0" y="91.1" class="lbl hl">소련</text><text x="418.2" y="158.8" class="lbl hl">일본 제국</text><text x="213.9" y="133.0" class="lbl hl">나치 독일</text><text x="192.4" y="155.3" class="lbl hl">이탈리아 왕국</text><text x="231.4" y="225.6" class="lbl">영국 동인도 회사령 인도</text><text x="377.5" y="186.4" class="lbl">중화민국</text><text x="202.0" y="247.0" class="lbl">자유 프랑스</text><text x="397.4" y="258.1" class="lbl">네덜란드</text>
   
   <rect width="640" height="360" filter="url(#paper-scenario-world-war-two)"/>
   <rect width="640" height="360" fill="url(#vignette-scenario-world-war-two)"/>
