@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="리그베다의 찬가">
+<defs>
+  <clipPath id="frame-rigveda-hymns"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-rigveda-hymns" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-rigveda-hymns" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-rigveda-hymns" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="37" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-rigveda-hymns" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-rigveda-hymns"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-rigveda-hymns" d="M-24 -24L-24 384L32 384L41 369L41 365L41 363L35 362L21 342L17 340L12 340L-10 334L-20 322L-24 314L-24 289L-23 289L-24 287L-23 288L-23 286L-24 285L-22 284L-24 283L-24 265L-16 266L-15 269L-13 269L-14 270L-12 273L-11 282L-9 287L-10 289L-7 295L2 296L2 298L6 297L10 300L14 299L22 300L26 303L34 302L42 305L50 304L53 306L52 304L55 302L56 306L71 310L74 306L78 308L78 311L80 310L84 309L85 307L90 310L89 308L91 306L111 308L110 306L112 304L121 304L120 303L121 302L123 302L122 305L129 307L131 306L133 308L135 305L142 305L147 303L152 304L163 302L168 303L168 302L165 300L160 302L166 299L172 308L171 315L182 317L180 319L182 320L181 320L183 325L184 325L183 327L184 331L188 331L186 335L189 336L190 334L189 336L191 337L193 337L194 334L197 337L197 334L198 336L198 338L199 339L199 335L200 338L202 339L199 341L203 341L205 339L212 335L204 340L204 343L206 342L204 344L208 347L207 348L213 353L219 356L229 359L231 356L237 355L237 353L242 355L242 352L244 351L244 354L238 362L231 365L229 364L227 367L225 365L225 367L219 368L219 365L217 366L217 364L215 365L215 370L230 384L277 384L278 380L272 377L274 377L274 376L276 377L275 375L273 375L278 372L278 369L275 368L279 369L280 366L281 369L290 368L283 371L283 376L286 374L283 377L283 381L294 379L285 384L560 384L571 381L576 377L580 371L576 369L575 365L577 369L580 370L579 375L582 383L582 378L583 382L583 380L584 382L585 382L586 375L586 384L589 379L587 377L589 370L589 375L591 371L590 380L591 383L593 379L594 381L597 382L594 375L597 375L597 371L600 381L601 380L602 374L603 379L604 379L606 375L605 368L606 374L608 367L606 378L607 380L609 378L608 375L609 377L612 376L611 372L612 372L612 365L615 364L612 368L613 374L616 371L615 374L616 374L619 370L615 377L617 375L616 377L620 377L622 368L623 372L626 367L625 362L624 362L623 364L624 359L622 358L625 355L623 352L626 352L626 349L619 344L625 345L626 342L624 341L626 341L626 343L628 342L626 344L627 352L631 360L633 362L634 360L635 363L638 363L639 361L637 359L640 360L643 355L643 358L647 363L649 369L651 365L649 370L652 376L651 378L653 378L652 381L653 380L653 384L664 384L664 -24ZM623 345L626 347L623 345ZM623 358L625 359L628 357L625 356L623 358ZM624 354L627 355L626 353L624 354ZM625 360L628 365L627 374L630 371L631 365L627 358L625 360Z"/>
+  <clipPath id="landclip-rigveda-hymns"><use href="#land-rigveda-hymns"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-rigveda-hymns)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-rigveda-hymns)"/>
+  <use href="#land-rigveda-hymns" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-rigveda-hymns" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-rigveda-hymns" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-rigveda-hymns)"></g>
+  <use href="#land-rigveda-hymns" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  
+  <g transform="translate(320.0 182.4)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-rigveda-hymns)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-rigveda-hymns)"/>
+  <rect width="640" height="360" fill="url(#vignette-rigveda-hymns)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">문화·학문</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">리그베다의 찬가</text>
+  </g>
+  <text x="320" y="284" class="year">기원전 1500년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

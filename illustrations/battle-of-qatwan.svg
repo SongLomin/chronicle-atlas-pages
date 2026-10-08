@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="카트완 전투와 서요의 중앙아시아 제패">
+<defs>
+  <clipPath id="frame-battle-of-qatwan"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-battle-of-qatwan" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-battle-of-qatwan" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-battle-of-qatwan" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="117" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-battle-of-qatwan" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-battle-of-qatwan"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-battle-of-qatwan" d="M-24 -24L-24 384L14 384L13 380L16 379L14 377L17 377L20 378L19 380L14 380L18 383L19 382L19 384L664 384L664 -24ZM27 30L29 34L29 31L27 30ZM32 65L35 67L33 65L34 61L32 65ZM37 63L38 64L38 61L37 63ZM43 64L45 66L43 64ZM76 52L78 53L77 51L76 52ZM84 200L85 206L85 199L84 200Z"/>
+  <clipPath id="landclip-battle-of-qatwan"><use href="#land-battle-of-qatwan"/></clipPath>
+  <path id="hl-battle-of-qatwan-9" d="M365 259L340 271L335 277L320 284L297 306L283 327L277 331L276 335L270 340L262 343L261 348L256 354L249 360L232 366L208 384L19 384L14 381L15 384L-24 384L-24 202L-12 190L-4 187L0 182L10 182L11 185L15 187L16 192L18 194L14 197L11 208L12 208L11 215L12 215L13 229L17 233L32 236L38 244L42 243L43 244L41 247L46 250L60 254L69 254L85 248L101 247L101 237L115 236L118 240L123 240L132 244L162 244L165 243L171 232L175 229L178 221L188 211L188 208L209 192L258 174L309 161L346 124L347 115L346 115L348 107L346 107L348 100L345 95L346 92L342 87L354 87L372 83L372 87L370 87L365 104L375 109L380 121L385 122L386 125L391 127L391 130L395 130L405 136L420 156L420 161L429 164L430 167L432 167L433 169L436 169L439 174L438 177L440 178L438 185L440 185L436 190L434 205L427 220L423 218L395 219L389 216L380 216L378 242L383 250L365 257Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-battle-of-qatwan)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-battle-of-qatwan)"/>
+  <use href="#land-battle-of-qatwan" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-battle-of-qatwan" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-battle-of-qatwan" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-battle-of-qatwan)"><path d="M489 269L527 259L516 273L510 296L511 296L510 307L511 307L512 317L515 325L514 328L518 336L517 341L523 352L522 356L517 356L510 352L497 349L493 345L484 344L482 341L464 341L462 339L454 338L452 332L447 331L442 325L444 317L441 315L442 313L450 315L453 320L479 336L489 320L490 291L487 271Z" fill="rgb(202,171,182)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M426 220L423 218L395 219L389 216L380 216L378 242L392 262L417 276L428 287L433 310L450 315L453 320L479 336L489 320L490 291L486 257L487 245L450 224L439 222Z" fill="rgb(213,206,155)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M208 384L232 366L249 360L256 354L261 348L262 343L270 340L276 335L277 331L283 327L297 306L320 284L335 277L340 271L365 259L365 257L383 250L392 262L417 276L428 287L433 310L442 313L441 315L444 317L442 325L447 331L452 332L454 338L462 339L464 341L482 341L484 344L493 345L497 349L510 352L517 356L513 362L507 363L502 368L499 377L497 379L494 384Z" fill="rgb(189,172,113)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M340 84L335 84L331 75L311 64L311 61L308 61L306 56L301 53L246 38L235 40L233 37L234 34L227 32L224 38L224 46L225 46L226 54L232 54L229 65L227 65L226 69L218 75L216 84L213 86L209 96L204 100L188 101L179 95L174 100L169 110L168 125L161 139L159 148L148 162L107 161L107 162L90 164L91 159L89 162L82 162L83 159L81 159L78 171L79 171L80 178L92 178L93 190L86 191L92 192L100 201L97 226L99 226L100 237L115 236L118 240L123 240L132 244L162 244L165 243L171 232L175 229L178 221L188 211L188 208L209 192L258 174L309 161L346 124L347 115L346 115L348 107L346 107L348 100L345 95L346 92L342 87Z" fill="rgb(201,156,151)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-11 54L-13 53L-18 65L-24 65L-24 -24L637 -24L636 -19L639 -19L637 -13L638 -13L637 -4L634 -4L631 1L611 7L600 14L558 24L556 27L544 21L544 19L536 22L531 21L532 19L521 17L511 24L508 21L487 22L488 21L481 21L480 17L451 17L448 22L439 21L439 19L427 19L407 24L389 46L372 83L354 87L342 87L340 84L335 84L331 75L311 64L311 61L308 61L306 56L301 53L246 38L235 40L233 37L234 34L227 32L231 17L230 16L223 16L223 19L220 21L219 16L212 16L212 19L205 19L200 29L194 30L191 38L179 40L177 53L173 58L168 76L169 76L168 81L170 81L168 90L172 92L174 98L169 110L168 125L161 139L159 148L148 162L107 161L112 156L113 151L102 143L99 130L87 130L80 136L80 145L79 145L75 136L75 133L74 133L78 125L80 115L73 112L65 112L62 104L57 106L54 103L55 93L50 89L50 86L47 81L35 76L36 73L39 72L47 75L56 75L57 70L49 67L50 62L57 54L64 54L68 58L98 58L97 64L105 64L106 58L104 56L105 50L98 50L95 54L90 54L84 50L84 42L87 40L89 30L88 30L87 17L85 14L64 16L63 12L59 11L47 11L37 16L32 22L20 25L16 34L9 35L8 40L4 40L-1 45L-9 45L-11 48L-10 48L-10 50Z" fill="rgb(223,202,153)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-13 185L-14 181L-19 181L-22 177L-20 169L-21 168L-24 169L-24 158L-15 162L-7 161L-5 156L-7 153L-6 151L6 139L17 151L16 153L20 156L19 159L24 165L33 167L37 169L27 171L24 174L20 192L18 194L16 192L15 187L11 185L10 182L0 182L-4 187L-12 190L-12 187L-13 187Z" fill="rgb(147,192,165)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 384L561 384L557 379L548 376L543 368L534 367L528 358L522 356L523 352L517 341L518 336L514 328L515 325L512 317L511 307L510 307L511 296L510 296L516 273L527 259L565 252L572 248L579 248L630 235L664 234Z" fill="rgb(146,202,192)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M3 136L0 134L0 143L3 143L6 139L4 136Z" fill="rgb(220,184,132)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M427 220L434 205L436 190L440 185L438 185L440 178L438 177L439 174L436 169L433 169L432 167L430 167L429 164L420 161L420 156L405 136L395 130L391 130L391 127L386 125L385 122L380 121L375 109L365 104L370 87L372 87L372 83L389 46L407 24L427 19L439 19L439 21L447 22L440 27L439 32L435 32L433 38L436 37L435 42L432 40L429 51L437 56L439 61L439 64L443 62L445 54L443 53L446 40L454 38L456 30L463 29L466 25L499 27L498 29L506 30L506 32L517 32L526 30L528 24L531 21L536 22L544 19L544 21L556 27L558 24L600 14L611 7L631 1L634 -4L638 -4L638 1L641 4L640 9L643 11L645 16L647 16L649 21L651 21L653 25L655 25L658 32L664 36L664 214L653 215L647 218L642 225L630 235L579 248L572 248L565 252L498 266L489 269L487 271L486 257L487 245L450 224L439 222Z" fill="rgb(218,181,192)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-battle-of-qatwan-9" fill="rgb(115,198,187)" stroke="none"/>
+       <use href="#hl-battle-of-qatwan-9" fill="url(#hatch-battle-of-qatwan)" stroke="none"/>
+       <use href="#hl-battle-of-qatwan-9" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-battle-of-qatwan-9" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-battle-of-qatwan" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="592.2" y="140.8" class="lbl">서요</text><text x="231.0" y="136.2" class="lbl">호라즘 샤 왕조</text><text x="444.9" y="261.0" class="lbl">로하라 왕조</text>
+  <g transform="translate(320.0 183.3)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-battle-of-qatwan)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M24 64 C24 34 38 20 50 20 C62 20 76 34 76 64 L66 64 L66 52 L56 52 L56 82 L44 82 L44 52 L34 52 L34 64 Z" fill="#c9b37e" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 20 C50 8 68 6 80 12 C70 14 62 18 58 26" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M30 64 L70 64" stroke="#3b2412" stroke-width="3"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-battle-of-qatwan)"/>
+  <rect width="640" height="360" fill="url(#vignette-battle-of-qatwan)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M24 64 C24 34 38 20 50 20 C62 20 76 34 76 64 L66 64 L66 52 L56 52 L56 82 L44 82 L44 52 L34 52 L34 64 Z" fill="#c9b37e" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 20 C50 8 68 6 80 12 C70 14 62 18 58 26" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M30 64 L70 64" stroke="#3b2412" stroke-width="3"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">전쟁·저항</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:19px">카트완 전투와 서요의 중앙아시아 제패</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1141년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

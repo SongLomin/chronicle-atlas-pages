@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="아마니토레와 나타카마니의 신전 건설">
+<defs>
+  <clipPath id="frame-amanitore-naqa-temples"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-amanitore-naqa-temples" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-amanitore-naqa-temples" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-amanitore-naqa-temples" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="50" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-amanitore-naqa-temples" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-amanitore-naqa-temples"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-amanitore-naqa-temples" d="M-24 -24L-24 384L662 384L664 381L664 289L654 291L645 290L637 294L628 294L621 293L601 303L586 299L569 309L561 310L556 309L545 301L538 291L538 288L533 287L530 283L517 286L517 284L520 284L522 281L535 275L536 270L534 264L527 255L526 258L523 256L521 252L517 248L514 248L512 241L508 239L505 235L499 233L488 217L480 216L478 211L474 209L469 211L467 210L464 204L465 202L461 198L458 201L460 205L459 207L457 207L455 198L452 198L451 191L448 189L440 156L434 142L430 145L434 142L433 141L429 137L425 138L427 136L424 137L422 135L423 133L419 129L416 128L414 126L411 126L409 123L405 107L403 90L404 85L402 70L404 72L405 75L406 73L397 60L396 53L397 50L387 44L383 37L376 35L372 30L367 17L367 7L368 6L374 8L367 3L360 -6L352 -24L403 -24L405 -17L405 -15L403 -14L409 -5L409 -3L418 2L420 1L419 2L430 11L438 25L438 29L442 34L444 43L445 43L442 52L441 52L444 58L446 65L444 67L446 72L458 89L462 92L461 90L465 91L475 98L477 103L479 102L480 106L483 109L486 117L488 119L488 121L490 124L489 127L494 132L495 137L501 146L512 155L514 164L514 161L521 171L524 185L523 190L521 194L523 203L523 205L521 201L519 205L524 206L526 210L526 213L525 212L528 221L526 220L533 237L532 247L537 256L537 260L540 258L547 262L557 260L562 257L567 259L567 257L570 256L569 258L571 258L572 254L578 252L584 246L606 244L621 239L634 230L638 232L649 230L655 224L657 220L664 217L664 -24ZM462 192L465 195L462 194L463 196L472 196L470 194L467 195L466 191L464 190L462 189L464 191L462 192ZM463 187L466 187L466 186L464 185L463 187ZM501 168L504 171L508 172L510 174L508 169L505 171L501 168ZM502 167L506 170L504 165L503 165L504 166L502 167ZM518 203L519 202L519 199L518 203ZM521 239L523 236L521 239ZM521 231L523 233L522 230L521 231Z"/>
+  <clipPath id="landclip-amanitore-naqa-temples"><use href="#land-amanitore-naqa-temples"/></clipPath>
+  <path id="hl-amanitore-naqa-temples-4" d="M332 50L330 50L332 51L330 60L332 60L341 106L345 111L348 122L354 129L355 136L363 140L367 150L378 158L379 169L371 176L351 176L347 182L350 192L338 191L333 199L304 205L304 202L295 200L287 196L283 188L283 182L280 179L282 173L279 169L276 150L275 150L269 90L267 90L268 79L266 79L266 68L265 68L264 53L262 53L266 46L266 32L262 20L286 11L294 13L322 10L329 13L332 17L331 25L333 25L332 48Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-amanitore-naqa-temples)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-amanitore-naqa-temples)"/>
+  <use href="#land-amanitore-naqa-temples" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-amanitore-naqa-temples" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-amanitore-naqa-temples" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-amanitore-naqa-temples)"><path d="M664 216L645 213L641 210L624 208L624 205L604 202L594 198L599 193L603 183L606 185L636 178L664 176Z" fill="rgb(139,176,180)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M481 213L493 219L499 230L514 240L515 247L511 247L504 250L504 253L495 254L491 257L441 257L429 251L426 244L423 244L425 240L421 227L424 216L434 208L433 205L437 206L441 200L445 202L455 196L458 205L459 205L460 198L463 198L470 210L478 209L481 212Z" fill="rgb(206,182,198)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M459 -16L469 -2L462 20L461 29L460 29L461 43L465 46L467 50L482 59L487 65L493 66L496 71L502 72L509 82L513 81L514 84L517 84L523 91L526 91L534 98L538 107L538 111L541 114L541 119L547 126L546 133L551 139L550 143L557 155L556 158L559 162L562 162L560 166L570 179L570 182L575 185L574 189L578 188L582 191L592 191L595 188L601 188L599 193L594 198L604 202L603 203L598 209L583 212L587 213L590 220L595 222L595 237L592 240L594 244L586 246L571 258L562 258L557 261L537 260L537 256L532 251L533 237L528 232L526 212L525 208L522 206L521 191L523 191L523 173L516 165L516 162L513 162L512 155L501 146L494 132L490 129L490 123L486 117L484 110L481 109L481 104L475 101L466 91L460 91L452 84L453 81L449 79L445 71L446 60L443 57L445 40L439 32L439 28L434 14L426 8L436 4L439 -2L440 -16L438 -16L436 -24L452 -24L453 -20L457 -16Z" fill="rgb(215,171,137)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M354 -24L360 -10L375 5L375 8L369 7L369 10L359 8L330 13L322 10L294 13L286 11L262 20L260 20L259 16L252 11L253 8L249 8L243 1L220 -10L214 -24Z" fill="rgb(191,158,174)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-amanitore-naqa-temples-4" fill="rgb(88,153,195)" stroke="none"/>
+       <use href="#hl-amanitore-naqa-temples-4" fill="url(#hatch-amanitore-naqa-temples)" stroke="none"/>
+       <use href="#hl-amanitore-naqa-temples-4" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-amanitore-naqa-temples-4" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-amanitore-naqa-temples" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="320.0" y="139.1" class="lbl hl">쿠시 왕국</text><text x="555.4" y="218.4" class="lbl">힘야르 왕국</text><text x="463.1" y="232.8" class="lbl">악숨 왕국</text>
+  <g transform="translate(320.0 181.1)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-amanitore-naqa-temples)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-amanitore-naqa-temples)"/>
+  <rect width="640" height="360" fill="url(#vignette-amanitore-naqa-temples)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">문화·학문</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:19px">아마니토레와 나타카마니의 신전 건설</text>
+  </g>
+  <text x="320" y="284" class="year">서기 50년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

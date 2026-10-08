@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="멘투호테프 2세의 이집트 재통일">
+<defs>
+  <clipPath id="frame-mentuhotep-ii-reunification"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-mentuhotep-ii-reunification" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-mentuhotep-ii-reunification" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-mentuhotep-ii-reunification" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="9" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-mentuhotep-ii-reunification" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-mentuhotep-ii-reunification"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-mentuhotep-ii-reunification" d="M-24 384L452 384L446 361L440 348L437 351L439 347L436 344L432 344L434 342L431 343L429 341L430 340L426 336L421 333L419 333L416 330L413 315L411 299L412 294L410 280L413 285L414 283L406 271L406 262L397 256L392 249L385 247L381 242L378 231L377 222L378 220L384 222L371 209L359 182L347 161L348 156L345 148L338 139L340 139L337 135L340 136L339 133L325 118L320 109L319 100L315 94L319 85L322 98L331 108L332 118L343 130L353 137L352 136L356 131L356 124L360 114L363 101L367 95L368 96L364 119L359 128L360 130L362 128L364 129L369 128L372 130L371 131L388 155L398 173L402 175L402 181L406 184L413 194L413 201L411 201L417 210L416 212L425 217L427 215L426 217L437 225L444 238L444 242L448 247L449 255L451 255L448 263L446 263L450 269L451 276L449 278L451 282L463 299L469 300L478 307L481 311L483 311L483 314L487 317L489 325L491 326L492 334L496 338L498 344L502 350L514 360L515 369L515 365L522 375L524 384L664 384L664 156L659 151L659 149L656 150L656 149L654 149L654 146L652 146L653 144L650 143L654 143L652 141L644 140L645 138L643 137L645 135L643 132L643 131L641 130L638 122L637 122L638 119L635 116L636 114L631 108L630 100L622 100L627 95L631 96L628 89L626 83L627 85L630 84L636 87L640 86L641 84L645 85L646 81L645 77L648 75L647 73L652 73L653 75L652 77L646 76L651 80L652 79L653 81L657 81L658 85L664 82L664 -24L387 -24L387 -22L381 -17L381 -9L377 -7L370 12L371 13L370 13L369 18L367 19L362 40L357 48L349 57L341 59L336 58L330 61L330 57L327 59L329 59L328 61L326 59L322 61L326 58L320 60L312 55L313 56L313 59L310 61L308 59L309 57L306 58L303 55L306 49L312 55L307 50L299 52L290 48L287 48L290 50L288 50L287 52L283 53L279 52L287 48L279 51L275 50L276 52L275 50L274 54L271 55L274 56L271 57L269 54L258 63L248 66L236 60L226 60L225 56L221 58L217 57L214 53L207 51L187 47L176 50L172 49L171 47L170 48L171 46L168 39L163 38L150 38L145 35L134 33L134 35L130 31L131 27L130 23L111 16L105 17L102 16L96 20L89 20L79 25L69 34L66 44L71 57L70 63L60 75L49 79L41 75L32 67L25 64L7 58L-11 55L-17 53L-24 41ZM326 58L333 57L330 56L326 58ZM333 57L337 59L333 57ZM346 142L349 143L346 142ZM358 131L360 133L358 131ZM398 184L401 185L399 182L398 184ZM399 180L400 182L400 179L399 180ZM401 186L405 188L401 186ZM403 187L406 190L407 189L403 187ZM629 90L631 94L635 92L631 85L632 87L629 90ZM633 98L636 99L634 97L633 98Z"/>
+  <clipPath id="landclip-mentuhotep-ii-reunification"><use href="#land-mentuhotep-ii-reunification"/></clipPath>
+  <path id="hl-mentuhotep-ii-reunification-4" d="M298 150L298 153L311 167L326 171L327 178L322 187L326 194L330 197L330 220L323 220L323 204L321 198L313 191L315 182L319 178L305 177L303 170L286 150L290 145L295 147Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-mentuhotep-ii-reunification)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-mentuhotep-ii-reunification)"/>
+  <use href="#land-mentuhotep-ii-reunification" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-mentuhotep-ii-reunification" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-mentuhotep-ii-reunification" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-mentuhotep-ii-reunification)"><path d="M259 312L261 326L266 332L272 333L279 331L291 322L300 307L303 295L304 278L298 266L293 262L284 261L278 263L273 267L268 274L262 287L259 307Z" fill="rgb(173,167,182)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M583 75L577 63L595 63L602 57L606 60L612 60L615 56L622 56L622 62L628 65L613 68L612 71L602 72L599 78Z" fill="rgb(233,195,162)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M290 48L287 48L290 50L286 52L279 53L287 48L275 50L274 56L269 54L258 63L258 73L270 84L275 92L276 98L268 104L267 110L269 113L277 115L280 141L283 148L286 150L289 145L287 142L287 125L295 101L319 100L315 96L315 92L317 87L325 81L322 61L313 55L313 59L309 60L308 57L303 55L306 50L312 55L306 49L299 52L290 48Z" fill="rgb(224,206,157)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M638 15L653 19L653 24L662 22L664 25L664 78L662 78L659 75L650 75L650 72L653 71L650 69L628 65L622 62L622 56L615 56L612 60L606 60L602 57L595 63L577 63L577 62L575 62L577 48L574 46L576 43L571 40L572 37L569 34L564 34L562 28L554 30L554 27L552 25L551 16L556 10L559 10L560 7L574 15L579 15L579 11L589 4L590 7L606 5L617 11L639 13Z" fill="rgb(198,158,163)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-mentuhotep-ii-reunification-4" fill="rgb(211,189,125)" stroke="none"/>
+       <use href="#hl-mentuhotep-ii-reunification-4" fill="url(#hatch-mentuhotep-ii-reunification)" stroke="none"/>
+       <use href="#hl-mentuhotep-ii-reunification-4" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-mentuhotep-ii-reunification-4" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-mentuhotep-ii-reunification" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="320.0" y="139.9" class="lbl hl">상이집트</text><text x="296.0" y="76.9" class="lbl">하이집트</text>
+  <g transform="translate(320.0 181.9)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-mentuhotep-ii-reunification)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M50 86 C24 80 14 58 18 30" fill="none" stroke="#3b2412" stroke-width="3"/><path d="M50 86 C76 80 86 58 82 30" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <ellipse cx="20" cy="76" rx="8" ry="4" transform="rotate(-40 20 76)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="80" cy="76" rx="8" ry="4" transform="rotate(40 80 76)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="22" cy="65" rx="8" ry="4" transform="rotate(-32 22 65)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="78" cy="65" rx="8" ry="4" transform="rotate(32 78 65)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="24" cy="54" rx="8" ry="4" transform="rotate(-24 24 54)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="76" cy="54" rx="8" ry="4" transform="rotate(24 76 54)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="26" cy="43" rx="8" ry="4" transform="rotate(-16 26 43)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="74" cy="43" rx="8" ry="4" transform="rotate(16 74 43)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="28" cy="32" rx="8" ry="4" transform="rotate(-8 28 32)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="72" cy="32" rx="8" ry="4" transform="rotate(8 72 32)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M36 58 L32 38 L43 48 L50 34 L57 48 L68 38 L64 58 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="2.5" stroke-linejoin="round"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-mentuhotep-ii-reunification)"/>
+  <rect width="640" height="360" fill="url(#vignette-mentuhotep-ii-reunification)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M50 86 C24 80 14 58 18 30" fill="none" stroke="#3b2412" stroke-width="3"/><path d="M50 86 C76 80 86 58 82 30" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <ellipse cx="20" cy="76" rx="8" ry="4" transform="rotate(-40 20 76)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="80" cy="76" rx="8" ry="4" transform="rotate(40 80 76)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="22" cy="65" rx="8" ry="4" transform="rotate(-32 22 65)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="78" cy="65" rx="8" ry="4" transform="rotate(32 78 65)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="24" cy="54" rx="8" ry="4" transform="rotate(-24 24 54)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="76" cy="54" rx="8" ry="4" transform="rotate(24 76 54)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="26" cy="43" rx="8" ry="4" transform="rotate(-16 26 43)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="74" cy="43" rx="8" ry="4" transform="rotate(16 74 43)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/><ellipse cx="28" cy="32" rx="8" ry="4" transform="rotate(-8 28 32)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <ellipse cx="72" cy="32" rx="8" ry="4" transform="rotate(8 72 32)" fill="#6f8f3f" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M36 58 L32 38 L43 48 L50 34 L57 48 L68 38 L64 58 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="2.5" stroke-linejoin="round"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">통일</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:19px">멘투호테프 2세의 이집트 재통일</text>
+  </g>
+  <text x="320" y="284" class="year">기원전 2040년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

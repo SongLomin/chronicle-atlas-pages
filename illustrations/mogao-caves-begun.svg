@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="둔황 막고굴의 시작">
+<defs>
+  <clipPath id="frame-mogao-caves-begun"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-mogao-caves-begun" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-mogao-caves-begun" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-mogao-caves-begun" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="110" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-mogao-caves-begun" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-mogao-caves-begun"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-mogao-caves-begun" d="M-24 -24L-24 384L664 384L664 -24Z"/>
+  <clipPath id="landclip-mogao-caves-begun"><use href="#land-mogao-caves-begun"/></clipPath>
+  <path id="hl-mogao-caves-begun-7" d="M380 173L378 170L373 170L372 168L367 166L368 165L355 162L356 160L327 162L304 168L299 173L295 172L294 181L293 181L291 186L294 189L294 196L298 198L304 195L316 195L324 199L329 198L330 202L333 202L334 206L346 213L352 212L353 202L351 202L353 196L361 198L373 206L378 206L381 202L390 203L394 201L405 217L412 220L415 215L423 227L429 229L430 231L434 233L437 237L444 233L444 237L446 241L451 242L454 247L454 245L463 248L465 252L464 255L466 256L466 259L468 260L467 263L470 268L469 272L471 272L470 279L471 282L467 302L468 302L465 307L467 312L463 324L488 327L496 331L505 331L516 320L513 316L516 310L528 310L529 307L525 302L528 294L523 292L524 284L522 283L523 280L517 279L517 276L509 272L512 266L508 259L509 256L506 253L507 248L505 244L501 244L496 240L489 240L490 237L488 236L472 231L470 229L474 222L472 220L473 216L478 210L469 212L470 209L487 195L486 192L487 189L485 189L486 186L423 191L424 189L418 188L417 185L410 183L410 182L398 183L396 181L390 179L390 178L383 176L381 173Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-mogao-caves-begun)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-mogao-caves-begun)"/>
+  <use href="#land-mogao-caves-begun" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-mogao-caves-begun" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-mogao-caves-begun" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-mogao-caves-begun)"><path d="M45 119L30 116L-3 117L-1 120L-4 126L-2 129L3 128L3 134L6 135L3 140L4 143L14 143L11 144L11 149L15 149L15 151L24 151L33 150L69 131L70 129L61 128L60 125L57 125L57 122L52 119L47 119Z" fill="rgb(145,203,176)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M188 128L219 134L218 135L232 138L232 140L242 141L242 143L246 143L247 146L252 146L260 153L278 159L278 160L286 160L285 162L304 168L299 173L295 172L294 181L293 181L291 186L294 189L294 196L289 199L277 198L265 202L247 203L215 210L199 217L184 219L172 223L167 230L160 234L155 240L86 257L75 249L58 247L54 242L42 238L41 236L36 234L31 227L32 224L29 220L26 220L25 216L22 216L18 210L-3 203L-24 199L-24 162L24 153L24 151L33 150L71 131L73 128L77 131L104 134L138 122L167 122L166 123L187 128Z" fill="rgb(139,180,163)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M340 209L346 213L352 212L353 202L351 202L353 196L361 198L373 206L378 206L381 202L390 203L394 201L405 217L412 220L415 215L423 227L429 229L430 231L434 233L437 237L444 233L444 237L446 241L451 242L457 253L457 262L459 263L457 266L457 270L453 271L453 275L454 275L450 279L437 275L408 274L347 259L344 256L339 256L332 252L318 249L282 236L245 227L243 224L239 224L237 222L233 222L232 219L221 215L217 210L247 203L265 202L277 198L289 199L294 196L298 198L304 195L316 195L324 199L329 198L330 202L333 202L334 206L338 209Z" fill="rgb(187,170,113)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 384L424 384L425 379L424 379L426 372L425 372L437 337L451 327L461 324L488 327L496 331L505 331L510 325L529 328L531 325L535 325L538 328L538 333L542 333L546 329L548 335L564 335L566 338L569 338L569 341L576 341L576 344L581 346L599 346L605 342L610 342L643 331L645 332L647 329L664 332Z" fill="rgb(194,163,175)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 332L647 329L645 332L643 331L636 335L599 345L608 322L606 319L607 316L600 312L600 310L595 310L594 307L591 306L590 296L588 295L589 291L587 290L588 282L587 282L590 272L595 266L593 264L594 259L591 256L592 249L590 249L593 242L591 242L595 233L601 224L598 220L595 220L596 215L595 215L597 208L603 203L601 201L605 191L602 188L597 193L585 195L583 191L586 182L591 176L629 170L641 172L651 166L655 168L664 161Z" fill="rgb(161,181,132)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M581 346L576 344L576 341L569 341L569 338L566 338L564 335L548 335L546 329L542 333L538 333L538 328L535 325L531 325L529 328L510 325L516 320L513 316L516 310L528 310L529 307L525 302L528 294L523 292L524 284L522 283L523 280L517 279L517 276L509 272L512 266L508 259L509 256L506 253L507 248L505 244L501 244L496 240L489 240L490 237L488 236L472 231L470 229L474 222L472 220L473 216L478 210L469 212L470 209L487 195L486 192L487 189L485 189L486 186L526 188L590 178L586 182L583 191L585 195L597 193L602 188L605 191L601 201L603 203L597 208L595 215L596 215L595 220L598 220L601 224L595 233L591 242L593 242L590 249L592 249L591 256L594 259L593 264L595 266L590 272L587 282L588 282L587 290L589 291L588 295L590 296L591 306L594 307L595 310L600 310L600 312L607 316L606 319L608 322L599 345Z" fill="rgb(201,209,162)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-24 384L-24 306L-22 308L-23 311L-16 320L-16 323L-14 324L-14 327L-12 328L-12 332L-9 332L-8 335L-1 338L3 337L2 341L9 348L42 360L49 359L49 362L55 363L62 372L62 377L66 384Z" fill="rgb(174,168,184)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-mogao-caves-begun-7" fill="rgb(184,149,206)" stroke="none"/>
+       <use href="#hl-mogao-caves-begun-7" fill="url(#hatch-mogao-caves-begun)" stroke="none"/>
+       <use href="#hl-mogao-caves-begun-7" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-mogao-caves-begun-7" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-mogao-caves-begun" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="128.0" y="192.0" class="lbl">서역도호부</text><text x="545.9" y="228.8" class="lbl">전진 (오호 십육국)</text><text x="356.1" y="230.7" class="lbl">토욕혼</text>
+  <g transform="translate(320.0 183.3)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-mogao-caves-begun)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-mogao-caves-begun)"/>
+  <rect width="640" height="360" fill="url(#vignette-mogao-caves-begun)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">문화·학문</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">둔황 막고굴의 시작</text>
+  </g>
+  <text x="320" y="284" class="year">서기 366년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

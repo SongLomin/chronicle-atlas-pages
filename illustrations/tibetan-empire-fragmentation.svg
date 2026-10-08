@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="랑다르마의 죽음과 토번 제국의 분열">
+<defs>
+  <clipPath id="frame-tibetan-empire-fragmentation"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-tibetan-empire-fragmentation" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-tibetan-empire-fragmentation" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-tibetan-empire-fragmentation" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="74" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-tibetan-empire-fragmentation" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-tibetan-empire-fragmentation"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-tibetan-empire-fragmentation" d="M-24 -24L-24 384L231 384L236 381L234 382L237 379L235 380L236 378L241 373L238 372L240 371L237 365L239 360L244 356L256 352L263 344L259 341L258 337L260 341L263 343L262 347L265 356L265 350L266 354L266 352L267 355L268 354L269 347L269 355L271 355L272 342L272 347L274 344L274 355L275 353L276 354L276 351L277 353L281 354L277 347L280 348L280 343L283 353L285 353L286 347L287 352L289 347L288 340L289 347L291 339L289 350L290 352L292 351L291 348L293 350L296 349L294 345L296 344L296 338L298 336L296 341L297 346L300 343L298 346L299 346L303 342L299 349L301 348L300 350L303 349L306 340L307 345L310 340L309 335L307 334L307 336L308 331L305 330L309 328L307 324L309 324L310 321L303 316L309 317L309 314L307 313L310 313L310 315L312 314L310 316L310 324L316 334L318 334L318 332L319 335L321 335L323 333L321 331L324 332L327 327L326 330L331 335L333 341L335 337L333 343L336 349L335 351L337 351L336 354L337 352L336 358L338 364L343 372L342 366L344 373L351 382L349 373L352 378L353 377L355 381L352 382L352 384L354 384L357 376L356 384L613 384L618 383L616 381L618 382L618 378L617 379L618 376L617 376L619 375L618 374L622 374L620 369L621 368L619 367L622 366L623 369L625 369L623 367L626 368L626 366L629 366L627 368L630 368L633 366L634 360L637 361L641 356L644 356L645 358L647 357L645 356L650 354L649 357L652 352L654 353L653 355L654 355L656 353L654 352L654 347L654 349L656 347L658 349L656 351L657 352L658 350L660 355L662 354L661 350L663 351L662 353L664 354L664 -24ZM260 353L262 354L262 349L260 353ZM271 350L272 351L272 348L271 350ZM280 348L281 352L280 348ZM304 349L306 346L304 349ZM306 348L307 347L306 345L306 348ZM306 317L310 319L306 317ZM307 330L308 331L311 329L309 328L307 330ZM308 346L309 345L309 346L310 343L308 346ZM308 349L310 347L308 349ZM308 326L311 327L310 325L308 326ZM309 332L311 337L311 346L314 343L315 337L311 330L309 332ZM310 337L311 340L310 337ZM316 341L317 339L316 341ZM318 344L321 342L319 338L318 344ZM326 335L328 338L327 334L326 335ZM333 352L334 348L333 352ZM334 353L334 357L336 357L336 351L334 353Z"/>
+  <clipPath id="landclip-tibetan-empire-fragmentation"><use href="#land-tibetan-empire-fragmentation"/></clipPath>
+  <path id="hl-tibetan-empire-fragmentation-9" d="M340 242L336 237L337 231L332 231L329 228L330 219L321 217L316 220L314 217L305 217L305 213L302 212L298 212L291 216L276 216L276 219L270 217L264 221L255 223L248 223L237 217L228 220L226 216L220 220L216 212L205 212L204 209L206 206L197 206L196 203L190 202L187 196L175 193L168 188L153 185L144 179L139 179L132 172L126 172L122 165L110 162L105 153L95 152L88 142L81 139L82 134L76 123L77 117L73 108L74 103L70 95L69 84L68 84L69 71L68 71L71 62L66 49L47 48L42 45L41 42L30 46L25 45L6 29L3 19L-8 18L-12 13L-24 13L-24 52L-24 -24L540 -24L556 -13L562 -13L564 -8L584 -2L583 2L591 2L596 6L601 6L604 11L602 17L605 20L604 23L609 28L609 33L602 40L586 46L580 46L566 54L562 59L558 72L559 72L556 81L558 84L555 95L550 99L540 101L524 112L510 152L511 152L509 162L510 162L509 166L511 170L510 180L511 180L511 186L514 188L517 205L524 221L523 240L513 244L480 245L467 248L445 244L437 238L433 238L430 234L416 235L418 227L415 226L417 220L408 213L396 216L386 226L380 225L366 238L352 238L341 242Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-tibetan-empire-fragmentation)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-tibetan-empire-fragmentation)"/>
+  <use href="#land-tibetan-empire-fragmentation" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-tibetan-empire-fragmentation" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-tibetan-empire-fragmentation" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-tibetan-empire-fragmentation)"><path d="M430 343L432 347L430 355L431 355L430 365L428 365L429 370L426 373L428 381L423 382L424 384L388 384L388 378L383 370L386 350L389 347L388 345L400 311L417 304L425 307L431 319L429 330L430 330L430 342Z" fill="rgb(230,199,156)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-24 94L-12 102L-3 112L3 116L15 106L22 105L33 120L39 116L44 87L42 54L30 46L25 45L6 29L3 19L-8 18L-12 13L-24 13L-24 52Z" fill="rgb(140,177,181)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M30 45L41 42L42 45L47 48L66 49L69 52L68 56L71 62L68 71L69 71L68 84L69 84L70 95L74 103L73 108L77 117L76 123L82 134L81 139L53 131L48 127L38 126L36 123L15 123L13 120L5 118L4 115L15 106L22 105L33 120L39 116L44 87L42 54L30 46Z" fill="rgb(202,171,182)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 -24L664 354L658 353L656 355L641 358L634 367L625 369L623 375L620 375L617 384L586 384L577 378L580 374L586 375L585 370L589 369L586 365L592 361L604 359L609 355L619 355L624 349L647 341L652 334L651 326L644 322L642 316L645 295L650 274L649 274L651 255L645 252L643 244L622 238L610 224L612 203L611 203L613 200L612 199L618 173L622 165L625 163L624 159L625 155L622 150L619 150L618 147L608 143L587 143L540 153L511 170L509 166L510 162L509 162L511 152L510 152L524 112L540 101L550 99L555 95L558 84L556 81L559 72L558 72L562 59L566 54L580 46L586 46L602 40L609 33L609 28L604 23L605 20L602 17L604 11L601 6L596 6L591 2L583 2L584 -2L580 -3L596 -9L610 -11L614 -14L620 -24Z" fill="rgb(229,202,144)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M586 363L581 359L573 361L563 357L558 358L554 355L525 357L526 354L518 351L512 351L504 358L495 358L494 354L490 351L491 346L477 345L477 338L478 338L479 329L483 326L473 323L469 319L468 310L465 308L469 302L455 303L447 307L444 306L448 300L447 300L447 296L443 293L444 288L447 287L449 280L453 277L454 271L466 265L467 248L480 245L513 244L523 240L524 221L517 205L514 188L511 186L511 180L510 180L511 170L540 153L587 143L608 143L618 147L619 150L622 150L625 155L624 159L625 163L622 165L618 173L612 199L613 200L611 203L612 203L610 224L622 238L643 244L645 252L651 255L649 274L650 274L645 295L642 316L644 322L651 326L652 334L647 341L624 349L619 355L609 355L604 359L592 361L586 365Z" fill="rgb(161,181,133)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M289 270L290 272L299 276L355 280L380 268L391 255L401 249L387 226L382 225L366 238L352 238L340 243L316 247L311 245L307 251L292 263Z" fill="rgb(164,179,126)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M73 224L61 224L56 221L42 220L19 220L-24 226L-24 319L-19 320L-6 334L-5 338L3 342L38 337L52 337L67 331L99 327L104 299L103 299L104 285L103 285L106 274L105 274L105 263L86 254L82 248L77 248L70 244L70 233L80 226L73 226Z" fill="rgb(163,179,127)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M321 342L318 343L319 339L323 339L323 342ZM343 297L338 307L334 320L322 334L316 335L315 346L310 347L311 345L306 345L303 351L296 346L296 350L293 351L281 351L281 354L274 354L273 345L272 345L270 353L263 355L264 343L260 341L257 335L252 334L251 331L220 318L218 315L200 306L169 295L164 289L160 289L141 278L123 273L86 254L82 248L77 248L70 244L70 233L87 221L99 219L142 220L150 224L162 223L176 226L180 228L187 227L202 231L210 237L222 238L245 247L270 249L274 255L281 254L283 260L286 262L297 259L292 263L289 270L290 272L299 276L346 280Z" fill="rgb(183,211,178)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M101 327L104 331L104 334L111 337L115 342L130 346L128 354L128 365L124 370L142 374L155 374L169 381L171 384L-24 384L-24 319L-19 320L-6 334L-5 338L3 342L38 337L52 337L67 331L99 327Z" fill="rgb(199,159,164)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-tibetan-empire-fragmentation-9" fill="rgb(173,102,122)" stroke="none"/>
+       <use href="#hl-tibetan-empire-fragmentation-9" fill="url(#hatch-tibetan-empire-fragmentation)" stroke="none"/>
+       <use href="#hl-tibetan-empire-fragmentation-9" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-tibetan-empire-fragmentation-9" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-tibetan-empire-fragmentation" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="229.3" y="44.8" class="lbl hl">토번</text><text x="348.9" y="251.2" class="lbl">카마루파</text><text x="56.0" y="112.2" class="lbl">카슈미르</text>
+  <g transform="translate(320.0 182.2)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-tibetan-empire-fragmentation)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><rect x="30" y="80" width="40" height="8" fill="#ddd0ad" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 80 L36 44 L44 38 L50 46 L58 36 L64 42 L66 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M42 78 L43 48 M50 78 L50 50 M58 78 L58 46" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M70 70 L84 64 L88 74 L76 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/><path d="M14 82 L24 74 L30 82 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M26 30 L32 36 M74 28 L68 34 M50 18 L50 26" stroke="#8f2a17" stroke-width="3" stroke-linecap="round"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-tibetan-empire-fragmentation)"/>
+  <rect width="640" height="360" fill="url(#vignette-tibetan-empire-fragmentation)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><rect x="30" y="80" width="40" height="8" fill="#ddd0ad" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 80 L36 44 L44 38 L50 46 L58 36 L64 42 L66 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M42 78 L43 48 M50 78 L50 50 M58 78 L58 46" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M70 70 L84 64 L88 74 L76 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/><path d="M14 82 L24 74 L30 82 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M26 30 L32 36 M74 28 L68 34 M50 18 L50 26" stroke="#8f2a17" stroke-width="3" stroke-linecap="round"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">붕괴</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:19px">랑다르마의 죽음과 토번 제국의 분열</text>
+  </g>
+  <text x="320" y="284" class="year">서기 842년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="페로즈 1세의 에프탈 원정과 전사">
+<defs>
+  <clipPath id="frame-peroz-hephthalite-war"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-peroz-hephthalite-war" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-peroz-hephthalite-war" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-peroz-hephthalite-war" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="228" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-peroz-hephthalite-war" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-peroz-hephthalite-war"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-peroz-hephthalite-war" d="M-24 -24L-24 384L12 384L8 383L7 379L4 379L8 379L6 377L-1 375L0 374L-2 373L0 371L-3 368L-2 367L-4 367L-6 359L-7 360L-7 357L-9 355L-9 353L-13 347L-14 340L-21 340L-16 336L-13 336L-17 325L-16 327L-14 326L-8 328L-5 328L-4 326L0 326L1 324L0 320L3 318L1 317L4 316L7 318L6 320L1 319L5 322L6 321L6 324L11 324L11 326L18 323L21 323L22 328L31 338L31 344L35 344L36 346L34 349L39 353L45 369L56 371L63 375L67 379L66 380L72 384L664 384L664 -24ZM74 131L75 138L75 130L74 131Z"/>
+  <clipPath id="landclip-peroz-hephthalite-war"><use href="#land-peroz-hephthalite-war"/></clipPath>
+  <path id="hl-peroz-hephthalite-war-6" d="M493 39L516 39L536 43L539 47L542 47L543 51L553 54L514 74L518 78L518 83L522 83L522 86L524 92L522 104L524 104L522 122L523 122L518 138L508 144L503 140L481 138L464 143L460 150L458 150L456 159L457 159L456 165L458 168L455 172L458 172L456 175L460 176L458 179L459 179L459 182L463 188L464 196L467 199L467 202L469 203L469 210L470 210L470 215L462 223L463 226L459 226L460 228L454 230L452 233L440 226L439 228L434 231L435 242L431 246L424 248L423 245L418 245L419 241L413 242L402 259L392 267L388 276L373 283L369 287L363 287L358 291L356 285L350 279L351 276L346 271L341 270L342 267L329 260L325 260L326 257L322 257L320 253L313 251L304 240L294 234L284 217L283 205L282 205L288 141L263 128L255 119L252 119L252 116L244 113L243 109L250 104L251 98L247 92L247 86L243 83L244 80L239 75L241 72L238 66L239 60L246 54L305 54L311 57L343 61L367 61L370 58L384 55L386 51L385 49L388 49L393 43L401 38L419 38L446 33L452 30L458 36L470 41L477 41L479 38L492 39Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-peroz-hephthalite-war)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-peroz-hephthalite-war)"/>
+  <use href="#land-peroz-hephthalite-war" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-peroz-hephthalite-war" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-peroz-hephthalite-war" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-peroz-hephthalite-war)"><path d="M-24 116L-10 116L-4 119L1 128L5 128L11 104L14 101L24 100L21 97L11 95L6 89L7 86L3 83L4 80L-6 68L-14 72L-16 78L-24 80Z" fill="rgb(232,191,179)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M148 106L150 103L168 100L171 103L177 103L179 106L193 106L193 113L199 113L198 116L210 116L210 121L219 119L243 109L244 113L252 116L252 119L255 119L263 128L288 141L282 205L283 205L284 217L294 234L304 240L313 251L320 253L322 257L326 257L325 260L329 260L342 267L341 270L346 271L351 276L350 279L356 285L358 291L357 294L345 305L339 315L331 322L326 331L321 356L322 356L321 361L323 361L323 370L324 370L323 378L325 384L71 384L68 383L64 375L56 372L48 372L43 368L43 365L39 359L38 352L34 351L36 346L31 344L31 339L24 332L21 323L12 327L1 321L2 326L-9 329L-9 335L-18 336L-18 339L-14 339L-12 342L-12 346L-8 352L-6 361L2 369L0 374L6 375L8 382L11 384L5 384L-6 378L-6 368L-11 364L-12 356L-24 342L-22 334L-24 333L-24 116L-10 116L-4 119L1 128L-2 137L-1 159L4 166L20 169L25 178L30 176L31 178L29 181L34 183L49 188L59 188L75 182L91 181L93 173L89 168L89 159L88 159L91 133L82 124L76 122L83 121L82 109L68 107L68 100L69 100L71 89L73 89L72 92L79 92L81 89L80 94L100 91L138 101L144 100L143 103L145 103Z" fill="rgb(183,198,144)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 47L655 46L656 44L626 44L589 57L570 55L562 52L553 54L514 74L518 78L518 83L522 83L522 86L524 92L522 104L524 104L522 122L523 122L518 138L507 146L511 147L519 162L524 163L527 168L538 170L542 175L559 178L571 186L589 182L583 178L589 163L597 160L604 153L623 141L627 141L630 137L644 130L648 125L664 119Z" fill="rgb(139,180,163)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 119L648 125L644 130L630 137L627 141L623 141L604 153L597 160L589 163L583 178L590 182L639 168L664 168Z" fill="rgb(187,170,113)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M325 384L323 378L324 370L323 370L323 361L321 361L322 356L321 356L326 331L331 322L339 315L345 305L357 294L358 291L363 287L369 287L373 283L388 276L392 267L402 259L413 242L419 241L418 245L423 245L424 248L431 246L435 242L434 231L439 228L440 226L451 233L450 234L457 240L457 242L464 252L464 255L466 256L466 259L468 260L469 264L471 264L472 267L480 271L484 270L483 274L490 281L525 294L532 293L532 295L538 297L546 306L546 311L550 317L550 326L552 330L551 336L552 336L550 346L556 353L570 357L574 364L581 368L584 368L584 365L587 364L606 362L607 365L615 369L629 372L637 370L639 374L646 373L647 379L651 381L651 384Z" fill="rgb(174,168,184)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 -24L664 47L655 46L656 44L626 44L589 57L570 55L562 52L553 54L543 51L542 47L539 47L536 43L516 39L537 12L550 -10L559 -14L572 -24Z" fill="rgb(214,189,126)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-peroz-hephthalite-war-6" fill="rgb(224,166,192)" stroke="none"/>
+       <use href="#hl-peroz-hephthalite-war-6" fill="url(#hatch-peroz-hephthalite-war)" stroke="none"/>
+       <use href="#hl-peroz-hephthalite-war-6" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-peroz-hephthalite-war-6" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-peroz-hephthalite-war" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="374.0" y="148.4" class="lbl hl">백훈족</text><text x="125.7" y="266.4" class="lbl">사산 제국</text>
+  <g transform="translate(320.0 182.9)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-peroz-hephthalite-war)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M24 64 C24 34 38 20 50 20 C62 20 76 34 76 64 L66 64 L66 52 L56 52 L56 82 L44 82 L44 52 L34 52 L34 64 Z" fill="#c9b37e" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 20 C50 8 68 6 80 12 C70 14 62 18 58 26" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M30 64 L70 64" stroke="#3b2412" stroke-width="3"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-peroz-hephthalite-war)"/>
+  <rect width="640" height="360" fill="url(#vignette-peroz-hephthalite-war)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M24 64 C24 34 38 20 50 20 C62 20 76 34 76 64 L66 64 L66 52 L56 52 L56 82 L44 82 L44 52 L34 52 L34 64 Z" fill="#c9b37e" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 20 C50 8 68 6 80 12 C70 14 62 18 58 26" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M30 64 L70 64" stroke="#3b2412" stroke-width="3"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">전쟁·저항</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:19px">페로즈 1세의 에프탈 원정과 전사</text>
+  </g>
+  <text x="320" y="284" class="year">서기 484년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

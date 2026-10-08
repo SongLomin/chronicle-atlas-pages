@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="알카라윈 모스크의 설립">
+<defs>
+  <clipPath id="frame-al-qarawiyyin-founded"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-al-qarawiyyin-founded" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-al-qarawiyyin-founded" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-al-qarawiyyin-founded" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="91" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-al-qarawiyyin-founded" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-al-qarawiyyin-founded"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-al-qarawiyyin-founded" d="M78 318L81 320L83 317L78 318ZM81 297L84 303L85 296L82 295L81 297ZM664 384L664 -24L244 -24L244 -22L248 -23L245 -20L246 -16L251 -20L249 -14L247 -14L249 -13L252 -14L248 -9L253 -11L248 -6L248 0L251 -2L248 4L252 4L249 5L252 18L251 30L252 26L252 28L254 28L251 30L248 41L250 43L248 43L244 56L242 60L238 61L240 65L237 74L237 77L244 76L247 69L250 67L246 72L247 75L244 78L241 78L242 83L248 81L250 82L250 80L251 83L253 83L247 82L250 85L250 89L248 94L251 99L246 116L254 114L268 116L275 112L284 112L283 111L285 110L285 113L292 117L294 121L295 119L298 118L293 122L294 125L298 128L295 127L300 135L308 139L311 138L312 135L313 137L316 130L326 128L330 123L357 122L361 124L364 121L368 120L372 122L376 118L381 108L387 103L391 104L398 102L396 99L397 98L400 89L402 88L402 85L416 76L409 71L407 67L405 57L408 53L422 32L425 31L422 32L424 32L427 30L427 28L424 27L430 21L451 14L453 11L469 1L471 -2L469 -8L472 -11L470 -11L469 -16L467 -17L467 -24L609 -24L609 -23L612 -21L616 -17L615 -12L620 -13L626 -10L629 -4L635 0L636 4L644 11L648 12L651 16L656 15L660 17L664 16L664 -24L664 211L655 208L647 210L637 210L620 200L621 202L617 202L616 199L619 200L615 198L614 193L612 192L612 194L609 196L608 191L603 192L598 188L595 180L597 177L606 172L616 157L614 154L614 147L607 143L604 137L605 131L610 129L616 119L614 114L606 119L605 122L602 123L599 121L601 119L597 113L600 112L593 110L592 111L594 112L592 113L593 109L581 111L573 117L567 119L563 117L557 120L554 119L555 117L551 117L547 114L543 115L544 117L539 119L529 114L525 119L517 120L509 125L499 119L483 118L475 122L471 121L469 122L465 121L459 126L455 125L436 127L418 135L410 144L405 141L403 142L400 146L397 144L392 146L388 154L375 160L367 158L362 159L358 156L361 159L359 159L357 152L355 155L350 157L343 155L342 157L339 156L331 158L324 156L318 152L314 146L314 141L303 144L296 164L286 183L273 192L255 200L241 215L241 224L230 241L231 253L230 257L235 262L234 268L225 283L217 292L208 297L200 306L190 311L173 314L169 319L162 339L146 350L139 368L138 380L134 384ZM93 311L95 312L97 311L94 308L93 311ZM94 210L99 214L105 211L96 209L94 210ZM101 305L105 313L107 312L111 305L115 301L101 305ZM121 314L123 318L127 317L129 314L128 309L123 309L121 314ZM145 311L148 312L155 308L157 304L157 297L154 298L150 308L145 311ZM156 294L158 295L164 292L165 288L158 290L156 294ZM398 98L398 101L398 98ZM434 72L437 74L441 68L436 68L434 72ZM437 77L437 78L440 78L438 76L437 77ZM455 56L457 59L461 56L463 61L466 61L468 63L472 60L475 52L469 51L470 49L468 48L470 47L463 49L455 56ZM481 46L482 47L489 50L491 49L488 44L481 46ZM561 28L561 32L562 31L564 32L567 39L566 48L568 49L569 53L567 52L565 64L569 68L569 72L574 73L577 70L578 64L577 63L586 67L588 63L590 44L588 40L592 33L589 27L590 26L586 24L589 22L586 21L587 19L585 18L585 20L584 17L581 15L573 23L568 26L563 25L562 22L561 28ZM562 22L564 19L562 22ZM565 67L566 71L567 68L565 67ZM568 -9L572 -4L569 -2L570 0L573 0L570 3L575 5L573 8L581 13L583 8L582 6L584 4L584 -2L587 -6L585 -24L583 -24L582 -20L579 -21L571 -17L568 -12L571 -10L568 -9ZM608 189L611 192L615 189L609 186L608 189ZM613 169L616 169L613 169ZM616 169L619 168L619 166L616 169ZM640 98L644 103L653 105L664 113L664 94L657 91L656 88L652 89L651 91L648 93L645 89L641 93L640 98Z"/>
+  <clipPath id="landclip-al-qarawiyyin-founded"><use href="#land-al-qarawiyyin-founded"/></clipPath>
+  <path id="hl-al-qarawiyyin-founded-8" d="M347 166L329 163L330 156L321 156L315 150L313 143L303 144L301 155L298 157L299 162L296 160L297 165L296 165L295 172L292 173L292 176L288 178L290 180L285 186L282 185L280 188L268 193L268 196L272 198L276 210L275 210L275 217L271 223L271 227L266 231L263 237L271 242L297 238L307 233L312 234L312 231L315 230L333 224L338 220L341 221L345 217L365 210L377 199L382 199L385 193L388 193L393 186L396 186L399 180L402 180L401 178L410 170L408 156L412 147L410 144L411 143L403 143L402 146L395 146L392 149L389 147L390 152L386 156L371 160L367 163L354 163L349 166Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-al-qarawiyyin-founded)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-al-qarawiyyin-founded)"/>
+  <use href="#land-al-qarawiyyin-founded" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-al-qarawiyyin-founded" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-al-qarawiyyin-founded" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-al-qarawiyyin-founded)"><path d="M411 153L408 161L426 204L441 214L555 247L646 269L664 269L664 230L657 227L639 230L629 227L623 221L614 219L598 208L592 211L589 203L580 194L581 183L567 177L524 168L510 171L513 148L509 146L509 137L512 130L510 123L482 119L474 122L466 122L461 126L436 128L423 132L413 144Z" fill="rgb(231,190,180)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M349 166L354 163L367 163L371 160L360 159L359 152L356 152L357 156L354 157L330 156L329 163L347 166Z" fill="rgb(216,206,155)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M262 237L253 242L230 246L231 237L240 224L240 217L242 212L254 199L268 193L268 196L272 198L276 210L275 210L275 217L271 223L271 227L266 231L263 237Z" fill="rgb(212,205,155)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M242 -24L244 -22L245 -17L252 -12L247 -7L251 26L260 26L262 22L268 19L272 20L275 17L281 19L282 15L314 12L317 9L324 9L338 1L378 -1L379 -10L374 -12L372 -18L356 -18L357 -23L356 -24Z" fill="rgb(158,171,181)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M443 15L434 17L424 23L424 30L420 31L416 36L415 42L408 47L405 53L406 67L413 76L399 87L397 93L398 102L380 106L382 109L377 109L373 121L365 119L362 122L329 122L325 127L315 128L314 134L310 136L309 139L304 134L300 134L295 124L295 118L290 116L286 111L274 111L274 113L270 116L263 116L259 113L252 113L246 116L248 103L249 103L249 82L242 83L242 77L239 79L236 76L236 71L238 68L239 59L243 58L244 51L246 51L247 37L249 37L248 31L251 26L260 26L262 22L268 19L272 20L275 17L281 19L282 15L314 12L317 9L324 9L338 1L378 -1L379 -13L398 -15L399 -9L413 -5L414 -2L422 -4L425 -1L436 1L444 15Z" fill="rgb(142,204,179)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M586 -24L586 -22L587 -22L587 -2L586 -2L586 3L582 12L579 14L573 9L573 4L570 4L571 -1L568 -5L568 -15L573 -20L580 -22L580 -24ZM466 -24L467 -17L470 -12L469 -1L459 7L454 7L450 14L446 15L444 15L436 1L425 -1L422 -4L414 -2L413 -5L402 -9L408 -15L409 -22L400 -24L664 -24L664 1L658 1L656 -2L650 -4L643 -13L639 -13L638 -24L633 -24L633 -22L627 -18L624 -12L618 -13L617 -18L614 -18L613 -24Z" fill="rgb(205,179,113)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 14L650 14L649 11L643 9L634 -1L634 -4L627 -7L625 -12L624 -12L627 -18L633 -22L633 -24L638 -24L639 -13L643 -13L650 -4L656 -2L658 1L664 1Z" fill="rgb(146,189,187)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M599 121L604 122L614 116L614 121L604 130L605 131L604 141L608 146L611 144L612 149L615 149L615 153L614 153L615 162L611 163L611 166L605 172L595 178L597 179L595 186L599 190L605 190L608 195L615 193L616 202L622 202L636 210L643 209L642 212L647 212L647 209L656 207L659 210L664 209L664 230L657 227L638 230L598 208L592 210L590 203L581 195L581 183L580 182L551 172L544 173L524 168L510 170L513 148L509 146L509 137L512 130L509 122L514 124L515 121L524 121L523 118L528 115L536 119L544 119L546 115L552 116L554 119L568 119L575 113L578 115L588 109L595 112L599 111L599 115L601 115Z" fill="rgb(211,173,122)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-al-qarawiyyin-founded-8" fill="rgb(171,100,121)" stroke="none"/>
+       <use href="#hl-al-qarawiyyin-founded-8" fill="url(#hatch-al-qarawiyyin-founded)" stroke="none"/>
+       <use href="#hl-al-qarawiyyin-founded-8" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-al-qarawiyyin-founded-8" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-al-qarawiyyin-founded" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="320.0" y="140.7" class="lbl hl">이드리스 왕조</text><text x="520.2" y="198.6" class="lbl">루스탐 왕조</text><text x="340.0" y="65.0" class="lbl">코르도바 토후국</text><text x="567.0" y="145.6" class="lbl">아글라브 왕조</text><text x="253.9" y="220.6" class="lbl">바르가와타 연맹</text>
+  <g transform="translate(320.0 182.7)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-al-qarawiyyin-founded)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-al-qarawiyyin-founded)"/>
+  <rect width="640" height="360" fill="url(#vignette-al-qarawiyyin-founded)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">문화·학문</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">알카라윈 모스크의 설립</text>
+  </g>
+  <text x="320" y="284" class="year">서기 859년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

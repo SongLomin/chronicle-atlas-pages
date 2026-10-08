@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="흉노의 남북 분열">
+<defs>
+  <clipPath id="frame-xiongnu-north-south-split"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-xiongnu-north-south-split" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-xiongnu-north-south-split" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-xiongnu-north-south-split" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="48" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-xiongnu-north-south-split" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-xiongnu-north-south-split"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-xiongnu-north-south-split" d="M-24 -24L-24 384L525 384L516 377L509 380L507 379L505 381L508 382L505 381L507 379L505 376L497 379L499 378L501 378L502 375L508 377L511 372L528 365L524 358L514 350L507 347L508 347L507 344L502 343L498 345L494 345L491 340L487 340L489 338L488 336L492 338L494 343L496 345L505 342L508 343L511 347L516 346L523 349L527 349L525 345L519 341L518 336L508 329L510 323L502 310L499 296L488 292L485 287L480 288L480 282L483 280L488 270L493 269L493 266L494 267L496 263L499 262L497 261L496 256L499 257L499 255L500 260L506 258L505 254L507 251L509 253L511 249L509 248L507 250L507 248L512 249L518 246L519 244L522 243L520 245L522 245L522 243L528 241L527 240L529 240L529 242L531 240L533 242L532 243L534 244L535 242L537 242L538 239L535 239L536 237L539 236L538 233L540 231L532 231L530 228L528 231L522 230L523 230L521 231L518 226L514 227L514 225L507 222L498 225L499 227L492 232L492 235L490 237L480 236L476 234L477 227L478 224L482 224L476 216L461 215L455 210L452 205L455 197L456 197L455 194L461 192L466 196L475 192L477 192L476 194L482 188L482 184L481 184L486 177L502 170L508 159L512 158L510 158L511 156L517 153L524 155L526 152L526 156L531 159L531 161L534 163L526 175L519 179L520 183L515 185L519 185L520 188L527 188L521 191L523 195L513 198L514 202L523 200L521 198L524 196L526 198L525 196L529 195L533 189L546 181L549 181L550 178L553 178L553 180L556 179L557 176L559 178L565 178L568 176L569 172L571 174L568 176L572 178L573 183L575 182L575 179L582 184L583 183L585 185L587 184L585 187L587 188L587 192L585 193L585 195L582 201L584 203L587 201L591 205L588 203L582 204L582 206L579 205L580 207L578 211L577 213L580 213L574 216L584 217L579 220L583 221L584 220L585 222L588 221L586 225L589 223L590 223L590 220L592 220L590 218L593 218L595 222L596 222L596 220L598 221L599 224L600 222L604 221L607 223L609 222L610 226L608 224L606 223L607 230L612 234L608 234L608 236L612 236L610 239L612 238L612 240L611 240L612 241L614 240L611 243L611 245L610 241L608 240L607 242L605 239L607 242L606 241L605 243L604 240L603 240L604 242L603 244L602 244L602 241L599 245L600 247L601 246L602 249L603 245L604 248L605 245L605 252L607 251L605 252L607 257L605 258L609 261L612 260L606 262L607 263L611 263L609 264L610 266L608 265L605 269L609 271L605 271L605 275L602 277L604 280L604 282L603 279L601 280L603 282L602 283L604 282L603 286L605 287L606 284L608 286L603 287L607 290L603 288L605 291L602 287L602 291L606 291L605 293L606 297L609 294L610 291L612 294L618 287L620 288L616 292L620 294L621 292L620 291L622 291L620 286L623 284L625 290L627 285L625 286L624 284L626 282L629 283L632 280L632 284L637 283L638 285L639 281L637 282L639 280L642 281L641 278L644 280L647 279L647 281L651 279L654 275L654 271L656 271L658 261L657 259L656 261L654 260L655 238L649 225L642 215L637 204L631 200L627 194L621 192L620 189L622 189L620 188L622 187L623 190L622 181L624 178L629 177L631 173L636 174L642 170L642 167L649 164L652 159L660 156L661 153L660 149L662 143L659 139L664 131L664 -24ZM468 197L469 198L471 195L470 196L468 195L468 197ZM489 338L493 342L491 338L489 338ZM514 348L521 353L528 354L527 352L518 347L514 348ZM516 188L518 187L517 188L519 188L519 187L517 186L516 188ZM521 355L525 357L521 355ZM537 190L540 191L537 190ZM577 186L578 183L577 186ZM598 294L603 294L603 292L601 291L598 294ZM599 317L601 319L607 318L611 317L613 314L610 312L605 313L599 317ZM602 249L604 252L602 249ZM603 230L604 231L607 229L603 230ZM603 224L603 226L605 227L606 223L604 222L603 224ZM626 290L627 291L627 288L626 290ZM628 285L629 288L632 288L632 286L630 286L630 284L628 285ZM639 285L641 286L641 288L642 288L643 282L641 283L642 284L639 285Z"/>
+  <clipPath id="landclip-xiongnu-north-south-split"><use href="#land-xiongnu-north-south-split"/></clipPath>
+  <path id="hl-xiongnu-north-south-split-8" d="M304 -24L303 -23L304 -23L299 -14L297 -4L300 -2L301 2L304 2L307 9L305 12L308 12L310 17L314 17L312 21L313 24L316 24L321 35L319 38L327 51L325 54L335 76L334 79L335 79L334 83L336 86L315 134L319 142L323 142L323 143L325 143L327 146L338 146L337 147L385 147L384 149L392 149L392 150L396 150L395 152L403 150L405 158L408 159L401 166L383 165L371 168L372 166L355 166L356 165L319 166L296 174L290 178L284 188L280 188L278 182L273 184L257 204L237 205L238 204L228 202L226 199L214 202L220 194L232 185L231 178L218 181L206 191L190 199L180 195L179 191L173 191L173 182L165 181L159 175L155 175L156 174L142 174L140 171L134 169L135 168L127 166L123 162L119 162L112 155L100 152L100 150L71 152L45 158L45 156L38 155L38 153L21 150L22 149L3 143L-5 136L-9 136L-11 133L-15 133L-14 131L-24 130L-24 -24Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-xiongnu-north-south-split)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-xiongnu-north-south-split)"/>
+  <use href="#land-xiongnu-north-south-split" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-xiongnu-north-south-split" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-xiongnu-north-south-split" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-xiongnu-north-south-split)"><path d="M552 90L553 98L556 103L569 112L580 115L592 116L611 112L628 101L635 92L639 75L636 57L630 46L618 35L605 30L591 32L578 39L565 53L556 70L552 87Z" fill="rgb(143,201,191)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M647 281L646 282L650 281L654 275L649 274L648 270L642 270L641 267L635 267L634 265L630 263L623 273L625 273L621 281L624 282L621 287L623 290L627 287L632 287L632 283L636 283L637 286L643 287L645 282L639 282L642 279L646 279L645 281Z" fill="rgb(204,160,128)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M657 270L659 262L658 259L655 259L656 250L655 250L657 245L655 245L657 241L655 237L655 233L651 236L643 234L631 244L629 248L631 250L630 255L632 256L628 263L634 265L635 267L641 267L642 270L648 270L649 274L654 275L657 271Z" fill="rgb(222,200,151)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M623 291L618 294L616 291L619 287L618 287L614 293L607 297L604 295L605 293L603 295L599 295L605 286L600 285L603 277L602 277L606 267L610 263L607 263L608 260L606 260L604 258L604 247L601 248L598 244L608 237L607 237L609 233L606 230L607 227L602 227L602 223L613 211L624 212L622 220L625 220L624 227L628 232L628 239L631 244L629 248L631 250L630 255L632 256L623 273L625 273L621 281L624 282L621 287L623 290Z" fill="rgb(148,192,154)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M641 209L637 201L630 197L629 194L622 192L624 185L613 188L611 192L614 198L613 211L624 212L622 220L625 220L624 227L628 232L628 239L631 244L643 234L651 236L655 232L652 227L650 227L641 211Z" fill="rgb(221,177,181)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M512 146L547 131L552 134L552 136L556 136L555 137L563 140L563 142L567 143L567 144L571 144L570 146L575 147L574 149L580 149L587 144L599 146L600 149L609 152L607 159L604 161L601 166L604 172L609 174L611 178L609 188L613 188L611 192L614 198L613 211L603 222L594 223L594 220L591 220L586 226L584 226L585 223L583 220L578 220L581 216L576 216L579 205L583 202L580 202L586 188L585 185L577 184L577 181L571 182L568 177L563 179L556 178L544 182L531 191L528 197L524 197L519 202L512 202L515 195L520 195L523 188L516 188L515 185L516 182L519 182L520 177L525 175L532 164L530 159L525 158L525 155L513 155L511 159L505 164L503 169L484 179L481 189L477 192L468 195L461 195L461 192L456 194L453 202L454 202L453 208L456 208L456 211L461 212L461 215L470 216L471 213L474 213L473 215L485 219L484 222L481 222L477 233L480 233L480 236L489 236L491 230L498 227L497 225L507 220L513 222L514 226L520 226L520 229L531 227L530 229L541 230L536 237L538 240L535 244L527 241L515 248L511 248L511 252L507 252L505 259L500 260L494 269L488 271L481 286L485 286L485 287L489 289L490 291L500 295L503 299L504 311L510 319L510 331L518 334L520 340L528 344L527 349L526 350L516 347L510 347L519 350L520 353L522 353L521 356L524 356L528 362L527 367L520 367L515 372L512 372L506 380L508 381L513 377L520 377L522 382L526 384L168 384L171 363L169 363L181 328L196 318L204 317L210 313L212 303L210 298L213 293L212 293L216 273L215 270L215 256L212 254L213 251L210 250L211 247L209 245L210 243L207 239L202 236L197 237L197 234L190 232L190 227L187 226L188 223L184 229L180 227L180 225L175 223L175 220L166 218L166 213L164 213L159 206L164 195L173 191L179 191L180 195L190 199L206 191L218 181L231 178L232 185L220 194L214 202L226 199L228 202L238 204L237 205L257 204L273 184L278 182L280 188L284 188L290 178L296 174L319 166L356 165L355 166L372 166L371 168L383 165L401 166L408 159L405 158L405 155L426 134L448 127L451 124L456 124L456 128L458 130L456 134L458 139L467 139L467 140L476 142L475 143L476 143Z" fill="rgb(222,191,137)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M661 136L664 131L664 105L605 110L587 115L573 125L548 131L548 133L563 140L563 142L567 143L567 144L571 144L570 146L575 147L574 149L580 149L587 144L599 146L600 149L609 152L607 159L615 155L620 155L622 152L633 150L639 146L649 147L660 144L661 137L660 137Z" fill="rgb(203,164,116)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M634 175L647 165L649 165L652 159L661 155L663 147L662 144L649 147L639 146L633 150L622 152L620 155L615 155L604 161L601 166L604 172L609 174L611 178L609 188L624 185L624 179L632 175Z" fill="rgb(162,172,184)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-xiongnu-north-south-split-8" fill="rgb(97,126,175)" stroke="none"/>
+       <use href="#hl-xiongnu-north-south-split-8" fill="url(#hatch-xiongnu-north-south-split)" stroke="none"/>
+       <use href="#hl-xiongnu-north-south-split-8" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-xiongnu-north-south-split-8" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-xiongnu-north-south-split" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <g>
+    <path d="M172.1 192.3 L172.6 190.8 L179.3 190.8 L180.5 195.2 L189.7 199.4 L206.1 190.8 L217.7 180.8 L230.8 177.9 L232.4 185.2 L219.9 193.6 L214.3 202.2 L225.9 199.4 L227.6 202.2 L237.8 203.7 L237.3 205.0 L256.6 203.7 L273.2 183.7 L277.8 182.4 L279.7 187.9 L283.8 187.9 L290.1 177.9 L295.9 173.7 L319.0 166.3 L333.0 165.0 L356.0 165.0 L355.4 166.3 L371.6 166.3 L371.1 167.9 L383.0 165.0 L401.3 166.3 L408.3 159.1 L404.9 157.8 L404.7 154.8 L406.1 154.8" fill="none" stroke="#c0301c" stroke-width="9" stroke-opacity="0.35" stroke-linejoin="round" filter="url(#glow-xiongnu-north-south-split)"/>
+    <path d="M172.1 192.3 L172.6 190.8 L179.3 190.8 L180.5 195.2 L189.7 199.4 L206.1 190.8 L217.7 180.8 L230.8 177.9 L232.4 185.2 L219.9 193.6 L214.3 202.2 L225.9 199.4 L227.6 202.2 L237.8 203.7 L237.3 205.0 L256.6 203.7 L273.2 183.7 L277.8 182.4 L279.7 187.9 L283.8 187.9 L290.1 177.9 L295.9 173.7 L319.0 166.3 L333.0 165.0 L356.0 165.0 L355.4 166.3 L371.6 166.3 L371.1 167.9 L383.0 165.0 L401.3 166.3 L408.3 159.1 L404.9 157.8 L404.7 154.8 L406.1 154.8" fill="none" stroke="#b3261a" stroke-width="2.6" stroke-dasharray="7 3 2 3" stroke-linejoin="round"/>
+    <path d="M346.3 260.0 Q353.4 235.8 333.0 221.1" fill="none" stroke="#efe2c2" stroke-width="11" stroke-linecap="round" stroke-opacity="0.8"/>
+    <path d="M323.2 214.1 L339.4 212.2 L326.5 230.0 Z" fill="#efe2c2" stroke="#efe2c2" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <path d="M346.3 260.0 Q353.4 235.8 333.0 221.1" fill="none" stroke="#3b2412" stroke-width="6" stroke-linecap="round"/>
+    <path d="M346.3 260.0 Q353.4 235.8 333.0 221.1" fill="none" stroke="#efe2c2" stroke-width="1.2" stroke-dasharray="2 5" stroke-opacity="0.75"/>
+    <path d="M323.2 214.1 L339.4 212.2 L326.5 230.0 Z" fill="#3b2412" stroke="#3b2412" stroke-width="1"/><path d="M92.9 34.0 Q162.9 138.5 286.6 161.3" fill="none" stroke="#efe2c2" stroke-width="11" stroke-linecap="round" stroke-opacity="0.8"/>
+    <path d="M298.4 163.5 L284.6 172.1 L288.6 150.5 Z" fill="#efe2c2" stroke="#efe2c2" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <path d="M92.9 34.0 Q162.9 138.5 286.6 161.3" fill="none" stroke="#8f2a17" stroke-width="6" stroke-linecap="round"/>
+    <path d="M92.9 34.0 Q162.9 138.5 286.6 161.3" fill="none" stroke="#efe2c2" stroke-width="1.2" stroke-dasharray="2 5" stroke-opacity="0.75"/>
+    <path d="M298.4 163.5 L284.6 172.1 L288.6 150.5 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1"/>
+  </g>
+  <g transform="translate(320 30)">
+    <path d="M-77 -13 L77 -13 L87 0 L77 13 L-77 13 L-87 0 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <text y="1" class="war">⚔ 한-흉노 전쟁</text>
+  </g><text x="597.4" y="73.7" class="lbl">부여</text>
+  <g transform="translate(320.0 183.3)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-xiongnu-north-south-split)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M16 22 L46 22 L40 38 L50 50 L42 64 L48 82 L16 82 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M56 18 L86 18 L86 78 L58 78 L52 60 L60 46 L50 34 Z" fill="#d9c79d" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M24 34 L36 36 M24 50 L34 48 M24 66 L36 68 M66 30 L78 30 M66 46 L78 50 M66 62 L78 62" stroke="#3b2412" stroke-width="1.6"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-xiongnu-north-south-split)"/>
+  <rect width="640" height="360" fill="url(#vignette-xiongnu-north-south-split)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M16 22 L46 22 L40 38 L50 50 L42 64 L48 82 L16 82 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M56 18 L86 18 L86 78 L58 78 L52 60 L60 46 L50 34 Z" fill="#d9c79d" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M24 34 L36 36 M24 50 L34 48 M24 66 L36 68 M66 30 L78 30 M66 46 L78 50 M66 62 L78 62" stroke="#3b2412" stroke-width="1.6"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">분할</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">흉노의 남북 분열</text>
+  </g>
+  <text x="320" y="284" class="year">서기 48년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+  .war { font-size: 13px; font-weight: 800; fill: #f4e8c8; dominant-baseline: middle; letter-spacing: 1px; }
+</style>
+</svg>

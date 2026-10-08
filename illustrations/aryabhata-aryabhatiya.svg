@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="아리아바타의 천문 수학서">
+<defs>
+  <clipPath id="frame-aryabhata-aryabhatiya"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-aryabhata-aryabhatiya" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-aryabhata-aryabhatiya" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-aryabhata-aryabhatiya" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="243" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-aryabhata-aryabhatiya" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-aryabhata-aryabhatiya"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-aryabhata-aryabhatiya" d="M-24 -24L-24 221L-23 222L-22 219L-22 223L-20 224L-20 219L-20 223L-17 224L-20 226L-16 226L-14 224L-7 220L-15 226L-15 228L-13 228L-14 229L-12 230L-10 236L1 242L11 245L14 242L20 241L20 239L25 240L25 238L27 237L27 240L25 241L21 249L17 249L13 252L12 250L9 253L7 251L7 253L1 255L1 252L-2 252L-1 250L-4 254L18 279L32 288L40 287L59 278L63 269L60 265L57 265L57 264L59 264L58 263L60 264L60 262L58 262L59 261L61 261L63 259L63 256L60 255L64 255L65 253L65 255L66 256L75 255L72 257L69 257L67 261L68 263L72 261L68 264L68 268L80 266L74 269L69 273L72 273L68 274L72 278L69 280L73 280L74 281L73 282L75 283L74 286L75 285L76 288L70 307L71 309L72 308L72 314L75 314L72 315L72 317L78 320L73 318L72 326L74 327L77 321L77 325L78 325L75 327L77 328L77 331L76 329L74 331L77 336L76 335L75 337L79 340L78 342L76 340L76 341L78 345L80 354L81 355L80 355L82 361L81 361L85 377L83 377L86 384L241 384L244 380L251 381L257 379L263 376L265 369L263 370L262 369L265 364L282 355L283 353L282 352L284 352L286 348L299 340L312 324L312 322L329 310L324 313L325 310L322 311L320 315L323 308L326 306L329 306L329 309L326 310L327 311L339 307L345 304L340 301L345 304L347 300L352 297L351 297L353 295L352 296L352 293L358 289L355 287L357 287L354 281L356 275L361 271L374 267L381 259L377 256L375 252L377 256L381 257L380 262L382 270L382 265L383 269L384 267L385 269L386 269L387 262L387 270L389 270L390 256L390 262L392 258L392 270L393 267L394 269L394 266L395 268L399 269L395 262L398 262L398 258L401 268L403 268L404 261L405 267L408 262L407 254L408 261L410 254L408 265L409 267L411 265L410 262L411 265L415 263L413 259L415 259L415 252L417 250L415 255L416 261L419 257L417 261L418 261L422 257L418 264L420 262L419 265L423 264L425 255L426 259L430 254L428 249L427 248L426 250L427 245L425 244L428 241L426 238L429 237L430 235L429 233L422 229L428 231L429 227L427 226L429 226L429 229L432 228L429 229L430 238L436 248L438 248L438 246L439 249L441 249L443 247L441 245L444 246L447 241L447 244L451 249L453 256L455 252L454 257L456 263L455 265L457 265L457 268L458 267L456 273L458 279L464 288L463 281L465 289L472 298L470 289L473 294L474 293L476 297L473 299L475 301L479 292L477 300L480 299L477 301L480 307L481 308L480 304L482 308L480 302L483 303L484 302L485 303L485 302L486 304L488 304L489 306L492 305L489 310L492 309L492 311L493 309L492 312L497 315L497 317L494 320L488 316L487 318L491 325L496 328L497 326L495 321L498 321L499 317L498 328L500 328L503 330L500 331L506 339L504 341L506 341L510 356L508 355L509 361L506 363L507 368L505 369L502 384L507 384L508 382L510 381L510 382L511 377L512 377L511 384L517 383L516 384L537 383L539 381L537 380L540 381L544 379L541 372L542 371L543 376L546 378L550 377L556 367L554 363L556 360L554 359L555 357L560 365L563 365L560 365L561 369L565 378L572 376L570 378L570 384L664 384L664 -24ZM378 268L380 269L380 264L378 268ZM389 265L390 265L390 262L389 265ZM398 263L400 267L398 263ZM424 263L425 261L424 263ZM425 262L427 262L426 260L425 262ZM426 231L429 233L426 231ZM426 244L428 245L431 243L428 242L426 244ZM427 260L428 259L428 261L430 257L427 260ZM427 264L429 261L427 264ZM427 240L431 241L429 238L427 240ZM428 246L431 251L430 261L434 258L434 251L430 244L428 246ZM429 252L430 254L429 252ZM436 256L437 253L436 256ZM437 258L439 259L441 256L439 252L437 258ZM446 249L448 252L447 248L446 249ZM454 266L455 262L454 266ZM454 268L455 272L456 271L456 266L454 268ZM475 302L478 307L475 302ZM485 305L488 309L485 305ZM487 328L490 332L492 331L492 328L487 328ZM490 315L493 319L497 317L492 313L490 315Z"/>
+  <clipPath id="landclip-aryabhata-aryabhatiya"><use href="#land-aryabhata-aryabhatiya"/></clipPath>
+  <path id="hl-aryabhata-aryabhatiya-8" d="M118 206L109 203L113 200L112 190L122 182L123 179L151 159L154 159L158 153L157 137L154 133L154 130L150 127L145 109L144 109L145 105L142 102L142 93L140 90L142 86L143 71L173 41L186 45L194 44L193 47L201 48L208 59L215 59L224 69L233 71L238 75L224 92L219 111L236 117L241 124L255 131L268 134L283 143L306 142L312 147L312 150L315 150L317 155L323 157L332 156L333 159L343 159L350 163L359 162L362 165L377 165L388 160L397 162L398 165L403 165L408 170L415 172L415 190L418 199L421 200L421 206L424 207L414 237L414 248L411 249L408 255L409 266L407 267L400 266L399 269L392 269L392 259L390 259L388 267L385 267L384 270L380 269L381 262L379 262L372 269L359 273L355 277L357 288L358 288L358 291L353 294L354 298L346 303L346 306L339 309L327 311L328 307L325 307L326 313L316 321L307 335L279 326L258 303L255 303L247 295L279 287L293 262L292 254L276 239L266 234L259 234L246 252L235 256L221 240L208 230L193 232L176 221L151 213L147 205L133 204L118 206Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-aryabhata-aryabhatiya)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-aryabhata-aryabhatiya)"/>
+  <use href="#land-aryabhata-aryabhatiya" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-aryabhata-aryabhatiya" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-aryabhata-aryabhatiya" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-aryabhata-aryabhatiya)"><path d="M554 258L556 262L554 270L555 270L554 280L552 280L553 285L550 288L551 296L547 298L549 305L545 309L546 317L541 328L534 336L531 336L531 339L519 339L514 329L515 324L512 316L514 310L510 299L510 294L505 285L508 265L512 262L511 259L523 224L541 217L549 220L555 233L553 244L554 244L554 256Z" fill="rgb(230,199,156)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M167 384L167 367L158 349L134 331L107 329L98 337L91 348L93 364L100 384Z" fill="rgb(194,187,205)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M415 178L424 188L438 188L454 192L479 192L502 182L515 168L527 160L508 129L502 123L490 124L461 136L439 136L426 143L422 169L419 172Z" fill="rgb(164,179,126)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M648 -24L649 -22L646 -19L650 -16L647 -7L649 -7L649 3L653 12L651 18L664 9L664 -24Z" fill="rgb(187,170,113)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M70 274L71 271L79 266L68 267L71 261L68 261L68 257L73 256L61 255L63 257L63 259L58 265L61 267L62 271L57 279L38 288L27 286L-4 255L-2 251L3 255L21 248L27 237L24 241L10 244L-7 238L-15 227L-8 221L15 218L18 215L55 217L97 226L98 268L83 275L70 277Z" fill="rgb(204,157,144)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 221L659 214L654 212L647 192L645 175L641 165L639 139L638 139L638 128L636 127L638 123L637 123L638 117L636 117L638 111L635 104L637 90L635 90L637 84L635 84L638 59L637 59L651 18L664 9Z" fill="rgb(148,185,191)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M167 384L167 367L158 349L134 331L107 329L98 337L91 348L94 367L91 369L83 369L75 332L77 325L77 322L74 325L73 323L73 319L77 319L73 317L70 307L75 289L73 280L70 277L83 275L98 268L97 226L99 219L103 210L107 210L113 206L133 204L147 205L151 213L176 221L193 232L208 230L221 240L235 256L246 252L259 234L266 234L276 239L292 254L293 262L279 287L248 295L240 299L228 308L226 323L228 330L240 346L254 356L248 363L245 373L247 380L243 381L241 384Z" fill="rgb(166,179,126)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-13 231L-16 230L-16 227L-20 227L-20 221L-24 221L-24 -24L125 -24L123 -21L125 -21L124 -8L125 -8L127 7L130 7L136 15L139 13L139 20L147 27L150 27L151 30L154 30L155 33L172 39L143 71L142 86L140 90L142 93L142 102L145 105L144 109L145 109L150 127L154 130L154 133L157 137L158 153L154 159L151 159L123 179L122 182L112 190L113 200L109 203L109 209L103 210L100 213L97 226L55 217L18 215L15 218L-8 221L-15 227L-12 231Z" fill="rgb(231,194,193)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-aryabhata-aryabhatiya-8" fill="rgb(119,119,175)" stroke="none"/>
+       <use href="#hl-aryabhata-aryabhatiya-8" fill="url(#hatch-aryabhata-aryabhatiya)" stroke="none"/>
+       <use href="#hl-aryabhata-aryabhatiya-8" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-aryabhata-aryabhatiya-8" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-aryabhata-aryabhatiya" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="244.8" y="194.1" class="lbl hl">굽타 왕조</text><text x="469.8" y="162.2" class="lbl">카마루파</text>
+  <g transform="translate(320.0 181.9)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-aryabhata-aryabhatiya)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-aryabhata-aryabhatiya)"/>
+  <rect width="640" height="360" fill="url(#vignette-aryabhata-aryabhatiya)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">문화·학문</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">아리아바타의 천문 수학서</text>
+  </g>
+  <text x="320" y="284" class="year">서기 499년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="루드라다만의 주나가드 바위 비문">
+<defs>
+  <clipPath id="frame-rudradaman-junagadh-inscription"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-rudradaman-junagadh-inscription" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-rudradaman-junagadh-inscription" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-rudradaman-junagadh-inscription" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="150" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-rudradaman-junagadh-inscription" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-rudradaman-junagadh-inscription"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-rudradaman-junagadh-inscription" d="M-24 -24L-24 283L-18 280L-8 280L-4 282L1 280L6 276L7 272L5 269L10 262L28 260L33 256L34 247L38 243L46 239L59 237L56 221L59 210L67 202L68 202L67 206L72 207L73 206L80 192L90 183L100 166L100 161L100 159L94 159L78 137L75 134L69 135L48 129L38 121L31 110L29 102L29 91L27 88L30 82L29 80L31 78L28 78L28 77L31 77L30 76L31 75L29 74L31 72L29 72L27 76L29 76L25 75L20 86L20 85L13 91L12 90L7 97L7 99L6 98L2 103L-7 109L-8 115L-12 114L-8 116L-10 116L-11 120L-24 125L-24 64L-14 64L-12 67L-4 69L6 62L11 63L14 58L20 57L24 54L28 53L38 54L39 57L41 57L40 59L42 61L43 71L46 77L45 79L48 86L57 87L58 89L62 88L66 91L71 90L79 91L84 94L92 93L102 96L110 95L113 97L112 95L115 93L117 97L133 102L136 98L140 99L140 103L143 101L147 101L146 100L148 99L151 99L150 101L153 101L152 100L155 98L176 99L175 97L177 95L187 96L186 94L187 93L189 93L188 94L188 96L195 98L198 97L200 100L202 96L210 97L215 95L220 96L233 93L238 94L238 93L234 91L229 93L232 90L235 89L238 92L239 95L243 99L241 107L247 107L253 109L251 112L253 113L252 113L254 118L256 118L254 120L255 125L259 125L257 126L259 128L258 129L261 130L262 128L261 130L263 131L263 130L265 130L266 128L269 131L269 128L271 130L270 132L272 133L272 128L272 132L275 133L272 135L276 136L278 133L286 129L277 135L277 138L279 137L278 139L281 141L280 143L287 148L294 152L304 154L307 152L313 150L313 149L318 150L318 147L320 146L321 149L318 151L314 158L310 159L306 162L305 160L302 163L300 161L299 163L294 165L294 162L291 162L291 160L288 164L292 169L298 174L311 190L321 197L330 200L354 189L358 179L355 176L351 175L351 174L354 175L353 173L355 175L355 173L352 172L353 171L355 172L358 169L358 166L354 165L358 165L360 163L359 165L361 166L370 165L367 167L363 167L362 172L363 173L367 171L363 174L363 178L375 176L368 179L363 184L367 183L363 185L367 189L364 191L368 190L369 192L367 193L370 194L369 197L370 196L371 199L365 219L365 221L367 220L366 225L370 226L367 227L367 229L373 232L368 230L367 239L368 239L372 234L372 237L373 237L370 239L372 240L372 243L371 241L369 242L372 249L370 247L370 251L374 253L373 255L371 253L371 254L373 257L375 267L376 268L375 269L380 289L379 289L380 291L378 291L381 300L382 298L381 301L387 310L389 309L387 311L388 313L390 312L388 314L392 316L388 315L390 316L392 320L391 322L395 327L398 326L395 328L398 330L400 332L399 334L400 333L402 335L400 334L401 338L403 340L402 340L403 344L406 352L407 351L408 352L406 353L407 358L410 369L412 369L410 370L416 384L515 384L521 373L524 359L518 353L518 351L519 353L519 351L523 357L519 340L518 340L520 338L521 333L518 322L522 309L530 304L533 305L533 308L535 301L535 305L537 307L543 295L546 294L553 295L564 290L565 283L564 284L563 282L566 278L583 268L585 266L584 265L586 265L588 261L601 252L614 237L614 234L632 222L627 225L628 222L625 223L622 227L625 220L629 218L632 218L632 221L629 222L630 223L646 217L648 216L644 212L649 215L651 211L656 208L655 209L657 206L655 207L656 205L662 200L659 198L660 198L658 189L664 182L664 -24ZM6 66L7 68L19 64L20 65L27 59L25 57L19 60L16 59L16 62L6 66ZM20 269L23 269L20 269ZM76 209L76 212L82 204L81 200L76 209Z"/>
+  <clipPath id="landclip-rudradaman-junagadh-inscription"><use href="#land-rudradaman-junagadh-inscription"/></clipPath>
+  <path id="hl-rudradaman-junagadh-inscription-4" d="M541 159L537 168L528 176L506 185L504 188L501 186L477 194L443 198L405 199L398 205L395 219L388 225L369 232L367 229L367 223L364 219L369 208L370 195L363 188L367 178L363 176L362 165L359 165L358 172L354 174L355 176L358 176L355 189L339 196L337 199L325 201L316 196L308 188L308 185L300 176L297 176L288 166L289 161L298 164L300 161L307 161L316 156L318 151L299 155L290 151L290 148L300 145L311 136L319 125L319 120L323 119L322 111L333 100L336 100L349 88L376 76L382 76L392 72L446 61L457 61L460 64L480 61L481 69L482 69L481 85L483 85L482 104L487 110L504 113L529 123L541 135L543 140Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-rudradaman-junagadh-inscription)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-rudradaman-junagadh-inscription)"/>
+  <use href="#land-rudradaman-junagadh-inscription" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-rudradaman-junagadh-inscription" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-rudradaman-junagadh-inscription" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-rudradaman-junagadh-inscription)"><path d="M209 -2L197 -3L189 1L151 1L124 -8L123 -13L135 -24L235 -24L236 -23L234 -10L229 -8Z" fill="rgb(219,197,207)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-24 -24L135 -24L123 -13L124 -8L151 1L189 1L197 -3L209 -2L229 -8L236 -5L246 -5L248 1L251 3L247 21L248 21L247 27L249 27L249 37L251 37L249 46L252 52L252 73L259 85L250 101L241 106L240 95L235 91L228 95L203 97L203 100L192 98L191 95L179 95L177 98L157 98L155 101L149 100L145 103L139 103L138 100L127 101L123 98L116 98L117 95L84 95L79 91L62 91L57 89L56 87L50 87L45 82L43 61L36 54L25 54L23 57L28 57L27 60L22 64L13 66L10 69L6 69L7 64L12 63L5 63L-3 70L-11 69L-15 64L-24 64L-24 123L-18 123L-18 119L-14 120L-9 116L-5 107L3 101L9 91L20 84L25 73L31 72L32 73L29 91L31 91L30 100L31 100L29 104L32 106L37 119L52 129L79 135L85 142L84 145L89 148L89 151L81 151L81 148L75 148L69 142L62 142L62 139L59 138L38 132L38 129L32 125L31 119L27 117L27 113L23 107L18 109L18 113L13 111L-3 127L-15 132L-24 132Z" fill="rgb(183,198,144)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M589 179L584 184L582 192L572 201L567 211L564 211L562 216L559 218L558 226L559 226L558 235L560 235L556 243L553 243L542 260L524 269L507 286L502 300L497 307L490 334L481 334L465 341L459 341L452 347L443 349L436 358L433 356L420 323L413 317L399 315L395 312L389 314L387 310L383 307L377 289L377 274L371 258L369 232L388 225L395 219L398 205L405 199L443 198L477 194L501 186L504 188L506 185L528 176L537 168L541 159L543 140L548 142L550 146L555 146L559 151L565 152L568 156L571 156L590 178Z" fill="rgb(161,204,167)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M514 -24L513 -14L516 -10L514 -2L516 -2L514 9L520 18L531 19L536 22L541 30L555 37L569 40L580 48L606 48L607 66L610 66L608 75L610 75L605 126L607 126L600 153L596 165L592 166L591 176L590 178L571 156L568 156L565 152L559 151L555 146L550 146L548 142L543 140L541 135L529 123L504 113L487 110L482 104L483 85L481 85L482 69L481 69L480 61L460 64L457 61L446 61L392 72L382 76L376 76L349 88L336 100L333 100L322 111L323 119L319 120L319 125L311 136L300 145L290 148L290 151L288 151L281 145L280 140L276 139L276 136L271 136L272 130L261 130L258 129L257 125L254 125L255 117L251 109L241 107L241 106L250 101L259 85L252 73L252 52L249 46L251 37L249 37L249 27L247 27L248 21L247 21L251 3L248 1L246 -5L236 -5L229 -8L234 -10L236 -23L235 -24Z" fill="rgb(203,158,152)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-rudradaman-junagadh-inscription-4" fill="rgb(214,140,104)" stroke="none"/>
+       <use href="#hl-rudradaman-junagadh-inscription-4" fill="url(#hatch-rudradaman-junagadh-inscription)" stroke="none"/>
+       <use href="#hl-rudradaman-junagadh-inscription-4" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-rudradaman-junagadh-inscription-4" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-rudradaman-junagadh-inscription" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="414.6" y="133.6" class="lbl hl">서사트라프</text><text x="471.9" y="244.0" class="lbl">사타바하나 왕조</text>
+  <g transform="translate(320.0 181.6)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-rudradaman-junagadh-inscription)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-rudradaman-junagadh-inscription)"/>
+  <rect width="640" height="360" fill="url(#vignette-rudradaman-junagadh-inscription)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">문화·학문</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:19px">루드라다만의 주나가드 바위 비문</text>
+  </g>
+  <text x="320" y="284" class="year">서기 150년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="쿠루 왕국과 베다의 정리">
+<defs>
+  <clipPath id="frame-kuru-kingdom-vedas"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-kuru-kingdom-vedas" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-kuru-kingdom-vedas" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-kuru-kingdom-vedas" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="181" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-kuru-kingdom-vedas" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-kuru-kingdom-vedas"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-kuru-kingdom-vedas" d="M-24 -24L-24 370L-16 364L-7 348L-7 344L-7 342L-13 341L-24 326L-24 280L-22 281L-14 280L-5 283L2 282L5 284L4 282L7 280L9 284L24 289L26 285L31 286L30 290L33 288L37 288L36 287L38 285L42 288L41 287L44 284L64 286L63 284L65 282L74 283L73 281L74 280L76 280L75 283L82 285L84 284L86 286L88 283L95 284L100 282L105 283L117 280L121 282L121 280L118 278L113 280L119 277L126 286L124 293L136 295L134 298L136 299L134 299L136 303L138 304L136 305L138 310L141 310L140 313L143 314L143 313L143 315L145 315L147 315L147 313L150 316L150 312L152 315L151 317L153 318L153 313L153 316L156 318L153 319L156 320L158 317L166 314L158 319L158 322L159 321L158 323L162 325L161 327L167 332L173 335L183 337L185 335L191 334L191 332L196 333L196 331L198 330L198 332L192 341L185 344L183 343L181 345L179 344L179 346L173 347L173 344L171 345L171 343L168 346L190 370L199 377L207 379L229 369L233 361L230 357L227 357L229 356L228 355L230 356L230 354L228 354L229 353L230 353L233 351L233 348L230 347L233 347L235 345L235 348L236 348L244 347L241 349L238 349L237 353L237 355L241 353L238 356L238 360L249 358L243 360L238 365L241 364L238 366L241 369L239 371L243 371L243 373L242 373L244 374L243 377L244 376L245 378L244 384L510 384L516 380L513 378L515 378L512 372L514 367L519 362L531 358L538 351L534 348L533 344L535 348L538 349L537 354L539 362L539 357L540 361L541 359L542 361L543 361L544 354L544 362L545 362L547 349L547 354L549 350L548 362L550 359L551 360L551 358L552 360L555 361L552 353L555 354L555 350L558 360L559 360L560 353L561 359L564 354L563 347L564 353L566 346L564 357L565 359L567 357L566 354L567 356L571 355L569 351L570 351L570 344L573 343L571 347L572 353L574 349L573 353L574 353L577 349L573 356L575 354L575 356L578 356L580 347L581 351L585 346L584 341L582 341L581 343L582 338L580 337L583 334L582 331L584 330L585 328L578 322L584 324L584 321L582 320L585 319L585 322L587 321L584 323L585 331L591 341L593 341L592 339L594 342L596 342L597 340L596 338L598 338L602 334L601 337L605 342L607 348L610 344L608 349L610 355L609 357L611 357L611 360L612 359L610 364L612 370L618 379L617 373L619 380L623 384L625 384L624 380L626 384L631 384L632 383L632 384L664 384L664 -24ZM535 360L537 361L537 356L535 360ZM546 356L547 357L547 354L546 356ZM555 355L556 359L555 355ZM579 355L580 353L579 355ZM580 354L582 354L581 352L580 354ZM581 324L584 326L581 324ZM582 337L583 338L586 336L583 335L582 337ZM582 352L583 351L583 353L585 349L582 352ZM583 356L584 353L583 356ZM583 333L586 334L584 331L583 333ZM584 339L586 344L585 353L589 350L589 344L585 336L584 339ZM584 344L585 346L584 344ZM591 348L592 345L591 348ZM592 350L596 348L594 345L592 350ZM600 342L603 345L601 341L600 342ZM608 358L609 354L608 358ZM608 359L609 364L611 363L610 357L608 359Z"/>
+  <clipPath id="landclip-kuru-kingdom-vedas"><use href="#land-kuru-kingdom-vedas"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-kuru-kingdom-vedas)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-kuru-kingdom-vedas)"/>
+  <use href="#land-kuru-kingdom-vedas" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-kuru-kingdom-vedas" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-kuru-kingdom-vedas" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-kuru-kingdom-vedas)"></g>
+  <use href="#land-kuru-kingdom-vedas" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  
+  <g transform="translate(320.0 182.3)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-kuru-kingdom-vedas)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-kuru-kingdom-vedas)"/>
+  <rect width="640" height="360" fill="url(#vignette-kuru-kingdom-vedas)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">건국</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">쿠루 왕국과 베다의 정리</text>
+  </g>
+  <text x="320" y="284" class="year">기원전 1100년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

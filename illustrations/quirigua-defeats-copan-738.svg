@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="키리과의 코판 격파">
+<defs>
+  <clipPath id="frame-quirigua-defeats-copan-738"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-quirigua-defeats-copan-738" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-quirigua-defeats-copan-738" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-quirigua-defeats-copan-738" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="226" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-quirigua-defeats-copan-738" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-quirigua-defeats-copan-738"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-quirigua-defeats-copan-738" d="M-24 -24L-24 84L-22 90L-10 96L-7 95L-7 97L4 103L10 113L38 122L43 121L63 137L85 145L93 149L112 152L116 158L127 160L124 160L133 165L144 166L159 172L166 172L183 165L189 161L197 160L194 159L196 158L191 159L195 155L197 159L199 157L201 158L198 160L205 161L215 165L204 159L205 158L211 160L236 181L240 183L241 185L239 183L251 197L271 210L287 211L297 215L304 220L315 221L332 228L327 225L332 225L333 227L335 226L335 228L344 228L347 225L345 223L346 222L348 223L350 221L350 223L355 222L353 225L355 229L357 229L356 230L358 231L356 233L357 233L354 233L351 229L349 234L369 249L374 258L392 273L391 274L391 277L386 277L392 280L392 283L393 283L389 286L390 287L388 289L392 299L400 301L404 306L409 300L403 296L400 291L411 297L410 297L412 297L415 306L423 308L436 318L437 321L436 323L437 323L434 327L437 330L443 332L443 328L439 325L446 326L447 330L446 332L452 340L453 334L467 333L466 335L467 337L468 335L472 335L475 337L476 336L477 339L479 340L480 345L483 347L487 349L487 345L489 345L487 342L490 344L491 342L492 344L490 345L495 357L504 356L507 353L513 352L514 350L504 340L503 335L518 328L520 326L517 326L519 322L523 321L523 319L524 321L526 318L532 319L532 317L535 315L533 317L533 319L542 325L543 323L547 332L549 332L548 328L549 331L551 329L552 331L552 328L551 332L553 330L554 331L554 328L556 334L560 336L556 335L554 331L552 334L550 335L551 338L547 339L553 351L563 360L563 365L565 365L566 369L569 368L570 375L569 378L567 377L567 379L571 384L664 384L664 263L657 269L639 267L634 280L631 278L631 280L630 279L629 280L629 278L632 278L632 275L636 275L624 273L615 279L615 281L610 284L610 287L610 286L608 288L610 290L606 294L609 292L606 303L608 305L607 309L603 310L600 309L596 313L592 320L579 328L583 331L584 339L582 342L579 341L580 339L581 340L581 337L579 337L579 334L572 329L570 326L566 325L559 316L559 317L556 313L547 310L534 309L536 306L521 305L518 311L516 310L515 312L514 311L511 314L501 317L491 323L481 323L473 315L472 316L476 320L469 320L466 318L465 315L467 314L463 314L463 309L454 304L445 294L437 280L436 281L437 278L433 275L431 269L433 263L435 261L434 256L433 257L431 256L433 254L432 252L434 250L433 249L435 253L436 246L435 247L433 241L437 239L436 236L437 235L436 245L439 244L437 222L440 210L445 202L443 192L440 191L442 189L443 191L447 187L443 186L442 182L434 178L439 182L436 183L438 181L436 180L433 183L432 180L427 178L432 181L429 181L423 175L434 178L422 169L414 168L418 169L414 170L413 168L407 165L396 168L385 164L387 165L387 166L377 170L365 170L356 168L353 170L351 166L348 167L343 168L339 172L329 166L332 168L330 168L329 171L323 167L322 165L326 160L331 159L336 150L335 153L338 144L336 135L339 131L336 129L340 118L340 112L335 113L335 112L334 112L339 104L337 104L340 104L341 100L342 104L341 109L344 110L346 116L354 90L350 92L349 90L354 87L355 84L354 83L352 84L354 85L349 86L348 82L349 83L354 77L353 76L353 80L354 70L366 55L369 48L368 47L367 42L361 38L355 40L361 39L358 42L339 38L337 39L340 38L333 39L318 44L301 46L292 52L289 63L289 77L285 80L283 90L267 102L273 98L269 102L272 103L272 106L274 105L267 109L268 110L261 109L261 111L259 107L257 107L259 109L255 108L258 106L259 107L258 104L248 105L242 106L242 110L241 107L238 110L232 110L232 112L232 110L223 110L217 113L223 111L218 114L202 116L197 109L192 107L188 104L180 104L177 102L180 105L174 104L175 103L172 101L176 102L165 90L161 78L145 58L139 41L135 37L133 27L136 34L142 40L139 42L141 46L143 39L136 33L133 27L132 13L130 15L133 7L133 9L134 -12L133 -9L132 -13L134 -13L135 -24ZM135 32L136 35L135 32ZM260 105L266 102L260 105ZM304 17L306 17L307 20L307 17L305 15L304 17ZM342 122L345 116L342 122ZM344 136L347 131L344 136ZM356 111L357 107L356 111ZM363 66L364 69L369 61L365 62L363 66ZM364 163L366 162L364 163ZM372 158L381 155L376 156L372 158ZM386 156L389 154L386 156ZM408 32L410 33L417 30L417 34L423 31L427 31L430 25L435 25L437 23L440 25L454 13L473 13L478 16L478 18L467 20L475 25L481 24L485 27L487 25L488 27L488 22L490 27L503 28L502 25L503 24L505 27L504 28L513 35L516 34L517 36L521 36L531 39L540 37L546 46L546 51L555 59L570 58L574 60L573 62L576 64L575 66L565 73L563 79L595 75L615 77L619 73L617 77L619 77L625 74L636 73L639 70L637 67L634 68L626 61L623 59L614 58L615 59L614 60L611 58L609 59L607 57L605 59L604 56L609 56L605 54L608 52L606 49L598 50L591 45L588 45L589 47L588 48L586 47L588 45L583 45L585 44L582 43L580 45L582 43L576 38L574 41L572 41L572 39L570 38L574 39L575 37L566 31L565 32L568 33L570 37L569 37L568 34L562 33L560 31L561 30L559 32L555 27L541 20L541 22L540 20L528 19L521 11L517 10L518 8L515 9L513 7L504 7L502 6L501 2L499 4L490 3L489 5L486 3L489 1L481 5L480 2L466 1L450 6L448 5L446 7L444 6L441 9L427 12L425 16L423 15L418 24L422 28L417 28L408 32ZM434 254L434 256L434 253L434 254ZM445 37L448 41L451 42L459 38L456 31L450 30L447 33L450 39L445 37ZM466 311L468 313L469 312L466 311ZM468 39L471 37L468 39ZM473 351L476 354L480 354L477 352L478 350L476 348L473 351ZM480 38L484 35L480 38ZM483 89L484 91L490 90L486 89L485 91L483 89ZM487 351L491 349L487 351ZM493 3L496 2L493 3ZM495 1L498 1L495 1ZM511 83L514 81L511 83ZM516 82L519 80L516 82ZM521 10L528 15L521 10ZM530 52L533 54L530 52ZM533 13L536 14L533 13ZM536 331L537 335L539 332L537 330L536 331ZM536 56L538 57L536 56ZM541 16L548 18L547 19L550 19L548 16L541 16ZM546 61L549 63L546 61ZM548 114L555 116L562 123L569 123L574 127L575 123L579 124L581 120L586 123L595 122L592 117L582 114L580 111L558 108L557 110L551 110L548 114ZM550 20L556 22L553 19L550 20ZM555 24L559 27L560 25L556 22L555 24ZM557 27L563 31L564 30L564 27L557 27ZM559 22L562 25L559 22ZM613 -9L618 -3L619 3L616 2L621 4L624 9L624 6L619 2L616 -6L614 -10L613 -9ZM632 110L634 113L640 114L645 119L646 119L646 117L650 114L649 115L655 114L664 116L664 77L660 76L655 79L653 81L655 83L664 84L664 110L649 109L648 108L651 107L646 108L637 105L633 106L632 110ZM634 16L636 13L634 16ZM635 10L636 13L640 14L642 12L635 10ZM636 25L645 18L645 12L641 14L644 16L645 17L636 25Z"/>
+  <clipPath id="landclip-quirigua-defeats-copan-738"><use href="#land-quirigua-defeats-copan-738"/></clipPath>
+  <path id="hl-quirigua-defeats-copan-738-2" d="M370 54L369 40L365 37L359 37L356 40L332 37L317 43L300 45L296 49L293 49L290 65L289 65L290 74L284 82L282 92L270 99L272 106L268 106L267 109L261 109L260 103L246 103L243 108L225 109L217 112L223 119L223 130L227 137L225 140L227 142L221 150L223 153L222 153L222 157L218 167L240 184L246 194L271 211L289 211L301 218L302 214L309 215L308 211L312 207L319 207L317 204L325 204L323 201L327 200L329 185L334 178L331 168L325 165L329 160L332 160L337 154L338 147L339 147L338 128L342 119L341 112L337 112L337 109L342 103L343 108L342 108L344 115L349 114L348 109L354 96L353 90L356 87L355 85L352 83L357 77L356 70L370 55Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-quirigua-defeats-copan-738)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-quirigua-defeats-copan-738)"/>
+  <use href="#land-quirigua-defeats-copan-738" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-quirigua-defeats-copan-738" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-quirigua-defeats-copan-738" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-quirigua-defeats-copan-738)"><path d="M154 151L157 151L157 154L172 154L174 148L177 148L176 142L173 142L169 137L156 137L154 142L149 142L150 148L154 150Z" fill="rgb(169,188,139)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M174 106L175 106L175 99L166 87L165 82L156 67L152 65L146 67L147 70L142 70L144 74L144 82L148 87L147 92L153 99L156 108L174 108Z" fill="rgb(142,192,178)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-quirigua-defeats-copan-738-2" fill="rgb(227,168,132)" stroke="none"/>
+       <use href="#hl-quirigua-defeats-copan-738-2" fill="url(#hatch-quirigua-defeats-copan-738)" stroke="none"/>
+       <use href="#hl-quirigua-defeats-copan-738-2" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-quirigua-defeats-copan-738-2" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-quirigua-defeats-copan-738" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="160.1" y="95.5" class="lbl">베라크루스 고전기 문화</text><text x="163.2" y="145.4" class="lbl">사포텍 문명</text>
+  <g transform="translate(320.0 181.1)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-quirigua-defeats-copan-738)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M24 64 C24 34 38 20 50 20 C62 20 76 34 76 64 L66 64 L66 52 L56 52 L56 82 L44 82 L44 52 L34 52 L34 64 Z" fill="#c9b37e" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 20 C50 8 68 6 80 12 C70 14 62 18 58 26" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M30 64 L70 64" stroke="#3b2412" stroke-width="3"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-quirigua-defeats-copan-738)"/>
+  <rect width="640" height="360" fill="url(#vignette-quirigua-defeats-copan-738)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M24 64 C24 34 38 20 50 20 C62 20 76 34 76 64 L66 64 L66 52 L56 52 L56 82 L44 82 L44 52 L34 52 L34 64 Z" fill="#c9b37e" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 20 C50 8 68 6 80 12 C70 14 62 18 58 26" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M30 64 L70 64" stroke="#3b2412" stroke-width="3"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">전쟁·저항</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">키리과의 코판 격파</text>
+  </g>
+  <text x="320" y="284" class="year">서기 738년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

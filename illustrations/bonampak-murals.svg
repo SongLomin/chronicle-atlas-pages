@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="보남팍 벽화">
+<defs>
+  <clipPath id="frame-bonampak-murals"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-bonampak-murals" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-bonampak-murals" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-bonampak-murals" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="22" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-bonampak-murals" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-bonampak-murals"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-bonampak-murals" d="M-24 -24L-24 13L-17 19L-14 24L-9 29L-7 35L7 47L10 63L14 70L20 75L19 83L12 90L17 90L19 94L9 98L13 107L22 117L24 122L36 128L37 127L38 129L45 133L51 138L56 145L83 154L88 153L108 169L130 177L137 181L156 184L161 190L171 192L169 192L177 197L188 198L203 204L210 204L227 197L233 193L241 192L238 191L240 190L235 191L239 187L241 191L243 189L245 190L242 192L249 193L258 197L248 191L249 190L255 192L279 213L284 215L284 217L282 215L295 229L315 242L330 243L341 247L347 251L359 252L375 259L370 257L375 257L376 259L378 258L378 259L387 259L390 256L388 255L389 253L391 255L393 252L393 255L398 254L396 256L398 260L400 261L399 261L401 262L398 264L400 264L397 264L394 261L392 265L411 280L417 290L434 305L433 306L434 308L429 308L435 311L434 315L436 314L432 317L432 318L430 320L435 330L443 332L446 337L452 331L445 327L443 322L453 328L452 328L455 328L457 337L466 339L478 348L479 352L478 354L479 354L476 358L479 361L485 363L485 359L481 355L488 357L489 361L488 363L494 370L496 364L509 363L508 366L509 367L510 366L514 366L517 368L518 367L522 376L525 378L529 379L529 376L530 375L529 373L532 374L533 373L534 375L532 376L536 384L555 382L554 379L545 369L545 366L560 358L562 357L559 357L560 353L564 352L564 350L566 351L567 349L574 349L574 348L577 346L574 348L575 350L584 356L585 354L589 363L590 362L589 359L590 362L592 360L593 361L593 359L593 363L594 361L596 362L595 359L597 365L601 366L598 366L595 362L593 365L591 365L592 368L588 370L592 377L597 384L664 384L664 305L656 311L656 312L650 315L651 318L651 317L649 319L651 321L647 325L650 323L647 334L649 336L648 340L644 341L641 340L637 344L634 350L620 359L624 362L625 370L623 373L620 372L621 370L623 370L623 368L620 368L620 365L613 360L612 356L607 355L601 347L601 348L597 344L588 341L575 339L577 337L563 336L560 342L558 341L557 343L556 341L552 345L543 348L532 353L523 353L515 345L514 347L517 351L511 351L507 349L507 346L509 345L506 345L504 344L505 340L496 335L483 320L479 311L478 312L479 309L475 307L473 300L475 294L478 293L477 288L475 289L474 287L475 286L474 283L476 282L475 281L477 285L478 277L477 278L475 273L479 271L478 267L479 267L478 276L481 275L480 254L482 242L487 233L485 224L482 223L485 221L485 223L489 219L485 217L484 214L477 210L481 214L478 215L480 213L478 212L475 214L474 212L470 210L474 213L472 213L466 207L476 210L464 201L457 200L461 201L456 202L456 200L449 197L439 200L428 196L430 197L429 198L420 202L408 202L399 200L396 202L394 198L391 198L386 200L382 204L372 197L375 200L373 200L372 203L366 199L365 197L369 192L374 191L379 182L378 185L381 176L379 167L382 163L379 161L383 150L383 144L378 146L378 144L377 144L382 137L380 137L382 136L384 133L385 137L384 141L387 142L388 148L397 123L393 125L392 123L397 120L398 117L397 116L395 117L397 117L392 119L391 115L392 116L397 110L396 108L396 112L397 102L411 84L412 81L410 80L410 75L408 75L405 71L398 72L403 72L401 75L386 71L376 72L362 76L347 78L336 84L332 95L332 109L328 113L326 123L311 134L316 131L313 134L316 136L315 138L318 138L311 141L311 143L304 141L304 144L302 139L301 139L302 141L299 140L301 138L303 139L301 137L292 137L285 139L286 143L285 139L282 142L276 143L276 145L276 142L267 143L261 145L267 143L262 146L248 149L245 148L241 141L236 140L232 137L224 136L221 134L224 137L218 136L219 135L216 133L220 134L209 122L205 110L191 93L183 74L180 70L177 60L181 67L186 72L184 75L185 78L187 72L181 66L178 60L176 46L175 48L178 39L178 22L178 24L176 21L178 20L180 4L184 -12L190 -24L528 -24L531 -17L536 -14L534 -13L531 -16L530 -13L532 -11L537 -12L540 -11L543 -14L547 -12L550 -24ZM179 65L181 68L179 65ZM303 138L310 135L303 138ZM348 50L349 50L350 53L351 50L348 48L348 50ZM385 154L388 149L385 154ZM386 168L390 163L386 168ZM398 143L400 140L398 143ZM406 98L407 101L412 94L408 95L406 98ZM406 195L409 194L406 195ZM415 190L424 187L418 188L415 190ZM429 188L432 186L429 188ZM450 65L452 66L460 63L459 67L465 64L470 64L472 58L477 58L479 56L483 58L497 46L515 46L520 49L520 51L509 53L516 57L523 57L527 60L529 58L530 60L530 55L532 60L545 61L544 58L545 57L547 60L546 61L555 68L557 67L558 69L563 69L572 72L582 70L587 78L587 84L596 91L612 91L615 93L614 95L617 97L617 99L607 105L604 111L636 108L655 110L660 106L658 110L664 108L664 92L655 91L656 92L655 92L653 91L650 92L648 90L645 91L645 88L650 89L646 87L649 84L647 82L639 83L632 78L629 78L631 80L629 80L627 80L629 78L625 78L626 77L623 76L621 78L623 76L617 71L616 74L614 74L614 72L611 71L616 72L616 69L607 63L606 64L609 66L612 70L610 70L609 67L603 66L601 64L602 63L600 65L596 60L583 53L582 55L581 53L569 52L563 44L558 43L560 41L557 42L554 40L546 40L543 39L543 35L541 37L532 36L531 38L528 36L531 34L523 38L522 35L508 34L492 39L490 38L488 40L487 39L483 42L469 45L467 49L466 48L461 57L464 61L459 61L450 65ZM476 286L476 287L476 285L476 286ZM487 70L490 74L493 75L501 71L498 64L492 63L490 66L492 72L487 70ZM508 342L510 344L511 343L508 342ZM510 72L513 70L510 72ZM520 2L523 1L522 -1L523 1L520 2ZM522 70L526 68L522 70ZM525 -2L526 1L525 -2ZM525 122L526 124L532 123L528 122L527 123L525 122ZM535 36L538 35L535 36ZM537 34L540 34L537 34ZM553 115L556 114L553 115ZM557 115L561 113L557 115ZM563 43L570 48L563 43ZM572 85L575 87L572 85ZM575 46L577 47L575 46ZM583 49L589 51L589 52L592 51L589 49L583 49ZM588 94L591 96L588 94ZM588 1L593 5L595 4L597 9L604 4L603 -1L597 -12L593 -12L594 -8L591 -1L594 2L591 2L591 -1L588 1ZM590 146L597 148L603 156L610 155L615 159L616 155L620 156L622 152L627 155L636 154L633 149L624 146L621 143L600 141L598 142L593 142L590 146ZM591 53L598 55L595 52L591 53ZM597 57L600 59L601 58L597 55L597 57ZM598 11L602 10L598 11ZM599 59L604 64L606 63L605 60L599 59ZM599 13L601 15L602 19L605 18L603 20L604 21L607 19L602 21L607 22L608 17L606 18L608 16L606 11L603 15L603 12L606 10L605 9L599 13ZM600 55L603 58L600 55ZM602 8L604 7L602 8ZM624 -18L632 -15L637 -11L636 -4L633 -3L637 1L637 -11L626 -19L626 -21L624 -18ZM632 13L633 16L632 13ZM639 25L647 28L640 23L639 25Z"/>
+  <clipPath id="landclip-bonampak-murals"><use href="#land-bonampak-murals"/></clipPath>
+  <path id="hl-bonampak-murals-2" d="M412 86L412 73L408 70L402 70L399 73L375 70L360 76L343 78L339 82L336 82L334 98L332 98L334 107L327 114L325 124L314 131L315 139L312 139L311 142L305 142L304 136L289 136L287 140L268 142L261 144L267 152L267 162L271 169L268 172L270 175L265 182L267 185L266 185L266 189L261 199L284 216L290 226L314 243L333 243L344 250L345 245L352 247L351 243L356 238L362 238L360 236L368 236L366 233L370 231L372 217L377 210L374 200L368 197L372 192L375 192L380 186L381 179L382 179L381 160L385 152L383 144L380 144L380 142L385 136L386 140L384 140L387 147L392 146L391 142L397 129L396 123L399 120L398 117L395 116L400 110L399 102L413 88Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-bonampak-murals)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-bonampak-murals)"/>
+  <use href="#land-bonampak-murals" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-bonampak-murals" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-bonampak-murals" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-bonampak-murals)"><path d="M198 183L201 183L202 186L216 186L218 180L221 180L220 175L217 175L213 169L201 169L198 175L194 175L194 180L198 182Z" fill="rgb(169,188,139)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M218 139L219 139L220 131L210 120L209 114L200 100L197 98L191 100L191 102L186 102L189 107L188 114L192 120L192 124L198 131L201 140L218 140Z" fill="rgb(142,192,178)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-bonampak-murals-2" fill="rgb(227,168,132)" stroke="none"/>
+       <use href="#hl-bonampak-murals-2" fill="url(#hatch-bonampak-murals)" stroke="none"/>
+       <use href="#hl-bonampak-murals-2" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-bonampak-murals-2" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-bonampak-murals" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="320.0" y="139.2" class="lbl hl">마야 도시국가들</text><text x="207.4" y="177.4" class="lbl">사포텍 문명</text>
+  <g transform="translate(320.0 181.2)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-bonampak-murals)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-bonampak-murals)"/>
+  <rect width="640" height="360" fill="url(#vignette-bonampak-murals)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">문화·학문</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">보남팍 벽화</text>
+  </g>
+  <text x="320" y="284" class="year">서기 790년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

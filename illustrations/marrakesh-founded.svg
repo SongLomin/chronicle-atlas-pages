@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="알모라비드의 마라케시 건설">
+<defs>
+  <clipPath id="frame-marrakesh-founded"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-marrakesh-founded" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-marrakesh-founded" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-marrakesh-founded" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="46" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-marrakesh-founded" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-marrakesh-founded"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-marrakesh-founded" d="M128 267L131 269L133 265L128 267ZM131 245L134 252L136 244L133 243L131 245ZM664 384L664 -24L304 -24L303 -18L305 -16L303 -16L297 1L293 2L294 7L292 16L292 19L299 19L302 11L305 9L301 14L302 17L299 20L296 20L297 22L297 26L303 23L305 24L305 22L306 25L308 26L302 24L305 27L305 31L303 37L306 42L301 59L309 57L323 60L331 55L340 55L339 54L341 53L341 56L348 60L350 64L351 62L354 61L349 65L350 68L354 71L353 72L352 71L357 79L365 83L368 82L368 79L370 80L373 73L383 71L388 66L406 67L416 65L420 67L423 64L426 63L431 66L435 61L439 51L446 46L450 47L458 45L455 42L457 41L459 32L461 31L461 28L475 18L468 12L465 -1L480 -24L664 -24L664 134L660 125L664 121L664 57L662 56L664 55L658 53L656 54L658 55L656 56L657 52L655 51L645 54L638 60L631 62L626 61L620 63L618 62L618 60L607 57L608 60L602 62L592 57L588 62L579 64L571 68L561 62L544 61L537 65L532 64L530 66L526 64L520 69L515 68L491 72L477 78L469 88L464 85L462 86L459 89L456 88L451 90L446 98L434 105L425 103L421 104L417 101L419 104L417 103L415 96L413 100L408 102L401 100L399 101L397 100L388 103L381 101L375 97L370 90L371 85L359 88L352 109L342 128L329 138L310 146L296 161L296 170L285 187L286 200L284 204L289 209L289 216L279 231L271 240L262 245L254 254L243 260L226 263L222 268L215 288L198 300L191 318L190 331L170 350L169 353L173 347L173 350L165 364L166 366L163 368L160 379L155 381L153 384ZM143 259L145 261L148 259L145 257L143 259ZM145 156L150 160L156 157L146 155L145 156ZM151 254L156 261L158 261L162 253L166 249L163 249L159 252L151 254ZM172 263L175 267L179 266L181 263L180 258L174 258L172 263ZM197 260L200 260L208 256L209 253L209 245L206 246L202 257L197 260ZM209 242L211 243L216 240L217 235L216 235L215 237L211 238L209 242ZM457 41L457 44L457 41ZM494 14L497 16L501 9L497 10L494 14ZM497 19L497 20L501 20L498 18L497 19ZM515 -2L518 0L522 -2L524 2L527 3L529 5L533 1L537 -7L531 -7L531 -10L529 -11L531 -12L524 -10L515 -2ZM629 -24L631 -15L629 -14L629 -11L632 -10L632 -6L633 -6L630 -7L629 6L634 15L636 13L638 15L641 12L642 6L641 5L651 9L652 8L655 -15L653 -19L656 -24ZM629 9L630 12L631 10L629 9Z"/>
+  <clipPath id="landclip-marrakesh-founded"><use href="#land-marrakesh-founded"/></clipPath>
+  <path id="hl-marrakesh-founded-5" d="M351 165L361 165L361 168L370 169L400 168L402 170L409 169L411 173L408 172L406 176L402 179L404 182L399 183L400 189L396 195L397 199L395 205L394 223L393 223L391 244L388 249L389 252L387 257L384 283L381 288L381 293L380 293L376 309L373 312L375 315L369 321L371 325L368 325L367 335L362 345L354 380L351 381L351 384L153 384L157 378L162 377L163 368L165 367L166 360L171 357L173 352L171 347L189 331L191 316L197 300L216 285L218 274L226 262L251 256L264 244L273 238L276 233L281 228L281 226L285 223L289 214L289 207L284 206L286 183L295 170L295 163L297 157L309 144L325 139L325 141L328 141L330 144L328 146L330 152L336 157L342 157L341 160L351 163Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-marrakesh-founded)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-marrakesh-founded)"/>
+  <use href="#land-marrakesh-founded" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-marrakesh-founded" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-marrakesh-founded" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-marrakesh-founded)"><path d="M650 -18L655 -17L655 -4L654 -4L652 9L643 7L640 15L630 13L628 -1L630 -3L640 -4L649 -18Z" fill="rgb(226,196,153)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M382 46L383 49L386 49L386 50L396 49L396 44L393 41L392 37L387 27L381 23L378 23L371 29L368 27L361 30L363 33L371 33L375 40L381 41L381 46Z" fill="rgb(199,188,206)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M359 93L360 88L366 87L370 87L372 93ZM351 63L353 63L346 60L342 54L330 54L330 57L326 60L319 60L314 57L307 57L301 60L303 46L304 46L304 24L297 26L297 19L294 21L290 18L294 1L298 -1L299 -7L310 -3L335 -4L339 -7L344 -6L382 -14L382 -17L391 -20L393 -24L477 -24L473 -15L467 -12L464 -6L465 9L466 9L467 12L473 18L458 29L459 32L456 35L458 44L444 46L439 49L440 50L439 54L436 52L432 64L387 66L382 70L374 72L371 78L367 79L365 82L361 78L356 78L356 75L351 67ZM362 32L363 33L371 33L375 40L381 41L383 49L386 49L386 50L396 49L396 44L393 41L392 37L387 27L381 23L378 23L371 29L368 27L361 30L361 32ZM498 16L495 16L493 10L495 9L502 9L502 12ZM537 -7L533 4L524 4L521 -1L515 1L515 -4L525 -12L531 -12L531 -9Z" fill="rgb(140,175,180)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M629 67L616 66L614 69L602 69L601 72L592 70L591 73L582 72L578 75L523 73L515 78L509 76L509 79L493 79L490 82L485 82L480 91L474 93L469 99L470 91L468 91L468 87L472 87L478 78L484 76L484 73L488 75L494 70L500 72L516 67L522 69L525 66L532 66L536 63L544 64L551 61L563 63L567 67L576 67L577 64L586 64L586 61L591 58L599 63L607 63L610 58L616 60L617 63L633 61L630 67Z" fill="rgb(223,186,136)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 54L660 55L652 52L642 58L639 57L632 64L639 66L639 63L642 61L648 61L652 64L655 70L654 73L657 79L655 82L664 88L664 110L660 115L657 115L653 125L657 134L664 139L664 135L660 131L661 124L660 122L664 120Z" fill="rgb(205,171,182)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-marrakesh-founded-5" fill="rgb(165,104,143)" stroke="none"/>
+       <use href="#hl-marrakesh-founded-5" fill="url(#hatch-marrakesh-founded)" stroke="none"/>
+       <use href="#hl-marrakesh-founded-5" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-marrakesh-founded-5" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-marrakesh-founded" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="533.7" y="71.6" class="lbl">함마디드 왕조</text><text x="383.3" y="35.0" class="lbl">후우마이야 왕조</text>
+  <g transform="translate(320.0 182.4)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-marrakesh-founded)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M12 86 L12 50 L22 42 L32 50 L32 86 Z M36 86 L36 30 L50 18 L64 30 L64 86 Z M68 86 L68 46 L78 38 L88 46 L88 86 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M44 86 L44 70 C44 62 56 62 56 70 L56 86" fill="#6e4b2a" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M44 40 L48 40 L48 48 L44 48 Z M52 40 L56 40 L56 48 L52 48 Z M18 56 L26 56 M74 54 L82 54" stroke="#3b2412" stroke-width="2" fill="#3b2412"/>
+    <path d="M50 18 L50 8 L60 11 L50 14" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-marrakesh-founded)"/>
+  <rect width="640" height="360" fill="url(#vignette-marrakesh-founded)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M12 86 L12 50 L22 42 L32 50 L32 86 Z M36 86 L36 30 L50 18 L64 30 L64 86 Z M68 86 L68 46 L78 38 L88 46 L88 86 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M44 86 L44 70 C44 62 56 62 56 70 L56 86" fill="#6e4b2a" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M44 40 L48 40 L48 48 L44 48 Z M52 40 L56 40 L56 48 L52 48 Z M18 56 L26 56 M74 54 L82 54" stroke="#3b2412" stroke-width="2" fill="#3b2412"/>
+    <path d="M50 18 L50 8 L60 11 L50 14" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">도시·건축</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">알모라비드의 마라케시 건설</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1070년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

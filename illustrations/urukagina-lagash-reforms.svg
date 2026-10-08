@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="우루카기나의 라가시 개혁">
+<defs>
+  <clipPath id="frame-urukagina-lagash-reforms"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-urukagina-lagash-reforms" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-urukagina-lagash-reforms" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-urukagina-lagash-reforms" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="191" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-urukagina-lagash-reforms" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-urukagina-lagash-reforms"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-urukagina-lagash-reforms" d="M-24 384L139 384L140 381L131 375L127 369L120 367L117 362L113 351L113 343L114 341L119 343L107 331L95 305L84 285L85 280L82 273L76 264L77 264L75 261L77 261L77 259L64 244L59 236L58 227L54 222L58 213L61 225L69 235L70 245L81 256L90 263L89 261L93 257L93 250L97 241L99 228L104 224L100 245L96 255L97 256L98 254L100 255L105 254L108 256L107 257L124 280L133 297L136 299L136 304L141 307L146 317L147 323L145 323L150 332L150 333L158 338L160 337L160 338L169 345L176 359L176 362L180 366L181 375L182 374L180 382L178 382L179 384L571 384L574 377L574 372L568 371L554 350L550 348L545 349L523 342L513 331L509 322L509 309L507 306L510 300L509 298L511 297L508 296L511 296L509 294L511 292L508 291L507 295L509 295L505 294L501 304L494 309L493 308L488 314L489 316L488 315L484 320L476 325L475 330L472 330L475 332L473 332L472 335L466 338L456 340L448 337L439 338L437 337L432 341L424 342L422 341L422 336L419 336L418 333L418 336L412 335L416 329L414 328L413 330L411 328L413 328L413 329L418 320L418 315L417 314L416 309L416 306L418 305L417 301L415 300L412 296L407 300L405 306L406 307L405 309L404 307L403 307L404 310L402 310L404 324L402 326L399 319L397 311L391 306L393 307L390 299L388 299L389 295L391 298L392 292L389 289L388 284L391 285L382 279L380 274L376 275L375 271L373 271L374 269L371 269L375 269L374 266L366 265L367 263L365 263L367 260L364 258L365 257L362 256L360 248L359 248L359 246L357 243L358 241L353 235L352 228L345 227L349 223L353 223L349 211L350 213L352 212L358 215L362 214L362 212L367 213L368 210L366 206L370 204L368 202L373 202L373 206L368 205L372 209L373 208L374 210L378 210L379 213L386 209L389 209L391 215L400 225L400 232L404 232L406 234L403 237L408 241L408 245L414 258L420 260L426 260L435 265L439 269L437 271L453 279L458 284L470 284L471 286L479 289L488 282L492 283L495 278L508 274L517 275L518 278L520 278L519 279L521 281L522 290L525 296L524 297L526 304L535 305L535 307L539 306L541 308L547 307L555 308L559 312L567 311L575 313L583 312L586 314L585 312L588 311L589 314L604 319L607 315L611 316L611 320L613 318L617 318L618 316L622 318L622 317L624 315L644 316L643 314L645 313L654 313L653 312L654 311L656 311L655 313L664 315L664 -24L-24 -24L-24 53L-22 54L-24 55L-24 61L-24 58L-21 59L-20 57L-13 64L-11 60L-7 63L-9 65L-7 65L-7 70L-3 72L2 73L3 75L12 71L17 73L20 65L20 60L22 57L35 59L48 65L54 74L62 77L69 75L77 75L78 73L79 75L83 71L84 73L90 64L98 59L111 65L116 64L117 61L115 62L115 60L119 60L123 56L126 59L127 62L119 70L122 77L119 81L120 84L118 88L121 91L122 97L120 103L123 112L117 117L116 124L113 126L106 144L107 145L106 145L105 150L103 151L99 170L89 185L78 189L74 188L69 190L68 187L65 189L67 188L66 190L65 189L61 191L60 190L65 188L59 190L51 185L53 188L49 190L48 187L46 187L43 185L45 180L51 185L46 180L39 182L30 178L28 179L31 181L23 183L20 183L28 178L19 181L16 180L17 182L16 180L15 184L13 185L15 186L12 187L11 184L-5 195L-9 195L-20 190L-24 190ZM52 99L56 108L64 109L65 111L67 111L68 108L78 105L79 102L87 102L84 100L85 100L83 95L96 85L79 93L65 92L64 98L58 97L55 100L52 99ZM65 188L71 187L68 186L65 188ZM71 187L75 188L71 187ZM83 267L86 269L83 267ZM132 307L136 308L133 305L132 307ZM133 303L134 306L134 302L133 303ZM136 309L140 311L136 309ZM138 310L140 313L141 312L138 310ZM351 218L354 222L357 220L353 214L354 215L351 218ZM378 271L382 271L378 271ZM396 296L399 304L400 296L398 295L399 294L397 294L396 296ZM402 308L403 305L402 308ZM445 5L447 12L446 4L445 5ZM448 281L452 282L448 281ZM448 335L451 336L453 333L448 335ZM457 337L463 337L461 335L457 337ZM462 288L465 289L462 288ZM470 332L473 332L471 330L470 332ZM488 286L489 288L499 284L501 285L507 279L497 279L497 282L488 286Z"/>
+  <clipPath id="landclip-urukagina-lagash-reforms"><use href="#land-urukagina-lagash-reforms"/></clipPath>
+  <path id="hl-urukagina-lagash-reforms-2" d="M255 113L250 114L246 112L247 109L233 110L222 107L218 109L215 106L210 107L208 112L214 119L244 123L253 129L254 132L260 134L261 136L264 136L265 139L271 141L273 145L276 145L280 161L288 160L290 165L294 165L297 168L297 171L301 174L299 177L302 178L306 193L318 205L323 207L325 201L336 200L336 197L346 194L355 194L367 198L368 193L367 193L361 165L347 158L344 160L332 157L327 150L315 147L315 136L307 141L304 147L294 145L289 139L286 139L284 129L279 131L271 123L262 119L261 116L255 114Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-urukagina-lagash-reforms)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-urukagina-lagash-reforms)"/>
+  <use href="#land-urukagina-lagash-reforms" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-urukagina-lagash-reforms" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-urukagina-lagash-reforms" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-urukagina-lagash-reforms)"><path d="M377 295L379 303L383 310L390 312L397 311L391 306L393 307L390 299L388 299L389 295L391 298L392 292L389 289L388 284L391 285L387 281L384 280L382 281L379 286L377 293ZM396 296L399 304L400 296L398 295L399 294L397 294ZM402 308L403 305L402 307Z" fill="rgb(227,183,144)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M30 178L28 179L31 180L26 182L20 183L27 179L16 180L15 186L11 184L0 193L0 202L12 212L16 220L17 226L10 231L8 237L10 240L18 241L23 273L40 290L44 300L57 301L54 305L52 314L59 320L62 326L61 341L69 341L68 319L64 317L60 310L65 302L64 295L50 291L38 278L36 272L28 269L27 256L28 246L35 229L45 229L57 226L54 222L56 215L63 210L61 201L62 194L60 190L53 186L51 185L52 189L50 190L43 185L45 180L51 185L46 180L39 182L30 178Z" fill="rgb(224,206,157)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-urukagina-lagash-reforms-2" fill="rgb(228,168,134)" stroke="none"/>
+       <use href="#hl-urukagina-lagash-reforms-2" fill="url(#hatch-urukagina-lagash-reforms)" stroke="none"/>
+       <use href="#hl-urukagina-lagash-reforms-2" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-urukagina-lagash-reforms-2" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-urukagina-lagash-reforms" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="320.0" y="140.4" class="lbl hl">수메르 도시국가들</text>
+  <g transform="translate(320.0 182.4)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-urukagina-lagash-reforms)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M26 22 L74 22 C80 22 80 34 74 34 L74 78 C74 84 68 86 64 84 L24 84 C18 84 18 72 24 72 L26 72 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M26 22 C20 22 20 34 26 34" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 40 L66 40 M34 48 L66 48 M34 56 L60 56 M34 64 L54 64" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="62" cy="74" r="8" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/><path d="M58 80 L56 90 L62 86 L66 90 L66 80" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-urukagina-lagash-reforms)"/>
+  <rect width="640" height="360" fill="url(#vignette-urukagina-lagash-reforms)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M26 22 L74 22 C80 22 80 34 74 34 L74 78 C74 84 68 86 64 84 L24 84 C18 84 18 72 24 72 L26 72 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M26 22 C20 22 20 34 26 34" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 40 L66 40 M34 48 L66 48 M34 56 L60 56 M34 64 L54 64" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="62" cy="74" r="8" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/><path d="M58 80 L56 90 L62 86 L66 90 L66 80" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">체제 전환</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">우루카기나의 라가시 개혁</text>
+  </g>
+  <text x="320" y="284" class="year">기원전 2370년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

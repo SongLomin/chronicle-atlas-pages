@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="일대일로 구상의 발표">
+<defs>
+  <clipPath id="frame-belt-and-road-initiative"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-belt-and-road-initiative" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-belt-and-road-initiative" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-belt-and-road-initiative" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="221" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-belt-and-road-initiative" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-belt-and-road-initiative"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-belt-and-road-initiative" d="M-24 -24L-24 384L664 384L664 -24ZM19 285L20 288L19 285ZM22 313L25 315L23 313L24 310L22 313ZM26 312L27 312L27 310L26 312ZM58 302L60 304L59 301L58 302Z"/>
+  <clipPath id="landclip-belt-and-road-initiative"><use href="#land-belt-and-road-initiative"/></clipPath>
+  <path id="hl-belt-and-road-initiative-6" d="M160 306L162 304L160 307ZM160 303L161 302L159 304ZM144 303L146 302L145 303ZM157 298L159 297L157 299ZM153 298L155 297L154 298ZM157 291L158 291L157 294L156 293ZM158 286L160 286L158 290ZM170 320L172 319L171 320ZM162 308L163 308L162 314L166 316L161 315ZM160 295L163 294L161 295ZM163 293L165 290L163 294ZM164 289L159 291L160 289L162 289ZM172 289L172 285L174 285L173 288L176 289ZM162 285L165 284L164 285ZM168 284L172 284L167 285L167 284ZM174 284L174 281L178 282L179 280L177 288L178 284ZM165 284L168 282L166 284ZM167 280L170 280L166 281L166 280ZM518 244L515 255L518 259L517 262L519 265L515 270L506 274L505 272L494 273L494 272L490 272L488 269L486 269L486 268L482 268L472 301L477 304L475 308L466 308L464 306L459 306L439 312L439 315L445 317L444 322L445 322L444 331L450 340L449 343L451 345L448 349L446 349L446 353L444 354L442 364L440 364L439 361L432 360L431 357L429 357L427 354L409 351L382 351L376 354L367 350L361 345L358 345L350 350L348 360L341 359L333 354L322 354L316 357L314 364L309 368L305 368L299 374L293 376L285 384L255 384L253 383L252 371L246 368L245 365L247 350L240 350L241 348L238 343L234 341L231 336L224 340L189 340L186 339L177 324L174 322L181 316L181 314L184 314L185 304L180 303L180 298L179 298L180 293L179 293L183 282L184 273L179 273L177 277L175 276L175 273L163 276L159 284L154 285L152 291L143 293L141 301L115 307L106 312L105 353L106 353L106 381L99 383L95 381L93 373L89 367L82 364L66 365L57 371L57 366L60 362L61 354L56 351L49 351L47 345L43 346L41 344L41 336L37 333L37 330L33 325L26 324L26 320L32 319L34 321L42 321L43 317L37 315L37 311L43 304L49 304L52 307L76 307L75 312L82 312L82 301L76 301L74 304L70 304L65 301L65 294L68 293L69 285L68 285L68 274L66 272L48 273L48 270L45 269L34 269L27 273L22 278L13 281L10 285L2 280L2 277L8 276L4 272L3 265L-1 259L-3 259L-6 255L-17 255L-17 247L-24 243L-24 233L-20 229L-19 225L-22 222L-21 213L-17 209L-13 199L-8 199L-2 211L1 212L7 208L4 199L4 195L8 195L12 190L14 184L28 178L32 171L39 171L42 175L47 175L54 169L57 175L69 175L69 177L76 180L79 186L81 186L84 192L84 196L87 195L87 190L85 189L86 186L89 186L91 190L101 196L112 186L117 184L121 184L124 189L128 189L131 184L140 184L143 192L153 195L155 198L159 196L161 190L163 190L167 195L174 195L181 192L183 180L182 177L174 175L172 172L169 172L169 171L162 166L165 162L175 157L175 154L173 150L170 150L176 142L189 142L189 137L183 137L183 136L178 134L183 128L175 126L178 118L197 118L206 113L232 109L240 102L251 102L255 99L272 96L284 84L298 86L297 87L300 87L301 91L306 87L312 87L313 91L313 97L315 97L317 102L316 107L317 107L314 112L318 113L317 115L332 110L334 115L333 120L335 120L336 115L341 115L341 117L343 117L345 120L352 117L350 121L346 125L345 128L348 129L347 131L353 126L361 129L377 115L395 107L396 110L388 115L397 121L397 125L409 133L421 162L423 162L435 190L441 190L446 186L446 183L448 180L453 180L455 187L459 187L461 193L470 193L481 187L490 187L490 189L493 189L498 202L501 202L502 205L507 205L511 216L525 219L532 213L531 218L533 222L536 222L535 223L538 223L539 226L533 229L532 233L534 235L530 240ZM360 304L358 303L361 293L367 291L368 285L374 284L376 281L403 282L403 284L409 285L409 286L418 286L425 285L427 280L429 280L430 276L422 274L413 280L410 277L394 278L395 277L389 277L388 274L364 274L362 278L355 282L354 286L351 286L350 291L352 290L351 294L349 293L347 302L353 306L355 312L358 311ZM66 319L66 324L69 324L75 311L70 311Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-belt-and-road-initiative)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-belt-and-road-initiative)"/>
+  <use href="#land-belt-and-road-initiative" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-belt-and-road-initiative" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-belt-and-road-initiative" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-belt-and-road-initiative)"><path d="M664 209L646 209L647 208L640 205L640 202L637 202L636 196L622 196L622 195L618 193L619 192L614 193L614 192L610 190L585 205L581 205L573 211L571 216L565 219L555 219L548 228L547 233L549 233L552 240L555 240L555 243L559 244L560 247L562 247L561 248L564 248L565 251L573 251L575 254L581 255L593 278L591 289L592 289L587 302L589 306L591 306L593 308L603 310L603 311L631 314L633 317L640 320L640 321L642 321L642 322L644 322L645 325L653 326L653 330L655 331L659 338L659 344L664 349Z" fill="rgb(192,210,169)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M440 364L439 361L432 360L431 357L429 357L427 354L409 351L382 351L376 354L367 350L361 345L358 345L350 350L348 360L341 359L333 354L322 354L316 357L314 364L316 365L315 367L305 374L304 378L311 379L311 383L313 384L320 384L325 379L325 382L330 384L415 384L423 377L442 368L442 364ZM402 366L398 366L391 362L391 357L421 355L420 359L412 366L402 367Z" fill="rgb(185,167,182)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M187 384L167 383L163 381L163 372L160 364L152 364L149 359L144 355L139 356L139 361L134 360L132 365L121 370L119 376L121 379L119 383L110 383L106 381L99 383L95 381L93 373L89 367L82 364L66 365L58 371L59 376L61 378L62 371L67 366L77 366L79 377L88 384Z" fill="rgb(197,159,165)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 384L415 384L423 377L442 368L444 354L446 353L446 349L448 349L451 345L449 343L450 340L444 331L445 322L444 322L445 317L439 315L439 312L459 306L464 306L466 308L475 308L477 304L472 301L482 268L486 268L486 269L488 269L490 272L494 272L494 273L505 272L506 274L515 270L519 265L517 262L518 259L515 255L518 244L530 240L534 235L532 233L533 229L539 226L542 228L541 229L548 228L547 233L549 233L552 240L555 240L555 243L559 244L560 247L562 247L561 248L564 248L565 251L573 251L575 254L581 255L593 278L591 289L592 289L587 302L589 306L591 306L593 308L603 310L603 311L631 314L633 317L640 320L640 321L642 321L642 322L644 322L645 325L653 326L653 330L655 331L659 338L659 344L664 349Z" fill="rgb(224,160,136)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M137 320L139 317L138 320ZM143 315L144 312L144 315ZM143 310L141 310L144 304L143 308ZM305 374L304 378L311 379L311 383L313 384L320 384L325 379L325 382L330 384L167 383L163 381L163 372L162 368L163 367L160 364L152 364L149 359L144 355L139 356L138 361L134 360L132 365L121 370L119 376L121 379L119 383L110 383L106 381L106 353L105 353L106 312L115 307L141 301L135 315L133 322L135 326L134 335L150 336L149 343L163 341L169 336L174 322L177 324L189 341L190 340L224 340L231 336L234 341L238 343L241 348L240 350L247 350L245 365L246 368L252 371L253 383L255 384L285 384L293 376L299 374L305 368L309 368L314 364L316 365L315 367ZM159 324L160 324L159 326L156 326ZM162 316L163 316L161 324L160 324Z" fill="rgb(178,200,151)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-24 -24L664 -24L664 209L646 209L647 208L640 205L640 202L637 202L636 196L622 196L622 195L618 193L619 192L614 193L614 192L610 190L585 205L581 205L573 211L571 216L565 219L555 219L548 228L541 229L542 228L538 223L533 222L531 218L532 213L525 219L511 216L507 205L502 205L501 202L498 202L493 189L490 189L490 187L481 187L470 193L461 193L459 187L455 187L453 180L448 180L446 183L446 186L441 190L435 190L423 162L421 162L409 133L397 125L397 121L388 115L396 110L395 107L377 115L361 129L353 126L347 131L348 129L345 128L346 125L350 121L352 117L345 120L343 117L341 117L341 115L336 115L335 120L333 120L334 115L332 110L317 115L318 113L314 112L317 107L316 107L317 102L315 97L313 97L313 91L312 87L306 87L301 91L300 87L297 87L298 86L284 84L272 96L255 99L251 102L240 102L232 109L206 113L197 118L178 118L175 126L183 128L178 134L183 136L183 137L189 137L189 142L176 142L170 150L173 150L175 154L175 157L165 162L162 166L169 171L169 172L172 172L174 175L182 177L183 180L181 192L174 195L167 195L163 190L161 190L159 196L155 198L153 195L143 192L140 184L131 184L128 189L124 189L121 184L117 184L112 186L101 196L91 190L89 186L86 186L85 189L87 190L87 195L84 196L84 192L81 186L79 186L76 180L69 177L69 175L57 175L54 169L47 175L42 175L39 171L32 171L28 178L14 184L12 190L8 195L4 195L4 199L7 208L1 212L-2 211L-8 199L-13 199L-17 209L-21 213L-22 222L-19 225L-20 229L-24 233L-24 243L-17 247L-17 255L-6 255L-3 259L-1 259L3 265L4 272L8 276L2 277L2 280L10 285L7 289L4 289L3 293L0 293L-4 297L-13 298L-12 304L-15 303L-19 315L-23 317L-24 321L-24 323L-19 325L-14 331L-14 339L-13 343L-14 350L-10 354L-10 359L-6 362L-6 365L1 373L-7 383L-12 384L-24 372Z" fill="rgb(165,180,142)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-belt-and-road-initiative-6" fill="rgb(182,177,224)" stroke="none"/>
+       <use href="#hl-belt-and-road-initiative-6" fill="url(#hatch-belt-and-road-initiative)" stroke="none"/>
+       <use href="#hl-belt-and-road-initiative-6" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-belt-and-road-initiative-6" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-belt-and-road-initiative" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="254.7" y="215.8" class="lbl hl">카자흐스탄</text>
+  <g transform="translate(320.0 184.9)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-belt-and-road-initiative)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M26 22 L74 22 C80 22 80 34 74 34 L74 78 C74 84 68 86 64 84 L24 84 C18 84 18 72 24 72 L26 72 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M26 22 C20 22 20 34 26 34" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 40 L66 40 M34 48 L66 48 M34 56 L60 56 M34 64 L54 64" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="62" cy="74" r="8" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/><path d="M58 80 L56 90 L62 86 L66 90 L66 80" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-belt-and-road-initiative)"/>
+  <rect width="640" height="360" fill="url(#vignette-belt-and-road-initiative)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M26 22 L74 22 C80 22 80 34 74 34 L74 78 C74 84 68 86 64 84 L24 84 C18 84 18 72 24 72 L26 72 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M26 22 C20 22 20 34 26 34" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 40 L66 40 M34 48 L66 48 M34 56 L60 56 M34 64 L54 64" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="62" cy="74" r="8" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/><path d="M58 80 L56 90 L62 86 L66 90 L66 80" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">교역·외교</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">일대일로 구상의 발표</text>
+  </g>
+  <text x="320" y="284" class="year">서기 2013년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

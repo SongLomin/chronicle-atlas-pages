@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="카샤파 1세의 시기리야 바위 요새">
+<defs>
+  <clipPath id="frame-sigiriya-kashyapa"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-sigiriya-kashyapa" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-sigiriya-kashyapa" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-sigiriya-kashyapa" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="221" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-sigiriya-kashyapa" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-sigiriya-kashyapa"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-sigiriya-kashyapa" d="M155 -24L158 -12L156 -13L159 -3L160 -5L159 -2L165 8L168 7L166 9L166 11L168 10L167 12L171 14L167 13L169 15L171 19L169 21L174 26L177 25L174 27L177 29L177 31L179 31L178 33L179 32L181 34L179 33L181 38L183 39L181 40L182 44L186 53L187 52L188 53L186 53L187 59L189 71L192 70L190 71L190 73L198 90L202 91L201 93L210 104L219 130L221 130L219 133L224 139L224 145L226 145L223 146L224 142L221 136L223 150L227 159L230 157L227 159L237 171L244 177L249 178L261 172L262 165L264 163L263 163L263 160L268 155L281 151L291 154L289 150L283 151L279 147L287 134L288 129L294 127L294 128L300 129L300 105L296 106L299 104L298 100L299 95L303 85L302 85L307 78L311 60L304 54L305 52L306 54L306 51L310 58L306 40L304 40L307 37L308 32L306 32L304 22L305 15L309 6L315 2L320 2L321 6L323 -1L323 3L326 5L332 -9L342 -8L354 -14L355 -21L355 -22L355 -20L353 -21L354 -24L621 -24L619 -13L617 -12L616 0L620 -2L623 -7L625 -8L624 -6L625 -6L626 -13L627 -12L626 -3L624 1L629 -4L624 1L627 3L630 -1L630 -4L633 -6L630 -3L631 -1L629 1L631 3L630 4L634 4L636 -4L638 -3L635 -1L636 4L638 5L641 -4L639 3L639 6L641 6L648 1L649 -5L651 -4L657 -7L655 -9L658 -8L661 -9L662 -10L659 -18L661 -19L660 -18L661 -14L664 -12L664 -24ZM159 264L161 264L161 263L159 264ZM297 177L300 206L304 218L308 223L316 226L319 225L332 219L340 214L345 202L344 193L342 192L342 188L338 186L341 186L338 180L334 177L334 175L335 177L333 169L328 168L331 167L330 165L325 158L323 159L323 156L324 157L322 154L321 151L309 139L306 140L313 145L306 139L301 140L305 144L307 144L307 143L317 147L313 146L310 147L304 144L308 147L304 149L306 153L304 157L301 159L302 163L299 174L300 180L297 179L298 172L297 177ZM297 155L301 158L300 156L297 155ZM300 142L303 143L301 140L300 142ZM322 4L325 5L322 4ZM341 186L343 191L341 186ZM575 118L575 123L578 124L580 120L580 116L578 115L575 118ZM579 93L583 102L584 98L582 98L585 93L584 92L583 93L584 89L587 86L587 83L586 81L588 81L589 79L588 71L586 70L588 68L588 66L590 66L591 62L589 60L591 59L589 55L586 60L585 68L583 72L584 75L583 82L585 86L582 85L581 93L580 92L579 93ZM580 104L582 104L581 101L580 104ZM582 71L582 72L583 68L582 71ZM583 153L583 154L585 154L584 151L583 153ZM588 91L591 93L590 90L588 91ZM590 87L591 88L591 86L590 87ZM591 172L593 175L591 172ZM596 181L599 182L598 179L596 181ZM599 176L600 180L601 175L599 176ZM602 195L603 196L605 194L604 192L602 195ZM602 167L602 170L602 167ZM603 201L606 203L607 207L609 206L610 201L607 197L604 198L603 201ZM619 0L620 3L625 -2L625 -6L619 0ZM627 4L629 4L629 1L627 4ZM633 230L634 231L636 231L633 230ZM637 234L639 237L637 240L642 250L664 271L664 241L657 239L653 235L647 232L643 232L637 234ZM638 226L640 229L641 228L641 226L638 226Z"/>
+  <clipPath id="landclip-sigiriya-kashyapa"><use href="#land-sigiriya-kashyapa"/></clipPath>
+  <path id="hl-sigiriya-kashyapa-4" d="M331 165L325 158L325 155L322 154L322 151L319 150L319 147L313 145L315 142L313 141L301 138L300 142L305 144L303 148L304 154L299 162L298 178L295 178L295 182L298 187L298 210L302 221L308 227L318 227L333 221L345 208L345 192L342 191L340 181L335 177L334 168L331 167Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-sigiriya-kashyapa)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-sigiriya-kashyapa)"/>
+  <use href="#land-sigiriya-kashyapa" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-sigiriya-kashyapa" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-sigiriya-kashyapa" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-sigiriya-kashyapa)"><path d="M292 71L279 71L256 87L243 84L239 86L239 100L236 105L216 124L227 146L223 146L222 139L223 149L227 158L230 157L229 160L245 177L249 178L261 171L264 158L269 155L278 151L288 152L282 150L279 147L287 135L286 131L290 128L300 129L298 98L307 80L297 72Z" fill="rgb(177,208,204)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M266 38L301 43L306 41L308 36L304 21L306 15L296 12L286 2L272 3L268 16L257 13L255 15L254 30L258 37Z" fill="rgb(226,180,144)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M188 38L205 64L216 71L236 73L248 67L254 60L247 34L248 -24L167 -24L178 6L184 17L186 26Z" fill="rgb(194,187,205)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M248 11L248 -24L167 -24L164 -21L156 -21L155 -24L336 -24L334 -17L336 -9L332 -8L325 5L318 2L312 4L306 14L296 11L286 2L272 3L268 16L250 11Z" fill="rgb(166,179,126)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-sigiriya-kashyapa-4" fill="rgb(187,178,227)" stroke="none"/>
+       <use href="#hl-sigiriya-kashyapa-4" fill="url(#hatch-sigiriya-kashyapa)" stroke="none"/>
+       <use href="#hl-sigiriya-kashyapa-4" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-sigiriya-kashyapa-4" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-sigiriya-kashyapa" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="320.0" y="138.5" class="lbl hl">아누라다푸라</text>
+  <g transform="translate(320.0 180.5)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-sigiriya-kashyapa)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M12 86 L12 50 L22 42 L32 50 L32 86 Z M36 86 L36 30 L50 18 L64 30 L64 86 Z M68 86 L68 46 L78 38 L88 46 L88 86 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M44 86 L44 70 C44 62 56 62 56 70 L56 86" fill="#6e4b2a" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M44 40 L48 40 L48 48 L44 48 Z M52 40 L56 40 L56 48 L52 48 Z M18 56 L26 56 M74 54 L82 54" stroke="#3b2412" stroke-width="2" fill="#3b2412"/>
+    <path d="M50 18 L50 8 L60 11 L50 14" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-sigiriya-kashyapa)"/>
+  <rect width="640" height="360" fill="url(#vignette-sigiriya-kashyapa)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M12 86 L12 50 L22 42 L32 50 L32 86 Z M36 86 L36 30 L50 18 L64 30 L64 86 Z M68 86 L68 46 L78 38 L88 46 L88 86 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M44 86 L44 70 C44 62 56 62 56 70 L56 86" fill="#6e4b2a" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M44 40 L48 40 L48 48 L44 48 Z M52 40 L56 40 L56 48 L52 48 Z M18 56 L26 56 M74 54 L82 54" stroke="#3b2412" stroke-width="2" fill="#3b2412"/>
+    <path d="M50 18 L50 8 L60 11 L50 14" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">도시·건축</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:19px">카샤파 1세의 시기리야 바위 요새</text>
+  </g>
+  <text x="320" y="284" class="year">서기 477년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

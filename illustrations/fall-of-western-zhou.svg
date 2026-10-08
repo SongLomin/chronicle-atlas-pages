@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="서주의 멸망과 동쪽 천도">
+<defs>
+  <clipPath id="frame-fall-of-western-zhou"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-fall-of-western-zhou" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-fall-of-western-zhou" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-fall-of-western-zhou" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="254" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-fall-of-western-zhou" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-fall-of-western-zhou"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-fall-of-western-zhou" d="M-24 -24L-24 384L492 384L491 383L493 383L493 381L494 383L499 383L497 382L499 381L499 379L496 379L499 377L497 376L500 375L499 376L500 376L501 378L501 376L504 377L506 375L504 374L503 375L501 372L505 368L507 371L509 371L508 373L510 371L510 373L511 373L507 366L510 366L510 363L512 360L509 359L505 361L501 357L508 360L511 354L517 353L514 351L512 354L510 351L511 350L514 352L514 348L510 348L509 345L510 344L513 346L512 343L513 345L515 343L514 346L515 347L516 344L519 344L515 349L520 347L518 342L522 341L520 340L522 340L522 337L525 337L524 335L521 335L521 333L527 335L527 332L530 330L528 328L530 326L529 324L531 325L533 321L528 317L529 318L535 319L538 314L536 313L539 311L541 311L540 314L542 316L543 313L547 313L545 305L541 305L541 304L538 301L542 304L547 304L548 302L545 300L548 300L548 298L546 298L547 296L543 296L543 295L546 292L549 294L550 290L550 295L553 294L554 286L550 285L551 288L549 287L545 290L544 287L548 286L557 279L549 278L544 271L541 270L534 273L531 272L529 274L532 276L529 274L531 272L529 269L526 269L525 272L520 273L522 271L524 271L526 268L533 271L536 265L546 260L554 258L549 250L538 241L531 238L533 238L531 235L526 234L522 236L518 235L513 232L514 230L510 230L512 228L510 227L515 228L517 234L520 236L529 233L532 234L535 238L541 237L548 240L553 240L551 235L544 232L543 226L533 219L534 212L526 198L522 184L511 179L507 174L503 175L503 167L506 166L511 155L516 154L516 152L518 152L519 148L523 147L521 146L519 141L523 142L523 140L524 145L530 143L529 139L531 138L531 136L533 137L535 134L533 132L531 134L531 132L536 133L543 130L544 127L547 127L545 128L547 129L548 127L553 125L553 123L555 124L555 126L557 123L559 126L558 127L560 127L562 126L562 125L563 126L564 123L562 123L562 120L566 119L564 116L567 114L558 114L556 110L554 113L547 112L548 113L546 113L543 109L539 110L538 107L531 104L521 107L523 109L515 115L516 117L513 120L502 119L499 116L499 110L501 106L504 107L498 98L495 96L491 99L482 97L476 91L473 86L475 77L477 77L476 74L481 72L487 76L491 73L497 72L499 72L498 74L504 68L504 63L503 63L509 56L526 48L529 42L533 37L536 36L535 35L535 34L537 34L540 31L549 33L552 29L551 33L557 36L557 38L560 41L551 52L552 53L544 58L546 62L540 64L544 65L545 68L553 67L547 70L548 75L538 78L539 83L540 81L549 80L547 78L549 76L552 78L551 76L555 75L559 68L573 61L577 61L577 57L580 57L580 59L583 58L584 55L587 57L593 57L596 55L598 51L600 52L598 52L597 55L601 57L602 63L604 61L604 58L611 63L613 63L614 64L617 63L615 66L617 68L617 72L614 73L615 75L612 81L613 83L613 82L614 84L617 82L621 85L618 84L611 85L611 87L609 86L609 88L607 92L607 94L609 95L603 97L614 98L614 100L611 99L612 101L609 102L612 103L614 102L613 104L615 105L617 104L617 102L618 103L619 104L616 105L617 105L615 108L619 105L620 106L621 102L623 102L620 99L624 100L626 104L627 104L627 102L628 103L629 106L631 104L635 103L638 105L640 104L640 107L641 108L640 106L637 105L638 113L643 117L640 117L640 119L643 119L641 122L644 121L644 123L642 123L644 125L646 123L643 126L643 129L642 124L640 123L639 125L637 122L638 126L637 124L636 127L636 123L634 123L635 125L634 128L633 128L633 124L630 129L631 131L632 130L633 133L634 129L635 132L636 129L637 136L639 135L637 136L638 142L636 143L638 143L640 146L643 145L637 147L639 148L643 148L640 149L642 151L640 151L636 154L640 156L636 157L636 161L633 163L636 166L635 168L634 165L632 166L634 168L633 170L635 169L634 173L637 173L638 171L640 173L634 174L639 177L634 175L636 177L634 177L633 174L632 176L635 179L637 178L636 183L638 184L642 178L644 181L646 177L650 174L652 175L648 179L652 181L654 179L652 178L655 178L652 172L655 171L657 177L660 172L658 173L657 170L657 171L659 169L664 169L664 80L660 74L653 71L653 69L654 68L653 68L655 66L656 69L655 59L662 56L664 52L664 -24ZM490 77L490 79L493 75L491 77L490 76L490 77ZM503 358L504 360L507 360L503 358ZM512 228L516 233L514 228L512 228ZM538 316L539 318L541 317L541 314L538 316ZM539 239L546 244L551 246L554 246L553 243L543 238L539 239ZM541 67L543 66L542 68L544 68L544 66L542 65L541 67ZM547 246L550 249L547 246ZM553 274L555 277L560 278L559 276L553 274ZM555 283L558 284L556 281L555 283ZM556 271L558 272L559 270L556 271ZM559 268L562 268L561 267L559 268ZM560 279L561 281L562 278L560 279ZM563 70L567 71L563 70ZM606 65L608 62L606 65ZM629 182L634 182L634 179L632 178L629 182ZM630 206L632 208L639 207L643 206L645 202L642 200L636 201L630 206ZM633 133L634 136L635 137L633 133ZM634 112L636 114L638 112L637 111L634 112ZM634 106L634 109L637 109L637 105L635 104L634 106Z"/>
+  <clipPath id="landclip-fall-of-western-zhou"><use href="#land-fall-of-western-zhou"/></clipPath>
+  <path id="hl-fall-of-western-zhou-0" d="M474 80L474 89L482 93L482 96L492 98L493 95L496 95L495 96L508 101L506 104L504 104L499 116L502 116L502 119L512 119L514 113L521 110L521 107L531 102L538 104L539 108L545 108L545 111L557 110L556 111L567 113L563 120L565 123L561 128L553 125L540 132L535 132L535 136L531 136L530 144L523 145L517 154L511 157L503 173L508 173L507 174L512 176L513 178L524 183L527 187L528 200L535 208L534 221L543 224L545 231L553 235L553 240L551 242L541 238L534 238L547 244L545 249L531 251L523 247L506 249L504 246L501 249L498 247L489 253L475 254L446 249L442 246L443 243L439 243L438 236L435 235L436 232L428 235L424 233L422 231L423 228L420 228L420 225L415 222L410 224L408 218L408 212L403 215L398 212L388 214L385 211L365 207L364 203L357 198L355 196L356 193L353 193L354 188L348 183L349 180L347 177L301 177L286 171L286 168L281 166L282 163L279 163L287 148L293 147L316 145L319 148L324 147L323 150L345 151L349 144L351 142L354 144L376 116L399 77L417 60L425 57L448 57L463 51L468 46L472 46L471 49L475 51L474 57L476 58L476 66L478 66L478 68L481 68L482 71L477 74L475 78Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-fall-of-western-zhou)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-fall-of-western-zhou)"/>
+  <use href="#land-fall-of-western-zhou" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-fall-of-western-zhou" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-fall-of-western-zhou" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-fall-of-western-zhou)"><use href="#hl-fall-of-western-zhou-0" fill="rgb(177,101,101)" stroke="none"/>
+       <use href="#hl-fall-of-western-zhou-0" fill="url(#hatch-fall-of-western-zhou)" stroke="none"/>
+       <use href="#hl-fall-of-western-zhou-0" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-fall-of-western-zhou-0" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-fall-of-western-zhou" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="436.1" y="146.8" class="lbl hl">주나라</text>
+  <g transform="translate(320.0 182.7)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-fall-of-western-zhou)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><rect x="30" y="80" width="40" height="8" fill="#ddd0ad" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 80 L36 44 L44 38 L50 46 L58 36 L64 42 L66 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M42 78 L43 48 M50 78 L50 50 M58 78 L58 46" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M70 70 L84 64 L88 74 L76 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/><path d="M14 82 L24 74 L30 82 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M26 30 L32 36 M74 28 L68 34 M50 18 L50 26" stroke="#8f2a17" stroke-width="3" stroke-linecap="round"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-fall-of-western-zhou)"/>
+  <rect width="640" height="360" fill="url(#vignette-fall-of-western-zhou)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><rect x="30" y="80" width="40" height="8" fill="#ddd0ad" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 80 L36 44 L44 38 L50 46 L58 36 L64 42 L66 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M42 78 L43 48 M50 78 L50 50 M58 78 L58 46" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M70 70 L84 64 L88 74 L76 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/><path d="M14 82 L24 74 L30 82 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M26 30 L32 36 M74 28 L68 34 M50 18 L50 26" stroke="#8f2a17" stroke-width="3" stroke-linecap="round"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">붕괴</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">서주의 멸망과 동쪽 천도</text>
+  </g>
+  <text x="320" y="284" class="year">기원전 771년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

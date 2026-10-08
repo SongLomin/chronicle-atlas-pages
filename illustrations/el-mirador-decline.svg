@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="엘미라도르의 쇠퇴">
+<defs>
+  <clipPath id="frame-el-mirador-decline"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-el-mirador-decline" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-el-mirador-decline" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-el-mirador-decline" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="150" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-el-mirador-decline" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-el-mirador-decline"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-el-mirador-decline" d="M-24 -24L-24 62L-14 73L-12 87L-8 94L-3 98L-4 107L-10 114L-6 114L-4 118L-14 122L-10 130L-1 141L1 146L13 152L15 151L15 153L23 156L29 161L33 168L61 178L65 176L85 192L107 200L114 205L133 208L138 213L148 216L146 215L154 220L165 221L180 228L186 227L203 221L209 216L218 216L214 215L216 214L211 214L215 211L217 214L220 212L221 213L218 216L225 216L235 220L225 215L225 213L231 215L255 236L260 238L260 240L258 238L271 252L290 265L306 266L316 270L322 274L334 275L351 282L345 280L351 280L352 282L353 281L354 282L362 282L365 279L363 278L364 276L366 278L369 275L369 277L373 277L371 279L373 283L375 283L374 284L376 285L374 287L376 287L373 287L370 284L368 288L387 303L392 312L410 327L408 328L409 330L404 331L410 334L409 337L411 337L407 339L408 341L406 343L410 352L418 354L422 360L427 354L420 349L418 344L428 351L427 351L430 351L432 359L441 362L453 371L454 374L453 376L454 376L451 380L454 384L460 384L460 381L456 378L458 377L464 380L462 380L464 381L464 384L530 384L536 379L533 379L536 374L539 374L539 373L540 374L542 371L548 372L548 370L551 369L549 370L549 372L558 378L559 377L562 384L564 384L563 381L564 384L567 382L567 384L567 381L567 384L570 384L569 381L571 384L664 384L664 323L656 321L653 322L652 327L648 334L646 332L646 334L645 332L644 333L644 332L646 332L646 329L650 329L639 326L630 333L630 335L624 338L625 341L625 340L623 342L624 343L620 347L624 345L620 357L623 358L622 362L618 363L615 362L612 365L608 373L600 378L595 380L594 381L598 384L590 384L586 379L582 378L571 367L560 362L550 362L551 359L537 359L534 364L532 363L531 365L530 364L527 367L517 370L507 376L497 376L490 368L489 369L492 372L492 373L485 373L482 371L482 368L484 367L480 367L480 362L471 357L462 347L454 334L453 335L454 332L450 329L448 323L450 317L452 315L451 310L450 311L449 310L450 308L449 306L451 304L450 303L452 307L453 300L452 301L450 296L454 294L453 290L454 290L453 299L456 298L454 277L457 265L462 256L460 247L457 246L459 244L460 246L464 242L460 240L459 237L451 233L456 237L453 238L455 236L453 235L450 238L449 235L445 233L449 236L446 236L441 230L451 233L439 224L432 223L436 225L431 225L431 223L424 220L414 223L403 219L405 220L404 221L395 225L383 225L374 223L372 225L369 221L366 222L362 223L358 227L348 221L350 223L349 223L348 227L341 222L341 220L345 215L349 214L354 205L353 208L356 199L355 190L357 187L355 185L359 174L359 167L353 169L354 167L352 168L357 160L355 160L358 160L360 156L361 160L359 165L362 166L364 171L372 146L368 149L367 147L372 143L373 141L372 139L371 140L372 141L367 142L366 138L368 139L372 134L372 132L372 136L373 126L386 108L387 105L386 104L385 99L383 99L381 95L373 96L379 96L376 99L361 95L351 95L337 100L323 102L311 108L308 119L308 133L304 137L302 147L286 158L292 154L288 158L292 159L291 162L293 161L287 164L287 166L280 165L280 167L278 163L277 163L278 165L275 164L277 162L279 162L277 160L267 161L261 162L262 166L261 163L258 165L252 166L252 168L252 166L243 166L237 169L243 167L238 170L224 173L221 172L217 164L212 163L209 160L200 160L197 158L201 161L195 160L196 159L192 157L197 158L185 146L182 134L167 117L160 98L156 94L154 84L157 91L163 96L160 99L162 102L164 96L157 90L154 84L153 71L152 72L155 64L155 46L154 48L153 45L155 44L157 28L161 12L167 0L167 -6L167 -9L165 -7L166 -9L164 -10L163 -15L161 -17L160 -24L486 -24L487 -19L492 -24L487 -18L490 -17L492 -9L495 -6L493 -5L495 -6L501 -2L506 8L510 11L509 12L505 9L506 14L512 12L515 13L518 11L521 12L523 2L527 -4L527 -1L529 -24ZM156 89L157 92L156 89ZM279 161L286 158L279 161ZM323 74L325 74L326 77L326 74L324 73L323 74ZM360 178L364 172L360 178ZM362 192L365 186L362 192ZM374 167L375 163L374 167ZM381 122L382 125L387 118L383 119L381 122ZM382 218L384 217L382 218ZM390 214L399 211L394 211L390 214ZM404 211L407 209L404 211ZM425 89L427 90L435 87L434 91L440 88L445 88L447 82L452 82L454 80L457 82L471 70L490 70L495 73L495 75L484 77L491 82L497 81L501 84L503 82L504 84L504 79L507 84L520 85L518 82L519 81L521 84L520 85L530 92L532 91L533 93L537 93L546 96L556 94L561 102L562 108L571 115L586 115L589 117L588 118L591 121L591 123L581 129L578 135L610 131L629 134L633 130L632 133L633 133L639 130L651 130L654 126L652 124L648 125L641 117L637 116L629 115L630 116L629 116L626 114L624 116L622 114L620 115L619 112L624 113L620 111L623 108L620 106L613 107L606 102L603 102L605 103L603 104L601 103L603 102L599 102L600 100L597 100L595 102L597 100L591 95L590 98L588 98L588 96L585 95L590 96L590 93L581 87L580 88L584 90L586 94L584 94L583 91L577 90L575 88L576 87L574 89L571 84L557 77L556 79L555 77L544 76L537 68L533 67L534 65L531 66L529 64L521 64L518 63L517 59L516 61L507 61L505 62L502 60L505 58L497 62L496 59L483 58L467 64L465 62L463 65L461 63L458 66L444 69L442 73L441 72L436 81L439 85L434 85L425 89ZM451 308L451 310L451 307L451 308ZM462 94L465 98L468 99L476 95L473 88L466 87L464 90L467 96L462 94ZM485 96L488 94L485 96ZM495 26L498 25L497 24L497 25L495 26ZM497 94L501 92L497 94ZM499 22L501 25L499 22ZM500 145L500 148L507 147L502 145L501 147L500 145ZM509 60L513 59L509 60ZM511 58L515 59L511 58ZM517 18L524 9L517 18ZM527 139L530 138L527 139ZM532 138L535 137L532 138ZM537 67L544 72L537 67ZM546 108L549 111L546 108ZM549 70L552 71L549 70ZM557 73L563 75L563 76L566 76L564 73L557 73ZM562 118L565 119L562 118ZM563 25L567 29L569 28L571 34L578 28L578 24L571 12L567 12L569 17L566 23L568 26L565 26L565 23L563 25ZM564 170L571 172L578 179L584 179L589 182L590 178L594 180L596 176L601 179L610 178L607 172L598 170L595 167L574 164L573 166L567 166L564 170ZM565 77L572 79L569 76L565 77ZM571 81L574 83L576 82L572 79L571 81ZM572 36L576 34L572 36ZM573 83L578 88L580 87L579 84L573 83ZM573 38L575 39L576 43L579 43L577 44L578 45L581 43L577 46L581 46L582 42L580 42L582 41L580 35L577 39L577 36L580 34L579 33L573 38ZM574 79L577 82L574 79ZM576 32L579 32L576 32ZM581 16L588 15L581 16ZM598 7L606 9L611 14L610 20L607 21L611 25L611 13L600 5L600 4L598 7ZM606 37L607 40L606 37ZM613 49L621 53L614 47L613 49ZM619 25L627 34L625 37L629 37L622 25L619 25ZM622 52L624 54L622 52ZM628 49L633 55L634 60L631 59L636 61L639 66L639 63L634 60L631 51L628 47L628 49ZM637 48L640 47L637 48Z"/>
+  <clipPath id="landclip-el-mirador-decline"><use href="#land-el-mirador-decline"/></clipPath>
+  <path id="hl-el-mirador-decline-2" d="M350 181L341 181L337 179L338 177L332 178L314 169L283 174L282 178L278 178L277 184L266 192L266 195L261 201L252 223L252 228L248 231L260 239L266 249L287 264L308 266L318 273L321 268L327 270L327 266L331 261L337 261L336 259L343 259L341 256L346 254L347 240L353 233L350 223L343 221L347 215L350 215L356 209L356 202L358 202L357 185L354 187L351 185L350 182Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-el-mirador-decline)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-el-mirador-decline)"/>
+  <use href="#land-el-mirador-decline" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-el-mirador-decline" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-el-mirador-decline" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-el-mirador-decline)"><path d="M200 191L211 191L221 195L226 205L220 211L222 214L216 212L214 218L187 228L176 228L169 223L155 222L148 218L148 208L154 205L151 198L149 199L149 191L144 184L144 181L148 177L159 177L172 182L179 182L185 187L192 187L199 191Z" fill="rgb(169,188,139)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M131 149L138 157L143 157L145 149L148 149L149 145L140 141L140 138L134 138L134 141L131 139L131 144L128 144L131 151Z" fill="rgb(208,197,208)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-el-mirador-decline-2" fill="rgb(227,168,132)" stroke="none"/>
+       <use href="#hl-el-mirador-decline-2" fill="url(#hatch-el-mirador-decline)" stroke="none"/>
+       <use href="#hl-el-mirador-decline-2" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-el-mirador-decline-2" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-el-mirador-decline" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="298.8" y="221.1" class="lbl hl">마야 도시국가들</text><text x="183.9" y="207.0" class="lbl">사포텍 문명</text><text x="138.9" y="147.3" class="lbl">테오티우아칸</text>
+  <g transform="translate(320.0 181.3)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-el-mirador-decline)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><rect x="30" y="80" width="40" height="8" fill="#ddd0ad" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 80 L36 44 L44 38 L50 46 L58 36 L64 42 L66 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M42 78 L43 48 M50 78 L50 50 M58 78 L58 46" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M70 70 L84 64 L88 74 L76 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/><path d="M14 82 L24 74 L30 82 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M26 30 L32 36 M74 28 L68 34 M50 18 L50 26" stroke="#8f2a17" stroke-width="3" stroke-linecap="round"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-el-mirador-decline)"/>
+  <rect width="640" height="360" fill="url(#vignette-el-mirador-decline)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><rect x="30" y="80" width="40" height="8" fill="#ddd0ad" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 80 L36 44 L44 38 L50 46 L58 36 L64 42 L66 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M42 78 L43 48 M50 78 L50 50 M58 78 L58 46" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M70 70 L84 64 L88 74 L76 80 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/><path d="M14 82 L24 74 L30 82 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M26 30 L32 36 M74 28 L68 34 M50 18 L50 26" stroke="#8f2a17" stroke-width="3" stroke-linecap="round"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">붕괴</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">엘미라도르의 쇠퇴</text>
+  </g>
+  <text x="320" y="284" class="year">서기 150년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

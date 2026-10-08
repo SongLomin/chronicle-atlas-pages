@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="이원호의 서하 건국">
+<defs>
+  <clipPath id="frame-western-xia-founded"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-western-xia-founded" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-western-xia-founded" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-western-xia-founded" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="14" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-western-xia-founded" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-western-xia-founded"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-western-xia-founded" d="M-24 -24L-24 384L587 384L585 383L589 382L588 380L586 381L587 379L583 378L586 375L589 378L590 374L590 378L593 377L593 369L590 369L590 371L589 371L585 373L584 371L588 370L596 363L589 362L584 355L581 354L575 358L572 357L570 359L573 360L570 359L572 357L570 354L562 357L563 355L566 356L567 353L573 355L576 350L586 345L593 344L593 341L589 335L579 327L572 325L573 324L572 321L567 320L563 323L559 322L555 318L555 317L552 317L554 315L552 313L556 315L559 320L561 322L570 319L573 320L576 325L581 323L591 327L592 326L590 321L584 318L583 313L573 306L575 300L567 287L563 273L553 268L549 264L545 264L545 258L548 256L553 246L557 245L557 242L559 243L561 239L564 238L562 237L561 232L564 233L564 231L565 236L571 234L570 230L572 227L574 229L576 225L574 224L572 225L572 224L577 224L583 222L584 219L587 219L585 220L587 221L587 219L593 217L592 216L595 216L594 218L597 215L598 218L597 219L599 219L601 217L603 218L603 215L601 215L602 212L605 211L603 208L606 206L597 206L596 203L594 206L587 205L588 206L586 206L583 202L579 203L579 200L572 197L563 200L564 202L557 208L557 210L555 212L547 212L541 209L542 200L546 200L541 191L538 190L534 192L525 190L519 185L516 180L517 176L519 171L520 172L519 169L522 167L526 167L530 171L539 167L541 167L540 168L547 163L547 158L545 159L551 151L567 144L573 133L577 132L575 132L576 130L583 127L589 129L591 126L591 130L597 133L596 135L599 137L592 149L585 153L586 157L580 159L584 160L586 163L593 162L587 165L588 169L578 173L579 177L588 174L587 173L589 171L592 172L591 171L594 170L599 163L611 156L615 156L615 153L618 153L619 155L621 154L622 151L625 153L631 153L634 150L635 147L637 148L635 148L634 151L638 153L640 158L641 157L641 154L648 159L650 158L651 160L654 158L652 162L654 163L653 167L651 168L652 169L648 176L651 178L654 176L657 180L654 178L648 179L648 181L646 180L646 183L644 186L644 188L646 189L640 191L650 192L645 195L649 196L650 195L651 198L655 196L652 201L655 198L657 199L657 195L659 195L656 193L660 194L662 197L663 197L662 195L664 196L664 -24ZM532 172L533 173L535 170L534 171L533 170L532 172ZM554 315L557 319L556 315L554 315ZM579 325L586 330L591 332L593 331L592 329L583 325L579 325ZM581 163L583 161L582 163L584 163L584 161L582 161L581 163ZM587 332L590 335L587 332ZM593 358L594 361L599 363L599 360L593 358ZM595 355L597 356L598 355L595 355ZM598 353L601 353L598 353ZM603 165L606 165L603 165Z"/>
+  <clipPath id="landclip-western-xia-founded"><use href="#land-western-xia-founded"/></clipPath>
+  <path id="hl-western-xia-founded-5" d="M412 167L410 166L415 153L429 135L430 127L408 129L408 127L400 127L400 126L382 124L360 132L345 150L337 167L325 170L319 179L325 184L325 186L330 181L341 181L342 186L349 186L352 191L369 197L389 191L397 184L403 183L406 173L409 170Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-western-xia-founded)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-western-xia-founded)"/>
+  <use href="#land-western-xia-founded" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-western-xia-founded" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-western-xia-founded" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-western-xia-founded)"><path d="M556 -24L555 -22L559 -17L557 -11L559 -9L558 -6L560 -2L559 1L561 4L560 7L563 11L561 14L563 14L564 20L567 20L569 28L571 28L572 33L584 38L583 40L589 40L588 41L609 41L609 44L638 46L637 48L657 48L664 46L664 161L652 164L651 160L644 158L643 155L637 157L634 151L629 154L621 153L603 161L597 166L595 170L589 171L584 177L577 177L580 170L585 170L588 163L582 163L580 160L581 157L584 157L585 151L590 150L598 138L596 133L591 132L591 129L578 129L576 133L570 138L568 144L548 154L545 164L532 170L525 170L525 167L522 167L517 177L500 181L470 183L470 181L459 181L455 174L447 171L448 170L433 170L417 176L417 174L409 170L412 167L410 166L415 153L429 135L430 127L408 129L408 127L400 127L400 126L382 124L360 132L341 135L281 133L281 132L278 132L275 126L276 123L268 108L261 105L261 102L247 99L244 94L241 94L241 91L237 91L238 90L206 88L209 84L208 84L210 79L208 79L211 68L209 68L213 56L211 56L213 52L210 52L214 46L212 43L215 28L213 28L216 22L214 19L228 -4L237 -9L239 -12L242 -11L256 -16L290 -19L291 -22L300 -21L325 -24Z" fill="rgb(200,161,114)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-24 384L-24 206L-17 206L8 200L43 201L57 204L65 203L69 206L117 213L149 225L192 236L200 236L202 239L216 242L229 250L239 264L238 266L240 266L238 271L242 276L239 287L240 287L240 292L243 300L229 341L203 355L152 377L148 377L147 379L145 378L137 382L114 382L110 384Z" fill="rgb(146,202,192)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M51 38L51 36L39 32L36 27L16 22L17 20L-2 25L-15 32L-24 39L-24 169L-20 174L-24 186L-2 183L17 174L65 167L89 160L96 161L96 158L112 160L112 157L114 155L118 155L139 145L150 145L153 133L159 123L156 120L157 117L154 111L151 111L147 103L144 103L144 99L116 99L117 97L106 97L106 96L81 90L79 87L80 79L79 79L80 66L77 60L74 60L65 44L52 38Z" fill="rgb(203,207,159)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M517 183L525 187L525 190L534 191L536 189L538 189L538 190L550 194L548 197L546 197L541 208L544 208L544 211L554 211L556 206L563 203L562 200L572 196L578 197L579 201L585 201L585 204L596 203L596 204L606 206L602 213L604 215L601 220L592 217L580 224L576 224L576 228L572 228L570 235L565 236L559 245L552 247L546 262L550 262L549 264L554 265L554 268L565 272L568 276L569 288L575 296L575 308L583 311L585 317L593 321L593 326L591 328L593 329L592 332L587 333L589 333L594 340L592 345L585 345L580 350L577 350L571 358L573 359L578 355L585 355L587 360L594 363L591 368L594 368L593 377L589 377L589 371L586 372L588 372L586 378L589 379L589 384L235 384L233 373L230 372L230 367L229 367L230 362L229 358L229 354L228 354L229 350L228 350L230 341L229 341L241 305L256 295L265 293L270 289L272 280L270 275L272 272L275 257L279 253L292 246L302 245L313 239L317 231L313 224L314 221L311 218L313 214L300 206L294 207L294 204L296 203L291 201L293 199L300 199L308 194L318 194L330 181L341 181L342 186L349 186L352 191L369 197L389 191L397 184L403 183L406 173L409 170L417 174L417 176L433 170L448 170L447 171L455 174L459 181L470 181L470 183L500 181L518 177ZM598 358L599 362L593 362L595 358Z" fill="rgb(225,206,146)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M206 127L159 124L153 133L146 161L147 161L146 169L152 169L154 170L153 173L159 171L172 181L184 183L187 186L223 187L263 179L319 179L325 170L337 167L345 150L360 132L341 135L279 133L221 130L222 129L216 129L216 126L207 127Z" fill="rgb(224,179,181)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-western-xia-founded-5" fill="rgb(53,179,182)" stroke="none"/>
+       <use href="#hl-western-xia-founded-5" fill="url(#hatch-western-xia-founded)" stroke="none"/>
+       <use href="#hl-western-xia-founded-5" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-western-xia-founded-5" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-western-xia-founded" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <g>
+    <path d="M324.0 187.1 L330.2 181.4 L341.0 181.4 L342.2 185.8 L349.0 185.8 L352.5 191.5 L369.5 197.0 L389.1 191.5 L397.1 184.2 L403.1 182.9 L405.6 172.9 L409.4 170.0" fill="none" stroke="#c0301c" stroke-width="9" stroke-opacity="0.35" stroke-linejoin="round" filter="url(#glow-western-xia-founded)"/>
+    <path d="M324.0 187.1 L330.2 181.4 L341.0 181.4 L342.2 185.8 L349.0 185.8 L352.5 191.5 L369.5 197.0 L389.1 191.5 L397.1 184.2 L403.1 182.9 L405.6 172.9 L409.4 170.0" fill="none" stroke="#b3261a" stroke-width="2.6" stroke-dasharray="7 3 2 3" stroke-linejoin="round"/>
+    <path d="M417.5 260.0 Q398.3 216.4 351.4 207.9" fill="none" stroke="#efe2c2" stroke-width="11" stroke-linecap="round" stroke-opacity="0.8"/>
+    <path d="M339.6 205.8 L353.4 197.1 L349.4 218.7 Z" fill="#efe2c2" stroke="#efe2c2" stroke-width="5" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <path d="M417.5 260.0 Q398.3 216.4 351.4 207.9" fill="none" stroke="#3b2412" stroke-width="6" stroke-linecap="round"/>
+    <path d="M417.5 260.0 Q398.3 216.4 351.4 207.9" fill="none" stroke="#efe2c2" stroke-width="1.2" stroke-dasharray="2 5" stroke-opacity="0.75"/>
+    <path d="M339.6 205.8 L353.4 197.1 L349.4 218.7 Z" fill="#3b2412" stroke="#3b2412" stroke-width="1"/>
+  </g>
+  <g transform="translate(320 30)">
+    <path d="M-77 -13 L77 -13 L87 0 L77 13 L-77 13 L-87 0 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <text y="1" class="war">⚔ 송-서하 전쟁</text>
+  </g><text x="382.1" y="156.6" class="lbl hl">서하</text><text x="234.1" y="157.6" class="lbl">칸수 위구르국</text>
+  <g transform="translate(320.0 183.1)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-western-xia-founded)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-western-xia-founded)"/>
+  <rect width="640" height="360" fill="url(#vignette-western-xia-founded)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">건국</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">이원호의 서하 건국</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1038년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+  .war { font-size: 13px; font-weight: 800; fill: #f4e8c8; dominant-baseline: middle; letter-spacing: 1px; }
+</style>
+</svg>

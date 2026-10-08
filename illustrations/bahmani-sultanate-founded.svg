@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="바흐마니 술탄국의 건국">
+<defs>
+  <clipPath id="frame-bahmani-sultanate-founded"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-bahmani-sultanate-founded" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-bahmani-sultanate-founded" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-bahmani-sultanate-founded" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="67" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-bahmani-sultanate-founded" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-bahmani-sultanate-founded"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-bahmani-sultanate-founded" d="M-24 -24L-24 0L-7 5L-4 1L1 2L1 6L3 4L8 4L7 3L9 2L12 2L11 4L14 5L13 3L16 1L38 2L37 0L39 -2L49 -1L48 -3L49 -4L51 -4L50 -3L50 -1L57 1L60 0L62 3L64 -1L73 0L78 -2L83 -1L96 -4L101 -3L101 -4L98 -6L93 -4L95 -7L100 -7L106 3L104 11L111 10L117 13L115 15L117 16L116 16L117 22L119 22L118 24L119 28L123 28L121 30L123 31L122 33L125 34L126 32L125 34L127 35L127 34L129 34L130 32L133 35L133 31L135 34L134 36L136 37L136 32L136 36L139 37L136 39L140 40L142 37L150 33L142 39L142 42L143 41L142 43L146 46L145 47L151 53L158 57L169 59L172 56L178 55L178 53L184 55L184 52L186 51L186 54L183 55L179 63L175 64L171 67L170 65L167 68L165 66L164 68L159 70L158 67L156 67L156 65L153 69L176 95L191 105L199 104L220 94L224 85L221 81L218 81L218 79L220 80L219 78L221 80L221 78L218 78L220 76L221 77L224 74L224 71L221 70L225 70L226 68L226 70L228 71L237 70L234 72L230 72L228 77L229 78L233 76L230 80L229 84L242 82L235 84L230 89L233 89L230 90L233 94L231 96L235 96L236 98L234 98L236 99L235 103L237 102L238 104L231 125L232 127L233 126L233 132L236 132L234 133L234 135L240 139L234 137L234 145L235 146L238 140L239 144L240 144L237 146L238 147L239 150L237 148L236 150L239 156L237 154L237 157L240 160L240 162L238 160L237 161L240 165L241 175L243 176L242 176L247 197L246 197L247 199L245 199L248 208L249 206L248 209L254 219L257 218L254 220L255 222L257 221L256 223L259 224L255 224L258 225L259 229L258 231L262 236L265 235L262 237L265 239L267 241L266 243L268 242L269 244L267 243L269 248L271 249L269 249L271 254L274 262L275 261L276 262L274 263L275 268L277 279L280 279L278 280L285 298L290 299L288 300L297 312L306 336L308 336L306 339L311 345L311 350L313 351L310 351L311 348L308 342L310 356L314 364L317 363L314 365L324 376L330 381L334 382L346 376L347 370L349 368L348 368L349 365L354 361L366 357L376 359L373 356L368 356L364 352L372 340L372 336L378 334L378 335L384 335L384 312L380 313L383 311L383 303L387 293L386 293L391 286L394 272L394 267L390 265L388 263L389 261L390 263L390 260L394 267L390 250L388 250L391 247L391 242L388 231L393 217L401 213L404 213L404 217L406 210L406 214L409 216L414 203L417 202L425 204L436 198L437 191L437 190L436 192L435 190L438 186L456 175L457 174L456 173L458 173L460 168L474 160L488 143L488 141L489 141L497 133L505 128L500 131L501 128L498 129L496 133L499 126L502 124L505 124L505 127L502 128L503 129L522 122L518 118L523 122L525 117L530 114L529 115L531 112L530 113L530 110L536 106L533 104L535 103L532 97L534 91L540 86L553 82L560 74L559 72L556 71L555 66L557 71L561 72L560 77L562 86L562 81L563 85L564 83L565 85L566 85L567 77L567 86L569 86L571 71L570 77L573 73L572 86L574 83L575 84L575 81L576 84L580 85L576 77L579 78L579 73L582 84L584 83L585 77L586 83L589 77L588 69L589 76L591 68L589 80L590 83L593 81L592 78L593 80L597 79L595 74L596 74L596 67L599 65L596 70L597 75L598 77L601 72L599 76L600 76L604 72L600 79L602 78L601 80L604 80L608 72L607 70L608 74L612 67L611 63L609 63L608 65L609 60L607 59L610 56L609 52L611 51L612 48L604 42L611 44L611 41L609 40L612 39L612 42L614 41L612 43L613 47L612 52L619 63L621 63L621 60L622 64L625 64L626 61L624 59L627 60L631 55L630 59L635 64L637 71L639 66L637 72L640 79L639 81L641 81L641 84L642 83L642 88L640 88L643 95L648 105L647 98L649 106L657 116L655 106L658 111L659 110L661 114L658 116L660 119L664 110L662 117L664 118L662 119L664 123L664 -24ZM381 382L381 384L420 384L417 381L417 380L418 381L416 374L411 373L414 372L413 370L408 363L407 364L406 362L407 362L405 357L392 345L390 346L397 350L390 345L385 346L389 349L391 350L391 349L400 353L393 353L388 350L391 352L388 354L389 359L388 362L385 364L386 368L383 379L384 384L381 384L382 377L381 382ZM384 348L387 349L385 346L384 348ZM406 215L408 216L406 215ZM558 84L560 85L560 79L558 84ZM569 80L570 81L570 78L569 80ZM579 78L581 82L579 78ZM606 79L606 80L607 76L606 79ZM607 78L609 77L608 75L607 78ZM608 44L611 46L608 44ZM609 59L610 60L612 57L613 58L611 56L609 59ZM609 75L610 75L610 76L612 72L609 75ZM610 79L612 76L610 79ZM610 54L613 55L611 52L610 54ZM611 61L613 66L613 76L617 73L617 66L613 58L611 61ZM612 66L613 69L612 66ZM619 71L620 68L619 71ZM620 73L622 74L624 71L622 67L620 73ZM629 64L632 67L630 63L629 64ZM638 82L639 78L638 82ZM638 83L639 88L641 87L640 81L638 83Z"/>
+  <clipPath id="landclip-bahmani-sultanate-founded"><use href="#land-bahmani-sultanate-founded"/></clipPath>
+  <path id="hl-bahmani-sultanate-founded-7" d="M504 -24L535 -20L534 -5L522 19L521 27L518 31L509 59L494 55L457 62L454 66L448 83L434 83L405 74L399 82L384 88L384 90L381 90L362 109L353 143L355 143L356 156L359 159L361 169L373 179L380 181L383 186L386 186L389 190L396 191L403 197L390 203L384 203L360 197L335 196L320 191L304 194L292 204L285 216L277 232L274 244L271 244L270 241L267 242L259 234L259 227L256 225L255 218L250 216L244 197L245 187L238 166L236 137L233 135L234 130L231 125L235 114L237 101L230 93L234 83L229 82L229 70L226 70L225 77L220 79L221 82L224 82L222 95L205 102L203 105L191 106L182 102L173 93L173 90L165 82L161 82L153 71L154 65L158 65L160 68L163 68L165 65L173 65L181 61L183 55L177 55L170 60L159 58L150 54L145 45L140 43L140 40L136 40L136 34L146 31L149 25L164 25L164 27L169 27L168 28L177 25L172 15L172 3L170 3L172 -11L181 -24Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-bahmani-sultanate-founded)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-bahmani-sultanate-founded)"/>
+  <use href="#land-bahmani-sultanate-founded" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-bahmani-sultanate-founded" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-bahmani-sultanate-founded" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-bahmani-sultanate-founded)"><path d="M382 350L388 350L391 352L386 357L388 357L386 362L381 360L386 366L381 382L382 384L403 383L413 374L413 370L404 356L393 345L385 346L382 349Z" fill="rgb(204,159,155)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M538 88L533 85L528 76L514 60L494 55L457 62L454 66L439 111L420 118L411 128L408 137L422 146L442 171L454 176L465 165L474 160L488 141L502 130L497 131L498 127L504 124L504 128L505 128L519 124L521 122L519 120L522 121L530 114L535 106L532 96L535 91Z" fill="rgb(204,160,128)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M270 253L273 256L277 280L286 298L294 297L315 305L325 306L330 305L343 283L342 279L349 263L348 251L325 248L322 243L322 227L318 223L307 226L300 232L286 237L283 242L270 250L271 252Z" fill="rgb(206,159,142)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M504 -24L535 -20L534 -5L522 19L521 27L518 31L509 59L494 55L457 62L454 66L448 83L434 83L405 74L399 82L384 88L384 90L381 90L362 109L353 143L355 143L356 156L359 159L361 169L373 179L380 181L383 186L386 186L389 190L396 191L403 197L390 203L384 203L360 197L335 196L320 191L304 194L292 204L285 216L277 232L274 244L271 244L270 241L267 242L259 234L259 227L256 225L255 218L250 216L244 197L245 187L238 166L236 137L233 135L234 130L231 125L235 114L237 101L230 93L234 83L229 82L229 70L226 70L225 77L220 79L221 82L224 82L222 95L205 102L203 105L191 106L182 102L173 93L173 90L165 82L161 82L153 71L154 65L158 65L160 68L163 68L165 65L173 65L181 61L183 55L177 55L170 60L159 58L150 54L145 45L140 43L140 40L136 40L136 34L146 31L149 25L164 25L164 27L169 27L168 28L177 25L172 15L172 3L170 3L172 -11L181 -24Z" fill="rgb(226,176,168)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M551 7L549 13L552 13L554 19L560 19L561 16L568 13L569 7L563 4L563 1L557 1L553 7Z" fill="rgb(189,205,210)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M105 -24L101 -18L98 -5L104 -2L104 10L117 13L118 21L119 21L118 28L121 28L123 33L126 34L136 34L146 31L149 25L164 25L164 27L169 27L169 28L177 25L172 15L172 3L170 3L172 -11L181 -24Z" fill="rgb(197,169,115)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M270 252L270 250L283 242L286 237L300 232L307 226L318 223L322 227L322 243L325 248L348 251L349 263L342 279L343 283L330 305L325 306L315 305L294 297L286 298L288 300L294 314L297 315L300 329L307 340L307 344L310 345L310 348L307 348L307 352L310 355L311 362L314 363L318 373L330 383L342 380L349 374L351 363L357 359L365 358L366 348L372 343L373 336L385 336L386 327L379 327L373 325L371 321L359 316L358 307L355 305L361 284L371 282L381 273L381 269L374 262L350 252L347 247L348 224L346 224L346 214L343 211L343 204L338 197L320 191L304 194L292 204L285 216L277 232L274 244L271 244L270 241L266 244Z" fill="rgb(175,168,183)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-bahmani-sultanate-founded-7" fill="rgb(224,146,157)" stroke="none"/>
+       <use href="#hl-bahmani-sultanate-founded-7" fill="url(#hatch-bahmani-sultanate-founded)" stroke="none"/>
+       <use href="#hl-bahmani-sultanate-founded-7" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-bahmani-sultanate-founded-7" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-bahmani-sultanate-founded" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="475.4" y="118.4" class="lbl">동강가</text>
+  <g transform="translate(320.0 181.2)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-bahmani-sultanate-founded)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-bahmani-sultanate-founded)"/>
+  <rect width="640" height="360" fill="url(#vignette-bahmani-sultanate-founded)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">건국</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">바흐마니 술탄국의 건국</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1347년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

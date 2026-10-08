@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="일로팡고 화산의 대폭발">
+<defs>
+  <clipPath id="frame-ilopango-eruption"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-ilopango-eruption" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-ilopango-eruption" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-ilopango-eruption" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="175" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-ilopango-eruption" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-ilopango-eruption"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-ilopango-eruption" d="M-24 -24L-24 53L-12 59L-10 59L-10 61L-2 64L4 69L8 76L37 86L41 84L61 101L84 109L91 113L110 116L115 122L125 124L123 124L132 129L143 130L158 137L165 136L182 130L188 125L197 125L193 123L195 123L190 123L194 119L196 123L199 121L201 122L198 124L205 125L214 129L204 123L205 122L210 124L235 145L240 148L240 149L238 148L251 161L271 175L287 176L297 180L304 184L316 185L333 192L327 190L333 190L334 192L335 191L336 192L344 192L347 189L345 188L346 186L348 188L351 185L351 188L356 187L353 189L355 193L358 194L357 194L358 195L356 197L358 198L355 198L352 194L350 198L369 214L375 223L393 238L391 239L392 241L387 242L393 245L392 248L394 248L390 251L391 252L388 254L393 264L401 266L405 272L410 266L403 261L401 256L412 262L411 263L413 263L416 271L424 274L437 283L438 286L437 288L438 288L435 293L438 296L444 297L444 294L440 290L447 292L448 296L447 297L451 301L453 305L455 299L468 298L467 301L469 302L470 300L474 300L477 303L478 301L478 305L480 306L481 311L484 313L489 314L488 311L490 310L489 308L492 309L492 307L493 309L492 310L497 323L506 322L509 318L515 317L515 316L506 305L505 301L520 293L522 291L519 292L521 288L525 286L525 285L526 286L528 283L534 284L534 282L537 281L534 282L535 284L544 290L545 289L550 298L550 294L550 296L553 295L554 296L554 294L553 297L555 295L556 297L556 293L558 299L562 301L558 300L555 297L554 300L552 300L553 303L549 303L550 307L555 316L565 326L565 331L567 331L568 335L571 334L572 337L572 342L571 344L569 343L569 345L575 355L568 360L571 361L572 365L572 374L574 377L573 376L572 384L664 384L664 230L657 234L641 232L636 245L634 243L634 245L632 244L632 245L632 243L634 243L634 240L638 240L626 237L617 244L618 246L612 249L612 252L612 251L611 253L612 255L608 259L612 257L608 268L611 270L610 274L606 275L603 274L598 278L595 285L581 294L585 296L586 304L584 307L581 306L582 305L584 305L584 303L581 303L581 300L574 295L572 291L568 290L561 281L561 283L558 279L549 275L536 274L537 271L523 270L520 276L518 275L517 277L516 276L512 279L503 282L492 288L482 288L475 280L473 281L477 285L470 285L466 283L466 280L468 279L465 280L464 278L465 274L455 269L442 254L438 245L437 246L438 243L434 240L432 234L434 228L436 226L435 221L434 222L432 221L434 219L433 217L435 215L434 214L436 218L437 210L436 212L434 206L438 204L437 201L438 200L437 209L440 209L438 187L441 175L446 166L444 156L441 156L444 153L444 156L448 151L444 150L443 146L435 142L440 147L437 147L439 145L437 145L434 147L433 144L428 142L433 145L430 146L424 139L435 142L423 133L415 132L419 134L415 134L414 132L407 129L397 132L386 128L388 129L387 130L378 134L366 134L357 132L354 134L351 130L349 131L344 132L340 136L330 130L332 132L331 132L330 136L323 131L323 129L327 124L331 123L336 114L335 117L338 107L336 99L339 95L336 93L341 82L341 75L335 77L336 75L334 75L339 68L337 68L340 67L342 64L343 68L341 73L344 74L346 79L354 54L352 54L350 56L350 54L354 51L355 48L355 47L353 48L355 48L350 50L348 46L350 47L354 41L354 39L354 43L355 33L367 19L370 11L368 10L368 5L362 1L355 3L361 2L359 5L340 1L338 2L341 2L333 2L319 7L301 10L292 15L289 26L289 40L285 44L283 54L267 65L273 62L269 65L272 67L272 70L274 69L267 72L267 74L261 73L260 75L258 71L257 70L259 72L255 71L257 70L259 70L257 68L248 69L241 70L242 74L241 70L238 73L232 74L232 76L231 74L223 74L217 77L222 75L218 78L203 81L201 80L196 72L191 71L188 68L179 67L176 66L179 68L173 68L174 67L171 64L175 66L164 54L160 41L145 23L138 4L134 0L132 -10L135 -3L141 3L138 5L140 9L142 2L135 -4L132 -10L130 -24ZM260 69L266 66L260 69ZM342 86L346 80L342 86ZM344 100L347 94L344 100ZM356 75L358 71L356 75ZM358 67L359 70L358 67ZM364 29L364 32L370 25L366 26L364 29ZM364 127L367 126L364 127ZM373 123L382 119L376 120L373 123ZM387 120L390 118L387 120ZM408 -5L411 -4L418 -6L418 -3L424 -6L428 -6L431 -12L436 -12L438 -14L442 -12L455 -24L475 -24L480 -21L480 -19L469 -17L476 -12L482 -13L486 -10L488 -11L489 -9L489 -15L492 -10L505 -9L504 -12L505 -12L507 -10L506 -9L515 -1L517 -2L518 -1L523 -1L532 3L542 0L548 9L548 14L557 22L572 22L576 24L575 25L578 28L577 30L567 36L565 42L597 38L617 41L621 37L619 41L621 41L627 37L639 37L642 34L640 31L636 32L629 24L625 23L617 22L618 23L616 23L614 21L611 22L609 20L607 22L606 19L611 19L607 18L611 15L608 12L601 13L593 9L590 9L592 10L590 11L588 10L590 9L586 9L587 7L584 6L582 8L584 6L578 1L576 4L574 4L574 2L572 1L577 2L577 0L568 -6L567 -5L570 -3L572 0L571 0L570 -3L564 -3L562 -6L563 -7L561 -5L557 -10L543 -17L542 -15L541 -17L529 -18L523 -24L428 -24L422 -19L419 -13L423 -8L418 -9L408 -5ZM435 219L435 221L435 218L435 219ZM446 1L449 4L453 5L460 1L457 -5L451 -7L449 -3L451 2L446 1ZM463 300L465 300L463 300ZM467 276L469 278L470 277L467 276ZM470 2L472 0L470 2ZM475 316L478 320L481 320L478 317L479 316L478 313L475 316ZM482 1L485 -1L482 1ZM485 53L485 55L492 54L487 53L486 54L485 53ZM488 317L493 315L488 317ZM513 46L516 45L513 46ZM517 46L521 44L517 46ZM532 15L535 18L532 15ZM537 296L539 301L540 297L539 295L537 296ZM538 19L540 20L538 19ZM548 24L551 26L548 24ZM550 78L557 80L564 87L571 87L576 91L577 87L581 88L583 84L588 87L597 86L594 80L585 78L582 75L560 72L559 74L553 74L550 78ZM634 74L637 77L642 78L647 83L649 83L648 81L652 78L652 79L658 78L664 80L664 40L657 42L656 45L657 47L664 47L664 73L652 72L651 71L654 71L649 72L639 69L636 70L634 74Z"/>
+  <clipPath id="landclip-ilopango-eruption"><use href="#land-ilopango-eruption"/></clipPath>
+  <path id="hl-ilopango-eruption-2" d="M370 17L370 4L366 1L360 1L357 4L332 1L317 7L300 8L296 13L293 13L290 29L289 29L290 38L283 45L282 55L270 63L272 70L268 70L267 73L261 73L260 67L246 67L243 72L224 73L217 76L223 83L223 93L227 101L224 104L226 106L221 114L223 117L221 117L222 121L217 131L240 148L246 158L270 176L289 176L301 183L302 178L309 180L308 176L313 171L319 171L317 168L325 168L323 166L328 164L329 150L335 143L332 132L325 130L329 124L332 124L338 118L338 111L340 111L339 92L342 83L341 76L338 76L337 73L343 67L343 72L342 72L345 79L349 77L348 73L354 60L354 54L356 51L356 48L352 47L358 41L357 33L370 18Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-ilopango-eruption)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-ilopango-eruption)"/>
+  <use href="#land-ilopango-eruption" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-ilopango-eruption" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-ilopango-eruption" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-ilopango-eruption)"><path d="M108 57L116 64L121 64L123 57L126 57L127 52L118 48L117 45L111 45L112 48L108 47L109 51L106 51L108 58Z" fill="rgb(208,197,208)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M179 99L190 99L200 104L205 114L200 119L202 122L195 121L193 127L166 137L154 137L147 132L133 131L126 127L126 117L132 114L129 106L126 108L126 99L122 92L122 89L126 85L137 85L151 90L157 90L164 95L170 95L177 99Z" fill="rgb(169,188,139)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-ilopango-eruption-2" fill="rgb(227,168,132)" stroke="none"/>
+       <use href="#hl-ilopango-eruption-2" fill="url(#hatch-ilopango-eruption)" stroke="none"/>
+       <use href="#hl-ilopango-eruption-2" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-ilopango-eruption-2" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-ilopango-eruption" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="288.2" y="113.1" class="lbl hl">마야 도시국가들</text><text x="162.4" y="115.6" class="lbl">사포텍 문명</text><text x="116.4" y="54.8" class="lbl">테오티우아칸</text>
+  <g transform="translate(320.0 181.0)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-ilopango-eruption)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M8 86 L36 44 L44 50 L56 42 L64 48 L92 86 Z" fill="#8b6b4a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M36 44 L44 50 L56 42 L64 48 L58 60 L50 54 L42 62 Z" fill="#e0562c" stroke="#3b2412" stroke-width="2"/>
+    <path d="M50 38 C38 30 44 18 52 20 C54 10 70 12 66 24 C76 26 70 38 60 34" fill="#9aa0a0" stroke="#3b2412" stroke-width="2.5"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-ilopango-eruption)"/>
+  <rect width="640" height="360" fill="url(#vignette-ilopango-eruption)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M8 86 L36 44 L44 50 L56 42 L64 48 L92 86 Z" fill="#8b6b4a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M36 44 L44 50 L56 42 L64 48 L58 60 L50 54 L42 62 Z" fill="#e0562c" stroke="#3b2412" stroke-width="2"/>
+    <path d="M50 38 C38 30 44 18 52 20 C54 10 70 12 66 24 C76 26 70 38 60 34" fill="#9aa0a0" stroke="#3b2412" stroke-width="2.5"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">재난·재건</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">일로팡고 화산의 대폭발</text>
+  </g>
+  <text x="320" y="284" class="year">서기 431년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

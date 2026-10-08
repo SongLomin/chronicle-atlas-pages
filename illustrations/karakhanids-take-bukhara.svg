@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="카라한 왕조의 부하라 점령">
+<defs>
+  <clipPath id="frame-karakhanids-take-bukhara"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-karakhanids-take-bukhara" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-karakhanids-take-bukhara" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-karakhanids-take-bukhara" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="231" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-karakhanids-take-bukhara" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-karakhanids-take-bukhara"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-karakhanids-take-bukhara" d="M-24 -24L-24 384L56 384L55 380L58 378L56 377L59 376L62 378L61 380L56 379L60 382L61 381L61 384L66 384L74 382L76 384L664 384L664 -24ZM34 87L38 87L34 87ZM39 47L40 52L39 47ZM70 29L71 33L71 30L70 29ZM74 64L77 67L75 64L76 61L74 64ZM79 62L80 63L80 60L79 62ZM85 64L87 66L85 64ZM118 51L120 53L120 50L118 51ZM126 199L127 206L127 198L126 199Z"/>
+  <clipPath id="landclip-karakhanids-take-bukhara"><use href="#land-karakhanids-take-bukhara"/></clipPath>
+  <path id="hl-karakhanids-take-bukhara-15" d="M430 248L407 252L398 250L391 252L389 255L378 253L365 256L362 264L359 267L353 284L346 296L322 310L319 315L318 334L312 340L304 342L301 350L301 359L298 363L290 384L216 384L213 378L208 377L207 374L202 373L196 368L181 364L180 355L179 355L178 346L176 346L163 328L159 327L157 316L154 315L154 312L152 311L152 306L150 306L151 300L149 298L149 288L147 284L157 253L153 249L154 246L144 242L141 234L141 226L140 226L142 200L134 192L128 190L135 189L134 177L122 177L122 170L120 170L124 159L125 159L124 162L131 162L133 159L132 163L149 162L149 160L191 162L201 147L203 138L210 125L211 110L216 99L221 94L230 100L251 97L251 102L262 117L265 117L268 125L271 125L275 132L278 132L280 135L279 138L282 139L281 142L284 145L284 148L286 150L285 156L286 156L284 162L286 166L284 173L287 175L286 177L352 160L356 154L371 142L371 139L383 131L389 120L409 97L415 77L441 77L454 80L456 83L465 87L465 91L468 94L468 97L470 100L472 100L474 105L481 110L483 116L493 122L495 128L504 132L504 139L492 150L482 169L479 170L480 172L476 188L473 189L478 190L480 209L490 206L498 212L497 217L498 217L498 223L501 228L500 233L502 235L497 232L467 228L448 227L434 237L432 248Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-karakhanids-take-bukhara)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-karakhanids-take-bukhara)"/>
+  <use href="#land-karakhanids-take-bukhara" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-karakhanids-take-bukhara" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-karakhanids-take-bukhara" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-karakhanids-take-bukhara)"><path d="M664 105L648 119L640 120L629 126L619 128L606 137L605 139L596 147L588 169L590 169L588 175L590 175L589 180L592 182L591 185L594 188L593 190L600 200L627 210L652 210L664 207Z" fill="rgb(203,207,159)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 207L652 210L627 210L600 200L593 190L594 188L591 185L592 182L589 180L590 175L588 175L590 169L588 169L596 147L605 139L606 137L619 128L588 123L586 126L542 147L489 156L482 169L479 170L480 172L476 188L473 189L514 197L535 205L539 210L541 210L543 214L546 214L549 219L548 221L553 228L558 230L559 233L571 237L575 241L592 244L603 250L603 252L664 236Z" fill="rgb(215,171,135)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M14 170L2 170L-3 166L-1 159L-6 156L-9 150L-24 150L-24 191L-21 190L-19 185L-8 185L-4 189L0 189L3 193L5 193L10 199L11 203L18 202L21 188L17 186L16 180L12 175Z" fill="rgb(184,190,205)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M540 267L570 259L559 272L552 295L553 295L552 307L553 307L554 316L558 324L557 328L560 336L559 341L565 351L564 355L540 349L535 345L526 343L524 341L506 341L504 338L496 337L495 332L490 330L485 324L486 316L484 315L485 310L488 307L482 304L483 300L480 299L482 292L478 291L480 289L499 293L511 311L531 319L540 280L540 267Z" fill="rgb(202,171,182)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M476 39L475 39L472 50L479 55L482 63L485 62L488 54L485 52L489 39L496 38L498 30L506 28L508 25L541 26L541 28L548 30L548 31L559 31L568 30L570 23L574 20L579 21L587 18L591 23L608 28L607 30L615 28L614 31L623 46L622 49L624 49L621 54L624 55L622 60L623 60L622 63L624 66L622 71L624 71L625 93L641 119L640 120L629 126L619 128L588 123L586 126L542 147L489 156L492 150L504 139L504 132L495 128L493 122L483 116L481 110L474 105L472 100L470 100L468 97L468 94L465 91L465 87L456 83L454 80L441 77L416 77L431 46L450 23L469 18L482 18L481 20L489 21L482 26L481 31L477 31L475 38L478 36L476 41Z" fill="rgb(190,161,173)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 384L603 384L600 378L590 376L585 368L576 367L570 358L564 355L565 351L559 341L560 336L557 328L558 324L554 316L553 307L552 307L553 295L552 295L559 272L570 259L603 252L664 236Z" fill="rgb(146,202,192)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-24 116L-16 114L-15 117L-8 116L2 122L1 128L-2 128L-4 134L-15 138L-15 142L-22 145L-24 150Z" fill="rgb(204,160,128)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M3 170L7 160L12 157L20 157L27 162L36 160L38 156L35 153L36 150L40 148L42 142L45 142L48 138L59 150L58 153L62 156L61 159L66 164L75 166L79 169L69 170L66 173L62 192L60 193L58 192L57 186L53 185L53 182L42 182L38 186L30 188L29 180L23 180L20 176L22 169L21 167L14 170Z" fill="rgb(147,192,165)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M539 243L531 243L507 238L497 232L467 228L448 227L434 237L432 248L432 267L443 276L456 276L469 286L480 289L499 293L511 311L531 319L540 280L539 261Z" fill="rgb(190,207,211)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M290 384L298 363L301 359L301 350L304 342L312 340L318 334L319 315L322 310L346 296L353 284L359 267L362 264L365 256L378 253L389 255L391 252L398 250L407 252L432 248L432 267L443 276L456 276L468 284L467 290L457 304L448 308L441 319L440 323L442 327L436 332L435 337L429 346L425 384Z" fill="rgb(189,172,113)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M327 47L289 38L277 39L275 36L276 33L269 31L274 17L273 15L266 15L265 18L262 20L261 15L254 15L254 18L247 18L242 28L236 30L233 38L221 39L219 52L215 57L210 76L211 76L210 80L212 80L210 90L214 91L217 97L211 110L210 125L203 138L201 147L191 162L149 160L154 156L155 150L144 142L141 129L129 129L122 135L122 144L121 144L117 135L117 132L116 132L120 125L122 114L115 111L107 111L105 103L99 105L97 102L97 93L92 88L93 85L89 80L78 76L78 73L81 71L89 74L99 74L99 69L92 66L92 62L99 54L106 54L110 57L140 57L139 63L147 63L149 57L146 55L147 49L140 49L137 54L133 54L127 49L127 41L130 39L131 30L130 30L130 17L148 5L154 5L161 0L183 -7L301 -12L314 -8L317 -3L320 -3L322 2L326 3L326 10L327 10L326 13L328 13L327 17L329 20L328 30L329 30Z" fill="rgb(176,169,185)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 -24L664 3L653 7L643 13L637 13L635 17L631 15L627 18L600 25L600 26L591 23L587 18L579 21L574 20L574 18L563 17L553 23L550 20L530 21L530 20L523 20L523 17L493 17L491 21L481 20L482 18L469 18L450 23L431 46L414 82L396 87L384 87L382 83L378 83L373 74L354 63L349 55L327 47L329 30L328 30L329 20L327 17L328 13L326 13L327 10L326 10L326 3L322 2L320 -3L317 -3L314 -8L301 -12L183 -7L161 0L154 5L148 5L128 17L127 13L106 15L105 12L100 10L102 8L102 0L97 -3L98 -10L96 -10L96 -24Z" fill="rgb(223,202,153)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M46 182L53 182L53 185L57 186L58 192L60 193L56 196L54 200L53 214L55 214L55 228L59 233L65 234L60 244L55 242L54 239L47 242L45 238L42 241L34 239L27 245L28 255L25 257L21 257L20 255L11 256L3 260L0 259L-5 264L-9 264L-13 274L-21 278L-24 287L-24 229L-20 226L-23 224L-22 219L-18 207L-13 207L-9 200L-5 200L-5 197L-13 190L-14 185L-8 185L-4 189L0 189L3 193L5 193L10 199L11 203L18 202L21 188L17 186L16 180L12 175L14 170L21 167L22 169L20 176L23 180L29 180L30 188L38 186L42 182L44 182ZM46 137L48 138L45 142L42 142L42 134L46 135Z" fill="rgb(220,184,132)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M143 246L144 242L154 246L153 249L157 253L147 284L149 288L149 298L151 300L150 306L152 306L152 311L154 312L154 315L157 316L159 327L163 328L176 346L178 346L179 355L180 355L181 364L196 368L202 373L207 374L208 377L213 378L216 384L62 384L56 381L57 384L-3 384L-9 377L-19 372L-24 373L-24 287L-21 278L-13 274L-9 264L-5 264L0 259L3 260L11 256L20 255L21 257L25 257L28 255L27 245L34 239L42 241L45 238L47 242L54 239L55 242L60 244L65 234L74 235L80 244L84 242L85 244L83 246L96 252L112 253L134 246Z" fill="rgb(176,183,197)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M327 47L289 38L277 39L275 36L276 33L269 31L266 38L266 46L267 46L268 54L274 54L272 65L269 65L268 68L260 74L258 83L255 85L251 96L251 102L262 117L265 117L268 125L271 125L275 132L278 132L280 135L281 142L284 145L284 148L286 150L285 156L286 156L284 162L286 166L284 173L287 175L286 177L352 160L356 154L371 142L371 139L383 131L389 120L388 120L390 99L389 99L390 96L387 94L388 91L386 88L383 88L382 83L378 83L373 74L354 63L349 55Z" fill="rgb(211,199,210)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-karakhanids-take-bukhara-15" fill="rgb(228,162,166)" stroke="none"/>
+       <use href="#hl-karakhanids-take-bukhara-15" fill="url(#hatch-karakhanids-take-bukhara)" stroke="none"/>
+       <use href="#hl-karakhanids-take-bukhara-15" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-karakhanids-take-bukhara-15" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-karakhanids-take-bukhara" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="289.3" y="221.6" class="lbl hl">사만 왕조</text><text x="166.5" y="107.7" class="lbl">오구즈 튀르크족</text><text x="522.1" y="88.4" class="lbl">카라한 왕조</text><text x="549.0" y="176.6" class="lbl">호탄 왕국</text><text x="323.7" y="108.6" class="lbl">셀주크 왕조</text><text x="487.3" y="260.4" class="lbl">우트팔라 왕조</text><text x="43.0" y="166.4" class="lbl">시르반샤 왕조</text>
+  <g transform="translate(320.0 183.3)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-karakhanids-take-bukhara)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-karakhanids-take-bukhara)"/>
+  <rect width="640" height="360" fill="url(#vignette-karakhanids-take-bukhara)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">정복</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">카라한 왕조의 부하라 점령</text>
+  </g>
+  <text x="320" y="284" class="year">서기 999년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

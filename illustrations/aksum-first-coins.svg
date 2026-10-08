@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="악숨의 첫 화폐 발행">
+<defs>
+  <clipPath id="frame-aksum-first-coins"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-aksum-first-coins" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-aksum-first-coins" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-aksum-first-coins" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="14" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-aksum-first-coins" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-aksum-first-coins"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-aksum-first-coins" d="M-24 -24L-24 384L523 384L542 356L547 341L557 324L559 317L565 312L572 296L581 285L583 265L586 263L593 263L593 261L588 260L589 262L585 262L588 259L587 250L588 247L586 246L586 243L591 232L580 228L575 230L572 235L564 239L554 240L550 242L540 245L531 243L523 247L514 248L507 246L486 257L472 253L454 263L446 264L441 263L430 254L423 245L423 242L418 240L415 237L402 239L402 237L405 238L407 234L420 228L421 223L419 217L412 208L411 211L407 209L406 205L402 201L399 201L397 193L395 191L395 194L393 192L390 187L384 185L373 170L364 168L363 164L359 161L354 164L351 162L348 156L349 154L345 150L343 153L344 158L343 160L341 160L339 150L336 150L335 144L332 141L324 108L317 94L314 97L318 94L317 93L313 89L309 89L311 87L308 89L306 86L307 85L303 81L299 80L298 77L295 78L292 75L288 58L287 41L288 36L285 21L288 23L288 26L290 24L281 11L280 3L281 1L271 -6L266 -12L258 -15L253 -24L322 -24L322 -21L326 -15L328 -6L329 -7L326 3L325 2L328 8L330 16L328 19L330 23L342 41L346 43L345 42L349 42L359 50L362 54L364 54L364 58L368 60L371 69L373 70L372 73L374 75L374 78L378 84L380 89L386 98L397 107L398 116L398 113L406 123L409 137L408 142L405 146L408 156L408 157L406 153L404 157L409 159L411 163L411 166L410 164L413 174L411 172L418 190L417 200L422 209L422 213L425 211L432 215L443 213L447 210L453 212L452 210L456 209L455 211L456 211L458 207L464 204L470 198L492 196L507 192L520 183L524 185L535 183L541 177L543 172L549 169L562 165L567 165L575 161L592 157L611 148L609 140L612 133L617 129L635 123L641 122L651 117L662 116L664 118L664 -24ZM346 145L349 147L346 146L347 148L356 149L354 146L351 147L350 144L348 142L346 142L348 143L346 145ZM347 139L350 140L350 138L349 137L347 139ZM385 120L388 123L392 124L394 126L393 122L390 123L385 120ZM387 119L391 122L389 117L387 117L389 118L387 119ZM402 155L404 155L404 151L402 155ZM405 191L408 189L405 191ZM405 184L407 186L407 182L405 184ZM607 223L614 225L607 223ZM634 216L643 221L652 220L661 216L651 213L646 215L639 212L634 216Z"/>
+  <clipPath id="landclip-aksum-first-coins"><use href="#land-aksum-first-coins"/></clipPath>
+  <path id="hl-aksum-first-coins-4" d="M365 166L378 171L383 183L399 193L400 200L395 200L389 203L389 206L379 207L376 210L325 210L313 204L310 197L307 197L309 193L304 180L308 169L318 160L317 157L321 159L325 153L329 154L339 149L342 157L343 157L344 150L347 150L354 163L362 161L365 164ZM407 150L405 150L408 126L401 117L401 113L404 113L413 105L413 101L418 102L424 99L431 108L430 111L434 118L432 120L432 133L436 137L433 147L434 159L408 160Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-aksum-first-coins)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-aksum-first-coins)"/>
+  <use href="#land-aksum-first-coins" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-aksum-first-coins" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-aksum-first-coins" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-aksum-first-coins)"><path d="M215 1L213 1L215 2L213 11L215 11L224 57L228 63L231 73L237 81L239 88L246 92L251 102L262 110L263 121L254 128L234 128L230 134L233 144L221 143L215 151L187 157L187 154L177 153L170 149L165 140L165 134L162 131L164 126L161 121L159 102L157 102L151 41L150 41L150 31L148 31L149 19L147 19L146 4L144 4L148 -4L148 -17L145 -24L216 -24L215 -1Z" fill="rgb(158,187,194)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M586 151L581 154L579 161L555 169L531 166L527 163L509 160L510 157L494 154L489 154L487 160L484 161L446 169L441 166L440 159L456 159L459 156L473 153L474 150L480 150L485 146L489 136L492 137L522 130L554 128L565 126L573 127L586 124L603 126L605 128L603 134L590 144L586 150Z" fill="rgb(139,176,180)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M451 127L460 137L460 141L463 140L468 143L477 143L480 140L487 140L485 146L480 150L474 150L473 153L459 156L456 159L408 160L407 150L405 150L408 126L401 117L401 113L404 113L413 105L413 101L418 102L424 99L431 108L430 111L433 114L433 118L436 121L440 120L440 123L451 126Z" fill="rgb(173,190,140)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M462 166L473 166L476 173L480 174L481 190L478 193L479 197L471 199L456 211L429 214L422 213L422 209L417 204L418 190L413 184L410 160L440 159L441 166L446 169L460 166ZM431 82L431 83L428 83L431 81Z" fill="rgb(215,171,137)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-aksum-first-coins-4" fill="rgb(178,144,201)" stroke="none"/>
+       <use href="#hl-aksum-first-coins-4" fill="url(#hatch-aksum-first-coins)" stroke="none"/>
+       <use href="#hl-aksum-first-coins-4" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-aksum-first-coins-4" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-aksum-first-coins" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="320.0" y="139.0" class="lbl hl">악숨 왕국</text><text x="195.6" y="98.3" class="lbl">쿠시 왕국</text><text x="542.8" y="148.7" class="lbl">하드라마우트</text><text x="446.3" y="190.7" class="lbl">힘야르 왕국</text><text x="431.3" y="140.9" class="lbl">사바인</text>
+  <g transform="translate(320.0 181.0)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-aksum-first-coins)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M26 22 L74 22 C80 22 80 34 74 34 L74 78 C74 84 68 86 64 84 L24 84 C18 84 18 72 24 72 L26 72 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M26 22 C20 22 20 34 26 34" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 40 L66 40 M34 48 L66 48 M34 56 L60 56 M34 64 L54 64" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="62" cy="74" r="8" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/><path d="M58 80 L56 90 L62 86 L66 90 L66 80" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-aksum-first-coins)"/>
+  <rect width="640" height="360" fill="url(#vignette-aksum-first-coins)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M26 22 L74 22 C80 22 80 34 74 34 L74 78 C74 84 68 86 64 84 L24 84 C18 84 18 72 24 72 L26 72 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M26 22 C20 22 20 34 26 34" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 40 L66 40 M34 48 L66 48 M34 56 L60 56 M34 64 L54 64" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="62" cy="74" r="8" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/><path d="M58 80 L56 90 L62 86 L66 90 L66 80" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">체제 전환</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">악숨의 첫 화폐 발행</text>
+  </g>
+  <text x="320" y="284" class="year">서기 270년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

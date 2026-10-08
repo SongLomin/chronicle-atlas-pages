@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="탕왕의 하 정벌과 상나라 건국">
+<defs>
+  <clipPath id="frame-tang-founds-shang"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-tang-founds-shang" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-tang-founds-shang" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-tang-founds-shang" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="193" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-tang-founds-shang" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-tang-founds-shang"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-tang-founds-shang" d="M-24 -24L-24 384L415 384L416 382L416 383L422 384L423 383L421 381L420 383L419 380L423 376L425 379L426 378L426 381L427 379L427 381L429 381L425 374L428 374L427 370L429 368L426 367L423 369L418 365L425 368L429 362L434 360L432 359L429 361L427 359L429 358L431 359L431 356L428 356L427 353L428 352L430 354L429 351L431 353L432 351L431 354L433 355L434 352L436 352L432 357L437 355L436 350L439 349L438 348L440 348L439 345L443 344L441 343L438 343L439 341L444 343L444 340L447 338L446 336L447 332L448 333L451 329L445 325L453 327L455 322L454 321L456 319L458 319L457 322L459 324L461 321L465 321L462 313L458 313L459 312L456 309L460 312L465 312L465 310L462 308L466 308L466 306L463 306L465 304L461 304L461 303L464 300L466 302L468 298L468 303L470 302L471 294L468 294L468 296L466 295L462 298L461 295L466 294L474 288L466 286L461 279L458 278L451 282L449 281L447 283L449 284L446 283L448 280L446 277L443 277L442 280L438 281L440 279L442 280L444 277L450 279L453 273L463 268L471 266L466 258L456 250L448 247L450 246L449 243L444 242L439 245L435 244L431 240L431 238L428 239L429 236L428 235L432 236L435 242L437 244L447 241L450 242L453 247L458 245L466 249L470 249L468 244L461 240L460 234L450 228L451 221L444 207L440 192L429 188L425 183L420 183L420 177L423 175L429 164L433 163L433 161L435 161L437 157L440 155L438 155L437 150L440 151L441 149L441 154L448 152L447 148L448 147L449 144L451 146L453 142L450 141L449 143L449 141L454 142L461 139L462 136L464 136L462 137L465 138L465 136L471 134L470 132L472 133L472 134L474 132L476 134L475 136L477 136L479 135L479 134L481 134L481 131L479 132L480 129L483 128L481 125L484 123L475 123L474 119L471 122L465 121L466 122L464 122L460 118L456 119L456 116L448 113L439 116L440 118L432 124L433 126L431 129L419 128L416 125L416 119L418 115L421 116L416 107L412 106L408 108L400 106L393 100L390 95L393 86L394 86L393 83L399 81L404 85L408 82L414 81L416 81L415 83L422 77L422 72L421 72L427 65L444 57L446 51L450 46L454 45L453 43L454 43L457 40L467 42L469 38L469 42L474 45L474 48L477 50L468 62L469 62L462 67L463 71L457 73L461 74L463 77L470 76L464 80L465 84L455 87L456 92L458 91L466 89L464 87L466 85L469 87L468 85L472 84L477 78L490 70L494 70L494 67L497 66L497 69L500 67L502 64L504 67L510 66L513 64L515 60L517 62L515 62L514 64L518 67L519 72L521 71L521 67L528 73L530 72L531 74L534 72L532 76L534 77L534 81L531 82L532 84L529 90L531 93L534 91L538 95L535 93L528 94L528 96L526 95L526 98L524 101L524 103L526 104L520 106L531 107L531 109L528 108L529 110L526 111L529 112L531 111L530 113L532 114L534 113L534 111L535 112L536 113L533 114L532 117L536 114L537 115L538 111L540 111L537 108L541 109L543 113L544 113L544 111L545 112L546 115L548 113L552 112L555 114L557 113L557 116L558 118L556 115L554 115L555 122L560 126L557 126L556 128L560 128L558 131L561 130L561 132L559 132L561 134L563 132L560 135L560 138L559 133L557 132L556 134L553 131L555 134L554 133L553 136L552 132L551 132L552 134L551 137L549 137L550 133L547 138L548 140L549 139L550 142L551 138L552 141L553 138L553 145L556 144L553 145L555 151L553 152L555 152L557 155L560 153L554 155L555 157L560 157L557 158L559 160L556 159L553 163L557 165L553 165L553 169L550 172L553 175L552 177L551 174L549 174L551 177L550 179L552 178L551 182L554 182L555 179L556 181L551 183L556 185L551 184L553 186L551 186L550 183L549 185L551 188L554 187L553 192L555 193L558 186L561 190L563 186L567 182L569 184L565 187L569 189L571 187L569 186L572 186L569 181L572 180L574 186L574 184L576 183L577 181L574 181L573 178L579 178L582 175L582 179L587 178L589 181L590 176L588 177L589 175L593 176L592 172L595 175L601 175L606 169L606 165L607 166L610 154L609 153L607 155L606 154L607 131L600 117L592 106L586 92L585 92L581 89L576 83L570 81L570 78L571 78L569 77L572 76L573 78L572 68L578 65L581 61L587 62L593 57L592 55L600 51L603 45L605 46L609 42L612 42L614 29L611 27L612 23L619 12L625 8L625 6L630 7L633 1L629 -2L632 -3L632 -2L635 -2L632 -2L633 -1L638 -2L639 0L640 -5L644 -8L643 -9L646 -11L650 -19L653 -18L655 -19L651 -13L652 -12L660 -18L659 -8L660 -7L661 -9L664 -7L664 -24ZM407 87L408 88L410 84L409 86L407 85L407 87ZM430 237L433 241L432 237L430 237ZM455 324L456 326L458 325L458 323L455 324ZM456 247L464 253L469 255L471 254L470 252L460 247L456 247ZM458 77L460 75L459 77L461 77L461 75L459 75L458 77ZM464 255L467 257L464 255ZM471 282L472 285L477 287L477 284L471 282ZM472 291L475 292L473 290L472 291ZM473 279L475 280L476 279L473 279ZM476 276L479 277L478 275L476 276ZM477 287L479 289L479 286L477 287ZM481 79L484 80L481 79ZM523 74L525 72L523 74ZM546 190L551 190L551 187L549 187L546 190ZM547 215L549 217L555 216L560 214L562 211L559 209L553 210L547 215ZM550 142L551 145L552 146L550 142ZM551 121L552 123L555 121L554 120L551 121ZM551 115L551 118L554 118L554 115L552 113L551 115ZM574 364L574 366L577 365L578 361L579 362L578 359L586 354L585 350L582 355L579 354L580 356L576 359L574 364ZM576 185L577 187L577 184L576 185ZM578 180L578 183L582 184L582 181L579 181L580 179L578 180ZM590 180L592 181L591 184L593 183L594 177L592 178L593 180L590 180ZM590 339L592 340L594 338L590 339ZM592 230L595 230L595 229L597 229L595 225L593 226L592 230ZM597 331L598 334L599 331L598 329L597 331ZM599 222L600 225L602 221L601 221L601 218L599 222ZM602 322L606 324L612 317L602 322ZM602 197L604 196L605 193L604 192L603 192L602 197ZM602 323L603 325L605 325L602 323ZM603 191L606 192L607 184L605 185L603 191ZM605 217L608 216L609 212L605 217ZM609 216L611 219L612 218L613 220L616 221L617 224L613 224L614 222L611 219L611 223L615 227L612 230L619 226L621 227L620 230L624 228L623 224L619 224L621 222L620 219L622 217L625 219L625 223L628 226L629 228L625 229L629 229L627 235L623 240L620 241L621 247L620 247L623 252L621 256L619 255L621 259L625 259L628 261L629 258L627 253L629 249L631 249L631 252L628 252L632 257L630 264L638 258L636 256L637 255L642 256L646 236L649 232L648 231L655 222L652 222L654 219L650 218L652 215L645 215L645 213L646 214L649 211L648 207L645 206L642 209L637 208L635 203L636 200L634 202L631 201L626 202L625 205L622 206L624 207L624 208L622 209L621 207L618 211L615 209L615 211L613 211L614 215L611 212L610 213L609 216ZM611 204L612 206L614 205L612 202L611 204ZM611 250L612 250L613 247L611 250ZM616 238L618 238L621 235L620 231L617 231L617 236L618 236L616 238ZM621 233L624 235L626 232L621 233ZM624 277L626 281L629 277L626 275L624 277ZM633 275L633 278L635 277L637 268L633 275ZM633 197L634 201L636 198L640 201L643 198L643 200L649 198L650 199L650 200L655 202L654 204L657 203L658 194L659 192L663 192L664 195L664 171L651 184L646 185L643 190L639 191L641 190L639 190L639 191L635 190L636 191L634 191L633 197Z"/>
+  <clipPath id="landclip-tang-founds-shang"><use href="#land-tang-founds-shang"/></clipPath>
+  <path id="hl-tang-founds-shang-0" d="M369 114L367 108L364 108L363 106L364 103L355 87L345 87L333 98L330 108L332 108L325 122L322 135L313 148L281 164L269 166L265 169L263 167L254 176L268 177L273 174L298 171L332 173L341 177L341 184L346 187L347 191L352 194L362 193L370 183L381 174L381 170L385 167L393 153L404 142L407 135L404 131L377 120L378 119L372 117L371 114Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-tang-founds-shang)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-tang-founds-shang)"/>
+  <use href="#land-tang-founds-shang" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-tang-founds-shang" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-tang-founds-shang" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-tang-founds-shang)"><use href="#hl-tang-founds-shang-0" fill="rgb(113,195,199)" stroke="none"/>
+       <use href="#hl-tang-founds-shang-0" fill="url(#hatch-tang-founds-shang)" stroke="none"/>
+       <use href="#hl-tang-founds-shang-0" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-tang-founds-shang-0" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-tang-founds-shang" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="355.5" y="147.5" class="lbl hl">상나라</text>
+  <g transform="translate(320.0 182.7)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-tang-founds-shang)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-tang-founds-shang)"/>
+  <rect width="640" height="360" fill="url(#vignette-tang-founds-shang)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">건국</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:19px">탕왕의 하 정벌과 상나라 건국</text>
+  </g>
+  <text x="320" y="284" class="year">기원전 1600년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

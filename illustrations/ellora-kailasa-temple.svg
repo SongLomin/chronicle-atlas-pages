@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="엘로라 카일라사 사원의 조성">
+<defs>
+  <clipPath id="frame-ellora-kailasa-temple"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-ellora-kailasa-temple" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-ellora-kailasa-temple" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-ellora-kailasa-temple" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="248" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-ellora-kailasa-temple" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-ellora-kailasa-temple"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-ellora-kailasa-temple" d="M-24 -24L-24 166L-19 156L-10 150L0 132L0 127L-1 125L-7 125L-24 102L-24 56L-21 56L-16 60L-8 58L1 61L9 60L13 62L12 60L15 59L17 63L33 68L36 63L41 65L40 69L43 67L47 67L46 65L48 64L51 65L51 67L53 67L52 65L55 63L76 65L76 62L78 61L88 61L86 59L88 59L90 59L89 59L89 61L96 64L99 63L101 65L102 62L111 62L116 60L121 61L134 58L139 60L139 58L136 56L131 58L133 55L136 55L140 57L140 61L144 65L142 73L149 73L155 75L153 77L155 78L153 78L155 83L157 84L155 85L157 90L161 90L159 92L161 93L159 94L162 95L163 93L163 96L165 97L164 95L167 96L167 94L171 97L171 93L172 96L172 98L173 99L174 94L174 97L176 99L173 101L177 101L179 98L187 95L179 101L179 103L180 103L179 105L183 107L182 109L188 114L195 118L206 120L209 118L215 116L215 115L220 116L220 113L222 112L223 115L220 117L216 125L211 125L208 128L206 126L204 129L202 127L201 129L196 131L195 128L193 128L193 126L190 131L213 156L227 166L236 165L256 155L260 146L257 142L254 142L254 140L256 141L255 139L257 141L257 139L254 139L256 137L257 138L260 135L260 132L257 131L261 131L262 129L262 131L263 132L273 131L273 132L269 134L266 133L264 138L265 139L269 137L266 141L265 145L277 143L271 145L266 150L269 149L265 151L269 155L267 157L271 157L271 159L270 159L272 160L271 163L272 163L273 165L267 185L268 187L269 187L269 192L272 192L269 193L270 196L276 199L270 197L270 205L271 206L274 200L274 204L276 204L272 206L274 207L274 210L273 208L271 210L275 216L273 214L273 218L276 220L276 222L273 220L273 221L275 225L277 234L279 235L277 236L282 256L281 257L282 258L281 258L288 275L290 278L292 277L290 278L290 280L293 280L291 282L295 283L291 282L293 284L295 288L294 290L298 295L300 294L297 296L301 297L302 300L302 301L303 300L304 303L303 301L304 306L306 307L304 308L306 312L309 320L310 319L311 320L309 321L310 326L312 337L315 337L313 338L320 355L324 356L323 358L332 369L337 384L417 384L417 370L414 371L417 369L416 360L421 350L419 351L424 344L428 327L422 321L422 319L423 321L423 319L427 325L423 308L421 308L424 305L425 301L422 289L426 276L434 272L437 272L437 276L439 269L439 273L442 274L447 262L450 261L457 263L469 257L470 250L469 249L469 251L467 249L470 245L488 235L489 233L488 232L490 232L492 228L506 219L519 203L519 201L520 201L529 194L537 189L532 191L533 189L530 189L527 193L530 187L534 184L537 185L537 188L534 188L535 189L553 183L549 179L555 182L556 178L561 175L560 175L563 173L561 174L561 171L567 166L564 165L566 164L563 158L565 152L571 147L584 143L591 135L590 133L587 132L585 128L588 132L591 133L590 138L593 147L593 142L594 146L594 144L596 146L597 146L598 138L598 147L599 147L601 133L600 138L603 134L603 147L604 144L605 145L605 142L606 145L610 146L606 138L609 139L609 134L613 145L614 144L616 138L617 144L619 138L618 131L619 138L621 130L619 141L620 144L623 142L622 139L623 141L627 140L625 135L626 135L626 128L629 126L626 131L627 136L628 138L631 134L629 137L630 137L634 133L630 140L632 139L631 141L634 141L638 133L637 131L638 135L642 129L641 125L639 124L638 126L639 121L637 120L640 117L638 113L641 113L642 109L634 104L641 106L641 102L639 101L642 101L642 103L644 102L642 104L643 109L642 113L646 122L650 124L650 122L652 125L654 125L655 123L654 121L657 121L660 117L660 120L664 125L664 -24ZM439 274L441 275L439 274ZM588 145L590 146L590 140L588 145ZM600 141L601 142L601 139L600 141ZM609 139L611 143L609 139ZM636 140L636 141L637 137L636 140ZM637 139L639 138L638 136L637 139ZM638 106L641 108L638 106ZM639 120L640 121L641 119L643 119L640 117L639 120ZM639 136L640 136L640 137L642 134L639 136ZM640 140L641 138L640 140ZM640 115L643 116L641 114L640 115Z"/>
+  <clipPath id="landclip-ellora-kailasa-temple"><use href="#land-ellora-kailasa-temple"/></clipPath>
+  <path id="hl-ellora-kailasa-temple-7" d="M357 338L327 365L311 338L309 322L305 315L303 302L295 292L294 286L291 284L290 277L286 274L280 256L281 246L274 225L272 197L269 196L270 190L267 186L271 174L272 161L265 154L270 144L285 141L306 133L347 127L363 127L379 121L415 117L419 121L419 124L426 127L430 133L447 137L444 146L445 157L440 161L442 169L438 176L434 197L431 198L430 207L428 207L427 218L428 218L428 227L430 230L430 234L428 238L421 239L416 246L415 253L417 253L420 279L412 279L401 283L397 289L405 300L399 306L367 303L357 338Z"/>
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-ellora-kailasa-temple)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-ellora-kailasa-temple)"/>
+  <use href="#land-ellora-kailasa-temple" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-ellora-kailasa-temple" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-ellora-kailasa-temple" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-ellora-kailasa-temple)"><path d="M416 359L424 346L428 328L422 289L425 280L412 279L401 283L397 289L405 300L399 306L367 303L357 338L375 360Z" fill="rgb(226,180,144)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M418 70L418 86L419 86L414 117L379 121L363 127L347 127L306 133L285 141L270 144L265 143L265 131L262 131L261 138L256 140L257 143L260 143L258 156L241 163L240 166L227 167L218 163L210 154L210 151L202 143L198 143L190 133L191 127L195 127L197 130L200 130L202 127L209 127L217 122L220 117L213 117L207 121L196 119L187 115L182 106L177 105L178 102L188 93L197 65L205 50L212 43L222 41L232 35L244 16L282 7L298 5L297 19L306 16L314 23L320 19L355 46L367 49L384 60L403 66L418 69Z" fill="rgb(163,179,127)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M619 54L620 57L630 61L664 63L664 27L648 30L643 28L638 35L622 47Z" fill="rgb(164,179,126)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M320 -24L326 -10L299 1L297 19L306 16L314 23L320 19L355 46L367 49L384 60L403 66L427 71L439 77L447 76L469 57L487 62L495 69L522 84L535 89L549 82L555 61L551 43L533 19L506 12L494 13L469 5L422 -22L424 -24Z" fill="rgb(199,188,205)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 114L655 124L649 125L647 137L642 138L643 135L638 135L634 143L627 137L626 141L612 144L609 140L611 131L608 128L607 111L604 109L605 105L601 102L604 87L590 80L591 73L600 65L606 65L608 62L591 50L593 41L596 40L596 32L599 32L603 38L611 37L612 44L615 46L627 43L622 47L619 54L620 57L630 61L664 64Z" fill="rgb(183,211,178)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 -24L664 12L663 10L663 -1L654 -2L649 1L646 -2L637 -2L636 -7L633 -8L628 -8L621 -4L605 -4L605 -1L599 -2L592 2L582 4L574 4L563 -2L553 1L550 -4L545 1L540 -8L531 -7L526 -10L529 -14L519 -14L518 -18L512 -19L510 -24Z" fill="rgb(204,159,155)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M220 -24L215 -13L196 2L181 7L172 16L169 31L170 31L172 44L174 47L175 56L165 71L161 86L157 90L155 90L156 83L155 83L154 76L142 73L143 64L136 56L129 61L104 62L104 65L93 64L92 61L79 61L77 64L57 64L55 67L49 65L46 68L39 68L38 65L27 67L23 64L16 64L17 61L-16 61L-24 56L-24 100L-21 101L-16 108L-16 111L-12 114L-12 117L-6 122L1 125L1 135L-8 150L-22 161L-24 168L-24 -24Z" fill="rgb(158,177,144)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><use href="#hl-ellora-kailasa-temple-7" fill="rgb(165,102,138)" stroke="none"/>
+       <use href="#hl-ellora-kailasa-temple-7" fill="url(#hatch-ellora-kailasa-temple)" stroke="none"/>
+       <use href="#hl-ellora-kailasa-temple-7" fill="none" stroke="#8f2a17" stroke-width="5" stroke-opacity="0.35" stroke-linejoin="round"/>
+       <use href="#hl-ellora-kailasa-temple-7" fill="none" stroke="#3b2412" stroke-width="1.8" stroke-linejoin="round"/></g>
+  <use href="#land-ellora-kailasa-temple" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="320.0" y="139.4" class="lbl hl">라슈트라쿠타 왕조</text><text x="293.3" y="75.6" class="lbl">구르자라 프라티하라 제국</text>
+  <g transform="translate(320.0 181.4)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-ellora-kailasa-temple)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-ellora-kailasa-temple)"/>
+  <rect width="640" height="360" fill="url(#vignette-ellora-kailasa-temple)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">문화·학문</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">엘로라 카일라사 사원의 조성</text>
+  </g>
+  <text x="320" y="284" class="year">서기 760년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>
