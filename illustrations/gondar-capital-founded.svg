@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="곤다르 천도와 파실 게비">
+<defs>
+  <clipPath id="frame-gondar-capital-founded"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-gondar-capital-founded" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-gondar-capital-founded" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-gondar-capital-founded" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="100" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-gondar-capital-founded" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-gondar-capital-founded"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-gondar-capital-founded" d="M-24 -24L-24 384L525 384L547 360L571 323L575 308L586 291L588 284L593 279L601 263L609 251L612 231L615 230L622 230L622 228L617 226L618 229L613 229L617 225L616 217L617 213L615 212L615 209L619 198L609 195L604 196L601 201L593 205L582 206L579 209L568 211L559 209L551 213L542 214L535 212L514 223L500 219L482 229L474 230L469 229L458 221L450 211L450 208L446 206L443 203L430 205L429 204L433 204L435 200L441 199L444 195L448 194L449 189L447 184L440 174L438 177L435 176L434 171L430 167L426 167L424 159L422 157L423 160L420 158L417 153L411 151L400 136L391 134L390 130L386 127L381 130L378 128L375 122L377 120L372 116L370 119L372 124L371 126L369 125L366 116L363 116L363 109L360 107L352 73L345 60L341 62L345 59L344 58L340 55L336 55L338 53L335 54L333 52L334 50L330 46L326 45L324 43L322 43L319 40L315 24L314 6L315 1L312 -14L315 -12L315 -9L317 -11L308 -24L355 -24L357 -19L355 -16L357 -12L363 -5L367 3L374 8L373 7L377 8L386 15L389 19L391 19L391 23L395 25L398 34L400 35L399 38L402 41L401 44L406 49L407 55L414 64L425 72L426 82L426 78L434 89L436 103L436 108L433 112L436 122L435 123L434 119L432 123L437 125L438 129L439 132L437 130L440 140L439 138L446 156L445 166L450 176L450 179L453 178L460 181L470 180L475 176L481 178L480 177L483 175L483 177L484 178L486 173L492 171L498 165L520 163L535 158L548 149L552 151L563 149L570 143L572 138L578 135L590 131L595 131L603 126L621 122L640 114L638 105L641 99L648 94L664 88L664 -24ZM373 111L377 113L373 112L374 114L384 115L382 112L378 113L378 109L375 108L374 107L376 109L373 111ZM375 105L377 105L377 104L376 103L375 105ZM413 85L416 89L420 89L422 92L420 87L417 89L413 85ZM415 85L418 88L416 83L415 83L417 84L415 85ZM430 121L431 121L432 117L430 121ZM433 157L435 155L433 157ZM433 150L435 152L435 148L433 150ZM636 189L643 191L636 189Z"/>
+  <clipPath id="landclip-gondar-capital-founded"><use href="#land-gondar-capital-founded"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-gondar-capital-founded)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-gondar-capital-founded)"/>
+  <use href="#land-gondar-capital-founded" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-gondar-capital-founded" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-gondar-capital-founded" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-gondar-capital-founded)"><path d="M517 384L540 354L551 337L550 327L544 323L535 320L524 319L510 323L477 351L432 370L415 384Z" fill="rgb(189,188,126)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M369 123L371 123L371 116L374 116L382 129L390 127L392 133L403 136L408 145L411 146L411 149L416 150L422 158L425 158L428 166L431 166L437 173L424 179L427 182L427 186L415 202L416 219L413 219L412 236L415 244L412 249L418 254L422 267L425 267L420 282L420 291L424 295L424 301L421 303L419 312L413 312L411 315L413 319L409 322L402 315L400 308L397 309L395 315L392 315L392 319L400 325L400 327L403 327L403 334L400 336L397 331L390 330L381 338L371 338L370 334L366 336L359 330L357 325L354 323L354 316L343 310L347 308L345 301L342 302L341 299L337 299L334 303L331 303L329 301L322 301L320 298L314 296L316 284L314 282L321 282L321 277L316 275L318 271L312 261L313 254L320 247L319 234L316 233L316 230L313 233L303 233L302 230L298 232L297 226L291 225L276 227L272 225L272 216L267 213L271 195L274 193L279 183L284 179L292 178L294 175L294 163L299 155L301 143L303 143L301 140L306 136L331 129L334 113L338 112L343 100L346 98L355 84L359 93L360 104L355 107L355 110L360 119L369 122Z" fill="rgb(175,213,189)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M430 -24L435 -13L443 -7L446 0L455 9L455 12L458 15L461 13L468 28L472 27L469 39L451 53L452 65L450 71L445 74L446 87L441 94L436 96L429 80L425 80L424 72L413 64L406 49L402 46L402 40L397 34L396 27L393 25L393 21L387 18L378 8L371 8L361 -4L356 -13L357 -24ZM455 233L455 229L451 226L445 213L442 212L443 205L447 205L454 212L456 217L463 226L469 229L485 227L485 232L480 237ZM449 179L449 175L445 170L445 163L453 165L456 169L456 175L464 176L475 173L478 168L488 168L489 173L484 178L457 180ZM369 122L360 119L355 110L355 107L359 104L362 104L363 112L369 120ZM317 34L323 42L325 42L322 46L315 46L312 43Z" fill="rgb(158,190,164)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M310 81L315 82L310 88L311 100L308 103L302 122L299 126L301 143L299 155L294 163L294 175L292 178L284 179L279 183L274 193L271 195L267 215L213 219L207 216L199 216L190 210L140 215L104 209L103 196L101 196L102 172L110 160L110 150L107 142L101 135L99 93L190 96L194 81L191 75L232 72L271 59L274 61L277 68L283 74L287 74L293 81L309 81Z" fill="rgb(176,175,113)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M104 209L103 196L101 196L102 172L110 160L110 150L107 142L101 135L99 93L62 98L33 112L5 112L-2 114L-4 119L-5 119L-9 145L-10 145L-11 152L-9 152L-11 175L-5 180L-5 189L-4 193L0 195L-2 205L6 210L4 220L20 220L44 212L93 208L102 209Z" fill="rgb(140,202,189)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M498 68L501 74L505 77L504 80L508 84L512 96L515 97L515 101L518 101L517 104L518 109L523 110L521 114L525 120L528 135L517 152L507 160L509 163L499 165L492 172L489 172L488 168L478 168L475 173L464 176L456 175L456 169L453 165L445 163L446 156L440 145L439 130L437 126L434 125L433 110L436 96L441 94L446 87L445 74L450 71L452 65L451 53L469 39L471 33L473 33L474 39L479 42L483 50L491 56L490 59L498 66Z" fill="rgb(223,203,153)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M4 219L6 210L-2 205L0 195L-4 193L-5 189L-5 180L-11 175L-9 152L-11 152L-10 145L-9 145L-5 119L-24 118L-24 218L2 219Z" fill="rgb(224,194,199)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-gondar-capital-founded" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="206.9" y="156.6" class="lbl">푼지 술탄국</text><text x="49.6" y="159.7" class="lbl">다르푸르 술탄국</text><text x="479.7" y="119.9" class="lbl">카심 왕조</text>
+  <g transform="translate(320.0 180.9)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-gondar-capital-founded)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M12 86 L12 50 L22 42 L32 50 L32 86 Z M36 86 L36 30 L50 18 L64 30 L64 86 Z M68 86 L68 46 L78 38 L88 46 L88 86 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M44 86 L44 70 C44 62 56 62 56 70 L56 86" fill="#6e4b2a" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M44 40 L48 40 L48 48 L44 48 Z M52 40 L56 40 L56 48 L52 48 Z M18 56 L26 56 M74 54 L82 54" stroke="#3b2412" stroke-width="2" fill="#3b2412"/>
+    <path d="M50 18 L50 8 L60 11 L50 14" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-gondar-capital-founded)"/>
+  <rect width="640" height="360" fill="url(#vignette-gondar-capital-founded)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M12 86 L12 50 L22 42 L32 50 L32 86 Z M36 86 L36 30 L50 18 L64 30 L64 86 Z M68 86 L68 46 L78 38 L88 46 L88 86 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M44 86 L44 70 C44 62 56 62 56 70 L56 86" fill="#6e4b2a" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M44 40 L48 40 L48 48 L44 48 Z M52 40 L56 40 L56 48 L52 48 Z M18 56 L26 56 M74 54 L82 54" stroke="#3b2412" stroke-width="2" fill="#3b2412"/>
+    <path d="M50 18 L50 8 L60 11 L50 14" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">도시·건축</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">곤다르 천도와 파실 게비</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1636년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

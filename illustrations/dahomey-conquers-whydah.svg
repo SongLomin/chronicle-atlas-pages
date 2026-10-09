@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="다호메이의 위다 정복">
+<defs>
+  <clipPath id="frame-dahomey-conquers-whydah"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-dahomey-conquers-whydah" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-dahomey-conquers-whydah" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-dahomey-conquers-whydah" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="191" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-dahomey-conquers-whydah" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-dahomey-conquers-whydah"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-dahomey-conquers-whydah" d="M-24 -24L-24 112L-22 112L-21 116L-20 114L-20 118L-18 116L-19 117L-16 118L-20 120L-19 122L-13 125L-18 126L-17 132L-15 131L-16 129L-14 129L-14 131L-10 129L-11 131L-10 131L-15 133L-14 136L-19 133L-17 140L-12 138L-9 146L-12 146L-9 148L-8 148L-7 150L-4 151L-1 149L-3 152L-1 154L5 153L0 154L-2 156L1 158L-2 158L19 166L23 170L23 173L37 179L36 182L46 185L73 210L104 225L109 225L122 218L145 210L151 208L164 208L159 206L159 207L155 207L156 205L163 206L166 208L186 205L182 204L168 207L171 204L170 205L173 204L186 205L188 203L191 205L190 202L192 205L186 205L201 208L202 203L204 202L203 206L205 207L211 207L208 209L203 207L202 208L222 212L228 216L230 216L238 210L256 206L279 194L295 193L298 187L305 184L325 181L349 180L349 176L351 175L351 177L357 175L359 175L349 179L371 180L379 185L385 194L391 190L386 193L387 197L390 197L392 195L391 197L394 196L395 198L389 198L389 199L394 202L398 199L396 200L397 202L392 203L392 207L395 207L393 208L395 214L404 225L405 225L406 224L408 226L408 224L408 227L411 226L411 222L412 224L414 223L412 226L419 225L418 222L420 225L421 225L421 221L422 223L423 219L422 225L425 225L422 214L424 215L425 224L428 224L429 224L426 218L428 219L428 217L429 219L429 223L432 221L430 216L435 222L436 221L435 219L439 220L440 217L440 221L444 222L457 221L458 218L454 211L458 215L460 214L461 217L463 214L462 221L466 221L465 216L468 221L468 219L470 221L469 219L471 220L472 230L477 234L480 232L479 234L482 235L483 235L482 232L484 233L483 230L485 232L489 230L486 234L489 234L487 235L489 237L486 235L486 238L484 237L486 242L491 241L487 243L493 249L494 254L489 270L490 278L486 285L489 286L486 286L480 295L485 298L488 296L491 297L490 300L489 298L487 298L485 300L486 311L485 308L483 308L485 307L484 306L479 307L479 309L483 315L490 317L495 317L489 318L490 321L488 318L485 319L484 317L483 319L482 316L480 317L480 313L479 328L475 334L473 340L471 336L469 339L466 334L469 341L471 342L470 343L473 347L473 350L477 352L480 351L480 349L478 354L479 356L483 353L485 357L479 358L478 355L472 348L477 356L478 362L483 362L484 364L484 367L483 363L478 362L485 369L486 373L488 375L488 374L489 376L492 374L494 378L495 376L497 378L496 376L498 378L494 379L491 375L488 375L497 384L664 384L664 -24ZM416 316L419 320L423 316L423 314L420 312L416 316ZM431 224L434 224L436 222L433 221L431 224ZM436 285L437 287L439 284L436 285ZM436 223L441 222L436 223ZM460 247L466 250L471 241L471 238L466 238L463 245L461 245L460 247ZM471 336L473 337L473 334L471 336Z"/>
+  <clipPath id="landclip-dahomey-conquers-whydah"><use href="#land-dahomey-conquers-whydah"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-dahomey-conquers-whydah)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-dahomey-conquers-whydah)"/>
+  <use href="#land-dahomey-conquers-whydah" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-dahomey-conquers-whydah" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-dahomey-conquers-whydah" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-dahomey-conquers-whydah)"><path d="M440 57L441 64L448 71L459 74L472 75L479 72L484 68L487 58L488 47L485 40L480 34L473 31L462 31L454 33L447 38L442 45L440 54Z" fill="rgb(185,164,179)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M349 175L349 177L351 175L351 177L359 175L349 179L365 179L374 182L382 188L385 194L391 190L386 193L386 195L388 198L392 195L391 197L395 197L388 198L392 202L398 199L396 200L397 202L392 203L394 204L407 204L417 200L424 195L427 186L427 174L421 162L413 155L403 151L386 151L370 155L356 163L349 173Z" fill="rgb(139,189,186)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M245 106L246 114L250 119L262 124L276 123L280 120L282 114L283 105L281 100L274 93L266 90L260 89L253 92L247 97L245 104Z" fill="rgb(205,195,131)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M210 48L211 57L218 65L232 70L257 72L267 71L276 66L282 55L283 44L280 29L274 21L264 15L249 12L233 14L220 21L213 32L210 45Z" fill="rgb(227,179,171)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M588 -12L624 18L624 21L639 34L640 46L650 53L650 56L658 63L661 63L664 70L664 86L662 86L664 89L657 89L652 99L638 112L631 115L622 114L620 117L617 114L588 115L572 112L567 99L569 94L567 89L562 89L559 84L545 76L540 78L540 73L537 72L530 58L522 50L516 39L514 30L509 24L516 -7L524 -20L533 -24L567 -24L579 -17L583 -18L586 -12Z" fill="rgb(184,163,177)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 1L604 1L624 18L624 21L639 34L640 46L650 53L650 56L658 63L661 63L664 70Z" fill="rgb(224,194,199)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M250 208L247 208L247 203L250 203L250 207ZM270 193L273 193L275 197L270 198L270 194Z" fill="rgb(226,178,166)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M381 144L383 145L378 147L375 155L362 158L362 163L359 165L358 171L360 171L358 175L352 177L352 180L349 181L333 181L334 170L338 170L338 163L341 157L339 155L341 131L356 127L381 127L385 132L389 131L388 138L381 143Z" fill="rgb(203,156,142)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M168 20L158 30L152 33L141 30L134 24L134 20L137 17L160 8L160 5L168 2L169 -2L177 -5L177 -8L187 -10L190 -5L187 2L181 7L182 10L179 10L178 15L170 20Z" fill="rgb(159,172,183)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-24 92L-6 96L4 96L11 94L18 87L22 73L21 67L18 59L10 51L-8 49L-15 50L-24 55Z" fill="rgb(229,190,186)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M196 204L204 204L204 208L193 208L196 205Z" fill="rgb(165,173,190)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M413 315L413 313L421 312L421 318L415 320ZM436 284L436 288L433 288L434 284ZM462 238L469 237L470 242L465 251L457 249L457 245L461 244Z" fill="rgb(165,190,146)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M220 207L231 210L233 217L225 217L218 211ZM242 205L247 203L247 208L234 212L234 208L239 204ZM254 207L250 207L250 201L254 201L254 205ZM260 205L257 205L257 200L260 200L260 204ZM267 193L268 193L270 200L263 201L263 195Z" fill="rgb(235,185,132)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M249 151L259 150L260 154L268 157L270 161L260 164L259 170L254 171L255 177L252 178L247 191L242 191L236 195L239 205L233 210L220 207L218 211L215 205L212 205L212 198L207 195L206 187L202 184L201 171L204 167L204 161L209 155L210 147L217 141L217 137L222 140L230 140L231 137L235 137L233 140L238 143L238 145L241 148L244 147L246 153L249 153Z" fill="rgb(198,204,212)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M231 215L231 210L234 208L236 214L233 215ZM218 212L209 211L209 207L215 205L218 211ZM250 207L250 208L247 208L247 203L250 203ZM257 207L254 207L254 201L257 201L257 205ZM263 200L265 203L260 204L259 197L263 197Z" fill="rgb(217,156,137)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M308 168L309 176L313 183L331 180L335 175L337 166L335 150L328 145L319 145L312 151L308 162Z" fill="rgb(203,206,158)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-dahomey-conquers-whydah" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="581.7" y="44.2" class="lbl">카넴-보르누 제국</text><text x="246.5" y="41.9" class="lbl">모시 왕국</text><text x="397.0" y="170.7" class="lbl">베냉 왕국</text><text x="228.0" y="170.9" class="lbl">아샨티 왕국</text><text x="464.2" y="52.7" class="lbl">카노 술탄국</text><text x="358.2" y="142.1" class="lbl">오요 제국</text><text x="263.2" y="106.2" class="lbl">다그봉 왕국</text>
+  <g transform="translate(320.0 180.4)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-dahomey-conquers-whydah)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-dahomey-conquers-whydah)"/>
+  <rect width="640" height="360" fill="url(#vignette-dahomey-conquers-whydah)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">정복</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">다호메이의 위다 정복</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1727년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

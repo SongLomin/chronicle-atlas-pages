@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="브라질 공화국 선포">
+<defs>
+  <clipPath id="frame-brazil-republic-1889"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-brazil-republic-1889" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-brazil-republic-1889" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-brazil-republic-1889" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="97" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-brazil-republic-1889" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-brazil-republic-1889"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-brazil-republic-1889" d="M-24 -24L-24 384L136 384L136 382L139 379L139 377L140 380L141 372L148 370L148 367L152 366L151 363L153 361L153 356L155 359L156 351L159 349L157 349L154 346L155 341L156 345L160 347L160 349L162 351L163 348L167 347L169 345L170 347L170 351L169 352L166 349L167 358L161 362L161 367L160 366L157 366L156 375L153 377L152 376L152 379L151 378L146 383L139 384L147 384L158 376L166 365L175 351L185 327L195 315L205 308L207 305L205 305L204 301L207 305L209 299L211 290L209 282L211 279L209 276L212 274L210 273L210 265L208 263L210 258L206 255L206 249L207 253L210 252L211 245L206 245L210 244L210 243L211 244L215 238L208 236L207 233L212 236L213 231L215 232L215 230L215 233L219 231L218 233L218 235L224 226L221 226L223 226L230 220L242 212L244 209L255 203L254 201L255 200L257 202L254 201L257 203L260 202L261 200L258 201L260 199L266 197L275 199L275 194L282 192L283 189L292 188L294 187L289 185L290 181L297 179L297 180L300 181L307 178L312 181L304 182L320 180L321 179L319 175L323 173L324 174L322 179L324 180L344 180L345 176L347 175L345 174L345 170L352 164L366 158L364 148L366 141L370 133L374 132L378 125L380 121L378 121L378 119L381 120L385 109L390 106L392 101L391 86L393 77L397 70L400 68L403 64L402 53L409 25L405 0L407 -16L405 -10L405 -12L406 -13L405 -16L406 -17L403 -19L406 -17L407 -21L406 -24L404 -22L404 -24ZM208 255L210 257L212 252L208 255ZM211 289L214 284L213 280L211 282L211 289ZM215 235L217 236L217 233L215 235ZM224 226L233 218L226 223L224 226ZM274 200L278 202L279 198L277 196L274 200ZM296 184L297 185L302 184L299 182L296 184Z"/>
+  <clipPath id="landclip-brazil-republic-1889"><use href="#land-brazil-republic-1889"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-brazil-republic-1889)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-brazil-republic-1889)"/>
+  <use href="#land-brazil-republic-1889" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-brazil-republic-1889" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-brazil-republic-1889" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-brazil-republic-1889)"><path d="M90 384L84 375L71 371L65 362L62 363L61 366L56 366L56 358L51 352L44 349L41 343L23 348L19 351L15 378L17 378L14 384Z" fill="rgb(184,192,207)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M63 171L61 166L56 166L51 162L45 162L43 164L19 162L18 166L22 169L18 177L21 177L24 183L28 186L30 196L31 196L31 209L34 213L33 219L23 232L24 238L16 252L12 254L11 264L3 273L3 277L15 277L26 282L40 283L54 280L55 279L64 280L66 274L80 266L84 258L85 241L90 217L91 217L91 203L89 200L81 200L74 204L70 203L67 200L66 176L63 173Z" fill="rgb(215,189,126)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-24 -24L-24 35L8 36L6 47L8 51L8 55L22 65L25 75L22 94L15 102L14 109L18 112L18 115L15 116L14 125L20 138L19 162L43 164L45 162L51 162L56 166L61 166L63 173L66 176L67 200L74 204L81 200L89 200L91 203L91 217L90 217L85 241L100 241L102 251L103 251L103 257L104 257L102 273L83 282L62 298L58 307L51 312L38 331L31 336L23 348L41 343L44 349L51 352L56 358L56 366L61 366L62 363L65 362L71 371L84 375L90 384L149 384L163 369L174 351L180 333L184 330L187 322L204 309L209 286L212 286L213 280L208 280L211 274L208 273L209 267L206 264L207 258L210 257L210 254L207 252L212 238L208 236L211 236L211 233L217 235L223 229L221 226L230 219L238 216L245 207L256 204L261 199L272 200L271 203L276 203L277 197L274 196L285 189L290 189L289 181L296 181L294 186L299 186L298 181L301 180L307 180L307 183L316 183L319 180L342 180L344 176L343 171L346 170L346 167L362 162L364 154L364 145L367 140L368 135L377 128L382 112L390 105L390 79L394 72L400 66L400 50L406 38L407 17L403 6L406 -11L405 -24Z" fill="rgb(172,198,147)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-24 205L-12 214L-7 216L-5 219L17 226L20 232L23 232L33 219L34 213L31 209L31 196L30 196L28 186L24 183L21 177L18 177L22 169L18 166L20 138L14 125L15 116L18 115L18 112L14 109L15 102L22 94L25 75L22 65L8 55L8 51L6 47L8 36L-24 35Z" fill="rgb(233,192,179)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M64 280L66 274L80 266L84 258L85 241L100 241L102 251L103 251L103 257L104 257L102 273L83 282L62 298L58 307L51 312L38 331L31 336L19 351L15 378L17 378L14 384L-24 384L-24 205L-12 214L-7 216L-5 219L17 226L20 232L23 232L24 238L16 252L12 254L11 264L3 273L3 277L15 277L26 282L40 283L56 280L56 279Z" fill="rgb(214,169,137)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-brazil-republic-1889" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="52.8" y="244.3" class="lbl">파라과이</text>
+  <g transform="translate(320.0 178.3)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-brazil-republic-1889)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M44 90 L40 50 L60 50 L56 90 Z" fill="#8a5a2b" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="36" y="44" width="28" height="8" rx="2" fill="#c9b37e" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M50 42 C34 36 38 20 46 10 C46 20 54 22 56 16 C66 26 66 38 50 42 Z" fill="#f08a3a" stroke="#3b2412" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M50 40 C44 34 46 28 50 22 C52 30 58 32 50 40 Z" fill="#f6d05a"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-brazil-republic-1889)"/>
+  <rect width="640" height="360" fill="url(#vignette-brazil-republic-1889)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M44 90 L40 50 L60 50 L56 90 Z" fill="#8a5a2b" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="36" y="44" width="28" height="8" rx="2" fill="#c9b37e" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M50 42 C34 36 38 20 46 10 C46 20 54 22 56 16 C66 26 66 38 50 42 Z" fill="#f08a3a" stroke="#3b2412" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M50 40 C44 34 46 28 50 22 C52 30 58 32 50 40 Z" fill="#f6d05a"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">혁명</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">브라질 공화국 선포</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1889년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="브라질 미나스제라이스의 금 발견">
+<defs>
+  <clipPath id="frame-brazilian-gold-rush"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-brazilian-gold-rush" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-brazilian-gold-rush" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-brazilian-gold-rush" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="159" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-brazilian-gold-rush" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-brazilian-gold-rush"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-brazilian-gold-rush" d="M-24 -24L-24 384L191 384L198 374L209 367L211 364L209 363L208 360L211 364L213 358L215 349L213 340L215 338L213 335L216 332L214 331L214 324L212 321L214 316L210 313L210 307L211 311L214 310L215 302L210 303L214 302L214 301L215 302L219 296L212 294L211 291L217 293L218 292L216 290L217 290L217 288L219 290L220 288L219 291L224 289L222 290L222 293L229 284L225 283L227 284L234 277L247 269L249 266L260 260L259 258L260 257L262 259L259 258L262 260L265 259L266 257L263 258L265 256L271 254L280 256L280 251L285 250L286 248L287 249L288 246L297 245L299 244L295 242L296 238L302 235L302 237L306 238L313 235L318 237L310 239L326 237L327 235L325 231L329 229L330 231L328 235L330 236L351 237L351 233L354 231L351 230L352 226L358 221L373 214L371 204L373 197L377 189L381 188L386 181L387 177L385 177L385 175L388 176L392 165L397 161L399 156L398 141L400 132L404 125L408 123L411 119L409 108L416 79L412 54L415 37L413 43L412 41L414 41L412 37L414 36L411 34L414 36L413 29L411 31L413 25L415 26L415 23L418 21L416 20L419 15L417 15L415 12L416 11L418 14L420 9L421 12L424 12L423 18L428 17L442 -2L448 -15L445 -14L447 -15L445 -17L447 -16L449 -20L447 -16L448 -16L452 -21L449 -24L452 -22L454 -24ZM212 313L214 315L216 310L212 313ZM215 348L218 342L218 338L215 340L215 348ZM219 292L221 293L221 291L219 292ZM228 283L238 275L230 281L228 283ZM279 257L284 259L284 254L282 253L279 257ZM302 241L303 242L308 241L305 239L302 241ZM413 28L416 32L416 26L413 26L413 28ZM418 19L418 21L422 18L421 16L420 15L420 17L418 19Z"/>
+  <clipPath id="landclip-brazilian-gold-rush"><use href="#land-brazilian-gold-rush"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-brazilian-gold-rush)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-brazilian-gold-rush)"/>
+  <use href="#land-brazilian-gold-rush" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-brazilian-gold-rush" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-brazilian-gold-rush" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-brazilian-gold-rush)"><path d="M103 297L105 313L106 313L104 333L83 342L74 351L71 351L64 357L61 364L54 369L48 378L42 375L43 371L58 354L59 346L55 342L56 339L51 342L40 342L11 336L12 330L9 325L13 312L16 310L21 300L32 288L39 270L36 267L29 267L22 273L23 263L20 260L19 244L30 235L42 234L44 229L49 231L66 228L75 231L76 234L93 235L107 222L117 218L129 218L136 225L137 234L129 244L124 247L100 279L99 291L101 297Z" fill="rgb(198,160,166)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M452 -24L450 -19L445 -16L445 -10L442 -8L440 1L432 14L427 18L416 20L413 24L413 42L411 60L415 71L413 92L408 104L408 121L401 127L398 134L397 161L389 168L384 183L374 191L374 196L371 201L371 211L369 218L353 224L353 227L350 228L351 232L349 237L325 237L322 240L313 240L313 237L294 238L295 245L290 245L279 253L282 254L281 260L277 260L277 257L266 256L261 261L250 264L242 273L234 276L226 284L227 286L221 292L215 291L215 294L212 294L216 295L211 310L214 312L214 315L211 316L210 322L213 325L212 331L215 333L212 339L217 339L216 345L213 345L208 367L190 381L189 384L179 384L179 383L182 383L189 372L197 366L202 357L205 337L203 337L204 330L203 330L203 324L201 319L202 309L201 309L204 307L205 303L201 295L190 294L186 286L189 276L197 267L197 263L200 263L202 259L208 237L213 234L250 237L259 234L276 234L277 229L280 231L305 222L322 219L326 215L336 211L336 206L345 198L351 181L363 163L364 156L365 156L364 148L369 146L368 135L371 135L377 120L377 104L380 103L382 93L389 86L389 82L392 81L395 62L394 62L395 45L396 45L397 35L403 18L402 7L400 7L402 -10L412 -24Z" fill="rgb(165,190,146)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-24 384L-24 323L-15 322L1 312L12 295L15 288L18 286L17 284L23 273L29 267L36 267L39 270L32 288L21 300L16 310L13 312L9 325L12 330L5 384Z" fill="rgb(230,206,138)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-brazilian-gold-rush" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  
+  <g transform="translate(320.0 178.5)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-brazilian-gold-rush)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M10 64 L90 64 L78 82 L22 82 Z" fill="#8a5a2b" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 64 L50 10" stroke="#3b2412" stroke-width="3"/>
+    <path d="M52 14 C70 20 74 40 72 58 L52 58 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M48 20 C32 26 28 42 30 58 L48 58 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M50 10 L62 6 L50 3" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M6 90 C16 84 24 96 34 90 C44 84 52 96 62 90 C72 84 80 96 94 90" fill="none" stroke="#3f6e9a" stroke-width="3"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-brazilian-gold-rush)"/>
+  <rect width="640" height="360" fill="url(#vignette-brazilian-gold-rush)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M10 64 L90 64 L78 82 L22 82 Z" fill="#8a5a2b" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 64 L50 10" stroke="#3b2412" stroke-width="3"/>
+    <path d="M52 14 C70 20 74 40 72 58 L52 58 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M48 20 C32 26 28 42 30 58 L48 58 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M50 10 L62 6 L50 3" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M6 90 C16 84 24 96 34 90 C44 84 52 96 62 90 C72 84 80 96 94 90" fill="none" stroke="#3f6e9a" stroke-width="3"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">탐험·항해</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:19px">브라질 미나스제라이스의 금 발견</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1695년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

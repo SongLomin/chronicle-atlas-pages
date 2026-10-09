@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="프리타운 건설">
+<defs>
+  <clipPath id="frame-founding-of-freetown"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-founding-of-freetown" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-founding-of-freetown" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-founding-of-freetown" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="0" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-founding-of-freetown" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-founding-of-freetown"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-founding-of-freetown" d="M72 36L74 38L77 37L76 33L72 36ZM74 -3L76 0L78 -2L83 -1L76 -4L74 -3ZM88 32L92 36L95 36L96 34L89 27L88 32ZM100 30L103 31L103 27L101 27L100 30ZM106 10L110 12L113 10L112 8L107 6L106 10ZM225 40L228 42L228 40L232 41L238 48L242 56L242 61L243 56L245 55L243 57L245 57L249 53L251 53L246 56L247 57L243 58L244 62L248 57L248 61L247 61L245 64L248 63L247 65L248 71L252 72L256 69L269 68L275 68L274 70L269 68L256 70L254 72L256 73L254 74L254 72L250 73L250 75L244 68L241 72L243 79L242 86L244 85L242 87L243 89L245 88L246 84L245 87L248 88L248 86L251 89L257 88L259 86L261 89L267 89L269 87L269 84L272 84L269 84L270 88L267 90L259 88L247 89L246 88L242 90L242 92L249 98L258 94L251 100L256 105L262 101L265 102L262 103L260 108L264 105L265 105L263 108L272 103L276 104L281 103L280 105L283 108L280 106L280 103L277 105L272 105L270 107L269 109L272 109L272 112L276 108L276 110L278 109L277 110L281 111L278 112L279 111L275 110L275 112L271 113L270 117L273 114L274 116L275 115L272 118L273 121L276 122L277 119L276 125L281 120L279 125L281 125L279 128L282 130L283 124L285 125L288 123L285 126L285 128L287 127L286 130L286 131L289 129L288 132L292 127L289 135L289 136L291 135L293 142L298 143L298 144L300 143L300 146L303 142L302 146L307 150L310 148L309 152L311 150L313 151L309 158L312 156L313 158L314 156L314 159L316 159L316 163L318 161L318 165L320 163L319 165L322 165L318 167L319 170L325 172L320 173L321 180L323 178L322 176L324 177L324 178L328 176L327 178L328 179L323 181L324 183L319 180L321 187L326 186L329 193L326 193L330 195L331 198L334 198L337 196L335 199L337 201L343 200L338 202L336 204L339 205L336 205L357 214L361 217L361 220L374 227L374 229L383 233L381 231L390 237L407 254L429 267L441 272L447 272L459 265L479 258L489 255L501 255L496 253L497 254L492 254L494 252L500 253L503 255L523 252L519 251L505 254L508 251L508 252L510 251L523 252L525 250L528 251L527 249L529 252L523 252L538 255L539 250L541 249L540 253L542 254L548 254L545 256L539 254L539 255L559 259L564 263L567 263L575 257L593 253L616 241L631 240L636 233L664 228L664 -24L257 -24L249 -3L247 16L234 36L225 40ZM250 113L252 114L254 111L250 113ZM253 114L256 113L253 114ZM253 119L255 120L256 118L253 119ZM254 122L258 124L258 120L254 122ZM256 105L258 108L259 105L256 105ZM257 114L261 114L261 111L257 114ZM258 121L259 123L260 120L258 121ZM260 123L262 123L260 120L260 123ZM264 120L265 121L267 118L264 120ZM267 112L271 112L271 110L267 112ZM326 201L336 204L336 201L334 199L326 201Z"/>
+  <clipPath id="landclip-founding-of-freetown"><use href="#land-founding-of-freetown"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-founding-of-freetown)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-founding-of-freetown)"/>
+  <use href="#land-founding-of-freetown" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-founding-of-freetown" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-founding-of-freetown" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-founding-of-freetown)"><path d="M581 154L583 162L587 166L599 171L612 170L617 167L619 162L619 152L617 147L611 141L602 137L597 137L590 139L584 145L582 151Z" fill="rgb(205,195,131)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M547 95L548 105L555 112L569 117L594 120L603 118L613 113L619 102L620 92L617 77L611 69L601 63L586 60L570 62L557 69L549 80L547 92Z" fill="rgb(227,179,171)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M251 100L252 102L256 105L262 101L265 102L262 103L260 108L264 105L265 105L263 108L272 103L276 104L281 103L280 105L283 108L280 106L280 103L277 105L272 105L270 107L269 109L272 109L272 112L276 108L276 110L278 109L277 110L281 111L278 112L279 111L275 110L275 112L271 113L270 117L274 114L274 116L275 115L273 116L272 119L288 119L303 115L311 111L318 102L319 92L317 87L312 81L303 77L291 75L279 78L271 83L263 89L267 89L269 87L269 84L273 83L269 84L270 88L268 90L262 89L252 99ZM256 105L258 108L259 105L257 105ZM257 114L261 114L261 111L259 113ZM267 112L271 112L271 110L268 112Z" fill="rgb(171,210,195)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M302 122L305 133L314 139L327 143L342 144L349 142L354 137L359 127L360 117L356 106L350 100L341 97L330 96L320 99L314 103L306 111L302 119Z" fill="rgb(229,190,186)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M610 245L606 245L608 241L610 241ZM614 242L613 242L613 237L616 237L616 242Z" fill="rgb(226,178,166)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 229L642 231L635 234L630 241L626 241L624 235L619 235L613 230L615 223L613 223L613 214L616 208L619 211L624 210L627 213L637 214L645 210L645 207L648 208L650 203L664 193Z" fill="rgb(203,156,142)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M576 176L578 177L581 171L584 171L587 176L592 176L602 187L608 190L613 204L616 204L616 208L613 214L613 223L615 223L613 230L619 235L624 235L626 241L616 242L616 237L613 237L613 244L610 244L610 241L603 241L600 245L584 250L570 255L569 257L557 254L555 258L552 252L547 254L545 258L542 258L538 250L531 252L531 255L526 254L526 250L530 250L530 247L533 245L531 241L533 228L528 225L528 221L525 220L526 215L525 211L531 210L530 208L531 201L530 198L527 200L523 197L520 187L543 184L547 174L554 170L560 176L560 181L563 187L571 184L567 181L568 176L575 176Z" fill="rgb(198,204,212)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M505 68L496 78L489 81L478 78L471 72L471 68L474 65L497 56L497 53L505 50L506 46L514 43L514 40L524 39L527 43L524 50L518 55L519 57L516 57L515 63L507 68Z" fill="rgb(159,172,183)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M555 258L557 254L568 257L569 264L561 264L555 259ZM571 259L571 255L584 250L584 255L573 259ZM590 254L587 254L587 248L590 248L590 252ZM597 252L594 252L594 247L597 247L597 251ZM602 248L600 248L600 245L603 241L606 241L606 247L603 248Z" fill="rgb(235,185,132)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M76 40L74 33L78 33L77 40ZM96 37L88 36L88 34L90 27L93 27L96 31ZM106 30L101 33L99 28L104 27ZM115 8L113 12L107 12L108 6ZM75 -3L75 -4L82 -4L82 -1L75 0ZM251 98L246 98L241 94L241 88L246 88L246 84L257 85L259 92L256 94L261 94L261 98L258 98L258 101L267 101L269 105L267 108L258 108L256 105L253 107Z" fill="rgb(165,190,146)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M549 254L552 252L555 259L545 258L547 254ZM326 188L318 184L318 180L323 180L321 176L323 174L331 173L333 176L331 181L333 183L326 186ZM568 257L571 255L573 261L568 262ZM584 255L584 250L587 250L587 255ZM594 254L590 254L590 248L594 248L594 252ZM600 245L602 250L597 251L597 245Z" fill="rgb(217,156,137)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M531 252L538 250L541 255L531 255ZM234 36L235 36L234 43L227 41L229 37ZM255 14L254 17L251 17L251 18L246 19L249 8L254 9Z" fill="rgb(165,173,190)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-founding-of-freetown" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="568.8" y="220.8" class="lbl">아샨티 왕국</text><text x="583.2" y="89.7" class="lbl">모시 왕국</text><text x="330.8" y="120.2" class="lbl">푸타잘롱 이맘국</text><text x="289.4" y="96.9" class="lbl">카부 왕국</text><text x="599.8" y="153.6" class="lbl">다그봉 왕국</text><text x="498.2" y="63.2" class="lbl">바마나 제국</text>
+  <g transform="translate(320.0 180.6)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-founding-of-freetown)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-founding-of-freetown)"/>
+  <rect width="640" height="360" fill="url(#vignette-founding-of-freetown)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M18 70 L14 34 L32 50 L50 24 L68 50 L86 34 L82 70 Z" fill="#e9c46a" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="17" y="70" width="66" height="10" rx="2" fill="#d4a94f" stroke="#3b2412" stroke-width="3"/>
+    <circle cx="50" cy="22" r="5" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="14" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="86" cy="32" r="4" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/><circle cx="50" cy="60" r="5" fill="#3f6e9a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">건국</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">프리타운 건설</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1792년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

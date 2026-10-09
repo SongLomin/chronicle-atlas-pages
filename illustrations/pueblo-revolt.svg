@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="푸에블로 반란">
+<defs>
+  <clipPath id="frame-pueblo-revolt"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-pueblo-revolt" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-pueblo-revolt" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-pueblo-revolt" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="144" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-pueblo-revolt" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-pueblo-revolt"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-pueblo-revolt" d="M-7 -24L-6 -23L-7 -20L-9 -5L-8 -6L-7 -5L-9 -4L-11 3L-9 1L-8 3L-9 2L-11 5L-11 4L-13 5L-15 16L-12 22L-12 34L-9 37L-10 42L-7 48L-8 58L-7 60L-9 66L-8 64L-7 65L-9 68L-10 67L-13 74L-12 78L-3 88L0 110L10 121L16 129L13 125L12 131L14 129L21 135L23 134L22 128L24 127L28 130L30 128L33 130L36 127L35 130L38 128L41 131L39 129L38 130L38 129L36 131L24 131L23 132L25 133L25 136L27 136L30 143L24 140L23 135L21 136L21 142L25 151L28 154L32 154L34 157L35 160L31 163L33 169L40 176L44 183L51 189L51 193L55 195L55 208L59 210L75 211L82 218L88 220L93 219L95 226L101 225L112 234L115 239L116 248L118 248L119 250L117 248L120 257L124 263L128 266L127 269L125 268L127 270L127 272L133 279L133 285L138 288L138 295L139 297L139 295L139 297L142 298L142 306L144 307L144 310L157 318L174 335L173 341L174 346L173 346L173 348L172 344L170 348L172 347L172 352L174 352L174 350L176 352L176 353L173 352L173 354L170 351L169 349L166 351L155 349L156 351L166 358L167 363L178 367L181 372L184 370L188 371L190 367L189 372L191 371L193 375L205 384L223 384L221 376L219 375L219 373L214 368L214 372L217 375L215 375L211 367L212 365L208 363L204 355L198 351L196 337L191 336L189 329L186 330L185 326L183 328L181 320L171 310L168 310L165 306L163 301L162 286L159 281L161 270L156 263L171 273L174 274L175 270L181 274L182 277L191 280L191 291L197 300L197 307L204 316L203 318L207 319L208 326L213 330L212 331L216 337L221 338L227 347L229 347L231 349L232 346L232 348L238 349L236 350L237 351L236 353L237 359L239 360L237 361L242 363L247 364L251 372L257 372L260 377L260 380L262 379L263 381L263 382L261 380L259 384L475 384L471 370L472 369L471 367L472 366L473 361L467 361L469 360L467 357L470 360L472 358L471 361L474 360L476 352L472 349L478 349L481 344L478 346L478 343L481 342L482 343L483 341L482 344L483 343L485 341L485 336L487 340L492 337L489 336L490 336L487 331L491 333L490 334L492 333L491 330L493 333L496 332L495 333L497 333L495 334L499 333L495 336L514 325L514 321L520 318L517 314L516 310L518 312L522 309L521 315L526 314L521 318L533 312L537 312L536 309L538 305L539 306L537 309L538 311L549 310L565 315L571 313L567 310L574 308L574 311L578 310L579 314L584 316L585 313L584 316L587 320L585 318L583 320L591 323L596 323L596 319L599 318L600 321L601 319L602 320L603 324L607 319L607 317L603 315L604 314L610 316L612 318L610 319L617 320L618 324L620 322L618 327L621 323L623 326L625 323L623 322L625 322L622 318L615 317L616 316L611 312L614 313L612 311L616 312L614 310L616 308L619 309L619 307L617 306L618 306L617 305L619 304L616 303L613 307L610 305L612 304L613 301L604 304L600 303L599 301L603 297L614 302L617 301L619 297L621 298L628 296L626 296L630 298L632 297L635 298L637 296L641 298L643 290L645 296L647 299L643 300L650 299L650 297L653 297L653 295L655 296L652 299L656 298L658 295L658 293L660 296L661 292L663 296L658 297L664 296L664 -24ZM59 219L61 220L59 219ZM62 220L65 222L67 221L66 219L62 220ZM68 219L70 221L75 219L68 219ZM74 236L77 237L74 236ZM92 241L94 245L96 245L92 241ZM92 231L94 235L97 235L96 233L92 231ZM96 323L98 328L98 322L96 323ZM150 344L154 346L153 338L150 344ZM160 268L163 269L161 267L160 268ZM182 317L191 326L190 320L186 319L184 314L182 317ZM195 332L197 334L195 332ZM200 328L206 330L207 325L206 321L202 322L200 328ZM236 359L237 361L236 359ZM474 362L480 349L476 353L474 362ZM480 349L483 343L480 349ZM484 345L492 338L484 342L484 345ZM515 324L522 319L520 318L515 324ZM570 314L574 316L576 314L573 312L570 314ZM619 304L622 304L621 303L622 301L619 304ZM627 304L628 310L627 304ZM629 300L633 300L629 300ZM638 300L642 300L638 300Z"/>
+  <clipPath id="landclip-pueblo-revolt"><use href="#land-pueblo-revolt"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-pueblo-revolt)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-pueblo-revolt)"/>
+  <use href="#land-pueblo-revolt" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-pueblo-revolt" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-pueblo-revolt" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-pueblo-revolt)"><path d="M315 329L327 342L334 358L342 366L378 376L397 371L399 368L407 368L415 372L416 376L422 384L327 384L325 381L314 374L308 363L312 357L319 354L321 350L317 341L306 330L304 324L305 324L304 313L306 313L305 301L307 298L305 290L307 288L306 273L308 270L305 266L309 266L316 273L314 276L315 284L313 286L315 311L313 311L314 321L312 321ZM302 178L301 175L304 171L306 171L305 168L308 168L307 165L312 165L320 171L324 180L332 185L334 194L329 195L326 202L313 201L303 188L301 181Z" fill="rgb(230,206,138)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-pueblo-revolt" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  
+  <g transform="translate(320.0 182.8)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-pueblo-revolt)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M24 64 C24 34 38 20 50 20 C62 20 76 34 76 64 L66 64 L66 52 L56 52 L56 82 L44 82 L44 52 L34 52 L34 64 Z" fill="#c9b37e" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 20 C50 8 68 6 80 12 C70 14 62 18 58 26" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M30 64 L70 64" stroke="#3b2412" stroke-width="3"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-pueblo-revolt)"/>
+  <rect width="640" height="360" fill="url(#vignette-pueblo-revolt)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M24 64 C24 34 38 20 50 20 C62 20 76 34 76 64 L66 64 L66 52 L56 52 L56 82 L44 82 L44 52 L34 52 L34 64 Z" fill="#c9b37e" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 20 C50 8 68 6 80 12 C70 14 62 18 58 26" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M30 64 L70 64" stroke="#3b2412" stroke-width="3"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">전쟁·저항</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">푸에블로 반란</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1680년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="이그보우쿠의 청동 유물">
+<defs>
+  <clipPath id="frame-igbo-ukwu-bronzes"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-igbo-ukwu-bronzes" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-igbo-ukwu-bronzes" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-igbo-ukwu-bronzes" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="82" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-igbo-ukwu-bronzes" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-igbo-ukwu-bronzes"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-igbo-ukwu-bronzes" d="M-24 -24L-24 208L-5 217L0 218L13 211L33 203L42 200L55 200L50 199L51 199L46 200L48 198L54 198L57 200L77 198L73 197L59 199L62 196L62 198L64 196L77 197L79 195L82 197L81 195L83 197L77 197L92 200L93 195L96 195L94 198L96 200L102 200L99 201L94 199L93 200L113 205L119 209L121 209L129 203L147 198L170 186L186 185L189 180L197 177L216 173L240 172L240 169L242 167L243 169L248 167L250 167L240 171L262 173L270 178L276 186L282 183L278 185L278 189L282 189L283 187L283 190L285 188L287 190L280 190L280 192L285 194L290 191L287 192L288 195L283 195L283 199L286 200L284 200L286 206L295 217L297 218L297 216L299 219L299 216L300 219L302 219L303 214L303 216L305 216L303 219L310 218L310 214L311 218L313 218L312 214L313 216L314 212L313 217L317 217L313 207L315 207L317 217L320 216L317 210L319 212L319 209L321 211L321 216L324 214L321 208L326 214L327 213L326 212L331 213L332 209L332 214L348 213L349 211L346 203L350 208L351 206L352 209L355 207L353 214L358 214L356 209L358 212L361 213L360 211L362 212L363 223L368 226L371 224L371 227L374 227L373 225L375 225L374 223L377 225L380 222L377 226L381 226L379 227L380 229L377 228L377 231L376 229L378 234L382 233L378 235L384 241L385 245L381 263L382 271L377 277L380 278L377 279L371 287L377 291L380 289L382 290L381 292L381 290L378 290L376 292L377 303L376 300L374 300L376 300L376 299L371 300L370 302L375 307L381 310L386 309L380 311L382 313L379 311L377 311L375 309L374 311L373 309L372 310L371 306L370 321L366 327L364 333L362 329L360 331L357 327L360 334L362 335L361 335L364 340L364 342L368 345L371 344L371 342L369 346L370 348L374 346L376 349L370 351L370 347L363 341L369 348L369 354L374 354L375 356L376 359L374 356L370 355L376 362L377 366L379 367L380 366L380 368L383 367L385 370L389 369L385 372L382 368L379 368L384 373L397 384L664 384L664 -24ZM308 309L310 313L314 308L314 306L312 304L308 309ZM323 216L326 216L327 214L325 213L323 216ZM327 278L328 280L330 277L327 278ZM327 215L332 214L327 215ZM351 240L357 243L363 233L362 231L357 230L354 237L352 237L351 240ZM363 328L365 330L364 327L363 328Z"/>
+  <clipPath id="landclip-igbo-ukwu-bronzes"><use href="#land-igbo-ukwu-bronzes"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-igbo-ukwu-bronzes)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-igbo-ukwu-bronzes)"/>
+  <use href="#land-igbo-ukwu-bronzes" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-igbo-ukwu-bronzes" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-igbo-ukwu-bronzes" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-igbo-ukwu-bronzes)"><path d="M-22 -24L-19 -17L-21 -10L-17 -11L-17 -7L-9 2L-9 5L17 16L48 16L53 14L59 14L69 8L70 2L75 0L73 -3L80 -10L80 -24Z" fill="rgb(162,179,129)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-igbo-ukwu-bronzes" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  
+  <g transform="translate(320.0 180.4)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-igbo-ukwu-bronzes)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-igbo-ukwu-bronzes)"/>
+  <rect width="640" height="360" fill="url(#vignette-igbo-ukwu-bronzes)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">문화·학문</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">이그보우쿠의 청동 유물</text>
+  </g>
+  <text x="320" y="284" class="year">서기 850년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

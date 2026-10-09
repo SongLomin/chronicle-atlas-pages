@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="뉴질랜드, 세계 최초의 여성 참정권">
+<defs>
+  <clipPath id="frame-nz-womens-suffrage"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-nz-womens-suffrage" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-nz-womens-suffrage" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-nz-womens-suffrage" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="101" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-nz-womens-suffrage" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-nz-womens-suffrage"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-nz-womens-suffrage" d="M182 281L182 285L186 282L185 284L187 283L184 287L190 284L185 289L186 290L195 292L198 289L200 289L202 290L204 294L210 293L212 297L213 295L214 297L212 298L213 300L213 298L217 300L217 298L221 299L222 301L224 301L236 298L235 297L238 296L246 285L253 282L253 280L250 283L253 280L251 278L255 273L256 267L260 259L260 251L263 244L280 235L281 232L284 233L281 235L286 233L290 236L290 232L290 235L292 235L291 230L285 230L288 229L286 228L286 221L289 217L295 214L300 203L302 202L312 187L308 180L312 175L306 176L311 174L310 173L311 173L312 170L310 172L310 170L307 169L308 172L307 173L306 172L305 174L309 174L304 177L306 171L303 173L303 170L308 169L305 168L302 170L302 172L300 171L292 177L291 166L288 167L285 162L286 160L290 160L284 160L284 161L282 161L275 168L275 179L271 185L265 187L261 203L255 211L245 217L244 220L242 221L236 228L231 230L220 238L218 237L213 239L204 250L206 254L203 252L200 254L202 256L200 255L200 258L200 256L198 256L199 261L197 258L194 260L196 262L193 261L195 263L194 264L192 262L191 264L193 266L191 264L191 268L195 267L196 269L191 269L194 273L192 270L191 271L191 270L189 268L188 269L190 272L187 271L186 275L191 273L190 275L187 275L187 277L189 277L187 278L191 278L182 281ZM182 278L184 277L185 279L186 279L186 276L183 276L182 278ZM189 267L191 268L190 265L189 267ZM199 316L202 316L203 314L201 314L203 313L205 314L211 311L211 309L207 309L207 307L210 306L206 302L203 302L204 307L199 316ZM285 33L293 42L294 45L292 47L295 49L295 51L296 49L295 51L297 54L300 49L301 50L297 55L308 72L310 71L305 63L305 61L308 67L311 69L312 69L310 67L312 66L313 68L314 66L315 67L312 69L316 69L312 71L315 71L314 77L310 73L315 85L320 83L323 86L319 88L320 88L319 89L318 86L316 86L319 92L321 91L319 94L321 100L323 100L320 103L320 105L322 105L320 107L323 107L321 109L319 108L317 123L314 126L305 130L303 133L307 138L312 140L316 144L323 146L326 150L328 155L326 163L321 172L317 176L319 178L322 175L321 179L327 179L327 184L329 184L340 176L355 151L359 141L356 140L355 136L358 131L364 128L370 128L371 129L372 132L374 129L372 128L372 120L375 120L379 117L379 106L383 99L378 96L373 96L369 99L366 104L359 106L344 97L344 99L340 98L339 95L343 97L340 94L338 81L336 82L338 79L334 79L333 74L330 74L332 77L333 80L331 82L334 90L333 88L330 89L328 83L325 84L324 82L323 83L323 81L322 83L322 81L318 82L317 80L321 81L319 77L321 76L319 76L319 72L320 74L320 71L322 71L315 63L315 60L313 60L313 58L317 60L315 56L316 55L313 50L314 51L313 47L310 49L311 50L310 51L307 48L309 46L305 43L303 45L303 43L300 42L300 44L298 43L298 39L295 43L295 41L292 39L293 40L291 34L290 36L289 34L290 32L291 34L291 31L285 31L285 33ZM303 168L306 167L306 164L305 166L304 165L303 168ZM310 175L313 174L314 173L310 175ZM324 80L327 81L327 79L324 80ZM329 68L333 71L330 65L329 68Z"/>
+  <clipPath id="landclip-nz-womens-suffrage"><use href="#land-nz-womens-suffrage"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-nz-womens-suffrage)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-nz-womens-suffrage)"/>
+  <use href="#land-nz-womens-suffrage" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-nz-womens-suffrage" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-nz-womens-suffrage" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-nz-womens-suffrage)"><path d="M200 303L199 302L205 302L211 313L199 316L197 313L200 311ZM306 192L306 199L298 204L298 210L296 210L296 214L287 220L288 221L285 221L288 229L286 229L290 230L293 236L285 236L281 233L282 235L278 235L279 236L277 236L278 238L271 239L272 241L269 241L270 242L266 242L267 244L261 247L260 258L259 258L260 259L259 259L260 261L258 261L259 262L258 262L259 264L254 267L254 278L251 278L253 283L244 286L245 290L237 294L238 297L235 297L237 298L221 303L217 300L210 300L208 295L202 295L198 290L194 292L195 294L185 292L178 283L181 281L180 279L186 279L183 272L186 272L185 269L190 270L187 264L193 262L191 259L195 258L194 256L198 256L198 253L202 252L201 249L204 247L204 244L210 241L209 239L225 233L224 232L228 230L227 229L231 229L230 227L236 224L235 223L243 220L242 218L245 217L244 215L248 215L247 214L254 211L253 208L258 205L257 204L258 204L257 202L259 202L258 201L259 201L258 199L259 199L258 198L260 198L261 186L268 185L267 183L270 183L269 180L272 180L272 176L274 172L272 169L274 169L273 165L278 163L277 162L284 159L286 162L284 163L289 166L292 170L290 170L292 175L300 170L299 169L303 169L305 172L309 170L311 176L307 176L309 179L307 179L311 191ZM303 169L301 166L302 166L302 163L306 166L304 169ZM329 87L327 79L328 76L333 78L336 84L335 84L339 95L338 95L341 99L355 105L362 105L361 103L365 102L365 99L371 97L370 95L377 95L381 101L378 107L379 110L377 114L378 118L370 123L372 125L370 127L372 134L369 134L367 130L359 130L360 131L355 132L355 138L354 138L358 142L355 148L354 153L350 155L350 160L346 162L345 168L343 168L343 172L340 172L341 176L336 178L337 180L331 183L332 185L327 185L324 180L316 179L314 176L319 173L318 172L320 172L321 165L324 165L323 162L326 158L323 152L325 152L318 146L303 139L299 132L300 132L300 130L302 130L302 128L313 125L313 123L315 120L313 117L315 116L313 113L314 113L315 107L318 107L316 102L318 99L315 94L317 93L307 76L308 76L307 74L312 75L309 71L311 71L307 70L309 72L305 72L290 50L288 47L291 45L283 36L282 32L288 32L292 41L296 39L297 42L310 47L316 60L312 60L320 72L317 74L319 80L324 82Z" fill="rgb(217,156,137)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-nz-womens-suffrage" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  
+  <g transform="translate(320.0 176.5)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-nz-womens-suffrage)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M26 22 L74 22 C80 22 80 34 74 34 L74 78 C74 84 68 86 64 84 L24 84 C18 84 18 72 24 72 L26 72 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M26 22 C20 22 20 34 26 34" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 40 L66 40 M34 48 L66 48 M34 56 L60 56 M34 64 L54 64" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="62" cy="74" r="8" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/><path d="M58 80 L56 90 L62 86 L66 90 L66 80" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-nz-womens-suffrage)"/>
+  <rect width="640" height="360" fill="url(#vignette-nz-womens-suffrage)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M26 22 L74 22 C80 22 80 34 74 34 L74 78 C74 84 68 86 64 84 L24 84 C18 84 18 72 24 72 L26 72 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M26 22 C20 22 20 34 26 34" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 40 L66 40 M34 48 L66 48 M34 56 L60 56 M34 64 L54 64" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="62" cy="74" r="8" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/><path d="M58 80 L56 90 L62 86 L66 90 L66 80" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">체제 전환</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:19px">뉴질랜드, 세계 최초의 여성 참정권</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1893년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

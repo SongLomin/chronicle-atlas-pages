@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="위트워터스랜드 금광과 요하네스버그">
+<defs>
+  <clipPath id="frame-witwatersrand-gold-rush"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-witwatersrand-gold-rush" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-witwatersrand-gold-rush" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-witwatersrand-gold-rush" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="94" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-witwatersrand-gold-rush" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-witwatersrand-gold-rush"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-witwatersrand-gold-rush" d="M-3 -24L-5 -8L-3 5L1 12L9 21L21 45L24 48L28 62L50 98L51 106L49 108L49 105L48 107L50 115L49 132L57 153L57 168L60 175L60 181L62 183L64 187L62 189L65 195L66 203L75 219L87 231L90 231L92 238L97 243L106 272L125 308L127 316L126 325L122 329L119 327L117 330L118 335L121 335L122 339L119 336L126 345L130 354L126 358L126 362L129 366L129 360L136 360L136 367L143 365L142 367L146 368L147 370L146 373L148 372L153 376L157 376L160 378L170 369L176 369L176 367L178 366L186 368L190 366L195 367L198 363L202 362L203 360L211 358L228 360L227 359L232 357L256 363L258 357L273 359L272 354L275 352L289 352L292 351L301 346L317 335L336 317L347 303L360 293L380 261L379 262L386 249L394 239L399 238L399 236L406 230L416 196L418 175L415 180L408 173L412 171L416 164L423 158L460 143L468 132L469 125L468 127L466 126L465 129L465 123L466 124L468 112L470 106L469 107L468 101L469 90L469 93L468 89L467 89L466 97L464 95L464 79L461 73L461 69L460 72L459 67L461 64L459 64L458 59L452 55L453 54L451 52L453 49L452 47L454 47L453 41L454 40L449 35L456 41L465 34L475 22L481 18L481 21L484 20L483 16L486 18L488 13L498 3L495 -1L498 2L502 -4L521 -13L520 -15L522 -13L531 -19L540 -20L544 -24ZM467 81L468 76L467 81ZM622 92L625 105L629 110L630 115L633 118L630 125L631 137L636 143L638 152L646 156L643 155L645 157L654 159L661 165L664 164L664 -24L645 -24L636 -10L638 -3L638 10L643 19L642 25L647 33L645 39L647 43L636 63L634 70L628 72L627 79L624 81L623 87L624 91L622 92Z"/>
+  <clipPath id="landclip-witwatersrand-gold-rush"><use href="#land-witwatersrand-gold-rush"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-witwatersrand-gold-rush)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-witwatersrand-gold-rush)"/>
+  <use href="#land-witwatersrand-gold-rush" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-witwatersrand-gold-rush" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-witwatersrand-gold-rush" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-witwatersrand-gold-rush)"><path d="M664 88L660 88L657 91L641 87L638 87L636 90L630 88L627 81L627 75L624 76L624 73L626 70L631 70L632 62L636 54L644 44L643 42L644 31L640 28L640 21L645 23L652 20L653 17L658 19L662 15L664 15Z" fill="rgb(223,202,152)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M542 -24L537 -18L521 -14L514 -8L506 -7L501 0L495 1L495 6L485 15L484 19L474 23L457 42L452 42L451 55L456 57L459 64L458 69L463 81L463 94L466 97L467 104L468 104L467 116L463 124L468 127L468 131L462 138L462 141L455 147L429 155L417 164L414 164L409 174L412 178L406 178L403 175L402 171L408 167L411 160L428 150L440 147L440 144L445 145L453 141L459 136L457 126L461 115L460 98L455 86L455 73L452 66L453 64L447 58L447 47L444 44L445 34L451 32L455 35L456 32L459 32L474 19L473 16L476 17L489 5L492 -3L501 -6L503 -11L508 -11L509 -14L513 -14L515 -16L526 -20L526 -23L529 -22L534 -24Z" fill="rgb(165,190,146)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M311 115L305 116L294 126L295 127L292 137L285 144L275 147L272 160L267 167L269 184L267 184L266 197L262 202L263 208L256 211L256 217L252 221L253 224L252 236L243 253L243 259L251 265L252 271L259 277L268 282L278 279L286 284L294 283L296 277L302 276L303 268L297 256L304 252L310 240L322 236L323 233L330 233L345 246L344 256L353 256L359 259L369 276L363 284L364 287L340 308L341 311L335 316L334 321L331 321L325 328L322 328L305 345L291 353L273 353L270 356L272 360L258 357L250 363L244 363L235 359L226 359L224 362L203 360L197 363L195 368L192 370L176 368L165 371L159 377L148 377L147 374L144 374L143 370L133 368L131 360L128 362L128 367L123 367L124 348L118 342L116 336L113 336L115 327L121 328L122 325L122 319L124 319L122 308L101 273L95 248L90 243L87 233L93 229L96 221L100 221L103 224L107 234L122 240L140 240L150 230L156 229L157 200L158 200L158 87L179 86L179 87L339 86L342 88L333 98L324 99Z" fill="rgb(217,156,137)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M400 237L388 243L382 237L368 233L362 224L361 218L383 211L388 204L395 202L392 213L406 220L407 227L401 237Z" fill="rgb(173,169,184)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M388 243L382 237L368 233L362 224L361 218L356 210L352 211L352 215L349 218L350 226L345 227L342 231L336 233L335 236L335 239L345 246L344 256L353 256L359 259L369 276L370 276L373 268L377 265L380 255L388 245Z" fill="rgb(163,177,124)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M332 236L330 233L323 233L322 236L310 240L304 252L297 256L303 268L302 276L296 277L294 283L286 284L278 279L268 282L259 277L252 271L251 265L243 259L243 253L252 236L253 224L259 218L270 214L277 215L287 205L286 201L291 195L297 197L302 195L305 191L314 190L318 195L321 194L327 198L338 198L352 211L352 215L349 218L350 226L345 227L342 231L336 233L335 236Z" fill="rgb(155,171,181)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M387 105L383 95L379 95L376 92L342 90L333 98L324 99L311 115L305 116L295 126L292 137L285 144L275 147L272 160L267 167L269 184L267 184L266 197L262 202L263 208L256 211L256 217L252 221L253 224L259 218L270 214L277 215L287 205L286 201L291 195L297 197L302 195L305 191L311 190L314 190L318 195L321 194L327 198L338 198L352 211L356 210L361 218L383 211L388 204L378 201L378 198L375 197L373 182L380 170L395 172L398 165L396 153L397 138L395 138L393 126L389 120L387 106Z" fill="rgb(209,200,211)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M119 13L141 13L141 21L178 20L179 86L158 87L158 200L157 200L156 229L150 230L140 240L122 240L107 234L103 224L100 221L96 221L93 229L87 233L72 221L63 205L63 198L59 195L59 185L56 184L53 150L47 138L47 97L43 88L38 86L34 75L31 73L7 20L-5 9L-6 -2L-8 -2L-8 -14L10 -14L17 -19L26 -19L29 -15L39 -10L118 -11Z" fill="rgb(176,173,160)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M403 218L408 221L411 202L414 198L414 192L399 192L396 194L392 213L400 215L402 218Z" fill="rgb(216,168,151)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M392 204L392 202L395 202L396 194L399 192L398 175L395 172L380 170L373 182L375 197L378 198L378 201L391 204Z" fill="rgb(184,212,178)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-witwatersrand-gold-rush" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="84.9" y="58.6" class="lbl">독일령 아프리카</text><text x="285.8" y="234.1" class="lbl">오라녀 자유국</text><text x="386.0" y="226.2" class="lbl">줄루 왕국</text><text x="386.2" y="186.1" class="lbl">에스와티니</text><text x="403.8" y="205.8" class="lbl">신공화국</text>
+  <g transform="translate(320.0 178.1)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-witwatersrand-gold-rush)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M12 86 L12 50 L22 42 L32 50 L32 86 Z M36 86 L36 30 L50 18 L64 30 L64 86 Z M68 86 L68 46 L78 38 L88 46 L88 86 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M44 86 L44 70 C44 62 56 62 56 70 L56 86" fill="#6e4b2a" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M44 40 L48 40 L48 48 L44 48 Z M52 40 L56 40 L56 48 L52 48 Z M18 56 L26 56 M74 54 L82 54" stroke="#3b2412" stroke-width="2" fill="#3b2412"/>
+    <path d="M50 18 L50 8 L60 11 L50 14" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-witwatersrand-gold-rush)"/>
+  <rect width="640" height="360" fill="url(#vignette-witwatersrand-gold-rush)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M12 86 L12 50 L22 42 L32 50 L32 86 Z M36 86 L36 30 L50 18 L64 30 L64 86 Z M68 86 L68 46 L78 38 L88 46 L88 86 Z" fill="#e8dcc0" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M44 86 L44 70 C44 62 56 62 56 70 L56 86" fill="#6e4b2a" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M44 40 L48 40 L48 48 L44 48 Z M52 40 L56 40 L56 48 L52 48 Z M18 56 L26 56 M74 54 L82 54" stroke="#3b2412" stroke-width="2" fill="#3b2412"/>
+    <path d="M50 18 L50 8 L60 11 L50 14" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">도시·건축</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:19px">위트워터스랜드 금광과 요하네스버그</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1886년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

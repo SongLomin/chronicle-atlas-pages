@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="위구르 카간국의 마니교 수용">
+<defs>
+  <clipPath id="frame-uyghur-manichaeism"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-uyghur-manichaeism" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-uyghur-manichaeism" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-uyghur-manichaeism" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="251" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-uyghur-manichaeism" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-uyghur-manichaeism"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-uyghur-manichaeism" d="M-24 -24L-24 384L597 384L594 381L591 380L583 383L585 384L565 384L566 382L569 383L564 375L551 374L543 365L545 358L546 358L546 356L550 354L555 357L563 354L564 354L564 355L569 351L568 347L573 341L587 334L592 325L595 324L594 322L600 320L606 322L608 319L607 322L612 325L614 329L608 339L602 342L603 346L598 348L601 348L603 351L609 350L604 353L605 356L597 359L597 363L605 361L604 359L606 357L608 359L607 357L610 357L614 351L625 345L628 345L628 342L631 342L631 344L635 340L636 342L641 342L645 337L647 338L645 340L648 342L649 347L651 343L656 347L661 347L660 350L662 351L661 354L657 362L659 364L661 362L664 365L662 364L657 364L653 371L655 373L650 375L659 376L654 379L657 380L659 378L659 381L662 379L660 383L664 382L664 -24ZM557 359L558 360L559 357L557 359ZM599 350L600 349L601 351L601 349L600 349L599 350ZM617 352L620 353L617 352Z"/>
+  <clipPath id="landclip-uyghur-manichaeism"><use href="#land-uyghur-manichaeism"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-uyghur-manichaeism)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-uyghur-manichaeism)"/>
+  <use href="#land-uyghur-manichaeism" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-uyghur-manichaeism" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-uyghur-manichaeism" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-uyghur-manichaeism)"><path d="M664 250L655 251L643 269L638 281L639 281L637 288L627 294L619 302L617 310L609 315L606 321L607 324L611 325L613 329L606 339L602 341L601 346L599 346L598 348L599 351L605 351L602 357L598 357L595 363L601 363L605 358L609 358L612 353L624 346L634 342L640 343L644 341L645 343L647 343L647 346L653 344L655 348L659 348L661 351L655 363L663 361L664 359Z" fill="rgb(146,191,153)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-24 127L-20 128L-20 129L37 134L39 137L50 142L52 146L51 154L52 154L45 167L24 181L-24 193Z" fill="rgb(223,202,153)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-24 384L-24 295L-17 290L11 294L42 284L67 284L67 285L90 289L89 290L113 294L113 295L137 302L136 303L142 305L149 311L166 316L165 318L172 318L175 320L189 324L223 318L238 319L238 320L249 324L251 328L254 328L258 332L264 333L264 334L269 335L271 338L283 338L282 339L286 339L291 344L299 346L299 348L302 348L303 351L302 353L305 357L312 359L312 363L316 364L319 369L322 369L331 377L335 377L337 380L349 384Z" fill="rgb(204,159,155)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M548 323L547 325L549 328L551 328L553 332L565 334L573 332L576 338L579 338L570 343L568 352L565 354L551 357L550 354L548 354L543 363L545 363L544 368L551 372L551 374L559 375L560 373L562 373L561 374L572 378L571 380L568 380L567 384L583 384L583 383L591 379L596 380L597 384L602 384L349 384L362 379L373 378L376 375L391 349L392 344L395 339L408 324L427 318L443 319L442 320L450 320L449 321L476 320L495 315L497 318L499 312L509 310L529 308L529 310L544 311L544 314L546 314L548 316L547 323ZM495 314L499 314L498 316L497 318Z" fill="rgb(229,202,144)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-24 193L24 181L47 167L78 139L107 104L120 93L143 57L153 35L152 35L153 34L166 18L189 7L230 2L229 4L233 4L233 6L257 13L256 15L263 18L262 20L275 28L274 30L277 30L276 32L279 32L278 34L280 34L280 37L283 37L282 39L284 40L282 47L285 47L285 51L292 54L292 56L296 56L295 57L299 57L298 59L302 59L301 61L305 61L305 64L306 64L306 67L308 67L308 71L314 69L313 71L317 71L317 72L323 75L322 77L330 80L328 84L329 84L328 87L330 88L328 95L330 95L329 98L332 98L333 103L336 103L336 104L354 103L388 88L411 84L419 85L422 82L423 82L423 85L430 84L430 87L436 87L435 88L464 87L488 77L505 74L536 61L554 62L553 64L556 64L555 66L562 67L561 69L563 69L563 71L566 71L566 72L572 75L571 79L574 79L573 82L576 82L575 84L578 85L577 87L582 85L580 88L591 92L590 93L592 95L581 129L582 129L569 163L570 163L566 172L567 172L564 178L565 178L561 185L562 185L558 194L559 194L557 201L550 211L534 242L526 250L503 288L500 297L475 320L449 321L450 320L442 320L443 319L427 318L408 324L395 339L392 344L391 349L376 375L373 378L362 379L349 384L337 380L335 377L331 377L322 369L319 369L316 364L312 363L312 359L305 357L302 353L303 351L302 348L299 348L299 346L291 344L286 339L282 339L283 338L271 338L269 335L264 334L264 333L258 332L254 328L251 328L249 324L238 320L238 319L223 318L189 324L175 320L172 318L165 318L166 316L149 311L142 305L136 303L137 302L113 295L113 294L89 290L90 289L67 285L67 284L42 284L11 294L-17 290L-24 295Z" fill="rgb(181,191,205)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-uyghur-manichaeism" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="220.9" y="203.2" class="lbl">위구르 카간국</text>
+  <g transform="translate(320.0 184.3)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-uyghur-manichaeism)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-uyghur-manichaeism)"/>
+  <rect width="640" height="360" fill="url(#vignette-uyghur-manichaeism)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">문화·학문</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">위구르 카간국의 마니교 수용</text>
+  </g>
+  <text x="320" y="284" class="year">서기 763년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

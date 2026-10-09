@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="아달 술탄국의 에티오피아 침공">
+<defs>
+  <clipPath id="frame-adal-invasion-of-ethiopia"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-adal-invasion-of-ethiopia" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-adal-invasion-of-ethiopia" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-adal-invasion-of-ethiopia" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="249" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-adal-invasion-of-ethiopia" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-adal-invasion-of-ethiopia"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-adal-invasion-of-ethiopia" d="M-24 -24L-24 384L370 384L372 377L372 379L412 337L439 316L462 303L504 259L527 222L532 207L543 190L545 182L551 177L558 161L567 149L569 129L573 127L579 127L579 125L574 123L575 126L571 126L574 123L573 114L575 111L572 109L572 106L577 95L566 91L561 93L560 96L555 100L539 103L532 107L525 108L516 107L508 111L498 111L492 110L471 121L456 116L438 127L424 127L413 118L405 108L405 105L401 103L398 100L385 102L384 101L387 101L390 97L396 96L399 92L403 91L404 86L402 80L395 71L393 73L390 72L389 68L384 63L381 64L379 56L377 54L378 56L375 54L372 50L366 47L354 32L346 30L344 26L340 23L335 25L332 24L329 18L331 16L326 12L324 15L326 19L325 22L323 21L320 12L317 11L316 5L313 2L308 -24L384 -23L385 -20L389 -15L391 -2L391 3L388 7L390 19L388 15L388 18L386 18L392 20L393 25L394 28L392 26L395 36L394 34L401 52L400 64L405 72L405 76L408 74L416 78L426 76L430 73L436 75L436 73L439 72L438 74L440 74L441 70L448 67L453 61L476 59L491 54L505 45L509 47L520 45L527 39L529 34L535 31L547 27L553 27L561 22L579 18L598 9L596 1L599 -5L604 -10L622 -16L628 -17L638 -23L650 -23L654 -21L661 -24ZM327 6L331 8L327 7L328 10L338 10L336 8L332 9L332 5L329 3L328 3L330 4L327 6ZM329 0L331 1L331 -1L330 -2L329 0ZM385 17L386 16L386 13L385 17ZM388 54L390 51L388 54ZM388 46L390 48L390 45L388 46ZM594 86L601 88L594 86ZM621 79L627 84L631 84L640 83L648 79L639 75L633 78L626 75L621 79Z"/>
+  <clipPath id="landclip-adal-invasion-of-ethiopia"><use href="#land-adal-invasion-of-ethiopia"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-adal-invasion-of-ethiopia)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-adal-invasion-of-ethiopia)"/>
+  <use href="#land-adal-invasion-of-ethiopia" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-adal-invasion-of-ethiopia" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-adal-invasion-of-ethiopia" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-adal-invasion-of-ethiopia)"><path d="M351 360L352 368L356 373L362 375L373 371L385 364L405 343L424 326L450 310L469 289L503 243L508 232L507 226L501 222L491 219L480 218L471 220L462 225L432 250L390 267L377 276L366 288L359 305L353 327L351 354Z" fill="rgb(189,188,126)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M146 347L150 354L159 356L169 353L173 346L170 339L162 336L151 339L146 346Z" fill="rgb(172,210,197)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M119 335L121 343L130 341L153 325L158 319L158 315L155 312L149 311L135 313L123 325L119 334Z" fill="rgb(173,168,182)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M262 -24L145 -24L141 -9L47 -12L50 29L56 36L59 45L58 58L50 70L49 92L53 96L52 107L60 106L91 112L141 107L150 113L158 113L165 116L182 116L207 112L219 113L220 103L223 93L227 92L233 79L247 73L247 61L252 52L253 42L254 42L252 22L255 17L261 -2L264 -5L263 -16L268 -22L263 -24Z" fill="rgb(176,175,113)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M326 23L322 52L325 55L323 61L324 61L324 68L326 73L329 74L334 96L336 96L336 102L340 112L341 146L342 146L344 152L313 169L311 176L319 179L347 162L351 162L356 166L356 169L364 172L372 172L375 168L378 168L375 178L375 189L379 193L379 199L376 202L374 210L367 210L366 213L367 218L364 220L356 213L355 206L352 208L350 213L347 213L346 218L354 223L354 226L357 226L356 235L351 230L344 229L335 237L325 237L324 233L320 235L312 229L311 223L308 222L308 215L297 209L300 206L299 199L296 201L294 198L291 198L288 202L284 202L283 199L275 199L273 196L267 195L269 182L267 181L274 181L274 175L269 173L271 169L266 163L265 155L273 145L273 138L269 128L258 126L251 122L252 118L257 112L255 107L258 105L257 86L261 81L263 71L268 65L266 61L270 61L277 48L275 42L282 31L288 9L291 7L297 -5L300 -6L309 -21L312 -18L313 -5L317 3L317 7L322 12L323 19L326 19L326 22Z" fill="rgb(175,213,189)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M461 -24L464 -21L468 -9L472 -8L471 -3L474 -3L473 0L474 4L479 6L477 10L482 16L484 31L473 48L463 57L465 60L455 61L447 68L445 68L444 64L434 64L431 67L430 76L404 76L405 71L400 67L401 52L396 47L392 22L389 20L388 4L390 4L391 -13L383 -24Z" fill="rgb(158,190,164)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M390 100L400 100L409 109L411 115L419 123L425 126L441 125L441 128L436 135L433 135L428 140L418 143L414 148L410 149L409 152L387 162L385 165L382 165L382 168L378 166L378 168L375 168L372 172L364 172L356 169L356 166L351 162L347 162L319 179L311 176L313 169L344 152L342 140L341 140L340 112L336 102L336 94L392 70L398 71L399 77L406 84L405 92L391 97L389 100Z" fill="rgb(203,158,154)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M444 64L445 70L440 74L430 74L431 67L434 64Z" fill="rgb(165,190,146)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-adal-invasion-of-ethiopia" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="158.4" y="52.9" class="lbl">푼지 술탄국</text><text x="300.5" y="96.9" class="lbl">에티오피아 제국</text><text x="386.0" y="130.5" class="lbl">아달 술탄국</text>
+  <g transform="translate(320.0 180.6)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-adal-invasion-of-ethiopia)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-adal-invasion-of-ethiopia)"/>
+  <rect width="640" height="360" fill="url(#vignette-adal-invasion-of-ethiopia)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">정복</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:19px">아달 술탄국의 에티오피아 침공</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1529년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="아잔타 석굴의 두 번째 조성">
+<defs>
+  <clipPath id="frame-ajanta-vakataka-caves"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-ajanta-vakataka-caves" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-ajanta-vakataka-caves" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-ajanta-vakataka-caves" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="204" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-ajanta-vakataka-caves" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-ajanta-vakataka-caves"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-ajanta-vakataka-caves" d="M-24 -24L-24 164L-20 162L-10 144L-9 139L-10 137L-16 137L-24 126L-24 72L-18 71L-8 74L0 72L3 74L2 72L5 71L7 75L23 80L26 75L31 77L30 81L33 79L37 79L37 77L38 76L41 77L41 79L43 79L42 78L45 75L66 77L66 75L68 73L78 73L76 72L78 71L80 71L79 71L79 73L86 76L89 75L90 77L92 74L101 74L106 72L111 73L124 70L129 72L129 70L125 68L120 70L123 68L126 67L129 69L130 73L134 77L132 85L138 85L145 87L142 90L144 91L143 91L145 96L147 96L145 98L147 102L150 102L149 104L150 105L149 106L152 107L153 106L152 108L154 109L154 108L156 108L157 106L160 109L160 105L162 108L161 110L163 111L163 106L163 109L166 111L163 113L167 113L169 110L177 107L168 113L169 115L170 115L169 117L173 119L171 121L178 126L185 130L196 132L198 130L204 128L204 127L210 128L210 125L212 124L212 127L209 129L205 137L201 137L197 140L196 138L194 141L191 139L191 141L185 143L185 140L182 140L182 138L180 143L203 168L217 178L225 177L245 167L249 158L247 154L243 154L243 152L245 153L244 151L247 153L246 151L244 151L245 149L247 150L250 147L249 144L246 143L250 143L251 141L251 143L253 144L262 143L262 144L259 145L255 145L254 150L254 151L258 149L255 153L255 157L267 155L260 157L255 162L259 161L255 163L258 167L256 169L260 169L261 170L259 171L262 172L261 175L262 174L263 177L257 197L257 199L258 199L258 204L261 204L259 205L259 207L265 211L259 209L259 217L260 218L263 212L264 216L265 215L262 218L264 219L264 222L262 220L261 222L264 227L262 226L262 230L265 232L265 234L263 231L262 233L265 236L266 246L268 247L267 247L272 268L270 268L272 270L270 270L277 287L279 289L281 288L279 290L280 292L282 291L280 293L284 295L280 294L282 295L284 299L283 301L287 306L290 305L287 307L290 309L292 311L291 313L292 312L294 314L292 313L293 318L295 319L294 319L295 323L298 331L299 330L300 332L299 332L299 337L302 348L304 348L302 349L309 366L314 367L312 368L316 373L322 384L406 384L406 381L403 382L406 380L405 372L409 362L408 362L413 355L417 338L410 332L411 331L412 332L412 330L416 336L412 319L410 320L413 317L413 312L410 301L415 288L423 283L425 284L426 287L428 280L428 284L430 286L436 274L439 273L446 274L457 269L459 261L458 260L457 263L456 261L459 257L477 247L478 245L477 244L479 244L481 239L495 231L508 215L508 212L509 213L517 205L525 200L520 203L521 200L518 201L516 205L519 199L522 196L525 196L525 199L522 200L523 201L542 194L537 190L543 194L544 190L550 187L548 187L551 184L549 186L550 183L556 178L552 176L554 176L552 170L553 164L559 159L572 155L579 147L578 145L575 144L574 140L576 144L580 145L579 150L581 159L581 154L582 158L582 155L584 158L585 158L586 150L586 159L587 159L589 145L589 150L591 146L591 159L592 156L593 157L593 154L594 157L598 158L594 150L598 151L597 146L601 157L603 156L604 150L605 155L607 150L606 143L607 149L609 142L607 153L609 156L611 154L610 151L611 153L615 152L613 147L614 147L615 140L617 138L615 143L615 148L616 150L619 145L617 149L618 149L622 145L618 152L620 151L619 153L622 153L626 145L625 143L626 147L630 141L629 137L627 136L626 138L627 133L625 132L628 129L626 125L629 125L630 121L622 116L629 118L629 114L627 113L630 113L630 116L632 115L630 116L631 121L630 125L637 136L639 136L638 134L640 137L642 137L643 135L642 133L645 133L648 129L648 132L652 137L654 144L657 140L655 145L658 152L657 154L659 154L658 157L659 156L658 162L664 175L664 -24ZM576 157L578 157L579 152L576 157ZM588 153L589 154L589 151L588 153ZM597 151L599 155L597 151ZM624 152L625 149L624 152ZM625 151L627 150L626 148L625 151ZM626 118L629 120L626 118ZM627 132L628 133L629 131L631 131L628 129L627 132ZM627 148L628 148L628 149L630 145L627 148ZM628 152L629 149L628 152ZM628 127L631 128L629 126L628 127ZM629 134L631 139L631 149L634 146L635 139L631 131L629 134ZM630 140L630 142L630 140ZM637 144L637 141L637 144ZM638 147L639 147L642 144L640 140L638 147Z"/>
+  <clipPath id="landclip-ajanta-vakataka-caves"><use href="#land-ajanta-vakataka-caves"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-ajanta-vakataka-caves)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-ajanta-vakataka-caves)"/>
+  <use href="#land-ajanta-vakataka-caves" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-ajanta-vakataka-caves" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-ajanta-vakataka-caves" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-ajanta-vakataka-caves)"><path d="M399 349L387 349L365 364L352 361L348 362L348 376L343 384L405 384L404 374L413 357L404 350Z" fill="rgb(177,208,204)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-24 -24L142 -24L138 -2L139 -2L138 4L140 4L140 15L142 15L141 24L143 30L143 51L150 63L142 79L132 83L131 73L126 68L119 73L94 74L94 77L83 76L82 73L69 73L67 76L47 76L45 79L39 77L36 80L29 80L28 77L17 79L13 76L7 76L7 73L-24 73L-24 124L-21 126L-21 129L-24 129Z" fill="rgb(183,198,144)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M357 292L357 259L348 241L323 222L295 220L285 229L278 240L281 259L278 262L270 262L261 224L264 215L263 212L260 216L260 214L260 209L264 210L259 208L257 197L261 181L260 170L257 166L270 164L285 157L284 115L290 96L322 90L337 91L341 99L367 107L384 119L402 119L413 127L428 144L439 139L453 122L460 122L471 126L487 142L488 150L474 176L433 189L421 198L419 206L420 221L433 238L447 248L441 256L438 265L441 273L436 274L430 286L423 283L417 286L412 295L403 292L393 283L379 284L376 296L359 292Z" fill="rgb(166,179,126)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M374 318L408 322L412 320L413 315L410 301L412 296L403 292L393 283L379 284L376 296L365 294L364 296L362 310L367 316Z" fill="rgb(226,180,144)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M639 146L639 142L644 142L643 144L642 144ZM208 175L199 166L200 163L191 155L188 155L180 144L180 139L185 139L186 142L189 142L191 139L199 139L207 134L209 129L190 133L177 127L171 118L167 117L167 114L163 114L163 108L152 108L149 107L148 102L145 102L146 95L142 86L132 85L132 83L142 79L150 63L143 51L143 30L141 24L142 15L140 15L140 4L138 4L139 -2L138 -2L142 -24L408 -24L407 -14L413 -5L429 -1L434 7L443 12L446 12L446 9L450 7L472 6L473 9L482 13L498 16L508 15L510 19L518 18L520 25L525 27L523 39L529 40L530 43L541 43L548 48L557 46L560 49L575 49L587 45L596 46L597 49L602 49L607 55L621 55L614 63L624 73L639 74L654 77L639 77L639 82L643 83L645 88L645 99L654 101L660 96L664 98L664 174L661 173L659 167L660 160L655 160L657 150L654 147L653 140L646 140L648 131L637 137L635 149L630 150L631 147L626 147L622 155L615 149L614 153L611 155L599 155L598 157L591 157L590 147L589 147L586 156L580 159L579 150L578 150L571 157L555 163L552 167L554 167L555 180L550 183L552 187L543 193L543 196L527 202L524 202L524 197L521 197L522 203L508 216L500 229L494 234L486 237L483 243L475 250L460 257L458 262L460 262L459 269L452 273L441 273L438 265L441 256L447 248L433 238L420 221L419 214L420 210L423 209L426 193L433 189L474 176L488 150L487 142L471 126L460 122L453 122L439 139L428 144L413 127L402 119L384 119L367 107L341 99L337 91L322 90L290 96L284 115L285 157L270 164L257 166L260 170L259 170L255 166L259 156L254 155L254 143L251 143L250 150L245 152L247 155L250 155L247 167L231 175L229 177L217 179Z" fill="rgb(174,168,184)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M300 317L316 342L326 348L346 351L358 345L363 338L356 314L357 259L348 241L323 222L295 220L285 229L278 240L280 257L291 287L297 297L299 306Z" fill="rgb(194,187,205)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M614 63L624 73L639 74L656 78L664 78L664 19L640 19L627 26L622 54L619 57Z" fill="rgb(164,179,126)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-ajanta-vakataka-caves" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="319.9" y="265.0" class="lbl">카담바 왕조</text>
+  <g transform="translate(320.0 181.5)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-ajanta-vakataka-caves)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-ajanta-vakataka-caves)"/>
+  <rect width="640" height="360" fill="url(#vignette-ajanta-vakataka-caves)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">문화·학문</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">아잔타 석굴의 두 번째 조성</text>
+  </g>
+  <text x="320" y="284" class="year">서기 460년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

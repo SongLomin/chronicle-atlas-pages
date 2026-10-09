@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="페르시아·잉글랜드의 호르무즈 점령">
+<defs>
+  <clipPath id="frame-capture-of-hormuz-1622"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-capture-of-hormuz-1622" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-capture-of-hormuz-1622" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-capture-of-hormuz-1622" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="86" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-capture-of-hormuz-1622" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-capture-of-hormuz-1622"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-capture-of-hormuz-1622" d="M-24 -24L-24 384L-24 279L-24 284L-22 284L-24 287L-24 297L-22 303L-23 307L-22 311L-10 327L-4 329L5 335L8 340L10 339L10 343L13 345L16 353L18 354L19 362L23 367L24 372L30 380L36 384L297 384L300 380L318 378L322 373L324 364L329 359L347 355L344 340L348 329L354 322L356 322L354 326L359 327L361 326L367 312L377 304L383 294L386 287L386 281L380 280L365 259L362 257L357 257L337 252L328 244L321 234L318 226L318 216L316 213L320 207L318 205L320 203L317 202L320 202L321 200L319 200L321 198L318 197L317 201L319 201L315 200L310 211L310 210L304 216L302 215L297 221L298 223L297 222L293 227L284 233L283 238L280 238L283 240L281 240L280 243L274 246L263 248L255 246L245 246L244 245L239 249L230 250L228 249L228 244L225 244L224 241L223 244L218 243L222 237L220 236L218 238L216 235L219 235L219 237L224 227L224 222L222 221L221 216L222 213L224 212L223 208L220 207L217 202L212 206L210 213L212 213L210 216L209 213L208 214L209 217L207 217L209 232L207 233L203 226L202 218L195 212L197 214L194 206L192 206L193 201L195 205L197 199L193 195L192 190L196 191L186 184L184 179L180 180L179 176L177 176L178 174L175 174L179 174L177 171L169 170L170 168L168 168L170 165L168 162L169 161L166 160L163 152L162 153L163 150L160 147L161 145L156 138L155 131L147 131L152 126L156 127L152 114L152 116L155 115L161 118L165 117L166 115L170 116L171 112L170 108L173 106L172 105L175 104L178 106L177 108L171 107L176 111L177 110L177 113L182 113L183 116L191 111L194 112L195 118L205 129L205 136L209 136L211 138L210 140L209 139L208 140L213 145L214 149L220 163L226 165L232 165L241 169L245 174L244 176L252 181L260 184L261 187L266 190L277 190L279 192L287 195L297 188L301 188L304 184L310 183L313 180L327 180L328 183L330 183L329 185L331 187L332 196L335 202L334 204L337 210L346 211L346 214L350 212L354 216L359 214L367 215L371 219L379 217L388 220L396 219L399 221L398 219L401 218L402 222L418 226L421 222L425 223L425 227L427 225L431 225L431 224L432 223L437 226L436 224L439 222L459 223L458 221L461 220L470 220L469 219L470 218L472 218L471 220L478 222L480 222L482 224L484 220L492 221L497 219L502 220L513 217L518 219L518 217L515 215L510 217L513 215L516 214L523 224L521 231L528 231L533 233L531 235L533 236L532 236L534 241L535 242L534 243L535 248L539 248L538 252L540 252L541 251L541 253L543 254L545 253L545 251L548 254L548 251L550 253L549 255L551 256L551 251L551 254L554 256L551 258L554 258L556 255L564 252L556 257L556 260L558 259L556 261L560 264L559 265L565 270L572 274L582 276L584 274L590 272L590 271L595 272L595 269L597 269L597 271L595 273L591 280L587 281L583 283L582 282L580 285L578 283L577 285L572 286L572 283L569 284L569 282L567 286L589 310L602 319L610 318L629 309L633 300L630 297L627 296L627 295L629 296L628 294L630 296L630 294L628 293L629 292L630 293L633 290L633 287L630 286L634 287L635 284L635 287L636 287L645 286L642 289L638 288L637 293L638 294L642 292L638 295L638 299L649 297L643 300L639 305L642 304L638 305L642 309L639 311L643 311L644 312L642 313L645 314L644 317L645 316L646 318L640 338L640 340L641 339L641 344L644 344L642 345L642 348L648 351L643 349L642 357L643 357L646 352L647 355L648 355L645 358L646 358L647 361L645 359L644 361L647 367L645 365L645 369L648 371L648 372L646 370L645 372L648 375L649 384L664 384L664 -24ZM154 121L157 125L160 123L156 116L157 118L154 121ZM158 129L161 130L160 128L158 129ZM182 177L186 177L182 177ZM201 202L204 210L205 202L203 201L204 200L202 200L201 202ZM207 215L208 212L207 215ZM243 243L244 244L244 241L243 243ZM255 187L259 188L255 187ZM255 243L258 244L260 241L255 243ZM264 246L271 246L268 243L264 246ZM269 194L272 195L272 193L269 194ZM278 239L281 240L279 238L278 239ZM297 191L297 194L308 189L310 190L317 185L306 185L306 188L297 191ZM363 329L363 331L369 324L368 320L363 329Z"/>
+  <clipPath id="landclip-capture-of-hormuz-1622"><use href="#land-capture-of-hormuz-1622"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-capture-of-hormuz-1622)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-capture-of-hormuz-1622)"/>
+  <use href="#land-capture-of-hormuz-1622" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-capture-of-hormuz-1622" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-capture-of-hormuz-1622" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-capture-of-hormuz-1622)"><path d="M-24 -24L93 -24L94 -20L99 -15L99 -4L105 2L103 14L106 16L106 19L102 25L105 25L116 37L118 48L125 49L125 52L128 54L127 57L130 58L133 65L132 69L136 78L142 85L143 93L149 97L148 100L154 106L158 106L161 109L161 113L165 116L165 118L160 118L161 125L150 127L150 130L154 130L157 132L157 137L162 144L164 154L172 163L170 169L177 170L180 177L195 189L195 193L197 196L197 203L194 204L197 206L199 214L204 218L205 225L207 225L208 215L211 214L211 207L215 203L220 203L226 208L223 220L226 221L226 228L222 232L220 242L226 244L227 252L215 248L216 245L202 232L193 213L186 208L190 196L178 184L178 181L174 177L164 173L163 161L162 159L158 157L157 150L154 150L156 147L152 144L151 137L142 134L142 131L138 131L135 128L130 130L128 124L125 125L124 121L115 116L104 105L101 105L90 88L86 90L87 85L83 82L83 79L57 51L48 48L42 40L36 39L32 33L29 33L22 25L13 20L-1 22L-7 25L-9 30L-17 31L-17 34L-20 34L-24 38L-24 182L-19 193L-16 193L-18 194L-16 199L-13 200L-10 210L-7 211L0 228L3 230L5 238L12 246L23 268L38 288L38 290L43 296L50 310L57 315L59 322L68 330L68 333L70 335L73 334L80 348L83 346L81 350L84 352L85 357L90 360L89 362L100 373L100 376L108 384L36 384L26 374L23 366L19 364L20 358L15 353L14 346L11 345L12 341L6 338L-2 329L-8 329L-18 318L-22 310L-22 300L-24 298L-22 281L-24 279Z" fill="rgb(158,190,164)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M206 204L205 208L201 207L201 200L206 200L206 203ZM515 -24L515 -4L516 -4L511 40L508 43L498 43L497 63L486 75L484 103L489 112L505 113L522 119L520 143L522 143L520 154L522 154L516 184L518 184L517 190L519 194L513 210L514 217L509 220L485 221L485 224L475 223L473 220L462 220L460 223L441 223L439 225L433 224L430 227L424 227L423 224L412 225L408 223L402 223L402 220L371 220L366 215L350 215L345 214L344 211L338 211L334 207L332 187L325 180L315 180L313 183L317 183L317 186L312 190L297 194L297 190L302 189L296 189L288 196L281 194L277 190L265 190L261 184L246 179L241 170L233 166L224 166L218 161L219 159L213 151L213 144L208 143L210 137L205 135L205 130L197 122L194 112L184 116L171 109L172 115L165 116L161 113L161 109L158 106L154 106L148 100L149 97L143 93L142 85L136 78L132 69L133 65L130 58L127 57L128 54L125 52L125 49L118 48L116 37L105 25L102 25L106 19L106 16L103 14L105 2L99 -4L99 -15L94 -20L93 -24Z" fill="rgb(183,198,144)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M664 -24L664 330L653 334L646 345L642 346L640 333L644 327L645 315L638 308L642 299L638 297L637 286L634 286L634 293L629 295L630 297L633 297L633 306L629 311L609 320L602 320L593 316L585 308L586 306L578 297L575 297L567 288L567 282L576 285L578 282L585 282L593 278L595 273L577 277L564 271L559 263L555 262L555 259L550 259L551 253L541 253L538 252L537 248L534 248L535 241L533 241L532 234L521 231L522 223L514 215L513 210L519 194L517 190L518 184L516 184L522 154L520 154L522 143L520 143L522 119L505 113L489 112L484 103L486 75L497 63L498 43L508 43L511 40L516 -4L515 -4L515 -24Z" fill="rgb(171,197,145)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M368 270L361 268L358 266L356 262L356 257L366 257L376 271L371 273Z" fill="rgb(230,206,138)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-capture-of-hormuz-1622" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="365.7" y="46.9" class="lbl">사파비 왕조</text>
+  <g transform="translate(320.0 182.0)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-capture-of-hormuz-1622)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-capture-of-hormuz-1622)"/>
+  <rect width="640" height="360" fill="url(#vignette-capture-of-hormuz-1622)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><g stroke="#3b2412" stroke-width="3" stroke-linecap="round">
+    <path d="M22 22 L66 66" /><path d="M78 22 L34 66" />
+    <path d="M16 16 L28 20 L20 28 Z" fill="#cfd8dc"/><path d="M84 16 L72 20 L80 28 Z" fill="#cfd8dc"/>
+    <path d="M58 72 L72 58" /><path d="M42 72 L28 58" />
+    <path d="M68 70 L80 82" stroke-width="6"/><path d="M32 70 L20 82" stroke-width="6"/></g>
+    <path d="M22 22 L66 66" stroke="#dfe7ea" stroke-width="1.2"/><path d="M78 22 L34 66" stroke="#dfe7ea" stroke-width="1.2"/>
+    <circle cx="82" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/><circle cx="18" cy="84" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">정복</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:19px">페르시아·잉글랜드의 호르무즈 점령</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1622년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

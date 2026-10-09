@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="그리스-박트리아 왕국의 독립">
+<defs>
+  <clipPath id="frame-greco-bactrian-independence"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-greco-bactrian-independence" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-greco-bactrian-independence" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-greco-bactrian-independence" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="7" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-greco-bactrian-independence" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-greco-bactrian-independence"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-greco-bactrian-independence" d="M-24 -24L-24 384L12 384L8 383L7 379L4 379L8 379L6 377L-1 375L0 374L-2 373L0 371L-3 368L-2 367L-4 367L-6 359L-7 360L-7 357L-9 355L-9 353L-13 347L-14 340L-21 340L-16 336L-13 336L-17 325L-16 327L-14 326L-8 328L-5 328L-4 326L0 326L1 324L0 320L3 318L1 317L4 316L7 318L6 320L1 319L5 322L6 321L6 324L11 324L11 326L18 323L21 323L22 328L31 338L31 344L35 344L36 346L34 349L39 353L45 369L56 371L63 375L67 379L66 380L72 384L664 384L664 -24ZM74 131L75 138L75 130L74 131Z"/>
+  <clipPath id="landclip-greco-bactrian-independence"><use href="#land-greco-bactrian-independence"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-greco-bactrian-independence)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-greco-bactrian-independence)"/>
+  <use href="#land-greco-bactrian-independence" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-greco-bactrian-independence" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-greco-bactrian-independence" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-greco-bactrian-independence)"><path d="M527 -15L523 -22L520 -24L449 -24L448 -22L451 -20L448 -12L446 -12L446 -7L451 -4L451 -1L454 -1L456 8L464 11L460 19L468 24L466 33L471 38L477 39L479 43L476 49L478 52L484 51L484 57L487 58L485 63L482 66L434 85L428 92L419 95L417 100L412 100L410 103L415 106L414 110L418 110L422 116L436 119L435 122L459 125L500 137L504 143L507 143L508 147L511 147L514 152L514 155L519 162L524 163L525 166L538 170L542 175L559 178L571 186L575 186L583 182L590 182L644 168L648 162L656 157L661 150L664 149L664 47L655 46L656 44L626 44L598 55L573 55L573 51L571 51L572 43L567 36L568 32L566 30L566 24L560 12L560 1L559 1L561 -4L560 -7L554 -7L552 -10L544 -9L545 -10L529 -15Z" fill="rgb(145,183,143)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M3 163L-1 159L0 153L-10 153L-24 143L-24 214L-17 215L-2 219L9 216L13 210L28 207L35 199L55 191L57 188L34 183L29 181L31 178L30 176L25 178L20 169L2 165Z" fill="rgb(205,160,131)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M-24 116L-10 116L-4 119L-1 122L-2 125L1 127L-3 140L-1 140L-2 153L-10 153L-24 143Z" fill="rgb(139,175,178)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M260 384L282 347L289 340L290 338L294 336L293 334L296 334L305 326L309 319L310 309L317 298L329 286L328 283L331 283L333 278L338 274L338 270L346 263L354 251L357 251L367 234L370 233L373 226L375 227L378 220L383 216L382 213L385 212L395 195L405 183L407 176L418 166L426 169L442 166L442 170L450 168L459 168L464 170L461 178L461 186L462 186L462 193L463 193L466 207L467 207L467 213L471 222L470 230L473 230L471 234L472 234L472 240L475 245L475 249L476 249L476 255L479 256L479 262L481 263L481 266L483 266L483 274L490 281L529 295L532 294L532 299L538 297L544 306L554 307L559 315L569 318L573 325L577 323L583 330L594 334L596 336L607 338L610 340L615 339L615 343L619 343L624 347L628 346L632 352L637 355L645 355L657 359L657 361L664 362L664 384Z" fill="rgb(174,171,186)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M362 122L364 122L364 128L367 128L365 131L367 137L381 140L381 143L386 140L386 143L396 144L399 150L407 155L410 160L418 165L418 166L407 176L405 183L395 195L378 207L377 212L373 210L368 215L364 215L363 217L358 217L349 222L347 226L341 224L336 228L333 227L323 233L312 234L310 237L300 235L293 241L291 248L287 251L287 253L288 253L286 259L283 259L281 266L275 268L276 271L266 279L262 279L259 285L256 283L235 314L227 322L222 332L216 338L202 362L187 377L180 381L179 383L177 382L175 384L71 384L68 383L64 375L56 372L46 370L39 359L38 352L34 351L36 346L31 344L31 339L24 332L21 323L12 327L1 321L2 326L-9 329L-9 335L-14 336L-24 334L-24 214L-17 215L-2 219L9 216L13 210L28 207L35 199L55 191L57 188L75 182L91 181L93 173L90 169L103 166L106 159L114 153L130 153L138 147L154 146L173 140L202 127L208 122L209 119L214 121L242 109L249 110L259 107L284 107L290 112L296 110L308 115L349 119L351 112L357 107L358 104L362 104L362 98L361 98L362 92L368 91L372 94L385 85L387 88L386 91L389 92L388 95L372 103L373 106L363 112L362 116L365 118L364 119Z" fill="rgb(200,201,211)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-greco-bactrian-independence" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="130.3" y="258.8" class="lbl">셀레우코스 제국</text><text x="565.4" y="115.3" class="lbl">월지</text>
+  <g transform="translate(320.0 182.9)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-greco-bactrian-independence)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M30 90 L30 14" stroke="#3b2412" stroke-width="4" stroke-linecap="round"/>
+    <path d="M32 16 C46 10 56 22 70 16 C76 14 80 14 84 16 L84 50 C74 46 66 54 54 52 C44 50 40 44 32 48 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M44 28 L50 38 L60 26" fill="none" stroke="#f3e6c4" stroke-width="3"/>
+    <circle cx="30" cy="12" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-greco-bactrian-independence)"/>
+  <rect width="640" height="360" fill="url(#vignette-greco-bactrian-independence)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M30 90 L30 14" stroke="#3b2412" stroke-width="4" stroke-linecap="round"/>
+    <path d="M32 16 C46 10 56 22 70 16 C76 14 80 14 84 16 L84 50 C74 46 66 54 54 52 C44 50 40 44 32 48 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M44 28 L50 38 L60 26" fill="none" stroke="#f3e6c4" stroke-width="3"/>
+    <circle cx="30" cy="12" r="4" fill="#e9c46a" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">분리 독립</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">그리스-박트리아 왕국의 독립</text>
+  </g>
+  <text x="320" y="284" class="year">기원전 250년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

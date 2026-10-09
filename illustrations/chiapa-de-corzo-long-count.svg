@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="가장 이른 장주기 달력 날짜">
+<defs>
+  <clipPath id="frame-chiapa-de-corzo-long-count"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-chiapa-de-corzo-long-count" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-chiapa-de-corzo-long-count" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-chiapa-de-corzo-long-count" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="221" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-chiapa-de-corzo-long-count" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-chiapa-de-corzo-long-count"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-chiapa-de-corzo-long-count" d="M-24 -24L-23 -21L-24 -23L-21 -22L-18 -24L-20 -21L-23 -20L-21 -19L-18 -19L-18 -21L-15 -21L-15 -17L-12 -16L-14 -16L-8 -14L-7 -11L-7 -14L-6 -12L-4 -12L1 -9L-2 -9L-3 -7L-6 -10L-1 -4L0 -8L1 -7L2 -2L0 -3L3 2L5 3L2 1L9 5L11 3L12 8L5 4L22 16L27 24L33 29L34 34L48 47L51 63L55 70L61 74L60 83L53 90L58 90L60 94L50 98L54 107L63 117L65 122L77 128L79 127L79 129L87 133L93 138L97 145L125 154L129 153L149 169L171 177L178 181L197 184L202 190L212 192L210 192L219 197L229 198L244 204L251 204L268 197L274 193L282 192L279 191L281 190L276 191L280 187L282 191L284 189L286 189L283 192L290 193L300 197L289 191L290 190L296 192L320 213L325 215L326 217L323 215L336 229L356 242L371 243L382 247L388 251L400 252L416 259L411 257L416 257L417 259L419 258L419 259L428 259L431 256L429 255L430 253L432 255L434 252L434 254L439 254L437 256L439 260L441 260L440 261L442 262L439 264L441 264L438 264L435 261L433 265L452 280L458 290L476 305L474 306L475 308L470 308L476 311L475 314L477 314L473 317L474 318L471 320L476 330L484 332L488 337L493 331L486 327L484 322L495 328L493 328L496 328L498 337L507 339L519 348L520 352L519 354L520 354L517 358L520 361L526 363L526 359L522 355L529 357L531 361L529 363L535 370L537 364L550 363L549 366L551 367L551 366L555 366L559 368L559 367L563 376L566 378L570 379L570 376L572 375L570 373L573 374L574 373L575 375L573 375L577 384L596 382L595 379L586 369L586 366L601 358L603 357L600 357L602 353L606 352L606 350L607 351L609 349L615 349L615 347L618 346L615 347L616 349L625 356L626 354L630 363L631 362L630 359L631 362L633 360L634 361L634 359L634 362L636 361L637 362L636 359L638 364L642 366L639 366L636 362L635 365L632 365L634 368L630 369L633 377L638 384L664 384L664 357L661 359L664 360L664 373L662 371L662 370L664 370L664 368L661 368L661 365L654 360L653 356L649 355L638 344L627 340L616 339L618 337L607 337L606 336L603 337L601 342L599 341L598 343L597 341L594 344L584 347L579 352L564 354L556 345L555 346L559 351L552 351L549 349L548 346L550 345L547 345L545 343L547 340L537 335L528 325L520 311L519 312L520 309L517 306L514 300L516 294L519 293L518 288L516 289L515 287L516 286L516 283L517 282L516 280L518 285L519 277L518 278L516 273L520 271L519 267L521 267L519 276L522 275L521 253L523 242L529 233L526 224L524 223L526 221L526 223L530 219L527 217L524 213L518 210L522 214L519 215L521 212L519 212L516 214L515 212L511 210L515 213L513 213L507 207L517 210L505 201L498 200L502 201L497 202L497 199L490 197L480 200L469 196L471 197L470 198L461 202L449 202L440 200L437 201L435 198L432 198L427 200L423 204L413 197L416 200L414 200L413 203L407 199L407 197L411 192L415 191L420 182L419 185L422 176L420 167L423 163L420 161L424 150L424 144L419 145L420 144L418 144L423 137L421 137L424 136L426 133L426 137L425 141L428 142L430 148L438 123L434 125L433 123L438 120L439 117L438 115L436 117L438 117L433 118L432 115L433 116L438 110L437 108L437 112L438 102L452 84L453 81L451 80L451 75L449 75L447 71L439 72L445 72L442 75L427 71L417 71L403 76L388 78L377 84L373 95L374 109L369 113L367 123L352 134L357 131L354 134L357 136L356 138L359 138L352 141L352 142L346 141L345 144L343 139L342 139L344 141L340 140L342 138L344 139L342 137L333 137L326 138L327 143L326 139L323 142L317 143L317 145L317 142L308 143L302 145L308 143L303 146L289 149L286 148L282 141L277 140L273 136L265 136L262 134L265 137L259 136L260 135L257 133L261 135L253 124L250 123L247 110L231 90L225 74L221 70L218 60L222 66L227 72L225 75L226 78L228 72L222 65L219 60L217 46L216 48L219 39L220 22L219 24L217 20L220 20L221 3L225 -12L231 -24L569 -24L572 -17L577 -14L575 -13L572 -16L571 -13L573 -11L578 -12L581 -11L584 -14L588 -12L591 -24ZM30 69L32 72L32 70L30 69ZM33 74L36 74L33 74ZM220 65L222 68L220 65ZM345 138L351 134L345 138ZM389 49L390 50L391 53L392 50L390 48L389 49ZM426 154L429 148L426 154ZM428 168L431 163L428 168ZM439 143L441 140L439 143ZM447 98L448 101L453 94L449 95L447 98ZM448 195L450 194L448 195ZM456 190L465 187L459 188L456 190ZM470 188L473 186L470 188ZM491 65L493 66L501 63L501 67L506 64L511 64L513 58L518 58L520 56L524 57L538 45L556 46L561 49L561 51L550 53L558 57L564 57L568 60L570 58L571 60L571 55L573 60L586 61L585 58L586 57L588 60L587 61L596 68L599 67L600 69L604 69L613 72L623 70L628 78L629 84L637 91L653 91L658 97L656 101L648 105L645 111L664 109L664 76L662 77L664 75L658 71L657 74L655 74L655 72L652 71L657 72L657 69L648 63L647 64L651 66L653 70L651 70L650 67L644 66L642 64L643 62L641 65L638 60L624 53L623 54L622 53L610 52L604 44L599 43L601 41L598 42L595 40L587 40L585 39L584 35L582 37L573 36L572 38L569 36L572 34L564 38L563 35L549 34L533 39L531 38L529 40L528 39L524 42L510 45L508 49L507 48L502 57L505 61L500 61L491 65ZM517 286L517 287L518 285L517 286ZM529 70L531 74L535 75L542 71L539 64L533 63L531 66L533 72L529 70ZM549 342L551 344L552 343L549 342ZM551 72L554 70L551 72ZM562 2L564 1L563 -1L564 1L562 2ZM563 70L567 68L563 70ZM566 -2L567 1L566 -2ZM566 121L567 124L573 123L569 122L568 123L566 121ZM576 36L579 35L576 36ZM578 34L581 34L578 34ZM594 115L597 114L594 115ZM599 114L602 113L599 114ZM604 43L611 48L604 43ZM613 84L616 87L613 84ZM616 46L618 47L616 46ZM624 49L630 51L630 52L633 51L630 49L624 49ZM629 94L632 95L629 94ZM629 1L634 5L636 4L638 9L645 4L644 -1L638 -12L634 -12L636 -8L632 -1L635 1L632 2L632 -1L629 1ZM631 146L638 148L645 155L651 155L656 159L657 155L661 156L663 152L664 154L664 145L662 143L641 141L640 142L634 142L631 146ZM632 52L639 55L636 52L632 52ZM638 57L641 59L643 58L639 54L638 57ZM639 11L643 10L639 11ZM640 59L645 64L647 63L646 60L640 59Z"/>
+  <clipPath id="landclip-chiapa-de-corzo-long-count"><use href="#land-chiapa-de-corzo-long-count"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-chiapa-de-corzo-long-count)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-chiapa-de-corzo-long-count)"/>
+  <use href="#land-chiapa-de-corzo-long-count" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-chiapa-de-corzo-long-count" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-chiapa-de-corzo-long-count" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-chiapa-de-corzo-long-count)"><path d="M416 157L406 157L403 156L404 153L398 154L379 146L349 150L348 154L343 154L342 160L331 169L331 172L326 177L317 200L317 204L313 207L325 216L331 226L352 241L374 243L384 250L387 245L393 247L393 243L397 238L403 238L401 236L409 236L407 233L412 231L413 217L418 210L415 200L409 197L413 192L416 192L421 186L422 179L423 179L423 162L420 163L416 162L416 159Z" fill="rgb(232,195,160)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M265 167L276 167L286 172L291 182L285 187L287 190L281 189L278 194L252 204L241 204L234 200L220 199L213 194L213 184L219 182L216 175L213 176L213 167L209 160L208 157L212 153L223 153L237 159L243 159L250 163L256 163L263 167Z" fill="rgb(169,188,139)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M195 126L203 133L207 133L209 126L213 126L213 121L205 117L204 114L198 114L198 117L195 115L196 120L193 120L195 127Z" fill="rgb(208,197,208)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-chiapa-de-corzo-long-count" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="248.6" y="183.5" class="lbl">사포텍 문명</text><text x="203.3" y="123.6" class="lbl">테오티우아칸</text>
+  <g transform="translate(320.0 181.2)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-chiapa-de-corzo-long-count)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-chiapa-de-corzo-long-count)"/>
+  <rect width="640" height="360" fill="url(#vignette-chiapa-de-corzo-long-count)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">문화·학문</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">가장 이른 장주기 달력 날짜</text>
+  </g>
+  <text x="320" y="284" class="year">기원전 36년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="볼가 불가리아의 이슬람 수용">
+<defs>
+  <clipPath id="frame-volga-bulgaria-islam"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-volga-bulgaria-islam" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-volga-bulgaria-islam" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-volga-bulgaria-islam" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="154" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-volga-bulgaria-islam" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-volga-bulgaria-islam"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-volga-bulgaria-islam" d="M664 384L664 -24L-20 -24L-19 -21L-23 -20L-24 -17L-24 54L-20 57L-15 57L-17 60L-15 60L-17 62L-10 58L-12 63L-11 65L-10 63L-10 66L-7 66L-9 69L-6 67L-12 72L-7 71L-4 65L-5 68L0 68L6 65L6 67L8 66L8 67L10 65L9 63L11 64L12 62L14 63L15 61L15 63L19 60L21 61L23 58L24 61L26 60L24 59L27 61L25 57L28 59L29 58L26 55L29 57L31 57L31 55L32 57L36 50L37 52L35 51L33 54L36 56L38 54L40 55L41 53L42 54L43 52L43 54L47 55L47 54L50 54L50 52L51 53L55 53L62 48L62 55L58 53L61 57L63 57L66 62L76 63L78 66L81 68L80 70L68 67L63 72L59 71L58 75L54 72L54 79L51 82L39 81L36 78L27 76L25 78L24 75L23 78L21 75L22 79L20 80L12 78L12 81L6 80L4 82L5 83L3 82L3 85L-5 87L-4 90L-5 91L-4 93L-3 91L-3 92L-5 94L-4 96L-5 98L1 98L-4 99L-1 108L4 110L7 107L9 108L6 120L7 134L1 139L-3 140L-7 137L-9 131L-15 126L-16 122L-24 126L-24 384L74 384L73 380L75 378L75 375L73 375L74 373L73 373L74 369L75 372L77 369L80 367L80 369L84 364L88 355L96 354L96 351L97 352L99 350L97 354L102 353L103 348L100 342L103 347L104 354L108 355L112 353L108 357L97 355L100 358L100 356L104 358L101 360L110 364L118 363L119 361L119 363L122 364L124 363L124 366L126 367L118 369L110 375L110 377L115 377L120 381L121 380L124 384L146 384L149 381L152 384L157 383L160 382L160 379L162 377L162 376L158 375L154 377L152 375L148 378L142 370L139 362L143 360L144 356L146 359L142 364L153 353L158 354L163 351L164 354L165 351L170 348L171 349L174 345L181 345L181 346L190 342L186 344L196 342L196 345L197 345L196 347L193 346L185 350L184 352L187 353L183 352L179 354L176 353L179 359L181 358L187 364L182 363L180 369L181 364L179 365L178 370L175 372L174 376L175 373L176 378L174 377L168 379L169 377L165 376L163 376L163 378L164 377L164 378L167 378L162 381L170 384ZM97 359L98 361L106 363L99 361L97 359ZM328 359L329 362L328 359Z"/>
+  <clipPath id="landclip-volga-bulgaria-islam"><use href="#land-volga-bulgaria-islam"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-volga-bulgaria-islam)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-volga-bulgaria-islam)"/>
+  <use href="#land-volga-bulgaria-islam" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-volga-bulgaria-islam" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-volga-bulgaria-islam" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-volga-bulgaria-islam)"><path d="M349 165L357 166L356 176L357 176L356 182L352 186L352 189L349 189L347 192L337 195L333 194L328 197L328 195L311 194L304 186L304 180L311 157L317 149L332 152L331 154L336 156L339 160L350 163Z" fill="rgb(162,171,183)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M520 373L515 384L479 384L481 377L476 376L475 366L480 349L474 348L472 352L471 348L466 348L466 351L460 351L457 358L452 359L450 365L441 366L440 376L436 384L345 384L351 377L356 377L358 379L381 379L380 384L386 384L387 379L385 378L389 352L389 341L413 332L482 328L508 330L512 332L513 335L515 335L516 338L519 339L522 359L520 372Z" fill="rgb(176,169,185)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M602 217L602 219L613 219L613 220L620 220L620 221L626 221L626 223L630 221L629 223L645 226L644 227L647 227L647 229L664 241L664 349L644 349L642 353L635 352L635 351L626 351L611 354L598 371L592 384L540 384L536 378L520 372L522 359L519 339L516 338L515 335L513 335L512 332L508 330L482 328L413 332L389 341L387 339L388 337L386 336L385 331L383 331L382 328L380 328L378 325L348 325L350 311L352 311L355 299L352 298L350 290L353 270L357 262L361 261L363 258L368 259L377 255L390 254L390 255L405 256L413 263L435 267L446 255L449 250L447 248L448 244L452 236L463 226L473 220L475 221L494 214L509 213L551 214Z" fill="rgb(223,202,153)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M631 366L628 375L633 378L636 384L638 383L640 377L638 376L640 366L646 365L648 359L653 358L655 355L664 356L664 384L592 384L598 371L611 354L626 351L635 351L635 352L641 353L636 357L635 360L632 360L630 365L633 364L631 367Z" fill="rgb(190,161,173)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M300 377L298 376L295 384L171 384L164 382L164 377L166 376L167 378L176 378L176 372L178 370L178 366L184 363L184 359L178 357L178 354L186 354L188 349L190 349L191 347L194 348L195 341L188 343L174 344L169 347L170 349L166 348L165 351L150 353L145 360L139 360L138 363L130 363L129 360L124 360L124 363L116 361L114 364L112 364L104 359L101 359L101 357L115 354L125 349L130 342L130 337L137 335L139 337L142 337L143 326L146 318L159 305L170 300L171 296L180 282L192 290L196 289L217 293L223 291L227 295L235 296L250 296L263 299L291 298L300 302L308 314L315 317L316 320L333 325L378 325L386 333L386 336L389 341L389 352L386 373L381 373L378 377L375 377L371 373L371 367L373 366L374 359L371 347L356 348L355 346L352 344L343 344L336 348L332 353L323 355L320 361L315 363L314 366L311 366L307 370L301 370L301 373Z" fill="rgb(224,191,194)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M129 337L130 342L125 349L115 354L106 355L104 352L101 352L99 354L89 353L82 366L79 367L76 371L73 371L72 384L27 384L32 382L36 383L38 380L43 382L50 379L53 373L57 375L61 367L62 351L65 351L65 344L67 344L70 339L87 335L124 336L124 337Z" fill="rgb(190,210,171)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M196 56L196 62L202 65L203 71L209 74L213 85L218 88L220 95L223 95L226 102L226 105L229 108L228 112L231 117L230 122L232 125L230 141L232 144L225 168L222 166L219 169L214 171L213 174L201 174L193 182L192 189L194 194L192 201L194 206L195 211L197 211L199 217L197 224L198 244L195 245L192 255L191 266L187 267L172 295L155 300L147 300L143 303L96 302L76 304L71 302L37 299L31 285L33 281L31 279L27 267L30 266L30 259L34 254L33 251L35 250L38 238L41 236L40 231L42 231L47 220L50 210L50 204L52 206L55 194L54 189L56 189L57 174L52 160L54 151L52 141L53 130L52 130L52 120L51 120L53 114L51 110L52 107L49 103L50 86L53 83L54 79L51 79L52 72L57 72L58 69L64 71L68 65L67 67L75 69L75 71L80 69L83 72L89 72L92 62L101 63L103 54L119 43L146 36L144 43L149 43L153 38L155 38L156 34L160 30L171 32L171 34L184 43L184 47L187 47L192 53L192 54Z" fill="rgb(142,175,181)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-volga-bulgaria-islam" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="134.8" y="125.6" class="lbl">키예프 루스</text>
+  <g transform="translate(320.0 185.6)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-volga-bulgaria-islam)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M26 22 L74 22 C80 22 80 34 74 34 L74 78 C74 84 68 86 64 84 L24 84 C18 84 18 72 24 72 L26 72 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M26 22 C20 22 20 34 26 34" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 40 L66 40 M34 48 L66 48 M34 56 L60 56 M34 64 L54 64" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="62" cy="74" r="8" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/><path d="M58 80 L56 90 L62 86 L66 90 L66 80" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-volga-bulgaria-islam)"/>
+  <rect width="640" height="360" fill="url(#vignette-volga-bulgaria-islam)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M26 22 L74 22 C80 22 80 34 74 34 L74 78 C74 84 68 86 64 84 L24 84 C18 84 18 72 24 72 L26 72 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M26 22 C20 22 20 34 26 34" fill="none" stroke="#3b2412" stroke-width="3"/>
+    <path d="M34 40 L66 40 M34 48 L66 48 M34 56 L60 56 M34 64 L54 64" stroke="#3b2412" stroke-width="2"/>
+    <circle cx="62" cy="74" r="8" fill="#8f2a17" stroke="#3b2412" stroke-width="2.5"/><path d="M58 80 L56 90 L62 86 L66 90 L66 80" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">교역·외교</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">볼가 불가리아의 이슬람 수용</text>
+  </g>
+  <text x="320" y="284" class="year">서기 922년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

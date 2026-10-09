@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="파칼 대왕과 비문의 신전">
+<defs>
+  <clipPath id="frame-pakal-temple-of-inscriptions"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-pakal-temple-of-inscriptions" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-pakal-temple-of-inscriptions" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-pakal-temple-of-inscriptions" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="171" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-pakal-temple-of-inscriptions" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-pakal-temple-of-inscriptions"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-pakal-temple-of-inscriptions" d="M-24 -24L-24 7L-18 10L-21 9L-22 11L-24 8L-20 14L-19 10L-17 11L-17 16L-19 15L-16 20L-14 21L-16 19L-10 23L-8 21L-7 26L-13 22L3 34L8 42L14 47L16 52L24 61L25 60L31 68L32 80L36 88L42 91L41 101L34 108L39 108L41 112L31 116L35 124L44 135L46 140L58 146L60 145L60 147L67 150L73 155L78 162L105 172L110 170L129 186L152 194L159 199L178 202L182 207L193 210L190 209L199 214L210 215L225 221L231 221L248 214L254 210L262 210L259 209L261 208L256 208L260 205L262 208L265 206L266 207L263 210L270 210L279 214L269 209L270 207L276 209L300 230L305 232L305 234L303 232L316 246L336 259L351 260L361 264L367 268L379 269L396 276L390 274L396 274L397 276L398 275L399 276L407 276L410 273L408 272L409 270L411 272L414 269L414 271L418 271L416 273L418 277L420 277L419 278L421 279L419 281L421 281L418 281L415 278L413 282L432 297L438 306L455 321L453 322L454 324L449 325L455 328L454 331L456 331L452 333L453 335L451 337L455 347L463 349L467 354L472 348L465 344L463 338L474 345L472 345L475 345L477 353L486 356L498 365L499 368L498 371L499 370L496 375L499 378L506 379L506 376L501 372L508 374L510 378L508 379L513 384L516 381L523 381L524 380L524 381L529 380L528 383L529 384L530 382L534 382L536 384L565 384L567 381L573 379L582 373L579 374L581 369L584 368L584 367L585 368L587 366L594 366L594 364L597 363L594 364L595 366L604 372L604 371L609 380L610 379L609 376L610 378L612 377L613 378L613 376L612 379L614 377L615 378L615 375L617 381L621 383L617 382L615 379L613 381L611 382L612 384L664 384L664 356L658 359L653 367L646 373L641 374L640 376L643 378L644 384L640 384L639 382L633 377L631 373L627 372L617 361L606 356L595 356L597 354L583 353L579 358L578 357L577 359L576 358L572 361L563 364L552 370L543 370L535 362L534 363L538 367L531 367L528 366L527 362L529 362L525 361L526 357L516 351L507 342L499 328L498 329L499 326L496 323L493 317L495 311L498 309L497 304L495 305L494 304L496 302L495 300L496 299L495 297L497 302L499 294L497 295L495 290L499 288L498 284L500 284L498 293L501 292L500 271L502 259L508 250L505 241L503 240L505 238L505 240L509 236L506 234L504 231L497 227L501 231L498 232L500 230L498 229L496 231L494 229L490 227L494 230L492 230L486 224L496 227L484 218L477 217L481 218L476 219L476 217L469 214L459 217L448 213L450 214L449 215L440 219L429 219L420 217L417 219L414 215L412 216L407 217L403 221L393 215L395 217L394 217L393 221L386 216L386 214L390 209L394 208L399 199L398 202L401 193L400 184L402 181L400 178L404 167L404 161L398 163L399 161L397 161L403 154L400 154L403 153L405 150L406 154L404 159L407 160L409 165L417 140L413 142L413 140L417 137L418 134L418 133L416 134L418 135L413 136L411 132L413 133L417 127L417 126L417 130L418 120L431 101L432 99L431 98L431 92L429 92L426 89L418 90L424 90L421 92L407 89L396 89L382 94L368 96L356 102L353 113L353 127L349 130L347 140L332 151L337 148L333 152L337 153L336 156L338 155L332 158L332 160L325 159L325 161L323 157L322 156L323 158L320 157L322 156L324 156L322 154L312 155L306 156L307 160L306 156L303 159L297 160L297 162L297 160L288 160L282 163L288 161L283 164L269 166L266 165L262 158L257 157L254 154L245 154L242 152L246 154L240 154L240 153L237 151L242 152L230 140L227 128L212 110L205 91L201 88L199 77L202 84L207 90L205 92L207 96L209 90L202 83L199 77L198 64L196 66L199 57L200 40L199 42L198 38L200 38L201 22L205 6L212 -8L212 -15L210 -13L211 -15L209 -16L208 -21L206 -24L536 -24L537 -15L540 -13L538 -11L541 -12L547 -9L551 1L556 4L554 5L551 3L552 7L557 6L560 7L563 5L567 6L569 -4L572 -11L572 -8L574 -24ZM11 87L13 90L13 87L11 87ZM14 92L17 92L14 92ZM201 83L202 85L201 83ZM324 155L331 152L324 155ZM368 67L370 67L371 71L371 68L369 66L368 67ZM406 172L409 166L406 172ZM407 185L410 180L407 185ZM419 161L420 157L419 161ZM426 116L427 119L432 111L428 113L426 116ZM427 212L430 211L427 212ZM435 208L444 205L439 205L435 208ZM449 205L452 203L449 205ZM470 82L473 84L480 81L480 85L485 82L490 81L492 76L497 76L499 74L503 75L517 63L535 64L540 66L540 68L529 70L536 75L543 75L547 78L549 76L550 78L550 73L552 78L565 79L564 76L565 75L567 78L566 78L575 86L577 85L578 87L582 87L592 90L602 88L607 96L607 101L616 109L631 109L634 111L634 112L637 114L636 117L626 123L624 129L655 125L664 126L664 100L657 100L652 96L649 96L650 97L648 98L647 97L648 96L646 97L644 96L646 94L643 93L641 95L643 93L637 89L635 91L633 91L633 89L631 88L635 90L636 87L627 81L626 82L629 84L631 88L629 87L629 85L623 84L621 82L622 80L620 83L616 78L602 71L602 72L601 71L589 70L582 62L578 61L579 59L577 60L574 58L566 58L563 56L562 53L561 55L552 54L551 56L548 54L551 52L543 56L542 53L528 52L512 57L510 56L508 58L507 57L503 59L489 63L487 67L486 66L481 75L484 79L479 78L470 82ZM496 303L496 304L497 302L496 303ZM508 88L510 92L514 92L521 89L518 82L512 81L510 84L512 90L508 88ZM528 358L530 361L531 360L528 358ZM530 89L533 88L530 89ZM540 20L543 19L542 17L543 19L540 20ZM542 88L546 86L542 88ZM545 16L546 19L545 16ZM545 139L546 141L552 140L548 139L547 141L545 139ZM555 54L558 53L555 54ZM557 52L560 52L557 52ZM562 11L570 2L562 11ZM573 133L576 132L573 133ZM577 132L581 130L577 132ZM583 61L589 65L583 61ZM592 102L594 105L592 102ZM594 64L597 65L594 64ZM603 67L609 69L608 70L612 69L609 67L603 67ZM608 111L610 113L608 111ZM608 19L613 23L615 22L617 27L623 22L623 17L616 6L613 6L614 10L611 17L613 20L611 20L611 17L608 19ZM610 164L616 166L623 173L630 173L635 176L636 172L640 173L642 170L647 173L656 172L652 166L643 163L641 161L620 158L618 160L613 160L610 164ZM611 70L617 73L614 70L611 70ZM616 75L620 77L621 76L617 72L616 75ZM618 29L622 28L618 29ZM619 77L624 82L625 81L625 78L619 77ZM619 31L621 33L622 37L625 36L622 38L623 39L626 37L622 39L627 40L628 35L626 36L627 34L626 28L623 33L623 30L625 28L624 27L619 31ZM620 72L623 75L620 72ZM622 26L624 25L622 26ZM627 10L633 9L627 10Z"/>
+  <clipPath id="landclip-pakal-temple-of-inscriptions"><use href="#land-pakal-temple-of-inscriptions"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-pakal-temple-of-inscriptions)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-pakal-temple-of-inscriptions)"/>
+  <use href="#land-pakal-temple-of-inscriptions" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-pakal-temple-of-inscriptions" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-pakal-temple-of-inscriptions" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-pakal-temple-of-inscriptions)"><path d="M433 104L432 91L429 88L422 88L420 91L396 88L381 94L364 95L360 100L357 100L355 116L353 116L354 124L348 132L346 142L335 149L336 156L333 156L332 159L325 159L325 153L310 153L308 158L289 159L282 162L288 169L288 179L292 186L289 189L291 192L286 199L288 202L287 202L287 206L283 216L305 233L311 243L335 260L353 260L365 267L366 262L373 264L372 260L376 255L383 255L381 253L388 253L387 250L391 248L392 234L398 227L395 217L388 215L392 209L395 209L401 203L401 196L403 196L402 178L405 169L404 162L401 162L401 159L406 153L407 158L405 158L408 165L412 163L411 159L417 146L416 140L419 137L419 135L415 133L421 127L420 120L433 106Z" fill="rgb(232,195,160)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M209 127L211 127L208 120L212 120L212 117L218 117L219 120L223 120L228 130L223 129L221 135L215 135L214 132L210 132L209 129Z" fill="rgb(142,192,178)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M219 200L223 200L223 203L237 203L239 198L242 198L242 192L238 192L234 186L222 186L220 192L215 192L216 198L219 199Z" fill="rgb(169,188,139)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M176 143L183 150L188 150L190 143L193 143L194 139L185 135L185 132L178 132L179 135L175 133L176 137L173 137L176 145Z" fill="rgb(208,197,208)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-pakal-temple-of-inscriptions" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="228.7" y="194.7" class="lbl">사포텍 문명</text><text x="183.7" y="141.2" class="lbl">테오티우아칸</text>
+  <g transform="translate(320.0 181.2)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-pakal-temple-of-inscriptions)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-pakal-temple-of-inscriptions)"/>
+  <rect width="640" height="360" fill="url(#vignette-pakal-temple-of-inscriptions)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M14 30 C28 24 42 26 50 34 C58 26 72 24 86 30 L86 78 C72 72 58 74 50 82 C42 74 28 72 14 78 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 34 L50 82" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M22 40 L42 38 M22 48 L42 46 M22 56 L40 55 M58 38 L78 40 M58 46 L78 48 M60 55 L78 56" stroke="#3b2412" stroke-width="1.8"/>
+    <path d="M66 10 C80 18 84 34 70 46 L64 52 L62 50 C70 38 72 24 66 10 Z" fill="#fbfaf5" stroke="#3b2412" stroke-width="2"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">문화·학문</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">파칼 대왕과 비문의 신전</text>
+  </g>
+  <text x="320" y="284" class="year">서기 683년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

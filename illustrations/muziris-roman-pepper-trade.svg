@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="무지리스와 로마의 후추 교역">
+<defs>
+  <clipPath id="frame-muziris-roman-pepper-trade"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-muziris-roman-pepper-trade" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-muziris-roman-pepper-trade" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-muziris-roman-pepper-trade" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="50" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-muziris-roman-pepper-trade" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-muziris-roman-pepper-trade"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-muziris-roman-pepper-trade" d="M251 -24L245 -24L246 -20L245 -18L246 -17L249 -23L250 -19L251 -19L248 -17L249 -16L250 -13L248 -15L247 -13L250 -7L248 -8L247 -6L251 -2L251 0L249 -3L248 -1L251 2L253 13L254 13L253 14L255 20L254 20L258 36L257 36L258 38L256 38L260 47L261 45L260 48L266 58L268 57L266 59L267 61L269 60L267 62L271 64L267 63L269 65L271 69L270 71L274 76L277 75L274 77L277 79L278 81L279 81L278 83L280 82L281 84L279 83L281 88L283 89L281 89L283 94L286 103L287 101L288 103L286 103L287 109L290 120L292 120L290 121L298 139L302 140L301 142L310 154L319 179L321 179L319 182L324 188L324 194L326 195L323 195L324 191L321 185L323 199L327 208L330 206L327 208L337 220L344 226L348 227L360 220L362 214L364 212L363 212L363 209L368 204L381 200L391 203L388 199L383 200L379 196L387 183L387 179L394 177L393 178L400 178L399 154L396 155L399 154L398 145L403 134L402 135L407 128L410 113L410 108L405 106L404 103L405 102L406 103L406 101L410 107L406 90L404 90L407 87L407 82L406 82L404 70L409 56L417 52L420 52L420 56L422 49L423 53L425 55L430 42L434 41L441 42L453 36L455 29L454 28L453 30L452 28L455 24L474 13L475 12L474 10L476 10L478 6L493 -3L506 -20L506 -23L509 -24ZM259 312L261 313L262 311L259 312ZM396 226L400 255L404 267L407 272L416 274L418 273L432 268L440 262L444 251L443 241L442 240L441 237L438 235L440 235L437 229L433 225L433 224L434 226L433 218L428 217L430 216L430 214L424 207L423 208L422 205L424 206L421 203L421 200L408 188L406 189L413 194L405 188L401 189L405 193L407 193L407 192L416 197L412 195L409 196L404 193L407 196L404 198L405 202L404 206L401 208L402 212L399 223L399 228L397 228L398 221L396 226ZM396 204L401 207L399 205L396 204ZM399 191L402 193L400 190L399 191ZM422 54L424 55L422 54ZM441 235L442 240L441 235Z"/>
+  <clipPath id="landclip-muziris-roman-pepper-trade"><use href="#land-muziris-roman-pepper-trade"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-muziris-roman-pepper-trade)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-muziris-roman-pepper-trade)"/>
+  <use href="#land-muziris-roman-pepper-trade" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-muziris-roman-pepper-trade" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-muziris-roman-pepper-trade" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-muziris-roman-pepper-trade)"><path d="M315 171L327 208L340 223L343 220L345 194L342 190L346 180L334 174L335 167L331 164L315 170Z" fill="rgb(179,176,113)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M387 178L379 181L347 180L343 189L345 194L343 220L341 222L343 225L349 227L356 225L363 217L364 208L371 204L384 201L379 196L380 192L387 184Z" fill="rgb(161,171,182)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M430 214L424 207L425 204L421 203L422 200L419 199L419 196L412 194L414 192L413 190L400 187L400 192L405 193L403 197L404 203L399 211L398 227L394 227L394 231L397 236L398 258L402 270L408 275L417 275L432 270L444 257L445 241L442 240L439 230L434 226L433 217L430 216Z" fill="rgb(211,200,212)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M399 154L380 166L356 163L350 159L338 158L330 163L335 167L334 174L346 179L379 181L390 177L400 178L400 158Z" fill="rgb(174,211,187)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/><path d="M447 -24L447 -22L449 -22L444 -13L441 -13L430 5L411 15L393 33L388 47L382 55L375 84L365 84L348 91L342 91L335 97L325 100L318 108L315 107L300 72L293 65L288 63L279 63L274 60L267 62L259 49L257 36L255 36L255 19L249 3L247 -24Z" fill="rgb(161,204,167)" stroke="#3b2412" stroke-width="0.8" stroke-opacity="0.75" stroke-dasharray="3 2"/></g>
+  <use href="#land-muziris-roman-pepper-trade" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="417.8" y="245.9" class="lbl">아누라다푸라</text>
+  <g transform="translate(320.0 180.7)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-muziris-roman-pepper-trade)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M10 64 L90 64 L78 82 L22 82 Z" fill="#8a5a2b" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 64 L50 10" stroke="#3b2412" stroke-width="3"/>
+    <path d="M52 14 C70 20 74 40 72 58 L52 58 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M48 20 C32 26 28 42 30 58 L48 58 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M50 10 L62 6 L50 3" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M6 90 C16 84 24 96 34 90 C44 84 52 96 62 90 C72 84 80 96 94 90" fill="none" stroke="#3f6e9a" stroke-width="3"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-muziris-roman-pepper-trade)"/>
+  <rect width="640" height="360" fill="url(#vignette-muziris-roman-pepper-trade)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M10 64 L90 64 L78 82 L22 82 Z" fill="#8a5a2b" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 64 L50 10" stroke="#3b2412" stroke-width="3"/>
+    <path d="M52 14 C70 20 74 40 72 58 L52 58 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M48 20 C32 26 28 42 30 58 L48 58 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M50 10 L62 6 L50 3" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M6 90 C16 84 24 96 34 90 C44 84 52 96 62 90 C72 84 80 96 94 90" fill="none" stroke="#3f6e9a" stroke-width="3"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">탐험·항해</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:21px">무지리스와 로마의 후추 교역</text>
+  </g>
+  <text x="320" y="284" class="year">서기 50년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>

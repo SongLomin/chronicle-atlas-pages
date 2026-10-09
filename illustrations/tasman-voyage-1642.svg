@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="타스만의 태즈메이니아·뉴질랜드 도달">
+<defs>
+  <clipPath id="frame-tasman-voyage-1642"><rect x="10" y="10" width="620" height="340" rx="6"/></clipPath>
+  <pattern id="waves-tasman-voyage-1642" width="22" height="9" patternUnits="userSpaceOnUse">
+    <path d="M0 5 C4 2 7 2 11 5 C15 8 18 8 22 5" fill="none" stroke="#6f8f8f" stroke-width="0.7" stroke-opacity="0.55"/>
+  </pattern>
+  <pattern id="hatch-tasman-voyage-1642" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+    <path d="M0 0 L0 6" stroke="#3b2412" stroke-width="0.9" stroke-opacity="0.45"/>
+  </pattern>
+  <filter id="paper-tasman-voyage-1642" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="106" result="noise"/>
+    <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.33  0 0 0 0 0.18  0 0 0 0.22 0"/>
+  </filter>
+  <radialGradient id="vignette-tasman-voyage-1642" cx="50%" cy="48%" r="70%">
+    <stop offset="60%" stop-color="#3b2412" stop-opacity="0"/><stop offset="100%" stop-color="#3b2412" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="glow-tasman-voyage-1642"><feGaussianBlur stdDeviation="3"/></filter>
+  <path id="land-tasman-voyage-1642" d="M213 296L213 300L218 297L217 298L219 298L216 302L221 299L216 304L218 305L227 307L230 304L232 304L234 305L236 309L242 308L244 312L245 310L245 312L243 313L245 315L245 313L249 315L249 313L253 314L254 316L256 317L268 313L267 312L270 311L278 299L286 297L285 295L282 297L285 295L283 293L287 287L288 282L293 274L292 265L295 259L312 249L313 246L317 247L313 249L319 248L322 250L322 247L323 250L324 249L324 244L318 244L320 243L319 242L319 235L321 232L328 228L332 218L335 216L344 201L341 194L345 189L339 190L343 188L342 187L344 187L345 184L343 186L343 183L340 183L340 186L339 187L339 186L338 188L342 188L336 190L339 185L336 186L336 184L340 182L337 182L334 184L334 186L333 185L325 191L323 179L320 180L317 176L319 173L323 173L316 173L316 175L315 175L308 181L307 193L304 199L297 201L293 217L287 226L277 232L276 235L274 235L268 242L263 244L252 252L250 252L245 253L236 264L238 269L235 267L232 269L233 270L231 270L232 273L231 271L230 271L231 276L228 272L225 275L228 277L225 276L227 278L225 279L224 277L223 278L225 280L222 279L223 282L226 282L227 283L223 284L225 287L224 285L222 286L223 285L220 283L219 284L221 286L218 286L217 290L223 288L222 290L218 290L218 292L220 291L218 293L222 293L213 296ZM214 293L216 292L216 294L218 293L217 291L215 291L214 293ZM220 282L223 283L221 280L220 282ZM231 331L233 331L234 329L232 330L235 328L237 329L243 326L243 324L238 324L239 322L242 321L237 317L235 317L236 322L231 331ZM317 45L325 55L326 58L324 60L327 62L327 63L328 62L327 64L329 66L332 61L334 62L330 68L341 85L343 84L338 76L338 74L341 80L344 82L345 81L343 79L344 79L345 81L346 79L347 80L345 82L348 81L344 83L348 84L347 90L343 86L348 98L353 96L355 99L352 101L353 101L352 103L351 99L349 99L352 105L354 104L352 107L354 114L356 113L353 116L353 118L355 118L353 120L356 121L354 122L352 121L350 136L347 139L337 143L336 147L339 152L345 153L349 158L356 160L359 164L360 168L359 177L354 186L350 190L352 192L355 189L354 193L360 193L360 198L362 198L373 189L388 165L392 155L389 154L388 149L391 144L397 141L403 142L405 142L405 146L407 143L405 142L406 134L408 134L412 130L413 119L416 112L412 109L407 109L403 112L399 117L392 119L377 110L377 113L373 111L372 108L376 111L373 107L371 94L368 95L371 91L367 92L365 87L362 87L365 90L366 93L364 95L367 103L366 101L363 102L361 96L358 97L357 95L356 96L355 94L355 96L354 94L351 95L350 93L353 94L352 90L354 89L352 89L352 85L353 87L352 84L354 84L348 76L348 73L346 73L346 71L350 73L348 69L349 68L345 63L347 63L346 60L342 61L344 62L342 63L340 60L342 59L338 56L336 58L336 56L333 54L333 56L331 55L330 52L327 56L328 54L325 52L326 52L323 47L323 49L321 46L322 45L323 46L324 43L318 44L317 45ZM336 182L338 181L339 177L338 180L337 179L336 182ZM343 189L346 188L346 186L343 189ZM357 93L360 94L360 92L357 93ZM362 81L366 84L363 78L362 81Z"/>
+  <clipPath id="landclip-tasman-voyage-1642"><use href="#land-tasman-voyage-1642"/></clipPath>
+  
+</defs>
+<rect width="640" height="360" rx="10" fill="#2a1a0c"/>
+<g clip-path="url(#frame-tasman-voyage-1642)">
+  <rect width="640" height="360" fill="#b9ccc6"/>
+  <rect width="640" height="360" fill="url(#waves-tasman-voyage-1642)"/>
+  <use href="#land-tasman-voyage-1642" fill="none" stroke="#7e9c98" stroke-width="7" stroke-opacity="0.35" stroke-linejoin="round"/>
+  <use href="#land-tasman-voyage-1642" fill="none" stroke="#7e9c98" stroke-width="3.5" stroke-opacity="0.5" stroke-linejoin="round"/>
+  <use href="#land-tasman-voyage-1642" fill="#efe2c2" stroke="none"/>
+  <g clip-path="url(#landclip-tasman-voyage-1642)"></g>
+  <use href="#land-tasman-voyage-1642" fill="none" stroke="#3b2412" stroke-width="1.1" stroke-linejoin="round"/>
+  
+  <g transform="translate(320.0 176.6)">
+    <path d="M0 -24 L0 -34" transform="rotate(0)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(45)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(90)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(135)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(180)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(225)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(270)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/><path d="M0 -24 L0 -34" transform="rotate(315)" stroke="#8f2a17" stroke-width="2.4" stroke-linecap="round"/>
+    <circle r="20" fill="#8f2a17" fill-opacity="0.35" filter="url(#glow-tasman-voyage-1642)"/>
+    <circle r="17" fill="#efe2c2" stroke="#3b2412" stroke-width="2.2"/>
+    <g transform="translate(-13 -13) scale(0.26)"><path d="M10 64 L90 64 L78 82 L22 82 Z" fill="#8a5a2b" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 64 L50 10" stroke="#3b2412" stroke-width="3"/>
+    <path d="M52 14 C70 20 74 40 72 58 L52 58 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M48 20 C32 26 28 42 30 58 L48 58 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M50 10 L62 6 L50 3" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M6 90 C16 84 24 96 34 90 C44 84 52 96 62 90 C72 84 80 96 94 90" fill="none" stroke="#3f6e9a" stroke-width="3"/></g>
+  </g>
+  <rect width="640" height="360" filter="url(#paper-tasman-voyage-1642)"/>
+  <rect width="640" height="360" fill="url(#vignette-tasman-voyage-1642)"/>
+  <g transform="translate(582 52)" stroke="#3b2412" stroke-width="1.2">
+    <circle r="26" fill="#efe2c2" fill-opacity="0.8"/>
+    <path d="M0 -30 L6 0 L0 30 L-6 0 Z" fill="#8f2a17"/><path d="M-30 0 L0 6 L30 0 L0 -6 Z" fill="#e9dcb8"/>
+    <path d="M0 -30 L6 0 L0 0 Z" fill="#3b2412"/><text y="-33" class="compass">N</text>
+  </g>
+  <g transform="translate(66 64)">
+    <circle r="50" fill="#efe2c2" stroke="#3b2412" stroke-width="2.4"/>
+    <circle r="44" fill="none" stroke="#3b2412" stroke-width="1" stroke-dasharray="2 3"/>
+    <g transform="translate(-34 -38) scale(0.68)"><path d="M10 64 L90 64 L78 82 L22 82 Z" fill="#8a5a2b" stroke="#3b2412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M50 64 L50 10" stroke="#3b2412" stroke-width="3"/>
+    <path d="M52 14 C70 20 74 40 72 58 L52 58 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M48 20 C32 26 28 42 30 58 L48 58 Z" fill="#f3e6c4" stroke="#3b2412" stroke-width="2.5"/>
+    <path d="M50 10 L62 6 L50 3" fill="#8f2a17" stroke="#3b2412" stroke-width="1.6"/>
+    <path d="M6 90 C16 84 24 96 34 90 C44 84 52 96 62 90 C72 84 80 96 94 90" fill="none" stroke="#3f6e9a" stroke-width="3"/></g>
+    <path d="M-42 44 L42 44 L36 58 L42 72 L-42 72 L-36 58 Z" fill="#8f2a17" stroke="#3b2412" stroke-width="2"/>
+    <text y="63" class="kind">탐험·항해</text>
+  </g>
+  <g transform="translate(320 316)">
+    <path d="M-262 -26 L262 -26 C272 -26 276 -18 270 -12 L276 0 L270 12 C276 18 272 26 262 26 L-262 26 C-272 26 -276 18 -270 12 L-276 0 L-270 -12 C-276 -18 -272 -26 -262 -26 Z" fill="#f4e8c8" stroke="#3b2412" stroke-width="2.2"/>
+    <path d="M-252 -19 L252 -19 M-252 19 L252 19" stroke="#3b2412" stroke-width="0.8" stroke-dasharray="1 3"/>
+    <text y="2" class="title" style="font-size:19px">타스만의 태즈메이니아·뉴질랜드 도달</text>
+  </g>
+  <text x="320" y="284" class="year">서기 1642년</text>
+</g>
+<rect x="10" y="10" width="620" height="340" rx="6" fill="none" stroke="#c9a45c" stroke-width="2"/>
+<rect x="15" y="15" width="610" height="330" rx="4" fill="none" stroke="#c9a45c" stroke-width="0.8"/>
+<style>
+  text { font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'AppleMyungjo', 'Batang', serif; text-anchor: middle; }
+  .lbl { font-size: 11px; font-style: italic; fill: #3b2412; fill-opacity: 0.8; paint-order: stroke; stroke: #efe2c2; stroke-width: 3px; }
+  .lbl.hl { font-size: 15px; font-weight: 700; font-style: normal; fill: #8f2a17; fill-opacity: 1; letter-spacing: 1px; }
+  .title { font-weight: 800; fill: #3b2412; dominant-baseline: middle; }
+  .year { font-size: 13px; font-weight: 700; fill: #f4e8c8; paint-order: stroke; stroke: #3b2412; stroke-width: 4px; letter-spacing: 2px; }
+  .kind { font-size: 13px; font-weight: 800; fill: #f4e8c8; }
+  .compass { font-size: 11px; font-weight: 700; fill: #3b2412; stroke: none; }
+</style>
+</svg>
